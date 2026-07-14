@@ -7,7 +7,12 @@ const CATEGORIES = [
   { id: "models", label: "Models & APIs", dot: "var(--accent-models)" },
   { id: "apps", label: "Language Apps", dot: "var(--accent-apps)" },
   { id: "inspiration", label: "Build Inspiration", dot: "var(--accent-inspiration)" },
+  { id: "general", label: "General AI", dot: "var(--accent-general)" },
 ];
+
+// Priority buckets (French learning/tests + voice/LLM/video models + tutor
+// inspiration) render first; `general` AI-tech filler is always pinned last.
+const GENERAL = "general";
 
 const state = {
   items: [],        // flattened, each carries .date
@@ -32,13 +37,19 @@ function ymd(d) {
   const p = (n) => String(n).padStart(2, "0");
   return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
-function fmtDateLabel(key) {
+// Explicit calendar date, always shown at the top of each day's section.
+function fmtFullDate(key) {
   if (!isDateKey(key)) return key;
+  return new Date(key + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+}
+// Relative pill ("Today"/"Yesterday") shown next to the explicit date, if applicable.
+function relLabel(key) {
+  if (!isDateKey(key)) return "";
   const today = ymd(new Date());
   const yest = ymd(new Date(Date.now() - 86400000));
   if (key === today) return "Today";
   if (key === yest) return "Yesterday";
-  return new Date(key + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  return "";
 }
 function sortKeyDesc(a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; }
 
@@ -127,12 +138,12 @@ function youtubeEmbed(url) {
 }
 
 function cardHTML(it, opts = {}) {
-  const cat = ["models", "apps", "inspiration"].includes(it.category) ? it.category : "models";
-  const catLabel = { models: "Models & APIs", apps: "Language App", inspiration: "Inspiration" }[cat];
+  const cat = ["models", "apps", "inspiration", "general"].includes(it.category) ? it.category : "models";
+  const catLabel = { models: "Models & APIs", apps: "Language App", inspiration: "Inspiration", general: "General AI" }[cat];
   const thumb = it.image
     ? `<div class="card-thumb"><img src="${esc(it.image)}" alt="" loading="lazy" onerror="this.parentNode.remove()"></div>`
     : "";
-  const dateBadge = opts.showDate ? `<span class="result-date-badge">${esc(fmtDateLabel(it.date))}</span>` : "";
+  const dateBadge = opts.showDate ? `<span class="result-date-badge">${esc(fmtFullDate(it.date))}</span>` : "";
   const tags = (it.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
   const why = it.whyItMatters
     ? `<div class="why"><b>Why it matters</b><span>${esc(it.whyItMatters)}</span></div>` : "";
@@ -188,10 +199,17 @@ function render() {
   }
   const keys = [...groups.keys()].sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
   el.feed.innerHTML = keys.map((k) => {
+    // Stable partition: priority items keep their authored order, general AI last.
     const items = groups.get(k);
+    const ordered = [...items.filter((it) => it.category !== GENERAL), ...items.filter((it) => it.category === GENERAL)];
+    const rel = relLabel(k);
     return `<section class="date-group">
-      <div class="date-head"><h2>${esc(fmtDateLabel(k))}</h2><span class="count">${items.length} item${items.length === 1 ? "" : "s"}</span></div>
-      ${items.map((it) => cardHTML(it)).join("")}
+      <div class="date-head">
+        <h2>${esc(fmtFullDate(k))}</h2>
+        ${rel ? `<span class="date-rel">${rel}</span>` : ""}
+        <span class="count">${ordered.length} item${ordered.length === 1 ? "" : "s"}</span>
+      </div>
+      ${ordered.map((it) => cardHTML(it)).join("")}
     </section>`;
   }).join("");
 }

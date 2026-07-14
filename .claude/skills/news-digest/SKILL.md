@@ -16,29 +16,31 @@ Work from the root of this project (the `french-news-radar` repo). Produce real,
 
 ## Step 2 — Research (real web data, not memory)
 
-Use `WebSearch` and `WebFetch`. Cast across these buckets; aim for **recency** (past ~1–2 weeks, weighted to newest):
+**Recency window: the past ~24 hours only.** This skill runs daily, so only include news that broke or was updated **since roughly yesterday** (use search terms/filters for the last day and check publication dates while fetching). Do not resurface older releases unless there is a genuinely *new* past-day development on them (e.g. a fresh price cut) — and say what changed.
 
-**Models & APIs (`models`)** — LLM, voice, and video:
-- Primary sources: OpenAI, Anthropic, Google DeepMind / Gemini, DeepSeek, Meta AI, Mistral, xAI blogs & release notes.
-- Voice/audio: ElevenLabs, Cartesia, Deepgram, OpenAI Realtime/TTS/STT, Kyutai — new models, latency, languages (esp. French), pricing.
-- Video/avatar (the "in-between" products): Tavus, HeyGen, Synthesia, D-ID, Hedra — lip-sync/real-time avatar tech.
-- Aggregators to catch what you missed: Hacker News, TechCrunch AI, VentureBeat, The Rundown / TLDR AI.
+Use `WebSearch` and `WebFetch`. Research in two tiers:
 
-**Language apps (`apps`)** — Duolingo, Babbel, Busuu, Speak, ELSA, Memrise, Pimsleur, Rosetta Stone, plus new entrants. Look for **feature launches** (AI conversation, video call, avatars, pronunciation scoring) and notable funding/product news.
+### Tier 1 — PRIORITY (always search these first; these lead the digest)
 
-**Build inspiration (`inspiration`)** — techniques, open-source tools, or products adjacent to a voice tutor: real-time translation, streaming ASR tricks, pronunciation assessment, RAG-for-tutoring, latency engineering.
+1. **French learning & French tests (`apps`)** — Duolingo, Babbel, Busuu, Speak, ELSA, Memrise, Pimsleur, Rosetta Stone + new entrants; **feature launches** (AI conversation, video call, avatars, pronunciation scoring); and anything about **French exams/certifications** (DELF, DALF, TCF, TEF) or French-learning content/tools.
+2. **Voice / LLM / video model releases (`models`)** — LLM: OpenAI, Anthropic, Google/Gemini, DeepSeek, Meta, Mistral, xAI. Voice/audio: ElevenLabs, Cartesia, Deepgram, OpenAI Realtime/TTS/STT, Kyutai — new models, latency, French support, pricing. Video/avatar ("in-between" products): Tavus, HeyGen, Synthesia, D-ID, Hedra — lip-sync/real-time avatars.
+3. **Build inspiration (`inspiration`)** — techniques / open-source / products adjacent to a voice tutor: real-time translation, streaming ASR, pronunciation assessment, RAG-for-tutoring, latency engineering.
 
-Bias hard toward items that plausibly touch a **French voice tutor**. Skip generic AI hype with no angle for this project.
+### Tier 2 — FALLBACK (`general`), only to backfill
 
-## Step 3 — Curate 5–10 items
+If Tier 1 yields **fewer than ~5 solid past-day items**, top up with the most notable **general AI / tech news** from the past day (major launches, research, funding, industry moves) via aggregators — Hacker News, TechCrunch AI, VentureBeat, The Rundown / TLDR AI. Mark these `general`. Never let a `general` item displace a real Tier-1 item; they are filler, and they always sort **below** the priority items in the day.
 
-For each selected item, before writing it, **`WebFetch` the canonical URL to confirm it is real and current** — never invent or guess a link. Then produce:
+Bias hard toward Tier 1. It is fine to publish a short digest (even 3–4 items) if that's all that genuinely happened in the past day — do **not** pad Tier 1 with stale items; that's what `general` is for.
+
+## Step 3 — Curate items (aim ~5–8; fewer is fine)
+
+For each selected item, before writing it, **`WebFetch` the canonical URL to confirm it is real, current, and from the past ~day** — never invent or guess a link. Then produce:
 
 - `id` — short kebab-case slug, unique within the day.
-- `category` — one of `models` | `apps` | `inspiration`.
+- `category` — one of `models` | `apps` | `inspiration` | `general` (`general` = Tier-2 fallback only).
 - `title` — concise, specific (include the product/version).
 - `summary` — 1–3 plain-English sentences. No marketing voice.
-- `whyItMatters` — one sentence tying it to the Romain/Anna French tutor (quality, cost, latency, French support, or a feature idea). This field is the whole point — always fill it.
+- `whyItMatters` — one sentence tying it to the Romain/Anna French tutor (quality, cost, latency, French support, or a feature idea). This field is the whole point — always fill it. For a `general` item, give the one-line "why it's worth knowing" even if the tutor link is indirect.
 - `url` — the canonical source you verified.
 - `source` — publisher name (e.g. "OpenAI blog", "TechCrunch").
 - `image` — an OG/preview image URL **only if** you actually saw one while fetching (check the page's `og:image`); otherwise omit. Do not fabricate image URLs.
@@ -49,9 +51,9 @@ Quality bar: real verified links only · no duplicates vs recent digests · alwa
 
 ## Step 4 — Write the files
 
-Write `news/<DATE>.json`:
+Write `news/<DATE>.json`. **Order the `items` array priority-first**: Tier-1 items (French learning/tests, voice/LLM/video models, inspiration) at the top, any Tier-2 `general` items last. The UI renders items in this order (and also pins `general` to the bottom as a safety net), so the priority news sits on top of the day's section.
 ```json
-{ "date": "<DATE>", "items": [ /* the curated items, models/apps/inspiration mixed */ ] }
+{ "date": "<DATE>", "items": [ /* Tier-1 priority items first, `general` filler last */ ] }
 ```
 
 Update `news/index.json`. If it doesn't exist, create `{ "generatedAt": "...", "digests": [] }`. Then:
