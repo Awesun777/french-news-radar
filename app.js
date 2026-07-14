@@ -17,6 +17,8 @@ const GENERAL = "general";
 const state = {
   items: [],        // flattened, each carries .date
   activeCat: "all",
+  activeDate: "all", // "all" or a YYYY-MM-DD key from the date navigator
+  dates: [],         // available date keys, newest-first
   query: "",
   meta: null,
 };
@@ -26,6 +28,9 @@ const el = {
   feed: document.getElementById("feed"),
   chips: document.getElementById("chips"),
   search: document.getElementById("search"),
+  dateNav: document.getElementById("date-nav"),
+  datePrev: document.getElementById("date-prev"),
+  dateNext: document.getElementById("date-next"),
   footerMeta: document.getElementById("footer-meta"),
 };
 
@@ -93,8 +98,10 @@ async function load() {
   el.status.hidden = true;
   el.feed.hidden = false;
   renderChips();
+  buildDateNav();
   renderFooter();
   render();
+  syncHeadHeight();
 }
 
 // ---------- rendering ----------
@@ -111,6 +118,41 @@ function renderChips() {
   }
 }
 
+// Date navigator: a dropdown of every available day (newest-first) + prev/next arrows.
+function buildDateNav() {
+  const dates = [...new Set(state.items.map((i) => i.date))].filter(isDateKey).sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
+  state.dates = dates;
+  if (state.activeDate !== "all" && !dates.includes(state.activeDate)) state.activeDate = "all";
+  const opts = [`<option value="all">All dates (${dates.length})</option>`].concat(
+    dates.map((d) => {
+      const rel = relLabel(d);
+      return `<option value="${d}">${esc(fmtFullDate(d))}${rel ? ` · ${rel}` : ""}</option>`;
+    })
+  );
+  el.dateNav.innerHTML = opts.join("");
+  el.dateNav.value = state.activeDate;
+  const only = dates.length <= 1;
+  el.datePrev.disabled = only;
+  el.dateNext.disabled = only;
+}
+
+// Step the navigator through the (newest-first) date list. dir +1 = older, -1 = newer.
+function stepDate(dir) {
+  if (!state.dates.length) return;
+  let idx = state.dates.indexOf(state.activeDate);
+  if (idx === -1) idx = 0; // coming from "All dates" → jump to the newest day
+  else idx = Math.min(state.dates.length - 1, Math.max(0, idx + dir));
+  state.activeDate = state.dates[idx];
+  el.dateNav.value = state.activeDate;
+  render();
+}
+
+// Keep the sticky per-day date header aligned just below the (variable-height) site header.
+function syncHeadHeight() {
+  const h = document.querySelector(".site-header")?.offsetHeight || 150;
+  document.documentElement.style.setProperty("--head-h", `${h}px`);
+}
+
 function renderFooter() {
   const n = state.items.length;
   const days = state.meta?.digests?.length ?? 0;
@@ -120,6 +162,7 @@ function renderFooter() {
 
 function matches(it) {
   if (state.activeCat !== "all" && it.category !== state.activeCat) return false;
+  if (state.activeDate !== "all" && it.date !== state.activeDate) return false;
   const q = state.query.trim().toLowerCase();
   if (!q) return true;
   const hay = [it.title, it.summary, it.whyItMatters, it.source, ...(it.tags || [])].join(" ").toLowerCase();
@@ -225,5 +268,10 @@ el.search.addEventListener("input", (e) => {
   const v = e.target.value;
   searchTimer = setTimeout(() => { state.query = v; render(); }, 90);
 });
+
+el.dateNav.addEventListener("change", (e) => { state.activeDate = e.target.value; render(); });
+el.datePrev.addEventListener("click", () => stepDate(1));   // older
+el.dateNext.addEventListener("click", () => stepDate(-1));  // newer
+window.addEventListener("resize", syncHeadHeight);
 
 load();
