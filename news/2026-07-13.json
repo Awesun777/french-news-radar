@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-13",
+  "items": [
+    {
+      "id": "gpt-realtime-2-1-mini",
+      "category": "models",
+      "title": "OpenAI ships gpt-realtime-2.1 and 2.1-mini: 25% lower latency, reasoning while talking",
+      "summary": "OpenAI released two new Realtime voice models (July 6–7, 2026). Both cut p95 latency ~25% via better caching. The headline is gpt-realtime-2.1-mini: a distilled reasoning model that keeps talking while it runs a tool call — no dead silence — at the same price as the old mini ($10 audio-in / $20 audio-out per 1M vs $32 / $64 for the full model).",
+      "whyItMatters": "Romain runs on OpenAI Realtime — dropping to 2.1-mini could roughly halve Romain's voice cost while removing the awkward pause when he calls save_vocab or web_search mid-conversation.",
+      "url": "https://community.openai.com/t/new-realtime-voice-models-in-the-api/1380471",
+      "source": "OpenAI Developer Community",
+      "tags": ["voice", "realtime", "latency", "pricing"]
+    },
+    {
+      "id": "deepseek-v4-permanent-price-cut",
+      "category": "models",
+      "title": "DeepSeek V4 official launch — 75% price cut is now permanent (Flash at $0.14/$0.28)",
+      "summary": "DeepSeek's V4 family moves from April preview to an official mid-July 2026 release. The steep launch discount is now the permanent list price: V4 Pro at $0.435 in / $0.87 out and V4 Flash at $0.14 / $0.28 per 1M tokens, both with a 1M-token context and MIT license. Note the new 2× peak-hour pricing during Beijing business windows, and that legacy deepseek-chat/reasoner aliases stop working July 24.",
+      "whyItMatters": "The tutor already lists DeepSeek as an invokeLLM fallback — V4 Flash is cheap enough to make it the primary for dictionary lookups and grammar generation, cutting per-request LLM cost dramatically.",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro",
+      "source": "OpenRouter",
+      "tags": ["llm", "pricing", "cost", "fallback"]
+    },
+    {
+      "id": "cartesia-sonic-3-5",
+      "category": "models",
+      "title": "Cartesia launches Sonic-3.5: sub-90ms TTS, 42 languages including French",
+      "summary": "Cartesia introduced Sonic-3.5 (with Ink-2 STT), pitched as one provider for your whole voice stack — ranked #1 for naturalness with ~90ms model latency and native support for 42 languages. It's built on State Space Models rather than transformers, giving strong latency for real-time voice agents.",
+      "whyItMatters": "A concrete lower-latency, lower-cost TTS alternative to ElevenLabs for Anna — worth A/B testing French voice quality against Flash v2.5, especially given Anna's WebSocket streaming setup.",
+      "url": "https://www.cartesia.ai/launch",
+      "source": "Cartesia",
+      "tags": ["voice", "tts", "latency", "french"]
+    },
+    {
+      "id": "gemini-2-5-native-audio",
+      "category": "models",
+      "title": "Gemini 2.5 Flash Native Audio upgrade beats gpt-realtime on function-calling",
+      "summary": "Google's updated Gemini 2.5 Flash Native Audio model improves conversational sound, raises developer-instruction adherence to 90% (from 84%), and scores 71.5% on the ComplexFuncBench Audio benchmark — ahead of OpenAI's gpt-realtime. Google also shipped streaming speech-to-speech translation across 70+ languages, with newer gemini-3.x-flash-live audio models now in preview.",
+      "whyItMatters": "A third viable real-time voice backend to benchmark for a French tutor — strong function-calling matters because both Romain and Anna rely on tool calls (save_vocab), and the live-translation model hints at a 'translate on demand' feature.",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-audio-model-updates/",
+      "source": "Google Blog",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio-flash__keyword_heade.width-200.format-webp.webp",
+      "tags": ["voice", "realtime", "translation", "function-calling"]
+    },
+    {
+      "id": "tavus-cvi-phoenix-4",
+      "category": "inspiration",
+      "title": "Tavus CVI: one API for a real-time talking video avatar (~600ms, Phoenix-4)",
+      "summary": "Tavus's Conversational Video Interface replaces a 5–6 vendor stack (WebRTC + STT + LLM + TTS + lip-sync + orchestration) with a single API for face-to-face AI video. Its Phoenix-4 model renders every frame live at 40fps with 10+ emotional states, at ~600ms end-to-end latency over 30+ languages, with React/iframe/LiveKit integration.",
+      "whyItMatters": "This is the productized path to give Romain (and Anna) a genuinely animated, reactive video avatar instead of the current looping clip — directly on-theme with the split-screen tutor UI you just shipped.",
+      "url": "https://www.tavus.io/cvi",
+      "source": "Tavus",
+      "tags": ["video", "avatar", "realtime", "inspiration"]
+    },
+    {
+      "id": "duolingo-video-call-free",
+      "category": "apps",
+      "title": "Duolingo makes AI Video Call with Lily free for everyone (French supported)",
+      "summary": "As of January 2026 Duolingo's Video Call — live spoken conversation with the AI character Lily, with on-the-fly grammar correction, memory of past calls, expressive animations, transcripts, and even 'Lily calls you' nudges — is free to all users and available for French learners. Their engineering blog details how they constrain the model with targeted instructions and a predictable call structure.",
+      "whyItMatters": "This is the closest competitor to your voice tutor, now free — the memory system, post-call transcripts, and structured-prompt approach are all directly worth copying for Romain/Anna.",
+      "url": "https://blog.duolingo.com/ai-and-video-call/",
+      "source": "Duolingo Blog",
+      "video": "https://www.youtube.com/watch?v=MMFST3TFsF4",
+      "tags": ["competitor", "voice", "feature", "memory"]
+    },
+    {
+      "id": "speak-1b-valuation-french",
+      "category": "apps",
+      "title": "Speak (OpenAI-backed, $1B) doubles down on 'speak out loud from day one', adds French",
+      "summary": "Speak, the AI speaking-first tutor backed by the OpenAI Startup Fund, is valued at $1B and expanding into Europe with new languages including French. Its philosophy — get you talking from lesson one via AI speaking drills and an open 'Speak Tutor' conversation mode rather than tapping flashcards — earned it a spot in Wirecutter's 2026 best-apps list; users have now spoken 1B+ sentences.",
+      "whyItMatters": "A validated blueprint for the speaking-first thesis behind your voice chat — their mix of short scripted drills plus open conversation is a useful model for structuring Romain/Anna sessions beyond free chat.",
+      "url": "https://www.speak.com/blog/series-c",
+      "source": "Speak",
+      "tags": ["competitor", "speaking", "product"]
+    }
+  ]
+}
