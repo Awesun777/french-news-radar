@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-14T00:03:29Z",
+  "generatedAt": "2026-07-14T18:14:10Z",
   "digests": [
+    {
+      "date": "2026-07-14",
+      "title": "Gemini 3.5 Pro GA leak, Claude for Teachers debuts",
+      "itemCount": 2,
+      "categories": ["models", "inspiration"],
+      "highlights": [
+        "Gemini 3.5 Pro reportedly targeting July 17 GA after a full model rebuild",
+        "Anthropic launches Claude for Teachers: free premium access plus curriculum-grounded teaching skills"
+      ]
+    },
     {
       "date": "2026-07-13",
       "title": "GPT-Realtime 2.1, DeepSeek V4 price cut, Duolingo goes free",

@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "id": "gemini-3-5-pro-ga-leak",
+      "category": "models",
+      "title": "Gemini 3.5 Pro reportedly targeting July 17 GA after a full model rebuild",
+      "summary": "Multiple reports circulating July 13 (not yet confirmed by an official Google model card or blog post) say Gemini 3.5 Pro is now aiming for general availability on July 17, after DeepMind scrapped its original base model over recursive tool-calling and SVG-generation failures. Leaked specs point to a 2M-token context window (double 2.5 Pro's 1M) plus a new 'Deep Think' reasoning layer, with pricing rumored around $15/$60 per 1M tokens.",
+      "whyItMatters": "If the leak holds, a 2M-context frontier model with a dedicated reasoning layer is a serious new candidate for the agents' tool-calling and dictionary/grammar-generation backend — worth a pricing and latency bake-off against DeepSeek V4 once it actually ships.",
+      "url": "https://www.techtimes.com/articles/320308/20260713/gemini-35-pro-targets-july-17-after-full-rebuild-every-spec-remains-unconfirmed.htm",
+      "source": "Tech Times",
+      "tags": ["llm", "leak", "reasoning", "pricing"]
+    },
+    {
+      "id": "claude-for-teachers",
+      "category": "inspiration",
+      "title": "Anthropic launches Claude for Teachers: free premium access plus curriculum-grounded teaching skills",
+      "summary": "Anthropic announced Claude for Teachers on July 14, giving verified US K-12 educators a free year of premium Claude (including Cowork and Code) plus a 'Learning Commons' connector and a library of teaching skills co-developed with learning scientists and mapped to academic standards in all 50 states.",
+      "whyItMatters": "The pattern here — a connector to structured curriculum data plus a library of narrow, standards-grounded skills instead of one giant system prompt — is a direct blueprint for how Romain/Anna could organize lesson skills instead of stuffing everything into a single prompt.",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "source": "Anthropic",
+      "tags": ["education", "product", "prompting", "rag"]
+    }
+  ]
+}
