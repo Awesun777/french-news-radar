@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-15",
+  "items": [
+    {
+      "id": "open-weight-models-overtake-frontier",
+      "category": "general",
+      "title": "Open-weight models now dominate real-world AI usage, Hugging Face data shows",
+      "summary": "TechCrunch reports Chinese open-weight models made up 41% of Hugging Face downloads this spring, surpassing US models, and on OpenRouter the six most-used models are all open-weight (Anthropic's Claude trails at #7). Nearly a third of requests on Vercel's platform in June 2026 ran on open-weight models, and half of Fortune 500 companies now deploy private or open-source models via Hugging Face.",
+      "whyItMatters": "Reinforces that cheap open-weight models (in the vein of the DeepSeek fallback already wired into the tutor) are increasingly the default for non-frontier tasks like dictionary lookups and grammar generation — worth periodically re-checking which open model is cheapest/best for those calls rather than defaulting to a closed frontier model.",
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "source": "TechCrunch",
+      "tags": ["llm", "cost", "open-source", "trend"]
+    },
+    {
+      "id": "vint-cerf-ai-agent-identity-dnsid",
+      "category": "general",
+      "title": "Vint Cerf backs DNSid, a DNS-based identity standard for autonomous AI agents",
+      "summary": "Internet pioneer Vint Cerf has joined Innovation Labs (a subsidiary of Identity Digital) to help design DNSid, a proposed open standard that gives AI agents cryptographically verifiable identities tied to existing domain names, aiming to establish accountability as agents act more autonomously across the internet.",
+      "whyItMatters": "As tutor agents like Romain and Anna take on more autonomous tool/API calls, an emerging standard for how agents identify and authenticate themselves to other services is worth tracking, even if adoption is still early.",
+      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+      "source": "TechCrunch",
+      "tags": ["agents", "standards", "identity", "infrastructure"]
+    }
+  ]
+}
