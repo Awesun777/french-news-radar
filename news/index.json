@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-15T18:19:03Z",
+  "generatedAt": "2026-07-17T06:13:50Z",
   "digests": [
+    {
+      "date": "2026-07-17",
+      "title": "Inkling's audio-native debut, Kimi K3, DeepSeek's war chest",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Thinking Machines Lab releases Inkling: an open-weights, audio-native 975B MoE model built for voice-and-vision agents",
+        "Moonshot AI ships Kimi K3, a 2.8T-parameter open model rivaling frontier systems",
+        "DeepSeek seeks $7.4B at a $74B valuation ahead of a possible Shanghai IPO"
+      ]
+    },
     {
       "date": "2026-07-15",
       "title": "Quiet day: open models overtake frontier, AI agent identity standards",

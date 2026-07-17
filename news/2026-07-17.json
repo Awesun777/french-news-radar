@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "id": "inkling-thinking-machines-audio-model",
+      "category": "models",
+      "title": "Thinking Machines Lab releases Inkling, an open-weights model built for voice-and-vision agents",
+      "summary": "Mira Murati's Thinking Machines Lab shipped Inkling on July 15-16: a 975B-parameter Mixture-of-Experts model (41B active) pretrained on 45 trillion tokens of text, image, audio, and video. It natively ingests 16kHz WAV audio alongside text and images, debuts at #41 on the Artificial Analysis Intelligence Index, and is positioned as the leading US open-weights release. Weights are on Hugging Face (1M context) and it's fine-tunable via their Tinker API (256K context); a smaller Inkling-Small preview (12B active) is also available.",
+      "whyItMatters": "This is one of the first frontier-scale open-weights models that reasons natively over raw audio instead of a text transcript — worth evaluating as a self-hosted backend for tasks like classifying pronunciation issues or routing tool calls directly from Romain/Anna's audio stream, rather than paying for a closed model's speech-to-text hop first.",
+      "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+      "source": "Thinking Machines Lab",
+      "tags": ["llm", "open-source", "audio", "multimodal"]
+    },
+    {
+      "id": "kimi-k3-moonshot-2-8t-open-model",
+      "category": "general",
+      "title": "Moonshot AI ships Kimi K3, a 2.8-trillion-parameter open model rivaling frontier systems",
+      "summary": "Moonshot AI released Kimi K3 on July 16: a sparse MoE model (2.8T total params, 16 of 896 experts active) built on new Kimi Delta Attention and Attention Residuals architecture, with a 1M-token context window. On benchmarks like GDPval-AA v2 and AA-Briefcase it lands just behind Claude Fable 5 Max and GPT-5.6 Sol Max, and it topped several real-world agentic and coding benchmarks outright. API pricing is $3/$0.30/$15 per million tokens (input/cached/output); full open weights follow by July 27.",
+      "whyItMatters": "Another frontier-class open-weight model just went live at aggressive pricing, reinforcing that the gap between closed and open models keeps shrinking — worth a periodic bake-off against DeepSeek for the tutor's cheap fallback LLM calls (dictionary lookups, grammar generation).",
+      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+      "source": "MarkTechPost",
+      "tags": ["llm", "open-source", "pricing", "benchmark"]
+    },
+    {
+      "id": "deepseek-7-4b-funding-round-ipo",
+      "category": "general",
+      "title": "DeepSeek seeks $7.4B at a $74B valuation ahead of a possible Shanghai IPO",
+      "summary": "DeepSeek is reportedly raising roughly 50 billion yuan ($7.4B) at a 500 billion yuan (~$74B) valuation, up sharply from its ~$63B post-money valuation just a month earlier. Backers reportedly include Tencent, CATL, China's national AI fund, NetEase, and JD.com, and the company has held early talks about listing on Shanghai's STAR Market, reportedly targeting an IPO filing before year-end.",
+      "whyItMatters": "DeepSeek already backs the tutor's cheap invokeLLM fallback — a war chest this size signals it plans to keep investing in frontier-scale training and aggressive pricing rather than raising prices, which is worth tracking for the fallback's cost and capability roadmap.",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-17/deepseek-champions-china-s-bid-to-flood-the-world-with-cheap-ai",
+      "source": "Bloomberg",
+      "tags": ["llm", "funding", "cost", "china"]
+    }
+  ]
+}
