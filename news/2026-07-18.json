@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-18",
+  "items": [
+    {
+      "id": "gemini-3-5-pro-delayed-again",
+      "category": "models",
+      "title": "Google reportedly delays Gemini 3.5 Pro again over coding shortfalls",
+      "summary": "Multiple outlets reported July 16 (citing Bloomberg) that Google has pushed Gemini 3.5 Pro's launch past its rumored July 17 target for a third time, after DeepMind found the retrained base model still fell short on coding and complex reasoning. Several senior Google researchers reportedly left for Anthropic amid the slip, and Alphabet shares dipped on the news.",
+      "whyItMatters": "This updates the July 17 GA rumor covered in an earlier digest: a 2M-context Gemini 3.5 Pro was a candidate to bake off against DeepSeek V4/Kimi K3 for the tutor's cheap dictionary/grammar-generation backend, but that comparison stays on hold until Google actually ships something.",
+      "url": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
+      "source": "9to5Google",
+      "tags": ["llm", "delay", "reasoning", "coding"]
+    },
+    {
+      "id": "fireworks-ai-series-d-1-5b",
+      "category": "general",
+      "title": "Fireworks AI raises $1.5B Series D at $17.5B valuation for specialized inference",
+      "summary": "Fireworks AI announced a $1.505B Series D on July 16, led by Atreides Management, Index Ventures, and TCV with Nvidia among the backers, valuing the inference-infrastructure company at $17.5B. Fireworks says it now serves over 40 trillion tokens per day and has crossed $1B in annualized revenue, with more than 95% of that traffic running on models fine-tuned and specialized for individual customers rather than general-purpose frontier models.",
+      "whyItMatters": "Fireworks' bet — that small, specialized fine-tuned models beat one giant general model in production — is the same wager behind the tutor's cheap DeepSeek fallback for grammar/dictionary calls; worth watching whether a serving platform like this becomes a faster or cheaper host for that traffic than calling providers directly.",
+      "url": "https://www.businesswire.com/news/home/20260716264405/en/Fireworks-Raises-a-$1.5-Billion-Series-D-to-Lead-the-Specialized-Intelligence-Revolution",
+      "source": "Business Wire (Fireworks AI)",
+      "tags": ["funding", "inference", "cost", "infrastructure"]
+    }
+  ]
+}

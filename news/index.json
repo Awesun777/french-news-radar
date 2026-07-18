@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-17T06:13:50Z",
+  "generatedAt": "2026-07-18T06:13:49Z",
   "digests": [
+    {
+      "date": "2026-07-18",
+      "title": "Gemini 3.5 Pro slips again, Fireworks AI's $1.5B round",
+      "itemCount": 2,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Google reportedly delays Gemini 3.5 Pro a third time over coding shortfalls",
+        "Fireworks AI raises $1.5B Series D at a $17.5B valuation for specialized inference"
+      ]
+    },
     {
       "date": "2026-07-17",
       "title": "Inkling's audio-native debut, Kimi K3, DeepSeek's war chest",
