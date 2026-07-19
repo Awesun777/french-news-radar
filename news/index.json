@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-18T06:13:49Z",
+  "generatedAt": "2026-07-19T06:12:29Z",
   "digests": [
+    {
+      "date": "2026-07-19",
+      "title": "Kimi K3's reasoning tiers, Microsoft's cost-routed security AI",
+      "itemCount": 2,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Kimi K3 documentation maps Standard/High/Max reasoning-effort tiers after launching max-only",
+        "Microsoft preps Project Perception, undercutting Anthropic's Mythos via per-task model routing"
+      ]
+    },
     {
       "date": "2026-07-18",
       "title": "Gemini 3.5 Pro slips again, Fireworks AI's $1.5B round",

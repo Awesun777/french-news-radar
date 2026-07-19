@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "id": "kimi-k3-reasoning-effort-tiers",
+      "category": "models",
+      "title": "Kimi K3 documentation reveals Standard/High/Max reasoning-effort tiers",
+      "summary": "Moonshot AI's Kimi K3 launched July 16 running only at maximum reasoning effort on every call. Updated documentation spotted July 18 maps out three effort tiers - Standard, High, and Max - with the lighter tiers rolling out to the web app, mobile apps, and API after shipping max-only at launch.",
+      "whyItMatters": "Effort-tiered reasoning (cheap/fast for simple grammar or dictionary lookups, max effort reserved for harder tutoring judgments) is exactly the kind of dial worth having on the tutor's DeepSeek/Kimi fallback calls - worth checking pricing on the lower tiers once they actually ship.",
+      "url": "https://www.techtimes.com/articles/320937/20260718/kimi-k3-adds-standard-high-reasoning-modes-documentation-maps-three-effort-tiers.htm",
+      "source": "Tech Times",
+      "tags": ["llm", "reasoning", "cost", "open-source"]
+    },
+    {
+      "id": "microsoft-project-perception-ai-security",
+      "category": "general",
+      "title": "Microsoft preps Project Perception, a multi-model AI security tool undercutting Anthropic's Mythos on cost",
+      "summary": "Microsoft is reportedly readying Project Perception, a vulnerability-scanning-and-patching tool that routes each security task to whichever of Microsoft's, OpenAI's, or Anthropic's models is cheapest and best-suited for it, with a launch targeted as soon as this month. Its central pitch is cost: Anthropic's comparable tool, Mythos, reportedly runs far more expensive per API call than Opus or GPT, and Microsoft says per-task model routing is how it undercuts that.",
+      "whyItMatters": "The same per-task, cheapest-capable-model routing behind Project Perception is the pattern the tutor already leans on - OpenAI Realtime for Romain, ElevenLabs for Anna, DeepSeek for cheap fallback calls - a real-world example of that architecture paying off at production scale.",
+      "url": "https://www.techrepublic.com/article/news-microsoft-project-perception-ai-security-tool/",
+      "source": "TechRepublic",
+      "tags": ["agents", "cost", "infrastructure", "routing"]
+    }
+  ]
+}
