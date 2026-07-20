@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-19T06:12:29Z",
+  "generatedAt": "2026-07-20T06:32:00Z",
   "digests": [
+    {
+      "date": "2026-07-20",
+      "title": "Qwen3.8-Max's frontier claim, Fable 5's access shuffle",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Alibaba previews Qwen3.8-Max, a 2.4T multimodal model claiming to trail only Fable 5",
+        "Anthropic reinstates Claude Fable 5 for Max/Team Premium at 50% weekly limits",
+        "Perplexity open-sources WANDR, exposing how badly research agents fail at scale"
+      ]
+    },
     {
       "date": "2026-07-19",
       "title": "Kimi K3's reasoning tiers, Microsoft's cost-routed security AI",

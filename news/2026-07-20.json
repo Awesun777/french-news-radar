@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-20",
+  "items": [
+    {
+      "id": "qwen3-8-max-preview-alibaba",
+      "category": "models",
+      "title": "Alibaba previews Qwen3.8-Max, a 2.4T multimodal model claiming to trail only Fable 5",
+      "summary": "Alibaba's Qwen team unveiled Qwen3.8-Max-Preview at the World AI Conference in Shanghai on July 19: a 2.4-trillion-parameter sparse Mixture-of-Experts model and the first Qwen release above 1T parameters to natively process images, video, and documents alongside text. Alibaba claims it trails only Anthropic's Claude Fable 5 among frontier models, though it published no benchmark scores and no independent evaluation has verified the claim; open weights are promised \"soon\" with no date set. The preview is live via Alibaba's Token Plan, Qoder, and QoderWork at 10% of standard pricing.",
+      "whyItMatters": "Another frontier-scale multimodal model just landed at steep early-access pricing — worth a bake-off for cheap document/image-understanding side tasks (like scanning a learner's handwritten French homework) even though Romain and Anna's core voice loop stays on OpenAI Realtime and ElevenLabs.",
+      "url": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+      "source": "South China Morning Post",
+      "tags": ["llm", "multimodal", "open-source", "pricing"]
+    },
+    {
+      "id": "anthropic-fable-5-access-restructure",
+      "category": "general",
+      "title": "Anthropic reinstates Claude Fable 5 for Max/Team Premium, credits-only for Pro/Team Standard",
+      "summary": "Starting July 20, Anthropic is putting Claude Fable 5 back into Max and Team Premium plans at 50% of weekly usage limits, after included access had only been extended through July 19. Pro and Team Standard subscribers keep Fable 5 access solely via usage credits and get a one-time $100 credit. It's the latest swing in an on-again, off-again access pattern Anthropic has run since Fable 5 launched, reportedly driven by compute constraints.",
+      "whyItMatters": "Anthropic's repeated usage-limit reshuffling on its top model is a live signal of how expensive frontier reasoning still is to serve — relevant if the tutor ever leans on Claude for harder tutoring judgments beyond the current OpenAI/ElevenLabs split.",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "source": "Anthropic",
+      "tags": ["anthropic", "pricing", "cost", "llm"]
+    },
+    {
+      "id": "perplexity-wandr-benchmark",
+      "category": "general",
+      "title": "Perplexity open-sources WANDR, a benchmark exposing how badly research agents fail at scale",
+      "summary": "Perplexity released WANDR (Wide ANd Deep Research) on July 19: an open benchmark and evaluation harness built around 500 realistic research tasks — competitive mapping, due diligence, literature review, market analysis — backed by more than 170,000 source-backed records. Perplexity's own Search-as-Code agent topped the leaderboard but still only reached a 0.363 soft-F1 score; Anthropic placed second at 0.249, and no evaluated system reliably completed large, evidence-backed research tasks.",
+      "whyItMatters": "WANDR's grading method — did the agent find every qualifying fact and cite a page that actually proves it — is a useful template for scoring the tutor's own grammar/dictionary RAG lookups on accuracy rather than just fluency.",
+      "url": "https://www.marktechpost.com/2026/07/19/perplexity-ai-releases-wandr-an-open-benchmark-evaluating-research-agents-that-must-search-wide-and-deep/",
+      "source": "MarkTechPost",
+      "tags": ["agents", "benchmark", "research", "rag"]
+    }
+  ]
+}
