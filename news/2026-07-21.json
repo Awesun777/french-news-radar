@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-21",
+  "items": [
+    {
+      "id": "qwen-audio-3-tts-alibaba",
+      "category": "models",
+      "title": "Alibaba's Qwen-Audio-3.0-TTS tops the TTS leaderboard, undercutting ElevenLabs on price",
+      "summary": "Alibaba's Tongyi Lab released Qwen-Audio-3.0-TTS on July 20 in Flash (real-time, ~300ms first-packet latency) and Plus (quality-focused) tiers across 16 languages including French. Qwen-Audio-3.0-TTS-Plus took the #1 spot on the Artificial Analysis Speech Arena leaderboard with a Quality Elo around 1,236, narrowly ahead of Simba 3.2 and Gemini 3.1 Flash TTS, at roughly $27.6 per million characters — about a third of what ElevenLabs and MiniMax charge for comparably ranked tiers. It's hosted-only via Alibaba Cloud Model Studio, not open-weight.",
+      "whyItMatters": "A French-capable TTS model that just took the #1 quality-leaderboard spot at roughly a third of ElevenLabs' price, with a Flash tier tuned for ~300ms real-time latency, is worth a direct bake-off against Anna's ElevenLabs voice for cost and quality.",
+      "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
+      "source": "MarkTechPost",
+      "tags": ["voice", "tts", "pricing", "french"]
+    },
+    {
+      "id": "moonshot-kimi-k3-subscription-pause",
+      "category": "models",
+      "title": "Moonshot AI pauses new Kimi K3 subscriptions as demand overwhelms compute",
+      "summary": "Moonshot AI temporarily halted new sign-ups for Kimi K3 after demand pushed available compute capacity to its limit within about 48 hours, according to reporting from July 20-21. Existing subscribers are unaffected; Moonshot says it's adding capacity and will reopen sign-ups in batches, and plans to split future memberships into separate consumer and dedicated-coding plans. The move comes as Moonshot pursues fresh funding and a possible Hong Kong IPO.",
+      "whyItMatters": "A leading open-weight LLM provider hitting a hard compute ceiling within 48 hours of a demand spike is a reminder that any DeepSeek/Kimi-style cheap-fallback LLM call in the tutor's stack needs a fallback provider, not just a fallback model.",
+      "url": "https://www.scmp.com/tech/article/3361172/kimi-k3-developer-suspends-new-subscriptions-amid-compute-constraints",
+      "source": "South China Morning Post",
+      "tags": ["llm", "capacity", "open-source", "infrastructure"]
+    },
+    {
+      "id": "etched-ai-chip-20b-valuation",
+      "category": "general",
+      "title": "AI inference-chip startup Etched in talks for a $20B valuation, up 4x",
+      "summary": "Etched, a startup building chips specialized for transformer inference rather than general-purpose GPUs, is reportedly negotiating two simultaneous funding rounds around July 20 — one led by Jane Street at a $20B valuation and a separate one led by Sequoia Capital at $10B, per the Wall Street Journal and corroborating outlets. Neither deal has closed. Etched says it has roughly $1B in customer demand lined up even before shipping its chips at scale.",
+      "whyItMatters": "Specialized inference silicon promising better cost-per-token than general GPUs is the kind of infrastructure bet that could eventually lower hosting costs for any self-hosted or fine-tuned model in the tutor's stack.",
+      "url": "https://www.benzinga.com/markets/private-markets/26/07/60540689/nvidias-new-ai-rival-could-reportedly-be-worth-20-billion",
+      "source": "Benzinga",
+      "tags": ["funding", "inference", "chips", "cost"]
+    }
+  ]
+}

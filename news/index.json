@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-20T06:32:00Z",
+  "generatedAt": "2026-07-21T06:12:55Z",
   "digests": [
+    {
+      "date": "2026-07-21",
+      "title": "Qwen TTS tops the leaderboard, Kimi K3 hits a compute ceiling",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Alibaba's Qwen-Audio-3.0-TTS tops the TTS leaderboard at roughly a third of ElevenLabs' price",
+        "Moonshot AI pauses new Kimi K3 subscriptions as demand overwhelms compute",
+        "AI inference-chip startup Etched in talks for a $20B valuation, up 4x"
+      ]
+    },
     {
       "date": "2026-07-20",
       "title": "Qwen3.8-Max's frontier claim, Fable 5's access shuffle",
