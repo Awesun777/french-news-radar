@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-07-21T06:12:55Z",
+  "generatedAt": "2026-07-22T06:12:41Z",
   "digests": [
+    {
+      "date": "2026-07-22",
+      "title": "Gemini's cheaper Flash trio, Microsoft-Mistral's European AI deal",
+      "itemCount": 2,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Google ships Gemini 3.6 Flash, 3.5 Flash-Lite, and a government-only 3.5 Flash Cyber",
+        "Microsoft and Mistral expand partnership with a multibillion-dollar European AI infrastructure deal"
+      ]
+    },
     {
       "date": "2026-07-21",
       "title": "Qwen TTS tops the leaderboard, Kimi K3 hits a compute ceiling",

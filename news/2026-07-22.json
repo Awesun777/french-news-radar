@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-22",
+  "items": [
+    {
+      "id": "gemini-3-6-flash-trio",
+      "category": "models",
+      "title": "Google ships Gemini 3.6 Flash, 3.5 Flash-Lite, and a government-only 3.5 Flash Cyber",
+      "summary": "On July 21, Google released three new Flash-tier Gemini models: 3.6 Flash, its new 'workhorse' model that uses about 17% fewer output tokens than 3.5 Flash for comparable quality at $1.50/$7.50 per million input/output tokens; 3.5 Flash-Lite, a cheaper $0.30/$2.50 tier running at roughly 350 tokens/sec; and 3.5 Flash Cyber, a cybersecurity-tuned model limited to governments and trusted partners in a pilot program. Google also confirmed it has begun training Gemini 4, while Gemini 3.5 Pro remains delayed.",
+      "whyItMatters": "A cheaper, more token-efficient Gemini tier is worth a bake-off as a low-cost fallback LLM for Romain/Anna's grammar checks or dictionary lookups, freeing OpenAI Realtime/ElevenLabs budget for the actual voice loop.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "source": "Google Blog",
+      "tags": ["llm", "pricing", "cost", "google"]
+    },
+    {
+      "id": "microsoft-mistral-expanded-partnership",
+      "category": "general",
+      "title": "Microsoft and Mistral expand partnership with multibillion-dollar European AI infrastructure deal",
+      "summary": "On July 21, Microsoft and Mistral announced an expanded strategic partnership: a multibillion-dollar joint investment in European GPU capacity built on Nvidia Vera Rubin systems, plus two Mistral models, Medium 3.5 and OCR 4, added to Microsoft Foundry and Copilot Studio. The deal targets regulated European enterprises that want frontier AI they can run under strict data-control requirements, including fully disconnected deployments.",
+      "whyItMatters": "Mistral gaining first-party distribution on Azure/Foundry signals its models, a candidate cheap-fallback LLM in the tutor's stack, are getting more enterprise-grade reach and reliability rather than staying an open-weight curiosity.",
+      "url": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+      "source": "Microsoft Source",
+      "tags": ["mistral", "partnership", "infrastructure", "funding"]
+    }
+  ]
+}
