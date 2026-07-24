@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-23T06:14:06Z",
+  "generatedAt": "2026-07-24T06:12:22Z",
   "digests": [
+    {
+      "date": "2026-07-24",
+      "title": "Claude voice mode grows up, open ASR converges",
+      "itemCount": 4,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "Claude's voice mode graduates from Haiku-only to Opus and Sonnet",
+        "Open speech-recognition models have converged to under 1 WER point apart",
+        "White House accuses Moonshot AI of covertly distilling Anthropic's Fable into Kimi K3"
+      ]
+    },
     {
       "date": "2026-07-23",
       "title": "Deepgram's edge STT, OpenAI models hack Hugging Face mid-eval",

@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-24",
+  "items": [
+    {
+      "id": "claude-voice-mode-opus-sonnet",
+      "category": "models",
+      "title": "Claude's voice mode graduates from Haiku-only to Opus and Sonnet",
+      "summary": "On July 23, Anthropic upgraded Claude's voice mode so it defaults to whatever model you were last using in text chat — including Opus and Sonnet, not just the lightweight Haiku it previously routed every voice query through. Voice mode now also supports cross-app automation with Gmail, Google Calendar, Slack, Canva, and Notion, and covers ten languages including French. Free users still get Haiku and single-app access; paid plans unlock the bigger models and multi-app features.",
+      "whyItMatters": "Anthropic just validated the exact tradeoff Romain/Anna already navigate: routing voice to a small fast model for latency versus a bigger model for reasoning depth, with user-controlled mid-conversation switching as the resolution worth copying.",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "source": "Anthropic",
+      "tags": ["voice", "realtime", "french", "llm"]
+    },
+    {
+      "id": "marktechpost-open-asr-2026-roundup",
+      "category": "inspiration",
+      "title": "Open speech-recognition models have converged to under 1 WER point apart",
+      "summary": "A July 23 MarkTechPost roundup compares the current crop of open ASR models — Cohere Transcribe, IBM Granite Speech 4.1, ARK-ASR-3B, MOSS-Transcribe-preview-2B, and Qwen3-ASR-0.6B — noting the top of the Hugging Face Open ASR Leaderboard is now separated by under one word-error-rate point. With quality this close, the piece argues the real decision has shifted to license, language coverage, streaming support, and cost per audio-hour.",
+      "whyItMatters": "A 2B open-weight ASR model beating what closed APIs charged 18 months ago is a live option for a cheaper or self-hosted STT leg feeding Romain/Anna, if French coverage and streaming latency hold up under testing.",
+      "url": "https://www.marktechpost.com/2026/07/23/best-open-speech-recognition-asr-models-in-2026-wer-languages-latency-and-license-compared/",
+      "source": "MarkTechPost",
+      "tags": ["stt", "open-source", "benchmark", "cost"]
+    },
+    {
+      "id": "openai-presence-voice-agent-platform",
+      "category": "inspiration",
+      "title": "OpenAI's Presence platform bakes simulation testing into voice-agent deployment",
+      "summary": "OpenAI launched Presence on July 22, an enterprise platform for deploying voice and chat agents that bundles policy/permission guardrails, escalation rules to route to humans, and pre-deployment simulations against edge cases before an agent goes live. OpenAI says its own English-language support line built on Presence now resolves about 75% of inbound issues after a few weeks, and cites BBVA Mexico and SoftBank Corp as early customers running agents in Spanish and Japanese.",
+      "whyItMatters": "The pre-deployment simulation-against-edge-cases pattern, testing a voice agent against tricky scenarios before shipping, is a workflow worth borrowing for validating Romain/Anna's conversation handling before a French learner ever hits it.",
+      "url": "https://openai.com/index/introducing-openai-presence/",
+      "source": "OpenAI",
+      "tags": ["voice", "agents", "testing", "production"]
+    },
+    {
+      "id": "white-house-moonshot-distillation-accusation",
+      "category": "general",
+      "title": "White House accuses Moonshot AI of covertly distilling Anthropic's Fable into Kimi K3",
+      "summary": "On July 22, White House OSTP director Michael Kratsios publicly accused Moonshot AI of large-scale, covert distillation of Anthropic's Fable model to build Kimi K3 — the first time a senior US official has named a specific Chinese lab copying a specific American model this way. Kratsios also alleged Moonshot accessed export-controlled Nvidia GB300 chips in Thailand; Treasury Secretary Scott Bessent followed with a warning that sanctions and Entity List designations are on the table for large-scale model distillation.",
+      "whyItMatters": "A geopolitical fight over whether a leading open-weight model (Kimi K3, a candidate cheap-fallback LLM) was built by copying Claude is worth tracking, since export-control fallout could affect access to it or similar open models.",
+      "url": "https://siliconangle.com/2026/07/23/senior-white-house-official-accuses-moonshot-ai-copying-anthropics-leading-frontier-model/",
+      "source": "SiliconANGLE",
+      "tags": ["policy", "export-controls", "open-source", "china"]
+    }
+  ]
+}
