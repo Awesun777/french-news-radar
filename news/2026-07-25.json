@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-25",
+  "items": [
+    {
+      "id": "claude-opus-5-launch",
+      "category": "models",
+      "title": "Anthropic launches Claude Opus 5 at unchanged Opus pricing",
+      "summary": "On July 24, Anthropic released Claude Opus 5, its new top-tier model, at the same $5/$25 per-million-token pricing as Opus 4.8. It posts state-of-the-art agentic-coding results (43.3% vs. Opus 4.8's 18.7% on the FrontierBench v0.1 benchmark) and adds a low/medium/high effort toggle so a request can trade cost against capability. It's live immediately on the API, Bedrock, Vertex AI, Microsoft Foundry, claude.ai, and Claude Code, and is now the default model on Claude Max.",
+      "whyItMatters": "A frontier-capable model at unchanged Opus pricing, plus a per-request effort toggle, is a real lever for cutting cost on any Claude-assisted reasoning or tool-use step in the tutor's pipeline without touching the OpenAI Realtime or ElevenLabs voice legs.",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "source": "Anthropic",
+      "tags": ["llm", "pricing", "anthropic", "agentic"]
+    },
+    {
+      "id": "meta-ai-muse-spark-1-1-actions",
+      "category": "models",
+      "title": "Meta AI app gains agentic \"do it for you\" actions powered by Muse Spark 1.1",
+      "summary": "On July 24, Meta rolled agentic capabilities into the consumer Meta AI app and meta.ai, built on Muse Spark 1.1 (Meta Superintelligence Labs' agentic model, released July 9). It can now make plans, connect to Gmail and Calendar, draft slides, and carry a task through to completion instead of just answering a question.",
+      "whyItMatters": "Meta joining OpenAI, Google, and Anthropic in shipping a consumer assistant that finishes multi-step tasks rather than just chatting is a feature shape worth watching for Romain/Anna — an agent that actually books the next lesson or emails a progress report, not just talks about it.",
+      "url": "https://about.fb.com/news/2026/07/meta-ai-muse-spark-doesnt-just-think-it-acts/",
+      "source": "Meta",
+      "tags": ["agents", "llm", "meta", "product"]
+    },
+    {
+      "id": "chatgpt-voice-desktop-multi-agent",
+      "category": "inspiration",
+      "title": "ChatGPT Voice reaches desktop, lets you steer multiple agents by voice",
+      "summary": "On July 23, OpenAI brought ChatGPT Voice — built on its full-duplex GPT-Live models — to the macOS/Windows desktop app. Beyond dictation, it lets a user speak to control the computer and direct multiple agents running in ChatGPT Work or Codex at once, interrupting and redirecting mid-task while the model keeps listening and speaking simultaneously.",
+      "whyItMatters": "A shipped example of voice as the steering layer for multi-agent orchestration, not just single-turn Q&A, is a concrete pattern to borrow if Romain or Anna ever need to hand off between sub-tasks like grammar checks, translation, or scheduling without breaking the conversational flow.",
+      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+      "source": "TechCrunch",
+      "tags": ["voice", "realtime", "agents", "openai"]
+    },
+    {
+      "id": "chatgpt-agentforger-vulnerability",
+      "category": "general",
+      "title": "Zenity discloses \"AgentForger\": one link could plant a rogue agent in ChatGPT Workspace",
+      "summary": "Security researchers at Zenity Labs published details this week of AgentForger, a cross-site-request-forgery flaw in ChatGPT's Workspace Agent Builder that let a single crafted link silently create and authorize an AI agent inheriting a victim's connected email, calendar, and Slack access. OpenAI fixed the underlying bug in June within three days of the report, and no in-the-wild exploitation was found.",
+      "whyItMatters": "A one-click flaw where a URL parameter became an executed agent instruction is a sharp, concrete reminder to treat any deep-link or tool-authorization surface on Romain/Anna's own agent stack as untrusted input.",
+      "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+      "source": "The Hacker News",
+      "tags": ["security", "agents", "openai", "vulnerability"]
+    }
+  ]
+}

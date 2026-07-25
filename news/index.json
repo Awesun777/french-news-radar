@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-24T06:12:22Z",
+  "generatedAt": "2026-07-25T06:14:07Z",
   "digests": [
+    {
+      "date": "2026-07-25",
+      "title": "Claude Opus 5 lands, voice steers multi-agent ChatGPT",
+      "itemCount": 4,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "Anthropic launches Claude Opus 5 at unchanged Opus pricing",
+        "Meta AI app gains agentic \"do it for you\" actions powered by Muse Spark 1.1",
+        "ChatGPT Voice reaches desktop, lets you steer multiple agents by voice"
+      ]
+    },
     {
       "date": "2026-07-24",
       "title": "Claude voice mode grows up, open ASR converges",
