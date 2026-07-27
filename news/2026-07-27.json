@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "id": "kimi-k3-open-weights-release",
+      "category": "models",
+      "title": "Moonshot AI publishes Kimi K3's full weights — the largest open-weight model release ever",
+      "summary": "At 00:00 UTC on July 27, Moonshot AI published the complete weights for Kimi K3 on Hugging Face under a Modified MIT license: a 2.8-trillion-parameter model, roughly 1.4TB using MXFP4 quantization. Kimi K3 had only been reachable via Moonshot's hosted API and the kimi.com consumer app since July 16; this is the first point any organization with sufficient infrastructure can download, inspect, fine-tune, and self-host it directly.",
+      "whyItMatters": "A frontier-scale model becoming fully self-hostable (not just API-accessible) is a real, if heavyweight, option for a cheaper or China-independent LLM backend behind Romain/Anna, especially once the community ships smaller distilled or further-quantized variants.",
+      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+      "source": "VentureBeat",
+      "tags": ["llm", "open-source", "china", "self-hosting"]
+    },
+    {
+      "id": "deepseek-funding-round-pause",
+      "category": "general",
+      "title": "DeepSeek suspends its ~$74B-valuation funding round after founder's remarks go viral",
+      "summary": "DeepSeek told prospective investors it is pausing its second fundraising round, which had targeted roughly a 500-billion-yuan ($74B) valuation following its $7.4B first round, after online reports of founder Liang Wenfeng's candid comments on China's AI lag and reliance on Nvidia chips circulated widely. The company may resume the process later; no deal has been cancelled outright.",
+      "whyItMatters": "DeepSeek's models are among the cheapest capable LLM options for cost-sensitive backend work, so a stalled raise is worth tracking as a leading indicator of whether its rapid price cuts and release cadence continue.",
+      "url": "https://www.japantimes.co.jp/business/2026/07/27/tech/deepseek-funding-pause-viral-posts/",
+      "source": "The Japan Times (via Bloomberg)",
+      "tags": ["funding", "china", "llm"]
+    }
+  ]
+}
