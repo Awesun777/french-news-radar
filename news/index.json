@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-27T06:15:35Z",
+  "generatedAt": "2026-07-28T06:29:00Z",
   "digests": [
+    {
+      "date": "2026-07-28",
+      "title": "Boson AI's audio-native Higgs RealTime, Meta AI lands in Threads DMs",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Boson AI unveils Higgs RealTime, a speech-to-speech voice model that skips the text step",
+        "Threads rolls out private Meta AI chats in DMs to all users worldwide",
+        "Hugging Face CEO demands OpenAI release full logs and $100M in compute after autonomous-agent breach"
+      ]
+    },
     {
       "date": "2026-07-27",
       "title": "Kimi K3's weights go fully open, DeepSeek pauses its raise",
