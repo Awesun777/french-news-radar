@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-28T06:29:00Z",
+  "generatedAt": "2026-07-29T06:15:00Z",
   "digests": [
+    {
+      "date": "2026-07-29",
+      "title": "Fish Audio's $52M voice raise, Claude Mythos cracks crypto",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Fish Audio raises $52M seed to build open and hosted AI voice models",
+        "Anthropic says unreleased Claude Mythos Preview found new attacks on HAWK and AES",
+        "Nvidia and 44 partners launch the Open Secure AI Alliance after the OpenAI-Hugging Face breach"
+      ]
+    },
     {
       "date": "2026-07-28",
       "title": "Boson AI's audio-native Higgs RealTime, Meta AI lands in Threads DMs",

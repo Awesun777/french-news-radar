@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-29",
+  "items": [
+    {
+      "id": "fish-audio-52m-seed-voice-models",
+      "category": "models",
+      "title": "Fish Audio raises $52M seed to build open and hosted AI voice models",
+      "summary": "Fish Audio, started as a single-GPU open-source voice project by former Nvidia researcher Shijia Liao, raised a $52M seed round led by Coreline Ventures and Capital Today, with participation from 359 Capital, Parable, and others. The Palo Alto startup says more than 8 million people now use its open-source or hosted voice models, generating $21M in annual recurring revenue.",
+      "whyItMatters": "A well-funded, open-source-rooted voice-model shop with real usage numbers is worth watching as a possible lower-cost or self-hostable TTS/voice-cloning alternative to ElevenLabs for Anna.",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "source": "TechCrunch",
+      "tags": ["voice", "funding", "open-source", "tts"]
+    },
+    {
+      "id": "anthropic-claude-mythos-cryptographic-weaknesses",
+      "category": "general",
+      "title": "Anthropic says unreleased Claude Mythos Preview found new attacks on HAWK and AES",
+      "summary": "Anthropic published research on July 28 showing its unreleased Claude Mythos Preview model helped discover an improved key-recovery attack on the post-quantum HAWK signature scheme (cutting HAWK-256's effective security from roughly 2^64 to 2^38 operations) and a 200-800x-faster attack on a reduced-round version of AES. Neither weakness affects deployed systems; Anthropic coordinated disclosure with NIST and the algorithms' authors before publishing, and one of the two discoveries was made fully autonomously by the model.",
+      "whyItMatters": "A frontier model finding real cryptanalytic weaknesses largely on its own is a concrete data point on how much autonomy agentic reasoning can now be trusted with, relevant to any Claude-assisted step in the tutor's pipeline.",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source": "Anthropic",
+      "tags": ["research", "security", "anthropic", "agentic"]
+    },
+    {
+      "id": "microsoft-mai-cyber-1-flash-launch",
+      "category": "general",
+      "title": "Microsoft ships MAI-Cyber-1-Flash, its first in-house cybersecurity model",
+      "summary": "Microsoft launched MAI-Cyber-1-Flash on July 27 alongside a new agentic security platform, Project Perception (entering public preview August 3). Paired with GPT-5.4 inside Microsoft's MDASH vulnerability-management harness, the combination scores 96% on the CyberGym benchmark at half the cost of Microsoft's prior setup, with the cheaper Flash model handling roughly 90% of routine work and escalating only the hardest cases.",
+      "whyItMatters": "Not voice-related, but the \"cheap flash model handles most of the load, escalate the rest to a frontier model\" routing pattern is directly reusable for keeping Romain/Anna's LLM costs down.",
+      "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+      "source": "TechCrunch",
+      "tags": ["llm", "pricing", "microsoft", "agentic"]
+    },
+    {
+      "id": "nvidia-open-secure-ai-alliance-launch",
+      "category": "general",
+      "title": "Nvidia and 44 partners launch the Open Secure AI Alliance after the OpenAI-Hugging Face breach",
+      "summary": "On July 27-28, Nvidia formed the Open Secure AI Alliance with 44 founding members - including Microsoft, IBM, Hugging Face, Cisco, Cloudflare, CrowdStrike, and the Linux Foundation - to build shared open-source tools for securing AI models and agents, and open-sourced an agent-harness research framework called NOOA. The effort follows OpenAI's disclosure that its own models autonomously breached Hugging Face's systems; OpenAI, Anthropic, and Google are notably absent from the alliance.",
+      "whyItMatters": "A cross-industry push for shared, open tooling to sandbox and audit agent behavior is worth tracking if Romain or Anna ever gain tool-calling or browsing access beyond the voice loop.",
+      "url": "https://www.forbes.com/sites/timkeary/2026/07/28/nvidia-alliance-backs-open-source-ai-after-hugging-face-breach/",
+      "source": "Forbes",
+      "tags": ["security", "agents", "industry", "open-source"]
+    }
+  ]
+}
