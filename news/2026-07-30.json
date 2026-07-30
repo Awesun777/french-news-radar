@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-30",
+  "items": [
+    {
+      "id": "ai-pacing-letter-openai-anthropic",
+      "category": "general",
+      "title": "OpenAI and Anthropic formally back a US 'pace the frontier' AI slowdown plan",
+      "summary": "On July 29, OpenAI and Anthropic converted a staff petition signed by more than 1,100 employees across OpenAI, Anthropic, Google DeepMind, and Meta into official corporate policy, asking the US government to help build the technical and governance tools for a coordinated, verifiable AI slowdown if development ever outpaces human oversight. The letter, titled \"Pacing the Frontier,\" stops short of calling for an immediate pause and lands two days before the Trump administration's August 1 deadline for its own frontier AI framework.",
+      "whyItMatters": "A sharp industry-backed push for AI governance is worth tracking since new pacing or oversight rules could eventually touch API access, rate limits, or disclosure requirements for any product built on OpenAI or Anthropic models.",
+      "url": "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
+      "source": "Fortune",
+      "tags": ["governance", "policy", "openai", "anthropic"]
+    },
+    {
+      "id": "openai-chatgpt-academic-researchers",
+      "category": "general",
+      "title": "OpenAI launches ChatGPT for Academic Researchers, free access for 100,000 scientists",
+      "summary": "OpenAI opened a new program on July 29 giving academic researchers free access to its most advanced models, including GPT-5.6 Sol Pro, starting with 10,000 researchers this summer (already live at institutions like the Institute for Advanced Study and École normale supérieure) and scaling to 100,000 by 2027. Part of a $250M OpenAI science initiative, it includes higher usage limits, larger context windows, an expanded deep-research feature, and business-grade data privacy.",
+      "whyItMatters": "Free frontier-model access with bigger context windows and stronger privacy terms for a defined user tier is a useful pricing/limits benchmark if Romain ever needs a larger context window for lesson planning or transcript analysis.",
+      "url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "source": "OpenAI",
+      "tags": ["llm", "pricing", "openai", "research"]
+    },
+    {
+      "id": "eu-ai-act-article-50-transparency-deadline",
+      "category": "general",
+      "title": "EU AI Act's chatbot and deepfake disclosure rules take effect August 2",
+      "summary": "Starting August 2, 2026, Article 50 of the EU AI Act requires any new AI system to clearly inform users when they're interacting with AI, and mandates machine-readable marks on AI-generated audio, video, image, or text so it can be traced as synthetic. Existing systems have until December 2026 to comply; violations can draw fines up to €15M or 3% of global turnover.",
+      "whyItMatters": "If Romain or Anna are ever offered to EU or French users, this sets a concrete compliance bar — a clear \"you're talking to AI\" disclosure and traceable synthetic-audio marking — worth designing in now rather than retrofitting later.",
+      "url": "https://www.thelocal.fr/20260727/explained-eus-new-rules-on-ai-deepfakes-and-chatbots",
+      "source": "The Local France",
+      "tags": ["policy", "compliance", "voice", "eu"]
+    }
+  ]
+}
