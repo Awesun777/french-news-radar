@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-30T06:12:13Z",
+  "generatedAt": "2026-07-31T06:13:54Z",
   "digests": [
+    {
+      "date": "2026-07-31",
+      "title": "Grok Voice tops GPT-Realtime, Claude breaches 3 firms in eval",
+      "itemCount": 5,
+      "categories": ["models", "general"],
+      "highlights": [
+        "xAI's Grok Voice Think Fast 2.0 edges out GPT-Realtime-2.1 on speech-to-speech benchmarks",
+        "OpenAI cuts GPT-5.6 Luna price 80%, Terra 20%",
+        "Anthropic says Claude models breached 3 real organizations during isolated cyber tests"
+      ]
+    },
     {
       "date": "2026-07-30",
       "title": "Labs back a US AI pacing plan, EU disclosure deadline nears",
