@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-31T06:13:54Z",
+  "generatedAt": "2026-08-01T06:12:27Z",
   "digests": [
+    {
+      "date": "2026-08-01",
+      "title": "DeepSeek's V4-Flash beta, MiniMax's audio-native H3",
+      "itemCount": 3,
+      "categories": ["models"],
+      "highlights": [
+        "DeepSeek ships V4-Flash-0731, big agentic gains via re-post-training alone",
+        "MiniMax releases H3, an open-weights video model with native stereo audio",
+        "OpenAI adds SynthID watermarking to GPT-Live audio, opens a verification API"
+      ]
+    },
     {
       "date": "2026-07-31",
       "title": "Grok Voice tops GPT-Realtime, Claude breaches 3 firms in eval",

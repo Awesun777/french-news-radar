@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-01",
+  "items": [
+    {
+      "id": "deepseek-v4-flash-0731-beta",
+      "category": "models",
+      "title": "DeepSeek ships V4-Flash-0731, big agentic gains via re-post-training alone",
+      "summary": "DeepSeek moved DeepSeek-V4-Flash-0731 from preview to official public beta on July 31, publishing it on Hugging Face and opening the API. Same architecture as before (13B active / 284B total MoE), but re-post-training alone lifted Terminal-Bench 2.1 from 72.1 to 82.7 and DeepSWE from 7.3 to 54.4, beating DeepSeek's own V4-Pro-Preview on agentic benchmarks. Pricing holds at $0.14/$0.28 per million input/output tokens ($0.0028 for cached input).",
+      "whyItMatters": "A budget MoE model overtaking its own flagship sibling on agent benchmarks via re-training alone is a cheap-tier candidate worth testing for any tool-calling or lesson-planning step in the Romain/Anna pipeline that doesn't need a frontier model.",
+      "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/",
+      "source": "MarkTechPost",
+      "tags": ["llm", "pricing", "agentic", "deepseek"]
+    },
+    {
+      "id": "minimax-h3-video-native-audio",
+      "category": "models",
+      "title": "MiniMax releases H3, an open-weights video model with native stereo audio",
+      "summary": "Shanghai-based MiniMax released H3 on July 31: a multimodal foundation model generating up to 15-second clips at 2K resolution with native stereo sound produced in the same generation pass as the picture, rather than added afterward. H3 can also edit existing footage and transfer motion across video, image, text, and audio inputs; MiniMax says it will open-source the weights within days.",
+      "whyItMatters": "Audio and video generated together in a single pass, instead of a TTS layer bolted onto silent video, is a template worth watching for any future avatar or lip-synced-video feature for Romain or Anna.",
+      "url": "https://www.minimax.io/blog/minimax-h3",
+      "source": "MiniMax",
+      "tags": ["video", "audio", "open-source", "multimodal"]
+    },
+    {
+      "id": "openai-gpt-live-synthid-audio",
+      "category": "models",
+      "title": "OpenAI adds SynthID watermarking to GPT-Live audio, opens a verification API",
+      "summary": "As of July 31, audio generated through GPT-Live in ChatGPT Voice and the OpenAI API carries a SynthID watermark. OpenAI's public verification tool can now detect these provenance signals (alongside C2PA metadata) in uploaded MP3/WAV/AAC/FLAC/OPUS/PCM files, and OpenAI opened API access to the same check so developers can run provenance verification inside their own apps.",
+      "whyItMatters": "If Romain or Anna's spoken output should ever carry a machine-readable \"AI-generated\" mark - the EU AI Act's Article 50 disclosure rules take effect August 2 - OpenAI's Realtime-family voice models now do this by default, worth checking whether it can be surfaced or verified in-app.",
+      "url": "https://openai.com/index/advancing-content-provenance/",
+      "source": "OpenAI",
+      "tags": ["voice", "realtime", "compliance", "openai"]
+    }
+  ]
+}
