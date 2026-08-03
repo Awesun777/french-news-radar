@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-01T06:12:27Z",
+  "generatedAt": "2026-08-03T06:14:52Z",
   "digests": [
+    {
+      "date": "2026-08-03",
+      "title": "AI provenance laws go live, Suno loses in Munich",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "AMD releases Instella-MoE-16B-A3B, a fully open MoE LLM trained on Instinct GPUs",
+        "California's AI Transparency Act and the EU AI Act's disclosure rules both go live August 2",
+        "Munich court rules Suno infringed GEMA's copyrights by training and generating AI music"
+      ]
+    },
     {
       "date": "2026-08-01",
       "title": "DeepSeek's V4-Flash beta, MiniMax's audio-native H3",

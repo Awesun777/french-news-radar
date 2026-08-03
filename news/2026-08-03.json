@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-03",
+  "items": [
+    {
+      "id": "amd-instella-moe-16b-a3b",
+      "category": "models",
+      "title": "AMD releases Instella-MoE-16B-A3B, a fully open mixture-of-experts LLM trained on Instinct GPUs",
+      "summary": "AMD published Instella-MoE-16B-A3B on August 1: an open-weights model (data, training code, and checkpoints all released) with 16B total parameters but only 2.8B active per token, trained from scratch on AMD Instinct MI300X/MI325X GPUs instead of Nvidia hardware.",
+      "whyItMatters": "A fully open, cheap-to-run MoE model is another budget-tier candidate worth benchmarking for low-stakes background tasks (transcript summarization, lesson-plan drafting) in the Romain/Anna pipeline where a frontier model isn't needed.",
+      "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
+      "source": "MarkTechPost",
+      "tags": ["llm", "open-source", "moe", "amd"]
+    },
+    {
+      "id": "ca-sb942-eu-ai-act-transparency-live",
+      "category": "general",
+      "title": "California's AI Transparency Act and the EU AI Act's disclosure rules both go live August 2",
+      "summary": "California's SB 942 (as amended by AB 853) became operative August 2, requiring any generative-AI image/video/audio system with over 1M monthly California users to embed machine-readable provenance data, offer a free public AI-detection tool, and support visible AI labels, with civil penalties starting at $5,000 per violation per day. The date was deliberately aligned with the EU AI Act's Article 50 transparency and deepfake-disclosure rules, which took full effect the same day across the EU.",
+      "whyItMatters": "Two major markets now legally require traceable \"AI-generated\" marks on synthetic audio — worth checking whether Romain's Realtime output or Anna's ElevenLabs audio needs a provenance/detection layer before ever serving EU or California users.",
+      "url": "https://www.techtimes.com/articles/322713/20260802/california-ai-transparency-act-operative-midjourney-has-no-watermark-fines-start-today.htm",
+      "source": "Tech Times",
+      "tags": ["policy", "compliance", "voice", "regulation"]
+    },
+    {
+      "id": "munich-court-suno-gema-copyright-ruling",
+      "category": "general",
+      "title": "Munich court rules Suno infringed GEMA's copyrights by training and generating AI music",
+      "summary": "The Munich Regional Court ruled on July 31 that AI music generator Suno breached German copyright law, holding Suno itself (not its users) liable for training on GEMA-repertoire songs and for six works found to be reproducibly memorized inside its v3.5 and v4 models. The court ordered Suno to disclose related revenue and pay damages (amount not yet set); Suno says it is evaluating an appeal.",
+      "whyItMatters": "A court holding an AI audio generator directly liable for training-data memorization is an early legal precedent that could extend to voice-cloning and TTS providers — worth watching given Anna runs on ElevenLabs.",
+      "url": "https://celebrityaccess.com/2026/08/02/suno-loses-copyright-infringement-lawsuit-brought-by-gema-in-germany/",
+      "source": "CelebrityAccess",
+      "tags": ["legal", "copyright", "audio", "policy"]
+    },
+    {
+      "id": "google-cancels-ai-studio-mobile-app",
+      "category": "general",
+      "title": "Google scraps its unreleased AI Studio mobile app, folds app-building into Gemini instead",
+      "summary": "Google canceled its planned standalone AI Studio app for Android and iOS just before its expected early-August launch, despite roughly 800,000 preorders since teasing it at I/O 2026. AI-app-building capabilities are being folded directly into the Gemini app on mobile and desktop instead; the AI Studio web experience continues as before for developers.",
+      "whyItMatters": "A reminder that even Google is betting users want one AI surface to build and generate things in, rather than a separate app per capability — a relevant data point for how many distinct experiences the Romain/Anna tutor should expose versus keep bundled into one chat surface.",
+      "url": "https://9to5google.com/2026/07/31/gemini-ai-studio-app/",
+      "source": "9to5Google",
+      "tags": ["product", "google", "gemini"]
+    }
+  ]
+}
