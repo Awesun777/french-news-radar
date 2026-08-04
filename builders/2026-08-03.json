@@ -1,0 +1,128 @@
+{
+  "date": "2026-08-03",
+  "items": [
+    {
+      "id": "aaron-levie-verifiability",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Makes a counterintuitive argument about which work gets automated first: the \"hardest\" fields — math, cybersecurity, code — are the most vulnerable precisely because they're objectively verifiable. That gives clearer reward signals during training and testable results at runtime. Domains like legal negotiation, marketing, and budgeting have no single right answer and often can't be graded until long after the fact, so he expects a lot of value to accrue at the applied AI layer rather than the model itself.",
+      "summaryZh": "提出了一个反直觉的观点：最\"难\"的领域——数学、网络安全、代码——恰恰最先被自动化，因为它们可以被客观验证。这既让训练时的奖励信号更清晰，也让运行结果可以规模化地检验。而法律条款、营销方案、财务预算这类工作没有唯一正确答案，甚至要很久以后才知道对错。因此他认为，大量价值将沉淀在应用层，而不是模型本身。",
+      "url": "https://x.com/levie/status/2083965372747882741",
+      "tags": ["automation", "verifiability", "applied-ai"]
+    },
+    {
+      "id": "guillermo-rauch-internal-agent",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Says every day-to-day job at Vercel now runs through a single internal agent that handles finance, comms, docs, marketing, engineering, and analytics — and it's both an agent and a router, delegating to sub-agents rather than letting every team deploy its own. His analogy: dozens of separate agents is like every agent having its own domain name, bad UX. His sharper point is about ownership — using a vendor's Slack integration means \"that's not your agent, that's their agent,\" and if agents become synonymous with modern companies, controlling source → runtime → data → token matters.",
+      "summaryZh": "表示 Vercel 现在每一项日常工作都要经过一个内部 agent，涵盖财务、公关、文档、市场、工程和数据分析。它既是 agent 也是路由器，把任务分派给子 agent，而不是让每个团队各自部署。他的类比是：几十个独立 agent 就像每个都有自己的域名，体验很糟。更尖锐的一点是所有权——用某个大厂的 Slack 集成，\"那不是你的 agent，是他们的 agent\"。如果 agent 将成为现代公司的基础，那么从源码、运行时、数据到 token 的完全掌控就至关重要。",
+      "url": "https://x.com/rauchg/status/2084042561690456157",
+      "tags": ["agents", "internal-tools", "ownership"]
+    },
+    {
+      "id": "dan-shipper-agency-rupture",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "Every CEO",
+      "summary": "Offers a framework for what he calls an \"agency rupture\" — the moment a model does something that used to require you at every step. He describes three stages: first you see only the AI (\"AI solved this\"); then you start noticing the human scaffolding required (\"my job is just to babysit Claude\"); finally you reconstruct agency and simply say \"I did this,\" with the AI implied. His claim is that the ability to turn these ruptures into curiosity rather than panic predicts who thrives in the AI economy.",
+      "summaryZh": "提出了一个他称为\"agency rupture\"（能动性断裂）的框架——即模型突然能独立完成过去每一步都离不开你的任务的那一刻。他描述了三个阶段：起初你眼里只有 AI（\"AI 解决了这个问题\"）；接着你开始看见其中所需的人类脚手架（\"我的工作只是给 Claude 当保姆\"）；最终你重建了自己的能动性，直接说\"这是我做的\"，而 AI 的参与被默认包含在内。他认为，能把这种断裂转化为好奇而非恐慌的人，才会在 AI 经济中胜出。",
+      "url": "https://x.com/danshipper/status/2084038453831020916",
+      "tags": ["agency", "psychology", "ai-economy"]
+    },
+    {
+      "id": "nikunj-kothari-vibes-capital",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "FPV Ventures partner",
+      "summary": "Says venture capital has \"effectively fully become vibes capital\" — early and mid-stage pricing is completely divorced from fundamentals, with some rounds closing on nothing and some sure things struggling. Contrary to those expecting a correction, he predicts this continues at least 12–18 months on dry powder and AI tailwinds. He sees the same dynamic in public markets, where even trillion-dollar stocks now swing more than 5% on vibes and model releases.",
+      "summaryZh": "认为风投已经\"彻底变成了氛围资本\"——早期和中期的定价与基本面完全脱节，有些一无所有的项目轻松融资，有些看似稳妥的却举步维艰。与多数预期回调的人相反，他预测在充裕的存量资金和 AI 顺风推动下，这种状态至少还会持续 12 到 18 个月。他在公开市场看到同样的现象：如今连万亿美元市值的股票也会因为氛围和模型发布而单日波动超过 5%。",
+      "url": "https://x.com/nikunj/status/2083873335998333227",
+      "tags": ["venture-capital", "markets"]
+    },
+    {
+      "id": "amjad-masad-lichess-engine",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "Replit CEO",
+      "summary": "Put his LLM chess engine on Lichess, where it's now autonomously playing real games against humans and bots at a 1253 Elo rating — running three concurrent games at one point, watchable live.",
+      "summaryZh": "把他的 LLM 国际象棋引擎接入了 Lichess，现在它正自主地与真人和机器人对弈，等级分为 1253，一度同时进行三盘棋，并且可以在线观看。",
+      "url": "https://x.com/amasad/status/2083926395403821427",
+      "tags": ["llm", "chess", "autonomy"]
+    },
+    {
+      "id": "thariq-jevons-mathematics",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code at Anthropic",
+      "summary": "Sees Jevons paradox already playing out in mathematics: rather than shrinking the field, better tools mean more is happening, it's easier to understand, and mathematicians have more time to discuss it at higher levels of abstraction. His prediction is that demand for people who think about math will go up, with parallels to what happened in chess.",
+      "summaryZh": "认为杰文斯悖论已经在数学领域显现：更好的工具非但没有让这个领域萎缩，反而让更多事情正在发生、更容易被理解，数学家也有更多时间在更高的抽象层次上讨论。他预测，懂数学、会思考数学的人的需求会上升，这与国际象棋的历史轨迹类似。",
+      "url": "https://x.com/trq212/status/2083977795290734975",
+      "tags": ["jevons-paradox", "mathematics"]
+    },
+    {
+      "id": "swyx-codex-computer-use",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "Smol AI · Cognition · Latent Space",
+      "summary": "Is keeping a running list of computer-use \"wow moments\" from Codex ahead of a podcast on the topic. His example: the agent handled a support chat on his behalf and escalated for faster resolution — when the support rep tried to blame his side, the bot came back with complete receipts. His note: the humans had no idea they were talking to a bot.",
+      "summaryZh": "正在为即将录制的 computer use 专题整理一份 Codex 的\"惊艳时刻\"清单。他举的例子是：agent 代他处理客服对话并推动升级以加快解决——当客服试图把责任推给他这边时，机器人拿出了完整的证据链。他补充道：那些客服完全不知道自己在和机器人对话。",
+      "url": "https://x.com/swyx/status/2084156733027701164",
+      "tags": ["computer-use", "codex", "agents"]
+    },
+    {
+      "id": "peter-yang-hermes-curator",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Asked Nous Research co-founder Karan how Hermes avoids slop while building its own skills. The answer: a background task called Hermes Curator runs inside the agent on a schedule, cleaning up skills and memory by asking where the slop is and what can be made more efficient — and because it's open source, you can hand it your own definition of slop and it rewrites its own cleanup loop accordingly.",
+      "summaryZh": "向 Nous Research 联合创始人 Karan 提问：Hermes 在自行构建技能时如何避免产出垃圾内容。答案是：agent 内部有一个名为 Hermes Curator 的后台任务定期运行，通过追问\"垃圾在哪里、哪里还能更高效\"来清理技能和记忆。而且由于它是开源的，你可以给它你自己对\"垃圾\"的定义，它会据此重写自己的清理逻辑。",
+      "url": "https://x.com/petergyang/status/2083968605432267139",
+      "tags": ["skills", "memory", "open-source"]
+    },
+    {
+      "id": "karpathy-pelican-bicycle",
+      "kind": "x",
+      "author": "Andrej Karpathy",
+      "role": "",
+      "summary": "Followed up on the pelican-on-a-bicycle test from Simon Willison by uploading the source so it's playable in the browser and forkable, joking that GTA Hobbiton will drop before GTA VI.",
+      "summaryZh": "延续了 Simon Willison 的\"骑自行车的鹈鹕\"测试，把源码上传出来，让它可以直接在浏览器里运行、也可以 fork，并调侃说 GTA Hobbiton 会比 GTA VI 先发布。",
+      "url": "https://x.com/karpathy/status/2083948654377996480",
+      "tags": ["evals", "demo"]
+    },
+    {
+      "id": "garry-tan-growth-white-pill",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "Y Combinator President and CEO",
+      "summary": "Is leaning hard optimist: AI will create unimaginable economic growth, and that's \"the best white pill.\" Separately, on meritocracy — everyone mistakes the map for the territory, and in markets the outcome is the territory: did you make something people want?",
+      "summaryZh": "态度极为乐观：AI 将创造难以想象的经济增长，而这是\"最好的白色药丸\"。另外关于精英主义，他认为人们总是把地图误认为疆域，而在市场上，结果就是疆域：你做出了人们真正想要的东西吗？",
+      "url": "https://x.com/garrytan/status/2083957110711386439",
+      "tags": ["optimism", "markets"]
+    },
+    {
+      "id": "ryo-lu-post-app-design",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Cursor designer",
+      "summary": "Credits Rdio, Mailbox, and Apple as his early mentors — apps that invented patterns making software feel simpler and more intuitive to touch. His open question: as we leave the world of apps behind, which parts of software will remain visible, and how should they feel?",
+      "summaryZh": "把 Rdio、Mailbox 和 Apple 视为自己早期的老师——这些应用创造了让软件变得更简单、更直观可触的交互范式。他提出的问题是：当我们逐渐告别\"应用\"这个形态，软件还有哪些部分会保持可见，它们又该是什么手感？",
+      "url": "https://x.com/ryolu_/status/2083939454017053179",
+      "tags": ["design", "post-app"]
+    },
+    {
+      "id": "training-data-core-automation",
+      "kind": "podcast",
+      "author": "Training Data",
+      "role": "Jerry Tworek & Rohan Anil, Core Automation",
+      "title": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
+      "takeaway": "The bottleneck to smarter models is no longer scale — it's the transformer architecture itself, which fundamentally cannot learn after it leaves the lab.",
+      "takeawayZh": "更聪明的模型的瓶颈已不再是规模，而是 transformer 架构本身——它从根本上无法在离开实验室之后继续学习。",
+      "summary": "Jerry Tworek ran the strawberry and reasoning teams as a VP at OpenAI; Rohan Anil was one of the pre-training leads on Gemini and did fundamental research at Google Brain before Anthropic. Tworek was, by his own description, a reinforcement learning maximalist — convinced that once RL was scaled, everything would fall into place. \"If you ask Jerry in 2024, when do we get AGI? I would say 2025 will be that year.\" Then he watched model after model improve, every benchmark climb — and real-world tasks stubbornly fail to follow. His diagnosis: the evals and the training tasks were two sides of the same coin, while the real world is messier and was never in the distribution. That leads to the core claim: models must learn at test time, and transformers offer only two bad options — in-context learning, which is data-efficient but tiny (about twenty minutes of Codex use before he has to compact), or continuous fine-tuning, which brings catastrophic forgetting and poor data efficiency. Anil attacks it from the compute side — transformers are shallow, at most ~100 layers, and chain-of-thought is a band-aid for poor computational depth. He also argues pre-training and RL should be optimized end-to-end, which labs resist because they're competing on release cycles: \"tokens are not sticky.\" Their AGI bar is unusually concrete: \"For me, AGI is a model that can improve itself without human in the loop in any way.\" By that standard they're blunt that nobody is close — the human-LLM hybrid works well, LLMs alone don't.",
+      "summaryZh": "Jerry Tworek 曾任 OpenAI 副总裁，负责 strawberry 和推理团队；Rohan Anil 是 Gemini 预训练的负责人之一，此前在 Google Brain 做基础研究，之后去了 Anthropic。用他自己的话说，Tworek 曾是坚定的强化学习最大化主义者，深信只要把 RL 规模化，一切都会迎刃而解。\"如果你在 2024 年问 Jerry，我们什么时候能实现 AGI？我会说 2025 年就是那一年。\"然后他眼看着模型一代代变强、所有基准分数节节攀升——而真实世界的任务却迟迟没有跟上。他的诊断是：评测集和训练任务本就是一枚硬币的两面，而真实世界更混乱、更模糊，从来就不在那个分布里。由此引出核心论点：模型必须在测试时学习，而 transformer 只提供了两个糟糕的选项——上下文学习，数据效率高但容量极小（他用 Codex 大约二十分钟就得压缩上下文）；或持续微调，但会带来灾难性遗忘和极低的数据效率。Anil 则从算力角度切入——transformer 其实很\"浅\"，最多约 100 层，而思维链只是计算深度不足的创可贴。他还主张预训练和 RL 应当端到端联合优化，但各大实验室对此兴趣不大，因为它们在比拼发布周期：\"token 是没有粘性的。\"他们对 AGI 的定义异常具体：\"在我看来，AGI 是一个能够在完全没有人类参与的情况下自我改进的模型。\"以此为标准，他们直言无人接近——人类与 LLM 的组合非常成功，而单独的 LLM 则远远不行。",
+      "url": "https://www.youtube.com/watch?v=2RJiaf0SY8s",
+      "tags": ["architecture", "continual-learning", "agi", "transformers"]
+    }
+  ]
+}

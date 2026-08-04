@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-08-03T18:00:00Z",
+  "digests": [
+    {
+      "date": "2026-08-03",
+      "title": "Levie on verifiability, Rauch's company-wide agent, transformers topping out",
+      "itemCount": 12,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Box CEO Aaron Levie: the most verifiable work automates first, not the easiest",
+        "Vercel CEO Guillermo Rauch runs every internal job through one agent-router",
+        "Core Automation's founders argue the transformer, not scale, is now the bottleneck"
+      ]
+    }
+  ]
+}

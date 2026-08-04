@@ -77,6 +77,10 @@ git push
 ```
 GitHub Pages redeploys automatically (~1 min). **Only touch this repo** — never the french-voice-tutor repo.
 
+Stage **only `news/`**. This site has a second section (`builders/`, see
+`/builders-digest`) that the same nightly run publishes in a separate pass, so a
+`git add -A` here can sweep that pass's in-progress work into this commit.
+
 ## Step 6 — Recap
 
 In chat, give the user a short bulleted recap of the day's highlights (title + the one-line why-it-matters) and the live Pages URL. Flag anything you think is high-signal for the tutor (e.g. a cheaper voice model or a Duolingo feature worth copying).
@@ -84,3 +88,7 @@ In chat, give the user a short bulleted recap of the day's highlights (title + t
 ## Notes
 - If a search returns nothing fresh for a bucket, that's fine — don't pad with stale or irrelevant items. Fewer, sharper items beat filler.
 - The UI reads whatever is in `news/`; you never edit `index.html` / `app.js` to add content.
+- **Sibling section:** `/builders-digest` fills the site's *AI Builders* tab from
+  `builders/`. Same repo, same website, same 2:23 AM LaunchAgent — two passes of
+  one run (`~/.local/bin/news-radar-digest.sh`). This skill owns `news/` only;
+  never write into `builders/`.

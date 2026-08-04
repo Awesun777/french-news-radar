@@ -1,23 +1,57 @@
+/* ─── Palette ────────────────────────────────────────────────────────────────
+ * Shared with the French voice tutor, so the two properties read as one family:
+ *   navy #173F6B · burgundy #A63D4A · friendly blue #5CA8D6 · pale blue #DCECF8
+ *   rose mist #F4E0E3 · warm cream #FFF8ED · charcoal #252321 · muted gray #6F6A64
+ *
+ * Each accent also carries an `-rgb` triple. The tint rules below (chip fills,
+ * category tags) need the same hue at low alpha, and hardcoding channel values
+ * in a dozen rgba() calls is what made the old dark palette painful to change —
+ * with the triples, swapping a hue is a one-line edit here.
+ */
 :root {
-  --bg: #0b0f17;
-  --bg-elev: #121826;
-  --card: #141b2b;
-  --card-hover: #182034;
-  --border: #24304a;
-  --border-soft: #1c2740;
-  --fg: #e8ecf6;
-  --muted: #97a3bd;
-  --faint: #6b7794;
-  --primary: #6ea8fe;
-  --primary-soft: rgba(110, 168, 254, 0.14);
-  --accent-models: #6ea8fe;
-  --accent-apps: #f472b6;
-  --accent-inspiration: #34d399;
-  --accent-general: #a78bfa;
-  --amber: #fbbf24;
+  --bg: #FFF8ED;              /* warm cream */
+  --bg-elev: #FBF2E4;         /* a shade deeper, for insets and tags */
+  --card: #FFFFFF;
+  --card-hover: #FDF7EE;
+  --border: #CBD9E6;          /* pale blue */
+  --border-soft: #EFE2CE;     /* warm, for rules that shouldn't read as blue */
+  --fg: #252321;              /* charcoal */
+  --muted: #6F6A64;           /* muted gray */
+  /* Darker than a straight lightening of muted gray would be: --faint carries
+   * the `.source` label and the search placeholder, which are real text, so it
+   * has to clear 4.5:1 on white (4.63) rather than merely look recessive. */
+  --faint: #7A746B;
+
+  --primary: #173F6B;         /* navy */
+  --primary-rgb: 23 63 107;
+  --primary-soft: rgb(23 63 107 / 0.09);
+
+  /* Friendly blue #5CA8D6 is a fill colour and fails AA as text on cream; this
+   * is the same hue darkened, which the tutor uses for exactly this reason. */
+  --accent-models: #22648C;
+  --accent-models-rgb: 34 100 140;
+  --accent-apps: #A63D4A;             /* burgundy */
+  --accent-apps-rgb: 166 61 74;
+  --accent-inspiration: #4A7C59;      /* green */
+  --accent-inspiration-rgb: 74 124 89;
+  /* General AI is the deprioritized bucket, always pinned last — muted gray
+   * says that without competing with the three signal colours. */
+  --accent-general: #6F6A64;
+  --accent-general-rgb: 111 106 100;
+
+  /* The tutor's star gold #A6741A only reaches 4.09:1 on white. Here it labels
+   * "Why it matters" at 13px bold — under the large-text threshold, so it needs
+   * the full 4.5. Same hue, one step down (4.55). */
+  --amber: #9C6D18;
+  --amber-rgb: 156 109 24;
+
   --radius: 14px;
-  --shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-  color-scheme: dark;
+  /* Cards float rather than being outlined, matching the tutor: white on cream
+   * is too close in value for a stroke to do the separating, and a navy-tinted
+   * shadow keeps the warmth a neutral gray one would muddy. */
+  --shadow: 0 2px 10px -4px rgb(23 63 107 / 0.18);
+  --shadow-hover: 0 10px 28px -10px rgb(23 63 107 / 0.30);
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -26,9 +60,10 @@ html, body { margin: 0; padding: 0; }
 
 body {
   background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(110, 168, 254, 0.08), transparent 60%),
-    radial-gradient(900px 500px at 0% 0%, rgba(244, 114, 182, 0.06), transparent 55%),
+    radial-gradient(1200px 600px at 80% -10%, rgb(var(--primary-rgb) / 0.055), transparent 60%),
+    radial-gradient(900px 500px at 0% 0%, rgb(var(--accent-apps-rgb) / 0.04), transparent 55%),
     var(--bg);
+  background-attachment: fixed;
   color: var(--fg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -43,7 +78,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(11, 15, 23, 0.82);
+  background: rgb(255 248 237 / 0.85);
   backdrop-filter: saturate(160%) blur(14px);
   border-bottom: 1px solid var(--border-soft);
 }
@@ -139,10 +174,10 @@ body {
 .chip:hover { background: var(--card-hover); color: var(--fg); }
 .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
 .chip[data-active="true"] { color: var(--fg); border-color: transparent; }
-.chip[data-cat="models"][data-active="true"] { background: rgba(110,168,254,.16); border-color: rgba(110,168,254,.5); }
-.chip[data-cat="apps"][data-active="true"] { background: rgba(244,114,182,.16); border-color: rgba(244,114,182,.5); }
-.chip[data-cat="inspiration"][data-active="true"] { background: rgba(52,211,153,.16); border-color: rgba(52,211,153,.5); }
-.chip[data-cat="general"][data-active="true"] { background: rgba(167,139,250,.16); border-color: rgba(167,139,250,.5); }
+.chip[data-cat="models"][data-active="true"] { background: rgb(var(--accent-models-rgb) / .13); border-color: rgb(var(--accent-models-rgb) / .45); }
+.chip[data-cat="apps"][data-active="true"] { background: rgb(var(--accent-apps-rgb) / .13); border-color: rgb(var(--accent-apps-rgb) / .45); }
+.chip[data-cat="inspiration"][data-active="true"] { background: rgb(var(--accent-inspiration-rgb) / .13); border-color: rgb(var(--accent-inspiration-rgb) / .45); }
+.chip[data-cat="general"][data-active="true"] { background: rgb(var(--accent-general-rgb) / .13); border-color: rgb(var(--accent-general-rgb) / .45); }
 .chip[data-cat="all"][data-active="true"] { background: var(--primary-soft); border-color: var(--primary); }
 
 /* Feed */
@@ -176,14 +211,18 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 
 .card {
   background: var(--card);
-  border: 1px solid var(--border-soft);
   border-radius: var(--radius);
   padding: 16px 18px;
   margin-bottom: 12px;
-  transition: border-color .15s, background .15s, transform .05s;
+  box-shadow: var(--shadow);
+  transition: box-shadow .2s ease, transform .2s ease;
   border-left: 3px solid var(--border);
 }
-.card:hover { background: var(--card-hover); border-color: var(--border); }
+.card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+@media (prefers-reduced-motion: reduce) {
+  .card { transition: box-shadow .2s ease; }
+  .card:hover { transform: none; }
+}
 .card[data-cat="models"] { border-left-color: var(--accent-models); }
 .card[data-cat="apps"] { border-left-color: var(--accent-apps); }
 .card[data-cat="inspiration"] { border-left-color: var(--accent-inspiration); }
@@ -207,10 +246,10 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
   padding: 3px 8px; border-radius: 6px;
 }
-.cat-tag[data-cat="models"] { background: rgba(110,168,254,.15); color: var(--accent-models); }
-.cat-tag[data-cat="apps"] { background: rgba(244,114,182,.15); color: var(--accent-apps); }
-.cat-tag[data-cat="inspiration"] { background: rgba(52,211,153,.15); color: var(--accent-inspiration); }
-.cat-tag[data-cat="general"] { background: rgba(167,139,250,.15); color: var(--accent-general); }
+.cat-tag[data-cat="models"] { background: rgb(var(--accent-models-rgb) / .12); color: var(--accent-models); }
+.cat-tag[data-cat="apps"] { background: rgb(var(--accent-apps-rgb) / .12); color: var(--accent-apps); }
+.cat-tag[data-cat="inspiration"] { background: rgb(var(--accent-inspiration-rgb) / .12); color: var(--accent-inspiration); }
+.cat-tag[data-cat="general"] { background: rgb(var(--accent-general-rgb) / .12); color: var(--accent-general); }
 .source { color: var(--faint); font-size: 12.5px; }
 .card-date { color: var(--faint); font-size: 12.5px; margin-left: auto; }
 
@@ -223,12 +262,12 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 
 .why {
   display: flex; gap: 8px;
-  background: rgba(251, 191, 36, 0.07);
-  border: 1px solid rgba(251, 191, 36, 0.18);
+  background: rgb(var(--amber-rgb) / 0.07);
+  border: 1px solid rgb(var(--amber-rgb) / 0.22);
   border-radius: 10px;
   padding: 9px 12px;
   font-size: 13px;
-  color: #f2dfb0;
+  color: var(--fg);
   margin: 0 0 10px;
 }
 .why b { color: var(--amber); font-weight: 700; flex-shrink: 0; }
@@ -251,4 +290,98 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   .card-thumb { width: 84px; height: 60px; }
   .datenav select { flex: 1 1 auto; }
   .brand h1 { font-size: 18px; }
+}
+
+/* ─── Section nav (Radar / AI Builders) ──────────────────────────────────────
+ * A WSJ-style masthead nav: the sections sit on one rule under the brand, and
+ * the active one is marked by an underline that overlaps that rule rather than
+ * by a filled pill — the chips below already use pills for category filters,
+ * and reusing them here would blur "which section am I in" with "what am I
+ * filtering by". */
+.sections {
+  display: flex;
+  gap: 22px;
+  margin-top: 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+.section-tab {
+  position: relative;
+  background: none;
+  border: 0;
+  padding: 0 0 10px;
+  margin-bottom: -1px;
+  color: var(--muted);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: .01em;
+  cursor: pointer;
+  transition: color .15s ease;
+}
+.section-tab:hover { color: var(--fg); }
+.section-tab[data-active="true"] { color: var(--fg); }
+.section-tab[data-active="true"]::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px 2px 0 0;
+}
+.section-tab:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ─── Builders cards ─────────────────────────────────────────────────────── */
+/* Builders cards carry `data-kind`, not `data-cat`, so without these they fall
+ * back to the neutral stripe and read as an unexplained blue edge. */
+.card[data-kind="x"] { border-left-color: var(--accent-models); }
+.card[data-kind="podcast"] { border-left-color: var(--accent-apps); }
+.card[data-kind="blog"] { border-left-color: var(--accent-inspiration); }
+
+.cat-tag[data-kind="x"] { background: rgb(var(--accent-models-rgb) / .12); color: var(--accent-models); }
+.cat-tag[data-kind="podcast"] { background: rgb(var(--accent-apps-rgb) / .12); color: var(--accent-apps); }
+.cat-tag[data-kind="blog"] { background: rgb(var(--accent-inspiration-rgb) / .12); color: var(--accent-inspiration); }
+
+/* The person is the headline in this feed, so the name carries the weight a
+ * title would carry on a Radar card. */
+.builder-who { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+.builder-name { font-size: 16px; font-weight: 700; letter-spacing: -0.01em; color: var(--fg); }
+.builder-role { font-size: 12.5px; color: var(--muted); }
+.builder-card h3 { font-size: 15px; margin: 0 0 8px; line-height: 1.35; }
+
+.takeaway b { color: var(--primary); }
+
+/* Chinese runs a touch larger — at the same px size it reads smaller than the
+ * Latin text beside it, and in "Both" mode the two sit directly adjacent. */
+.summary-zh {
+  font-size: 14.5px;
+  line-height: 1.75;
+  opacity: .86;
+  padding-top: 2px;
+  border-top: 1px dashed var(--border-soft);
+  margin-top: 10px;
+}
+
+.builder-link { margin: 2px 0 10px; }
+.builder-link a {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+.builder-link a:hover { text-decoration: underline; }
+
+.lang-chip { font-weight: 700; letter-spacing: .02em; }
+.lang-chip[data-active="true"] {
+  background: var(--primary-soft);
+  border-color: rgb(var(--primary-rgb) / .4);
+  color: var(--fg);
+}
+
+@media (max-width: 560px) {
+  .sections { gap: 16px; }
+  .section-tab { font-size: 13px; }
 }

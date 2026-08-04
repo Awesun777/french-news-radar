@@ -14,24 +14,71 @@ const CATEGORIES = [
 // inspiration) render first; `general` AI-tech filler is always pinned last.
 const GENERAL = "general";
 
-const state = {
-  items: [],        // flattened, each carries .date
-  activeCat: "all",
-  activeDate: "all", // "all" or a YYYY-MM-DD key from the date navigator
-  dates: [],         // available date keys, newest-first
-  query: "",
-  meta: null,
+// The two sections behave the same way — same search box, same date navigator,
+// same card grid — but read different feeds and filter on different axes, so
+// each keeps its own slice of state and they never clobber each other's
+// filters when you switch tabs.
+const SECTIONS = {
+  radar: {
+    label: "Radar",
+    dir: "news",
+    tagline: "AI models · voice · video · language-learning — curated for the French tutor",
+    empty: "No digests yet. Run the /news-digest skill to generate the first one.",
+    skill: "/news-digest",
+  },
+  builders: {
+    label: "AI Builders",
+    dir: "builders",
+    tagline: "What the people actually building AI are saying — from X and podcasts",
+    empty: "No builder digests yet. Run the /follow-builders skill to generate the first one.",
+    skill: "/follow-builders",
+  },
 };
+
+// Builders items are filtered by source kind rather than by news category.
+const KINDS = [
+  { id: "all", label: "All", dot: null },
+  { id: "x", label: "X / Twitter", dot: "var(--accent-models)" },
+  { id: "podcast", label: "Podcasts", dot: "var(--accent-apps)" },
+  { id: "blog", label: "Blogs", dot: "var(--accent-inspiration)" },
+];
+
+const LANGS = [
+  { id: "en", label: "EN" },
+  { id: "zh", label: "中文" },
+  { id: "both", label: "Both" },
+];
+
+function blankSection() {
+  return { items: [], meta: null, dates: [], activeDate: "all", loaded: false, failed: false };
+}
+
+const state = {
+  section: "radar",
+  query: "",                 // shared: searching persists across tabs
+  activeCat: "all",          // radar only
+  activeKind: "all",         // builders only
+  lang: "en",                // builders only
+  radar: blankSection(),
+  builders: blankSection(),
+};
+
+// Shorthand for the currently-visible section's slice.
+const cur = () => state[state.section];
 
 const el = {
   status: document.getElementById("status"),
   feed: document.getElementById("feed"),
   chips: document.getElementById("chips"),
+  langToggle: document.getElementById("langtoggle"),
+  sections: document.getElementById("sections"),
+  tagline: document.getElementById("tagline"),
   search: document.getElementById("search"),
   dateNav: document.getElementById("date-nav"),
   datePrev: document.getElementById("date-prev"),
   dateNext: document.getElementById("date-next"),
   footerMeta: document.getElementById("footer-meta"),
+  footerSkill: document.getElementById("footer-skill"),
 };
 
 // ---------- date helpers ----------
@@ -65,39 +112,75 @@ async function getJSON(url) {
   return res.json();
 }
 
-async function load() {
+// Load one section's feed. Sections load lazily — opening the site only fetches
+// the Radar, and the Builders files are pulled the first time you switch to it.
+async function loadSection(name) {
+  const conf = SECTIONS[name];
+  const slice = state[name];
+  if (slice.loaded || slice.failed) return;
+
   let index;
   try {
-    index = await getJSON("./news/index.json");
-  } catch (e) {
-    el.status.textContent = "No digests yet. Run the /news-digest skill to generate the first one.";
+    index = await getJSON(`./${conf.dir}/index.json`);
+  } catch {
+    slice.failed = true;
     return;
   }
-  state.meta = index;
+  slice.meta = index;
   const digests = Array.isArray(index.digests) ? [...index.digests].sort(sortKeyDesc) : [];
-  if (!digests.length) {
-    el.status.textContent = "No digests yet. Run the /news-digest skill to generate the first one.";
-    return;
-  }
+  if (!digests.length) { slice.failed = true; return; }
 
   // Fetch every day's file in parallel; tolerate individual failures.
   const days = await Promise.all(
     digests.map((d) =>
-      getJSON(`./news/${d.date}.json`)
+      getJSON(`./${conf.dir}/${d.date}.json`)
         .then((day) => (day.items || []).map((it) => ({ ...it, date: it.date || d.date })))
         .catch(() => [])
     )
   );
-  state.items = days.flat();
+  slice.items = days.flat();
+  slice.loaded = true;
+  if (!slice.items.length) slice.failed = true;
+}
 
-  if (!state.items.length) {
-    el.status.textContent = "Digests are listed but no items could be loaded.";
+// Show a section: load on demand, then repaint every control that depends on it.
+async function showSection(name) {
+  if (!SECTIONS[name]) name = "radar";
+  state.section = name;
+  el.tagline.textContent = SECTIONS[name].tagline;
+  el.footerSkill.textContent = SECTIONS[name].skill;
+  for (const b of el.sections.querySelectorAll(".section-tab")) {
+    const on = b.dataset.section === name;
+    b.dataset.active = String(on);
+    if (on) b.setAttribute("aria-current", "true");
+    else b.removeAttribute("aria-current");
+  }
+  // The language toggle is meaningful only for the bilingual builders feed.
+  el.langToggle.hidden = name !== "builders";
+
+  const slice = state[name];
+  if (!slice.loaded && !slice.failed) {
+    el.feed.hidden = true;
+    el.status.hidden = false;
+    el.status.textContent = "Loading…";
+    await loadSection(name);
+  }
+
+  if (slice.failed || !slice.items.length) {
+    el.feed.hidden = true;
+    el.status.hidden = false;
+    el.status.textContent = SECTIONS[name].empty;
+    renderChips();
+    renderLangToggle();
+    el.footerMeta.textContent = "";
+    syncHeadHeight();
     return;
   }
 
   el.status.hidden = true;
   el.feed.hidden = false;
   renderChips();
+  renderLangToggle();
   buildDateNav();
   renderFooter();
   render();
@@ -107,22 +190,43 @@ async function load() {
 // ---------- rendering ----------
 function renderChips() {
   el.chips.innerHTML = "";
-  for (const c of CATEGORIES) {
+  const builders = state.section === "builders";
+  const list = builders ? KINDS : CATEGORIES;
+  const active = builders ? state.activeKind : state.activeCat;
+  for (const c of list) {
     const b = document.createElement("button");
     b.className = "chip";
     b.dataset.cat = c.id;
-    b.dataset.active = String(state.activeCat === c.id);
+    b.dataset.active = String(active === c.id);
     b.innerHTML = (c.dot ? `<span class="dot" style="background:${c.dot}"></span>` : "") + c.label;
-    b.addEventListener("click", () => { state.activeCat = c.id; renderChips(); render(); });
+    b.addEventListener("click", () => {
+      if (builders) state.activeKind = c.id; else state.activeCat = c.id;
+      renderChips();
+      render();
+    });
     el.chips.appendChild(b);
+  }
+}
+
+function renderLangToggle() {
+  el.langToggle.innerHTML = "";
+  if (state.section !== "builders") return;
+  for (const l of LANGS) {
+    const b = document.createElement("button");
+    b.className = "chip lang-chip";
+    b.dataset.active = String(state.lang === l.id);
+    b.textContent = l.label;
+    b.addEventListener("click", () => { state.lang = l.id; renderLangToggle(); render(); });
+    el.langToggle.appendChild(b);
   }
 }
 
 // Date navigator: a dropdown of every available day (newest-first) + prev/next arrows.
 function buildDateNav() {
-  const dates = [...new Set(state.items.map((i) => i.date))].filter(isDateKey).sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
-  state.dates = dates;
-  if (state.activeDate !== "all" && !dates.includes(state.activeDate)) state.activeDate = "all";
+  const s = cur();
+  const dates = [...new Set(s.items.map((i) => i.date))].filter(isDateKey).sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
+  s.dates = dates;
+  if (s.activeDate !== "all" && !dates.includes(s.activeDate)) s.activeDate = "all";
   const opts = [`<option value="all">All dates (${dates.length})</option>`].concat(
     dates.map((d) => {
       const rel = relLabel(d);
@@ -130,7 +234,7 @@ function buildDateNav() {
     })
   );
   el.dateNav.innerHTML = opts.join("");
-  el.dateNav.value = state.activeDate;
+  el.dateNav.value = s.activeDate;
   const only = dates.length <= 1;
   el.datePrev.disabled = only;
   el.dateNext.disabled = only;
@@ -138,12 +242,13 @@ function buildDateNav() {
 
 // Step the navigator through the (newest-first) date list. dir +1 = older, -1 = newer.
 function stepDate(dir) {
-  if (!state.dates.length) return;
-  let idx = state.dates.indexOf(state.activeDate);
+  const s = cur();
+  if (!s.dates.length) return;
+  let idx = s.dates.indexOf(s.activeDate);
   if (idx === -1) idx = 0; // coming from "All dates" → jump to the newest day
-  else idx = Math.min(state.dates.length - 1, Math.max(0, idx + dir));
-  state.activeDate = state.dates[idx];
-  el.dateNav.value = state.activeDate;
+  else idx = Math.min(s.dates.length - 1, Math.max(0, idx + dir));
+  s.activeDate = s.dates[idx];
+  el.dateNav.value = s.activeDate;
   render();
 }
 
@@ -154,18 +259,27 @@ function syncHeadHeight() {
 }
 
 function renderFooter() {
-  const n = state.items.length;
-  const days = state.meta?.digests?.length ?? 0;
-  const gen = state.meta?.generatedAt ? new Date(state.meta.generatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : null;
+  const s = cur();
+  const n = s.items.length;
+  const days = s.meta?.digests?.length ?? 0;
+  const gen = s.meta?.generatedAt ? new Date(s.meta.generatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : null;
   el.footerMeta.textContent = `${n} item${n === 1 ? "" : "s"} across ${days} day${days === 1 ? "" : "s"}` + (gen ? ` · updated ${gen}` : "");
 }
 
 function matches(it) {
-  if (state.activeCat !== "all" && it.category !== state.activeCat) return false;
-  if (state.activeDate !== "all" && it.date !== state.activeDate) return false;
+  if (cur().activeDate !== "all" && it.date !== cur().activeDate) return false;
+  const builders = state.section === "builders";
+  if (builders) {
+    if (state.activeKind !== "all" && (it.kind || "x") !== state.activeKind) return false;
+  } else if (state.activeCat !== "all" && it.category !== state.activeCat) {
+    return false;
+  }
   const q = state.query.trim().toLowerCase();
   if (!q) return true;
-  const hay = [it.title, it.summary, it.whyItMatters, it.source, ...(it.tags || [])].join(" ").toLowerCase();
+  // Chinese text is searchable too, so a 中文 query finds the same card.
+  const hay = builders
+    ? [it.author, it.role, it.title, it.takeaway, it.summary, it.summaryZh, it.takeawayZh, ...(it.tags || [])].join(" ").toLowerCase()
+    : [it.title, it.summary, it.whyItMatters, it.source, ...(it.tags || [])].join(" ").toLowerCase();
   return q.split(/\s+/).every((t) => hay.includes(t));
 }
 
@@ -218,8 +332,69 @@ function cardHTML(it, opts = {}) {
   </article>`;
 }
 
+// Builders cards lead with the person, not the headline — you scan this feed by
+// "who said something today", so the author and their role are the anchor and
+// the summary hangs underneath.
+function builderCardHTML(it, opts = {}) {
+  const kind = ["x", "podcast", "blog"].includes(it.kind) ? it.kind : "x";
+  const kindLabel = { x: "X / Twitter", podcast: "Podcast", blog: "Blog" }[kind];
+  const dateBadge = opts.showDate ? `<span class="result-date-badge">${esc(fmtFullDate(it.date))}</span>` : "";
+  const tags = (it.tags || []).map((t) => `<span class="tag">${esc(t)}</span>`).join("");
+
+  const wantEn = state.lang === "en" || state.lang === "both";
+  const wantZh = state.lang === "zh" || state.lang === "both";
+  // Fall back to whichever language exists, so a card is never blank.
+  const en = it.summary || it.summaryZh || "";
+  const zh = it.summaryZh || it.summary || "";
+  const takeEn = it.takeaway || it.takeawayZh || "";
+  const takeZh = it.takeawayZh || it.takeaway || "";
+
+  const takeaway = takeEn
+    ? `<div class="why takeaway">
+        <b>The Takeaway</b>
+        <span>${wantEn ? esc(takeEn) : ""}${wantEn && wantZh ? "<br>" : ""}${wantZh ? esc(takeZh) : ""}</span>
+      </div>`
+    : "";
+
+  let body = "";
+  if (wantEn && en) body += `<p class="summary">${esc(en)}</p>`;
+  if (wantZh && zh) body += `<p class="summary summary-zh" lang="zh">${esc(zh)}</p>`;
+
+  // Podcasts get a real title line; tweets are titled by their author.
+  const heading = kind === "podcast" && it.title
+    ? `<h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>`
+    : "";
+  const embed = kind === "podcast" ? youtubeEmbed(it.url) : null;
+  const video = embed
+    ? `<div class="video-wrap"><iframe src="${embed}" title="${esc(it.title || "episode")}" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>`
+    : "";
+
+  return `<article class="card builder-card" data-kind="${kind}">
+    <div class="card-top">
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="cat-tag" data-kind="${kind}">${kindLabel}</span>
+          ${dateBadge}
+        </div>
+        <div class="builder-who">
+          <span class="builder-name">${esc(it.author || "")}</span>
+          ${it.role ? `<span class="builder-role">${esc(it.role)}</span>` : ""}
+        </div>
+        ${heading}
+        ${takeaway}
+        ${body}
+        ${video}
+        ${it.url ? `<div class="builder-link"><a href="${esc(it.url)}" target="_blank" rel="noopener">${kind === "podcast" ? "Watch episode" : "Read on X"} →</a></div>` : ""}
+        ${tags ? `<div class="tags">${tags}</div>` : ""}
+      </div>
+    </div>
+  </article>`;
+}
+
 function render() {
-  const visible = state.items.filter(matches);
+  const isBuilders = state.section === "builders";
+  const card = isBuilders ? builderCardHTML : cardHTML;
+  const visible = cur().items.filter(matches);
   const searching = !!state.query.trim();
 
   if (!visible.length) {
@@ -230,7 +405,7 @@ function render() {
   if (searching) {
     // Flat, newest-first, with a date badge on each card.
     const flat = [...visible].sort(sortKeyDesc);
-    el.feed.innerHTML = `<div class="date-group">${flat.map((it) => cardHTML(it, { showDate: true })).join("")}</div>`;
+    el.feed.innerHTML = `<div class="date-group">${flat.map((it) => card(it, { showDate: true })).join("")}</div>`;
     return;
   }
 
@@ -242,9 +417,12 @@ function render() {
   }
   const keys = [...groups.keys()].sort((a, b) => (a < b ? 1 : a > b ? -1 : 0));
   el.feed.innerHTML = keys.map((k) => {
-    // Stable partition: priority items keep their authored order, general AI last.
     const items = groups.get(k);
-    const ordered = [...items.filter((it) => it.category !== GENERAL), ...items.filter((it) => it.category === GENERAL)];
+    // Radar pins `general` AI filler last; builders lead with X and close with
+    // the long-form podcast, which reads better than the authored order.
+    const ordered = isBuilders
+      ? [...items.filter((it) => (it.kind || "x") !== "podcast"), ...items.filter((it) => it.kind === "podcast")]
+      : [...items.filter((it) => it.category !== GENERAL), ...items.filter((it) => it.category === GENERAL)];
     const rel = relLabel(k);
     return `<section class="date-group">
       <div class="date-head">
@@ -252,7 +430,7 @@ function render() {
         ${rel ? `<span class="date-rel">${rel}</span>` : ""}
         <span class="count">${ordered.length} item${ordered.length === 1 ? "" : "s"}</span>
       </div>
-      ${ordered.map((it) => cardHTML(it)).join("")}
+      ${ordered.map((it) => card(it)).join("")}
     </section>`;
   }).join("");
 }
@@ -269,9 +447,29 @@ el.search.addEventListener("input", (e) => {
   searchTimer = setTimeout(() => { state.query = v; render(); }, 90);
 });
 
-el.dateNav.addEventListener("change", (e) => { state.activeDate = e.target.value; render(); });
+el.dateNav.addEventListener("change", (e) => { cur().activeDate = e.target.value; render(); });
 el.datePrev.addEventListener("click", () => stepDate(1));   // older
 el.dateNext.addEventListener("click", () => stepDate(-1));  // newer
 window.addEventListener("resize", syncHeadHeight);
 
-load();
+// Sections are hash-routed so a tab is linkable and survives a refresh.
+el.sections.addEventListener("click", (e) => {
+  const btn = e.target.closest(".section-tab");
+  if (!btn) return;
+  const name = btn.dataset.section;
+  if (name === state.section) return;
+  location.hash = name === "radar" ? "" : `#${name}`;
+  showSection(name);
+});
+
+function sectionFromHash() {
+  const h = location.hash.replace(/^#\/?/, "");
+  return SECTIONS[h] ? h : "radar";
+}
+
+window.addEventListener("hashchange", () => {
+  const name = sectionFromHash();
+  if (name !== state.section) showSection(name);
+});
+
+showSection(sectionFromHash());
