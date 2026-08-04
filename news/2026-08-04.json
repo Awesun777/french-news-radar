@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-04",
+  "items": [
+    {
+      "id": "openai-astra-ten-math-advances",
+      "category": "models",
+      "title": "OpenAI teases Astra, its next major model, via ten solved open math problems",
+      "summary": "OpenAI revealed on August 1 that an internal version of Astra — described as its \"next major model family,\" built to coordinate multiple agents on a problem for hours or days — generated verified solutions to ten long-standing open problems in mathematics and theoretical computer science, including a non-sofic group construction and three Erdős problems, each unsolved for at least a decade. Every proof ships with a zero-\"sorry\" Lean 4 formalization on GitHub, and OpenAI says the total compute cost across all ten was about $2,000 at Sol API rates.",
+      "whyItMatters": "Astra is pitched as a long-horizon, multi-agent reasoning model rather than a chat model — worth watching for whether that architecture (or a distilled version) could eventually power deeper lesson-planning or error-diagnosis reasoning behind Romain/Anna, separate from the realtime voice layer itself.",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source": "OpenAI",
+      "tags": ["llm", "reasoning", "openai", "research"]
+    },
+    {
+      "id": "microsoft-project-perception-public-preview",
+      "category": "general",
+      "title": "Microsoft's agentic security system Project Perception enters public preview",
+      "summary": "Project Perception, Microsoft's AI cybersecurity platform first detailed July 27, opened public preview on August 3. It coordinates red (attack-path mapping), blue (risk triage), and green (remediation) agent teams alongside a new in-house model, MAI-Cyber-1-Flash, which Microsoft says scores 96% on the CyberGym benchmark — 12 points ahead of Anthropic's Mythos — at roughly half the cost by routing most work to a cheaper specialist model and escalating only hard cases.",
+      "whyItMatters": "The task-routed, cheap-specialist-first architecture (and the red/blue/green agent split) is a reusable cost pattern for any Romain/Anna pipeline step that doesn't need a frontier model on every turn.",
+      "url": "https://www.microsoft.com/en-us/security/business/ai-powered-cybersecurity/project-perception-agentic-system",
+      "source": "Microsoft",
+      "tags": ["agentic", "security", "pricing", "microsoft"]
+    },
+    {
+      "id": "yellowai-bluerock-spac-nexus-vox",
+      "category": "general",
+      "title": "Yellow.ai to go public via $550M SPAC merger, powered by its Nexus Vox voice agents",
+      "summary": "Enterprise agentic-AI company Yellow.ai announced on August 3 a definitive merger with Bluerock Acquisition Corp. (Nasdaq: BLRK) that will take it public at a roughly $550M pro forma equity value, with over $200M in expected gross proceeds. The release names Nexus Vox — low-latency, human-like voice agents in 135+ languages — as Yellow.ai's fastest-growing product, handling a share of the company's 16 billion annual conversations.",
+      "whyItMatters": "A public listing built around a 135-language low-latency voice-agent product is a market signal that enterprise buyers now expect real-time multilingual voice as table stakes — the same bar Romain and Anna are competing against outside the language-learning niche.",
+      "url": "https://www.prnewswire.com/news-releases/yellowai-a-global-leader-in-enterprise-agentic-ai-to-go-public-via-550-million-merger-with-bluerock-acquisition-corp-nasdaq-blrk-302840634.html",
+      "source": "PR Newswire",
+      "tags": ["voice", "funding", "realtime", "multilingual"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-03T06:14:52Z",
+  "generatedAt": "2026-08-04T07:08:22Z",
   "digests": [
+    {
+      "date": "2026-08-04",
+      "title": "OpenAI teases Astra via ten math proofs, Yellow.ai's SPAC bet on voice",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "OpenAI reveals Astra, its next major model, by publishing ten solved decade-old math problems",
+        "Microsoft's agentic security system Project Perception opens public preview",
+        "Yellow.ai to go public via $550M SPAC merger, led by its 135-language Nexus Vox voice agents"
+      ]
+    },
     {
       "date": "2026-08-03",
       "title": "AI provenance laws go live, Suno loses in Munich",
