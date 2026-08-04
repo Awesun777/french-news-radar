@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-04",
+  "items": [
+    {
+      "id": "guillermo-rauch-agent-router-analogy",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Expands on his internal-agent push with the architecture logic behind it: before centralizing, Vercel had \"dozens\" of separately deployed agents, which he compares to every service getting its own domain name — bad UX. His fix models the internal agent, v, like a monorepo: one default front door, with an \"escape hatch\" to proxy work to other agents over the network when needed, while a few purpose-built agents earn their own \"subdomain.\" His rule of thumb: when in doubt, just talk to v.",
+      "summaryZh": "补充了他内部 agent 战略背后的架构逻辑：在集中化之前，Vercel 内部曾有\"几十个\"各自部署的 agent，他把这比作每个服务都有自己的域名，体验很差。他的解决方案是把内部 agent v 设计得像一个 monorepo：默认只有一个入口，但保留一个\"逃生舱\"，可以在需要时把任务代理给网络上的其他 agent，只有真正值得拥有独立入口的 purpose-built agent，才会获得类似\"子域名\"的待遇。他的经验法则是：如果不确定该找谁，直接问 v 就好。",
+      "url": "https://x.com/rauchg/status/2084060157085143512",
+      "tags": ["agents", "architecture", "internal-tools"]
+    },
+    {
+      "id": "dan-shipper-ought-implies-can",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "Every CEO",
+      "summary": "Extends his \"agency rupture\" framework into ethics: because \"ought implies can\" in moral philosophy, and technology keeps expanding what humans are capable of, technology must also be reshaping what we consider our obligations. His claim is that AI should be expected to shift our moral intuitions at the same pace it shifts our abilities, rather than being treated as a purely technical, ethics-free change.",
+      "summaryZh": "把他的\"agency rupture\"框架延伸到了伦理领域：既然道德哲学中\"应然蕴含能然\"（ought implies can），而技术又在不断扩展人类能力的边界，那么技术也必然在重塑我们认为自己\"应该\"做什么的判断。他的观点是：我们应该预期 AI 会以和它改变人类能力同样的速度，改变我们的道德直觉，而不是把这当作一个与伦理无关的、单纯的技术变化。",
+      "url": "https://x.com/danshipper/status/2084024211539116466",
+      "tags": ["ethics", "philosophy", "ai-economy"]
+    }
+  ]
+}
