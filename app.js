@@ -69,10 +69,9 @@ const cur = () => state[state.section];
 const el = {
   status: document.getElementById("status"),
   feed: document.getElementById("feed"),
-  chips: document.getElementById("chips"),
+  catNav: document.getElementById("cat-nav"),
   langToggle: document.getElementById("langtoggle"),
   sections: document.getElementById("sections"),
-  tagline: document.getElementById("tagline"),
   search: document.getElementById("search"),
   dateNav: document.getElementById("date-nav"),
   datePrev: document.getElementById("date-prev"),
@@ -147,7 +146,7 @@ async function loadSection(name) {
 async function showSection(name) {
   if (!SECTIONS[name]) name = "radar";
   state.section = name;
-  el.tagline.textContent = SECTIONS[name].tagline;
+  document.title = `${SECTIONS[name].label} · News Radar — ${SECTIONS[name].tagline}`;
   el.footerSkill.textContent = SECTIONS[name].skill;
   for (const b of el.sections.querySelectorAll(".section-tab")) {
     const on = b.dataset.section === name;
@@ -188,24 +187,19 @@ async function showSection(name) {
 }
 
 // ---------- rendering ----------
+// Categories used to be a row of five chips, which cost a whole header line.
+// As a select they collapse to one control, and the active filter still reads
+// at a glance because the closed select shows its own label.
 function renderChips() {
-  el.chips.innerHTML = "";
   const builders = state.section === "builders";
   const list = builders ? KINDS : CATEGORIES;
   const active = builders ? state.activeKind : state.activeCat;
-  for (const c of list) {
-    const b = document.createElement("button");
-    b.className = "chip";
-    b.dataset.cat = c.id;
-    b.dataset.active = String(active === c.id);
-    b.innerHTML = (c.dot ? `<span class="dot" style="background:${c.dot}"></span>` : "") + c.label;
-    b.addEventListener("click", () => {
-      if (builders) state.activeKind = c.id; else state.activeCat = c.id;
-      renderChips();
-      render();
-    });
-    el.chips.appendChild(b);
-  }
+  el.catNav.innerHTML = list
+    .map((c) => `<option value="${c.id}">${c.id === "all" ? (builders ? "All sources" : "All categories") : esc(c.label)}</option>`)
+    .join("");
+  el.catNav.value = active;
+  // A non-default filter is worth flagging, since the control is now small.
+  el.catNav.dataset.active = String(active !== "all");
 }
 
 function renderLangToggle() {
@@ -213,7 +207,8 @@ function renderLangToggle() {
   if (state.section !== "builders") return;
   for (const l of LANGS) {
     const b = document.createElement("button");
-    b.className = "chip lang-chip";
+    b.className = "lang-chip";
+    b.type = "button";
     b.dataset.active = String(state.lang === l.id);
     b.textContent = l.label;
     b.addEventListener("click", () => { state.lang = l.id; renderLangToggle(); render(); });
@@ -447,6 +442,12 @@ el.search.addEventListener("input", (e) => {
   searchTimer = setTimeout(() => { state.query = v; render(); }, 90);
 });
 
+el.catNav.addEventListener("change", (e) => {
+  if (state.section === "builders") state.activeKind = e.target.value;
+  else state.activeCat = e.target.value;
+  renderChips();
+  render();
+});
 el.dateNav.addEventListener("change", (e) => { cur().activeDate = e.target.value; render(); });
 el.datePrev.addEventListener("click", () => stepDate(1));   // older
 el.dateNext.addEventListener("click", () => stepDate(-1));  // newer

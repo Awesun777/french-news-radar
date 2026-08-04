@@ -82,103 +82,117 @@ body {
   backdrop-filter: saturate(160%) blur(14px);
   border-bottom: 1px solid var(--border-soft);
 }
-.site-header .wrap { padding-top: 18px; padding-bottom: 16px; }
+.site-header .wrap { padding-top: 11px; padding-bottom: 11px; }
 
-.brand { display: flex; align-items: center; gap: 14px; }
+/* ─── Top bar ────────────────────────────────────────────────────────────────
+ * One compact row instead of four stacked ones. The old header cost ~230px of
+ * every screen before a single headline — brand, tagline, section nav, chip
+ * row and date row each on their own line — which on a laptop was a third of
+ * the viewport spent on chrome. Identity and navigation sit left, every control
+ * is pushed right, and the whole bar is ~56px.
+ *
+ * The five category chips became one select for the same reason: as chips they
+ * always occupied a full line, whereas closed a select is ~140px and still
+ * shows the active filter as its own label.
+ */
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.topbar-left { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 .brand-badge {
-  font-size: 26px;
-  width: 46px; height: 46px;
+  font-size: 18px;
+  width: 32px; height: 32px;
   display: grid; place-items: center;
   background: var(--primary-soft);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 9px;
   flex-shrink: 0;
 }
-.brand h1 { font-size: 20px; margin: 0; letter-spacing: -0.02em; }
-.tagline { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
 
-.controls { display: flex; gap: 12px; align-items: center; margin-top: 16px; flex-wrap: wrap; }
-
-.search {
-  position: relative; display: flex; align-items: center;
-  flex: 1 1 260px; min-width: 220px;
-}
-.search svg { position: absolute; left: 12px; color: var(--faint); pointer-events: none; }
+/* Search sits collapsed at a width that fits a word or two, and widens on focus
+ * so a longer query is still readable — it only needs the room while in use. */
+.search { position: relative; display: flex; align-items: center; }
+.search svg { position: absolute; left: 10px; color: var(--faint); pointer-events: none; }
 .search input {
-  width: 100%;
-  padding: 10px 14px 10px 38px;
+  width: 132px;
+  padding: 7px 10px 7px 30px;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 11px;
+  border-radius: 9px;
   color: var(--fg);
-  font-size: 14px;
+  font-size: 13px;
   outline: none;
-  transition: border-color .15s, box-shadow .15s;
+  transition: width .18s ease, border-color .15s, box-shadow .15s;
 }
 .search input::placeholder { color: var(--faint); }
-.search input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+.search input:focus { width: 240px; border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
 
-.chips { display: flex; gap: 8px; flex-wrap: wrap; }
-
-/* Date navigator */
-.datenav {
-  flex-basis: 100%;
-  display: flex; align-items: center; gap: 8px;
-  margin-top: 2px;
-}
-.datenav-label {
-  display: inline-flex; align-items: center; gap: 6px;
-  color: var(--muted); font-size: 13px; font-weight: 600;
-}
-.datenav-label svg { color: var(--faint); }
-.datenav select {
-  flex: 0 1 240px;
-  padding: 8px 12px;
+.toolbar-select {
+  max-width: 168px;
+  padding: 7px 10px;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 9px;
   color: var(--fg);
   font-size: 13px; font-weight: 600;
   cursor: pointer;
   outline: none;
   transition: border-color .15s, box-shadow .15s;
 }
-.datenav select:hover { border-color: var(--primary); }
-.datenav select:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+.toolbar-select:hover { border-color: var(--primary); }
+.toolbar-select:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+/* A narrowed-down filter shouldn't be easy to forget about. */
+.toolbar-select[data-active="true"] {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+  color: var(--primary);
+}
+
+.datenav { display: flex; align-items: center; gap: 4px; }
 .datenav-btn {
-  width: 32px; height: 32px; flex-shrink: 0;
+  width: 28px; height: 30px; flex-shrink: 0;
   display: grid; place-items: center;
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 9px;
+  border-radius: 8px;
   color: var(--muted);
-  font-size: 18px; line-height: 1;
+  font-size: 16px; line-height: 1;
   cursor: pointer;
   transition: all .15s;
 }
 .datenav-btn:hover:not(:disabled) { background: var(--card-hover); color: var(--fg); border-color: var(--primary); }
 .datenav-btn:disabled { opacity: .4; cursor: default; }
-.chip {
+
+/* Segmented control — three states that belong together read better joined
+ * than as three separate pills competing with the selects beside them. */
+.langtoggle { display: inline-flex; border: 1px solid var(--border); border-radius: 9px; overflow: hidden; }
+.lang-chip {
   cursor: pointer;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 13px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .02em;
+  padding: 7px 10px;
+  border: 0;
+  border-right: 1px solid var(--border);
   background: var(--card);
   color: var(--muted);
-  transition: all .15s;
-  user-select: none;
-  display: inline-flex; align-items: center; gap: 6px;
+  transition: background .15s, color .15s;
 }
-.chip:hover { background: var(--card-hover); color: var(--fg); }
-.chip .dot { width: 8px; height: 8px; border-radius: 50%; }
-.chip[data-active="true"] { color: var(--fg); border-color: transparent; }
-.chip[data-cat="models"][data-active="true"] { background: rgb(var(--accent-models-rgb) / .13); border-color: rgb(var(--accent-models-rgb) / .45); }
-.chip[data-cat="apps"][data-active="true"] { background: rgb(var(--accent-apps-rgb) / .13); border-color: rgb(var(--accent-apps-rgb) / .45); }
-.chip[data-cat="inspiration"][data-active="true"] { background: rgb(var(--accent-inspiration-rgb) / .13); border-color: rgb(var(--accent-inspiration-rgb) / .45); }
-.chip[data-cat="general"][data-active="true"] { background: rgb(var(--accent-general-rgb) / .13); border-color: rgb(var(--accent-general-rgb) / .45); }
-.chip[data-cat="all"][data-active="true"] { background: var(--primary-soft); border-color: var(--primary); }
+.lang-chip:last-child { border-right: 0; }
+.lang-chip:hover { background: var(--card-hover); color: var(--fg); }
+.lang-chip[data-active="true"] { background: var(--primary); color: #FFF8ED; }
 
 /* Feed */
 main.wrap { padding-top: 28px; padding-bottom: 60px; }
@@ -298,18 +312,12 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
  * by a filled pill — the chips below already use pills for category filters,
  * and reusing them here would blur "which section am I in" with "what am I
  * filtering by". */
-.sections {
-  display: flex;
-  gap: 22px;
-  margin-top: 14px;
-  border-bottom: 1px solid var(--border-soft);
-}
+.sections { display: flex; gap: 18px; align-items: center; }
 .section-tab {
   position: relative;
   background: none;
   border: 0;
-  padding: 0 0 10px;
-  margin-bottom: -1px;
+  padding: 4px 0;
   color: var(--muted);
   font: inherit;
   font-size: 14px;
@@ -323,7 +331,7 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 .section-tab[data-active="true"]::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: -1px;
+  left: 0; right: 0; bottom: -2px;
   height: 2px;
   background: var(--primary);
   border-radius: 2px 2px 0 0;
@@ -374,14 +382,12 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 }
 .builder-link a:hover { text-decoration: underline; }
 
-.lang-chip { font-weight: 700; letter-spacing: .02em; }
-.lang-chip[data-active="true"] {
-  background: var(--primary-soft);
-  border-color: rgb(var(--primary-rgb) / .4);
-  color: var(--fg);
-}
-
-@media (max-width: 560px) {
+@media (max-width: 720px) {
+  .topbar { flex-wrap: wrap; gap: 10px; }
+  .topbar-right { width: 100%; justify-content: flex-start; }
+  .search input { width: 100%; }
+  .search { flex: 1 1 140px; }
+  .search input:focus { width: 100%; }
   .sections { gap: 16px; }
   .section-tab { font-size: 13px; }
 }

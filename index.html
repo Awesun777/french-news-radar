@@ -10,36 +10,30 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
-      <div class="brand">
-        <span class="brand-badge">📡</span>
-        <div>
-          <h1>News Radar</h1>
-          <p class="tagline" id="tagline">AI models · voice · video · language-learning — curated for the French tutor</p>
-        </div>
+    <div class="wrap topbar">
+      <div class="topbar-left">
+        <span class="brand-badge" title="News Radar">📡</span>
+        <nav class="sections" id="sections" aria-label="Sections">
+          <button class="section-tab" type="button" data-section="radar" aria-current="true">Radar</button>
+          <button class="section-tab" type="button" data-section="builders">AI Builders</button>
+        </nav>
       </div>
 
-      <nav class="sections" id="sections" aria-label="Sections">
-        <button class="section-tab" type="button" data-section="radar" aria-current="true">Radar</button>
-        <button class="section-tab" type="button" data-section="builders">AI Builders</button>
-      </nav>
-
-      <div class="controls">
-        <div class="search">
-          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14"/></svg>
-          <input id="search" type="search" placeholder="Search titles, summaries, tags…" autocomplete="off" spellcheck="false" />
+      <div class="topbar-right">
+        <div class="search" id="searchwrap">
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 4.99L20.49 19zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14"/></svg>
+          <input id="search" type="search" placeholder="Search…" autocomplete="off" spellcheck="false" />
         </div>
-        <div id="chips" class="chips" role="group" aria-label="Filter by category"></div>
-        <div id="langtoggle" class="chips" role="group" aria-label="Digest language" hidden></div>
+
+        <select id="cat-nav" class="toolbar-select" aria-label="Filter by category"></select>
+
         <div class="datenav">
-          <span class="datenav-label" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="15" height="15"><path fill="currentColor" d="M7 2v2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2zm12 6v11H5V8z"/></svg>
-            Date
-          </span>
           <button id="date-prev" class="datenav-btn" type="button" aria-label="Older day" title="Older day">‹</button>
-          <select id="date-nav" aria-label="Jump to a date"></select>
+          <select id="date-nav" class="toolbar-select" aria-label="Jump to a date"></select>
           <button id="date-next" class="datenav-btn" type="button" aria-label="Newer day" title="Newer day">›</button>
         </div>
+
+        <div id="langtoggle" class="langtoggle" role="group" aria-label="Digest language" hidden></div>
       </div>
     </div>
   </header>
