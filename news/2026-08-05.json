@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-05",
+  "items": [
+    {
+      "id": "grok-voice-think-fast-2-default-migration",
+      "category": "models",
+      "title": "xAI's default \"grok-voice-latest\" alias flips from Think Fast 1.0 to Think Fast 2.0 today",
+      "summary": "As of August 5, any app calling xAI's grok-voice-latest alias is automatically upgraded from Grok Voice Think Fast 1.0 to Think Fast 2.0, the speech-to-speech model xAI shipped July 29. Developers who want to stay on the old model must explicitly pin grok-voice-think-fast-1.0 before the switch. Think Fast 2.0 is priced at $0.08/minute and xAI's own benchmarking claims a 1.5x-2x transcription-accuracy edge over Deepgram Nova-3 and ElevenLabs Scribe v2 across 24 languages, widening further in noisy audio.",
+      "whyItMatters": "A silent default-alias upgrade is a reminder to always pin explicit model versions on any realtime path Romain/Anna depend on — and the claimed noisy-audio accuracy gap over ElevenLabs Scribe v2 is worth an independent benchmark given Anna runs on ElevenLabs today.",
+      "url": "https://x.ai/news/grok-voice-think-fast-2",
+      "source": "xAI",
+      "tags": ["voice", "realtime", "pricing", "benchmark"]
+    },
+    {
+      "id": "openai-chatgpt-work-codex-education-plugins",
+      "category": "inspiration",
+      "title": "OpenAI ships course-grounded education plugins for ChatGPT Work and Codex",
+      "summary": "OpenAI announced three new agentic plugins on August 4 — one for college students, one for K-12 educators, one for college educators — that restrict ChatGPT Work and Codex to the specific course materials and context a student or teacher chooses. Rather than just answering, the plugins are built to scaffold: prompting students to define objectives, select sources, and critically inspect AI-generated output before accepting it.",
+      "whyItMatters": "Constraining an agent to approved course material and forcing it to scaffold rather than hand over answers outright is close in spirit to what a French tutor needs for grading or error-diagnosis — worth studying how OpenAI enforces that sourcing restriction for Romain/Anna's own lesson-plan flow.",
+      "url": "https://openai.com/index/learn-teach-chatgpt-work-codex/",
+      "source": "OpenAI",
+      "tags": ["agentic", "education", "rag", "openai"]
+    },
+    {
+      "id": "anthropic-cuellar-global-affairs-chief",
+      "category": "general",
+      "title": "Anthropic names former California Supreme Court Justice Tino Cuéllar as its first Chief Global Affairs Officer",
+      "summary": "Anthropic announced on August 4 that Mariano-Florentino \"Tino\" Cuéllar, most recently president of the Carnegie Endowment for International Peace and a Stanford Law professor, is joining as Chief Global Affairs Officer, reporting to president Daniela Amodei. The newly created role covers AI policy, strategic international engagement, and government relationships as Anthropic expands globally amid ongoing tension with the Trump administration over AI regulation.",
+      "whyItMatters": "A dedicated global-affairs hire signals Anthropic expects heavier government engagement on AI rules ahead — worth a heads-up for anyone tracking how EU/France disclosure and provenance requirements might eventually reach voice-tutor products built on frontier models.",
+      "url": "https://www.anthropic.com/news/tino-cuellar",
+      "source": "Anthropic",
+      "tags": ["policy", "anthropic", "regulation"]
+    }
+  ]
+}

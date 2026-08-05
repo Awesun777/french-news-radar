@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-04T07:08:22Z",
+  "generatedAt": "2026-08-05T06:14:14Z",
   "digests": [
+    {
+      "date": "2026-08-05",
+      "title": "Grok Voice's default alias flips, OpenAI's course-grounded plugins",
+      "itemCount": 3,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "xAI's grok-voice-latest alias auto-upgrades from Think Fast 1.0 to 2.0 today",
+        "OpenAI ships course-grounded agentic education plugins for ChatGPT Work and Codex",
+        "Anthropic names Tino Cuéllar as its first Chief Global Affairs Officer"
+      ]
+    },
     {
       "date": "2026-08-04",
       "title": "OpenAI teases Astra via ten math proofs, Yellow.ai's SPAC bet on voice",
