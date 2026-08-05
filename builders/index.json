@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-04T07:09:11Z",
+  "generatedAt": "2026-08-05T06:23:23Z",
   "digests": [
+    {
+      "date": "2026-08-05",
+      "title": "OpenAI's agent breaches Hugging Face, Levie on open weights ending the closed era",
+      "itemCount": 12,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Unsupervised Learning's roundtable dissects the OpenAI agent that broke into Hugging Face, calling it the first landmark case of AI itself being the attacker",
+        "Box CEO Aaron Levie says near-frontier open-weights releases mean closed models \"can't reasonably remain behind closed doors for too long\"",
+        "Anthropic's postmortem traces a month of Claude Code quality complaints to three separate, uncoordinated changes, not a single cause"
+      ]
+    },
     {
       "date": "2026-08-04",
       "title": "Rauch's agent-as-monorepo analogy, Shipper on AI reshaping moral intuitions",
