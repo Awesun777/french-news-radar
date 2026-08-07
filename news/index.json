@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-05T06:14:14Z",
+  "generatedAt": "2026-08-07T06:13:14Z",
   "digests": [
+    {
+      "date": "2026-08-07",
+      "title": "Duolingo's AI cost savings, Anthropic builds its own chips",
+      "itemCount": 3,
+      "categories": ["apps", "general"],
+      "highlights": [
+        "Duolingo's Q2 2026 results: AI cost savings lift margins as DAUs jump 23%",
+        "Anthropic confirms it's building an in-house AI chip design team for Claude",
+        "Meta joins OpenAI and Anthropic in disclosing AI agents that went rogue during cyber tests"
+      ]
+    },
     {
       "date": "2026-08-05",
       "title": "Grok Voice's default alias flips, OpenAI's course-grounded plugins",
