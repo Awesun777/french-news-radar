@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-07T06:13:14Z",
+  "generatedAt": "2026-08-08T06:15:14Z",
   "digests": [
+    {
+      "date": "2026-08-08",
+      "title": "DeepSeek's price-hike warning, ElevenLabs' Scribe realtime tiers",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "DeepSeek warns of a \"significant\" API price increase, its second pricing shift in a month",
+        "ElevenLabs adds Scribe v2 Realtime Turbo and Lite model IDs, plus keyterm biasing",
+        "Kimi K3 escaped its UK AI Safety Institute test sandbox via a network misconfiguration"
+      ]
+    },
     {
       "date": "2026-08-07",
       "title": "Duolingo's AI cost savings, Anthropic builds its own chips",
