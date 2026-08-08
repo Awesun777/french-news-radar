@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-08",
+  "items": [
+    {
+      "id": "thibault-sottiaux-codex-gpt56-sol",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "Thibault Sottiaux says GPT-5.6 Sol inside Codex has crossed a threshold: he now hands it \"the wildest things\" and walks away for five minutes — gets up, feeds the dog, comes back, and \"it's done\" on work that used to take weeks. He ties this to OpenAI's broader push down-market: free ChatGPT users now get unlimited text chats, powered by the smaller GPT-5.6 Luna model.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 表示，Codex 里跑的 GPT-5.6 Sol 已经跨过了一个门槛：他现在会把\"最疯狂的想法\"直接丢给它，然后离开五分钟——起身去喂狗，回来一看，过去需要几周才能做完的活儿已经\"做完了\"。他还把这和 OpenAI 向下沉市场的更大动作联系起来：ChatGPT 免费用户现在可以无限次进行文字对话，背后跑的是更小的 GPT-5.6 Luna 模型。",
+      "url": "https://x.com/thsottiaux/status/2085597685948813610",
+      "tags": ["codex", "gpt-5.6", "openai"]
+    },
+    {
+      "id": "peter-yang-consumer-ai-race",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Peter Yang argues the consumer AI race is really ChatGPT's and Google's to lose, since each already claims roughly a billion users. His two biggest barriers for ChatGPT: normal users don't yet trust it with full access to their apps and data, and most don't know what it's already capable of — problems he thinks marketing solves as much as engineering does. He rates Gemini's trust edge (same login across Gmail, Calendar, Workspace, Chrome) as real, but says Google trails on third-party plugins and browser use, and its biggest fix is collapsing ChatGPT/Work/Codex-style mode-switching into one friendly app. His closing needle: normal users don't care whether it's Sol or Fable underneath, only that pricing is fair and the model gets the job done.",
+      "summaryZh": "Peter Yang 认为消费级 AI 这场竞赛其实是 ChatGPT 和 Google 自己才会输掉的比赛，因为两家各自已经拥有近十亿用户。他认为 ChatGPT 最大的两个障碍是：普通用户还不敢把自己的应用和数据完全交给它，以及大多数人根本不知道它现在到底能做到什么——他认为这两个问题靠营销和产品打磨来解决，和靠技术升级同样重要。他承认 Gemini 在信任度上确实有优势（Gmail、日历、Workspace、Chrome 都是同一个登录账号），但指出 Google 在第三方插件和浏览器操作上还落后，最该做的是把 ChatGPT/Work/Codex 那种要来回切换模式的体验，合并成一个对普通用户友好的单一应用。他最后补了一刀：普通用户根本不关心底层是 Sol 还是 Fable，只要定价公道、活干得靠得住就行。",
+      "url": "https://x.com/petergyang/status/2085427222836658600",
+      "tags": ["consumer-ai", "chatgpt", "gemini"]
+    },
+    {
+      "id": "amjad-masad-code-pilled-no-code",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "Replit CEO",
+      "summary": "Amjad Masad revisits two of his long-running bets. On coding models: in 2021-22 he pitched Google, Meta, and \"everyone\" on training coding-specific models and got told NLP mattered more, so Replit trained its own — Replit-code-3b — before, in his telling, the rest of the industry got \"code pilled.\" On no-code: he calls Airtable the bookend of that whole category's rise and fall, arguing a UI can never let you build arbitrary software, so the only real path to accessible software was always solving code itself — an idea he says \"sounded delusional\" for years and doesn't anymore.",
+      "summaryZh": "Amjad Masad 重提了他坚持已久的两个判断。关于编程模型：他说 2021、22 年时曾跑遍硅谷去说服 Google、Meta 等\"所有人\"一起训练编程专用模型，得到的回复是 NLP 场景更重要，于是 Replit 自己训练了 Replit-code-3b，用他的说法，之后整个行业才慢慢\"被 code 洗礼\"。关于无代码：他把 Airtable 视为这整个品类从兴起到衰落的收尾之作，理由是 UI 永远没法让你搭建出任意形态的软件，让软件变得人人可用的唯一真正路径，一直都是直接解决\"代码\"这个问题本身——这个想法他说曾经\"听起来像是异想天开\"，但现在不再是了。",
+      "url": "https://x.com/amasad/status/2085451197323034902",
+      "tags": ["replit", "code-models", "no-code"]
+    },
+    {
+      "id": "guillermo-rauch-plugin-standard",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Guillermo Rauch stakes out a hard requirement for developer tools: they must be open source and universally extensible, which he says makes AI coding agents \"the most important devtools in the history of our industry.\" His pitch for the new Plugin standard is that building one plugin gets a developer uniform exposure across every kind of agent — CLIs, IDEs, cloud agents, even personal assistants — rather than integrating with each separately.",
+      "summaryZh": "Guillermo Rauch 给开发者工具立了一条硬性标准：必须开源，而且能被任何人无差别扩展，他认为这正是 AI 编程 agent 之所以成为\"我们这个行业历史上最重要的开发者工具\"的原因。他为新的 Plugin 标准站台的理由是：开发者只需要构建一个 plugin，就能统一暴露给所有类型的 agent——CLI、IDE、云端 agent，甚至个人助理——而不必分别针对每一种去做集成。",
+      "url": "https://x.com/rauchg/status/2085403169551790359",
+      "tags": ["devtools", "plugins", "vercel"]
+    },
+    {
+      "id": "aaron-levie-agents-platforms",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie pushes back on treating agents like chatbots with better answers: \"prompting an agent is closer to writing a spec than asking a question,\" which means scoping the task and defining \"done\" up front, and the real upside only shows up once you change the underlying workflow — who reviews the output, what data the agent can reach — rather than just bolting an agent onto today's process. He pairs that with Atlassian's strong earnings as a rebuttal to the thesis, popular over the past six months, that agents would gut platform software: with agents generating 100x more code and touching more data and decisions, he argues the systems of record that handle governance, security, and compliance get more important, not less.",
+      "summaryZh": "Aaron Levie 反对把 agent 当成\"回答更好的聊天机器人\"来用：他说\"给 agent 下 prompt，更接近写一份规格文档，而不是提一个问题\"，这意味着你要提前把任务范围划清楚、定义好什么叫\"完成\"，而真正的收益只会在你改变底层工作流本身——谁来审核产出、agent 能碰到哪些数据——之后才会出现，光是把 agent 套在现有流程上是不够的。他还拿 Atlassian 强劲的季度财报，反驳过去半年很流行的一种说法，即 agent 会掏空平台型软件的价值：他认为，当 agent 能产出 100 倍多的代码、处理更多数据和决策时，负责治理、安全、合规的这类\"系统记录\"平台反而会变得更重要，而不是更不重要。",
+      "url": "https://x.com/levie/status/2085587079405425146",
+      "tags": ["agents", "enterprise", "atlassian"]
+    },
+    {
+      "id": "madhu-guru-speak-dont-write",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru says people explain ideas more clearly out loud than in a written doc, because the core idea gets buried somewhere between mouth and page as people add context and try to \"sound smart.\" His fix for his own teams: record yourself explaining the idea like you would to a friend, run it through AI for basic cleanup while keeping the original rough structure, then share that instead of a polished doc.",
+      "summaryZh": "Madhu Guru 说，人们用嘴说清楚一个想法，往往比写成文档要清楚得多，因为在从嘴到文档的这段路上，人们总想着加点背景、打磨措辞、显得\"更专业\"，核心想法反而被埋掉了。他给自己团队的解法是：像跟朋友解释一样把想法讲出来录下来，用 AI 做一遍基础清理，但保留原本略显粗糙的结构和顺序，然后直接分享这份文档，而不是一份打磨过的\"正式稿\"。",
+      "url": "https://x.com/realmadhuguru/status/2085390240899043406",
+      "tags": ["communication", "ai-tools", "meta"]
+    },
+    {
+      "id": "swyx-ai-devblog-skill",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "Smol AI · Cognition · Latent Space",
+      "summary": "Swyx describes a new \"ai-devblog\" skill built to elicit what you actually think the story is, then work with you to trace back through what you read and report it faithfully — plus generate visuals along the way.",
+      "summaryZh": "Swyx 介绍了一个新的\"ai-devblog\" skill：它会先引导你说出自己真正认为这个故事是什么，再和你一起回溯你读过的内容，忠实地把它写出来——过程中还会顺手生成配图。",
+      "url": "https://x.com/swyx/status/2085616830786543667",
+      "tags": ["devblog", "writing", "skills"]
+    },
+    {
+      "id": "claude-fable-biology-safeguards",
+      "kind": "x",
+      "author": "Claude",
+      "role": "AI assistant, Anthropic",
+      "summary": "Anthropic's Claude account says an update to Claude Fable 5's biology safeguards cut biology-related fallbacks by about 85% across its product surfaces in testing, letting Fable answer a wider range of everyday health and educational questions. It still routes to Opus 5 for anything it flags as dual-use — virology, toxicology, molecular design — so it isn't usable yet for professional biology research or drug development, though Anthropic says it's working on \"trusted access pathways\" to close that gap.",
+      "summaryZh": "Anthropic 的 Claude 官方账号表示，Claude Fable 5 生物学安全护栏的一次更新，在测试中让各产品界面上与生物相关的\"拒答\"情况减少了约 85%，Fable 现在能回答更多日常健康和教育类问题。对于被判定为\"双重用途\"的内容——病毒学、毒理学、分子设计——它仍会转交给 Opus 5 处理，所以目前还不能用于专业的生物学研究或药物研发，不过 Anthropic 表示正在打造\"可信访问通道\"来弥合这个差距。",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "tags": ["safety", "biology", "anthropic"]
+    },
+    {
+      "id": "claude-blog-foundation-models-apple",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "summary": "Claude now plugs into Apple's Foundation Models framework through a new Swift package, letting iOS/macOS/iPadOS/visionOS/watchOS developers call Claude when a request needs multi-step reasoning, code generation, live web search, or code execution — while keeping Apple's on-device models for fast, local tasks like summarization. Apple's framework already returns typed Swift values via @Generable annotations, so developers get clean structured inputs before the request ever reaches Claude, and Claude's response streams back into the same SwiftUI view. Anthropic frames it as one experience, two models: on-device for speed, Claude when a task like \"why does this matter for everything else we've covered\" needs deeper reasoning.",
+      "summaryZh": "Claude 现在通过一个新的 Swift 包接入了苹果的 Foundation Models framework，让 iOS、macOS、iPadOS、visionOS、watchOS 上的开发者可以在需要多步推理、代码生成、实时网页搜索或代码执行时调用 Claude，同时继续用苹果的端上模型处理摘要之类需要快速完成的本地任务。苹果的框架本身已经通过 @Generable 注解返回类型化的 Swift 值，所以开发者在把请求交给 Claude 之前拿到的就是干净的结构化输入，Claude 的回复也会以流式方式返回到同一个 SwiftUI 视图里。Anthropic 的说法是：一套体验、两个模型——端上模型负责速度，而当用户问出类似\"这为什么和我们之前讲的所有内容都有关系\"这种更深的问题时，交给 Claude。",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "tags": ["apple", "swift", "developer-tools"]
+    },
+    {
+      "id": "matt-turck-basis-long-horizon-agents",
+      "kind": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "role": "Mitch Trojanovsky, co-founder of Basis",
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "takeaway": "Long-horizon agents don't fail for lack of a right answer — they fail because outcome-only evals can't tell you whether the agent followed a process a professional would actually trust, which is why Basis writes down \"behavior specs\" instead of just grading results.",
+      "takeawayZh": "长周期 agent 失败的原因往往不是答案不对，而是纯粹看结果的评测无法判断它是否走了一个专业人士真正信得过的流程——这正是 Basis 要专门写下\"behavior specs\"、而不只是给结果打分的原因。",
+      "summary": "Matt Turck's reference conversation with Mitch Trojanovsky, co-founder of Basis — whose agents run autonomously for hours or days to prepare entire tax returns end to end — digs into what \"long-horizon\" actually means once you're past a quick tool call. His definition: you're long-horizon once a task runs past the model's working memory, which is why Basis employees whisper continuously into always-on microphones — speech carries more context than anyone will bother typing, and, as he puts it, \"to an agent, they don't care\" if you ramble. He walks through the field's history — ReAct in 2022, Auto-GPT's failure to deliver, reasoning models like o1 and o3 finally unlocking coherent multi-step work — before landing on why coding agents got good first while other domains lag: verifiability.\n\nTax research is his clean example: an agent might answer a tax question correctly straight from pretraining knowledge, but \"even if you got it right 100 out of 100 times... if a person is just getting it right because they're going to Wikipedia, the accounting firm wouldn't hire them, and so they shouldn't hire us either\" — so Basis agents are required to cite primary IRS sources, not memory. That principle generalizes into what Basis calls behavior specs: markdown files, co-written by accountants and ML researchers, describing how an agent should behave at each decision point, later graded by an LLM judge reading the full trajectory rather than just the output. His case for why outcome-only evals aren't enough: \"humans are already used to working with non-deterministic systems, it's just the systems are normally their co-workers, not their computers\" — a hundred passing evals doesn't prove an agent's process will generalize to production, any more than passing unit tests proves an engineer architected the database properly. Data scarcity compounds it: real tax returns can't be pooled at scale for privacy reasons, and synthetically generating something as document-heavy as a 1065 filing remains, in his words, unsolved today.",
+      "summaryZh": "Matt Turck 与 Basis 联合创始人 Mitch Trojanovsky 的这场对话，堪称一次关于\"长周期 agent\"的参考级访谈——Basis 的 agent 能自主运行数小时甚至数天，端到端地完成整份报税工作。访谈深入探讨了一旦跳出简单的工具调用，\"长周期\"到底意味着什么。他给出的定义是：一旦任务运行时间超出了模型的工作记忆范围，就算进入了长周期，这也是为什么 Basis 员工要一直对着常开的麦克风轻声说话——说话比谁都懒得打字来传递的上下文更多，用他的话说，\"对 agent 来说，它根本不在乎\"你有多啰嗦。他还梳理了这个领域的发展史——2022 年的 ReAct、没能兑现承诺的 Auto-GPT、直到 o1、o3 这类推理模型才真正解锁了连贯的多步骤工作——并由此引出为什么编程 agent 最先做好，而其他领域还落后：可验证性。\n\n他举的干净例子是税务研究：agent 完全可能只靠预训练知识就把一个税务问题答对，但\"就算你 100 次里答对了 100 次……如果一个人只是因为去查了维基百科才答对，会计事务所是不会雇他的，所以也不该雇我们\"——所以 Basis 的 agent 被要求必须引用 IRS 的一手信源，而不是靠记忆作答。这条原则被推广成了 Basis 所说的 behavior specs（行为规范）：由会计师和机器学习研究员共同撰写的 markdown 文件，描述 agent 在每一个决策点该如何表现，之后由一个 LLM judge 读取完整的执行轨迹（而不只是最终产出）来打分。他解释为什么仅靠结果打分的评测不够：\"人类早就习惯了和非确定性的系统打交道，只不过平时那个系统是同事，不是电脑\"——一百个评测全部通过，并不能证明这个 agent 的做事流程能在生产环境里泛化，就像单元测试全部通过，也不能证明一个工程师把数据库架构设计对了。数据稀缺进一步加剧了这个问题：出于隐私原因，真实的报税数据没法大规模汇集，而像 1065 报税表这种文件密集型场景，用他的话说，如何合成生成到今天依然\"没有解决\"。",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": ["agents", "accounting", "evals", "long-horizon"]
+    }
+  ]
+}

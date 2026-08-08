@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-05T06:23:23Z",
+  "generatedAt": "2026-08-08T06:28:02Z",
   "digests": [
+    {
+      "date": "2026-08-08",
+      "title": "Basis on behavior specs for long-horizon agents, Levie on why platforms survive the agent shift",
+      "itemCount": 10,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Basis co-founder Mitch Trojanovsky explains why long-horizon agents need written \"behavior specs\" instead of outcome-only evals, since passing 100 evals doesn't prove an agent's process will hold up in production",
+        "Aaron Levie ties Atlassian's strong earnings to a rebuttal of the \"agents kill platforms\" thesis: agents generating 100x more code make governance and systems of record more important, not less",
+        "Guillermo Rauch pitches a new Plugin standard for AI coding agents, and Amjad Masad revisits his years-long bet that solving code, not no-code UIs, was always the real path to accessible software"
+      ]
+    },
     {
       "date": "2026-08-05",
       "title": "OpenAI's agent breaches Hugging Face, Levie on open weights ending the closed era",
