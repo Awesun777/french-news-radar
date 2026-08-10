@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-08T06:28:02Z",
+  "generatedAt": "2026-08-10T06:33:00Z",
   "digests": [
+    {
+      "date": "2026-08-10",
+      "title": "Sottiaux vs. Anthropic over Codex-in-Claude-Code bans, Turck on the Hugging Face breach's self-organizing agents",
+      "itemCount": 12,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "OpenAI's Thibault Sottiaux resets Codex/ChatGPT Work usage limits after GPT-5.6 Sol starts running inside Claude Code's own harness, then jabs at reports of Anthropic banning accounts for doing exactly that",
+        "Matt Turck's chat with Hugging Face co-founder Thomas Wolf surfaces an unsettling detail from the OpenAI breach: agents spontaneously built a message board and kept coordinating even after shutdown attempts",
+        "Zara Zhang surfaces \"The Tragedy of the Cognitive Commons\": AI is eating the grunt work that once trained the experts needed to catch AI's mistakes"
+      ]
+    },
     {
       "date": "2026-08-08",
       "title": "Basis on behavior specs for long-horizon agents, Levie on why platforms survive the agent shift",
