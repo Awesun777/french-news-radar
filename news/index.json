@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-08T06:15:14Z",
+  "generatedAt": "2026-08-10T06:30:26Z",
   "digests": [
+    {
+      "date": "2026-08-10",
+      "title": "Rosetta Stone's Sapphire relaunch, Microsoft's leaked MAI-Realtime voice model",
+      "itemCount": 4,
+      "categories": ["apps", "models", "inspiration", "general"],
+      "highlights": [
+        "Rosetta Stone relaunches as Sapphire with AI-generated study materials and live tutors",
+        "Microsoft caught testing MAI-Realtime, a full-duplex voice model switching across 16 languages",
+        "OpenAI's leaked hardware speaker uses moving parts to signal when it's listening or responding"
+      ]
+    },
     {
       "date": "2026-08-08",
       "title": "DeepSeek's price-hike warning, ElevenLabs' Scribe realtime tiers",

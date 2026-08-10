@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-10",
+  "items": [
+    {
+      "id": "rosetta-stone-sapphire-launch",
+      "category": "apps",
+      "title": "Rosetta Stone relaunches as \"Sapphire\": Chat Missions, AI-generated study materials, live tutors",
+      "summary": "Rosetta Stone announced Sapphire on August 4, a full rebuild of its platform across 25 languages (including French). It pairs its existing Dynamic Immersion method and TruAccent speech recognition with new \"Chat Missions\" (scenario-based conversations like ordering at a Paris café with live grammar/vocab feedback), a \"Sapphire Studio\" AI tool that generates custom flashcards, matching games, and reading activities on any topic, and optional 30-minute sessions with human instructors.",
+      "whyItMatters": "A legacy competitor pairing AI conversation practice with human-instructor sessions (rather than going all-AI) is a useful data point on how the market is hedging AI-only tutoring — and \"Sapphire Studio\"-style on-demand custom material generation is a feature idea worth stealing for Romain/Anna's lesson content.",
+      "url": "https://www.prnewswire.com/news-releases/meet-rosetta-stone-sapphire-the-brands-most-ambitious-language-learning-experience-yet-302841729.html",
+      "source": "PR Newswire",
+      "tags": ["apps", "rosetta-stone", "french", "conversation-practice"]
+    },
+    {
+      "id": "microsoft-mai-realtime-leak",
+      "category": "models",
+      "title": "Microsoft caught testing \"MAI-Realtime,\" a full-duplex voice model with 16-language switching including French",
+      "summary": "TestingCatalog reported an exclusive early preview of MAI-Realtime, an unannounced bidirectional voice model surfaced in Microsoft's hidden MAI Playground. It listens and speaks simultaneously (full-duplex, competing directly with OpenAI's GPT-Live/Sesame-style systems), auto-detects and switches languages mid-conversation across 16 languages including French, ships two voices (Victoria and Grant), and exposes live latency debug tools. Microsoft has not confirmed pricing, launch regions, or a ship date — this is single-source leak reporting, not an official announcement.",
+      "whyItMatters": "A third major lab building a full-duplex, mid-conversation-language-switching voice model (after OpenAI's GPT-Live and Kyutai's Moshi lineage) signals this architecture is becoming the norm — worth watching as a potential future alternative or benchmark for Romain's OpenAI Realtime pipeline, especially its language-switching handling.",
+      "url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/",
+      "source": "TestingCatalog",
+      "tags": ["voice", "realtime", "microsoft", "multilingual", "french"]
+    },
+    {
+      "id": "openai-doughnut-speaker-leak",
+      "category": "inspiration",
+      "title": "OpenAI's leaked hardware device: a screenless, always-on voice companion with moving parts that signal listening/responding",
+      "summary": "Bloomberg reports OpenAI's first hardware device — co-designed with Jony Ive's LoveFrom studio — is a screenless, hockey-puck-sized, battery-powered \"doughnut\" speaker with a camera, mics, indicator lights, and physical parts that move to \"feel more alive\" while listening or responding. Priced at a rumored $300-$400, unveiling is expected this year with shipping in 2027; it's positioned as an always-available voice companion running more advanced models than ChatGPT's current voice mode.",
+      "whyItMatters": "Using physical/visual state cues (moving parts, lights) to signal \"I'm listening\" vs. \"I'm thinking\" vs. \"I'm about to respond\" is a concrete UX idea a voice-only tutor like Romain/Anna could borrow in-app (via animation or subtle audio cues) to make turn-taking feel less awkward.",
+      "url": "https://decrypt.co/375117/openais-first-device-is-a-300-plus-doughnut-shaped-speaker-report",
+      "source": "Decrypt (citing Bloomberg)",
+      "tags": ["hardware", "voice", "ux", "openai"]
+    },
+    {
+      "id": "jeff-dean-discovery-loop",
+      "category": "general",
+      "title": "Jeff Dean leaves Google after 27 years to found Discovery Loop, an AI-for-science startup",
+      "summary": "On August 5, Google chief scientist Jeff Dean announced he's departing to co-found Discovery Loop, a public benefit corporation aiming to automate scientific and engineering research by running thousands of AI-driven experiments in parallel. Co-founders include fellow longtime Googlers Sanjay Ghemawat, Quoc Le, and Oriol Vinyals; Google is a founding investor and cloud partner, and backers include Khosla Ventures and Radical Ventures.",
+      "whyItMatters": "One of the most senior AI researchers in the industry betting his next decade on automating research itself is a signal worth tracking, even if indirectly relevant to a voice-tutor product today.",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "source": "TechCrunch",
+      "tags": ["research", "google", "startup", "talent"]
+    }
+  ]
+}
