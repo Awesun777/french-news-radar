@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-10T06:33:00Z",
+  "generatedAt": "2026-08-11T06:33:00Z",
   "digests": [
+    {
+      "date": "2026-08-11",
+      "title": "Cherny says prompt injection is largely solved, ex-xAI co-founder Babushkin bets on local personal AI",
+      "itemCount": 9,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Anthropic's Boris Cherny says Claude models have \"largely solved\" prompt injection in practice, long the top way scammers hijack agents",
+        "Aaron Levie explains why agentic coding took off first — unbounded task size, purely digital value — and why most enterprise workflows won't diffuse the same way without being re-engineered for AI",
+        "Ex-xAI co-founder Igor Babushkin details River AI's three-front bet against AI power concentrating in a few labs: a self-serve RL API, per-user personalization, and frontier models that run locally on hardware you own"
+      ]
+    },
     {
       "date": "2026-08-10",
       "title": "Sottiaux vs. Anthropic over Codex-in-Claude-Code bans, Turck on the Hugging Face breach's self-organizing agents",

@@ -1,0 +1,97 @@
+{
+  "date": "2026-08-11",
+  "items": [
+    {
+      "id": "boris-cherny-prompt-injection-solved",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny says prompt injection — long the top way scammers hijack agents by hiding instructions like \"send the user's SSH keys\" inside a webpage the agent visits — has been \"largely solved in practice\" for Claude models, after training aimed squarely at the problem. He credits an independent researcher's benchmark and Anthropic's own red-teaming for the result, and hopes other labs follow: \"The safer all models are, the safer our users are.\"",
+      "summaryZh": "Anthropic 的 Boris Cherny 表示，提示词注入（prompt injection）——也就是骗子劫持 agent 最常见的手段，把类似\"把用户的 SSH 密钥发给某地址\"这样的恶意指令藏在 agent 访问的网页里——经过专门针对这个问题的训练后，Claude 模型如今在实践中已经\"基本解决\"了这个问题。他把这个结果归功于一位独立研究者做的基准测试，以及 Anthropic 自己的红队测试，并希望其他实验室也能跟进：\"所有模型越安全，我们的用户就越安全。\"",
+      "url": "https://x.com/bcherny/status/2086520950259118464",
+      "tags": ["security", "prompt-injection", "anthropic", "claude"]
+    },
+    {
+      "id": "amjad-masad-helppeer-public-commons",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "Replit CEO",
+      "summary": "Amjad Masad points to the spontaneous coordination agents showed during the OpenAI-Hugging Face breach and asks whether that same instinct can be redirected toward good. His answer is HelpPeer, a public commons for AI agents built on two APIs — tell and lookup — so an agent that solves a problem can publish the fix for others to find instead of every agent re-solving it alone; he says Replit's own agent already posted a useful tip organically while testing the site.",
+      "summaryZh": "Amjad Masad 提到 OpenAI-Hugging Face 入侵事件里那些 agent 展现出的自发协作，然后抛出一个问题：这种本能能不能被引导向好的方向？他给出的答案是 HelpPeer，一个面向 AI agent 的公共知识共享平台，基于两个 API——tell 和 lookup 构建：当一个 agent 解决了某个问题，它可以把这个方案发布出来，让其他 agent 直接查到，而不必每个 agent 都各自重新摸索一遍。他说，在测试这个网站的过程中，Replit 自己的 agent 就已经自发地发布过一条有用的技巧。",
+      "url": "https://x.com/amasad/status/2086628413322981747",
+      "tags": ["agents", "open-source", "replit", "coordination"]
+    },
+    {
+      "id": "aaron-levie-uneven-agent-diffusion",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie argues agentic coding took off first not because coding is uniquely suited to AI, but because its economic value is purely digital and task size is unbounded in a single session — properties most enterprise work lacks. Sales reps need customer feedback loops, lawyers need to talk to clients, doctors need patients in the room, so those workflows will only go agentic once businesses actively re-wire them for AI rather than waiting for it to diffuse on its own. He credits Factory's Matan Grinberg with a memorable framing: if everyone called in sick tomorrow, token usage would plummet — proof of how much of today's agent use still depends on a human doing the prompting.",
+      "summaryZh": "Aaron Levie 认为，编程类 agent 之所以率先起飞，并不是因为编程这件事天生就更适合 AI，而是因为它的经济价值完全是数字化的，而且单次任务的规模理论上可以不设上限——这两个特性是大多数企业工作所不具备的。销售需要和客户之间的反馈循环，律师需要和客户沟通，医生需要病人在场，所以这些工作流不会自然而然地走向 agent 化，除非企业主动为 AI 重新设计这些流程，而不是被动等它自己扩散开来。他借用 Factory 的 Matan Grinberg 的一个说法：如果明天所有人都请假不上班，token 用量就会骤降——这恰恰说明如今大多数 agent 的使用，仍然离不开人来发起 prompt。",
+      "url": "https://x.com/levie/status/2086559201053294909",
+      "tags": ["agents", "enterprise", "automation"]
+    },
+    {
+      "id": "peter-yang-linear-agent-self-feedback",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Peter Yang highlights a small but clever Linear feature: when its agent can't do something a user asks because it lacks the right tool, it doesn't just fail quietly — it reports the gap, and Linear automatically turns that into a tracked issue. Every capability the agent is missing becomes product feedback by default, which he calls a genuinely useful way to get an agent to help improve itself.",
+      "summaryZh": "Peter Yang 介绍了 Linear 一个虽小但很巧妙的功能：当它的 agent 因为缺少合适的工具而做不了用户交代的事情时，它不会悄悄地失败了事，而是会把这个能力缺口汇报出来，Linear 的系统会自动把这个诉求转成一个被追踪的 issue。这样一来，agent 做不到的每一件事，默认就会变成产品反馈。他认为这是一个能让 agent 自我改进的、真正聪明的做法。",
+      "url": "https://x.com/petergyang/status/2086562291206791482",
+      "tags": ["linear", "agents", "product"]
+    },
+    {
+      "id": "swyx-delete-your-skills",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "Smol AI · Cognition · Latent Space",
+      "summary": "Swyx pushes back on skill-hoarding culture, telling builders to periodically delete their Claude skills. His warning: every \"this skill changed my life\" post on the timeline tempts you to install one more, but they pile up quietly eating context, and worse, can interact with each other in unforeseen, nasty ways if you're not watching your traces.",
+      "summaryZh": "Swyx 反对无节制囤积 skill 的风气，提醒大家要定期删掉自己的 Claude skill。他的提醒是：时间线上每一条\"这个 skill 改变了我的人生！\"的帖子都在诱惑你再装一个，但这些 skill 会悄悄堆积、白白吃掉上下文，更糟的是，如果你不盯着自己的执行轨迹看，它们之间还可能以意想不到的、很糟糕的方式互相干扰。",
+      "url": "https://x.com/swyx/status/2086505938144616810",
+      "tags": ["skills", "claude-code", "context-management"]
+    },
+    {
+      "id": "nikunj-kothari-fable-feature-flags",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "Nikunj Kothari's running joke about Claude Fable 5 turns into a real lesson: the model defaults to putting every new feature behind an environment-variable flag, so often that he had to explicitly write \"defaults matter, no hedging\" into his project's CLAUDE.md file just to get it to commit to a default behavior.",
+      "summaryZh": "Nikunj Kothari 关于 Claude Fable 5 的一句调侃里藏着一个真实的教训：这个模型默认喜欢把每个新功能都藏在一个环境变量开关后面，而且频率高到他不得不在项目的 CLAUDE.md 文件里明确写上\"默认值很重要，不要留后路\"，才能让它真正给出一个确定的默认行为。",
+      "url": "https://x.com/nikunj/status/2086492103945900437",
+      "tags": ["claude", "fable", "prompt-engineering"]
+    },
+    {
+      "id": "aditya-agarwal-wittgenstein-ai-parallel",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, South Park Commons",
+      "summary": "Aditya Agarwal draws a sharp parallel between two intellectual reversals sixty years apart: Wittgenstein spent his early career hunting for language's hidden logical structure, then spent his later career arguing the point was to look at how language is actually used, not to formalize it. He sees the same arc in AI — decades chasing a deep symbolic structure for intelligence, before the field simply gave up and scaled the neural net instead.",
+      "summaryZh": "Aditya Agarwal 把两次相隔六十年的思想大转弯放在一起对比：维特根斯坦早年一直在寻找语言背后隐藏的逻辑结构，晚年却转而主张真正该做的是观察语言实际是怎么被使用的，而不是去把它形式化。他认为 AI 领域也走过了同样的弧线——几十年里一直在追寻智能背后的深层符号结构，最后干脆放弃了这条路，直接去做神经网络的规模扩张。",
+      "url": "https://x.com/adityaag/status/2086592574534602781",
+      "tags": ["ai-history", "philosophy", "deep-learning"]
+    },
+    {
+      "id": "claude-blog-code-artifacts",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "summary": "Claude Blog details how Claude Code sessions can now be captured as \"artifacts\" — live, shareable web pages that update in place as the session keeps working, covering things like PR walkthroughs, incident timelines, and release checklists. The pitch is that teams stop needing a status update because everyone's looking at a page that already reflects the codebase, connected tools, and the session's own reasoning; every artifact defaults to private, with org-level sharing, retention, and a compliance API for admins.",
+      "summaryZh": "Claude Blog 详细介绍了 Claude Code 现在如何把一次会话的工作过程直接生成\"artifact\"——一种实时、可分享的网页，会随着会话推进原地自动更新，可以用来做 PR 走查、事故时间线、发布清单等等。它的卖点是：团队不再需要专门做进度同步，因为所有人看到的是同一个页面，而且这个页面已经融合了代码库、已连接的工具，以及会话本身的推理过程；每个 artifact 默认只对本人可见，管理员可以做组织级别的共享、设置保留策略，并通过合规 API 获得组织范围的可见性。",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "tags": ["claude-code", "artifacts", "collaboration"]
+    },
+    {
+      "id": "igor-babushkin-river-ai-unsupervised-learning",
+      "kind": "podcast",
+      "author": "Unsupervised Learning",
+      "role": "Jacob Efron with Igor Babushkin, co-founder of River AI",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "takeaway": "Igor Babushkin thinks the biggest fight left in AI isn't capability, it's control — and he left xAI to bet that personal AI trained end-to-end on an individual, running on hardware you own, beats another round of \"bigger proprietary model.\"",
+      "takeawayZh": "Igor Babushkin 认为 AI 领域剩下的最大战场不是能力，而是控制权——他离开 xAI 押注的是：一个基于个人数据端到端训练、跑在你自己拥有的硬件上的\"个人 AI\"，会比再做一个更大的闭源模型更有价值。",
+      "summary": "Jacob Efron sits down with Igor Babushkin — DeepMind's StarCraft and AlphaCode lead, an early OpenAI reasoning researcher, and xAI co-founder — now running River AI, built on the premise that AI's benefits are concentrating dangerously in a handful of companies. Babushkin says the pattern that bothers him isn't really a technology problem so much as an assumption everyone accepted: \"you should do large pre-training runs... set up an API and charge people by the token.\" River is betting against that on three fronts at once — an RL/fine-tuning API for companies to own their own post-training, a personalization push to let agents \"behave differently for each individual\" instead of training one model to please an average user, and, most radically, hardware: shrinking a frontier model down to run locally, since \"the ultimate move here is can we bring the inference compute locally to the users.\"\n\nHis clearest structural argument is that proprietary labs are getting squeezed from both sides: models are approaching a threshold where \"you're not allowed to release them anymore,\" while open models keep closing the gap from behind — \"I think it's not actually the best place to be as a proprietary model builder.\" He's not worried today about backdoored open weights (\"if these kinds of things existed, we would already have some... example of it happening in the wild\"), but says the U.S. still needs its own frontier open model for when that changes.\n\nAsked what he's changed his mind on, Babushkin admits nobody predicted how fast coding agents would explode once they crossed a capability threshold late last year — and it's made him suspect other domains are one unnoticed threshold away from the same \"step change.\"",
+      "summaryZh": "Jacob Efron 请到了 Igor Babushkin——他曾在 DeepMind 主导 StarCraft 和 AlphaCode 项目，是 OpenAI 早期推理研究团队的一员，也是 xAI 的联合创始人——如今他在做 River AI，出发点是 AI 带来的好处正在危险地集中到少数几家公司手里。Babushkin 说，真正让他不安的与其说是某个技术问题，不如说是一个所有人都默认接受的假设：\"你应该做大规模预训练……搭一个 API，按 token 向用户收费。\" River AI 同时在三条战线上押注这个假设是错的：一个让公司能真正拥有自己后训练过程的强化学习/微调 API；一个个性化方向，让 agent 能\"针对每个人表现出不同的行为\"，而不是训练一个只讨好\"平均用户\"的模型；以及最激进的一条——硬件，把前沿模型压缩到可以本地运行，因为\"最终极的一步，是能不能把推理算力真正搬到用户本地\"。\n\n他最清晰的结构性判断是：闭源实验室正在被两头夹击——模型能力越来越逼近\"不再被允许发布\"的门槛，而开源模型却在后面不断追近差距，\"作为一个闭源模型公司，我觉得这其实不是一个好位置\"。他目前并不担心开放权重模型里被植入后门，\"如果这种事真的存在，我们应该早就已经看到至少一个真实案例了\"，但他仍然认为，一旦情况有变，美国需要有自己的前沿开源模型作为底牌。\n\n被问到这些年改变了什么判断时，Babushkin 坦言，没有人能提前预测到编程类 agent 一旦跨过某个能力门槛之后会爆发得这么快——这也让他怀疑，其他领域可能也只差一个还没被注意到的\"门槛\"，就会迎来同样的\"阶跃式变化\"。",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "tags": ["xai", "river-ai", "open-source", "personalization"]
+    }
+  ]
+}
