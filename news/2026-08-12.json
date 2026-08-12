@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-12",
+  "items": [
+    {
+      "id": "anthropic-riot-platforms-compute-deal",
+      "category": "general",
+      "title": "Anthropic signs $9.1B, 20-year compute deal with bitcoin miner Riot Platforms",
+      "summary": "On August 11, Anthropic and Riot Platforms announced a $9.1 billion, 20-year agreement for roughly 191 megawatts of AI compute capacity at Riot's Rockdale, Texas facility, with deployment phased through 2027-2028 and potential extension to $16.1 billion over 30 years. It's Anthropic's third major compute procurement in three months, following a $19B TeraWulf data-center lease in July, pushing recent commitments past $60B.",
+      "whyItMatters": "More long-term compute locked in for Anthropic is a loose signal on future Claude capacity and pricing stability — worth tracking if Claude ever becomes a routing option behind Romain/Anna.",
+      "url": "https://www.cnbc.com/2026/08/11/riot-platforms-signs-anthropic-deal-as-miners-shift-to-ai-infrastructure-.html",
+      "source": "CNBC",
+      "tags": ["anthropic", "infrastructure", "compute", "funding"]
+    },
+    {
+      "id": "anthropic-claude-invisible-watermark",
+      "category": "general",
+      "title": "Anthropic starts watermarking all new Claude output, text and files, to meet EU AI Act rules",
+      "summary": "On August 11, Anthropic said every Claude model released on or after August 2, 2026 now embeds an invisible statistical watermark in generated text (plus C2PA marks in files), which travels with copy-pasted text, to comply with the EU AI Act's Transparency Code that took effect August 2. Anthropic says the mark only proves Claude had a hand in the content, not that it wrote all of it, and it applies globally across Claude, the API, Claude Code, and Cowork.",
+      "whyItMatters": "If Claude output is ever piped into lesson content, transcripts, or feedback text for Romain/Anna, that text will now silently carry an EU-mandated watermark worth knowing about before shipping any export or plagiarism-detection features.",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "source": "TechCrunch",
+      "tags": ["anthropic", "safety", "regulation", "eu-ai-act"]
+    },
+    {
+      "id": "openai-daybreak-aws-bedrock-gpt-5-6-cyber",
+      "category": "general",
+      "title": "OpenAI brings Daybreak cybersecurity models to AWS Bedrock, adds GPT-5.6 Cyber",
+      "summary": "On August 11, OpenAI and AWS made Daybreak Red and Daybreak Blue, OpenAI's gated offensive/defensive cybersecurity model access tiers, available to eligible customers on Amazon Bedrock, alongside a new GPT-5.6 Cyber model trained for vulnerability research and exploit development. Access requires enrollment in OpenAI's vetted Trusted Access for Cyber program; partners expanding access include Accenture, IBM, CrowdStrike, Cisco, Sophos, and Cloudflare.",
+      "whyItMatters": "Not voice-tutor relevant directly, but shows OpenAI segmenting specialized, gated model variants and distributing them via AWS, a pattern worth watching if it extends to Realtime/voice model access tiers down the line.",
+      "url": "https://aibusiness.com/cybersecurity/openai-expands-daybreak-tackle-growing-ai-security-threat",
+      "source": "AIBusiness",
+      "tags": ["openai", "cybersecurity", "aws", "enterprise"]
+    },
+    {
+      "id": "xai-grok-bot-public-beta",
+      "category": "general",
+      "title": "xAI opens Grok Bot public beta, always-on cloud AI coworkers",
+      "summary": "On August 11, xAI opened a public beta of Grok Bot, giving subscribers AI agents that run 24/7 on their own dedicated cloud Linux VM (browser, filesystem, terminal), can log into a user's apps, and finish multi-step workflows unsupervised, continuing to work after the user's laptop is closed. It's bundled into SuperGrok Heavy ($200-300/mo) and Cursor Ultra/Teams Premium tiers, launching on Mac and iOS first; Musk says a wider rollout tied to Grok 4.6 is coming later this week.",
+      "whyItMatters": "An always-on, persistent-session agent architecture (versus request/response) is a pattern worth watching for any future asynchronous tutor features, like an agent that preps lesson materials or reviews homework between sessions.",
+      "url": "https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month",
+      "source": "VentureBeat",
+      "tags": ["xai", "agents", "grok", "automation"]
+    }
+  ]
+}

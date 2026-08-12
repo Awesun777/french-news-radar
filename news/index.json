@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-11T06:27:18Z",
+  "generatedAt": "2026-08-12T06:13:30Z",
   "digests": [
+    {
+      "date": "2026-08-12",
+      "title": "Quiet day: Anthropic's $9B compute bet, Claude's EU watermarks",
+      "itemCount": 4,
+      "categories": ["general"],
+      "highlights": [
+        "Anthropic signs $9.1B, 20-year compute deal with bitcoin miner Riot Platforms",
+        "Anthropic starts watermarking all new Claude output, text and files, to meet EU AI Act rules",
+        "xAI opens Grok Bot public beta, always-on cloud AI coworkers"
+      ]
+    },
     {
       "date": "2026-08-11",
       "title": "OpenAI's Astra hits a cyber-safety wall, Sanders demands a pause",
