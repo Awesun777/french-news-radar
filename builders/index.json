@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-11T06:33:00Z",
+  "generatedAt": "2026-08-12T06:35:00Z",
   "digests": [
+    {
+      "date": "2026-08-12",
+      "title": "Anthropic details how it contains Claude's blast radius, Netic's Tokmak bets on automating real-world \"boring\" industries",
+      "itemCount": 12,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Anthropic's engineering team publishes a detailed breakdown of how it contains Claude across claude.ai, Claude Code, and Cowork — including a red-team phishing test that exfiltrated AWS credentials in 24 of 25 tries",
+        "Guillermo Rauch ties Vercel Sandbox's network isolation directly to the same OpenAI-Artifactory zero-day and a new Kimi K3 paper on container escape risks",
+        "Netic founder Melisa Tokmak argues automating \"boring,\" operationally brutal real-world industries — not chatbots or coding agents — is AI's next unclaimed frontier"
+      ]
+    },
     {
       "date": "2026-08-11",
       "title": "Cherny says prompt injection is largely solved, ex-xAI co-founder Babushkin bets on local personal AI",
