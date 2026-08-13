@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-13",
+  "items": [
+    {
+      "id": "xai-grok-4-6-launch",
+      "category": "models",
+      "title": "xAI launches Grok 4.6, undercutting GPT-5.6 and Claude Opus 5 on agentic-task price",
+      "summary": "On August 12, xAI released Grok 4.6, built for long-running agent workflows and more ambitious interactive/visual tasks. It matches GPT-5.6 Sol on the Artificial Analysis Intelligence Index and reportedly completes agentic workflows in about 53 steps versus Claude Opus 5's 103, at $2/$6 per million input/output tokens (over 60% cheaper than Opus 5's $5/$25 and GPT-5.6 Sol's $5/$30). It ships today in Cursor, Grok Build, the xAI API, OpenRouter, Vercel, and Cloudflare, with a 500K context window.",
+      "whyItMatters": "Not voice-specific, but a steep drop in reasoning-model cost for agentic work is worth tracking in case any non-voice logic behind Romain/Anna (lesson planning, homework review, feedback generation) ever routes through a cheaper general LLM.",
+      "url": "https://x.ai/news/grok-4-6",
+      "source": "xAI",
+      "tags": ["xai", "grok", "llm", "pricing"]
+    },
+    {
+      "id": "deepseek-v4-pro-0813-ga",
+      "category": "models",
+      "title": "DeepSeek V4 Pro exits preview as the 0813 GA build, agentic benchmarks jump sharply",
+      "summary": "DeepSeek quietly rolled out DeepSeek-V4-Pro-0813 as the official GA build behind its deepseek-v4-pro API endpoint on August 12-13, closing a preview window open since April. Versus the preview, DeepSWE jumped from 12.8 to 62.7, CyberGym from 52.7 to 83.3, and Terminal-Bench 2.1 from 72.1 to 87.9 — approaching Fable 5-territory agentic performance. It's a 1.6T-parameter MoE (about 49B active per token) with a 1M-token context window, priced at $0.435/$0.87 per million input/output tokens (cache-miss); DeepSeek has separately signaled a price increase is coming.",
+      "whyItMatters": "A budget frontier-adjacent model closing the agentic gap at a fraction of premium pricing is a cost lever worth testing for any text-generation side of the tutor (lesson content, written feedback) that doesn't need Realtime or ElevenLabs voice quality.",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "source": "DeepSeek API docs",
+      "tags": ["deepseek", "llm", "pricing", "agentic"]
+    },
+    {
+      "id": "pixel-11-gboard-rambler",
+      "category": "inspiration",
+      "title": "Google's Gboard Rambler turns rambling speech into clean text using Gemini",
+      "summary": "Announced August 12 alongside the Pixel 11 launch, Rambler is a Gemini-powered voice-input mode in Gboard that goes beyond literal transcription: it strips filler words (\"umm\", \"ah\"), fixes run-on sentences, adds punctuation/formatting, and lets you edit the result with follow-up voice commands (change tone, expand, add emoji) rather than requiring carefully constructed sentences up front. It works across the Pixel 11 series, with reduced functionality offline.",
+      "whyItMatters": "Cleaning up messy, hesitation-filled spoken input into intent-preserving text in real time is directly relevant to a French tutor's ASR pipeline — the same filtering trick could grade a learner's spoken French on content and grammar without penalizing natural hesitation or false starts.",
+      "url": "https://9to5google.com/2026/08/12/pixel-11-gemini-intelligence/",
+      "source": "9to5Google",
+      "tags": ["voice", "asr", "gemini", "ux"]
+    },
+    {
+      "id": "pixel-11-sign-language-to-text",
+      "category": "inspiration",
+      "title": "Google DeepMind's Sign-Language-to-Text (SL2T) model debuts with Pixel 11",
+      "summary": "At the August 12 Made by Google event, Google introduced sign-language-to-text (SL2T), a new DeepMind model that lets people sign directly into the Pixel Camera and have it converted to text anywhere they'd normally type — Gboard, search, messages, or Gemini queries — starting with American Sign Language-to-English. Google says the feature is free with no plans to charge for it.",
+      "whyItMatters": "Not French-specific, but a new low-latency capture-to-text model for a non-verbal input modality is a fresh reference point on real-time interpretation techniques — the same capture/translate/render pipeline maps onto live pronunciation or grammar-correction overlays for a voice tutor.",
+      "url": "https://www.digitaltrends.com/phones/pixel-11-introduces-a-new-way-for-deaf-users-to-communicate-with-people-who-dont-know-sign-language/",
+      "source": "Digital Trends",
+      "tags": ["accessibility", "translation", "deepmind", "multimodal"]
+    },
+    {
+      "id": "openai-chatgpt-ads-expansion",
+      "category": "general",
+      "title": "OpenAI expands ChatGPT ad tests beyond the US to five more countries",
+      "summary": "OpenAI's ChatGPT ad test, first piloted with US Free/Go-tier users, expanded to the UK, Mexico, Brazil, Japan, and South Korea as of August 11-12. Ads appear as clearly labeled placements below chatbot answers, are sold on a cost-per-view basis, don't reach Plus/Pro/Business/Enterprise/Education tiers, and are excluded for accounts flagged as under-18 or in sensitive-topic conversations; advertisers get only aggregated metrics, not chat logs.",
+      "whyItMatters": "Not tutor-relevant technically, but OpenAI leaning on ads to subsidize free-tier usage rather than raising prices is a signal worth watching for whether it eventually cushions Realtime API costs for lower tiers.",
+      "url": "https://openai.com/index/testing-ads-in-chatgpt/",
+      "source": "OpenAI",
+      "tags": ["openai", "chatgpt", "business", "monetization"]
+    }
+  ]
+}

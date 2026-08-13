@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-12T06:13:30Z",
+  "generatedAt": "2026-08-13T06:35:00Z",
   "digests": [
+    {
+      "date": "2026-08-13",
+      "title": "Grok 4.6 and DeepSeek V4 Pro GA, Gemini's Rambler cleans up messy speech",
+      "itemCount": 5,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "xAI launches Grok 4.6, undercutting GPT-5.6 and Claude Opus 5 on agentic-task price",
+        "DeepSeek V4 Pro exits preview as the 0813 GA build, agentic benchmarks jump sharply",
+        "Google's Gboard Rambler turns rambling speech into clean text using Gemini"
+      ]
+    },
     {
       "date": "2026-08-12",
       "title": "Quiet day: Anthropic's $9B compute bet, Claude's EU watermarks",
