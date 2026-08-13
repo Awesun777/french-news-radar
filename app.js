@@ -41,6 +41,13 @@ const SECTIONS = {
     tagline: "Daily market thoughts — private to this browser",
     empty: "No entries yet. Press “New entry” and start dictating.",
   },
+  jobs: {
+    label: "Jobs",
+    dir: "jobs",
+    tagline: "New postings from watched career pages — checked nightly",
+    empty: "No postings yet. Add companies to the watchlist above — the nightly agent checks their career pages and new roles land here.",
+    skill: "/jobs-digest",
+  },
 };
 
 // Builders items are filtered by source kind rather than by news category.
@@ -66,10 +73,12 @@ const state = {
   query: "",                 // shared: searching persists across tabs
   activeCat: "all",          // radar only
   activeKind: "all",         // builders only
+  activeCompany: "all",      // jobs only
   lang: "en",                // builders only
   radar: blankSection(),
   builders: blankSection(),
   journal: blankSection(),
+  jobs: blankSection(),
 };
 
 // Shorthand for the currently-visible section's slice.
@@ -87,6 +96,16 @@ const el = {
   dateNext: document.getElementById("date-next"),
   footerMeta: document.getElementById("footer-meta"),
   footerGen: document.getElementById("footer-gen"),
+  jobsWatch: document.getElementById("jobs-watch"),
+  jobsAddBtn: document.getElementById("jobs-add-btn"),
+  jobsSync: document.getElementById("jobs-sync"),
+  jobsForm: document.getElementById("jobs-form"),
+  jobsUrl: document.getElementById("jobs-url"),
+  jobsCompany: document.getElementById("jobs-company"),
+  jobsRoles: document.getElementById("jobs-roles"),
+  jobsSave: document.getElementById("jobs-save"),
+  jobsCancel: document.getElementById("jobs-cancel"),
+  jobsWatchlist: document.getElementById("jobs-watchlist"),
   compose: document.getElementById("journal-compose"),
   journalNew: document.getElementById("journal-new"),
   journalExport: document.getElementById("journal-export"),
@@ -132,6 +151,103 @@ function journalRead() {
   } catch { return []; }
 }
 function journalWrite(entries) { localStorage.setItem(JOURNAL_KEY, JSON.stringify(entries)); }
+
+// ---------- jobs watchlist ----------
+// Source of truth is jobs/watchlist.json in the repo — that's what the nightly
+// agent reads. The browser can't commit, so edits live in a localStorage
+// overlay until "Sync to agent" downloads the merged file, which the nightly
+// skill picks up from ~/Downloads and commits. Once an edit shows up in the
+// fetched repo copy, reconcilePending drops it from the overlay automatically.
+const WATCH_PENDING_KEY = "news-radar-jobs-pending-v1";
+let repoWatchlist = [];
+
+function pendingRead() {
+  try {
+    const p = JSON.parse(localStorage.getItem(WATCH_PENDING_KEY) || "{}");
+    return { added: Array.isArray(p.added) ? p.added : [], removed: Array.isArray(p.removed) ? p.removed : [] };
+  } catch { return { added: [], removed: [] }; }
+}
+function pendingWrite(p) { localStorage.setItem(WATCH_PENDING_KEY, JSON.stringify(p)); }
+
+function reconcilePending() {
+  const p = pendingRead();
+  const repoUrls = new Set(repoWatchlist.map((c) => c.careersUrl));
+  const next = {
+    added: p.added.filter((c) => !repoUrls.has(c.careersUrl)),
+    removed: p.removed.filter((url) => repoUrls.has(url)),
+  };
+  if (JSON.stringify(next) !== JSON.stringify(p)) pendingWrite(next);
+  return next;
+}
+
+function effectiveWatchlist() {
+  const p = reconcilePending();
+  const removed = new Set(p.removed);
+  return [...repoWatchlist.filter((c) => !removed.has(c.careersUrl)), ...p.added];
+}
+
+/** Best-effort company name from a careers URL; always editable in the form. */
+function companyFromUrl(url) {
+  const cap = (s) => (s ? s[0].toUpperCase() + s.slice(1) : "");
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace(/^www\./, "");
+    // ATS boards put the company in the path, not the host.
+    if (/greenhouse\.io|lever\.co|ashbyhq\.com|workable\.com|myworkdayjobs\.com|jobvite\.com/.test(host)) {
+      return cap((u.pathname.split("/").filter(Boolean)[0] || "").replace(/[-_]/g, " "));
+    }
+    const parts = host.split(".");
+    const sub = ["careers", "jobs", "boards", "apply", "work", "join"];
+    const base = parts.length > 2 && sub.includes(parts[0]) ? parts[1] : parts[parts.length - 2];
+    return cap(base);
+  } catch { return ""; }
+}
+
+async function loadWatchlist() {
+  try {
+    const data = await getJSON("./jobs/watchlist.json");
+    repoWatchlist = Array.isArray(data.companies) ? data.companies : [];
+  } catch { repoWatchlist = []; }
+  renderWatchlist();
+}
+
+function renderWatchlist() {
+  const p = reconcilePending();
+  const removed = new Set(p.removed);
+  const pendingUrls = new Set(p.added.map((c) => c.careersUrl));
+  const list = effectiveWatchlist();
+
+  el.jobsSync.hidden = p.added.length === 0 && p.removed.length === 0;
+
+  if (!list.length && !removed.size) {
+    el.jobsWatchlist.innerHTML = `<p class="watch-empty">No companies watched yet.</p>`;
+    return;
+  }
+  el.jobsWatchlist.innerHTML = list.map((c) => {
+    const pending = pendingUrls.has(c.careersUrl);
+    let host = c.careersUrl;
+    try { host = new URL(c.careersUrl).hostname.replace(/^www\./, ""); } catch { /* keep raw */ }
+    return `<div class="watch-row">
+      <div class="watch-main">
+        <span class="watch-company">${esc(c.company)}</span>
+        ${pending ? `<span class="watch-pending">pending sync</span>` : ""}
+        <a class="watch-link" href="${esc(c.careersUrl)}" target="_blank" rel="noopener">${esc(host)}</a>
+      </div>
+      ${c.roles ? `<span class="watch-roles">${esc(c.roles)}</span>` : ""}
+      <button class="watch-remove" type="button" data-url="${esc(c.careersUrl)}" title="Stop watching">×</button>
+    </div>`;
+  }).join("");
+}
+
+function downloadWatchlist() {
+  const payload = { updatedAt: new Date().toISOString(), companies: effectiveWatchlist() };
+  const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "watchlist.json";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
 
 // ---------- fetch ----------
 async function getJSON(url) {
@@ -197,9 +313,11 @@ async function showSection(name) {
     else b.removeAttribute("aria-current");
   }
   // The language toggle is meaningful only for the bilingual builders feed;
-  // the composer only for the journal.
+  // the composer only for the journal; the watchlist only for jobs.
   el.langToggle.hidden = name !== "builders";
   el.compose.hidden = name !== "journal";
+  el.jobsWatch.hidden = name !== "jobs";
+  if (name === "jobs") loadWatchlist();
 
   const slice = state[name];
   if (conf.local) {
@@ -240,6 +358,17 @@ function renderChips() {
   // The journal has no category axis — hide the filter select entirely.
   el.catNav.hidden = state.section === "journal";
   if (el.catNav.hidden) return;
+  // Jobs filter by company, derived from whatever the feed actually contains.
+  if (state.section === "jobs") {
+    const companies = [...new Set(cur().items.map((i) => i.company).filter(Boolean))].sort();
+    el.catNav.innerHTML = [`<option value="all">All companies</option>`]
+      .concat(companies.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`))
+      .join("");
+    if (state.activeCompany !== "all" && !companies.includes(state.activeCompany)) state.activeCompany = "all";
+    el.catNav.value = state.activeCompany;
+    el.catNav.dataset.active = String(state.activeCompany !== "all");
+    return;
+  }
   const builders = state.section === "builders";
   const list = builders ? KINDS : CATEGORIES;
   const active = builders ? state.activeKind : state.activeCat;
@@ -315,8 +444,11 @@ function matches(it) {
   if (cur().activeDate !== "all" && it.date !== cur().activeDate) return false;
   const builders = state.section === "builders";
   const journal = state.section === "journal";
+  const jobs = state.section === "jobs";
   if (builders) {
     if (state.activeKind !== "all" && (it.kind || "x") !== state.activeKind) return false;
+  } else if (jobs) {
+    if (state.activeCompany !== "all" && it.company !== state.activeCompany) return false;
   } else if (!journal && state.activeCat !== "all" && it.category !== state.activeCat) {
     return false;
   }
@@ -325,6 +457,8 @@ function matches(it) {
   // Chinese text is searchable too, so a 中文 query finds the same card.
   const hay = journal
     ? String(it.text || "").toLowerCase()
+    : jobs
+    ? [it.company, it.title, it.location, it.team, ...(it.matchedRoles || [])].join(" ").toLowerCase()
     : builders
     ? [it.author, it.role, it.title, it.takeaway, it.summary, it.summaryZh, it.takeawayZh, ...(it.tags || [])].join(" ").toLowerCase()
     : [it.title, it.summary, it.whyItMatters, it.source, ...(it.tags || [])].join(" ").toLowerCase();
@@ -463,10 +597,35 @@ function journalCardHTML(it, opts = {}) {
   </article>`;
 }
 
+// One new posting per card: company leads (you scan this feed by employer),
+// the title links to the live posting, chips carry location and matched roles.
+function jobCardHTML(it, opts = {}) {
+  const dateBadge = opts.showDate ? `<span class="result-date-badge">${esc(fmtFullDate(it.date))}</span>` : "";
+  const chips = [
+    it.location ? `<span class="tag">📍 ${esc(it.location)}</span>` : "",
+    it.team ? `<span class="tag">${esc(it.team)}</span>` : "",
+    ...(it.matchedRoles || []).map((r) => `<span class="tag job-role-tag">${esc(r)}</span>`),
+  ].filter(Boolean).join("");
+  return `<article class="card job-card">
+    <div class="card-top">
+      <div class="card-body">
+        <div class="card-meta">
+          <span class="cat-tag job-tag">New posting</span>
+          <span class="source">${esc(it.company || "")}</span>
+          ${dateBadge}
+        </div>
+        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+        ${chips ? `<div class="tags">${chips}</div>` : ""}
+      </div>
+    </div>
+  </article>`;
+}
+
 function render() {
   const isBuilders = state.section === "builders";
   const isJournal = state.section === "journal";
-  const card = isJournal ? journalCardHTML : isBuilders ? builderCardHTML : cardHTML;
+  const isJobs = state.section === "jobs";
+  const card = isJournal ? journalCardHTML : isJobs ? jobCardHTML : isBuilders ? builderCardHTML : cardHTML;
   const visible = cur().items.filter(matches);
   const searching = !!state.query.trim();
 
@@ -493,8 +652,8 @@ function render() {
     const items = groups.get(k);
     // Radar pins `general` AI filler last; builders lead with X and close with
     // the long-form podcast, which reads better than the authored order.
-    // Journal entries are already newest-first within the day.
-    const ordered = isJournal
+    // Journal entries are already newest-first; jobs group naturally by company.
+    const ordered = isJournal || isJobs
       ? items
       : isBuilders
       ? [...items.filter((it) => (it.kind || "x") !== "podcast"), ...items.filter((it) => it.kind === "podcast")]
@@ -525,6 +684,7 @@ el.search.addEventListener("input", (e) => {
 
 el.catNav.addEventListener("change", (e) => {
   if (state.section === "builders") state.activeKind = e.target.value;
+  else if (state.section === "jobs") state.activeCompany = e.target.value;
   else state.activeCat = e.target.value;
   renderChips();
   render();
@@ -608,6 +768,67 @@ el.journalExport.addEventListener("click", () => {
   a.click();
   URL.revokeObjectURL(a.href);
 });
+
+// ---------- jobs watchlist form ----------
+function closeJobsForm() {
+  el.jobsForm.hidden = true;
+  el.jobsAddBtn.hidden = false;
+  el.jobsUrl.value = "";
+  el.jobsCompany.value = "";
+  el.jobsRoles.value = "";
+}
+el.jobsAddBtn.addEventListener("click", () => {
+  el.jobsAddBtn.hidden = true;
+  el.jobsForm.hidden = false;
+  el.jobsUrl.focus();
+});
+el.jobsCancel.addEventListener("click", closeJobsForm);
+// Auto-detect the company as soon as the URL is pasted; never overwrite a
+// name the user has already typed themselves.
+el.jobsUrl.addEventListener("input", () => {
+  if (!el.jobsCompany.value.trim() || el.jobsCompany.dataset.auto === "true") {
+    const guess = companyFromUrl(el.jobsUrl.value.trim());
+    if (guess) { el.jobsCompany.value = guess; el.jobsCompany.dataset.auto = "true"; }
+  }
+});
+el.jobsCompany.addEventListener("input", () => { el.jobsCompany.dataset.auto = "false"; });
+
+el.jobsSave.addEventListener("click", () => {
+  const careersUrl = el.jobsUrl.value.trim();
+  const company = el.jobsCompany.value.trim() || companyFromUrl(careersUrl);
+  const roles = el.jobsRoles.value.trim();
+  try { new URL(careersUrl); } catch { el.jobsUrl.focus(); return; }
+  if (!company) { el.jobsCompany.focus(); return; }
+  if (effectiveWatchlist().some((c) => c.careersUrl === careersUrl)) { closeJobsForm(); return; }
+  const p = pendingRead();
+  p.added.push({
+    id: company.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
+    company,
+    careersUrl,
+    roles,
+    addedAt: new Date().toISOString(),
+  });
+  p.removed = p.removed.filter((u) => u !== careersUrl);
+  pendingWrite(p);
+  closeJobsForm();
+  renderWatchlist();
+});
+
+el.jobsWatchlist.addEventListener("click", (e) => {
+  const btn = e.target.closest(".watch-remove");
+  if (!btn) return;
+  const url = btn.dataset.url;
+  const p = pendingRead();
+  if (p.added.some((c) => c.careersUrl === url)) {
+    p.added = p.added.filter((c) => c.careersUrl !== url);
+  } else if (!p.removed.includes(url)) {
+    p.removed.push(url);
+  }
+  pendingWrite(p);
+  renderWatchlist();
+});
+
+el.jobsSync.addEventListener("click", downloadWatchlist);
 
 function sectionFromHash() {
   const h = location.hash.replace(/^#\/?/, "");

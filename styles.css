@@ -455,6 +455,61 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   font-size: 12px; font-weight: 700;
 }
 
+/* ─── Jobs ───────────────────────────────────────────────────────────────────
+ * Watchlist manager (reuses the journal composer chrome) + posting cards.
+ * The list mirrors jobs/watchlist.json; locally-queued edits carry a pending
+ * chip until the nightly agent commits the synced file. */
+.jobs-watch { margin-bottom: 28px; }
+/* .journal-new sets its own display, which would otherwise beat the UA's
+ * [hidden] rule — same fix as the journal composer. */
+.jobs-watch [hidden] { display: none !important; }
+.jobs-form-grid { display: flex; flex-direction: column; gap: 8px; }
+.jobs-form-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.jobs-form-row input { flex: 1 1 220px; }
+.jobs-form-grid input {
+  font: inherit; font-size: 13.5px;
+  color: var(--fg); background: var(--card);
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 12px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+.jobs-form-grid input::placeholder { color: var(--faint); }
+.jobs-form-grid input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+
+.jobs-watchlist { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.watch-empty { color: var(--faint); font-size: 13px; margin: 4px 0 0; }
+.watch-row {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  background: var(--card); border-radius: 12px;
+  padding: 10px 14px;
+  box-shadow: var(--shadow);
+  border-left: 3px solid var(--accent-models);
+}
+.watch-main { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; min-width: 0; }
+.watch-company { font-weight: 700; font-size: 14px; }
+.watch-link { font-size: 12px; color: var(--accent-models); text-decoration: none; }
+.watch-link:hover { text-decoration: underline; }
+.watch-roles { font-size: 12px; color: var(--muted); flex: 1; min-width: 120px; }
+.watch-pending {
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--amber); background: rgb(var(--amber-rgb) / .12);
+  padding: 2px 7px; border-radius: 999px;
+}
+.watch-remove {
+  margin-left: auto;
+  font: inherit; font-size: 15px; line-height: 1;
+  color: var(--faint); background: none;
+  border: 0; border-radius: 6px;
+  padding: 2px 7px; cursor: pointer;
+  transition: color .15s, background .15s;
+}
+.watch-remove:hover { color: var(--accent-apps); background: rgb(var(--accent-apps-rgb) / .1); }
+
+.card.job-card { border-left-color: var(--accent-models); }
+.job-tag { background: rgb(var(--accent-models-rgb) / .12); color: var(--accent-models); }
+.job-role-tag { color: var(--accent-inspiration); border-color: rgb(var(--accent-inspiration-rgb) / .3); }
+
 @media (max-width: 720px) {
   .topbar { flex-wrap: wrap; gap: 10px; }
   .topbar-right { width: 100%; justify-content: flex-start; }

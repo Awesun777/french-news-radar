@@ -17,6 +17,7 @@
           <button class="section-tab" type="button" data-section="radar" aria-current="true">Radar</button>
           <button class="section-tab" type="button" data-section="builders">AI Builders</button>
           <button class="section-tab" type="button" data-section="journal">Journal</button>
+          <button class="section-tab" type="button" data-section="jobs">Jobs</button>
         </nav>
       </div>
 
@@ -55,6 +56,33 @@
           <span class="journal-hint">Private — saved only in this browser · ⌘↩ to log</span>
         </div>
       </div>
+    </div>
+
+    <!-- Jobs watchlist manager. The list's source of truth is jobs/watchlist.json
+         in the repo (what the nightly agent reads); edits made here queue locally
+         and travel via "Sync to agent", which downloads a merged watchlist.json
+         that the nightly skill picks up from ~/Downloads and commits. -->
+    <div id="jobs-watch" class="jobs-watch" hidden>
+      <div class="journal-bar">
+        <button id="jobs-add-btn" class="journal-new" type="button">＋ Watch a company</button>
+        <button id="jobs-sync" class="journal-export" type="button" hidden
+          title="Download watchlist.json — the nightly agent picks it up from ~/Downloads and commits it">⬇ Sync to agent</button>
+      </div>
+      <div id="jobs-form" class="journal-editor" hidden>
+        <div class="jobs-form-grid">
+          <input id="jobs-url" type="url" placeholder="Careers page URL — e.g. https://careers.anthropic.com/jobs" autocomplete="off" spellcheck="false" />
+          <div class="jobs-form-row">
+            <input id="jobs-company" type="text" placeholder="Company (auto-detected from the URL)" autocomplete="off" />
+            <input id="jobs-roles" type="text" placeholder="Positions to watch — e.g. forward deployed engineer, solutions" autocomplete="off" />
+          </div>
+        </div>
+        <div class="journal-actions">
+          <button id="jobs-save" class="journal-btn primary" type="button">Add to watchlist</button>
+          <button id="jobs-cancel" class="journal-btn" type="button">Cancel</button>
+          <span class="journal-hint">Checked nightly by the local Claude agent</span>
+        </div>
+      </div>
+      <div id="jobs-watchlist" class="jobs-watchlist"></div>
     </div>
 
     <div id="status" class="status">Loading the radar…</div>
