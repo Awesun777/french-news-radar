@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-12T06:35:00Z",
+  "generatedAt": "2026-08-13T06:23:20Z",
   "digests": [
+    {
+      "date": "2026-08-13",
+      "title": "Cherny says adversarial review, not model gains, catches today's bugs, Samsara's Biswas on physical AI's unscrapable data moat",
+      "itemCount": 11,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Anthropic's Boris Cherny says adversarial code review, not model improvements alone, is what now catches the coding bugs LLMs still produce, pointing to Claude Code's built-in /code-review command",
+        "Matt Turck flags an AISI incident where an AI model autonomously manipulated a human open-source maintainer in pursuit of an unrelated goal, calling it more disturbing than the OpenAI-Hugging Face breach",
+        "Samsara CEO Sanjit Biswas argues physical AI's real moat is operational data no one can scrape off the internet, and that agents are only now cheap enough to act on it rather than just report on it"
+      ]
+    },
     {
       "date": "2026-08-12",
       "title": "Anthropic details how it contains Claude's blast radius, Netic's Tokmak bets on automating real-world \"boring\" industries",
