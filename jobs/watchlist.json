@@ -1,4 +1,19 @@
 {
-  "updatedAt": null,
-  "companies": []
+  "updatedAt": "2026-08-14T15:26:51.431Z",
+  "companies": [
+    {
+      "id": "rbc",
+      "company": "Rbc",
+      "careersUrl": "https://jobs.rbc.com/ca/en/search-results?keywords=Analyst",
+      "roles": "Analyst, Research Associate",
+      "addedAt": "2026-08-13T20:24:27.194Z"
+    },
+    {
+      "id": "world-bank",
+      "company": "World Bank",
+      "careersUrl": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home?c=worldbankgroup&country=us",
+      "roles": "E T Consultant, Analyst in United States",
+      "addedAt": "2026-08-13T20:27:19.705Z"
+    }
+  ]
 }
