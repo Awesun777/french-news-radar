@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-14",
+  "items": [
+    {
+      "id": "josh-woodward-gemini-app-integrations",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Gemini",
+      "summary": "Josh Woodward announces a fresh wave of Gemini integrations landing today across a long list of consumer apps — Angi, Fever, GetYourGuide, Granola, iHeartRadio, Localiza, OpenTable, Otter, Pandora, Thumbtack, Ticketmaster, Wix, Zocdoc, and Zoho — extending Gemini's reach into booking, scheduling, and everyday tasks across products people already use daily. He's actively recruiting more partners, telling anyone interested to DM him directly.",
+      "summaryZh": "Google 的 Josh Woodward 宣布新一波 Gemini 集成今天上线，覆盖一长串大众消费类 App——Angi、Fever、GetYourGuide、Granola、iHeartRadio、Localiza、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc 和 Zoho——让 Gemini 的触角进一步伸进人们日常使用的订票、预约和各种琐事场景里。他还在主动招募更多合作伙伴，说有兴趣的可以直接私信他。",
+      "url": "https://x.com/joshwoodward/status/2087751559606407615",
+      "tags": ["gemini", "google", "integrations", "partnerships"]
+    },
+    {
+      "id": "thibault-sottiaux-codex-15-million-reset",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux confirms Codex has \"crossed\" 15 million active users — blowing well past the 10 million threshold he'd earlier promised would be his last usage-limit reset — and says a fresh reset is landing within the hour. It's the latest marker in a growth streak he's been chronicling for weeks, following on the heels of Codex and ChatGPT desktop apps shipping on Linux.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 确认 Codex 活跃用户已经\"突破\"1500 万——远远超过了他之前承诺的、作为最后一次额度重置门槛的 1000 万——并表示新一轮重置将在一小时内上线。这是他这几周一直在追踪播报的增长曲线上的最新一个节点，紧接在 Codex 和 ChatGPT 桌面应用刚登陆 Linux 之后。",
+      "url": "https://x.com/thsottiaux/status/2087706104814023111",
+      "tags": ["openai", "codex", "growth", "usage-limits"]
+    },
+    {
+      "id": "peter-yang-voice-orchestration-essay",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Peter Yang argues in a new essay that how we use computers is about to fundamentally change: instead of manually operating a keyboard, mouse, and laptop, people will direct cloud-based agents by voice. His three-part case: voice becomes the orchestration layer for agent work, personal computing itself migrates to the cloud, and trust — not raw capability — becomes the key differentiator between competing agent products.",
+      "summaryZh": "Peter Yang 在一篇新文章里提出，我们使用电脑的方式即将发生根本性改变：人们将不再靠键盘、鼠标和笔记本手动操作，而是用语音指挥云端的 agent 完成工作。他给出三点论证：语音正在成为 agent 工作的编排层；个人计算本身正在迁移到云端；而信任——而不是原始能力——将成为不同 agent 产品之间的关键分水岭。",
+      "url": "https://x.com/petergyang/status/2087547168764862495",
+      "tags": ["voice-ai", "agents", "cloud-computing", "ux"]
+    },
+    {
+      "id": "madhu-guru-application-layer-alpha",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru argues the real alpha in AI products over the next few years sits at the application layer, not the model layer: as models keep getting cheaper, better, and more local, differentiation shifts to whoever understands a specific user workflow deeply enough to reimagine the experience around it. His corollary: since the pool of people who can build AI products is about to explode, being in the top 0.1% of builders will matter more, not less.",
+      "summaryZh": "Madhu Guru 认为，接下来几年 AI 产品真正的 alpha 在应用层，而不是模型层：随着模型不断变得更便宜、更强、更本地化，真正拉开差距的会是那些真正吃透某个具体用户工作流、并有想象力去围绕它重新设计体验的人。他由此推出一个推论：既然能做出 AI 产品的人群规模即将暴涨，站在前 0.1% 的顶尖开发者行列，反而会变得比以前更重要。",
+      "url": "https://x.com/realmadhuguru/status/2087553833098723547",
+      "tags": ["application-layer", "ai-strategy", "builders", "distribution"]
+    },
+    {
+      "id": "guillermo-rauch-sandbox-preinstalled-tools",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Guillermo Rauch highlights an upgrade to Vercel's `npx sandbox@latest` CLI, calling it \"mind-blowing\" and faster-feeling than a local machine. The sandbox now ships with a reasonable default set of pre-installed tools that developers can fully customize, building on Vercel's push, detailed the day before, to harden sandbox isolation for AI coding agents.",
+      "summaryZh": "Guillermo Rauch 特别点出 Vercel 的 npx sandbox@latest 命令行工具的一次升级，称之\"令人震撼\"，用起来甚至比本地机器还快。这个沙箱现在自带一套合理的默认预装工具，开发者也可以完全自定义，延续了 Vercel 前一天刚详细介绍过的、为 AI 编程 agent 强化沙箱隔离的思路。",
+      "url": "https://x.com/rauchg/status/2087698195120116064",
+      "tags": ["vercel", "sandboxing", "developer-tools", "cli"]
+    },
+    {
+      "id": "aaron-levie-jevons-paradox-deepseek-grok",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie reads the day's DeepSeek and Grok model releases — both big capability jumps at drastically lower cost — as Jevons paradox playing out in AI: cheaper models don't shrink demand, they unlock it, since enterprises already have far more agent use cases in mind (scanning codebases for security issues, reviewing every document, processing entire workflows) than their budgets currently allow. He argues this is also a boon for the \"applied AI\" layer, since more model choice at different price points raises the value of whoever can route and optimize tasks across them.",
+      "summaryZh": "Aaron Levie 把当天 DeepSeek 和 Grok 同时发布的新模型——能力大幅跃升、成本却大幅走低——解读为 AI 领域的杰文斯悖论（Jevons paradox）在上演：模型变便宜并不会压缩需求，反而会把需求释放出来，因为企业客户脑子里想让 agent 做的事，早就远远超出了现在预算能覆盖的范围（扫描代码库找安全漏洞、审阅所有文档、处理整条工作流里的信息等等）。他认为这对\"应用 AI\"这一层也是利好，因为不同价位、不同能力取向的模型选择越多，谁能在这些模型之间做路由和优化，谁的价值就越大。",
+      "url": "https://x.com/levie/status/2087719356763672917",
+      "tags": ["jevons-paradox", "deepseek", "grok", "enterprise-ai"]
+    },
+    {
+      "id": "garry-tan-gbrain-personal-agi",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Garry Tan details the latest release of his personal AI project GBrain, v0.45.6.0, which adds 17 new \"brain skills\" hardened through hundreds of thousands of markdown files run through his own OpenClaw agent, and now works with both Codex and Claude Code. His framing: a personal AGI should run as a separate agent with its own git repo for memory and skills — more like a personal version of ChatGPT or Claude than something you bolt onto your main coding agent.",
+      "summaryZh": "Garry Tan 详细介绍了他的个人 AI 项目 GBrain 的最新版本 v0.45.6.0，新增了 17 个\"brain skill\"，是靠他自己的 OpenClaw agent 处理了数十万个 markdown 文件锤炼出来的，现在已经同时支持 Codex 和 Claude Code。他的核心主张是：真正的个人 AGI 应该作为一个独立的 agent 运行、拥有自己专门存放记忆和技能的 git 仓库——更像是一个专属于你的 ChatGPT 或 Claude，而不是塞进你主力编程 agent 里的一个附加功能。",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "tags": ["gbrain", "personal-agi", "openclaw", "agents"]
+    },
+    {
+      "id": "claude-browser-agent-safety-habits",
+      "kind": "x",
+      "author": "Claude",
+      "role": "AI assistant, Anthropic",
+      "summary": "Anthropic's Claude account publishes guidance on browser-agent security, acknowledging that browser agents can be tricked by instructions hidden inside a page, and pointing users to both the defenses Anthropic builds in and habits worth adopting themselves.",
+      "summaryZh": "Anthropic 的 Claude 官方账号发布了一份关于浏览器 agent 安全性的提醒，承认浏览器 agent 可能被藏在网页里的指令欺骗，并同时给出了 Anthropic 自己构建的防御机制，以及用户自己也值得养成的一些使用习惯。",
+      "url": "https://x.com/claudeai/status/2087635265066004694",
+      "tags": ["claude", "prompt-injection", "browser-agents", "security"]
+    },
+    {
+      "id": "claude-cross-device-session-continuity",
+      "kind": "x",
+      "author": "Claude",
+      "role": "AI assistant, Anthropic",
+      "summary": "Claude ships cross-device session continuity across its surfaces: the browser side panel now runs the same Claude Cowork session as desktop, web, and mobile, so work started in one tab picks up seamlessly elsewhere, and Claude in Chrome sessions now carry the same conversations, skills, and connectors over to desktop, web, and mobile too. Cowork's side panel sync is live now; the Chrome rollout ships today on Max and Team plans, with Pro following in the coming weeks.",
+      "summaryZh": "Claude 在多个产品线上线了跨设备会话延续能力：浏览器侧边栏现在运行的是和桌面版、网页版、移动端完全同一个 Claude Cowork 会话，一个标签页里开始的工作可以无缝在别处接着做；Claude in Chrome 的会话现在也能把对话记录、技能和连接器一起带到桌面版、网页版和移动端。Cowork 侧边栏的同步功能已经上线，Chrome 端的同步能力从今天起面向 Max 和 Team 用户开放，Pro 用户将在未来几周内陆续开放。",
+      "url": "https://x.com/claudeai/status/2087635263774232617",
+      "tags": ["claude", "claude-cowork", "chrome", "cross-device"]
+    },
+    {
+      "id": "every-kevin-scott-agentic-web",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "role": "Interview with Kevin Scott, CTO of Microsoft",
+      "title": "Microsoft's Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)",
+      "takeaway": "Microsoft CTO Kevin Scott argues the industry's bottleneck has shifted from model capability to plumbing — agents need an open, internet-like ecosystem of protocols (MCP as the new HTTP) so they can actually take action across the diverse tools and information sources people already rely on.",
+      "takeawayZh": "微软 CTO Kevin Scott 认为，行业的瓶颈已经从模型能力转向了\"管道\"问题——agent 需要一个像互联网一样开放的协议生态（MCP 就是新的 HTTP），才能真正在人们已经在用的各种工具和信息源之间采取行动。",
+      "summary": "Kevin Scott, Microsoft's CTO, tells Every's AI & I podcast that the model-capability story that dominated last year's Build conference has given way to a different bottleneck: a \"capability overhang,\" where the reasoning power baked into today's models has outpaced what products actually deliver to users. Closing that gap, he argues, requires solving problems that have little to do with raw intelligence — starting with agentic memory, since most agents today are \"transactional\": coherent within a single task, then wiped clean, which blocks delegating more complex, multi-step work. His bigger claim is that for agents to be genuinely useful they need to take real action across a rich, diverse set of tools and information sources — which means building an ecosystem that mirrors the early internet, with MCP filling the role HTTP played and NLWeb filling the role of HTML. Internally at Microsoft, Scott says he's pushed for every system to speak that same standard protocol to agents, specifically to avoid organizations shipping their own \"Conway's law\" mess into how agents get built. Pressed on why Microsoft is betting on an open, permissionless model over a tightly controlled, App Store-style vertical stack, Scott calls that trade-off a \"false dichotomy\": he argues permissionless innovation strips away the \"gatekeeping middle layers\" that add little value between the person who built something and the people who want to use it, and that AI itself — agents that understand a user's own risk tolerance and can negotiate entitlements on their behalf — can deliver security without needing a closed platform to enforce it. His clearest formulation: \"if agents are gonna be useful, they have to take action on your behalf... you need an ecosystem that looks a lot like the internet.\"",
+      "summaryZh": "微软 CTO Kevin Scott 在 Every 的 AI & I 节目上说，去年 Build 大会上那套关于模型能力的叙事，如今已经让位给了另一个瓶颈：一种\"能力过剩\"（capability overhang）——模型本身的推理能力已经跑到了产品实际交付给用户的能力前面。他认为，要补上这个差距，需要解决的问题其实和模型智能本身关系不大，首先是 agent 记忆：现在大多数 agent 都是\"一次性\"的——在单个任务内还算连贯，一旦任务结束记忆基本清零，这严重限制了把更复杂、多步骤的任务真正委托给它们。他更核心的判断是：agent 要真正有用，就必须能在丰富多样的工具和信息源之间采取真实行动——这意味着需要搭建一个像早期互联网一样的生态，MCP 扮演当年 HTTP 的角色，NLWeb 扮演当年 HTML 的角色。在微软内部，Scott 说自己一直在推动让所有系统都用同一套标准协议对 agent 说话，专门是为了避免各个团队把自己的\"康威定律\"式混乱直接带进 agent 的构建方式里。被问到为什么微软押注开放、无需许可的模式，而不是像 App Store 那样牢牢掌控的垂直闭环时，Scott 说这其实是个\"伪二选一\"：他认为无需许可的创新能去掉那些价值不大的\"守门人式中间层\"，让做出东西的人和想用这个东西的人之间少一道阻隔；而 AI 本身——能理解用户自身风险偏好、并代替用户去谈判授权范围的 agent——完全可以在不依赖封闭平台强制管控的情况下做到安全。他给出的最清晰的一句话是：\"如果 agent 要真正有用，它们就必须能代表你采取行动……你需要一个很像互联网的生态系统。\"",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": ["microsoft", "agentic-web", "mcp", "kevin-scott"]
+    }
+  ]
+}

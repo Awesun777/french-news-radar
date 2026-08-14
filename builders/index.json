@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-13T06:23:20Z",
+  "generatedAt": "2026-08-14T06:33:10Z",
   "digests": [
+    {
+      "date": "2026-08-14",
+      "title": "Sottiaux's Codex tops 15M users, Microsoft's Kevin Scott lays out an agentic web built on MCP",
+      "itemCount": 10,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "OpenAI's Thibault Sottiaux says Codex has blown past 15 million active users, triggering its latest usage-limit reset",
+        "Aaron Levie reads DeepSeek and Grok's new model releases through Jevons paradox — cheaper AI unlocks demand enterprises were already holding back, not less of it",
+        "Microsoft CTO Kevin Scott tells Every's AI & I that agents need an open, internet-like ecosystem — MCP as HTTP, NLWeb as HTML — to move past today's \"capability overhang\""
+      ]
+    },
     {
       "date": "2026-08-13",
       "title": "Cherny says adversarial review, not model gains, catches today's bugs, Samsara's Biswas on physical AI's unscrapable data moat",
