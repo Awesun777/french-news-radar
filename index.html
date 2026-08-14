@@ -75,6 +75,18 @@
             <input id="jobs-company" type="text" placeholder="Company (auto-detected from the URL)" autocomplete="off" />
             <input id="jobs-roles" type="text" placeholder="Positions to watch — e.g. forward deployed engineer, solutions" autocomplete="off" />
           </div>
+          <div class="jobs-form-row">
+            <input id="jobs-countries" type="text" list="jobs-country-options"
+              placeholder="Countries — comma-separated, blank = anywhere (e.g. United States, Canada)" autocomplete="off" />
+            <datalist id="jobs-country-options">
+              <option value="United States"></option>
+              <option value="Canada"></option>
+              <option value="United States, Canada"></option>
+              <option value="France"></option>
+              <option value="United Kingdom"></option>
+              <option value="Remote"></option>
+            </datalist>
+          </div>
         </div>
         <div class="journal-actions">
           <button id="jobs-save" class="journal-btn primary" type="button">Add to watchlist</button>

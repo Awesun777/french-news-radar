@@ -43,7 +43,8 @@ For each watchlist entry `{ company, careersUrl, roles }`:
 2. Otherwise `WebFetch` the careers URL (and an obvious "open positions" subpage if the landing page has one) and extract postings.
 3. If a page yields nothing either way, record the company as **unreachable** in your output — do NOT guess or invent postings, and do NOT treat its previously-seen postings as gone.
 4. Match against `roles`: split the user's roles string on commas into keywords; a posting matches if its title contains any keyword (case-insensitive, substring). **An empty `roles` string means watch everything.** Record which keywords matched as `matchedRoles`.
-5. For every matched posting keep: `title`, absolute `url`, `location` (if listed), `team`/department (if listed).
+5. Filter by `countries` if the entry has one (comma-separated country names): keep a posting when its location contains any listed country (case-insensitive substring; accept common variants like "United States" ⇄ "USA"/"US" and treat "Remote" as its own match). Prefer passing the country to the ATS API where it has a parameter. **A posting with no discernible location is kept**, never silently dropped.
+6. For every matched posting keep: `title`, absolute `url`, `location` (if listed), `team`/department (if listed), and `postedAt` (ISO `YYYY-MM-DD`) when the ATS exposes a posting/creation date (Phenom `dateCreated`, Greenhouse `updated_at`, Lever `createdAt`, Cornerstone posting date). Omit `postedAt` when unknown — never guess it.
 
 ## Step 4 — Diff and update state
 
@@ -56,8 +57,8 @@ For each watchlist entry `{ company, careersUrl, roles }`:
 If there are new postings:
 
 - Write `jobs/DATE.json`:
-  `{ "date": DATE, "generatedAt": "<UTC ISO now>", "items": [ { "id": "<company-slug>-<n>", "company", "title", "url", "location", "team", "matchedRoles": [...] } ] }`
-  Omit `location`/`team` keys when unknown. Order items by company name.
+  `{ "date": DATE, "generatedAt": "<UTC ISO now>", "items": [ { "id": "<company-slug>-<n>", "company", "title", "url", "location", "team", "postedAt", "matchedRoles": [...] } ] }`
+  Omit `location`/`team`/`postedAt` keys when unknown. Order items by company name.
 - Update `jobs/index.json`: prepend (or replace same-date) `{ "date": DATE, "itemCount": N, "companies": [unique company names] }` in `digests`, set `generatedAt`. Ensure `itemCount` matches.
 - Validate both files parse: `python3 -m json.tool`.
 

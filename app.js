@@ -103,6 +103,7 @@ const el = {
   jobsUrl: document.getElementById("jobs-url"),
   jobsCompany: document.getElementById("jobs-company"),
   jobsRoles: document.getElementById("jobs-roles"),
+  jobsCountries: document.getElementById("jobs-countries"),
   jobsSave: document.getElementById("jobs-save"),
   jobsCancel: document.getElementById("jobs-cancel"),
   jobsWatchlist: document.getElementById("jobs-watchlist"),
@@ -151,6 +152,22 @@ function journalRead() {
   } catch { return []; }
 }
 function journalWrite(entries) { localStorage.setItem(JOURNAL_KEY, JSON.stringify(entries)); }
+
+// ---------- jobs: dismissed postings ----------
+// Deleting a posting card is per-browser: the feed is static JSON in a public
+// repo, so "delete" means hide-forever here, keyed by posting URL.
+const JOBS_DISMISSED_KEY = "news-radar-jobs-dismissed-v1";
+function dismissedRead() {
+  try {
+    const a = JSON.parse(localStorage.getItem(JOBS_DISMISSED_KEY) || "[]");
+    return new Set(Array.isArray(a) ? a : []);
+  } catch { return new Set(); }
+}
+function dismissPosting(url) {
+  const s = dismissedRead();
+  s.add(url);
+  localStorage.setItem(JOBS_DISMISSED_KEY, JSON.stringify([...s]));
+}
 
 // ---------- jobs watchlist ----------
 // Source of truth is jobs/watchlist.json in the repo — that's what the nightly
@@ -234,6 +251,7 @@ function renderWatchlist() {
         <a class="watch-link" href="${esc(c.careersUrl)}" target="_blank" rel="noopener">${esc(host)}</a>
       </div>
       ${c.roles ? `<span class="watch-roles">${esc(c.roles)}</span>` : ""}
+      ${c.countries ? `<span class="tag">🌍 ${esc(c.countries)}</span>` : ""}
       <button class="watch-remove" type="button" data-url="${esc(c.careersUrl)}" title="Stop watching">×</button>
     </div>`;
   }).join("");
@@ -448,6 +466,7 @@ function matches(it) {
   if (builders) {
     if (state.activeKind !== "all" && (it.kind || "x") !== state.activeKind) return false;
   } else if (jobs) {
+    if (dismissedRead().has(it.url)) return false;
     if (state.activeCompany !== "all" && it.company !== state.activeCompany) return false;
   } else if (!journal && state.activeCat !== "all" && it.category !== state.activeCat) {
     return false;
@@ -601,7 +620,10 @@ function journalCardHTML(it, opts = {}) {
 // the title links to the live posting, chips carry location and matched roles.
 function jobCardHTML(it, opts = {}) {
   const dateBadge = opts.showDate ? `<span class="result-date-badge">${esc(fmtFullDate(it.date))}</span>` : "";
+  const posted = it.postedAt
+    ? `<span class="tag">🗓 posted ${esc(fmtFullDate(String(it.postedAt).slice(0, 10)))}</span>` : "";
   const chips = [
+    posted,
     it.location ? `<span class="tag">📍 ${esc(it.location)}</span>` : "",
     it.team ? `<span class="tag">${esc(it.team)}</span>` : "",
     ...(it.matchedRoles || []).map((r) => `<span class="tag job-role-tag">${esc(r)}</span>`),
@@ -613,6 +635,7 @@ function jobCardHTML(it, opts = {}) {
           <span class="cat-tag job-tag">New posting</span>
           <span class="source">${esc(it.company || "")}</span>
           ${dateBadge}
+          <button class="journal-del job-del" type="button" data-url="${esc(it.url)}" title="Remove this posting">×</button>
         </div>
         <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
         ${chips ? `<div class="tags">${chips}</div>` : ""}
@@ -737,6 +760,8 @@ el.journalText.addEventListener("keydown", (e) => {
 });
 
 // Deleting is two-tap (× → “Delete?”) instead of a blocking confirm dialog.
+// Shared by journal entries and job postings; jobs "delete" hides the posting
+// in this browser (the feed itself is static, published JSON).
 el.feed.addEventListener("click", (e) => {
   const btn = e.target.closest(".journal-del");
   if (!btn) return;
@@ -744,6 +769,13 @@ el.feed.addEventListener("click", (e) => {
     btn.dataset.armed = "true";
     btn.textContent = "Delete?";
     setTimeout(() => { btn.dataset.armed = "false"; btn.textContent = "×"; }, 2600);
+    return;
+  }
+  if (btn.classList.contains("job-del")) {
+    dismissPosting(btn.dataset.url);
+    renderChips();
+    render();
+    renderFooter();
     return;
   }
   journalWrite(journalRead().filter((en) => en.id !== btn.dataset.id));
@@ -776,6 +808,7 @@ function closeJobsForm() {
   el.jobsUrl.value = "";
   el.jobsCompany.value = "";
   el.jobsRoles.value = "";
+  el.jobsCountries.value = "";
 }
 el.jobsAddBtn.addEventListener("click", () => {
   el.jobsAddBtn.hidden = true;
@@ -806,6 +839,7 @@ el.jobsSave.addEventListener("click", () => {
     company,
     careersUrl,
     roles,
+    countries: el.jobsCountries.value.trim(),
     addedAt: new Date().toISOString(),
   });
   p.removed = p.removed.filter((u) => u !== careersUrl);
