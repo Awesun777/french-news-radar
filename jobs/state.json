@@ -1,3 +1,106 @@
 {
-  "seen": {}
+  "seen": {
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Associate_R-0000179071-2/apply": {
+      "company": "Rbc",
+      "title": "Senior Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Analyst--WM-ICCM_R-0000182769/apply": {
+      "company": "Rbc",
+      "title": "Analyst, WM-ICCM",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Operations-Analyst_R-0000183244/apply": {
+      "company": "Rbc",
+      "title": "Operations Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/90-WESTERN-PKYBEDFORD/Treasury-Analyst_R-0000182375-1/apply": {
+      "company": "Rbc",
+      "title": "Treasury Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/New-York-New-York-United-States-of-America/Business-Analyst_R-0000177599-1/apply": {
+      "company": "Rbc",
+      "title": "Business Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/25-MARTIN-PLACESYDNEY/Analyst--Securitisation_R-0000182398/apply": {
+      "company": "Rbc",
+      "title": "Analyst, Securitisation",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Financial-Planning-Analyst_R-0000183833-1/apply": {
+      "company": "Rbc",
+      "title": "Financial Planning Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/VANCOUVER-British-Columbia-Canada/Financial-Planning-Analyst_R-0000183834-1/apply": {
+      "company": "Rbc",
+      "title": "Financial Planning Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/MONTRAL-Quebec-Canada/Financial-Planning-Analyst_R-0000183842-1/apply": {
+      "company": "Rbc",
+      "title": "Financial Planning Analyst",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1/job/TORONTO-Ontario-Canada/Analyst--Due-Diligence_R-0000184214-1/apply": {
+      "company": "Rbc",
+      "title": "Analyst, Due Diligence",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/38073?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/38069?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/38068?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/38022?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant - Business Integrity",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/37994?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant  – Agile Coach",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/37979?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant (Associate Platform Engineer)",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    },
+    "https://worldbankgroup.csod.com/ux/ats/careersite/1/requisition/37935?c=worldbankgroup": {
+      "company": "World Bank",
+      "title": "E T Consultant",
+      "firstSeen": "2026-08-14",
+      "lastSeen": "2026-08-14"
+    }
+  }
 }
