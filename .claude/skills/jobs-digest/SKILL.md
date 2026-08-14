@@ -16,9 +16,9 @@ You are monitoring the official career pages of companies on the user's watchlis
 The site's Jobs tab lets the user edit the watchlist in the browser and press **"Sync to agent"**, which downloads a merged `watchlist.json` into `~/Downloads`. Pick it up:
 
 1. `ls -t ~/Downloads/watchlist*.json 2>/dev/null | head -1` → newest candidate (browsers may have renamed it `watchlist (1).json` etc.).
-2. If one exists AND its mtime is newer than `jobs/watchlist.json`:
+2. If one exists, decide by the `updatedAt` field INSIDE the JSON — never by file mtime (`git pull` refreshes the repo file's mtime every run, which would make the repo always look newer). Import when the Downloads copy's `updatedAt` is later than the repo file's `updatedAt` (a `null`/missing repo `updatedAt` counts as older; identical content = skip):
    - Validate it parses as JSON and has a `companies` array whose entries have `company` and `careersUrl` string fields. If invalid, leave the repo file alone and note the problem in your output.
-   - If valid: copy it over `jobs/watchlist.json`, then delete ALL `~/Downloads/watchlist*.json` copies so stale ones can't be re-imported later.
+   - If valid and newer: copy it over `jobs/watchlist.json`, then delete ALL `~/Downloads/watchlist*.json` copies so stale ones can't be re-imported later. Also delete the Downloads copies when they matched the repo content exactly.
 3. Read `jobs/watchlist.json`. If `companies` is empty, stop here — print "watchlist empty, nothing to monitor" and (if Step 1 changed the watchlist) still commit that change as `Jobs: watchlist update`.
 
 ## Step 2 — Load known-postings state
