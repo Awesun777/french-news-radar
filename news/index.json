@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-13T06:35:00Z",
+  "generatedAt": "2026-08-14T06:22:00Z",
   "digests": [
+    {
+      "date": "2026-08-14",
+      "title": "Gemini 3.7 Flash and Qwen3.8's giant open weights land",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Google launches Gemini 3.7 Flash, a cheaper, faster coding/agent workhorse",
+        "Alibaba open-sources Qwen3.8-2.4T-A95B, the largest open-weight LLM yet",
+        "Anthropic in talks to buy real-time video startup Decart for ~$6B"
+      ]
+    },
     {
       "date": "2026-08-13",
       "title": "Grok 4.6 and DeepSeek V4 Pro GA, Gemini's Rambler cleans up messy speech",
