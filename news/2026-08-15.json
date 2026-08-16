@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-15",
+  "items": [
+    {
+      "id": "openai-ultrafast-cerebras",
+      "category": "models",
+      "title": "OpenAI previews Ultrafast mode: GPT-5.6 Sol at up to 750 tokens/sec via Cerebras",
+      "summary": "On August 13, OpenAI began a limited preview of Ultrafast, a new API service tier that runs GPT-5.6 Sol at up to 750 output tokens per second — about 14x faster than standard processing — without swapping in a smaller model. The speedup comes from a partnership with Cerebras, whose wafer-scale chips keep the full model on-chip to cut the data-movement bottleneck that limits GPU inference; Cerebras reports the mode finishes benchmarks like Humanity's Last Exam roughly 7x faster than Claude Fable 5. No pricing is public yet and access is limited to select customers.",
+      "whyItMatters": "Getting frontier-model quality at far higher tokens/second, instead of trading intelligence for speed, is exactly the tradeoff that matters for cutting time-to-first-audio in Romain's Realtime pipeline — worth watching if Cerebras-style inference reaches voice models next.",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "source": "Cerebras Blog",
+      "tags": ["openai", "cerebras", "inference", "latency"]
+    },
+    {
+      "id": "glm-5-3-launch",
+      "category": "models",
+      "title": "Z.ai ships GLM-5.3: same base model, +50% coding score, and an unplanned cyber-offense jump",
+      "summary": "On August 14, Z.ai released GLM-5.3, reusing the exact GLM-5.2 base model (743B params) and attributing every capability gain to scaled-up post-training. It roughly sextuples Terminal-Bench 3.0 (4.6→28.3) and posts 84.5% on CyberGym, and Z.ai flagged that after adding vulnerability-discovery data, the model's ability to chain full exploits grew faster than the team expected — internally it was used to flag over 2,400 vulnerabilities across 269 open-source projects. It's live now via Z.ai's API and GLM Coding Plan; open weights follow in about two weeks after further safety hardening.",
+      "whyItMatters": "Another case of a cheap, agent-capable model getting most of its gain from post-training rather than a bigger base model — a cost lever worth testing for any non-voice backend logic (lesson generation, grading, content pipelines) behind Romain/Anna.",
+      "url": "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/",
+      "source": "Unite.AI",
+      "tags": ["z.ai", "glm", "llm", "open-weights"]
+    },
+    {
+      "id": "apple-china-llm-alibaba",
+      "category": "general",
+      "title": "Apple trains its own LLM for China with Alibaba's help, wins rare Beijing clearance",
+      "summary": "Reported August 14, Apple built a proprietary large language model to power Apple Intelligence features in China, developed with technical support from Alibaba, after earlier planning to simply license a domestic model like Qwen. Apple reportedly became the first foreign company approved by Chinese regulators to run a proprietary AI model in-country, with China-specific Apple Intelligence features expected to roll out in the coming months.",
+      "whyItMatters": "Not tutor-relevant technically, but it's a live example of how platform holders navigate regulatory walls around foreign LLMs by co-developing region-specific models — a pattern worth remembering if a French/EU-hosted voice tutor ever needs a similar region-specific model strategy.",
+      "url": "https://www.macrumors.com/2026/08/14/apple-trained-own-ai-model-for-china/",
+      "source": "MacRumors",
+      "tags": ["apple", "china", "regulation", "llm"]
+    }
+  ]
+}
