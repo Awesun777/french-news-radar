@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-14T06:33:10Z",
+  "generatedAt": "2026-08-16T01:02:07Z",
   "digests": [
+    {
+      "date": "2026-08-15",
+      "title": "Peter Yang finds the gap in X's anti-slop model, Levie says Cursor wrote the applied-AI playbook",
+      "itemCount": 6,
+      "kinds": ["x"],
+      "highlights": [
+        "Peter Yang's teardown of X's open-source TweetSpamBot model finds it scores account behavior but never reads post content, leaving disciplined AI content mills free to rotate the same template across unrelated topics",
+        "Aaron Levie credits Cursor's outcome to a real applied-AI playbook — a neutral layer between models and workflows, targeted post-training, and category-defining go-to-market — not just being early to the market",
+        "Garry Tan says Fable 5 pushed his trust in Claude Code far enough to just say \"take all recommendations\" on irreversible, one-way-door calls"
+      ]
+    },
     {
       "date": "2026-08-14",
       "title": "Sottiaux's Codex tops 15M users, Microsoft's Kevin Scott lays out an agentic web built on MCP",

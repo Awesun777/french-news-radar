@@ -1,0 +1,65 @@
+{
+  "date": "2026-08-15",
+  "items": [
+    {
+      "id": "peter-yang-x-anti-slop-algorithm",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Peter Yang digs into X's open-source anti-spam model, TweetSpamBot, which scores up to 512 recent account actions for signals like posting bursts, quote-tweet patterns, and timing. His finding: the model flags behavioral patterns but never reads post content itself, so a disciplined AI content mill can rotate the same \"hook → numbers → backstory → takeaway\" template across unrelated topics all day without tripping it. His warning to X: without content-aware detection, the platform risks drifting toward the templated engagement-bait feel of LinkedIn.",
+      "summaryZh": "Peter Yang 深入研究了 X 平台开源的反垃圾内容模型 TweetSpamBot，它会分析账号最近多达 512 次行为动作，捕捉发帖爆发、转发引用模式、时间间隔等信号。他的发现是：这个模型只看行为模式，从不读帖子内容本身，所以只要一个纪律严明的 AI 内容工厂，用同一套\"钩子→数据→背景故事→结论\"模板在不相关话题之间来回套用，就完全可以绕过检测、整天发水帖。他对 X 的提醒是：如果不引入能读懂内容本身的检测机制，这个平台就有滑向 LinkedIn 那种模板化\"吸引互动\"内容的风险。",
+      "url": "https://x.com/petergyang/status/2088261100202868768",
+      "tags": ["x-platform", "spam-detection", "content-mills", "algorithm"]
+    },
+    {
+      "id": "aaron-levie-cursor-applied-ai-lessons",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Reacting to Cursor's outcome, Aaron Levie says the company \"executed the applied AI strategy flawlessly\" and shattered assumptions about market size in AI coding — a space many had already written off as crowded before it took off. His read on Cursor's actual playbook: acting as a neutral layer between models and workflows, post-training models where it cuts costs or lifts performance, building infra suited to the workflow, and pairing it with a category-defining go-to-market motion. He expects to see many more companies attempt the same applied-AI formula.",
+      "summaryZh": "针对 Cursor 交出的这份成绩单，Aaron Levie 说这家公司\"把应用型 AI 战略执行得堪称完美\"，彻底打破了人们对 AI 编程这个市场规模的预设——很多人此前还觉得这个赛道已经很拥挤、快卷不动了。他分析 Cursor 真正的打法是：在模型和实际工作流之间做一个中立层，在能降低成本或提升效果的地方对模型做后训练，围绕具体工作流搭建配套的基础设施，再叠加一套定义了整个品类的市场打法。他预计接下来会有更多公司尝试复制这套应用 AI 打法。",
+      "url": "https://x.com/levie/status/2088476232933577124",
+      "tags": ["cursor", "applied-ai", "ai-coding", "market-strategy"]
+    },
+    {
+      "id": "madhu-guru-cursor-product-culture",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru credits Cursor with breaking AI products out of their early chatbot rut, arguing that \"cursor for X\" gave the industry its first real product pattern to build around after everyone was searching for one to piggyback on. He calls Cursor's cultural impact on how AI products get shaped underrated relative to its commercial success.",
+      "summaryZh": "Madhu Guru 认为，是 Cursor 把 AI 产品从早期困在聊天机器人形态里的局面里拉了出来——在所有人都在寻找一个可以借力的产品范式时，\"Cursor for X\"这套模式给了整个行业第一个真正可复制的产品打法。他认为，相比 Cursor 的商业成功，它在塑造 AI 产品文化上的影响力被低估了。",
+      "url": "https://x.com/realmadhuguru/status/2088489059115270532",
+      "tags": ["cursor", "product-culture", "ai-products"]
+    },
+    {
+      "id": "madhu-guru-ai-cost-curve-jevons",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru argues AI-written software will follow the same pattern as steam engines, higher-level programming languages, and spreadsheets: each made its underlying task cheaper and easier, and each was followed by far more of that task being done, not less. His conclusion is that falling AI costs won't shrink software's footprint — they'll make previously uneconomical problems worth solving, producing far more software addressing far more problems.",
+      "summaryZh": "Madhu Guru 认为，AI 写代码会遵循和蒸汽机、高级编程语言、电子表格一样的规律：每一次让底层任务变得更便宜、更容易，之后这项任务的总量都不减反增。他的结论是：AI 成本下降不会让软件的规模缩小，反而会让过去因为不划算而没人做的问题变得值得去做，最终催生出远比现在更多、覆盖更多问题的软件。",
+      "url": "https://x.com/realmadhuguru/status/2088294414255112329",
+      "tags": ["ai-economics", "jevons-paradox", "software"]
+    },
+    {
+      "id": "nan-yu-ai-shaped-not-jagged",
+      "kind": "x",
+      "author": "Nan Yu",
+      "role": "Head of Product, Linear",
+      "summary": "Linear's head of product Nan Yu pushes back on the popular \"jagged intelligence\" framing of AI capability, calling it a category error. Her comparison: nobody calls dogs \"jagged\" just because they outperform or underperform humans on specific tasks — the mismatch is inherent to being a different kind of intelligence, not a defect to smooth out.",
+      "summaryZh": "Linear 产品负责人 Nan Yu 反驳了眼下流行的\"参差不齐\"（jagged intelligence）这种描述 AI 能力的说法，认为这是一种范畴错误。她的类比是：没人会因为狗在某些具体任务上比人强、在另一些任务上比人差，就说狗\"参差不齐\"——这种不匹配本来就是另一种智能形态的固有特征，而不是需要被打磨掉的缺陷。",
+      "url": "https://x.com/thenanyu/status/2088335744909619230",
+      "tags": ["ai-capability", "product-philosophy", "linear"]
+    },
+    {
+      "id": "garry-tan-fable5-claude-code-trust",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Garry Tan says the most surprising shift in using his personal AI system GStack has come from Fable 5: for many irreversible, \"one-way-door\" decisions, he can now just tell Claude Code to \"take all recommendations\" and be satisfied with the outcome. It marks a jump in how much he's willing to trust Claude Code's judgment specifically on calls that are hard to undo, not just routine ones.",
+      "summaryZh": "Garry Tan 说，在使用自己的个人 AI 系统 GStack 时，Fable 5 带来了最令他意外的变化：面对许多难以撤销的\"单向门\"式决策，他现在可以直接让 Claude Code\"采纳所有建议\"，并对结果感到满意。这标志着他对 Claude Code 判断力的信任跃升了一个台阶——而且专门体现在那些一旦做了就很难反悔的决策上，而不只是日常小事。",
+      "url": "https://x.com/garrytan/status/2088388000267002195",
+      "tags": ["fable-5", "claude-code", "trust", "agents"]
+    }
+  ]
+}
