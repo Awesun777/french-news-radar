@@ -188,10 +188,17 @@ function pendingWrite(p) { localStorage.setItem(WATCH_PENDING_KEY, JSON.stringif
 
 function reconcilePending() {
   const p = pendingRead();
-  const repoUrls = new Set(repoWatchlist.map((c) => c.careersUrl));
+  const repoByUrl = new Map(repoWatchlist.map((c) => [c.careersUrl, c]));
+  const same = (a, b) =>
+    a && b && a.company === b.company &&
+    (a.roles || "") === (b.roles || "") &&
+    (a.countries || "") === (b.countries || "");
   const next = {
-    added: p.added.filter((c) => !repoUrls.has(c.careersUrl)),
-    removed: p.removed.filter((url) => repoUrls.has(url)),
+    // A pending add has only "landed" once the repo entry MATCHES it in
+    // content — an edit keeps the original's URL, so URL presence alone would
+    // wrongly drop the edited version while its removal survives.
+    added: p.added.filter((c) => !same(repoByUrl.get(c.careersUrl), c)),
+    removed: p.removed.filter((url) => repoByUrl.has(url)),
   };
   if (JSON.stringify(next) !== JSON.stringify(p)) pendingWrite(next);
   return next;
@@ -228,6 +235,9 @@ async function loadWatchlist() {
   renderWatchlist();
 }
 
+/** careersUrl of the row currently in inline-edit mode, or null. */
+let watchEditing = null;
+
 function renderWatchlist() {
   const p = reconcilePending();
   const removed = new Set(p.removed);
@@ -241,6 +251,22 @@ function renderWatchlist() {
     return;
   }
   el.jobsWatchlist.innerHTML = list.map((c) => {
+    if (c.careersUrl === watchEditing) {
+      return `<div class="watch-row watch-editing" data-url="${esc(c.careersUrl)}">
+        <div class="jobs-form-grid watch-edit-grid">
+          <input class="we-url" type="url" value="${esc(c.careersUrl)}" placeholder="Careers page URL" spellcheck="false" />
+          <div class="jobs-form-row">
+            <input class="we-company" type="text" value="${esc(c.company)}" placeholder="Company" />
+            <input class="we-roles" type="text" value="${esc(c.roles || "")}" placeholder="Positions to watch — comma-separated" />
+          </div>
+          <input class="we-countries" type="text" value="${esc(c.countries || "")}" placeholder="Countries — comma-separated, blank = anywhere" />
+        </div>
+        <div class="journal-actions">
+          <button class="journal-btn primary watch-save" type="button" data-url="${esc(c.careersUrl)}">Save</button>
+          <button class="journal-btn watch-cancel" type="button">Cancel</button>
+        </div>
+      </div>`;
+    }
     const pending = pendingUrls.has(c.careersUrl);
     let host = c.careersUrl;
     try { host = new URL(c.careersUrl).hostname.replace(/^www\./, ""); } catch { /* keep raw */ }
@@ -252,9 +278,32 @@ function renderWatchlist() {
       </div>
       ${c.roles ? `<span class="watch-roles">${esc(c.roles)}</span>` : ""}
       ${c.countries ? `<span class="tag">🌍 ${esc(c.countries)}</span>` : ""}
+      <button class="watch-edit" type="button" data-url="${esc(c.careersUrl)}" title="Edit this entry">✎</button>
       <button class="watch-remove" type="button" data-url="${esc(c.careersUrl)}" title="Stop watching">×</button>
     </div>`;
   }).join("");
+}
+
+/**
+ * An edit is a replace: pending adds mutate in place; repo entries become a
+ * pending removal of the original plus a pending add of the edited version —
+ * the same overlay the sync/download path already understands.
+ */
+function applyWatchEdit(originalUrl, entry) {
+  const taken = effectiveWatchlist().some(
+    (c) => c.careersUrl !== originalUrl && c.careersUrl === entry.careersUrl
+  );
+  if (taken) return false;
+  const p = pendingRead();
+  const idx = p.added.findIndex((c) => c.careersUrl === originalUrl);
+  if (idx !== -1) {
+    p.added[idx] = { ...p.added[idx], ...entry };
+  } else {
+    if (!p.removed.includes(originalUrl)) p.removed.push(originalUrl);
+    p.added.push({ ...entry, addedAt: new Date().toISOString() });
+  }
+  pendingWrite(p);
+  return true;
 }
 
 function downloadWatchlist() {
@@ -849,6 +898,39 @@ el.jobsSave.addEventListener("click", () => {
 });
 
 el.jobsWatchlist.addEventListener("click", (e) => {
+  const edit = e.target.closest(".watch-edit");
+  if (edit) {
+    watchEditing = edit.dataset.url;
+    renderWatchlist();
+    el.jobsWatchlist.querySelector(".watch-editing .we-company")?.focus();
+    return;
+  }
+  const cancel = e.target.closest(".watch-cancel");
+  if (cancel) {
+    watchEditing = null;
+    renderWatchlist();
+    return;
+  }
+  const save = e.target.closest(".watch-save");
+  if (save) {
+    const row = save.closest(".watch-row");
+    const get = (cls) => row.querySelector(cls)?.value.trim() ?? "";
+    const careersUrl = get(".we-url");
+    const company = get(".we-company");
+    try { new URL(careersUrl); } catch { row.querySelector(".we-url")?.focus(); return; }
+    if (!company) { row.querySelector(".we-company")?.focus(); return; }
+    const ok = applyWatchEdit(save.dataset.url, {
+      id: company.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
+      company,
+      careersUrl,
+      roles: get(".we-roles"),
+      countries: get(".we-countries"),
+    });
+    if (!ok) { row.querySelector(".we-url")?.focus(); return; }
+    watchEditing = null;
+    renderWatchlist();
+    return;
+  }
   const btn = e.target.closest(".watch-remove");
   if (!btn) return;
   const url = btn.dataset.url;
@@ -859,6 +941,7 @@ el.jobsWatchlist.addEventListener("click", (e) => {
     p.removed.push(url);
   }
   pendingWrite(p);
+  if (watchEditing === url) watchEditing = null;
   renderWatchlist();
 });
 

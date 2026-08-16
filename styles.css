@@ -496,6 +496,18 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   color: var(--amber); background: rgb(var(--amber-rgb) / .12);
   padding: 2px 7px; border-radius: 999px;
 }
+.watch-editing { flex-direction: column; align-items: stretch; gap: 8px; }
+.watch-edit-grid { width: 100%; }
+.watch-edit {
+  margin-left: auto;
+  font: inherit; font-size: 13px; line-height: 1;
+  color: var(--faint); background: none;
+  border: 0; border-radius: 6px;
+  padding: 3px 7px; cursor: pointer;
+  transition: color .15s, background .15s;
+}
+.watch-edit:hover { color: var(--primary); background: var(--primary-soft); }
+.watch-edit + .watch-remove { margin-left: 0; }
 .watch-remove {
   margin-left: auto;
   font: inherit; font-size: 15px; line-height: 1;
