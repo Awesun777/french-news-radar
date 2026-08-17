@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-17",
+  "items": [
+    {
+      "id": "thibault-sottiaux-codex-1m-context-window",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "Thibault Sottiaux announces that Codex's 1-million-token context window for GPT-5.6 Sol — previously limited to API-key usage — now also works for people on ChatGPT plans, and follows up with the exact config.toml settings (model_context_window, model_auto_compact_token_limit) needed to turn it on, plus a one-off CLI flag version for a single session. His caveat: Codex's default context length is already tuned for near-optimal performance and cost, so the larger window is opt-in for people who specifically want to retain more code, tool output, and conversation history before Codex starts compacting.",
+      "summaryZh": "Thibault Sottiaux 宣布，Codex 里 GPT-5.6 Sol 的 100 万 token 上下文窗口——之前只对使用 API key 的用户开放——现在 ChatGPT 订阅用户也能用了，他还随后贴出了具体要改的 config.toml 配置项（model_context_window、model_auto_compact_token_limit），以及只想在单次会话里临时试用的命令行参数写法。他特别提醒：Codex 默认的上下文长度其实已经针对性能和成本做过精细调优了，这个更大的窗口是给那些确实需要在 Codex 开始自动压缩之前，保留更多代码、工具输出和对话历史的人用的可选项。",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "tags": ["openai", "codex", "context-window", "gpt-5.6"]
+    },
+    {
+      "id": "thariq-web-framework-creators-ai-pilled",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Thariq notes it says a lot that the creators of three of the most iconic web frameworks — Django's Simon Willison, Flask's Armin Ronacher, and Rails' DHH — were all vocally \"AI-pilled\" early, well before it became industry consensus. His framing treats that early conviction from foundational framework builders as a signal worth reading, not a coincidence.",
+      "summaryZh": "Thariq 指出一件很能说明问题的事：三个最标志性的 web 框架的创造者——Django 的 Simon Willison、Flask 的 Armin Ronacher、Rails 的 DHH——都很早就公开表达了对 AI 的信念，远早于这成为业界共识。他把这些奠基性框架的创造者这么早就形成的坚定信念，看作一个值得留意的信号，而不是巧合。",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "tags": ["web-frameworks", "ai-adoption", "developers"]
+    },
+    {
+      "id": "guillermo-rauch-glm-5-3-security-evals",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Guillermo Rauch says Vercel ran its own evals on GLM 5.3's cybersecurity capabilities and concludes it's now the frontier open model for the task. His practical read: because GLM 5.3 is so much cheaper than closed alternatives, teams can afford to run security scans at least 3x more often, turning the cost drop directly into more frequent defensive coverage.",
+      "summaryZh": "Guillermo Rauch 说 Vercel 亲自对 GLM 5.3 的网络安全能力跑了一轮评测，结论是它现在已经是这个方向上最强的开放模型。他从实用角度的判断是：因为 GLM 5.3 比闭源模型便宜太多，团队完全负担得起把安全扫描的频率提高至少 3 倍，成本下降直接转化成了更频繁的防御性覆盖。",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "tags": ["glm-5.3", "open-source", "cybersecurity", "vercel"]
+    },
+    {
+      "id": "aaron-levie-ai-agent-value-framing",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie frames AI agents' real value as tackling everything that was technically desirable but practically impossible at human scale — finding every security vulnerability in a codebase, reading every contract, combing an entire customer base for upsell signals. His advice to founders: go after markets where throwing more compute at a problem qualitatively changes what's possible, since that's both where AI creates real gains and where the startup opportunity sits.",
+      "summaryZh": "Aaron Levie 把 AI agent 真正的价值定义为：去做那些人们一直很想做、但靠人力规模根本不可能做到的事情——找出代码库里的每一个安全漏洞、读完每一份合同、把整个客户群里所有能做增购的信号都梳理一遍。他给创业者的建议是：去找那些\"投入更多算力就能让客户能做的事发生质变\"的市场，因为这既是 AI 能带来实际收益的地方，也正是创业机会所在。",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "tags": ["ai-agents", "enterprise", "startup-strategy"]
+    },
+    {
+      "id": "aaron-levie-ai-spend-growth-data",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie cites new data on enterprise AI spend per employee — the top 1% of (engineering-heavy) companies now spending $7,500/month per employee on AI, the top 10% at $660/month — and argues the growth trend shows no sign of hitting a ceiling. His prediction: as token costs keep falling, today's top-10% usage pattern becomes tomorrow's median, with agents taking on ever more of the work of scanning code, testing software, and processing data end to end.",
+      "summaryZh": "Aaron Levie 引用了一组关于企业人均 AI 支出的新数据——排名前 1% 的（偏工程类）公司现在人均每月在 AI 上花费 7500 美元，前 10% 是 660 美元——他认为这个增长趋势完全看不到触顶的迹象。他的预测是：随着 token 成本持续下降，今天前 10% 公司的使用强度，三年后可能就是行业中位数水平，agent 会承担越来越多扫描代码、测试软件、端到端处理数据的工作。",
+      "url": "https://x.com/levie/status/2088995821056659901",
+      "tags": ["ai-spend", "enterprise", "adoption-curve"]
+    },
+    {
+      "id": "dan-shipper-ai-centralization-skepticism",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "Every CEO",
+      "summary": "Dan Shipper pushes back on the idea that AI inevitably centralizes power, invoking historian Lewis Mumford's 1964 argument that authoritarian and democratic technologies have always coexisted throughout history. He points to the resurgence of fine-tuning models for narrow purposes — plus Amjad Masad's point that the human brain itself is evidence for the benefits of decentralized intelligence — as reasons to doubt that maximum centralization is actually the optimal design, even if today's AI landscape looks like it's trending that way.",
+      "summaryZh": "Dan Shipper 对\"AI 必然导致权力集中\"这个说法表示怀疑，他引用了历史学家 Lewis Mumford 1964 年的论断：从近东新石器时代晚期一直到今天，专制型和民主型这两种技术体系一直并存。他提到微调模型走向窄领域专用化正在重新兴起，再加上 Amjad Masad 那个\"人脑本身就是去中心化智能优势的证据\"的观点，认为即便今天的 AI 格局看起来正在走向集中，也有理由怀疑\"最大程度的集中\"其实并不是最优的设计方向。",
+      "url": "https://x.com/danshipper/status/2089127868903375257",
+      "tags": ["ai-centralization", "decentralization", "ai-philosophy"]
+    },
+    {
+      "id": "dan-shipper-fable-vibe-coded-thesis-app",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "Every CEO",
+      "summary": "Dan Shipper says he used Fable to vibe-code an app that visualizes and clusters everyone who applied to attend Every's Thesis event. His takeaway: detailed understanding of an entire customer base — including how individual people naturally group together — is now achievable with very little engineering effort.",
+      "summaryZh": "Dan Shipper 说他用 Fable 随手\"vibe code\"了一个应用，用来可视化并给所有申请参加 Every 旗下 Thesis 活动的人做聚类分组。他的感触是：现在只需要很少的工程投入，就能对整个客户群体形成细致的理解——包括这些人自然会如何聚成一类一类。",
+      "url": "https://x.com/danshipper/status/2089121597017759800",
+      "tags": ["fable", "vibe-coding", "every", "data-visualization"]
+    }
+  ]
+}

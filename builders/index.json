@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-16T01:02:07Z",
+  "generatedAt": "2026-08-17T22:33:11Z",
   "digests": [
+    {
+      "date": "2026-08-17",
+      "title": "Sottiaux opens Codex's 1M context window to ChatGPT plans, Shipper doubts AI must centralize power",
+      "itemCount": 7,
+      "kinds": ["x"],
+      "highlights": [
+        "Thibault Sottiaux extends Codex's 1-million-token context window for GPT-5.6 Sol to ChatGPT-plan users (previously API-key only) and publishes the exact config to turn it on",
+        "Aaron Levie frames AI agents' value as tackling work that was always desirable but never practical at scale, backing it with enterprise spend data showing no sign of hitting a ceiling",
+        "Dan Shipper pushes back on AI's inevitable-centralization thesis via historian Lewis Mumford, pointing to the resurgence of narrow model fine-tuning as a decentralizing counter-force"
+      ]
+    },
     {
       "date": "2026-08-15",
       "title": "Peter Yang finds the gap in X's anti-slop model, Levie says Cursor wrote the applied-AI playbook",
