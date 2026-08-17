@@ -64,6 +64,9 @@
          and travel via "Sync to agent", which downloads a merged watchlist.json
          that the nightly skill picks up from ~/Downloads and commits. -->
     <div id="jobs-watch" class="jobs-watch" hidden>
+      <!-- Monitor banner: when the agent last fetched, how it went. Rendered
+           from jobs/status.json — stamped every run, even crashed ones. -->
+      <div id="jobs-monitor" class="jobs-monitor" hidden></div>
       <div class="journal-bar">
         <button id="jobs-add-btn" class="journal-new" type="button">＋ Watch a company</button>
         <button id="jobs-sync" class="journal-export" type="button" hidden

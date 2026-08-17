@@ -1,0 +1,11 @@
+{
+  "lastRunAt": "2026-08-16T01:06:15Z",
+  "outcome": "new-postings",
+  "newCount": 1,
+  "detail": "1 new posting (Rbc)",
+  "dayFile": "2026-08-15",
+  "companies": {
+    "Rbc": "ok",
+    "World Bank": "ok"
+  }
+}

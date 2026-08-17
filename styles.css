@@ -462,6 +462,24 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
  * The list mirrors jobs/watchlist.json; locally-queued edits carry a pending
  * chip until the nightly agent commits the synced file. */
 .jobs-watch { margin-bottom: 28px; }
+/* Monitor banner — last fetch time + outcome from jobs/status.json. */
+.jobs-monitor {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  font-size: 12.5px; color: var(--fg);
+  border-radius: 12px; padding: 9px 14px; margin-bottom: 12px;
+  border: 1px solid var(--border-soft); background: var(--bg-elev);
+}
+.jobs-monitor.ok { background: rgb(var(--accent-inspiration-rgb) / .08); border-color: rgb(var(--accent-inspiration-rgb) / .25); }
+.jobs-monitor.warn { background: rgb(var(--amber-rgb) / .08); border-color: rgb(var(--amber-rgb) / .3); }
+.jobs-monitor.err { background: rgb(var(--accent-apps-rgb) / .08); border-color: rgb(var(--accent-apps-rgb) / .3); }
+.jm-icon { flex-shrink: 0; }
+.jm-chips { display: flex; gap: 6px; flex-wrap: wrap; margin-left: auto; }
+.jm-chip {
+  font-size: 11px; font-weight: 600; color: var(--accent-inspiration);
+  background: rgb(var(--accent-inspiration-rgb) / .1);
+  padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+}
+.jm-chip.jm-bad { color: var(--amber); background: rgb(var(--amber-rgb) / .12); }
 /* .journal-new sets its own display, which would otherwise beat the UA's
  * [hidden] rule — same fix as the journal composer. */
 .jobs-watch [hidden] { display: none !important; }

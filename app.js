@@ -126,6 +126,7 @@ const el = {
   footerMeta: document.getElementById("footer-meta"),
   footerGen: document.getElementById("footer-gen"),
   jobsWatch: document.getElementById("jobs-watch"),
+  jobsMonitor: document.getElementById("jobs-monitor"),
   jobsAddBtn: document.getElementById("jobs-add-btn"),
   jobsSync: document.getElementById("jobs-sync"),
   jobsForm: document.getElementById("jobs-form"),
@@ -254,6 +255,41 @@ function companyFromUrl(url) {
     const base = parts.length > 2 && sub.includes(parts[0]) ? parts[1] : parts[parts.length - 2];
     return cap(base);
   } catch { return ""; }
+}
+
+/**
+ * Monitor banner — when the agent last fetched and how it went, rendered from
+ * jobs/status.json. The nightly wrapper stamps that file even when the skill
+ * run crashes, so silence here means the run never started (asleep Mac), not
+ * that a failure went unrecorded.
+ */
+async function loadJobsStatus() {
+  let s = null;
+  try { s = await getJSON("./jobs/status.json"); } catch { /* no run recorded */ }
+  el.jobsMonitor.hidden = false;
+  if (!s || !s.lastRunAt) {
+    el.jobsMonitor.className = "jobs-monitor warn";
+    el.jobsMonitor.innerHTML = `<span class="jm-icon">🛰</span><span>No fetch recorded yet — the nightly agent hasn't run since the monitor was added.</span>`;
+    return;
+  }
+  const t = new Date(s.lastRunAt);
+  const hours = (Date.now() - t.getTime()) / 36e5;
+  const rel = hours < 1 ? "just now" : hours < 24 ? `${Math.round(hours)} h ago` : `${Math.round(hours / 24)} d ago`;
+  const when = t.toLocaleString("en-US", { weekday: "short", month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  const stale = hours > 36;
+  const cls = s.outcome === "error" ? "err" : stale ? "warn" : "ok";
+  const outcomeText =
+    s.outcome === "error" ? (s.detail || "last run failed") :
+    s.outcome === "new-postings" ? (s.detail || `${s.newCount ?? "?"} new posting${s.newCount === 1 ? "" : "s"}`) :
+    "no new postings";
+  const companies = Object.entries(s.companies || {})
+    .map(([name, st]) => `<span class="jm-chip ${st === "ok" ? "" : "jm-bad"}">${st === "ok" ? "✓" : "⚠"} ${esc(name)}</span>`)
+    .join("");
+  el.jobsMonitor.className = `jobs-monitor ${cls}`;
+  el.jobsMonitor.innerHTML =
+    `<span class="jm-icon">🛰</span>` +
+    `<span><b>Last checked ${esc(when)}</b> (${rel})${stale ? " — overdue; the nightly run hasn't completed since" : ""} · ${esc(outcomeText)}</span>` +
+    (companies ? `<span class="jm-chips">${companies}</span>` : "");
 }
 
 async function loadWatchlist() {
@@ -457,7 +493,7 @@ async function showSection(name) {
   el.jobsWatch.hidden = name !== "jobs";
   // Applications have no per-day files; the date navigator means nothing there.
   el.dateNav.closest(".datenav").hidden = name === "applications";
-  if (name === "jobs") loadWatchlist();
+  if (name === "jobs") { loadWatchlist(); loadJobsStatus(); }
 
   const slice = state[name];
   if (conf.local) {

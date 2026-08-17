@@ -68,6 +68,10 @@ If there are new postings:
 
 If there are **no** new postings, do not write a day file — `state.json` (and possibly the watchlist) are still worth committing.
 
+**Always** (new postings or not) write `jobs/status.json` — the site's Jobs monitor banner renders it:
+`{ "lastRunAt": "<UTC ISO now>", "outcome": "new-postings" | "no-new-postings", "newCount": N, "detail": "<one short human line, e.g. '1 new posting (Rbc)'>", "dayFile": "<DATE of most recent day file>", "companies": { "<company>": "ok" | "unreachable", ... } }`
+(The nightly wrapper script re-stamps `lastRunAt`/`outcome` after you exit, so a crashed run still leaves a record — your job is the rich per-company detail.)
+
 ## Step 6 — Commit and push
 
 `git config user.name 'Awesun777' && git config user.email 'anthonysunchen@gmail.com'` (if unset), then
