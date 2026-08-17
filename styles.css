@@ -604,3 +604,9 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 .app-thin-main { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
 .app-thin-pos { color: var(--ink-soft, #6d675c); font-size: 0.92em; }
 .app-thin-meta { display: flex; align-items: center; gap: 10px; flex: none; }
+
+/* ── Starred applications ────────────────────────────────────────────── */
+.star-btn { border: none; background: none; font-size: 16px; padding: 2px 4px; cursor: pointer; color: #b9b2a4; line-height: 1; }
+.star-btn.on { color: #e6a817; }
+.star-btn:hover { color: #e6a817; }
+.app-thin.app-starred { border-left: 3px solid #e6a817; }

@@ -987,6 +987,10 @@ el.feed.addEventListener("click", async (e) => {
       appsSelectedDay = null;
       render();
     }
+    if (act === "star-app") {
+      toggleAppStar(actEl.dataset.appkey);
+      render();
+    }
     if (act === "del-app") {
       const d = actEl.dataset;
       if (!confirm(`Delete "${d.company} — ${d.position}" from the tracker sheet?`)) return;
@@ -1043,6 +1047,16 @@ el.feed.addEventListener("click", async (e) => {
 
 let appsSelectedDay = null;
 
+// Starred applications pin to the top of the list (browser-local, like the
+// token and Journal — no sheet writes).
+const APPS_STARS_KEY = "nr_apps_stars";
+const appStars = () => new Set(JSON.parse(localStorage.getItem(APPS_STARS_KEY) || "[]"));
+function toggleAppStar(k) {
+  const s = appStars();
+  if (s.has(k)) s.delete(k); else s.add(k);
+  localStorage.setItem(APPS_STARS_KEY, JSON.stringify([...s]));
+}
+
 function parseAppliedDate(v) {
   const str = String(v || "").trim();
   if (!str) return null;
@@ -1089,9 +1103,10 @@ function appsCalendarHTML(counts) {
 function thinAppCardHTML(it) {
   const d = parseAppliedDate(it.appliedDate);
   const applied = d ? d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
-  return `<article class="card app-card app-thin" data-appkey="${esc(it.appKey)}">
+  const starred = appStars().has(it.appKey);
+  return `<article class="card app-card app-thin${starred ? " app-starred" : ""}" data-appkey="${esc(it.appKey)}">
     <div class="card-body app-thin-row">
-      <div class="app-thin-main"><b>${esc(it.company)}</b><span class="app-thin-pos">${esc(it.position)}</span></div>
+      <div class="app-thin-main"><button class="oc-btn star-btn${starred ? " on" : ""}" type="button" data-act="star-app" data-appkey="${esc(it.appKey)}" title="${starred ? "Unstar" : "Pin to top"}">${starred ? "★" : "☆"}</button><b>${esc(it.company)}</b><span class="app-thin-pos">${esc(it.position)}</span></div>
       <div class="app-thin-meta">
         ${it.status ? `<span class="cat-tag" data-cat="general">${esc(it.status)}</span>` : ""}
         <span class="source">${esc(it.category)}</span>
@@ -1111,21 +1126,26 @@ function renderApplications(visible) {
     const k = calYmd(d);
     counts.set(k, (counts.get(k) || 0) + 1);
   }
+  const stars = appStars();
+  const dateDesc = (a, b) => (parseAppliedDate(b.appliedDate) || 0) - (parseAppliedDate(a.appliedDate) || 0);
   let list, heading;
   if (appsSelectedDay) {
     list = visible.filter((it) => {
       const d = parseAppliedDate(it.appliedDate);
       return d && calYmd(d) === appsSelectedDay;
-    });
+    }).sort((a, b) => (stars.has(b.appKey) - stars.has(a.appKey)) || dateDesc(a, b));
     const [y, mo, da] = appsSelectedDay.split("-").map(Number);
     const label = new Date(y, mo - 1, da).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
     heading = `<h2>${label}</h2><span class="count">${list.length} applied · <a href="#applications" data-act="cal-clear">show recent</a></span>`;
   } else {
-    list = [...visible]
-      .filter((it) => parseAppliedDate(it.appliedDate))
-      .sort((a, b) => parseAppliedDate(b.appliedDate) - parseAppliedDate(a.appliedDate))
+    // Starred pins float above the recent-10, whatever their date.
+    const starred = visible.filter((it) => stars.has(it.appKey)).sort(dateDesc);
+    const rest = visible
+      .filter((it) => !stars.has(it.appKey) && parseAppliedDate(it.appliedDate))
+      .sort(dateDesc)
       .slice(0, 10);
-    heading = `<h2>Recent applications</h2><span class="count">latest ${list.length} of ${visible.length} · click a day above to filter</span>`;
+    list = [...starred, ...rest];
+    heading = `<h2>Recent applications</h2><span class="count">${starred.length ? `${starred.length} pinned + ` : ""}latest ${rest.length} of ${visible.length} · click a day above to filter</span>`;
   }
   el.feed.innerHTML = `
     ${appsCalendarHTML(counts)}
