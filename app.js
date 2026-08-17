@@ -379,9 +379,22 @@ async function loadSection(name) {
       if (!data.ok) throw new Error(data.error || "feed error");
       const w = data.workspace || {};
       slice.meta = { sections: w.sections || [], appdata: w.appdata || {}, outreach: w.outreach || [] };
-      slice.items = slice.meta.sections.flatMap((sec) =>
-        (sec.jobs || []).map((j) => ({ ...j, category: sec.category, appKey: appKeyOf(j.company, j.position) }))
-      );
+      // Only applications saved through the extension (present in AppData)
+      // appear here — the tracker's hand-entered history stays sheet-only.
+      const trackRows = {};
+      (w.sections || []).forEach((sec) => (sec.jobs || []).forEach((j) => {
+        trackRows[appKeyOf(j.company, j.position)] = { ...j, category: sec.category };
+      }));
+      slice.items = Object.values(w.appdata || {}).map((ctx) => {
+        const row = trackRows[ctx.appKey] || {};
+        return {
+          appKey: ctx.appKey,
+          company: ctx.company, position: ctx.position,
+          status: row.status || "", appliedDate: row.appliedDate || "",
+          postedDate: ctx.postDate || row.postedDate || "",
+          category: row.category || "Uncategorized",
+        };
+      });
       slice.loaded = true;
       if (!slice.items.length) slice.failed = true;
     } catch {
