@@ -798,11 +798,21 @@ function jobCardHTML(it, opts = {}) {
 
 // One tracked application: company leads, position under it, both dates as
 // quiet badges. Same card chrome as the rest of the site.
+function fmtSheetDate(v) {
+  const s = String(v || "").trim();
+  if (!s) return "";
+  const d = new Date(s);
+  if (!Number.isNaN(d.getTime()) && /\d{4}/.test(s)) {
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  }
+  return s;
+}
+
 function appCardHTML(it) {
   const applied = it.appliedDate
     ? `<span class="result-date-badge">applied ${esc(it.appliedDate)}</span>` : "";
   const posted = it.postedDate
-    ? `<span class="source">posted ${esc(it.postedDate)}</span>` : "";
+    ? `<span class="source">posted ${esc(fmtSheetDate(it.postedDate))}</span>` : "";
   const status = it.status
     ? `<span class="cat-tag" data-cat="apps">${esc(it.status)}</span>` : "";
   return `<article class="card app-card" data-cat="inspiration" data-appkey="${esc(it.appKey || "")}">
@@ -839,7 +849,7 @@ function renderAppDetail(key) {
 
   const ctxHtml = ctx
     ? `${ctx.url ? `<p><a href="${esc(ctx.url)}" target="_blank" rel="noopener">Open the original posting ↗</a></p>` : ""}
-       <details class="jd-details" open><summary>Job description${ctx.postDate ? ` · posted ${esc(ctx.postDate)}` : ""}</summary>
+       <details class="jd-details" open><summary>Job description${ctx.postDate ? ` · posted ${esc(fmtSheetDate(ctx.postDate))}` : ""}</summary>
        <pre class="jd-pre">${esc(ctx.description || "(no description captured)")}</pre></details>`
     : `<p class="summary">No saved context for this application yet — save it through the Smart JobFill extension (💼 Save job → Add to Sheet) and it will appear here.</p>`;
 
