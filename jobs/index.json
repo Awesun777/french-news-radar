@@ -1,10 +1,13 @@
 {
-  "generatedAt": "2026-08-17T22:40:00Z",
+  "generatedAt": "2026-08-17T23:15:00Z",
   "digests": [
     {
       "date": "2026-08-17",
-      "itemCount": 1,
+      "itemCount": 86,
       "companies": [
+        "Barclays",
+        "JP Morgan",
+        "Macquarie",
         "Rbc"
       ]
     },

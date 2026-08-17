@@ -1,7 +1,997 @@
 {
   "date": "2026-08-17",
-  "generatedAt": "2026-08-17T22:40:00Z",
+  "generatedAt": "2026-08-17T23:15:00Z",
   "items": [
+    {
+      "id": "barclays-1",
+      "company": "Barclays",
+      "title": "Banks & Affiliates Financial Institutions Group, Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Banks---Affiliates-Financial-Institutions-Group--Analyst_JR-0000105867",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-2",
+      "company": "Barclays",
+      "title": "Quantitative Finance Associate Summer Internship Program 2027 New York",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Quantitative-Finance-Associate-Summer-Internship-Program-2027-New-York_JR-0000128099",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "barclays-3",
+      "company": "Barclays",
+      "title": "Senior Cyber Threat Hunting Analyst - AVP",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/Senior-Cyber-Threat-Hunting-Analyst---AVP_JR-0000128478",
+      "location": "Building 400-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-4",
+      "company": "Barclays",
+      "title": "Lead Cyber Threat Hunting Analyst - VP",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/Lead-Cyber-Threat-Hunting-Analyst---VP_JR-0000097194",
+      "location": "Building 400-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-5",
+      "company": "Barclays",
+      "title": "Residential Warehouse Trader Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Residential-Warehouse-Trader-Analyst_JR-0000102369",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-6",
+      "company": "Barclays",
+      "title": "Application Support Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/Application-Support-Analyst_JR-0000109736-1",
+      "location": "Building 400-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-7",
+      "company": "Barclays",
+      "title": "Broker Dealer Regulatory Reporting Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-300-Whippany-Campus-Jefferson-Park/Broker-Dealer-Regulatory-Reporting-Analyst_JR-0000122196",
+      "location": "Building 300-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-8",
+      "company": "Barclays",
+      "title": "Pensions & Benefits Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Pensions---Benefits-Analyst_JR-0000096274",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-9",
+      "company": "Barclays",
+      "title": "Workforce Management Senior Forecasting Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Wilmington-125-South-West-Street/Workforce-Management-Senior-Forecasting-Analyst_JR-0000112340",
+      "location": "Wilmington, 125 South West Street",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-10",
+      "company": "Barclays",
+      "title": "Technology Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-300-Whippany-Campus-Jefferson-Park/Technology-Analyst_JR-0000122514",
+      "location": "Building 300-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-11",
+      "company": "Barclays",
+      "title": "Business Analyst",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-400-Whippany-Campus-Jefferson-Park/Business-Analyst_JR-0000122187",
+      "location": "Building 400-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-12",
+      "company": "Barclays",
+      "title": "Business Analyst / Project Manager, AVP",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Business-Analyst---Project-Manager--AVP_JR-0000120456",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "barclays-13",
+      "company": "Barclays",
+      "title": "IPMDM Business Analyst Lead",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/Building-300-Whippany-Campus-Jefferson-Park/IPMDM-Business-Analyst-Lead_JR-0000120448",
+      "location": "Building 300-Whippany Campus, Jefferson Park",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-1",
+      "company": "JP Morgan",
+      "title": "2027 Data & AI Program - Summer Internship - Analyst - United States",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773869",
+      "location": "Chicago, IL, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-08-17",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-2",
+      "company": "JP Morgan",
+      "title": "Quantitative Trading & Research - RMBS Underwriting - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768112",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-3",
+      "company": "JP Morgan",
+      "title": "2027 Operations Analyst Program - Summer Analyst (NY Metro & Chicago)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765789",
+      "location": "New York, NY, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-08-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-4",
+      "company": "JP Morgan",
+      "title": "Global Technology Strategy, Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768873",
+      "location": "New York, NY, United States",
+      "team": "Strategy",
+      "postedAt": "2026-08-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-5",
+      "company": "JP Morgan",
+      "title": "Investment Banking \u2013 Equity Capital Markets, Natural Resources \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779779",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-13",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-6",
+      "company": "JP Morgan",
+      "title": "US Rates Strategy \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779578",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-11",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-7",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Small-Cap Investment Banking - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778877",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-8",
+      "company": "JP Morgan",
+      "title": "Quantitative Trading & Research - Equity Derivatives Exotics - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210770118",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-07",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-9",
+      "company": "JP Morgan",
+      "title": "PricingDirect Evaluator - Derivatives - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773189",
+      "location": "New York, NY, United States",
+      "team": "Portfolio Management",
+      "postedAt": "2026-08-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-10",
+      "company": "JP Morgan",
+      "title": "Solution Analyst III \u2013 ServiceNow",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210771139",
+      "location": "San Francisco, CA, United States",
+      "team": "Technical Program Delivery",
+      "postedAt": "2026-08-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-11",
+      "company": "JP Morgan",
+      "title": "Wealth Management, Private Bank, PLP Borrower Specialist, Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210778321",
+      "location": "New York, NY, United States",
+      "team": "Capital Advisory",
+      "postedAt": "2026-08-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-12",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Equity Capital Markets, Convertibles \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776897",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-04",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-13",
+      "company": "JP Morgan",
+      "title": "2027 Quantitative Research \u2013 Markets \u2013 Summer Internship - Analyst \u2013 United States",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774038",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-04",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-14",
+      "company": "JP Morgan",
+      "title": "2027 Quantitative Research \u2013 Asset Management \u2013 Summer Internship \u2013 Analyst - United States",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774074",
+      "location": "New York, NY, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-08-04",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-15",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Equity Capital Markets, Convertibles \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776898",
+      "location": "San Francisco, CA, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-03",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-16",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Innovation Development Full-Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210770316",
+      "location": "Chicago, IL, United States",
+      "team": "Analysts",
+      "postedAt": "2026-08-03",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-17",
+      "company": "JP Morgan",
+      "title": "Asset Management: Opening Market Insights Research Analyst  - Associate",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761775",
+      "location": "New York, NY, United States",
+      "team": "Client Sales",
+      "postedAt": "2026-08-03",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-18",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Private Capital Advisory, GP-Led Secondaries - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776352",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-31",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-19",
+      "company": "JP Morgan",
+      "title": "IPB - AWM Program Analyst - GFG Asia",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210776018",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-30",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-20",
+      "company": "JP Morgan",
+      "title": "Quantitative Trading & Research - Algorithmic Execution - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774627",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-30",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-21",
+      "company": "JP Morgan",
+      "title": "Credit Support Specialist, Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775957",
+      "location": "San Francisco, CA, United States",
+      "team": "Capital Advisory",
+      "postedAt": "2026-07-30",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-22",
+      "company": "JP Morgan",
+      "title": "PricingDirect Evaluator - Derivatives - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775167",
+      "location": "New York, NY, United States",
+      "team": "Portfolio Management",
+      "postedAt": "2026-07-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-23",
+      "company": "JP Morgan",
+      "title": "Asset Management -US Equity Growth team, Product Analyst - Associate",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775542",
+      "location": "New York, NY, United States",
+      "team": "Portfolio Management",
+      "postedAt": "2026-07-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-24",
+      "company": "JP Morgan",
+      "title": "Asset Management, Securitized Private Credit Analyst \u2013 Associate/Vice President",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773904",
+      "location": "Columbus, OH, United States",
+      "team": "Portfolio Management",
+      "postedAt": "2026-07-27",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-25",
+      "company": "JP Morgan",
+      "title": "Investment Banking \u2013 Financial Institutions Group \u2013 FinTech, Wealth, & Asset Management \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773925",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-24",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-26",
+      "company": "JP Morgan",
+      "title": "2027 Asset Management Investments Full Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763509",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-22",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-27",
+      "company": "JP Morgan",
+      "title": "IPB - Program Analyst Banker - GFG Russia",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210771984",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-20",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-28",
+      "company": "JP Morgan",
+      "title": "Marketing AI Program Analyst-Senior Associate",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210771214",
+      "location": "Wilmington, DE, United States",
+      "team": "Marketing Strategy",
+      "postedAt": "2026-07-17",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-29",
+      "company": "JP Morgan",
+      "title": "Global Corporate Banking - Infrastructure - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763762",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-15",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-30",
+      "company": "JP Morgan",
+      "title": "2027 Asset Management Client Full-Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763481",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-31",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Markets Full-Time Analyst Program - Research",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763120",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-32",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Markets Full Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210762542",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-33",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Risk Management Full-Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210762307",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-13",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-34",
+      "company": "JP Morgan",
+      "title": "Quantitative Trading & Research - Desk Strategist - Agency Mortgage Desk - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210756146",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-13",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-35",
+      "company": "JP Morgan",
+      "title": "2027 Global Private Bank Investment Solutions Program (Full-Time Analyst)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763462",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-36",
+      "company": "JP Morgan",
+      "title": "2027 Asset & Wealth Management Risk Full Time Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763529",
+      "location": "Columbus, OH, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-37",
+      "company": "JP Morgan",
+      "title": "2027 Global Private Bank Advisor Program - LatAm Private Bank - Full-time Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763905",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-38",
+      "company": "JP Morgan",
+      "title": "2027 Global Private Bank Advisor Program (Full-time Analyst) - US Private Bank",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763421",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-39",
+      "company": "JP Morgan",
+      "title": "2027 Global Private Bank Advisor Program  - Global Families Group Asia - Full Time Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210763939",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-40",
+      "company": "JP Morgan",
+      "title": "2027 Chase Leadership Development Program - Summer Analyst Opportunity (New York Metro)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210768204",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-09",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-41",
+      "company": "JP Morgan",
+      "title": "2027 Corporate Analyst Development Program - Summer Analyst (New York Metro)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765749",
+      "location": "New York, NY, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-07-08",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-42",
+      "company": "JP Morgan",
+      "title": "2027 Global Finance & Business Management - Summer Analyst  (New York Metro)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765289",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-07",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-43",
+      "company": "JP Morgan",
+      "title": "Investment Banking \u2013 M&A Private Capital Advisory \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210767547",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-07-07",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-44",
+      "company": "JP Morgan",
+      "title": "2027 Human Resources Analyst Development Program - Summer Analyst Opportunity",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765224",
+      "location": "Plano, TX, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-07-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-45",
+      "company": "JP Morgan",
+      "title": "2027 Marketing Leadership Development Program - Summer Analyst Opportunity",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210766280",
+      "location": "New York, NY, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-07-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-46",
+      "company": "JP Morgan",
+      "title": "2026-2027 - Commercial & Investment Bank - Markets Equity Research - Part Time Analyst Internship",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210761733",
+      "location": "New York, NY, United States",
+      "team": "Seasonal Employee",
+      "postedAt": "2026-06-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-47",
+      "company": "JP Morgan",
+      "title": "Security & Resiliency Initiative, Field Research Analyst, Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210762305",
+      "location": "New York, NY, United States",
+      "team": "Research",
+      "postedAt": "2026-06-25",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-48",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Mergers & Acquisitions - Strategic Investors Group - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210762985",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-06-24",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-49",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Infrastructure Finance and Advisory - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210749950",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-05-18",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-50",
+      "company": "JP Morgan",
+      "title": "Global Research - Crypto Analyst - Vice President",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210742639",
+      "location": "New York, NY, United States",
+      "team": "Research",
+      "postedAt": "2026-05-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-51",
+      "company": "JP Morgan",
+      "title": "Fixed Income Financing Trading \u2013 Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210735142",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-04-10",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-52",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Financial Institutions Group - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210733219",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-04-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-53",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Leveraged Finance - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210725578",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-03-17",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-54",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Healthcare - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210716451",
+      "location": "San Francisco, CA, United States",
+      "team": "Analysts",
+      "postedAt": "2026-02-26",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-55",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Financial Institutions Group - Specialty Finance and Alternative Asset Management - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210714102",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-02-17",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-56",
+      "company": "JP Morgan",
+      "title": "2027 Markets Summer Analyst Program - Research",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690282",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-02-11",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-57",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Healthcare - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210706007",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-27",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-58",
+      "company": "JP Morgan",
+      "title": "2027 Asset & Wealth Management Risk Summer Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691905",
+      "location": "Columbus, OH, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-08",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-59",
+      "company": "JP Morgan",
+      "title": "2027 Global Private Bank Advisor Program (Summer Analyst) - US Private Bank",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690291",
+      "location": "Atlanta, GA, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-08",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-60",
+      "company": "JP Morgan",
+      "title": "2027 Asset Management Product Summer Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691737",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-02",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-61",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Securities Services Leadership Program - Summer Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690767",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-02",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-62",
+      "company": "JP Morgan",
+      "title": "2027 - Asset & Wealth Management - Global Private Bank Advisor Program (Summer Analyst) - LatAm",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691755",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-02",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-63",
+      "company": "JP Morgan",
+      "title": "2027 - Asset & Wealth Management - Global Private Bank Advisor Program (Summer Analyst) - Global Families Group",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691719",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-02",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-64",
+      "company": "JP Morgan",
+      "title": "2027 - Asset & Wealth Management - Global Private Bank Advisor Program (Summer Analyst) - Global Families Group Asia",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691520",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-01-02",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-65",
+      "company": "JP Morgan",
+      "title": "2027 Markets Summer Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690325",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2025-12-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-66",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Risk Management Summer Analyst Program",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2025-12-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-67",
+      "company": "JP Morgan",
+      "title": "2027 Commercial & Investment Bank Innovation Development Summer Analyst Program - Product Track",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690743",
+      "location": "Chicago, IL, United States",
+      "team": "Analysts",
+      "postedAt": "2025-12-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-68",
+      "company": "JP Morgan",
+      "title": "Investment Banking - Media & Communications - Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210693656",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2025-12-11",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-1",
+      "company": "Macquarie",
+      "title": "Loan Operations Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=20446",
+      "location": "New York Office",
+      "postedAt": "2026-07-29",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-2",
+      "company": "Macquarie",
+      "title": "Analyst/Associate, Software and Services M&A",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22766",
+      "location": "New York Office",
+      "postedAt": "2026-07-15",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-3",
+      "company": "Macquarie",
+      "title": "Analyst/Associate, Infrastructure & Energy M&A/Advisory",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22610",
+      "location": "New York Office",
+      "postedAt": "2026-07-15",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-4",
+      "company": "Macquarie",
+      "title": "QIS Investor Sales Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=21947",
+      "location": "New York Office",
+      "postedAt": "2026-04-27",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
     {
       "id": "rbc-1",
       "company": "Rbc",
