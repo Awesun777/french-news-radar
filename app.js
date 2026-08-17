@@ -60,8 +60,21 @@ const SECTIONS = {
   },
 };
 
-const APPLICATIONS_FEED_URL =
-  "https://script.google.com/macros/s/AKfycbx8UQW40PMfKpi8_mwJGkicY-jGEow5Op2s8lNku2vzcWvjKX-dZhI_lEMknbSbrKmo/exec?action=jobs";
+const APPS_WEBHOOK =
+  "https://script.google.com/macros/s/AKfycbx8UQW40PMfKpi8_mwJGkicY-jGEow5Op2s8lNku2vzcWvjKX-dZhI_lEMknbSbrKmo/exec";
+// Reads are token-gated server-side; the token lives only in this browser.
+const APPS_TOKEN_KEY = "nr_apps_token";
+const appsToken = () => localStorage.getItem(APPS_TOKEN_KEY) || "";
+const appKeyOf = (company, position) =>
+  (String(company) + "|" + String(position)).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+async function appsPost(body) {
+  const res = await fetch(APPS_WEBHOOK, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=utf-8" },
+    body: JSON.stringify({ ...body, token: appsToken() }),
+  });
+  return res.json();
+}
 
 // Builders items are filtered by source kind rather than by news category.
 const KINDS = [
@@ -88,6 +101,7 @@ const state = {
   activeKind: "all",         // builders only
   activeCompany: "all",      // jobs only
   activeAppCat: "all",       // applications only
+  appsDetail: null,          // #applications/<appKey> sub-route
   lang: "en",                // builders only
   radar: blankSection(),
   builders: blankSection(),
@@ -357,18 +371,22 @@ async function loadSection(name) {
 
   if (conf.live) {
     // One fetch from the tracker sheet; category order is the sheet's own.
+    slice.needToken = false;
+    if (!appsToken()) { slice.failed = true; slice.needToken = true; return; }
     try {
-      const res = await fetch(APPLICATIONS_FEED_URL);
+      const res = await fetch(`${APPS_WEBHOOK}?action=workspace&token=${encodeURIComponent(appsToken())}`);
       const data = await res.json();
       if (!data.ok) throw new Error(data.error || "feed error");
-      slice.meta = { sections: data.sections || [] };
+      const w = data.workspace || {};
+      slice.meta = { sections: w.sections || [], appdata: w.appdata || {}, outreach: w.outreach || [] };
       slice.items = slice.meta.sections.flatMap((sec) =>
-        (sec.jobs || []).map((j) => ({ ...j, category: sec.category }))
+        (sec.jobs || []).map((j) => ({ ...j, category: sec.category, appKey: appKeyOf(j.company, j.position) }))
       );
       slice.loaded = true;
       if (!slice.items.length) slice.failed = true;
     } catch {
       slice.failed = true;
+      slice.needToken = !appsToken();
     }
     return;
   }
@@ -434,7 +452,24 @@ async function showSection(name) {
   if (slice.failed || !slice.items.length) {
     el.feed.hidden = true;
     el.status.hidden = false;
-    el.status.textContent = SECTIONS[name].empty;
+    if (name === "applications" && slice.needToken) {
+      // First visit on this browser: ask for the access token once.
+      el.status.innerHTML = `<div class="token-gate">
+        <p>This dashboard is private. Enter the access token to unlock it on this browser.</p>
+        <input type="password" id="apps-token-input" placeholder="Access token" autocomplete="off" />
+        <button id="apps-token-save" type="button">Unlock</button>
+      </div>`;
+      document.getElementById("apps-token-save").addEventListener("click", () => {
+        const v = document.getElementById("apps-token-input").value.trim();
+        if (!v) return;
+        localStorage.setItem(APPS_TOKEN_KEY, v);
+        slice.failed = false;
+        slice.needToken = false;
+        showSection("applications");
+      });
+    } else {
+      el.status.textContent = SECTIONS[name].empty;
+    }
     renderChips();
     renderLangToggle();
     el.footerMeta.textContent = "";
@@ -757,7 +792,7 @@ function appCardHTML(it) {
     ? `<span class="source">posted ${esc(it.postedDate)}</span>` : "";
   const status = it.status
     ? `<span class="cat-tag" data-cat="apps">${esc(it.status)}</span>` : "";
-  return `<article class="card" data-cat="inspiration">
+  return `<article class="card app-card" data-cat="inspiration" data-appkey="${esc(it.appKey || "")}">
     <div class="card-top"><div class="card-body">
       <div class="card-meta">${status}${applied}${posted}</div>
       <h3>${esc(it.company)}</h3>
@@ -765,6 +800,108 @@ function appCardHTML(it) {
     </div></div>
   </article>`;
 }
+
+// The per-application workspace: full JD context, the outreach contact list
+// and generated drafts. Everything sensitive sits behind the token-gated
+// workspace fetch; mutations go through appsPost (token attached).
+let appsDraftCache = {};
+
+function statusChip(st) {
+  const s = String(st || "").toLowerCase();
+  const tone = s === "drafted" ? "inspiration" : s === "error" ? "apps" : "general";
+  return `<span class="cat-tag" data-cat="${tone}">${esc(st || "queued")}</span>`;
+}
+
+function renderAppDetail(key) {
+  const m = cur().meta || {};
+  const item = cur().items.find((i) => i.appKey === key);
+  const ctx = (m.appdata || {})[key];
+  const contacts = (m.outreach || []).filter((c) => c.appKey === key);
+  appsDraftCache = {};
+
+  const head = item
+    ? `<h2>${esc(item.company)}</h2>
+       <p class="summary">${esc(item.position)} · ${esc(item.category)}${item.appliedDate ? ` · applied ${esc(item.appliedDate)}` : ""}${item.status ? ` · ${esc(item.status)}` : ""}</p>`
+    : `<h2>${esc(key)}</h2>`;
+
+  const ctxHtml = ctx
+    ? `${ctx.url ? `<p><a href="${esc(ctx.url)}" target="_blank" rel="noopener">Open the original posting ↗</a></p>` : ""}
+       <details class="jd-details" open><summary>Job description${ctx.postDate ? ` · posted ${esc(ctx.postDate)}` : ""}</summary>
+       <pre class="jd-pre">${esc(ctx.description || "(no description captured)")}</pre></details>`
+    : `<p class="summary">No saved context for this application yet — save it through the Smart JobFill extension (💼 Save job → Add to Sheet) and it will appear here.</p>`;
+
+  const contactsHtml = contacts.map((c) => {
+    let drafts = null;
+    try { drafts = c.draftsJson ? JSON.parse(c.draftsJson) : null; } catch { drafts = null; }
+    if (drafts) appsDraftCache[c.id] = drafts;
+    const draftBlocks = drafts
+      ? ["connect", "message", "email"].filter((f) => drafts[f]).map((f) => `
+          <details class="draft-details"><summary>${{ connect: "Connect note", message: "LinkedIn message", email: "Email" }[f]}</summary>
+            <pre class="jd-pre">${esc(drafts[f].draft || drafts[f])}</pre>
+            <button class="oc-btn" type="button" data-act="copy-draft" data-id="${esc(c.id)}" data-fmt="${f}">Copy</button>
+          </details>`).join("")
+      : "";
+    const sims = c.similarities ? `<p class="summary">🧭 ${esc(c.similarities)}</p>` : "";
+    const err = String(c.status).toLowerCase() === "error" && c.error ? `<p class="summary">⚠ ${esc(c.error)}</p>` : "";
+    return `<article class="card" data-cat="models"><div class="card-body">
+      <div class="card-meta">${statusChip(c.status)}
+        <a class="source" href="${esc(c.linkedinUrl)}" target="_blank" rel="noopener">${esc(c.linkedinUrl)}</a>
+        <button class="oc-btn oc-del" type="button" data-act="del-contact" data-id="${esc(c.id)}" title="Remove">✕</button>
+      </div>
+      ${sims}${err}${draftBlocks}
+    </div></article>`;
+  }).join("");
+
+  el.feed.innerHTML = `
+    <p><a href="#applications">← All applications</a></p>
+    ${head}
+    ${ctxHtml}
+    <div class="date-head" style="margin-top:24px"><h2>Team contacts</h2>
+      <span class="count">${contacts.length} · drafts auto-generate within ~30 min of queueing</span></div>
+    <div class="oc-add">
+      <input type="url" id="oc-url" placeholder="https://www.linkedin.com/in/…" />
+      <button class="oc-btn oc-primary" type="button" data-act="add-contact" data-key="${esc(key)}">Add &amp; queue</button>
+      <button class="oc-btn" type="button" data-act="refresh-apps">Refresh</button>
+    </div>
+    ${contactsHtml || `<p class="summary">No contacts yet. Paste LinkedIn URLs of people on this team (or adjacent teams) — the local outreach agent fetches each profile and drafts a connect note, message and email using this JD and your resume.</p>`}
+  `;
+}
+
+el.feed.addEventListener("click", async (e) => {
+  const actEl = e.target.closest("[data-act]");
+  if (actEl) {
+    const act = actEl.dataset.act;
+    if (act === "add-contact") {
+      const input = document.getElementById("oc-url");
+      const url = input.value.trim();
+      if (!url.includes("linkedin.com/")) { input.focus(); return; }
+      actEl.disabled = true;
+      const res = await appsPost({ type: "addContact", appKey: actEl.dataset.key, linkedinUrl: url });
+      if (res.ok) { state.applications.loaded = false; state.applications.failed = false; await showSection("applications"); }
+      else { actEl.disabled = false; alert(res.error || "failed"); }
+    }
+    if (act === "del-contact") {
+      actEl.disabled = true;
+      const res = await appsPost({ type: "removeContact", id: actEl.dataset.id });
+      if (res.ok) { state.applications.loaded = false; state.applications.failed = false; await showSection("applications"); }
+    }
+    if (act === "refresh-apps") {
+      state.applications.loaded = false;
+      state.applications.failed = false;
+      await showSection("applications");
+    }
+    if (act === "copy-draft") {
+      const d = (appsDraftCache[actEl.dataset.id] || {})[actEl.dataset.fmt];
+      if (d) { await navigator.clipboard.writeText(d.draft || d); actEl.textContent = "Copied ✓"; setTimeout(() => { actEl.textContent = "Copy"; }, 1200); }
+    }
+    return;
+  }
+  // Card click → per-application workspace.
+  if (state.section === "applications" && !state.appsDetail) {
+    const card = e.target.closest(".card[data-appkey]");
+    if (card) location.hash = `applications/${encodeURIComponent(card.dataset.appkey)}`;
+  }
+});
 
 function renderApplications(visible) {
   // Grouped by the sheet's categories, in the sheet's own order.
@@ -799,7 +936,10 @@ function render() {
     return;
   }
 
-  if (state.section === "applications") return renderApplications(visible);
+  if (state.section === "applications") {
+    if (state.appsDetail) return renderAppDetail(state.appsDetail);
+    return renderApplications(visible);
+  }
 
   if (searching) {
     // Flat, newest-first, with a date badge on each card.
@@ -1045,12 +1185,15 @@ el.jobsSync.addEventListener("click", downloadWatchlist);
 
 function sectionFromHash() {
   const h = location.hash.replace(/^#\/?/, "");
-  return SECTIONS[h] ? h : "radar";
+  const [name, sub] = h.split("/");
+  state.appsDetail = name === "applications" && sub ? decodeURIComponent(sub) : null;
+  return SECTIONS[name] ? name : "radar";
 }
 
 window.addEventListener("hashchange", () => {
-  const name = sectionFromHash();
-  if (name !== state.section) showSection(name);
+  // Always re-show: the section may be unchanged while the
+  // #applications/<appKey> sub-route changed.
+  showSection(sectionFromHash());
 });
 
 showSection(sectionFromHash());

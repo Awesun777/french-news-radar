@@ -533,3 +533,38 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   .sections { gap: 16px; }
   .section-tab { font-size: 13px; }
 }
+
+/* ─── Applications workspace ───────────────────────────────────────────────── */
+.app-card { cursor: pointer; }
+.token-gate { display: flex; flex-direction: column; gap: 10px; align-items: center; max-width: 340px; margin: 0 auto; }
+.token-gate input {
+  width: 100%; padding: 9px 12px; font: inherit; font-size: 14px;
+  border: 1px solid var(--border); border-radius: 9px; background: var(--card); color: var(--fg);
+}
+.token-gate button, .oc-btn {
+  padding: 8px 14px; font: inherit; font-size: 13px; font-weight: 700;
+  border: 1px solid var(--border); border-radius: 9px; background: var(--card);
+  color: var(--muted); cursor: pointer;
+}
+.token-gate button, .oc-primary { background: var(--primary); border-color: var(--primary); color: #FFF8ED; }
+.oc-btn:hover { border-color: var(--primary); color: var(--primary); }
+.oc-primary:hover, .token-gate button:hover { background: #1d4d82; color: #FFF8ED; }
+.oc-del { padding: 2px 8px; margin-left: auto; }
+.oc-add { display: flex; gap: 8px; margin: 10px 0 16px; flex-wrap: wrap; }
+.oc-add input {
+  flex: 1; min-width: 16rem; padding: 8px 12px; font: inherit; font-size: 13px;
+  border: 1px solid var(--border); border-radius: 9px; background: var(--card); color: var(--fg);
+}
+.jd-details, .draft-details {
+  border: 1px solid var(--border-soft); border-radius: 10px;
+  background: var(--bg-elev); margin: 8px 0; padding: 0;
+}
+.jd-details summary, .draft-details summary {
+  cursor: pointer; padding: 8px 12px; font-size: 13px; font-weight: 700; color: var(--primary);
+}
+.jd-pre {
+  white-space: pre-wrap; word-break: break-word; margin: 0; padding: 10px 14px;
+  font: 13px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  max-height: 420px; overflow-y: auto; border-top: 1px solid var(--border-soft);
+}
+.draft-details .oc-btn { margin: 8px 12px 10px; }
