@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-16T00:59:22Z",
+  "generatedAt": "2026-08-17T06:19:45Z",
   "digests": [
+    {
+      "date": "2026-08-17",
+      "title": "DeepSeek's peak pricing lands, Stripe buys OpenRouter for $7B+",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "DeepSeek's peak-hour pricing takes effect: V4-Pro output up to 4.5x pricier",
+        "Stripe finalizes $7B+ acquisition of AI model router OpenRouter",
+        "Anthropic's Q2 2026 revenue tops $11.5B, first positive operating income"
+      ]
+    },
     {
       "date": "2026-08-15",
       "title": "OpenAI's Cerebras-powered Ultrafast mode, Z.ai's GLM-5.3",

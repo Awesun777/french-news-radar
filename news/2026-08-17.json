@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-17",
+  "items": [
+    {
+      "id": "deepseek-peak-pricing-live",
+      "category": "models",
+      "title": "DeepSeek's peak-hour pricing takes effect: V4-Pro output up to 4.5x pricier",
+      "summary": "DeepSeek's new peak/off-peak pricing scheme goes live today, August 17, after being announced August 13. V4-Pro peak-hour output jumps from $0.87 to $3.96 per million tokens (peak-hour is roughly double the off-peak rate), and cache-miss input rises from $0.435 to $1.32 per million tokens; increases across the V4 lineup range from about 50% to over 1,000% depending on model and token type. DeepSeek says the dynamic pricing is meant to push usage into quieter hours as demand strains capacity, and its rates remain well below Western frontier-model pricing even after the hike.",
+      "whyItMatters": "DeepSeek has been a go-to cheap fallback for any non-voice text logic behind Romain/Anna (lesson content, written feedback); a 4x+ peak-hour jump erodes that cost edge, so it's worth re-benchmarking off-peak scheduling or a fallback model rather than assuming DeepSeek stays the budget option by default.",
+      "url": "https://www.engadget.com/2236912/deepseek-ai-models-get-four-times-pricier/",
+      "source": "Engadget",
+      "tags": ["deepseek", "pricing", "llm", "cost"]
+    },
+    {
+      "id": "stripe-openrouter-acquisition",
+      "category": "general",
+      "title": "Stripe finalizes $7B+ acquisition of AI model router OpenRouter",
+      "summary": "Reported August 16, Stripe has agreed to acquire OpenRouter, the startup that lets developers switch between and pay for hundreds of AI models through a single API, for more than $7 billion — a steep premium over the $1.3B valuation OpenRouter set in a $113M Series B just three months earlier. OpenRouter says it serves 8 million users with access to 400+ models; the deal is described as Stripe positioning itself as the payments/billing layer for AI usage.",
+      "whyItMatters": "OpenRouter is a common way builders A/B test and route between cheaper LLMs for non-voice backend logic; if Stripe folds it into usage-based billing infrastructure, it could make per-conversation cost metering and model-switching easier to wire into a tutor's backend.",
+      "url": "https://siliconangle.com/2026/08/16/stripe-reportedly-finalizes-deal-buy-ai-model-router-openrouter-7b/",
+      "source": "SiliconANGLE",
+      "tags": ["stripe", "openrouter", "acquisition", "infrastructure"]
+    },
+    {
+      "id": "anthropic-q2-2026-revenue",
+      "category": "general",
+      "title": "Anthropic's Q2 2026 revenue tops $11.5B, first positive operating income",
+      "summary": "Reported August 15 from investor communications, Anthropic's preliminary Q2 2026 revenue exceeded $11.5 billion, up from $4.73 billion in Q1 2026 and roughly 14x year-over-year, and the company posted positive adjusted operating income for the first time — arriving faster than the growth plans it had shared with investors.",
+      "whyItMatters": "Anthropic reaching profitability well ahead of schedule is a mild signal against near-term defensive price cuts or instability on the Claude API, relevant to anything in Romain/Anna's stack that leans on Claude for backend reasoning.",
+      "url": "https://fortune.com/2026/08/15/anthropic-revenue-q2-11-5-billion-ipo-investors/",
+      "source": "Fortune",
+      "tags": ["anthropic", "revenue", "business"]
+    },
+    {
+      "id": "qwen-3b-downloads-milestone",
+      "category": "general",
+      "title": "Alibaba's Qwen models cross 3 billion downloads, pass Google and Meta combined",
+      "summary": "A Hugging Face 2026 ecosystem report, covered August 15, shows Alibaba's Qwen family has passed 3 billion cumulative downloads across 460+ open-sourced model variants over roughly six months — ahead of Google's 418 million and Meta's 227 million open-model downloads combined, with over 300,000 derivative fine-tunes built on Qwen bases.",
+      "whyItMatters": "Qwen's dominance as the default open-weight base to fine-tune is a signal it's becoming the safest bet for any self-hosted, offline-capable text generation a tutor might need (lesson content, grading) when cloud LLM costs or latency don't fit.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/alibaba-overtakes-google-and-meta-with-3-billion-ai-model-downloads/",
+      "source": "PYMNTS",
+      "tags": ["alibaba", "qwen", "open-weights", "adoption"]
+    }
+  ]
+}
