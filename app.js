@@ -48,20 +48,7 @@ const SECTIONS = {
     empty: "No postings yet. Add companies to the watchlist above — the nightly agent checks their career pages and new roles land here.",
     skill: "/jobs-digest",
   },
-  // Live feed, not repo JSON: the Job Tracker sheet's Apps Script serves the
-  // applications logged through the Smart JobFill extension, grouped by the
-  // sheet's own category rows.
-  applications: {
-    label: "Applications",
-    live: true,
-    tagline: "Applications logged via the Smart JobFill extension — live from the tracker sheet",
-    empty: "No applications logged yet. Save a job in the extension and add it to the sheet.",
-    skill: "Smart JobFill → Job Tracker sheet",
-  },
 };
-
-const APPLICATIONS_FEED_URL =
-  "https://script.google.com/macros/s/AKfycbx8UQW40PMfKpi8_mwJGkicY-jGEow5Op2s8lNku2vzcWvjKX-dZhI_lEMknbSbrKmo/exec?action=jobs";
 
 // Builders items are filtered by source kind rather than by news category.
 const KINDS = [
@@ -87,13 +74,11 @@ const state = {
   activeCat: "all",          // radar only
   activeKind: "all",         // builders only
   activeCompany: "all",      // jobs only
-  activeAppCat: "all",       // applications only
   lang: "en",                // builders only
   radar: blankSection(),
   builders: blankSection(),
   journal: blankSection(),
   jobs: blankSection(),
-  applications: blankSection(),
 };
 
 // Shorthand for the currently-visible section's slice.
@@ -355,24 +340,6 @@ async function loadSection(name) {
   }
   if (slice.loaded || slice.failed) return;
 
-  if (conf.live) {
-    // One fetch from the tracker sheet; category order is the sheet's own.
-    try {
-      const res = await fetch(APPLICATIONS_FEED_URL);
-      const data = await res.json();
-      if (!data.ok) throw new Error(data.error || "feed error");
-      slice.meta = { sections: data.sections || [] };
-      slice.items = slice.meta.sections.flatMap((sec) =>
-        (sec.jobs || []).map((j) => ({ ...j, category: sec.category }))
-      );
-      slice.loaded = true;
-      if (!slice.items.length) slice.failed = true;
-    } catch {
-      slice.failed = true;
-    }
-    return;
-  }
-
   let index;
   try {
     index = await getJSON(`./${conf.dir}/index.json`);
@@ -417,8 +384,6 @@ async function showSection(name) {
   el.langToggle.hidden = name !== "builders";
   el.compose.hidden = name !== "journal";
   el.jobsWatch.hidden = name !== "jobs";
-  // Applications have no per-day files; the date navigator means nothing there.
-  el.dateNav.closest(".datenav").hidden = name === "applications";
   if (name === "jobs") loadWatchlist();
 
   const slice = state[name];
@@ -469,17 +434,6 @@ function renderChips() {
     if (state.activeCompany !== "all" && !companies.includes(state.activeCompany)) state.activeCompany = "all";
     el.catNav.value = state.activeCompany;
     el.catNav.dataset.active = String(state.activeCompany !== "all");
-    return;
-  }
-  // Applications filter by the sheet's category rows.
-  if (state.section === "applications") {
-    const cats = (cur().meta?.sections || []).map((x) => x.category);
-    el.catNav.innerHTML = [`<option value="all">All categories</option>`]
-      .concat(cats.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`))
-      .join("");
-    if (state.activeAppCat !== "all" && !cats.includes(state.activeAppCat)) state.activeAppCat = "all";
-    el.catNav.value = state.activeAppCat;
-    el.catNav.dataset.active = String(state.activeAppCat !== "all");
     return;
   }
   const builders = state.section === "builders";
@@ -547,11 +501,6 @@ function syncHeadHeight() {
 function renderFooter() {
   const s = cur();
   const n = s.items.length;
-  if (state.section === "applications") {
-    const cats = (s.meta?.sections || []).filter((x) => (x.jobs || []).length).length;
-    el.footerMeta.textContent = `${n} application${n === 1 ? "" : "s"} across ${cats} categor${cats === 1 ? "y" : "ies"} · live from the tracker sheet`;
-    return;
-  }
   // The journal has no index.json — count its days from the entries themselves.
   const days = s.meta?.digests?.length ?? new Set(s.items.map((i) => i.date)).size;
   const gen = s.meta?.generatedAt ? new Date(s.meta.generatedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : null;
@@ -559,7 +508,7 @@ function renderFooter() {
 }
 
 function matches(it) {
-  if (state.section !== "applications" && cur().activeDate !== "all" && it.date !== cur().activeDate) return false;
+  if (cur().activeDate !== "all" && it.date !== cur().activeDate) return false;
   const builders = state.section === "builders";
   const journal = state.section === "journal";
   const jobs = state.section === "jobs";
@@ -568,8 +517,6 @@ function matches(it) {
   } else if (jobs) {
     if (dismissedRead().has(it.url)) return false;
     if (state.activeCompany !== "all" && it.company !== state.activeCompany) return false;
-  } else if (state.section === "applications") {
-    if (state.activeAppCat !== "all" && it.category !== state.activeAppCat) return false;
   } else if (!journal && state.activeCat !== "all" && it.category !== state.activeCat) {
     return false;
   }
@@ -578,8 +525,6 @@ function matches(it) {
   // Chinese text is searchable too, so a 中文 query finds the same card.
   const hay = journal
     ? String(it.text || "").toLowerCase()
-    : state.section === "applications"
-    ? [it.company, it.position, it.category, it.status].join(" ").toLowerCase()
     : jobs
     ? [it.company, it.title, it.location, it.team, ...(it.matchedRoles || [])].join(" ").toLowerCase()
     : builders
@@ -748,44 +693,6 @@ function jobCardHTML(it, opts = {}) {
   </article>`;
 }
 
-// One tracked application: company leads, position under it, both dates as
-// quiet badges. Same card chrome as the rest of the site.
-function appCardHTML(it) {
-  const applied = it.appliedDate
-    ? `<span class="result-date-badge">applied ${esc(it.appliedDate)}</span>` : "";
-  const posted = it.postedDate
-    ? `<span class="source">posted ${esc(it.postedDate)}</span>` : "";
-  const status = it.status
-    ? `<span class="cat-tag" data-cat="apps">${esc(it.status)}</span>` : "";
-  return `<article class="card" data-cat="inspiration">
-    <div class="card-top"><div class="card-body">
-      <div class="card-meta">${status}${applied}${posted}</div>
-      <h3>${esc(it.company)}</h3>
-      ${it.position ? `<p class="summary">${esc(it.position)}</p>` : ""}
-    </div></div>
-  </article>`;
-}
-
-function renderApplications(visible) {
-  // Grouped by the sheet's categories, in the sheet's own order.
-  const order = (cur().meta?.sections || []).map((x) => x.category);
-  const groups = new Map(order.map((c) => [c, []]));
-  for (const it of visible) {
-    if (!groups.has(it.category)) groups.set(it.category, []);
-    groups.get(it.category).push(it);
-  }
-  el.feed.innerHTML = [...groups.entries()]
-    .filter(([, items]) => items.length)
-    .map(([cat, items]) => `<section class="date-group">
-      <div class="date-head">
-        <h2>${esc(cat)}</h2>
-        <span class="count">${items.length} application${items.length === 1 ? "" : "s"}</span>
-      </div>
-      ${items.map((it) => appCardHTML(it)).join("")}
-    </section>`)
-    .join("");
-}
-
 function render() {
   const isBuilders = state.section === "builders";
   const isJournal = state.section === "journal";
@@ -798,8 +705,6 @@ function render() {
     el.feed.innerHTML = `<div class="status">No results${searching ? ` for “${esc(state.query.trim())}”` : ""}.</div>`;
     return;
   }
-
-  if (state.section === "applications") return renderApplications(visible);
 
   if (searching) {
     // Flat, newest-first, with a date badge on each card.
@@ -852,7 +757,6 @@ el.search.addEventListener("input", (e) => {
 el.catNav.addEventListener("change", (e) => {
   if (state.section === "builders") state.activeKind = e.target.value;
   else if (state.section === "jobs") state.activeCompany = e.target.value;
-  else if (state.section === "applications") state.activeAppCat = e.target.value;
   else state.activeCat = e.target.value;
   renderChips();
   render();
