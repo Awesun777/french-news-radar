@@ -862,7 +862,13 @@ function renderAppDetail(key) {
           <details class="draft-details"><summary>${{ connect: "Connect note", message: "LinkedIn message", email: "Email" }[f]}</summary>
             <pre class="jd-pre">${esc(drafts[f].draft || drafts[f])}</pre>
             <button class="oc-btn" type="button" data-act="copy-draft" data-id="${esc(c.id)}" data-fmt="${f}">Copy</button>
+            ${f === "email" ? `<button class="oc-btn oc-primary" type="button" data-act="gmail-draft" data-id="${esc(c.id)}">Open in Gmail ↗</button>` : ""}
           </details>`).join("")
+      : "";
+    const guess = drafts && drafts.emailGuess && (drafts.emailGuess.candidates || []).length
+      ? `<p class="summary">✉ Guessed email (unverified): ${drafts.emailGuess.candidates.map((g) =>
+          `<button class="oc-btn" type="button" data-act="copy-text" data-text="${esc(g)}">${esc(g)}</button>`).join(" ")}
+          <span class="source">${esc(drafts.emailGuess.rationale || "")}</span></p>`
       : "";
     const sims = c.similarities ? `<p class="summary">🧭 ${esc(c.similarities)}</p>` : "";
     const err = String(c.status).toLowerCase() === "error" && c.error ? `<p class="summary">⚠ ${esc(c.error)}</p>` : "";
@@ -871,7 +877,7 @@ function renderAppDetail(key) {
         <a class="source" href="${esc(c.linkedinUrl)}" target="_blank" rel="noopener">${esc(c.linkedinUrl)}</a>
         <button class="oc-btn oc-del" type="button" data-act="del-contact" data-id="${esc(c.id)}" title="Remove">✕</button>
       </div>
-      ${sims}${err}${draftBlocks}
+      ${sims}${err}${guess}${draftBlocks}
     </div></article>`;
   }).join("");
 
@@ -916,6 +922,22 @@ el.feed.addEventListener("click", async (e) => {
     if (act === "copy-draft") {
       const d = (appsDraftCache[actEl.dataset.id] || {})[actEl.dataset.fmt];
       if (d) { await navigator.clipboard.writeText(d.draft || d); actEl.textContent = "Copied ✓"; setTimeout(() => { actEl.textContent = "Copy"; }, 1200); }
+    }
+    if (act === "copy-text") {
+      await navigator.clipboard.writeText(actEl.dataset.text);
+      const orig = actEl.textContent;
+      actEl.textContent = "Copied ✓";
+      setTimeout(() => { actEl.textContent = orig; }, 1200);
+    }
+    if (act === "gmail-draft") {
+      const drafts = appsDraftCache[actEl.dataset.id] || {};
+      const raw = String(drafts.email?.draft || drafts.email || "");
+      // First line carries "Subject: ..." per the engine's format spec.
+      const mSub = raw.match(/^\s*Subject:\s*(.+)$/im);
+      const subject = mSub ? mSub[1].trim() : "";
+      const body = mSub ? raw.replace(mSub[0], "").trim() : raw.trim();
+      const to = drafts.emailGuess?.candidates?.[0] || "";
+      window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(to)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, "_blank");
     }
     return;
   }
