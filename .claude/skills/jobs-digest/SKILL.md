@@ -13,9 +13,9 @@ You are monitoring the official career pages of companies on the user's watchlis
 
 ## Step 1 — Sync the watchlist from ~/Downloads
 
-The site's Jobs tab lets the user edit the watchlist in the browser and press **"Sync to agent"**, which downloads a merged `watchlist.json` into `~/Downloads`. Pick it up:
+The site's Jobs tab lets the user edit the watchlist in the browser and press **"Sync to agent"**, which saves a merged pending file. Pick it up:
 
-1. `ls -t ~/Downloads/watchlist*.json 2>/dev/null | head -1` → newest candidate (browsers may have renamed it `watchlist (1).json` etc.).
+1. Candidates, newest first: `ls -t jobs/watchlist.pending*.json ~/Downloads/watchlist*.json 2>/dev/null | head -1`. The repo-local `jobs/watchlist.pending.json` is the primary drop point (the Sync button saves there via the browser's file picker); `~/Downloads` is legacy fallback — **macOS TCC blocks launchd-context runs from reading ~/Downloads entirely**, so finding nothing there proves nothing when running from the LaunchAgent. Never commit a `watchlist.pending*.json` file — delete it after import (it's gitignored anyway).
 2. If one exists, decide by the `updatedAt` field INSIDE the JSON — never by file mtime (`git pull` refreshes the repo file's mtime every run, which would make the repo always look newer). Import when the Downloads copy's `updatedAt` is later than the repo file's `updatedAt` (a `null`/missing repo `updatedAt` counts as older; identical content = skip):
    - Validate it parses as JSON and has a `companies` array whose entries have `company` and `careersUrl` string fields. If invalid, leave the repo file alone and note the problem in your output.
    - If valid and newer: copy it over `jobs/watchlist.json`, then delete ALL `~/Downloads/watchlist*.json` copies so stale ones can't be re-imported later. Also delete the Downloads copies when they matched the repo content exactly.

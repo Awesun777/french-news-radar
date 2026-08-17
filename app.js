@@ -371,12 +371,32 @@ function applyWatchEdit(originalUrl, entry) {
   return true;
 }
 
-function downloadWatchlist() {
+async function downloadWatchlist() {
   const payload = { updatedAt: new Date().toISOString(), companies: effectiveWatchlist() };
-  const blob = new Blob([JSON.stringify(payload, null, 2) + "\n"], { type: "application/json" });
+  const text = JSON.stringify(payload, null, 2) + "\n";
+  // Preferred: save straight into the repo's jobs/ folder via the save-file
+  // picker (Chrome remembers the last-used folder). ~/Downloads is TCC-locked
+  // on macOS, so the nightly launchd agent can't read files dropped there —
+  // the repo folder it already owns has no such wall.
+  if (window.showSaveFilePicker) {
+    try {
+      const handle = await window.showSaveFilePicker({
+        suggestedName: "watchlist.pending.json",
+        types: [{ description: "JSON", accept: { "application/json": [".json"] } }],
+      });
+      const w = await handle.createWritable();
+      await w.write(text);
+      await w.close();
+      return;
+    } catch (e) {
+      if (e?.name === "AbortError") return; // user cancelled — don't double-save
+      // fall through to the plain download on any other failure
+    }
+  }
+  const blob = new Blob([text], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "watchlist.json";
+  a.download = "watchlist.pending.json";
   a.click();
   URL.revokeObjectURL(a.href);
 }
