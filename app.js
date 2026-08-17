@@ -374,14 +374,14 @@ function applyWatchEdit(originalUrl, entry) {
 async function downloadWatchlist() {
   const payload = { updatedAt: new Date().toISOString(), companies: effectiveWatchlist() };
   const text = JSON.stringify(payload, null, 2) + "\n";
-  // Preferred: save straight into the repo's jobs/ folder via the save-file
-  // picker (Chrome remembers the last-used folder). ~/Downloads is TCC-locked
-  // on macOS, so the nightly launchd agent can't read files dropped there —
-  // the repo folder it already owns has no such wall.
+  // Preferred: save into ~/JobSearch via the save-file picker (Chrome
+  // remembers the last-used folder per site, so it's one navigation ever).
+  // ~/Downloads is TCC-locked on macOS — the nightly launchd agent can't read
+  // files dropped there; ~/JobSearch has no such wall and stays private.
   if (window.showSaveFilePicker) {
     try {
       const handle = await window.showSaveFilePicker({
-        suggestedName: "watchlist.pending.json",
+        suggestedName: "watchlist.json",
         types: [{ description: "JSON", accept: { "application/json": [".json"] } }],
       });
       const w = await handle.createWritable();
@@ -1110,6 +1110,7 @@ function thinAppCardHTML(it) {
       <div class="app-thin-meta">
         ${it.status ? `<span class="cat-tag" data-cat="general">${esc(it.status)}</span>` : ""}
         <span class="source">${esc(it.category)}</span>
+        ${it.postedDate ? `<span class="source">posted ${esc(fmtSheetDate(it.postedDate))}</span>` : ""}
         ${applied ? `<span class="source">applied ${esc(applied)}</span>` : ""}
         <button class="oc-btn oc-del" type="button" data-act="del-app" data-appkey="${esc(it.appKey)}"
           data-company="${esc(it.company)}" data-position="${esc(it.position)}" data-applied="${esc(it.appliedDate || "")}"
