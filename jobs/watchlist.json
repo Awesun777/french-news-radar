@@ -1,19 +1,61 @@
 {
-  "updatedAt": "2026-08-14T15:26:51.431Z",
+  "updatedAt": "2026-08-17T22:26:27.930Z",
   "companies": [
     {
-      "id": "rbc",
-      "company": "Rbc",
-      "careersUrl": "https://jobs.rbc.com/ca/en/search-results?keywords=Analyst",
-      "roles": "Analyst, Research Associate",
-      "addedAt": "2026-08-13T20:24:27.194Z"
+      "id": "deutsche-bank",
+      "company": "Deutsche Bank",
+      "careersUrl": "https://careers.db.com/professionals/search-roles/#/professional/results/?divisionProf=2&country=231",
+      "roles": "Analyst, Associate",
+      "addedAt": "2026-08-14T22:50:08.946Z",
+      "countries": "United States"
+    },
+    {
+      "id": "pwc",
+      "company": "Pwc",
+      "careersUrl": "https://jobs-us.pwc.com/us/en/search-results",
+      "roles": "Deal Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-15T00:23:58.520Z"
     },
     {
       "id": "world-bank",
       "company": "World Bank",
       "careersUrl": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home?c=worldbankgroup&country=us",
       "roles": "E T Consultant, Analyst in United States",
-      "addedAt": "2026-08-13T20:27:19.705Z"
+      "countries": "United States",
+      "addedAt": "2026-08-16T06:30:10.423Z"
+    },
+    {
+      "id": "rbc",
+      "company": "Rbc",
+      "careersUrl": "https://jobs.rbc.com/ca/en/search-results?keywords=Analyst",
+      "roles": "Analyst, Research Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-16T23:50:10.124Z"
+    },
+    {
+      "id": "barclays",
+      "company": "Barclays",
+      "careersUrl": "https://search.jobs.barclays/search-jobs",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-16T23:59:54.930Z"
+    },
+    {
+      "id": "macquarie",
+      "company": "Macquarie",
+      "careersUrl": "https://recruitment.macquarie.com/en_US/careers/SearchJobs/?10671=%5B871428%5D&10671_format=21337&10672=%5B887459%5D&10672_format=21338&10703=%5B341310%5D&10703_format=21378&listFilterMode=1&jobRecordsPerPage=9&jobOffset=0",
+      "roles": "Analyst, Assoicate",
+      "countries": "United States",
+      "addedAt": "2026-08-17T00:03:11.398Z"
+    },
+    {
+      "id": "jp-morgan",
+      "company": "JP Morgan",
+      "careersUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=Analyst&location=New+York+City%2C+NY%2C+United+States&locationId=100265725234604&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
+      "roles": "Analyst",
+      "countries": "New York, San Francisco",
+      "addedAt": "2026-08-17T22:26:20.777Z"
     }
   ]
 }
