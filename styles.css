@@ -160,6 +160,8 @@ body {
 }
 
 .datenav { display: flex; align-items: center; gap: 4px; }
+/* The hidden attribute must beat the flex display (Applications has no dates). */
+.datenav[hidden] { display: none; }
 .datenav-btn {
   width: 28px; height: 30px; flex-shrink: 0;
   display: grid; place-items: center;
