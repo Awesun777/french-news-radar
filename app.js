@@ -379,21 +379,28 @@ async function loadSection(name) {
       if (!data.ok) throw new Error(data.error || "feed error");
       const w = data.workspace || {};
       slice.meta = { sections: w.sections || [], appdata: w.appdata || {}, outreach: w.outreach || [] };
-      // Only applications saved through the extension (present in AppData)
-      // appear here — the tracker's hand-entered history stays sheet-only.
-      const trackRows = {};
+      // Full application history: every tracker row (for the calendar and
+      // date lookups) plus any extension-saved context without a row yet.
+      const appdata = w.appdata || {};
+      const seen = new Set();
+      slice.items = [];
       (w.sections || []).forEach((sec) => (sec.jobs || []).forEach((j) => {
-        trackRows[appKeyOf(j.company, j.position)] = { ...j, category: sec.category };
+        const k = appKeyOf(j.company, j.position);
+        seen.add(k);
+        slice.items.push({
+          appKey: k, company: j.company, position: j.position,
+          status: j.status || "", appliedDate: j.appliedDate || "",
+          postedDate: j.postedDate || "", category: sec.category,
+          hasContext: !!appdata[k],
+        });
       }));
-      slice.items = Object.values(w.appdata || {}).map((ctx) => {
-        const row = trackRows[ctx.appKey] || {};
-        return {
-          appKey: ctx.appKey,
-          company: ctx.company, position: ctx.position,
-          status: row.status || "", appliedDate: row.appliedDate || "",
-          postedDate: ctx.postDate || row.postedDate || "",
-          category: row.category || "Uncategorized",
-        };
+      Object.values(appdata).forEach((ctx) => {
+        if (seen.has(ctx.appKey)) return;
+        slice.items.push({
+          appKey: ctx.appKey, company: ctx.company, position: ctx.position,
+          status: "", appliedDate: "", postedDate: ctx.postDate || "",
+          category: "Uncategorized", hasContext: true,
+        });
       });
       slice.loaded = true;
       if (!slice.items.length) slice.failed = true;
@@ -919,6 +926,29 @@ el.feed.addEventListener("click", async (e) => {
       state.applications.failed = false;
       await showSection("applications");
     }
+    if (act === "cal-clear") {
+      e.preventDefault();
+      appsSelectedDay = null;
+      render();
+    }
+    if (act === "del-app") {
+      const d = actEl.dataset;
+      if (!confirm(`Delete "${d.company} — ${d.position}" from the tracker sheet?`)) return;
+      actEl.disabled = true;
+      const res = await appsPost({
+        type: "removeTrackerRow",
+        company: d.company, position: d.position,
+        appliedDate: d.applied, appKey: d.appkey,
+      });
+      if (res.ok) {
+        state.applications.loaded = false;
+        state.applications.failed = false;
+        await showSection("applications");
+      } else {
+        actEl.disabled = false;
+        alert(res.error || "Delete failed");
+      }
+    }
     if (act === "copy-draft") {
       const d = (appsDraftCache[actEl.dataset.id] || {})[actEl.dataset.fmt];
       if (d) { await navigator.clipboard.writeText(d.draft || d); actEl.textContent = "Copied ✓"; setTimeout(() => { actEl.textContent = "Copy"; }, 1200); }
@@ -941,31 +971,111 @@ el.feed.addEventListener("click", async (e) => {
     }
     return;
   }
-  // Card click → per-application workspace.
+  // Calendar day click → filter the list to that date (toggle).
   if (state.section === "applications" && !state.appsDetail) {
+    const cell = e.target.closest(".cal-cell.cal-has");
+    if (cell) {
+      appsSelectedDay = cell.dataset.day === appsSelectedDay ? null : cell.dataset.day;
+      render();
+      return;
+    }
+    // Card click → per-application workspace.
     const card = e.target.closest(".card[data-appkey]");
     if (card) location.hash = `applications/${encodeURIComponent(card.dataset.appkey)}`;
   }
 });
 
-function renderApplications(visible) {
-  // Grouped by the sheet's categories, in the sheet's own order.
-  const order = (cur().meta?.sections || []).map((x) => x.category);
-  const groups = new Map(order.map((c) => [c, []]));
-  for (const it of visible) {
-    if (!groups.has(it.category)) groups.set(it.category, []);
-    groups.get(it.category).push(it);
+let appsSelectedDay = null;
+
+function parseAppliedDate(v) {
+  const str = String(v || "").trim();
+  if (!str) return null;
+  const m = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (m) return new Date(+m[3], +m[1] - 1, +m[2]);
+  const d = new Date(str);
+  return Number.isNaN(d.getTime()) ? null : d;
+}
+
+const calYmd = (d) =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+
+// GitHub-style contribution calendar of applications over the last 12 months.
+// Green opacity scales with that day's count; today is blue; clicking a day
+// with activity filters the list below to that date.
+function appsCalendarHTML(counts) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const start = new Date(today);
+  start.setDate(start.getDate() - 364 - today.getDay());
+  const max = Math.max(1, ...counts.values());
+  const weeks = [];
+  for (let d = new Date(start); d <= today; d.setDate(d.getDate() + 1)) {
+    if (d.getDay() === 0 || !weeks.length) weeks.push([]);
+    weeks[weeks.length - 1].push(new Date(d));
   }
-  el.feed.innerHTML = [...groups.entries()]
-    .filter(([, items]) => items.length)
-    .map(([cat, items]) => `<section class="date-group">
-      <div class="date-head">
-        <h2>${esc(cat)}</h2>
-        <span class="count">${items.length} application${items.length === 1 ? "" : "s"}</span>
+  const todayKey = calYmd(today);
+  const grid = weeks.map((week) => `<div class="cal-week">${week.map((d) => {
+    const k = calYmd(d);
+    const c = counts.get(k) || 0;
+    const isToday = k === todayKey;
+    const op = (0.25 + 0.75 * (c / max)).toFixed(2);
+    const cls = `cal-cell${c ? " cal-has" : ""}${isToday ? " cal-today" : ""}${k === appsSelectedDay ? " cal-sel" : ""}`;
+    const bg = c && !isToday ? ` style="background:rgba(47,158,68,${op})"` : "";
+    return `<i class="${cls}" data-day="${k}"${bg} title="${k} · ${c} applied"></i>`;
+  }).join("")}</div>`).join("");
+  const labels = weeks.map((week) => {
+    const first = week.find((d) => d.getDate() === 1);
+    return `<span class="cal-ml">${first ? first.toLocaleDateString("en-US", { month: "short" }) : ""}</span>`;
+  }).join("");
+  return `<div class="cal-wrap"><div class="cal-scroll"><div class="cal-months">${labels}</div><div class="cal-grid">${grid}</div></div></div>`;
+}
+
+function thinAppCardHTML(it) {
+  const d = parseAppliedDate(it.appliedDate);
+  const applied = d ? d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
+  return `<article class="card app-card app-thin" data-appkey="${esc(it.appKey)}">
+    <div class="card-body app-thin-row">
+      <div class="app-thin-main"><b>${esc(it.company)}</b><span class="app-thin-pos">${esc(it.position)}</span></div>
+      <div class="app-thin-meta">
+        ${it.status ? `<span class="cat-tag" data-cat="general">${esc(it.status)}</span>` : ""}
+        <span class="source">${esc(it.category)}</span>
+        ${applied ? `<span class="source">applied ${esc(applied)}</span>` : ""}
+        <button class="oc-btn oc-del" type="button" data-act="del-app" data-appkey="${esc(it.appKey)}"
+          data-company="${esc(it.company)}" data-position="${esc(it.position)}" data-applied="${esc(it.appliedDate || "")}"
+          title="Delete this application from the tracker sheet">✕</button>
       </div>
-      ${items.map((it) => appCardHTML(it)).join("")}
-    </section>`)
-    .join("");
+    </div></article>`;
+}
+
+function renderApplications(visible) {
+  const counts = new Map();
+  for (const it of visible) {
+    const d = parseAppliedDate(it.appliedDate);
+    if (!d) continue;
+    const k = calYmd(d);
+    counts.set(k, (counts.get(k) || 0) + 1);
+  }
+  let list, heading;
+  if (appsSelectedDay) {
+    list = visible.filter((it) => {
+      const d = parseAppliedDate(it.appliedDate);
+      return d && calYmd(d) === appsSelectedDay;
+    });
+    const [y, mo, da] = appsSelectedDay.split("-").map(Number);
+    const label = new Date(y, mo - 1, da).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    heading = `<h2>${label}</h2><span class="count">${list.length} applied · <a href="#applications" data-act="cal-clear">show recent</a></span>`;
+  } else {
+    list = [...visible]
+      .filter((it) => parseAppliedDate(it.appliedDate))
+      .sort((a, b) => parseAppliedDate(b.appliedDate) - parseAppliedDate(a.appliedDate))
+      .slice(0, 10);
+    heading = `<h2>Recent applications</h2><span class="count">latest ${list.length} of ${visible.length} · click a day above to filter</span>`;
+  }
+  el.feed.innerHTML = `
+    ${appsCalendarHTML(counts)}
+    <div class="date-head">${heading}</div>
+    ${list.map(thinAppCardHTML).join("") || `<p class="summary">Nothing applied on this day.</p>`}
+  `;
 }
 
 function render() {

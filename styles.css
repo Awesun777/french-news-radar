@@ -568,3 +568,21 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   max-height: 420px; overflow-y: auto; border-top: 1px solid var(--border-soft);
 }
 .draft-details .oc-btn { margin: 8px 12px 10px; }
+
+/* ── Applications calendar + thin cards ──────────────────────────────── */
+.cal-wrap { margin: 4px 0 22px; }
+.cal-scroll { overflow-x: auto; padding-bottom: 4px; }
+.cal-months { display: flex; gap: 3px; margin-bottom: 4px; }
+.cal-ml { flex: 0 0 12px; width: 12px; font-size: 9px; color: var(--ink-soft, #8a8578); white-space: nowrap; overflow: visible; }
+.cal-grid { display: flex; gap: 3px; }
+.cal-week { display: flex; flex-direction: column; gap: 3px; }
+.cal-cell { width: 12px; height: 12px; border-radius: 3px; background: rgba(37, 35, 33, 0.07); flex: none; }
+.cal-cell.cal-has { cursor: pointer; }
+.cal-cell.cal-has:hover { outline: 2px solid rgba(47, 158, 68, 0.5); }
+.cal-cell.cal-today { background: #1f6feb; }
+.cal-cell.cal-sel { outline: 2px solid #173f6b; }
+.app-thin .card-body { padding: 10px 16px; }
+.app-thin-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.app-thin-main { display: flex; align-items: baseline; gap: 10px; min-width: 0; }
+.app-thin-pos { color: var(--ink-soft, #6d675c); font-size: 0.92em; }
+.app-thin-meta { display: flex; align-items: center; gap: 10px; flex: none; }
