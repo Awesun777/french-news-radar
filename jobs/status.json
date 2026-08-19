@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-08-18T06:23:05Z",
+  "lastRunAt": "2026-08-19T06:42:52Z",
   "outcome": "new-postings",
-  "newCount": 85,
-  "detail": "85 new postings (Barclays, JP Morgan, Macquarie)",
-  "dayFile": "2026-08-17",
+  "newCount": 19,
+  "detail": "19 new postings (Barclays, JP Morgan, Rbc)",
+  "dayFile": "2026-08-18",
   "companies": {
     "Deutsche Bank": "unreachable",
     "Pwc": "ok",

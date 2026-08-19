@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-17T23:15:00Z",
+  "generatedAt": "2026-08-19T06:42:52Z",
   "digests": [
+    {
+      "date": "2026-08-18",
+      "itemCount": 19,
+      "companies": [
+        "Barclays",
+        "JP Morgan",
+        "Rbc"
+      ]
+    },
     {
       "date": "2026-08-17",
       "itemCount": 86,
