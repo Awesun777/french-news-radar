@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-17T06:19:45Z",
+  "generatedAt": "2026-08-19T06:47:00Z",
   "digests": [
+    {
+      "date": "2026-08-19",
+      "title": "Cartesia's Sonic-3.6 tops the voice leaderboards, OpenAI's ChatGPT for Teens",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Cartesia ships Sonic-3.6, now #1 on both Artificial Analysis speech leaderboards",
+        "OpenAI launches ChatGPT for Teens with automatic age-prediction routing",
+        "AI inference chip startup Etched doubles valuation to $21B in a month"
+      ]
+    },
     {
       "date": "2026-08-17",
       "title": "DeepSeek's peak pricing lands, Stripe buys OpenRouter for $7B+",

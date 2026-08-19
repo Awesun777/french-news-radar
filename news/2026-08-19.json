@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-19",
+  "items": [
+    {
+      "id": "cartesia-sonic-3-6-launch",
+      "category": "models",
+      "title": "Cartesia ships Sonic-3.6, now #1 on both Artificial Analysis speech leaderboards",
+      "summary": "Cartesia released Sonic-3.6 on August 18, just three months after Sonic-3.5, attributing the naturalness gains across 44 languages to fundamental model improvements built on developer feedback rather than a bigger model. It now tops both Artificial Analysis speech arenas — 1,283 Elo on the Provider Voice board and 1,123 on the Controlled Voice board, ahead of Sonic-3.5 and ElevenLabs' Eleven v3. Built on state-space models rather than transformers, Cartesia reports sub-90ms time-to-first-audio; it's in beta on Cartesia's API, with Artificial Analysis pricing it at roughly $49 per million characters versus $100 for Eleven v3.",
+      "whyItMatters": "Sonic-3.6 landing at roughly half of ElevenLabs' per-character price while beating Eleven v3 on both naturalness and latency benchmarks makes it the most direct threat yet to Anna's ElevenLabs voice stack — worth a side-by-side latency/quality test.",
+      "url": "https://www.cartesia.ai/launch",
+      "source": "Cartesia",
+      "tags": ["cartesia", "tts", "voice", "latency", "pricing"]
+    },
+    {
+      "id": "openai-chatgpt-for-teens",
+      "category": "general",
+      "title": "OpenAI launches ChatGPT for Teens with automatic age-prediction routing",
+      "summary": "OpenAI rolled out ChatGPT for Teens globally starting August 18 for users 13-17, adding content restrictions (no romantic language, self-harm topics blocked) and homework support designed to guide rather than hand over answers. Anyone who states their age as under 18, or whom OpenAI's age-prediction system estimates is a minor, is automatically routed into the teen experience; the global rollout is expected to finish within two weeks.",
+      "whyItMatters": "OpenAI's age-prediction and automatic account routing is a reusable pattern for any tutor app that serves both kids and adults — worth watching how they tune false positives given Romain runs on OpenAI's Realtime API.",
+      "url": "https://www.axios.com/2026/08/18/openai-chatgpt-for-teens",
+      "source": "Axios",
+      "tags": ["openai", "chatgpt", "safety", "policy"]
+    },
+    {
+      "id": "etched-21b-valuation",
+      "category": "general",
+      "title": "AI inference chip startup Etched doubles valuation to $21B in a month",
+      "summary": "Etched raised a $700M Series D led by Jane Street at a $21B valuation, up from $10.3B just a month earlier after a $300M Series C. The company builds specialized low-voltage prefill chips plus new memory and interconnect tech aimed at making AI inference faster and cheaper, challenging Nvidia; Jane Street is both investor and first customer, already running Etched hardware in production.",
+      "whyItMatters": "Etched's entire bet is cutting inference latency and cost — the same constraint that determines how fast Romain/Anna can respond — so its hardware approach is worth tracking as a longer-term lever on real-time voice latency.",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "source": "TechCrunch",
+      "tags": ["etched", "inference", "chips", "latency", "funding"]
+    }
+  ]
+}
