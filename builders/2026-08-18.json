@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-18",
+  "items": [
+    {
+      "id": "josh-woodward-gemini-roadmap-update",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Gemini",
+      "summary": "Josh Woodward posts a numbered progress update against an earlier list of asks for improving Gemini, working through ten line items one by one — from a revamped set of Workspace tools landing in 1-2 weeks, to a new \"Projects\" design now being implemented, to 49 (and growing) third-party connectors already live. His framing treats fixing the \"biggest over-triggering bugs\" and shipping backend groundwork as just as much a milestone as the flashier feature drops, publicly tracking a roadmap in real time rather than batching it into a single announcement.",
+      "summaryZh": "Josh Woodward 针对此前一份改进 Gemini 体验的诉求清单，逐条发布了编号进展更新，一口气过了十项：从 1-2 周内上线的 Workspace 工具改版，到正在落地的全新\"Projects\"设计，再到已经支持的 49 个（还在增加）第三方连接器。他把修复\"最严重的过度触发 bug\"、完成后端基础工作，看得和更亮眼的功能发布同样重要，选择实时公开追踪路线图，而不是攒成一次性大公告。",
+      "url": "https://x.com/joshwoodward/status/2089520767281324112",
+      "tags": ["gemini", "google", "product-roadmap", "transparency"]
+    },
+    {
+      "id": "madhu-guru-evals-methodology",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru lays out a concrete way to actually get good at building evals: start from a workflow you already understand deeply, study the real traces of prompts and outcomes at each step, then deliberately go looking for your product's failure cases — messy tool-call responses, missing context — and turn those into test cases. His final step reframes evals as a maintenance problem, not a one-time build: once you have a good eval, you still have to keep it mirroring live traffic as user patterns drift.",
+      "summaryZh": "Madhu Guru 给出了一套真正能把 eval 做好的具体方法：从一个你已经非常熟悉的工作流入手，逐步研究真实的 trace——典型的 prompt 序列、每一步该有的输出、以及端到端结果应该是什么样；再主动去找产品失败的场景——混乱的工具调用返回、缺失的上下文——把它们变成测试用例。他最后一步把 eval 重新定义成一个持续维护的问题，而不是一次性搭建完就完事：做出一个好 eval 之后，你还得随着用户行为的变化，不断让它跟真实流量保持同步。",
+      "url": "https://x.com/realmadhuguru/status/2089480958571331623",
+      "tags": ["evals", "ai-quality", "product-development"]
+    },
+    {
+      "id": "thariq-llm-coding-beats-diffusion-creative-work",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Thariq argues that the recent wave of procedurally-generated art, video editing, and 3D game demos is shifting his view that LLM coding models — not diffusion models — are actually the better tool for a lot of creative work. His reasoning: code is inherently easier to edit, nudge in a specific direction, and export into existing tools than the outputs of a diffusion model, which makes it a more practical creative medium even outside traditional programming tasks.",
+      "summaryZh": "Thariq 认为，最近这一波程序化生成艺术、视频剪辑和 3D 游戏 demo，正在改变他的看法：在很多创意类工作上，LLM 编程模型其实比 diffusion 模型更好用，而不是反过来。他的理由是：代码天生就比 diffusion 模型的输出更容易编辑、朝特定方向微调、导出到现有工具里继续用，这让它即便在传统编程任务之外，也是一种更实用的创意媒介。",
+      "url": "https://x.com/trq212/status/2089415712007938315",
+      "tags": ["llm-coding", "diffusion-models", "creative-tools", "claude-code"]
+    },
+    {
+      "id": "amjad-masad-ai-pilled-teams-and-pen-testing",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "Replit CEO",
+      "summary": "Amjad Masad flags a pattern he's noticing in pitches: teams that never mention \"AI\" but post AI-era growth rates, and would already have 10x the headcount if they weren't so thoroughly AI-pilled — treating quiet AI leverage as a stronger signal than AI branding. Separately, he argues that scanning code for vulnerabilities isn't sufficient on its own; teams need to actually try to break what they find via pen testing to know if it's real.",
+      "summaryZh": "Amjad Masad 指出他在看项目路演时注意到的一个模式：有些团队路演里从不提\"AI\"，却做出了 AI 时代才有的增长曲线，而且如果不是因为深度 AI 化，团队规模本该是现在的 10 倍——他认为这种\"闷声用 AI\"比刻意打 AI 标签是更强的信号。另外他还提到，光扫描代码找漏洞是不够的，团队还得真的动手用渗透测试去尝试攻破找到的漏洞，才能知道这些漏洞是不是真实可利用的。",
+      "url": "https://x.com/amasad/status/2089525819567739264",
+      "tags": ["replit", "ai-adoption", "security", "startups"]
+    },
+    {
+      "id": "aaron-levie-data-as-balance-sheet-asset",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Aaron Levie says AI's hunger for data is ushering in an era where information is valuable in almost any form, making \"data is the new oil\" concrete rather than a cliché — and argues that information should now be treated as an asset that literally belongs on a company's balance sheet. His bigger claim: how well a company manages and mines its own organizational intelligence is about to become a deciding factor in its competitiveness and value.",
+      "summaryZh": "Aaron Levie 说，AI 对数据的巨大胃口正在开启一个几乎任何形式的信息都有价值的时代，这让\"数据是新时代的石油\"不再只是一句空话，而是切实发生的事——他认为信息现在应该被当作一项真正应该出现在公司资产负债表上的资产。他更大的判断是：一家公司管理和挖掘自身组织智能的能力，即将成为决定其竞争力和价值高低的关键因素之一。",
+      "url": "https://x.com/levie/status/2089499887905997272",
+      "tags": ["data-strategy", "enterprise-ai", "business-value"]
+    },
+    {
+      "id": "garry-tan-personal-agi-open-source-kit",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Garry Tan open-sources the Personal AGI starter kit he'd previewed at his Startup School talk: a free, MIT-licensed private GitHub repo bundling 70 of his own \"proven skills\" and the beginnings of a Karpathy-style personal knowledge wiki. It's built to work with an existing Claude Code or Codex subscription — he says setup is as simple as making a new directory, starting the agent, and pasting in a setup image to configure the repo (slightly smoother on Desktop than command line).",
+      "summaryZh": "Garry Tan 开源了他此前在 Startup School 演讲中预告过的\"个人 AGI\"入门套件：一个免费、MIT 协议开源的私有 GitHub 仓库，里面打包了他自己 70 个\"验证过的技能\"，以及一个 Karpathy 风格的个人知识 wiki 雏形。这套东西设计成可以直接搭配你已有的 Claude Code 或 Codex 订阅使用——他说配置过程简单到只需新建一个目录、启动 agent，再把一张设置图粘贴进去就能自动配好整个仓库（在 Desktop 端体验比命令行略顺畅）。",
+      "url": "https://x.com/garrytan/status/2089424620764168485",
+      "tags": ["personal-agi", "open-source", "claude-code", "codex"]
+    },
+    {
+      "id": "nikunj-kothari-no-moat-and-brand-marketing",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "Nikunj Kothari runs through the entire AI stack — models, IDEs, harnesses, app builders, wrappers, inference providers, voice, data labeling, infra, neoclouds, generative media — and concludes apparently nobody in AI has a moat \"except the venture firm.\" In a separate post he predicts brand marketing becomes one of company-building's most prized skills going forward, arguing that as agents become the primary users of many products, standing out to an attention-scarce human audience will require sustained, deliberate positioning, not just launch-day polish.",
+      "summaryZh": "Nikunj Kothari 把整条 AI 产业链——模型、IDE、agent 框架、应用构建工具、行业套壳应用、推理服务商、语音层、数据标注公司、AI 基础设施、新型云厂商、生成式媒体公司——挨个点过一遍，得出结论：AI 领域里似乎谁都没有护城河，\"除了风投机构自己\"。在另一条帖子里，他预测品牌营销将成为未来公司建设中最被看重的技能之一，理由是随着 agent 逐渐成为很多产品的主要使用者，要在注意力稀缺的人类受众面前脱颖而出，需要的是持续、刻意的长期定位，而不只是发布当天的包装。",
+      "url": "https://x.com/nikunj/status/2089486802356961364",
+      "tags": ["ai-moats", "venture-capital", "brand-strategy"]
+    },
+    {
+      "id": "no-priors-sarah-guo-elad-gil-trillion-dollar-companies",
+      "kind": "podcast",
+      "author": "No Priors",
+      "role": "Interview with Elad Gil and Sarah Guo",
+      "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+      "takeaway": "Elad Gil argues the last five years produced an unprecedented rush of trillion-dollar AI companies that most investors are wrongly extrapolating forward, while Sarah Guo warns California's proposed billionaire tax could be \"the fastest way to chase the entire ecosystem out.\"",
+      "takeawayZh": "Elad Gil 认为过去五年出现的这波万亿美元级 AI 公司浪潮是历史性的例外，而不是可以线性外推的新常态，大多数投资人正在错误地把它当作未来的默认走向；与此同时 Sarah Guo 警告，加州拟议中的\"亿万富翁税\"可能是\"把整个创业生态系统赶走的最快方式\"。",
+      "summary": "On this No Priors episode, Elad Gil and Sarah Guo turn the mic on each other for a wide-ranging two-hander on where AI-era company building actually stands. Gil's central argument is that the last five years — Anthropic going from nothing to a trillion dollars, OpenAI's rise, SpaceX's valuation surge — were a historically compressed \"punctuated equilibrium,\" not the new normal; he argues investors are now conflating a market being enormous with a market being fast, and that the real question isn't which markets have huge total addressable markets but which few can produce $50-100 billion in revenue within five years. He also introduces what he calls \"return on invested tokens\": as compute becomes the true scarce resource inside labs, leadership increasingly has to decide which people and projects earn an outsized token budget, the same way engineering orgs used to starve internal tools teams to keep resources on core product. Guo pushes back gently on how much anxiety the \"RSI is 18 months away\" belief is producing among top researchers, calling some of the resulting existential decision-making \"tragic,\" while agreeing the belief itself is rational to hold given what leading scientists say. The conversation's sharpest turn comes on regulatory capture: reacting to California's proposed billionaire tax potentially forcing asset sales on founders whose companies have appreciated past $10 billion, Guo says \"the immediate effect is that a huge number of people that are attempting to create value or do new things in California choose to leave,\" calling it \"the fastest way I can think of to chase the entire ecosystem out.\" Gil closes the thread by pointing to France's 70%-nuclear power grid as a case study in how a \"safety lobby\" can foreclose a technology path for decades, framing it as a live analogy for how AI regulation could go.",
+      "summaryZh": "在这期 No Priors 节目里，Elad Gil 和 Sarah Guo 互相当起了对方的访谈对象，就 AI 时代公司到底走到了哪一步展开了一场内容很宽的两人对谈。Gil 的核心论点是：过去五年——Anthropic 从零起步做到万亿估值、OpenAI 的崛起、SpaceX 估值的飙升——是一种历史上极为罕见的\"间断平衡\"，而不是新常态；他认为，投资人正在把\"市场规模巨大\"和\"增长速度很快\"这两件事混为一谈，真正该问的问题不是哪些市场的总潜在规模（TAM）足够大，而是未来五年内到底有几家公司能做到 500 亿到 1000 亿美元的营收规模。他还提出了一个他称之为\"token 投入回报率\"的概念：随着算力成为实验室里真正稀缺的资源，管理层越来越需要决定把超额的 token 预算分配给哪些人、哪些项目，这就像当年工程团队宁愿把资源留给核心产品、也不愿投给内部工具团队一样。Guo 则委婉地质疑了\"递归自我提升（RSI）还有 18 个月就要实现\"这种信念，在顶尖研究者中间制造了多少焦虑，称一些由此产生的、近乎存在主义式的抉择\"有点悲剧色彩\"，但同时也承认，既然顶尖科学家这么说，抱有这种信念本身是理性的。整场对话最尖锐的转折出现在监管俘获这个话题上：谈到加州拟议的\"亿万富翁税\"可能迫使那些公司估值已经涨过 100 亿美元的创始人被迫卖出资产，Guo 说\"最直接的后果就是，一大批正在加州创造价值、尝试新事物的人会选择离开\"，并称这\"是我能想到的、把整个生态系统赶走的最快方式\"。Gil 则以法国 70% 电力来自核能这件事作为收尾类比，说明一个\"安全游说团体\"如何能让一项技术路线被搁置数十年，暗指 AI 监管可能走上类似的路。",
+      "url": "https://www.youtube.com/watch?v=6l8oAO_LBx4",
+      "tags": ["no-priors", "elad-gil", "sarah-guo", "regulatory-capture"]
+    }
+  ]
+}
