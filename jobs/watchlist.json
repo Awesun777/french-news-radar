@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T22:26:27.930Z",
+  "updatedAt": "2026-08-19T16:35:09Z",
   "companies": [
     {
       "id": "deutsche-bank",
@@ -16,22 +16,6 @@
       "roles": "Deal Associate",
       "countries": "United States",
       "addedAt": "2026-08-15T00:23:58.520Z"
-    },
-    {
-      "id": "world-bank",
-      "company": "World Bank",
-      "careersUrl": "https://worldbankgroup.csod.com/ux/ats/careersite/1/home?c=worldbankgroup&country=us",
-      "roles": "E T Consultant, Analyst in United States",
-      "countries": "United States",
-      "addedAt": "2026-08-16T06:30:10.423Z"
-    },
-    {
-      "id": "rbc",
-      "company": "Rbc",
-      "careersUrl": "https://jobs.rbc.com/ca/en/search-results?keywords=Analyst",
-      "roles": "Analyst, Research Associate",
-      "countries": "United States",
-      "addedAt": "2026-08-16T23:50:10.124Z"
     },
     {
       "id": "barclays",
@@ -56,6 +40,46 @@
       "roles": "Analyst",
       "countries": "New York, San Francisco",
       "addedAt": "2026-08-17T22:26:20.777Z"
+    },
+    {
+      "id": "stepstone",
+      "company": "Stepstone",
+      "careersUrl": "https://www.stepstonegroup.com/current-opportunities/?gh_src=0esrkja31us",
+      "roles": "",
+      "countries": "New York",
+      "addedAt": "2026-08-17T23:36:38.963Z"
+    },
+    {
+      "id": "raymond-james",
+      "company": "Raymond James",
+      "careersUrl": "https://raymondjames.wd1.myworkdayjobs.com/en-US/RaymondJamesCareers?q=analyst&source=LinkedIn&jobFamilyGroup=09bf253903871000cae2c329479b0000",
+      "roles": "Investment Banking Analyst",
+      "countries": "United States",
+      "addedAt": "2026-08-17T23:36:56.780Z"
+    },
+    {
+      "id": "dc-advisory",
+      "company": "Dc advisory",
+      "careersUrl": "https://www.dcadvisory.com/careers/#gref",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-19T07:54:15.478Z"
+    },
+    {
+      "id": "bda-partners",
+      "company": "Bda partners",
+      "careersUrl": "https://www.bdapartners.com/careers/experienced-professionals/",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-19T08:05:10.331Z"
+    },
+    {
+      "id": "houlihan-lokey",
+      "company": "Houlihan Lokey",
+      "careersUrl": "https://hl.wd1.myworkdayjobs.com/en-US/Lateral",
+      "roles": "Analyst",
+      "countries": "United States",
+      "addedAt": "2026-08-19T16:13:50.125Z"
     }
   ]
 }
