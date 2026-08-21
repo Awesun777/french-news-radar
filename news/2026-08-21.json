@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-21",
+  "items": [
+    {
+      "id": "chatgpt-apple-messages-plugin",
+      "category": "general",
+      "title": "ChatGPT ships an Apple Messages plug-in that can read and send texts for you",
+      "summary": "OpenAI released a plug-in on August 20 that connects ChatGPT to a Mac's iMessage, SMS, and RCS threads, letting it search message history, draft replies, and send texts on the user's behalf. It's Apple Silicon-only and lives inside Codex/ChatGPT Work rather than ordinary chats; OpenAI keeps a default confirmation step before any message goes out and explicitly warns against enabling persistent auto-approval.",
+      "whyItMatters": "The default-on confirm-before-send gate (and OpenAI's explicit warning against disabling it) is a reusable UX pattern worth copying if Romain or Anna ever take real-world actions on a learner's behalf, like sending a progress recap or scheduling a review session.",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "source": "TechCrunch",
+      "tags": ["openai", "chatgpt", "agentic", "ux"]
+    },
+    {
+      "id": "ai-public-trust-decline-survey",
+      "category": "general",
+      "title": "Survey data: public trust in AI keeps sliding despite the tech getting better",
+      "summary": "Reported August 19, Pew Research finds 52% of Americans are now \"more concerned than excited\" about AI in daily life, up from 37% in 2021, and an Economist/YouGov poll shows over 70% think AI is advancing too fast. The gap: people aren't feeling tangible personal benefit yet, and worry about job loss, even as industry leaders admit promised applications (like healthcare) haven't materialized.",
+      "whyItMatters": "A consumer-facing tutor selling to everyday learners, not developers, is selling into this exact trust gap; leading with concrete, felt benefits (visible progress, not 'powered by AI') matters more than the model story.",
+      "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt/",
+      "source": "TechCrunch",
+      "tags": ["sentiment", "trust", "survey", "consumer"]
+    }
+  ]
+}
