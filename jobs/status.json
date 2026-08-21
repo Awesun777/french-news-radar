@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-08-20T16:28:10Z",
-  "outcome": "error",
-  "newCount": 67,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-08-19",
+  "lastRunAt": "2026-08-21T06:44:21Z",
+  "outcome": "new-postings",
+  "newCount": 52,
+  "detail": "52 new postings (Deutsche Bank, Barclays, JP Morgan, Houlihan Lokey, Stepstone, Macquarie, Pwc)",
+  "dayFile": "2026-08-21",
   "companies": {
     "Deutsche Bank": "ok",
     "Pwc": "ok",
@@ -11,9 +11,10 @@
     "Macquarie": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",
-    "Raymond James": "ok",
-    "Dc advisory": "ok",
+    "Dc advisory": "unreachable",
     "Bda partners": "ok",
-    "Houlihan Lokey": "ok"
+    "Houlihan Lokey": "ok",
+    "Raymond James": "ok",
+    "Ubs": "unreachable"
   }
 }
