@@ -1,0 +1,118 @@
+{
+  "date": "2026-08-21",
+  "items": [
+    {
+      "id": "josh-woodward-gemini-student-plan",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Gemini",
+      "summary": "Google VP Josh Woodward announced Gemini's free university student plan is expanding to more than 140 countries, bringing higher usage limits, more storage, and a new dedicated student hub, bundled with access to NotebookLM and Flow. The global rollout signals Google racing to lock in student users on Gemini's free tier before they settle into habits around ChatGPT or Claude.",
+      "summaryZh": "谷歌副总裁 Josh Woodward 宣布，Gemini 面向大学生的免费方案将扩展到超过 140 个国家和地区，带来更高的使用额度、更多存储空间，以及一个全新的学生专属中心，并打包了 NotebookLM 和 Flow 的使用权限。这次全球范围的铺开，说明谷歌想赶在学生们对 ChatGPT 或 Claude 形成使用习惯之前，先把他们锁定在 Gemini 的免费层上。",
+      "url": "https://x.com/joshwoodward/status/2090166806401228912",
+      "tags": ["gemini", "google", "students", "product"]
+    },
+    {
+      "id": "thibault-sottiaux-private-safety-processing",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux previewed \"Private Safety Processing,\" designed to preserve Zero Data Retention for enterprise customers while still catching misuse: automated pattern detection across related interactions surfaces limited safety signals without exposing the underlying prompts or responses to OpenAI employees, himself included. He said OpenAI is also testing a hosted option encrypted with customer-controlled keys with early customers now, aiming to begin a broader rollout in September. \"Even when benefiting from frontier intelligence, customers shouldn't have to give up control of sensitive data,\" he wrote.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 预告了一项名为 \"Private Safety Processing\" 的新机制，目的是在为企业客户保留零数据留存（Zero Data Retention）的同时，依然能捕捉滥用行为：系统会对相关交互进行模式检测，只返回有限的安全信号，而不会把底层的 prompt 或回复暴露给 OpenAI 员工，包括他本人在内。他表示，OpenAI 也在测试一个由客户自持密钥加密的托管选项，目前已经在小范围早期客户中试用，计划九月开始更大范围推广。他写道：\"即便享受着前沿智能带来的能力，客户也不应该被迫放弃对敏感数据的掌控权。\"",
+      "url": "https://x.com/thsottiaux/status/2090173536010957128",
+      "tags": ["openai", "privacy", "enterprise", "safety"]
+    },
+    {
+      "id": "madhu-guru-eval-failure-taxonomy",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI's Madhu Guru laid out part three of his practical framework for building evals, arguing the first move after a v1 eval suite is a \"failure modes taxonomy\": mine the last 500-1,000 production traces, cluster the failures, and name each cluster precisely instead of lumping everything under vague labels like \"bad answer.\" He lists concrete examples — wrong document retrieved, right document but irrelevant section, hallucinated grounding, failing to punt on an ambiguous question — arguing that only once a failure is named precisely can a team write an eval that targets it, turning eval work into a genuine improvement flywheel.",
+      "summaryZh": "Meta AI 的 Madhu Guru 发布了他那套实用 eval 构建方法论的第三部分，主张在做出 v1 版 eval 之后，第一件该做的事是搭建一份\"失败模式分类表\"：从最近 500 到 1000 条生产环境的对话记录里挖掘失败案例，把它们聚类，并给每一类起一个精确的名字，而不是笼统地都归到\"回答不好\"这种模糊标签下。他举了几个具体例子——检索到错误文档、检索到正确文档但引用了不相关段落、缺乏依据的幻觉、面对模糊问题没有主动澄清而是瞎猜——并强调，只有把失败精确命名之后，团队才能针对性地写出能捕捉它的 eval，让 eval 工作真正变成一个可持续改进的飞轮。",
+      "url": "https://x.com/realmadhuguru/status/2090242427944833047",
+      "tags": ["evals", "llm-ops", "meta", "ai-engineering"]
+    },
+    {
+      "id": "thariq-software-factory",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq argued that AI coding tools are finally solving a problem as old as software itself: for its entire history, custom software has been unreliable, late, and over budget, which meant small and mid-sized businesses simply couldn't get good software built for them. He splits the market in two — companies whose core competency isn't software want reliability and predictability above all, while building genuinely new software products will stay a riskier, higher-upside business — calling the \"software factory\" model the answer for the first group.",
+      "summaryZh": "Anthropic 的 Thariq 认为，AI 编程工具正在解决一个和软件行业本身一样古老的问题：纵观整个历史，定制软件开发一直不可靠——延期、超预算、还常常没做到用户真正需要的东西，这也是为什么中小企业一直很难获得称心的软件。他把市场分成了两块：核心业务不是软件的公司，最需要的是可靠和可预期；而真正做全新软件产品，仍然会是一门风险更高、但潜在回报也更大的生意。他把\"软件工厂\"模式，看作是给第一类公司的答案。",
+      "url": "https://x.com/trq212/status/2090134946598039646",
+      "tags": ["anthropic", "claude-code", "software", "smb"]
+    },
+    {
+      "id": "amjad-masad-replit-openai",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad announced a new partnership with OpenAI, framing it around a problem he says agentic coding created rather than solved: \"Agents made software cheaper but made coding expensive.\" He didn't spell out the mechanics beyond the announcement link, but positioned the partnership as Replit's answer to that imbalance.",
+      "summaryZh": "Replit CEO Amjad Masad 宣布与 OpenAI 达成新的合作，并将其定位为解决一个由 agent 编程带来、而非被它解决的问题：\"Agent 让软件变便宜了，却让写代码这件事本身变贵了。\"他没有在推文里展开具体机制，只贴出了公告链接，但把这次合作定位为 Replit 对这种失衡的回应。",
+      "url": "https://x.com/amasad/status/2090079496124674377",
+      "tags": ["replit", "openai", "partnership", "coding-agents"]
+    },
+    {
+      "id": "guillermo-rauch-fx-binary",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch shipped \"fx,\" a 6.3MB Zig-compiled static binary that starts in 10 microseconds — or an even smaller WebAssembly build that delegates networking to the JS runtime to shed the weight of a bundled TLS/HTTP stack. He frames it as a preview of where AI-era infrastructure is headed: natively optimized rather than bloated, fast enough that fx can finish a task before a heavier agent even finishes booting. \"Fast is a one-way street,\" he wrote.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 发布了 \"fx\"：一个用 Zig 编译的静态 ELF 二进制文件，体积只有 6.3MB，启动只需要 10 微秒；还有一个更小的 WebAssembly 版本，把网络请求交给 JS 运行时处理，从而甩掉了内置 TLS/HTTP 协议栈带来的体积负担。他把这个项目当作 AI 时代基础设施走向的一个缩影：不是越堆越臃肿，而是原生地被优化到极致——快到 fx 能在一个更重的 agent 还没启动完之前，就已经把任务做完了。他写道：\"快，是一条单行道。\"",
+      "url": "https://x.com/rauchg/status/2090255740384751664",
+      "tags": ["vercel", "zig", "webassembly", "infrastructure"]
+    },
+    {
+      "id": "aaron-levie-expert-vs-generalist",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie pushed back on the idea that AI flattens the gap between experts and generalists, arguing it's doing the opposite: AI makes any task 10x easier to start, but only real judgment lets someone steer an agent, catch bad output, and recognize what \"good\" looks like — so expertise compounds rather than gets erased, and AI will widen skill gaps rather than close them. He separately flagged the Stripe-OpenRouter deal as a meaningful step toward letting developers mix and match model providers while managing cost, calling it important for AI to diffuse more broadly. \"Don't give up on being an expert at something,\" he wrote.",
+      "summaryZh": "Box CEO Aaron Levie 反驳了\"AI 会拉平专家和通才之间差距\"的说法，认为事实恰恰相反：AI 让任何任务的上手门槛都降低了十倍，但只有真正的判断力，才能让人正确地引导 agent、识别输出中的问题、判断什么才叫\"好\"——所以专业能力是在复利累积，而不是被抹平，AI 只会拉大技能差距，而不是缩小它。他还提到 Stripe 和 OpenRouter 的合作，认为这是让开发者能自由组合不同模型供应商、同时控制成本的重要一步，对 AI 更广泛地扩散意义重大。他写道：\"不要放弃在某个领域成为专家。\"",
+      "url": "https://x.com/levie/status/2090278256306229675",
+      "tags": ["box", "ai-skills", "openrouter", "stripe"]
+    },
+    {
+      "id": "matt-turck-cure-cancer",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC, FirstMark Capital",
+      "summary": "VC Matt Turck needled the industry's biggest promise with a one-line jab — \"AI labs: give us billions, we'll cure cancer\" — pointing to Moderna's own AI-driven work as the more grounded version of that pitch already playing out, rather than a future hypothetical.",
+      "summaryZh": "风险投资人 Matt Turck 用一句话调侃了行业里最宏大的承诺——\"AI 实验室们：给我们几十亿美元，我们就能治愈癌症\"——并顺带提到 Moderna 自己那套基于 AI 的研发工作，认为这才是这类说辞更脚踏实地的版本，是正在发生的现实，而不是遥远的未来假设。",
+      "url": "https://x.com/mattturck/status/2090070949567574151",
+      "tags": ["vc", "biotech", "moderna", "ai-hype"]
+    },
+    {
+      "id": "dan-shipper-frontier-team",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper announced the company has formed a \"frontier team\" — a group inside Every explicitly dedicated to mapping and experimenting at the cutting edge of what AI can do, rather than folding that exploration into product teams' day-to-day roadmaps.",
+      "summaryZh": "Every CEO Dan Shipper 宣布公司组建了一支\"前沿团队\"——一个专门负责在 AI 能力边界上探索和实验的小组，而不是把这类探索工作分散到各个产品团队的日常路线图里。",
+      "url": "https://x.com/danshipper/status/2090122240025071907",
+      "tags": ["every", "org-design", "ai-research"]
+    },
+    {
+      "id": "sam-altman-business-privacy",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "summary": "OpenAI CEO Sam Altman flagged a new business-privacy commitment for enterprise customers, though he didn't elaborate beyond linking to the announcement itself.",
+      "summaryZh": "OpenAI CEO Sam Altman 提到了一项面向企业客户的新的商业隐私承诺，不过他没有在推文里展开细节，只贴出了公告链接。",
+      "url": "https://x.com/sama/status/2090163991234453611",
+      "tags": ["openai", "privacy", "enterprise"]
+    },
+    {
+      "id": "portola-tolan-improv-actor",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "role": "Interview with Quentin and Elliot of Portola",
+      "title": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "takeaway": "Portola's AI companion app Tolan grew from $1M to $4M in annualized revenue in four weeks by treating its character not as a scripted chatbot but as an improv actor working off a \"hook\" instead of a plot.",
+      "takeawayZh": "Portola 的 AI 陪伴应用 Tolan，靠着把角色当成一个\"拿到一个引子就开始即兴发挥的演员\"、而不是照剧本走的聊天机器人，四周之内年化收入从 100 万美元冲到了 400 万美元。",
+      "summary": "Quentin, founder and CEO of Portola, and Elliot, the company's head of story, joined Every CEO Dan Shipper on AI & I to explain how their AI companion app Tolan went from a struggling kids' product to a business that grew from $1M to $4M in annualized revenue in four weeks. The team originally built Tolan as an AI creative tool for kids, a Diamond Age-inspired idea one of their own investors warned was \"a terrible idea\" to build. The real audience turned out to be someone else entirely: 18-to-24-year-old women who found the character on Discord and stuck around, a dynamic Quentin compares to the original Tamagotchi, a kids' toy that became a cultural phenomenon once young adults adopted it. The more interesting shift, though, is creative rather than commercial. Elliot, a science-fiction novelist by trade, said the team learned early that Tolan can't be handed a script: \"What we've learned on the story front with Tolan is that we are not — I am not the writer. I am not writing the story. The Tolan is the writer and the actor... My job is to teach them how to tell the best story in that moment.\" Instead of outlines, the team hands the model a \"hook\" and trains it to improvise off whatever the user brings, treating each conversational turn as a canvas rather than a checkpoint on a plot. Quentin frames the company's north star as moving users \"from being very overwhelmed to being more grounded\" — many of Tolan's heaviest users, he said, are recent college graduates navigating an unmoored stretch of their lives. Both founders describe the leap from B2B SaaS (Quentin's prior company sold to Walmart for $300M) into consumer storytelling as a deliberate bet that AI tooling has finally made solo or small-team creative products commercially viable in a way that simply wasn't possible before.",
+      "summaryZh": "Portola 的创始人兼 CEO Quentin，和公司的故事负责人 Elliot，一起做客 Every CEO Dan Shipper 主持的 AI & I 节目，讲述了他们的 AI 陪伴应用 Tolan 如何从一个举步维艰的儿童产品，四周之内把年化收入从 100 万美元做到了 400 万美元。团队最初把 Tolan 做成一款面向儿童的 AI 创意工具，灵感来自《钻石时代》式的设想，连他们自己的一位投资人当初都直言这\"是个糟糕的主意\"。而真正的用户群体完全出乎意料：是一群在 Discord 上发现这个角色、并留下来的 18 到 24 岁女性。Quentin 把这种现象类比为最初的电子宠物 Tamagotchi——本是儿童玩具，却在被年轻成年人追捧后变成了一种文化现象。不过更有意思的转变发生在创作层面，而非商业层面。本职是科幻小说家的 Elliot 说，团队很早就明白 Tolan 不能靠剧本推动：\"我们在 Tolan 的故事创作上学到的是，我们——我不是那个写故事的人。我没有在写这个故事。Tolan 才是编剧兼演员……我的工作是教会他们如何在那一刻讲出最好的故事。\"团队不给模型写大纲，而是给它一个\"引子\"，训练它根据用户带来的一切即兴发挥，把每一轮对话都当作一块可以自由挥洒的画布，而不是剧情推进的检查点。Quentin 把公司的北极星指标定义为帮助用户\"从非常不知所措，走向更踏实、更有根基\"——他说，Tolan 最重度的用户里有不少是刚毕业、正经历一段漂泊期的大学生。两位创始人都把这次从 B2B SaaS（Quentin 之前的公司曾以 3 亿美元卖给沃尔玛）跳向消费级叙事产品的转型，描述成一次有意为之的押注：AI 工具终于让单人或小团队做出商业上站得住脚的创意产品成为可能，而这在以前根本无法做到。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": ["portola", "ai-companion", "storytelling", "consumer-ai"]
+    }
+  ]
+}

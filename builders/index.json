@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-18T13:00:00Z",
+  "generatedAt": "2026-08-21T00:00:00Z",
   "digests": [
+    {
+      "date": "2026-08-21",
+      "title": "Portola's Tolan speedruns $1M to $4M ARR on improv, Sottiaux previews Private Safety Processing",
+      "itemCount": 11,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Portola's Quentin and Elliot tell Every's AI & I how AI companion app Tolan grew from $1M to $4M in annualized revenue in four weeks by treating the character as an improv actor working off a \"hook,\" not a script",
+        "OpenAI's Thibault Sottiaux previews \"Private Safety Processing,\" designed to keep Zero Data Retention intact for enterprise customers while still catching misuse through pattern detection that never exposes raw prompts",
+        "Box CEO Aaron Levie argues AI widens the gap between experts and generalists rather than closing it, since judgment — not task initiation — is what AI can't yet replace"
+      ]
+    },
     {
       "date": "2026-08-18",
       "title": "Gil and Guo debate trillion-dollar rarity and regulatory flight risk, Woodward ships a live Gemini roadmap",
