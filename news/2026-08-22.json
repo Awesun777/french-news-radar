@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-22",
+  "items": [
+    {
+      "id": "openai-gpt-5-6-sol-price-cut",
+      "category": "models",
+      "title": "OpenAI cuts GPT-5.6 Sol API pricing by 20%+",
+      "summary": "OpenAI dropped GPT-5.6 Sol API pricing for the next three months: input falls from $5 to $4 per million tokens, output from $30 to $20. The cut also applies to ChatGPT Work and Codex credit plans; Pro/Plus/Business subscriptions are unchanged. It's OpenAI's second price cut in under a month, following late-July reductions on Terra and Luna, as it responds to competition from Anthropic and Chinese labs.",
+      "whyItMatters": "GPT-5.6 Sol is the tier OpenAI routes complex prompts to from its realtime voice stack (per GPT-Live's design), so a 33% output-price cut directly lowers the cost of any fallback-to-text-reasoning path Romain leans on.",
+      "url": "https://community.openai.com/t/20-price-reduction-for-gpt-5-6-sol-api-codex-credits-and-chatgpt-work/1391726",
+      "source": "OpenAI Developer Community",
+      "tags": ["pricing", "openai", "llm"]
+    },
+    {
+      "id": "nari-labs-qwen3-tts-sub-50ms",
+      "category": "inspiration",
+      "title": "Nari Labs pushes open Qwen3-TTS to sub-50ms time-to-first-audio",
+      "summary": "Nari Labs open-sourced an optimized serving stack for Qwen3-TTS (1.7B CustomVoice) that hits sub-50ms p95 time-to-first-audio at 10 requests/sec on a single H100 — beating vLLM-Omni, SGLang-Omni, VoxServe and others. Techniques include trimming leading silence, a unified scheduler across the Talker/Code Predictor/Codec stages, urgency-aware prioritization, and CUDA-graph kernels for the codec's fixed-step structure. Cost works out to roughly $2 per 1M characters, versus $100 (ElevenLabs V3) or $49 (Cartesia Sonic 3.5).",
+      "whyItMatters": "This is a direct playbook for shaving latency out of a self-hosted TTS leg — the scheduler/urgency-aware-prioritization trick in particular is applicable to any pipeline juggling ASR, LLM, and TTS stages the way Romain and Anna do, and the open-sourced code is a concrete alternative if ElevenLabs/Cartesia costs become a bottleneck.",
+      "url": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/",
+      "source": "Nari Labs blog",
+      "tags": ["tts", "latency", "open-source", "cost"]
+    },
+    {
+      "id": "deepseek-v4-flash-vision-exp",
+      "category": "models",
+      "title": "DeepSeek ships V4-Flash-Vision-Exp, a cheap multimodal model near Opus 4.8 on agent benchmarks",
+      "summary": "DeepSeek released V4-Flash-Vision-Exp on its API, an experimental multimodal model that matches V4-Flash on text/reasoning while making a large jump on multimodal agent benchmarks, landing close to Claude Opus 4.8 on some of them. It's a sparse MoE (13B active / 284B total params) with a 1M-token context, priced at $0.22/M input and $0.66/M output on OpenRouter, alongside a new free Files API for reusable image uploads.",
+      "whyItMatters": "A cheap, capable vision model with a million-token context is a plausible building block for a French-tutor feature idea — e.g. photograph a French menu, sign, or worksheet and have the tutor discuss it — at a fraction of frontier-model image pricing.",
+      "url": "https://api-docs.deepseek.com/news/news260821/",
+      "source": "DeepSeek API docs",
+      "tags": ["vision", "multimodal", "pricing", "deepseek"]
+    }
+  ]
+}
