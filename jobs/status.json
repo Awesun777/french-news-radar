@@ -1,20 +1,20 @@
 {
-  "lastRunAt": "2026-08-21T06:44:49Z",
+  "lastRunAt": "2026-08-22T06:39:47Z",
   "outcome": "new-postings",
-  "newCount": 52,
-  "detail": "52 new postings (Deutsche Bank, Barclays, JP Morgan, Houlihan Lokey, Stepstone, Macquarie, Pwc)",
-  "dayFile": "2026-08-21",
+  "newCount": 5,
+  "detail": "5 new postings (Barclays, JP Morgan, Macquarie)",
+  "dayFile": "2026-08-22",
   "companies": {
-    "Deutsche Bank": "ok",
-    "Pwc": "ok",
+    "Deutsche Bank": "unreachable",
     "Barclays": "ok",
-    "Macquarie": "ok",
     "JP Morgan": "ok",
-    "Stepstone": "ok",
+    "Stepstone": "unreachable",
+    "Raymond James": "unreachable",
     "Dc advisory": "unreachable",
     "Bda partners": "ok",
-    "Houlihan Lokey": "ok",
-    "Raymond James": "ok",
+    "Houlihan Lokey": "unreachable",
+    "Macquarie": "ok",
+    "Pwc": "ok",
     "Ubs": "unreachable"
   }
 }

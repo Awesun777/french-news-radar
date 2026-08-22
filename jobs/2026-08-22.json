@@ -1,0 +1,50 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T06:39:47Z",
+  "items": [
+    {
+      "id": "barclays-1",
+      "company": "Barclays",
+      "title": "Structured Products Credit Analyst",
+      "url": "https://search.jobs.barclays/job/new-york/structured-products-credit-analyst/13015/99556912528",
+      "location": "New York, United States",
+      "matchedRoles": ["Analyst"]
+    },
+    {
+      "id": "barclays-2",
+      "company": "Barclays",
+      "title": "Correspondent Banking Investigations Analyst",
+      "url": "https://search.jobs.barclays/job/whippany/correspondent-banking-investigations-analyst/13015/99542114960",
+      "location": "Whippany, United States",
+      "matchedRoles": ["Analyst"]
+    },
+    {
+      "id": "jp-morgan-1",
+      "company": "JP Morgan",
+      "title": "Asset Management Portfolio Management Program Analyst (Equities)",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210782862",
+      "location": "New York, NY, United States",
+      "postedAt": "2026-08-21",
+      "matchedRoles": ["Analyst"]
+    },
+    {
+      "id": "jp-morgan-2",
+      "company": "JP Morgan",
+      "title": "Risk Management - Capital Risk Management Analyst",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210782115",
+      "location": "New York, NY, United States",
+      "postedAt": "2026-08-20",
+      "matchedRoles": ["Analyst"]
+    },
+    {
+      "id": "macquarie-1",
+      "company": "Macquarie",
+      "title": "Growth and Private Equity Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=20709",
+      "location": "New York Office",
+      "team": "Private Equity & Venture Capital",
+      "postedAt": "2026-08-21",
+      "matchedRoles": ["Analyst"]
+    }
+  ]
+}
