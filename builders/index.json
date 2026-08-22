@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-21T00:00:00Z",
+  "generatedAt": "2026-08-22T06:27:40Z",
   "digests": [
+    {
+      "date": "2026-08-22",
+      "title": "Anthropic launches Claude Security scanning with Mythos 5, Chess.com's Allebest on why superhuman AI made humans love chess more",
+      "itemCount": 10,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Anthropic launches Claude Security, powered by a new Mythos 5 scanning model that traces vulnerabilities across GitHub repos and surfaces fixable patches directly in Claude Code, backed by a $35M Defender Advantage Fund for open-source security",
+        "Chess.com CEO Erik Allebest tells No Priors that superhuman chess engines made humans play more, not less, once neural-net engines like Leela Chess Zero pushed human play toward sharper, unconventional styles",
+        "Swyx says he was wrong to doubt Simile AI's bet on simulating humans for feedback, and OpenAI's Thibault Sottiaux ships Codex's \"banked reset\" while investigating a cache-hit-rate regression draining usage limits faster"
+      ]
+    },
     {
       "date": "2026-08-21",
       "title": "Portola's Tolan speedruns $1M to $4M ARR on improv, Sottiaux previews Private Safety Processing",

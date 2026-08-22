@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-22",
+  "items": [
+    {
+      "id": "swyx-simile-ai-simulation",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "smol.ai, Latent Space",
+      "summary": "AI engineer and Latent Space host Swyx says he was wrong to doubt Simile AI, the startup building AI-simulated humans for feedback and research, co-founded by Joon Sung Park of Stanford's \"Smallville\" generative-agents project. He argues the phrase \"Simulation is a new scaling law\" sounds like marketing hyperbole until you take recursive self-improvement seriously: as models automate more of ML research itself, the last real bottleneck becomes simulating humans and their feedback, which is why Andrej Karpathy and Fei-Fei Li backed the team years before it had commercial traction. Simile is now finding product-market fit inside Fortune 100 companies, he said. \"I've never been so happy to be so wrong.\"",
+      "summaryZh": "AI 工程师、Latent Space 主播 Swyx 说自己此前看错了 Simile AI——这家公司正在打造用于反馈和研究的 AI 模拟人类，联合创始人 Joon Sung Park 正是斯坦福 \"Smallville\" 生成式 agent 项目的作者。他认为，\"Simulation is a new scaling law\"（模拟是一种新的 scaling law）这句话听起来像营销噱头，直到你真正认真对待递归自我提升（RSI）：当模型开始自动化越来越多的机器学习研究本身时，最后真正的瓶颈就变成了模拟人类及其反馈，这也是为什么 Andrej Karpathy 和 Fei-Fei Li 早在这家公司还没有任何商业化迹象时就选择投资。他说 Simile 现在已经在多家财富 100 强公司里找到了 product-market fit。他写道：\"我从没这么开心过，为自己曾经的判断错误而开心。\"",
+      "url": "https://x.com/swyx/status/2090948945753076141",
+      "tags": ["simile-ai", "simulation", "rsi", "ai-research"]
+    },
+    {
+      "id": "thibault-sottiaux-banked-reset-codex",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux shipped the \"banked reset\" for ChatGPT Work and Codex usage limits Friday evening, telling users to \"do with this information what you may\" hours ahead of the rollout. He then flagged a separate problem: for some users, Codex's cache hit rate has been worse this week than the stable state of prior weeks, which drains usage faster since hitting the cache consistently is key to efficiency, and said OpenAI is investigating with an update to follow.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 在周五晚间为 ChatGPT Work 和 Codex 的用量限制上线了 \"banked reset\"（额度重置），并在上线前几个小时就提前预告，让大家\"自己判断该怎么用这条信息\"。随后他又指出了一个单独的问题：部分用户本周 Codex 的缓存命中率比前几周的稳定水平更差，因为持续命中缓存是提升效率的关键环节，这会导致额度消耗得更快，他表示 OpenAI 正在调查，后续会有更新。",
+      "url": "https://x.com/thsottiaux/status/2091033630147854385",
+      "tags": ["openai", "codex", "usage-limits", "reliability"]
+    },
+    {
+      "id": "peter-yang-instinct-review",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials and interviews for busy people",
+      "summary": "Peter Yang put the AI assistant Instinct through its paces and came away split. Onboarding to connect iMessage, Google Workspace, and MCPs was \"very well done,\" and the assistant proactively suggests actions right after a new connection, which he says beats some rival assistants. But he flagged that Instinct indexes and retains users' emails without permission and offers no way to delete them from its records, calling it something he \"can't recommend to anyone until this is figured out,\" and said the single-thread interface keeps him from doing real work in it, so he's sticking with ChatGPT Work and Codex for that.",
+      "summaryZh": "Peter Yang 实际体验了一番 AI 助理 Instinct，评价喜忧参半。他觉得连接 iMessage、Google Workspace 和各种 MCP 的 onboarding 流程\"做得非常好\"，而且这个助理在新建连接之后会主动建议接下来能做什么，他认为这一点比一些同类助理做得更好。但他也指出，Instinct 会在未经许可的情况下索引并保留用户的邮件，而且没有办法把这些记录删除，他说在这个问题解决之前，\"没法向任何人推荐\"这款产品；他还提到，因为所有内容都挤在同一个对话线程里，他没法用它来处理真正的工作，所以真正干活的时候他还是会用 ChatGPT Work 和 Codex。",
+      "url": "https://x.com/petergyang/status/2090936583814025417",
+      "tags": ["ai-assistant", "privacy", "product-review"]
+    },
+    {
+      "id": "madhu-guru-evals-part-5",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI's Madhu Guru published part five of his eval-building framework, warning teams against collapsing a complex eval suite into one simplified score just because a senior stakeholder wants an easy number to act on — what he calls \"the tyranny of the average.\" He illustrates the danger with a model that improves on summarization (85%→89%) and factual QA (80%→85%) but regresses on complex financial analysis (70%→63%): a single blended score hides that the model got worse on the highest-stakes use case, and a weighted score just launders a judgment call as false mathematical precision. His fix: keep a prioritized list of evals, have people examine the details instead of chasing abstracted simplicity, and make the better-or-worse call deliberately.",
+      "summaryZh": "Meta AI 的 Madhu Guru 发布了他 eval 构建方法论的第五部分，提醒团队不要因为某个高层想要一个方便做决策的简单数字，就把一整套复杂的 eval 结果压缩成单一分数——他把这种做法称为\"平均值的暴政\"。他用一个例子说明其中的危险：一个模型在摘要任务上从 85% 提升到 89%，在基础事实问答上从 80% 提升到 85%，但在复杂的财务分析任务上却从 70% 掉到了 63%——把这些结果合并成一个分数，会掩盖模型在最关键的场景上其实变差了这件事，而加权分数也不过是把一次主观判断包装成了看似精确的数学结果。他给出的做法是：按照优先级维护一份 eval 清单，让人去看细节而不是一味追求抽象出来的简单结论，并主动、审慎地判断新系统到底是变好了还是变差了。",
+      "url": "https://x.com/realmadhuguru/status/2090930137885774324",
+      "tags": ["evals", "meta", "ai-engineering"]
+    },
+    {
+      "id": "thariq-eli5-skill",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq shared a Claude Code skill he says people inside the company have been using heavily: ELI5, invoked as \"/eli5 <what you want explained>,\" which has Claude explain a topic as if to someone who knows nothing about it, rendered as an HTML artifact with big pictures and few words. He uses it for module explainers, tradeoff rationale, and incident postmortems — e.g. \"/eli5 why did we make this tradeoff\" — and is debating turning it into an official plugin; in the meantime it's installable from the community plugin marketplace.",
+      "summaryZh": "Anthropic 的 Thariq 分享了一个他说公司内部最近用得很多的 Claude Code 技能：ELI5，用法是 \"/eli5 <你想让它解释的内容>\"，它会让 Claude 把一个话题解释得像是在给完全不懂这个领域的人讲一样，并渲染成一个图多字少的 HTML artifact。他会用它来解释某个模块的原理、某个技术取舍背后的理由，甚至复盘某次事故，比如 \"/eli5 why did we make this tradeoff\"；他还在纠结要不要把它做成官方插件，目前可以先从社区插件市场安装试用。",
+      "url": "https://x.com/trq212/status/2090884854590382515",
+      "tags": ["claude-code", "anthropic", "skills", "developer-tools"]
+    },
+    {
+      "id": "guillermo-rauch-sandbox-agentic-testing",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch shipped two updates. Vercel Sandbox now supports users' existing Grok and Codex subscriptions, \"instant to install\" and testable directly inside a sandbox. Separately, his team ran an internal evaluation tool called is-agentic in a loop until it hit 100/100, a process he says forced them to close real gaps and made sure the underlying scoring criteria were \"high quality and worth your time & tokens.\"",
+      "summaryZh": "Vercel CEO Guillermo Rauch 发布了两项更新。Vercel Sandbox 现在支持用户已有的 Grok 和 Codex 订阅，\"装上就能直接用\"，可以直接在 sandbox 里测试。另外，他的团队把一个叫 is-agentic 的内部评测工具循环跑了很多轮，直到跑到 100/100 分，他说这个过程逼着他们补上了不少真正的短板，也确保了背后的评分标准\"质量够高、值得花你的时间和 token\"。",
+      "url": "https://x.com/rauchg/status/2090858571613470919",
+      "tags": ["vercel", "sandbox", "evals", "ai-coding"]
+    },
+    {
+      "id": "aaron-levie-ai-progress-applied-companies",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie says the current pace of AI progress is unlike any prior period in tech history: models are getting cheaper on a like-for-like task basis, more broadly capable, faster, and going deeper into nearly every domain at once. As intelligence becomes \"too cheap to meter,\" he argues the real opportunity shifts to driving AI's diffusion into the economy, calling it \"a huge moment for startups\" that can ride the competition among model makers as a tailwind for their own applied-AI products.",
+      "summaryZh": "Box CEO Aaron Levie 说，当前 AI 的进步速度是科技史上任何一个时期都无法比拟的：模型在同等任务下越来越便宜，能力也更全面、更快，而且几乎在每一个领域都在往更深处走。他认为，随着智能变得\"便宜到几乎不用计费\"，真正的机会正在转向如何推动 AI 在整个经济体系中的渗透，他称这是\"创业公司的巨大机遇\"，那些应用层 AI 公司完全可以借助模型厂商之间的竞争，把这股势头转化为自己的顺风车。",
+      "url": "https://x.com/levie/status/2091038566260539574",
+      "tags": ["box", "ai-progress", "applied-ai", "startups"]
+    },
+    {
+      "id": "nikunj-kothari-claude-code-api-hack",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari shared a small but telling home-automation win. When his daughter started kindergarten and the school's daily meal listing turned out to be unstructured data on a random website, he had Claude Code find the site's — luckily unauthenticated — API through network requests and wire it into his family's existing home bot, so it now announces breakfast and lunch each morning automatically. He calls using coding agents to reverse-engineer small personal integrations like this \"still SO underrated.\"",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 分享了一个不起眼但很说明问题的家庭自动化小案例。他女儿刚上幼儿园，学校的每日菜单信息藏在一个网站上、格式很随意，他让 Claude Code 通过分析网络请求找到了这个网站背后的 API——运气不错，这个 API 居然没做鉴权——然后把它接入了家里已有的 Home bot，现在每天早上都会自动播报当天的早餐和午餐。他说，用 coding agent 去逆向这种小型的、个人化的接口集成，\"依然被严重低估\"。",
+      "url": "https://x.com/nikunj/status/2090884422178627624",
+      "tags": ["claude-code", "home-automation", "reverse-engineering"]
+    },
+    {
+      "id": "claude-security-mythos-launch",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Anthropic",
+      "summary": "Anthropic's official Claude account announced Claude Security, powered by a new scanning model called Mythos 5: point it at a GitHub repo and it traces data across files, reasons about how components interact, and returns each finding with a CWE category, confidence and severity ratings, and a suggested fix. Suggested patches surface directly in Claude Code on the web, and because the model runs behind the scan and returns only findings, teams get results without needing direct access to the model; scans bill as standard token usage under an existing plan. Anthropic paired the launch with a $35M Defender Advantage Fund for open-source security and said it's expanding its Cyber Verification Program in the coming weeks.",
+      "summaryZh": "Anthropic 官方 Claude 账号发布了 Claude Security，背后由一个名为 Mythos 5 的新扫描模型驱动：把它指向一个 GitHub 仓库，它就会跨文件追踪数据流向、推理各个组件之间的交互方式，并为每一个发现的问题给出 CWE 分类、置信度和严重程度评级，以及一个建议的修复方案。建议的补丁会直接出现在 Claude Code on the web 里，而且因为模型是在扫描背后运行、只返回结果本身，团队不需要直接接触模型就能拿到结果；扫描会按现有方案下的标准 token 用量计费。Anthropic 同时还推出了一个 3500 万美元的 Defender Advantage Fund，用于支持开源安全项目，并表示将在未来几周内扩大其 Cyber Verification Program 的覆盖范围。",
+      "url": "https://x.com/claudeai/status/2090852320128938319",
+      "tags": ["anthropic", "security", "claude-code", "product-launch"]
+    },
+    {
+      "id": "no-priors-chess-com-erik-allebest",
+      "kind": "podcast",
+      "author": "No Priors",
+      "role": "Interview with Erik Allebest, CEO of Chess.com",
+      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
+      "takeaway": "Chess got more popular, not less relevant, once computers became superhuman at it — proof, Chess.com CEO Erik Allebest argues, that humans crave human skill and connection even when a machine can outperform them.",
+      "takeawayZh": "国际象棋在计算机变得比人类更强之后，非但没有变得无关紧要，反而变得更受欢迎——Chess.com CEO Erik Allebest 认为，这恰恰证明了，即便机器能表现得更好，人类依然渴望人类自身的技艺与彼此的连接。",
+      "summary": "Erik Allebest bought the chess.com domain out of a 2005 bankruptcy auction for $56,000, after nearly every investor he pitched — including classmates at Stanford Business School — told him the idea was \"uninvestable\" and to get a real job. Two decades later, without ever raising a primary funding round (General Atlantic and later CVC only bought secondary shares from existing holders), Chess.com has grown to roughly 10 million daily active users, more than 250 million registered members, and over $200 million in annual revenue, run by about 650 fully remote employees.\n\nAllebest's central point is about what happened after computers surpassed humans at chess three decades ago. Rather than making the game obsolete, superhuman engines like Stockfish first made competitive play \"pretty boring,\" as players ground out near-perfect endgames trying to mimic the machine. But the arrival of self-trained neural-net engines like Leela Chess Zero pushed human play toward sharper, more aggressive, unconventional styles and reignited interest — evidence, he says, that \"fundamentally, humans want to do human stuff... it really pushed humans to be better.\" He credits repeated cultural spikes — the pandemic, Netflix's The Queen's Gambit, a 2023 cheating scandal, short-form video — with each settling into a permanently higher user baseline rather than fading back.\n\nInside the company, AI now powers support automation, internal data analysis, and an in-development AI chess coach that reviews a player's recent games and offers feedback, alongside heavy investment in anti-cheating detection, still the platform's most persistent integrity threat. His advice to founders chasing markets that look too small or too early: ignore the standard fundraising playbook and \"just go execute and put something beautiful into the world that's unique and that creates value for people.\" On AGI, he's cautiously optimistic but wary of concentration of power: \"It's really what we do with that as a culture more than what the tool is itself.\"",
+      "summaryZh": "Erik Allebest 在 2005 年的一场破产拍卖中，花 5.6 万美元买下了 chess.com 这个域名——在此之前，几乎所有他找过的投资人，包括斯坦福商学院的同班同学，都告诉他这个想法\"不值得投资\"，劝他去找份正经工作。二十年后，在从未进行过一轮一级市场融资的情况下（General Atlantic 和后来的 CVC 都只是从老股东手里买了老股），Chess.com 已经成长为日活跃用户约 1000 万、注册会员超过 2.5 亿、年营收超过 2 亿美元的公司，团队约 650 人，全员远程办公。\n\nAllebest 讲述的核心，是三十年前计算机在国际象棋上超越人类之后到底发生了什么。超人类的引擎——比如 Stockfish——一开始并没有让这项运动过时，反而让比赛一度\"变得相当无聊\"，因为棋手们都在模仿机器、死磕近乎完美的残局。但后来像 Leela Chess Zero 这样通过自我对弈训练出来的神经网络引擎出现后，反而把人类的下棋风格推向了更犀利、更具攻击性、也更不落俗套的方向，重新点燃了大家对这项运动的热情——在他看来，这恰恰证明了\"人类骨子里就是想做人类会做的事……这反而把人类推向了更强\"。他认为，疫情、Netflix 的《后翼弃兵》、2023 年的一次作弊丑闻、短视频，这些文化层面的节点每一次都带来一波用户激增，而且激增之后并没有回落，而是沉淀成了一个更高的新常态。\n\n在公司内部，AI 已经被用在客服自动化、内部数据分析，以及一个正在开发中的 AI 象棋教练上——它会回顾用户最近的对局并给出反馈；与此同时，公司也在反作弊检测上投入巨大，这仍然是平台面临的最持久的诚信挑战。他给那些觉得自己所在的市场\"太小\"或\"太早\"的创业者的建议是：别管标准的融资打法，\"直接动手去执行，把一个独特的、能为人们创造价值的美好事物做出来\"。谈到 AGI，他的态度是审慎乐观，但对权力集中保持警惕：\"这更多取决于我们作为一种文化如何使用它，而不是这个工具本身是什么。\"",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["no-priors", "chess-com", "superhuman-ai", "games"]
+    }
+  ]
+}
