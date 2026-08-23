@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-08-22T06:40:19Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-08-23T06:23:22Z",
+  "outcome": "error",
   "newCount": 5,
-  "detail": "5 new postings (Barclays, JP Morgan, Macquarie)",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-08-22",
   "companies": {
     "Deutsche Bank": "unreachable",
