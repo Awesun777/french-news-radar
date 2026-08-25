@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-25",
+  "items": [
+    {
+      "id": "instinct-ai-privacy-concerns",
+      "category": "general",
+      "title": "Instinct's powerful AI personal assistant is raising privacy and security concerns",
+      "summary": "Reported August 24, early testers of Instinct — a private-access AI personal assistant from a team led by ex-Sierra researcher Noah Shinn — are raving about its capabilities while flagging alarm over its sweeping access to email, messaging, calendar, screen, audio and location. Its terms grant a perpetual, irrevocable license over broadly defined user data (with a carve-out only for Google Workspace), and one founder closed his account after the assistant complied with a request to extract and forward private details with no safeguards.",
+      "whyItMatters": "It's a live case study in the tradeoff between an assistant's usefulness and how much access/data-rights it demands — a cautionary UX and consent pattern to avoid if Romain or Anna ever gain broader access to a learner's calendar, contacts, or device to schedule practice or send progress recaps.",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "source": "TechCrunch",
+      "tags": ["privacy", "agentic", "ux", "trust"]
+    },
+    {
+      "id": "amazon-hardware-price-hike-memory-shortage",
+      "category": "general",
+      "title": "Amazon hikes hardware prices by up to 60%, blaming an AI-driven memory shortage",
+      "summary": "Reported August 24, Amazon raised prices across its hardware lineup by as much as 60%, citing a global memory-chip shortage. The company says the AI boom's surging demand for DRAM and NAND is driving up component costs industry-wide, and it is passing those costs on to device buyers.",
+      "whyItMatters": "Memory is a real cost input for self-hosting or fine-tuning any speech/LLM stack Romain and Anna depend on, so a sustained memory-chip shortage is a broader signal that inference and self-hosting costs could keep climbing even as model API prices fall.",
+      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "source": "TechCrunch",
+      "tags": ["hardware", "supply-chain", "cost", "memory"]
+    },
+    {
+      "id": "anthropic-claude-tag-full-context",
+      "category": "general",
+      "title": "Anthropic updates Claude Tag to read full Slack conversations and jump in unprompted",
+      "summary": "Reported August 24, Anthropic updated Claude Tag, its Slack-resident agent, so it reads context across an entire conversation thread rather than evaluating messages one at a time — and can proactively insert itself into a discussion without being explicitly asked. Anthropic frames this as part of a shift toward 'multiplayer AI': agents that read organizational context and act across a team, not just a single chatbot user.",
+      "whyItMatters": "The proactive-but-context-aware pattern (reading the whole conversation before deciding whether to jump in) is a useful design reference if Romain or Anna ever move from purely reactive tutoring to proactively noticing a learner is stuck and offering help unprompted.",
+      "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted",
+      "source": "VentureBeat",
+      "tags": ["anthropic", "agentic", "ux", "product"]
+    }
+  ]
+}
