@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-08-22T06:39:47Z",
+  "generatedAt": "2026-08-25T17:05:00Z",
   "digests": [
+    {
+      "date": "2026-08-25",
+      "itemCount": 13,
+      "companies": [
+        "Barclays",
+        "Deutsche Bank",
+        "Houlihan Lokey",
+        "JP Morgan",
+        "Pwc",
+        "Raymond James",
+        "Ubs"
+      ]
+    },
     {
       "date": "2026-08-22",
       "itemCount": 5,
