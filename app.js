@@ -67,6 +67,36 @@ const APPS_TOKEN_KEY = "nr_apps_token";
 const appsToken = () => localStorage.getItem(APPS_TOKEN_KEY) || "";
 const appKeyOf = (company, position) =>
   (String(company) + "|" + String(position)).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
+// ── Application identity ─────────────────────────────────────────────────────
+// Three writers describe the same job: the hand-edited tracker sheet, the
+// extension's saved JD context, and the outreach rows. appKey is a slug of
+// company|position, so any drift between them silently orphans a job's JD and
+// its drafted notes — "MIGA | Operation Analyst" in the tracker vs "MIGA |
+// Operations Analyst" from the posting cost us a finished outreach note twice,
+// with no visible symptom beyond the note appearing to be gone.
+//
+// aliasKeyOf is a deliberately lossy SECOND key used only to reunite strays:
+// ATS hostnames, legal suffixes and plurals all collapse into it. Nothing ever
+// writes this key — it exists purely to repair joins at render time, and a
+// stray is adopted only when exactly one tracker row claims its alias, so an
+// ambiguous match stays unlinked rather than risk hanging a drafted note on the
+// wrong application.
+const LEGAL_SUFFIX = /\b(inc|llc|ltd|plc|corp|corporation|co|sa|nv|ag|gmbh|securities|holdings|branch)\b/g;
+const stemWord = (w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w);
+const normWords = (s) => String(s || "").replace(/[^a-zA-Z0-9]+/g, " ").trim().toLowerCase()
+  .split(/\s+/).filter(Boolean).map(stemWord).join(" ");
+function normCompany(c) {
+  let s = String(c || "").trim().toLowerCase();
+  // "mufgub.wd3.myworkdayjobs.com" and "linkedin.com" are ATS pages the
+  // extension captured as the employer — keep only the leading label.
+  if (!/\s/.test(s) && s.includes(".")) s = s.split(".")[0];
+  return normWords(s.replace(/[.,]/g, " ").replace(LEGAL_SUFFIX, " "));
+}
+const aliasKeyOf = (company, position) => {
+  const c = normCompany(company), pos = normWords(position);
+  return c && pos ? c + "|" + pos : "";   // an empty half identifies nothing
+};
 async function appsPost(body) {
   const res = await fetch(APPS_WEBHOOK, {
     method: "POST",
@@ -434,30 +464,57 @@ async function loadSection(name) {
       const data = await res.json();
       if (!data.ok) throw new Error(data.error || "feed error");
       const w = data.workspace || {};
-      slice.meta = { sections: w.sections || [], appdata: w.appdata || {}, outreach: w.outreach || [] };
       // Full application history: every tracker row (for the calendar and
       // date lookups) plus any extension-saved context without a row yet.
       const appdata = w.appdata || {};
       const seen = new Set();
       slice.items = [];
       (w.sections || []).forEach((sec) => (sec.jobs || []).forEach((j) => {
-        const k = appKeyOf(j.company, j.position);
+        // A stored key wins when the sheet supplies one; recomputing is the
+        // fallback for rows typed straight into the tracker.
+        const k = j.appKey || appKeyOf(j.company, j.position);
         seen.add(k);
         slice.items.push({
           appKey: k, company: j.company, position: j.position,
           status: j.status || "", appliedDate: j.appliedDate || "",
           postedDate: j.postedDate || "", category: sec.category,
-          hasContext: !!appdata[k],
+          hasContext: false,
         });
       }));
+      // Alias index over tracker rows. An alias claimed by two rows is poisoned
+      // to null: better to leave a note unlinked and visible than to attach it
+      // to the wrong job.
+      const aliasIndex = new Map();
+      slice.items.forEach((it) => {
+        const a = aliasKeyOf(it.company, it.position);
+        if (!a) return;
+        aliasIndex.set(a, aliasIndex.has(a) ? null : it.appKey);
+      });
+      const linkMap = {};   // stray appKey -> tracker appKey it belongs to
       Object.values(appdata).forEach((ctx) => {
         if (seen.has(ctx.appKey)) return;
+        const a = aliasKeyOf(ctx.company, ctx.position);
+        const owner = a ? aliasIndex.get(a) : null;
+        if (owner) linkMap[ctx.appKey] = owner;
+      });
+      const owners = new Set(Object.values(linkMap));
+      slice.items.forEach((it) => {
+        it.hasContext = !!appdata[it.appKey] || owners.has(it.appKey);
+      });
+      // Context that still belongs to no tracker row keeps its own card, and is
+      // flagged so renderApplications can surface it. Before this flag existed
+      // such a card had no applied date, so it was filtered out of the recent
+      // list and every calendar day — saved JDs and drafted notes became
+      // invisible rather than merely unsorted.
+      Object.values(appdata).forEach((ctx) => {
+        if (seen.has(ctx.appKey) || linkMap[ctx.appKey]) return;
         slice.items.push({
           appKey: ctx.appKey, company: ctx.company, position: ctx.position,
           status: "", appliedDate: "", postedDate: ctx.postDate || "",
-          category: "Uncategorized", hasContext: true,
+          category: "Uncategorized", hasContext: true, unlinked: true,
         });
       });
+      slice.meta = { sections: w.sections || [], appdata, outreach: w.outreach || [], linkMap };
       slice.loaded = true;
       if (!slice.items.length) slice.failed = true;
     } catch {
@@ -901,8 +958,10 @@ function statusChip(st) {
 function renderAppDetail(key) {
   const m = cur().meta || {};
   const item = cur().items.find((i) => i.appKey === key);
-  const ctx = (m.appdata || {})[key];
-  const contacts = (m.outreach || []).filter((c) => c.appKey === key);
+  const link = m.linkMap || {};
+  const ctx = (m.appdata || {})[key]
+    || Object.values(m.appdata || {}).find((c) => link[c.appKey] === key);
+  const contacts = (m.outreach || []).filter((c) => c.appKey === key || link[c.appKey] === key);
   appsDraftCache = {};
 
   const head = item
@@ -1148,10 +1207,20 @@ function renderApplications(visible) {
     list = [...starred, ...rest];
     heading = `<h2>Recent applications</h2><span class="count">${starred.length ? `${starred.length} pinned + ` : ""}latest ${rest.length} of ${visible.length} · click a day above to filter</span>`;
   }
+  // Saved context with no tracker row has no applied date, so it can never
+  // reach the recent list or a calendar day. It gets its own group instead of
+  // silently disappearing.
+  const strays = appsSelectedDay ? [] : visible.filter((it) => it.unlinked && !stars.has(it.appKey));
+  const straysHtml = strays.length
+    ? `<div class="date-head" style="margin-top:24px"><h2>Saved, not in the tracker</h2>
+       <span class="count">${strays.length} · JD or outreach notes saved, but no tracker row matches — check the company and title spelling</span></div>
+       ${strays.map(thinAppCardHTML).join("")}`
+    : "";
   el.feed.innerHTML = `
     ${appsCalendarHTML(counts)}
     <div class="date-head">${heading}</div>
     ${list.map(thinAppCardHTML).join("") || `<p class="summary">Nothing applied on this day.</p>`}
+    ${straysHtml}
   `;
 }
 
