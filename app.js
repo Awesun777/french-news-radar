@@ -969,6 +969,28 @@ function renderAppDetail(key) {
        <p class="summary">${esc(item.position)} · ${esc(item.category)}${item.appliedDate ? ` · applied ${esc(item.appliedDate)}` : ""}${item.status ? ` · ${esc(item.status)}` : ""}</p>`
     : `<h2>${esc(key)}</h2>`;
 
+  // Everything on this page that arrived through the alias repair rather than a
+  // real key match. The repair is recomputed on every load, so offer to make it
+  // permanent by writing this row's key onto the strays.
+  const strayKeys = [...new Set([
+    ...(ctx && ctx.appKey !== key ? [ctx.appKey] : []),
+    ...contacts.filter((c) => c.appKey !== key).map((c) => c.appKey),
+  ])];
+  const relinkHtml = strayKeys.length
+    ? `<p class="summary">🔗 Matched by spelling, not by key — the tracker row and the saved data disagree on the company or title.
+       <button class="oc-btn oc-primary" type="button" data-act="relink" data-to="${esc(key)}"
+         data-from="${esc(strayKeys.join(","))}">Make this link permanent</button></p>`
+    : "";
+  // An unlinked card is saved data with no tracker row at all — let it be
+  // attached to one by hand, since no alias could work it out.
+  const pickerHtml = item && item.unlinked
+    ? `<p class="summary">This is saved data with no matching tracker row. Attach it to one:
+       <select id="relink-target">${cur().items.filter((i) => !i.unlinked)
+         .sort((a, b) => (a.company + a.position).localeCompare(b.company + b.position))
+         .map((i) => `<option value="${esc(i.appKey)}">${esc(i.company)} — ${esc(i.position)}</option>`).join("")}</select>
+       <button class="oc-btn oc-primary" type="button" data-act="relink-pick" data-from="${esc(key)}">Attach</button></p>`
+    : "";
+
   const ctxHtml = ctx
     ? `${ctx.url ? `<p><a href="${esc(ctx.url)}" target="_blank" rel="noopener">Open the original posting ↗</a></p>` : ""}
        <details class="jd-details" open><summary>Job description${ctx.postDate ? ` · posted ${esc(fmtSheetDate(ctx.postDate))}` : ""}</summary>
@@ -1006,6 +1028,7 @@ function renderAppDetail(key) {
   el.feed.innerHTML = `
     <p><a href="#applications">← All applications</a></p>
     ${head}
+    ${relinkHtml}${pickerHtml}
     ${ctxHtml}
     <div class="date-head" style="margin-top:24px"><h2>Team contacts</h2>
       <span class="count">${contacts.length} · drafts auto-generate within ~30 min of queueing</span></div>
@@ -1030,6 +1053,28 @@ el.feed.addEventListener("click", async (e) => {
       const res = await appsPost({ type: "addContact", appKey: actEl.dataset.key, linkedinUrl: url });
       if (res.ok) { state.applications.loaded = false; state.applications.failed = false; await showSection("applications"); }
       else { actEl.disabled = false; alert(res.error || "failed"); }
+    }
+    if (act === "relink" || act === "relink-pick") {
+      const pick = document.getElementById("relink-target");
+      const from = act === "relink" ? actEl.dataset.from.split(",") : [actEl.dataset.from];
+      const to = act === "relink" ? actEl.dataset.to : (pick && pick.value);
+      if (!to) return;
+      actEl.disabled = true;
+      const res = await appsPost({ type: "relink", from, to });
+      if (res.ok) {
+        state.applications.loaded = false;
+        state.applications.failed = false;
+        const target = `#applications/${to}`;
+        // hashchange re-renders on its own; only drive it manually when the
+        // route is already correct (the "make permanent" case stays put).
+        if (location.hash === target) await showSection("applications");
+        else location.hash = target;
+      } else {
+        actEl.disabled = false;
+        alert(res.error === "unknown type"
+          ? "The sheet script doesn't know 'relink' yet — redeploy the Apps Script web app to pick it up."
+          : (res.error || "relink failed"));
+      }
     }
     if (act === "del-contact") {
       actEl.disabled = true;
