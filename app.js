@@ -65,38 +65,7 @@ const APPS_WEBHOOK =
 // Reads are token-gated server-side; the token lives only in this browser.
 const APPS_TOKEN_KEY = "nr_apps_token";
 const appsToken = () => localStorage.getItem(APPS_TOKEN_KEY) || "";
-const appKeyOf = (company, position) =>
-  (String(company) + "|" + String(position)).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-// ── Application identity ─────────────────────────────────────────────────────
-// Three writers describe the same job: the hand-edited tracker sheet, the
-// extension's saved JD context, and the outreach rows. appKey is a slug of
-// company|position, so any drift between them silently orphans a job's JD and
-// its drafted notes — "MIGA | Operation Analyst" in the tracker vs "MIGA |
-// Operations Analyst" from the posting cost us a finished outreach note twice,
-// with no visible symptom beyond the note appearing to be gone.
-//
-// aliasKeyOf is a deliberately lossy SECOND key used only to reunite strays:
-// ATS hostnames, legal suffixes and plurals all collapse into it. Nothing ever
-// writes this key — it exists purely to repair joins at render time, and a
-// stray is adopted only when exactly one tracker row claims its alias, so an
-// ambiguous match stays unlinked rather than risk hanging a drafted note on the
-// wrong application.
-const LEGAL_SUFFIX = /\b(inc|llc|ltd|plc|corp|corporation|co|sa|nv|ag|gmbh|securities|holdings|branch)\b/g;
-const stemWord = (w) => (w.length > 3 && w.endsWith("s") && !w.endsWith("ss") ? w.slice(0, -1) : w);
-const normWords = (s) => String(s || "").replace(/[^a-zA-Z0-9]+/g, " ").trim().toLowerCase()
-  .split(/\s+/).filter(Boolean).map(stemWord).join(" ");
-function normCompany(c) {
-  let s = String(c || "").trim().toLowerCase();
-  // "mufgub.wd3.myworkdayjobs.com" and "linkedin.com" are ATS pages the
-  // extension captured as the employer — keep only the leading label.
-  if (!/\s/.test(s) && s.includes(".")) s = s.split(".")[0];
-  return normWords(s.replace(/[.,]/g, " ").replace(LEGAL_SUFFIX, " "));
-}
-const aliasKeyOf = (company, position) => {
-  const c = normCompany(company), pos = normWords(position);
-  return c && pos ? c + "|" + pos : "";   // an empty half identifies nothing
-};
 async function appsPost(body) {
   const res = await fetch(APPS_WEBHOOK, {
     method: "POST",
@@ -464,57 +433,24 @@ async function loadSection(name) {
       const data = await res.json();
       if (!data.ok) throw new Error(data.error || "feed error");
       const w = data.workspace || {};
-      // Full application history: every tracker row (for the calendar and
-      // date lookups) plus any extension-saved context without a row yet.
+      // The Applications tab renders from AppData alone — every card IS an
+      // extension-saved job, and contacts join it by the exact appKey both
+      // rows were written with. The "2026" tracker is Chen's personal sheet;
+      // the extension writes a courtesy row into it, but nothing here reads,
+      // joins, or deletes it. (The old tracker join derived keys from
+      // hand-edited text on every render, which silently orphaned notes —
+      // MIGA, IMF — whenever a title drifted. Dedupe of re-saved jobs now
+      // happens once, at write time, in the webhook's saveContext_.)
       const appdata = w.appdata || {};
-      const seen = new Set();
-      slice.items = [];
-      (w.sections || []).forEach((sec) => (sec.jobs || []).forEach((j) => {
-        // A stored key wins when the sheet supplies one; recomputing is the
-        // fallback for rows typed straight into the tracker.
-        const k = j.appKey || appKeyOf(j.company, j.position);
-        seen.add(k);
-        slice.items.push({
-          appKey: k, company: j.company, position: j.position,
-          status: j.status || "", appliedDate: j.appliedDate || "",
-          postedDate: j.postedDate || "", category: sec.category,
-          hasContext: false,
-        });
+      slice.items = Object.values(appdata).map((ctx) => ({
+        appKey: ctx.appKey, company: ctx.company, position: ctx.position,
+        // appliedDate arrives once the webhook ships it (defaults to the save
+        // date); older rows fall back to when they were saved.
+        appliedDate: ctx.appliedDate || String(ctx.savedAt || "").slice(0, 10),
+        postedDate: ctx.postDate || "",
+        hasContext: true,
       }));
-      // Alias index over tracker rows. An alias claimed by two rows is poisoned
-      // to null: better to leave a note unlinked and visible than to attach it
-      // to the wrong job.
-      const aliasIndex = new Map();
-      slice.items.forEach((it) => {
-        const a = aliasKeyOf(it.company, it.position);
-        if (!a) return;
-        aliasIndex.set(a, aliasIndex.has(a) ? null : it.appKey);
-      });
-      const linkMap = {};   // stray appKey -> tracker appKey it belongs to
-      Object.values(appdata).forEach((ctx) => {
-        if (seen.has(ctx.appKey)) return;
-        const a = aliasKeyOf(ctx.company, ctx.position);
-        const owner = a ? aliasIndex.get(a) : null;
-        if (owner) linkMap[ctx.appKey] = owner;
-      });
-      const owners = new Set(Object.values(linkMap));
-      slice.items.forEach((it) => {
-        it.hasContext = !!appdata[it.appKey] || owners.has(it.appKey);
-      });
-      // Context that still belongs to no tracker row keeps its own card, and is
-      // flagged so renderApplications can surface it. Before this flag existed
-      // such a card had no applied date, so it was filtered out of the recent
-      // list and every calendar day — saved JDs and drafted notes became
-      // invisible rather than merely unsorted.
-      Object.values(appdata).forEach((ctx) => {
-        if (seen.has(ctx.appKey) || linkMap[ctx.appKey]) return;
-        slice.items.push({
-          appKey: ctx.appKey, company: ctx.company, position: ctx.position,
-          status: "", appliedDate: "", postedDate: ctx.postDate || "",
-          category: "Uncategorized", hasContext: true, unlinked: true,
-        });
-      });
-      slice.meta = { sections: w.sections || [], appdata, outreach: w.outreach || [], linkMap };
+      slice.meta = { appdata, outreach: w.outreach || [] };
       slice.loaded = true;
       if (!slice.items.length) slice.failed = true;
     } catch {
@@ -639,10 +575,10 @@ function renderChips() {
     el.catNav.dataset.active = String(state.activeCompany !== "all");
     return;
   }
-  // Applications filter by the sheet's category rows.
+  // Applications filter by company (from the saved jobs themselves).
   if (state.section === "applications") {
-    const cats = (cur().meta?.sections || []).map((x) => x.category);
-    el.catNav.innerHTML = [`<option value="all">All categories</option>`]
+    const cats = [...new Set(cur().items.map((x) => x.company).filter(Boolean))].sort();
+    el.catNav.innerHTML = [`<option value="all">All companies</option>`]
       .concat(cats.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`))
       .join("");
     if (state.activeAppCat !== "all" && !cats.includes(state.activeAppCat)) state.activeAppCat = "all";
@@ -737,7 +673,7 @@ function matches(it) {
     if (dismissedRead().has(it.url)) return false;
     if (state.activeCompany !== "all" && it.company !== state.activeCompany) return false;
   } else if (state.section === "applications") {
-    if (state.activeAppCat !== "all" && it.category !== state.activeAppCat) return false;
+    if (state.activeAppCat !== "all" && it.company !== state.activeAppCat) return false;
   } else if (!journal && state.activeCat !== "all" && it.category !== state.activeCat) {
     return false;
   }
@@ -747,7 +683,7 @@ function matches(it) {
   const hay = journal
     ? String(it.text || "").toLowerCase()
     : state.section === "applications"
-    ? [it.company, it.position, it.category, it.status].join(" ").toLowerCase()
+    ? [it.company, it.position].join(" ").toLowerCase()
     : jobs
     ? [it.company, it.title, it.location, it.team, ...(it.matchedRoles || [])].join(" ").toLowerCase()
     : builders
@@ -928,21 +864,6 @@ function fmtSheetDate(v) {
   return s;
 }
 
-function appCardHTML(it) {
-  const applied = it.appliedDate
-    ? `<span class="result-date-badge">applied ${esc(it.appliedDate)}</span>` : "";
-  const posted = it.postedDate
-    ? `<span class="source">posted ${esc(fmtSheetDate(it.postedDate))}</span>` : "";
-  const status = it.status
-    ? `<span class="cat-tag" data-cat="apps">${esc(it.status)}</span>` : "";
-  return `<article class="card app-card" data-cat="inspiration" data-appkey="${esc(it.appKey || "")}">
-    <div class="card-top"><div class="card-body">
-      <div class="card-meta">${status}${applied}${posted}</div>
-      <h3>${esc(it.company)}</h3>
-      ${it.position ? `<p class="summary">${esc(it.position)}</p>` : ""}
-    </div></div>
-  </article>`;
-}
 
 // The per-application workspace: full JD context, the outreach contact list
 // and generated drafts. Everything sensitive sits behind the token-gated
@@ -958,38 +879,14 @@ function statusChip(st) {
 function renderAppDetail(key) {
   const m = cur().meta || {};
   const item = cur().items.find((i) => i.appKey === key);
-  const link = m.linkMap || {};
-  const ctx = (m.appdata || {})[key]
-    || Object.values(m.appdata || {}).find((c) => link[c.appKey] === key);
-  const contacts = (m.outreach || []).filter((c) => c.appKey === key || link[c.appKey] === key);
+  const ctx = (m.appdata || {})[key];
+  const contacts = (m.outreach || []).filter((c) => c.appKey === key);
   appsDraftCache = {};
 
   const head = item
     ? `<h2>${esc(item.company)}</h2>
-       <p class="summary">${esc(item.position)} · ${esc(item.category)}${item.appliedDate ? ` · applied ${esc(item.appliedDate)}` : ""}${item.status ? ` · ${esc(item.status)}` : ""}</p>`
+       <p class="summary">${esc(item.position)}${item.appliedDate ? ` · applied ${esc(fmtSheetDate(item.appliedDate))}` : ""}</p>`
     : `<h2>${esc(key)}</h2>`;
-
-  // Everything on this page that arrived through the alias repair rather than a
-  // real key match. The repair is recomputed on every load, so offer to make it
-  // permanent by writing this row's key onto the strays.
-  const strayKeys = [...new Set([
-    ...(ctx && ctx.appKey !== key ? [ctx.appKey] : []),
-    ...contacts.filter((c) => c.appKey !== key).map((c) => c.appKey),
-  ])];
-  const relinkHtml = strayKeys.length
-    ? `<p class="summary">🔗 Matched by spelling, not by key — the tracker row and the saved data disagree on the company or title.
-       <button class="oc-btn oc-primary" type="button" data-act="relink" data-to="${esc(key)}"
-         data-from="${esc(strayKeys.join(","))}">Make this link permanent</button></p>`
-    : "";
-  // An unlinked card is saved data with no tracker row at all — let it be
-  // attached to one by hand, since no alias could work it out.
-  const pickerHtml = item && item.unlinked
-    ? `<p class="summary">This is saved data with no matching tracker row. Attach it to one:
-       <select id="relink-target">${cur().items.filter((i) => !i.unlinked)
-         .sort((a, b) => (a.company + a.position).localeCompare(b.company + b.position))
-         .map((i) => `<option value="${esc(i.appKey)}">${esc(i.company)} — ${esc(i.position)}</option>`).join("")}</select>
-       <button class="oc-btn oc-primary" type="button" data-act="relink-pick" data-from="${esc(key)}">Attach</button></p>`
-    : "";
 
   const ctxHtml = ctx
     ? `${ctx.url ? `<p><a href="${esc(ctx.url)}" target="_blank" rel="noopener">Open the original posting ↗</a></p>` : ""}
@@ -1028,7 +925,6 @@ function renderAppDetail(key) {
   el.feed.innerHTML = `
     <p><a href="#applications">← All applications</a></p>
     ${head}
-    ${relinkHtml}${pickerHtml}
     ${ctxHtml}
     <div class="date-head" style="margin-top:24px"><h2>Team contacts</h2>
       <span class="count">${contacts.length} · drafts auto-generate within ~30 min of queueing</span></div>
@@ -1054,28 +950,6 @@ el.feed.addEventListener("click", async (e) => {
       if (res.ok) { state.applications.loaded = false; state.applications.failed = false; await showSection("applications"); }
       else { actEl.disabled = false; alert(res.error || "failed"); }
     }
-    if (act === "relink" || act === "relink-pick") {
-      const pick = document.getElementById("relink-target");
-      const from = act === "relink" ? actEl.dataset.from.split(",") : [actEl.dataset.from];
-      const to = act === "relink" ? actEl.dataset.to : (pick && pick.value);
-      if (!to) return;
-      actEl.disabled = true;
-      const res = await appsPost({ type: "relink", from, to });
-      if (res.ok) {
-        state.applications.loaded = false;
-        state.applications.failed = false;
-        const target = `#applications/${to}`;
-        // hashchange re-renders on its own; only drive it manually when the
-        // route is already correct (the "make permanent" case stays put).
-        if (location.hash === target) await showSection("applications");
-        else location.hash = target;
-      } else {
-        actEl.disabled = false;
-        alert(res.error === "unknown type"
-          ? "The sheet script doesn't know 'relink' yet — redeploy the Apps Script web app to pick it up."
-          : (res.error || "relink failed"));
-      }
-    }
     if (act === "del-contact") {
       actEl.disabled = true;
       const res = await appsPost({ type: "removeContact", id: actEl.dataset.id });
@@ -1097,20 +971,18 @@ el.feed.addEventListener("click", async (e) => {
     }
     if (act === "del-app") {
       const d = actEl.dataset;
-      if (!confirm(`Delete "${d.company} — ${d.position}" from the tracker sheet?`)) return;
+      if (!confirm(`Delete the saved job "${d.company} — ${d.position}" and its outreach contacts?\n(Your 2026 tracker sheet is not touched.)`)) return;
       actEl.disabled = true;
-      const res = await appsPost({
-        type: "removeTrackerRow",
-        company: d.company, position: d.position,
-        appliedDate: d.applied, appKey: d.appkey,
-      });
+      const res = await appsPost({ type: "removeApp", appKey: d.appkey });
       if (res.ok) {
         state.applications.loaded = false;
         state.applications.failed = false;
         await showSection("applications");
       } else {
         actEl.disabled = false;
-        alert(res.error || "Delete failed");
+        alert(res.error === "unknown type"
+          ? "The sheet script doesn't know 'removeApp' yet — redeploy the Apps Script web app to pick it up."
+          : (res.error || "delete failed"));
       }
     }
     if (act === "copy-draft") {
@@ -1166,6 +1038,10 @@ function parseAppliedDate(v) {
   if (!str) return null;
   const m = str.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
   if (m) return new Date(+m[3], +m[1] - 1, +m[2]);
+  // ISO day (webhook appliedDate / savedAt prefix): local components, or the
+  // calendar shifts a day for anyone west of UTC.
+  const iso = str.match(/^(\d{4})-(\d{2})-(\d{2})/);
+  if (iso) return new Date(+iso[1], +iso[2] - 1, +iso[3]);
   const d = new Date(str);
   return Number.isNaN(d.getTime()) ? null : d;
 }
@@ -1208,17 +1084,17 @@ function thinAppCardHTML(it) {
   const d = parseAppliedDate(it.appliedDate);
   const applied = d ? d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "";
   const starred = appStars().has(it.appKey);
+  const nContacts = (cur().meta?.outreach || []).filter((c) => c.appKey === it.appKey).length;
   return `<article class="card app-card app-thin${starred ? " app-starred" : ""}" data-appkey="${esc(it.appKey)}">
     <div class="card-body app-thin-row">
       <div class="app-thin-main"><button class="oc-btn star-btn${starred ? " on" : ""}" type="button" data-act="star-app" data-appkey="${esc(it.appKey)}" title="${starred ? "Unstar" : "Pin to top"}">${starred ? "★" : "☆"}</button><b>${esc(it.company)}</b><span class="app-thin-pos">${esc(it.position)}</span></div>
       <div class="app-thin-meta">
-        ${it.status ? `<span class="cat-tag" data-cat="general">${esc(it.status)}</span>` : ""}
-        <span class="source">${esc(it.category)}</span>
+        ${nContacts ? `<span class="cat-tag" data-cat="inspiration">${nContacts} contact${nContacts > 1 ? "s" : ""}</span>` : ""}
         ${it.postedDate ? `<span class="source">posted ${esc(fmtSheetDate(it.postedDate))}</span>` : ""}
         ${applied ? `<span class="source">applied ${esc(applied)}</span>` : ""}
         <button class="oc-btn oc-del" type="button" data-act="del-app" data-appkey="${esc(it.appKey)}"
-          data-company="${esc(it.company)}" data-position="${esc(it.position)}" data-applied="${esc(it.appliedDate || "")}"
-          title="Delete this application from the tracker sheet">✕</button>
+          data-company="${esc(it.company)}" data-position="${esc(it.position)}"
+          title="Delete this saved job and its contacts">✕</button>
       </div>
     </div></article>`;
 }
@@ -1252,20 +1128,10 @@ function renderApplications(visible) {
     list = [...starred, ...rest];
     heading = `<h2>Recent applications</h2><span class="count">${starred.length ? `${starred.length} pinned + ` : ""}latest ${rest.length} of ${visible.length} · click a day above to filter</span>`;
   }
-  // Saved context with no tracker row has no applied date, so it can never
-  // reach the recent list or a calendar day. It gets its own group instead of
-  // silently disappearing.
-  const strays = appsSelectedDay ? [] : visible.filter((it) => it.unlinked && !stars.has(it.appKey));
-  const straysHtml = strays.length
-    ? `<div class="date-head" style="margin-top:24px"><h2>Saved, not in the tracker</h2>
-       <span class="count">${strays.length} · JD or outreach notes saved, but no tracker row matches — check the company and title spelling</span></div>
-       ${strays.map(thinAppCardHTML).join("")}`
-    : "";
   el.feed.innerHTML = `
     ${appsCalendarHTML(counts)}
     <div class="date-head">${heading}</div>
     ${list.map(thinAppCardHTML).join("") || `<p class="summary">Nothing applied on this day.</p>`}
-    ${straysHtml}
   `;
 }
 
