@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-22T06:27:40Z",
+  "generatedAt": "2026-08-26T07:35:15Z",
   "digests": [
+    {
+      "date": "2026-08-26",
+      "title": "Parag Agrawal bets the ad-driven web breaks under agent traffic, Peter Yang open-sources a cancer-navigation AI skill",
+      "itemCount": 11,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Former Twitter CEO Parag Agrawal tells Training Data that agentic search requires paying publishers via Shapley-value pricing, not ads, once agents replace human clicks as the web's core traffic",
+        "Peter Yang open-sources /fuck-cancer, a free AI skill built from his mother's diagnosis that keeps patients' medical facts, next steps, and glossary in one living brief",
+        "OpenAI's Thibault Sottiaux launches a ChatGPT Business plan bundling Codex and enterprise connectors, while Anthropic's Cat Wu ships unified Claude memory across Chat and Cowork"
+      ]
+    },
     {
       "date": "2026-08-22",
       "title": "Anthropic launches Claude Security scanning with Mythos 5, Chess.com's Allebest on why superhuman AI made humans love chess more",

@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    {
+      "id": "peter-yang-fuck-cancer-skill",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang open-sourced /fuck-cancer, a free AI skill that builds a living patient brief for people navigating a cancer diagnosis: care-team contacts, a three-item next-actions list, confirmed-vs-unclear facts, plain-English medical terms, and a running care log pulled from documents and trusted sources like the National Cancer Institute and ClinicalTrials.gov. He built it after his mother's diagnosis and runs it through both ChatGPT/Codex and Claude Code, saving output as a Markdown file or a shared Google Doc so family members stay on the same page.",
+      "summaryZh": "Peter Yang 开源了 /fuck-cancer，一个免费的 AI skill，能为正在经历癌症诊断的患者生成一份实时更新的病情简报：医疗团队联系方式、限定三项的下一步行动清单、已确认与尚不明确的事实、用大白话解释的医学术语，以及从文档和 National Cancer Institute、ClinicalTrials.gov 等可信来源提取的持续更新日志。他是在母亲确诊后开发了这个工具，日常在 ChatGPT/Codex 和 Claude Code 中使用，可以把简报保存为本地 Markdown 文件，也可以同步到共享的 Google Doc，方便全家人掌握同一份信息。",
+      "url": "https://x.com/petergyang/status/2092249012913258946",
+      "tags": ["AI skills", "healthcare", "open source", "claude code"]
+    },
+    {
+      "id": "madhu-guru-eval-roadmap",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Madhu Guru, Sr Director of AI at Meta, wraps a nine-part series on building evals with a warning: most eval suites go stale because teams treat them as fixed artifacts while user behavior keeps evolving. Using a financial research agent as an example, she traces how a use case escalates from summarizing one earnings report to synthesizing fifteen filings into an investment thesis, and argues evals need their own roadmap tracking that shift, from short-context to long-context, single-turn to multi-turn, reactive to proactive. Her fix: map the dimensions usage evolves along, mine production traces for shifts, and build the next stage's evals before users get there, not after.",
+      "summaryZh": "Meta AI 高级总监 Madhu Guru 在她关于构建 evals 的九篇系列文章收尾时提出警告：大多数 eval 体系会过时，因为团队把它们当作一次性的静态产物，而用户的行为却在不断演变。她以一个金融研究 agent 为例，展示一个使用场景如何从总结一份财报，升级到综合十五份文件写出一份投资论点，并指出 evals 也需要一份跟随这种演变的路线图，从短上下文到长上下文、从单轮到多轮、从被动响应到主动出击。她给出的解法是：先梳理用户行为演变的维度，再从生产环境的日志中挖掘变化信号，在用户到达下一阶段之前，而不是之后，就把相应的 evals 建好。",
+      "url": "https://x.com/realmadhuguru/status/2092426017118028266",
+      "tags": ["evals", "AI product", "meta"]
+    },
+    {
+      "id": "cat-wu-unified-memory",
+      "kind": "x",
+      "author": "Cat Wu",
+      "role": "Claude Code & Cowork, Anthropic",
+      "summary": "Cat Wu, who works on Claude Code and Cowork at Anthropic, announced that Claude's memory is now unified across Chat and Cowork: tell Claude something once and it carries that context to every surface instead of starting fresh each time. She frames it as a direct response to user feedback and is soliciting what to build next.",
+      "summaryZh": "Anthropic 负责 Claude Code 和 Cowork 的 Cat Wu 宣布，Claude 在 Chat 和 Cowork 之间的记忆现在已经打通：你只需要告诉 Claude 一次，它就会把这段上下文带到所有场景，而不用每次都从零开始。她表示这是直接回应用户反馈做出的改动，并在征集大家接下来希望看到的功能。",
+      "url": "https://x.com/_catwu/status/2092337156455051345",
+      "tags": ["claude", "memory", "anthropic", "product update"]
+    },
+    {
+      "id": "guillermo-rauch-run-sdk-connect",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch shipped two agent-infrastructure pieces in one day. Run SDK offers a lightweight QuickJS sandbox for executing agent-written code without spinning up a full container, which he pitches as faster and cheaper than a full sandbox for dynamic Code Mode execution. Separately, Vercel Connect went GA, giving agents a one-command way (vercel connect create notion) to get an authenticated MCP client for services like Notion, which he calls the hardest unsolved problem in building agents: secure connectivity to data.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 一天之内发布了两个 agent 基础设施产品。Run SDK 提供了一个轻量的 QuickJS 沙箱，用来执行 agent 生成的代码，而不需要启动完整的容器，他认为这比完整沙箱更快、更省成本，适合动态的 Code Mode 执行场景。另外，Vercel Connect 也正式 GA，只需一条命令（vercel connect create notion）就能为 Notion 等服务拿到一个已授权的 MCP client。他把这称为构建 agent 时最难解决的问题：安全地连接数据和服务。",
+      "url": "https://x.com/rauchg/status/2092382653161107534",
+      "tags": ["vercel", "agents", "infrastructure", "MCP"]
+    },
+    {
+      "id": "aaron-levie-applied-ai-gap",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Box CEO Aaron Levie argues the real opportunity in applied AI isn't the models themselves but the wide gap between raw model intelligence and the messy workflows of an actual enterprise. Capturing that gap, he says, requires understanding business context, driving change management, routing across models, connecting to critical business systems, and solving in-workflow UX, none of which is solved by intelligence alone. He calls this a genuine window to build the defining companies that convert tokens into real outcomes.",
+      "summaryZh": "Box CEO Aaron Levie 认为，应用 AI 真正的机会不在模型本身，而在模型的原始智能和企业实际工作流之间那道巨大的鸿沟。他表示，要填上这道鸿沟需要理解业务场景、推动组织的变革管理、在多个模型之间做路由、对接关键的业务系统，还要解决工作流内的用户体验问题，这些都不是靠模型智能本身就能解决的。他认为现在正是一个真实的窗口期，可以借此打造出把 token 真正转化为实际结果的标杆公司。",
+      "url": "https://x.com/levie/status/2092466424694649066",
+      "tags": ["enterprise AI", "applied AI", "box"]
+    },
+    {
+      "id": "thibault-sottiaux-chatgpt-business",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announced a new ChatGPT Business plan aimed at teams and small companies, pricing it like the $100 Pro plan but bundling every ChatGPT, ChatGPT Work, and Codex feature with connectors to Google Workspace, Slack, GitHub, and Microsoft 365, SAML/SSO/MFA, centralized billing, usage analytics, and no five-hour usage limits. He says demand for a plan positioned between individual Pro and full enterprise deals has been high.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 宣布推出面向团队和小公司的全新 ChatGPT Business 套餐，定价和 100 美元的 Pro 套餐相当，但打包了所有 ChatGPT、ChatGPT Work 和 Codex 功能，支持接入 Google Workspace、Slack、GitHub 和 Microsoft 365，并提供 SAML、SSO、MFA、统一计费、用量分析，而且没有五小时用量限制。他表示，市场对介于个人 Pro 套餐和完整企业方案之间的这类产品需求一直很旺盛。",
+      "url": "https://x.com/thsottiaux/status/2092345330272780499",
+      "tags": ["openai", "chatgpt", "codex", "product launch"]
+    },
+    {
+      "id": "swyx-codex-keychain-bug",
+      "kind": "x",
+      "author": "Swyx",
+      "summary": "Swyx is warning builders off Codex's \"locked use\" capability for now: it currently depends on unstable macOS features and has locked him out of his Mac keychain twice in one week. He credits engineer Chenglou for surfacing an Apple developer forum thread confirming it's a known bug, and says a fully cloud-based workaround isn't ready yet either.",
+      "summaryZh": "Swyx 提醒开发者暂时不要使用 Codex 的 \"locked use\" 功能：它目前依赖不稳定的 macOS 特性，已经让他一周之内两次被锁出自己的 Mac 钥匙串。他感谢工程师 Chenglou 帮忙找到了 Apple 开发者论坛上确认这是已知 bug 的帖子，并表示完全上云的替代方案眼下也还不成熟。",
+      "url": "https://x.com/swyx/status/2092492963435946494",
+      "tags": ["codex", "macos", "bug report"]
+    },
+    {
+      "id": "nikunj-kothari-el-nino-monitor",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari shipped El Niño Situation Monitor (elneenyo.com), a real-time tracker of El Niño news, regional impact, costs, and historical records pulled straight from government sources, plus a glossary for decoding the readings. He built it with ChatGPT Codex and Railway, inspired by an Odd Lots episode, with design polish from Emil Kowalski's component library and Kasturi's generative loaders.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 上线了 El Niño Situation Monitor（elneenyo.com），实时追踪厄尔尼诺相关新闻、各地区影响、经济损失和历史记录，数据直接来自政府来源，还配有解读各项指标的术语表。这个项目是他受 Odd Lots 一期节目启发，用 ChatGPT Codex 和 Railway 搭建的，界面打磨则用到了 Emil Kowalski 的组件库和 Kasturi 的生成式加载动画。",
+      "url": "https://x.com/nikunj/status/2092383834470002922",
+      "tags": ["side project", "codex", "climate data", "demo"]
+    },
+    {
+      "id": "aditya-agarwal-datacenter-backlash",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, South Park Commons",
+      "summary": "South Park Commons general partner Aditya Agarwal says it's \"totally unsurprising\" the general public resents datacenter buildout, since today's AI mostly benefits knowledge workers and the highest-paid segment of the workforce. He argues the real sentiment shift will come when AI delivers disease cures rather than productivity gains for the already-comfortable, and faults the industry's own fear-mongering for failing to paint a positive version of the future.",
+      "summaryZh": "South Park Commons 普通合伙人 Aditya Agarwal 表示，普通民众反感数据中心大规模建设\"完全不意外\"，因为今天的 AI 主要惠及知识工作者和收入最高的那部分人群。他认为，真正的舆论转变会发生在 AI 能够治愈疾病，而不只是让本就过得不错的人提升生产力的时候，并批评这个行业一直在渲染恐惧，而没有描绘出一个积极的未来图景。",
+      "url": "https://x.com/adityaag/status/2092290497826173186",
+      "tags": ["AI backlash", "policy", "venture capital"]
+    },
+    {
+      "id": "sam-altman-chip",
+      "kind": "x",
+      "author": "Sam Altman",
+      "summary": "Sam Altman posted a two-line update that OpenAI \"made a chip and it is fast,\" without further detail on specs, partners, or availability.",
+      "summaryZh": "Sam Altman 发了一条很短的推文，称 OpenAI \"造了一块芯片，而且很快\"，但没有透露更多细节，比如规格、合作方或上市时间。",
+      "url": "https://x.com/sama/status/2092339694210040187",
+      "tags": ["openai", "chips", "hardware"]
+    },
+    {
+      "id": "parag-agrawal-parallel-podcast",
+      "kind": "podcast",
+      "author": "Training Data",
+      "title": "Parallel's Parag Agrawal: Building a New Web for AI Agents",
+      "takeaway": "Former Twitter CEO Parag Agrawal argues the entire economics of the web, built on human attention and ad clicks, break down once agents start doing the browsing, and the fix is paying content owners through game-theoretic Shapley-value pricing rather than fixed licensing deals.",
+      "takeawayZh": "前 Twitter CEO Parag Agrawal 认为，建立在人类注意力和广告点击之上的整个网络经济模式，在 agent 开始替代人类浏览之后就会崩塌，而解决办法是通过博弈论的 Shapley value 定价机制向内容方付费，而不是签订固定的授权协议。",
+      "summary": "Parag Agrawal, who ran Twitter before selling it to Elon Musk and now runs Parallel Web Systems, is rebuilding web search from scratch for an audience that isn't human. His core bet: agents will out-search humans by three or four orders of magnitude, and the entire stack, crawling, indexing, ranking, needs to be reinvented around agent feedback instead of the human click data that trained every search engine before it. \"Our view at Parallel is that human click data is a bug,\" he says, \"and agent doing work with search should rely on agent feedback, not human feedback.\"\n\nThe difference goes deeper than speed. Human searchers are, in his words, \"fundamentally lazy\": we type two misspelled words and hope autocomplete saves us. Agents write longer, better-specified queries, so search engines can retrieve more precisely and skip the layer of SEO-optimized \"slop\" pages built to catch impatient humans. Parallel instead surfaces the exact excerpt, the specific paragraph on page 73 of an SEC filing, directly into an agent's context window.\n\nAgrawal's most striking argument is about business models, not technology. The ad-supported web assumed scarce human attention converting into purchases; agents break that assumption, since a content owner can't tell whether an agent visit will ever convert into a subscription. His answer is a return to a concept he once named the company after: Shapley values, a game-theoretic method for splitting value fairly among collaborators, used here to estimate how much a given source contributed to an agent's answer, and to price access to content accordingly. He argues this differential-pricing model, similar in spirit to ad auctions, is 12 to 24 months from paying meaningful money to a wide range of web publishers, calling it \"why we started the company.\"",
+      "summaryZh": "Parag Agrawal 曾经执掌 Twitter，后来把公司卖给了 Elon Musk，如今他在做的 Parallel Web Systems，是在为一个不再是人类的受众，重新搭建整个网络搜索。他的核心判断是：agent 做搜索的量级会比人类高出三到四个数量级，而搜索这套技术栈，从抓取、建索引到排序，都需要围绕 agent 的反馈重新设计，而不是继续依赖训练了此前所有搜索引擎的人类点击数据。他说：\"我们在 Parallel 的看法是，人类点击数据是个 bug，agent 用搜索做事时，应该依赖 agent 的反馈，而不是人类的反馈。\"\n\n这种差异不只是速度问题。用 Agrawal 的话说，人类搜索者\"本质上是懒的\"：我们打两个带错别字的词，然后指望自动补全能救场。而 agent 会写出更长、表述更精确的查询，这让搜索引擎可以做更精准的检索，也能绕开那些专门为迎合没耐心的人类而做 SEO 优化出来的\"水文\"页面。Parallel 反而会把最精确的那段摘录，比如 SEC 文件第 73 页上的那一句，直接送进 agent 的上下文窗口。\n\nAgrawal 最尖锐的论点其实是关于商业模式，而不是技术。广告支持的互联网，建立在人类注意力稀缺并最终转化为购买的假设之上；而 agent 打破了这个假设，因为内容方根本没法判断一次 agent 的访问最终会不会带来一次订阅。他给出的答案，回到了他曾经用来给公司命名的那个概念：Shapley value，一种博弈论方法，用来在合作者之间公平地分配价值，这里用来估算某个信息源对 agent 答案的贡献有多大，并据此为内容访问定价。他认为，这种类似广告拍卖精神的差异化定价模式，再过十二到二十四个月，就能开始为大量网络内容方带来实质性的收入，他说，这正是\"我们创办这家公司的原因\"。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "tags": ["podcast", "search", "agents", "business models"]
+    }
+  ]
+}
