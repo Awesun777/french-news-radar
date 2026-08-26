@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    {
+      "id": "ringg-ai-voice-orchestration-funding",
+      "category": "inspiration",
+      "title": "Ringg AI raises $10M to scale its multi-model voice-orchestration layer",
+      "summary": "India-based voice AI startup Ringg AI (formerly DesiVocal) raised a $10M Series A extension from Peak XV Partners, bringing its total Series A to $15.5M. Ringg processes 20M call attempts monthly for clients like Cred, Flipkart, and Practo, building its own speech recognition/generation models while operating as an orchestration layer that routes tasks to different models depending on the use case.",
+      "whyItMatters": "The \"orchestration layer routing tasks to different models per use case\" pattern is directly applicable to Romain/Anna — using different ASR/LLM/TTS models per turn type (e.g., a cheaper model for simple exchanges, a stronger one for correction feedback) instead of one fixed pipeline.",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "source": "TechCrunch",
+      "tags": ["voice", "funding", "orchestration", "inspiration"]
+    },
+    {
+      "id": "claude-memory-topic-organized",
+      "category": "inspiration",
+      "title": "Claude's memory goes topic-organized and cross-surface, with opt-in sensitive-data storage",
+      "summary": "Anthropic unified Claude's memory across chat and Cowork so it no longer resets between surfaces, and switched to continuously tagging topics during a conversation rather than summarizing only at session end. Users can view, edit, or delete memory by topic; sensitive categories (health, race, religion, politics, gender identity) are excluded by default behind an explicit opt-in toggle, and certain data (government IDs, SSNs, criminal/immigration history) is permanently blocked. Live now on Free/Pro/Max across web, desktop, and mobile.",
+      "whyItMatters": "The topic-organized, user-editable memory with a sensitive-data opt-in gate is a solid reference design for a French tutor that wants to remember a learner's goals, recurring mistakes, and progress across sessions without silently accumulating sensitive personal data.",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "source": "TechCrunch",
+      "tags": ["anthropic", "memory", "ux", "privacy"]
+    },
+    {
+      "id": "openai-jalapeno-inference-chip",
+      "category": "general",
+      "title": "OpenAI's Jalapeño inference chip beats Nvidia Blackwell on tokens-per-user and power efficiency",
+      "summary": "Independent SemiAnalysis benchmarks (InferenceX) show OpenAI's custom inference chip, Jalapeño (built with Broadcom), outperforming Nvidia Blackwell systems on tokens served per user and throughput per kilowatt, by minimizing data movement and keeping the KV cache local to compute. Small-volume deployment starts late 2026, with a broader rollout in 2027.",
+      "whyItMatters": "Faster, cheaper inference at the infrastructure layer is a leading indicator for future API price cuts and lower realtime-voice latency ceilings across OpenAI's stack — worth watching even though it's a year or more from directly touching Romain's pipeline.",
+      "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+      "source": "TechCrunch",
+      "tags": ["hardware", "inference", "cost", "openai"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-25T06:12:08Z",
+  "generatedAt": "2026-08-26T06:55:53Z",
   "digests": [
+    {
+      "date": "2026-08-26",
+      "title": "Ringg AI's multi-model voice routing, Claude's topic-organized memory",
+      "itemCount": 3,
+      "categories": ["inspiration", "general"],
+      "highlights": [
+        "Ringg AI raises $10M to scale its multi-model voice-orchestration layer",
+        "Claude's memory goes topic-organized and cross-surface, with opt-in sensitive-data storage",
+        "OpenAI's Jalapeño inference chip beats Nvidia Blackwell on tokens-per-user and power efficiency"
+      ]
+    },
     {
       "date": "2026-08-25",
       "title": "Instinct's privacy backlash, AI memory shortage bites",
