@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-26T06:55:53Z",
+  "generatedAt": "2026-08-27T06:25:31Z",
   "digests": [
+    {
+      "date": "2026-08-27",
+      "title": "Cartesia's Sonic-3.6 goes GA, Z.ai's 10x-cheaper GLM-5.3-Flash",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Cartesia's Sonic-3.6 TTS exits preview, reaches general availability",
+        "Z.ai open-sources GLM-5.3-Flash, a 10x-cheaper MIT-licensed coding/agent model",
+        "Anthropic signs $45B, 6-year compute deal with Nscale"
+      ]
+    },
     {
       "date": "2026-08-26",
       "title": "Ringg AI's multi-model voice routing, Claude's topic-organized memory",

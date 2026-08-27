@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-27",
+  "items": [
+    {
+      "id": "cartesia-sonic-3-6-ga",
+      "category": "models",
+      "title": "Cartesia's Sonic-3.6 TTS exits preview, reaches general availability",
+      "summary": "Cartesia's Sonic-3.6 text-to-speech model — sub-90ms latency, more natural pacing/emotion without SSML tags, and 44 languages including two new additions (Odia, Urdu) — became generally available on the stable `sonic-3.6` model ID on August 27, alongside Ink-2, a new speech-to-text model with 100ms transcript latency and native turn detection. Existing voice clones carry over with the same IDs, and the request format is unchanged from Sonic-3.5, so no migration work is needed.",
+      "whyItMatters": "Sonic-3.6 topped both Artificial Analysis speech leaderboards in preview, but GA is the signal that matters for Anna's ElevenLabs-based pipeline: a stable model ID plus a paired low-latency STT (Ink-2) makes Cartesia a credible drop-in alternative if latency or French-language quality ever becomes the bottleneck.",
+      "url": "https://www.cartesia.ai/launch",
+      "source": "Cartesia",
+      "tags": ["tts", "stt", "latency", "french"]
+    },
+    {
+      "id": "z-ai-glm-5-3-flash-mit",
+      "category": "models",
+      "title": "Z.ai open-sources GLM-5.3-Flash, a 10x-cheaper MIT-licensed coding/agent model",
+      "summary": "Z.ai released GLM-5.3-Flash (320B total / 18B active params, MoE, 1M-token multimodal context) under the MIT license, with weights on Hugging Face and support for SGLang, vLLM, and TokenSpeed. Formerly teased under the codename \"Ox Alpha,\" it's roughly 10x cheaper to run than its predecessor while approaching Claude Opus 4.8 on coding and knowledge-work benchmarks.",
+      "whyItMatters": "A frontier-adjacent, fully open-weight model this cheap is a plausible low-cost fallback for any text-reasoning step Romain or Anna offload from the realtime voice loop (grading, correction explanations, lesson planning) — self-hostable if API pricing ever becomes a constraint.",
+      "url": "https://siliconangle.com/2026/08/26/z-ai-open-sources-ox-alpha-model-as-glm-5-3-flash/",
+      "source": "SiliconANGLE",
+      "tags": ["llm", "open-source", "pricing", "cost"]
+    },
+    {
+      "id": "anthropic-nscale-45b-compute-deal",
+      "category": "general",
+      "title": "Anthropic signs $45B, 6-year compute deal with Nscale",
+      "summary": "Anthropic will rent roughly 460 megawatts of compute from British infrastructure firm Nscale's West Virginia data center, running on Nvidia's next-gen Vera Rubin chips, starting late 2027. It's the latest in a string of Anthropic infrastructure deals (Volta, AMD, SpaceX, Amazon, Google) as the company says user demand has strained reliability.",
+      "whyItMatters": "More committed frontier compute ahead of a 2027 ramp is a leading indicator that Claude API capacity/reliability should improve over time — worth knowing if Romain or Anna ever route any step through Claude.",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "source": "TechCrunch",
+      "tags": ["anthropic", "infrastructure", "compute"]
+    },
+    {
+      "id": "instinct-series-b-2-5b-valuation",
+      "category": "general",
+      "title": "Instinct's valuation jumps to $2.5B in a $250M Series B, weeks after privacy backlash",
+      "summary": "Days after reports flagged its sweeping data-access permissions and irrevocable data-license terms, the invite-only AI personal assistant Instinct closed a $250M Series B co-led by Index Ventures and Benchmark, taking total funding to $350M at a $2.5B valuation — up from roughly $100M weeks earlier. The product remains in private beta.",
+      "whyItMatters": "A live example of investor appetite outrunning consumer trust concerns for agentic assistants with broad app/device access — a pattern worth watching if Romain or Anna ever expand beyond the tutoring session into calendar or device access.",
+      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "source": "TechCrunch",
+      "tags": ["funding", "agentic", "privacy", "trust"]
+    }
+  ]
+}
