@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-27",
+  "items": [
+    {
+      "id": "google-labs-play-with-putty",
+      "kind": "x",
+      "author": "Google Labs",
+      "summary": "Google Labs opened a waitlist for Play with Putty, a new experimental tool for building websites and apps collaboratively in real time — vibe coding, but multiplayer. The announcement frames it as a natural next step from solo AI-assisted coding toward a shared, live canvas that a whole team can edit together. Access is currently limited to US-based users aged 18 and up while the team collects feedback.",
+      "summaryZh": "Google Labs 开放了 Play with Putty 的候补名单，这是一款实验性新工具，可以让多人实时协作、共同搭建网站和应用——本质上是多人版的 vibe coding。这次发布把它定位为从单人 AI 辅助编程，自然延伸到一块团队可以共同实时编辑的画布。目前仅面向美国境内、年满 18 岁的用户开放，团队正在收集反馈。",
+      "url": "https://x.com/GoogleLabs/status/2092293667688173593",
+      "tags": ["google", "vibe coding", "collaborative", "product launch"]
+    }
+  ]
+}

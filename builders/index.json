@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-08-26T07:35:15Z",
+  "generatedAt": "2026-08-27T07:00:00Z",
   "digests": [
+    {
+      "date": "2026-08-27",
+      "title": "Google Labs previews Play with Putty, a multiplayer vibe-coding canvas",
+      "itemCount": 1,
+      "kinds": ["x"],
+      "highlights": [
+        "Google Labs opens a waitlist for Play with Putty, an experimental tool that turns AI-assisted coding into a real-time, multiplayer shared canvas for building websites and apps together"
+      ]
+    },
     {
       "date": "2026-08-26",
       "title": "Parag Agrawal bets the ad-driven web breaks under agent traffic, Peter Yang open-sources a cancer-navigation AI skill",
