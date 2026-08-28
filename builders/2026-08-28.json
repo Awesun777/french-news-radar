@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "id": "thariq-sendfeedback-tool",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Thariq, who builds Claude Code at Anthropic, shipped a SendFeedback tool that lets users simply tell Claude to draft and submit a feedback report instead of manually filing one through /feedback. He says the change should surface more of the real problems the team needs to hear about. He also flagged that several Anthropic customers are being targeted by fraudulent usage requests, thanking Stripe for its fraud-prevention work while warning that these attacks erode capacity for legitimate users.",
+      "summaryZh": "Thariq 在 Anthropic 负责 Claude Code,他上线了一个 SendFeedback 工具,用户不用再手动执行 /feedback 命令写报告,直接让 Claude 起草并提交反馈即可。他表示这项改动应该能让团队听到更多真实存在的问题。他还提到,已有多家 Anthropic 客户遭遇欺诈性请求的攻击,他对 Stripe 在反欺诈方面的工作表示感谢,同时提醒这类攻击会挤占为正常用户提供服务的能力。",
+      "url": "https://x.com/trq212/status/2092696449616376140",
+      "tags": ["Claude Code", "Anthropic", "product", "fraud prevention"]
+    },
+    {
+      "id": "guillermo-rauch-vercel-global-compute",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch shipped two agent-infrastructure updates in one day: a global compute rollout for Vercel Sandbox that gives agents multi-region failover, up to 10,000 concurrent sandboxes, and a default ramp of 5,000 vCPUs per minute, with more regions coming. He also introduced a \"vercel security check\" CLI that lets teams call on agents to audit and harden their security posture, either interactively with a human in the loop or unattended on a cron schedule. Rauch frames both as building blocks for an internet where agents, not just humans, are the primary developers.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 同一天上线了两项面向智能体的基础设施更新:一是 Vercel Sandbox 的全球算力升级,让智能体获得多区域故障转移能力,默认支持最多 10000 个并发沙箱、每分钟 5000 vCPU 的扩容速度,后续还会开放更多区域;二是推出 “vercel security check” 命令行工具,团队可以调用智能体来审查并加固安全态势,既可以人工介入交互式运行,也可以按计划任务无人值守地跑。Rauch 将这两者都视为为“智能体主导开发”的互联网打造的基础设施。",
+      "url": "https://x.com/rauchg/status/2092735785460277627",
+      "tags": ["Vercel", "infrastructure", "agents", "security"]
+    },
+    {
+      "id": "aaron-levie-box-unstructured-data",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Box CEO Aaron Levie tied the company's Q2 results — revenue of $321.1M, up 9% (11% in constant currency, the highest constant-currency growth rate in 14 quarters), with a raised full-year target of $1.29B — to a broader thesis: the bottleneck for enterprise AI isn't model capability, it's access to unstructured content like contracts, financial documents, and roadmaps, which makes up the bulk of corporate knowledge. He argues enterprises need platforms that let them swap models and agents freely as labs leapfrog each other on cost and performance, plus audit logs and real-time security alerts, pointing to the recent OpenAI-Hugging Face incident as proof governance can't be an afterthought.",
+      "summaryZh": "Box CEO Aaron Levie 把公司第二季度的业绩——营收 3.211 亿美元,同比增长 9%(按固定汇率计算增长 11%,创 14 个季度以来最高的固定汇率增速),并上调全年营收目标至 12.9 亿美元——和一个更大的判断联系在了一起:企业 AI 的瓶颈不在模型能力,而在于能否访问合同、财务文件、产品路线图这类构成企业知识主体的非结构化内容。他认为,随着各大实验室在成本和性能上此消彼长,企业需要能够自由切换模型和智能体的平台,再加上审计日志和实时安全告警,并以近期的 OpenAI-Hugging Face 事件为例,说明数据治理不能是事后才考虑的事。",
+      "url": "https://x.com/levie/status/2092702955292230100",
+      "tags": ["Box", "enterprise AI", "earnings", "unstructured data"]
+    },
+    {
+      "id": "matt-turck-nvidia-huggingface",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at FirstMark Capital",
+      "summary": "FirstMark VC Matt Turck called Nvidia's acquisition of Hugging Face a \"win-win-win\": Nvidia cements itself as the center of open-source AI alongside its Nemotron models, Hugging Face gets a home that ends the recurring question about its business model, and open-source AI wins overall. In a separate podcast appearance, he floated why Nvidia might be \"the best venture firm in the world,\" described a \"hyper power law\" where apps are turning into labs faster than labs are turning into apps, and voiced concern about a bubble driven by a duration mismatch between AI infrastructure spending and the returns it's meant to generate.",
+      "summaryZh": "FirstMark 的风险投资人 Matt Turck 称英伟达收购 Hugging Face 是“三赢”:英伟达凭借 Nemotron 系列模型进一步坐实了开源 AI 中心的地位,Hugging Face 找到了一个能一劳永逸解决其商业模式质疑的归宿,而开源 AI 整体也是赢家。在另一档播客节目中,他谈到英伟达为何可能是“世界上最好的风投机构”,描述了一种“超级幂律”现象——应用变成实验室的速度,快过实验室变成应用的速度,并对 AI 基础设施支出与其预期回报之间的“久期错配”可能催生泡沫表示担忧。",
+      "url": "https://x.com/mattturck/status/2092808287280329097",
+      "tags": ["Nvidia", "Hugging Face", "M&A", "AI bubble"]
+    },
+    {
+      "id": "aditya-agarwal-deepcogito-series-a",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, SPC",
+      "summary": "Aditya Agarwal, general partner at SPC, announced a $43M Series A for DeepCogito, a post-training research lab built on the thesis that \"the AI frontier will be determined by post-training\" rather than pretraining scale. Its core method, iterated distillation and amplification (IDA), targets large-scale reinforcement learning and recursive self-improvement, and the team has already demonstrated it publicly across models from 3B to 600B+ parameters. The round included Benchmark, TQ Ventures, Atreides Management, Nexus, and Zscaler; Agarwal notes the founders met as SPC Founder Fellows in March 2024 after already knowing each other for 14 years.",
+      "summaryZh": "SPC 普通合伙人 Aditya Agarwal 宣布 DeepCogito 完成 4300 万美元 A 轮融资。这是一家专注后训练的研究实验室,其核心判断是“AI 前沿将由后训练决定”,而非预训练规模。公司的核心方法——迭代蒸馏与放大(IDA)——聚焦大规模强化学习与递归自我改进,团队已经在从 3B 到 600B+ 参数规模的模型上公开验证了这一方法。本轮融资由 Benchmark、TQ Ventures、Atreides Management、Nexus 和 Zscaler 参投;Agarwal 提到两位创始人相识 14 年,于 2024 年 3 月作为 SPC Founder Fellows 项目成员结识了他。",
+      "url": "https://x.com/adityaag/status/2092679288869019700",
+      "tags": ["DeepCogito", "funding", "post-training", "reinforcement learning"]
+    },
+    {
+      "id": "claude-in-chrome-ga",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "title": "Claude in Chrome is generally available",
+      "summary": "Claude in Chrome is now generally available on every paid Claude plan, and it can take actions autonomously in the browser instead of requiring approval for each individual step — a safety classifier validates every action before it executes. The extension gives Claude access to tools that don't have API connectors, like internal dashboards, legacy systems, and vendor portals, letting it read and type text, click links, navigate between pages, and fill out forms using the user's existing logins. Anthropic ran it as a pilot for a year specifically to harden defenses against prompt injection — malicious instructions hidden in web content that try to redirect an agent to act against the user's wishes — before taking it to general availability. As the post puts it, in a prompt injection attack, hidden instructions \"can redirect the agent to do something you never asked for,\" such as forwarding a user's emails to an attacker.",
+      "summaryZh": "Claude in Chrome 现已面向所有付费版 Claude 计划全面开放,并且可以在浏览器中自主执行操作,不再需要每一步都经过用户批准——一个安全分类器会在每个操作执行前先进行校验。这个扩展让 Claude 能够访问那些没有 API 连接器的工具,比如内部仪表盘、老旧系统、供应商门户网站,可以读取和输入文字、点击链接、在页面间跳转、填写表单,并使用用户已登录的账号。Anthropic 此前将其作为试点运行了一年,专门用来加固对提示词注入攻击的防御——这类攻击把恶意指令藏在网页内容里,试图诱导智能体做出违背用户意愿的事——之后才将其全面开放。正如博文中所说,在提示词注入攻击中,隐藏的指令“可能会诱导智能体去做你从未要求过的事情”,比如把用户的邮件转发给攻击者。",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "tags": ["Claude", "Chrome extension", "agents", "security"]
+    },
+    {
+      "id": "claude-cowork-browser",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "title": "Claude gets its own browser in Cowork",
+      "summary": "Claude now has its own browser built directly into Claude Cowork on the desktop app. When a task needs the web, a browser opens in Cowork's side panel and Claude navigates pages, reads them, clicks, and types — letting the user hand off the web portion of a task and keep working elsewhere, whether that's filling in a form, pulling numbers from a dashboard, or working through a portal with no connector. It's rolling out this week to Pro, Max, and Team plans, with Enterprise admins able to turn it on for their organization starting now. Because it's a separate, isolated browser, Claude never sees the user's own tabs, bookmarks, or passwords — logins can be brought over site by site from Chrome, Edge, or Firefox, but banking, email, and single sign-on sites are excluded unless the user opts in. As the post frames it: \"It's Claude's browser, not yours\" — reserved for self-contained web tasks, while Claude in Chrome remains the right tool for pages the user already has open in their own logged-in browser.",
+      "summaryZh": "Claude 现在在桌面版 Claude Cowork 中内置了专属浏览器。当任务需要联网操作时,Cowork 的侧边栏会打开一个浏览器,Claude 在其中浏览页面、阅读内容、点击并输入文字——用户可以把任务中涉及网页的部分交给 Claude,自己继续做别的事,无论是填写表单、从仪表盘中提取数据,还是在没有连接器的门户网站里操作。该功能本周开始向 Pro、Max 和 Team 计划推送,企业管理员现在就可以为组织开启。由于这是一个独立、隔离的浏览器,Claude 看不到用户自己的标签页、书签或密码——用户可以逐个网站地从 Chrome、Edge 或 Firefox 中导入登录状态,但银行、邮箱和单点登录类网站默认被排除在外,除非用户主动选择加入。正如博文所说:“这是 Claude 的浏览器,不是你的”——它适合交给 Claude 独立完成的网页任务,而 Claude in Chrome 仍然是处理用户自己已登录浏览器中打开页面的更合适工具。",
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "tags": ["Claude", "Cowork", "browser agent", "product launch"]
+    },
+    {
+      "id": "walleye-ai-playbook",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "A $10B Hedge Fund’s AI Playbook (Best of the Pod)",
+      "takeaway": "A hedge fund CEO's case for company-wide AI adoption starts with the CEO using the tools publicly and ends with treating holdouts like people who refused to use the internet in 1995.",
+      "takeawayZh": "一家对冲基金 CEO 力推全公司采用 AI 的做法,始于 CEO 亲自公开使用这些工具,终于把不愿使用的人看作 1995 年拒绝用互联网的人。",
+      "summary": "Will, the CEO, CIO, and managing partner of Walleye Capital — a hedge fund managing close to $10B — rarely does press or podcasts, but he agreed to this one because he has \"an enormous sense of conviction\" about where AI is taking his industry. His turning point came in March 2023, when an analyst on his long/short tech team walked in and demoed GPT-3-era tools he'd built on his own to make himself more efficient — tools aimed, eventually, at replacing parts of his own job. Will was skeptical at first, then convinced: \"This is absolutely where we're going.\"\n\nThat conviction became policy. Every one of Walleye's roughly 400 employees, regardless of department or technical background, now gets mandatory AI training — accounting, compliance, and legal staff included, not just the quant desk that's used advanced statistics and AI in trading for a decade. He backs it with weekly leaderboards of who's using AI tools the most, an employee-referral-style incentive for suggesting a tool that gets adopted firm-wide, informal weekly AI meetups, and an \"AI Senate\" of forward-thinking users pulled from across departments. Will positions himself as the firm's \"chief evangelist,\" arguing that as an owner-operator who doesn't need to worry about being fired, he can move like a \"cruise missile\" in a way leaders of larger, more bureaucratic organizations can't.\n\nHis firm-wide memo made the stakes blunt: \"Using ChatGPT is not cheating... Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect. That's just dumb and something I can't understand. As a hedge fund, we should be ashamed to leave money on the table by ignoring tools that make us faster, smarter, and more effective.\" His bet is that in an industry built entirely on information edge, firms that don't fully integrate AI within five years won't survive as competitors.",
+      "summaryZh": "Will 是 Walleye Capital 的 CEO、CIO 兼管理合伙人——这是一家管理规模接近 100 亿美元的对冲基金。他很少接受采访或上播客,这次之所以愿意来,是因为他对 AI 将把这个行业带向何方有着“极其强烈的信念”。他的转折点出现在 2023 年 3 月,当时他多空科技股团队里的一位分析师找到他,演示了自己用 GPT-3 时代的工具搭建的系统,目的是让自己的工作效率更高——最终甚至可能替代自己岗位的一部分工作。Will 起初很怀疑,后来被彻底说服:“我们肯定是要往这个方向走的。”\n\n这份信念变成了公司政策。Walleye 大约 400 名员工,不论所在部门或技术背景如何,现在都必须接受强制性的 AI 培训——不只是已经用先进统计方法和 AI 做了十年量化交易的量化团队,连财务、合规、法务这些部门的员工也不例外。为此他还配套了每周公示 AI 工具使用排行榜、员工推荐工具被全公司采纳后可获得类似内部推荐奖励的机制、每周非正式的 AI 交流会,以及由各部门思想前沿的用户组成的“AI 参议院”。Will 把自己定位成公司的“首席布道者”,他认为,作为所有者兼经营者,自己不用担心被解雇,因此可以像“巡航导弹”一样迅速行动,这是规模更大、更官僚化的机构领导者做不到的。\n\n他发给全公司的备忘录说得很直白:“用 ChatGPT 不是作弊……不使用这些工具,就像 1995 年因为互联网还不完美就拒绝使用它一样,这真的很蠢,我无法理解。作为一家对冲基金,如果因为忽视能让我们更快、更聪明、更高效的工具而把钱留在桌面上,我们应该感到羞愧。”他押注的是:在一个完全建立在信息优势之上的行业里,五年内没能完全整合 AI 的公司将无法继续作为对手存在。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": ["hedge fund", "AI adoption", "enterprise culture", "podcast"]
+    }
+  ]
+}

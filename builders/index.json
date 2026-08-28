@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-27T07:00:00Z",
+  "generatedAt": "2026-08-28T06:31:56Z",
   "digests": [
+    {
+      "date": "2026-08-28",
+      "title": "Box's Levie ties Q2 results to enterprise AI's unstructured-data bottleneck, Claude gets a built-in Cowork browser",
+      "itemCount": 8,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Box CEO Aaron Levie ties a raised $1.29B full-year revenue target to a thesis that enterprise AI's real bottleneck is unstructured content, not model capability",
+        "Anthropic ships Claude in Chrome to general availability and gives Claude its own built-in browser inside Cowork, both hardened against prompt injection",
+        "SPC's Aditya Agarwal backs DeepCogito's $43M Series A betting post-training and recursive self-improvement — not pretraining scale — will define the AI frontier"
+      ]
+    },
     {
       "date": "2026-08-27",
       "title": "Google Labs previews Play with Putty, a multiplayer vibe-coding canvas",
