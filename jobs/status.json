@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-08-28T06:42:24Z",
+  "lastRunAt": "2026-08-28T06:45:46Z",
   "outcome": "new-postings",
   "newCount": 11,
   "detail": "11 new postings (Barclays 5, JP Morgan 3, Deutsche Bank 2, Macquarie 1); switched Barclays source from search.jobs.barclays scrape to its Workday API for reliable filtering; DC Advisory 403-blocked, Stepstone confirmed via Greenhouse API (stepstone org) with no new roles, UBS's JS-rendered search UI yielded no extractable data this run, BDA Partners still lists its NY role with no per-posting URL",
