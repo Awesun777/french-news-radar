@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "id": "gemini-3-5-transcribe",
+      "category": "models",
+      "title": "Google launches Gemini 3.5 Transcribe, a reasoning-powered speech-to-text model",
+      "summary": "Google DeepMind shipped Gemini 3.5 Transcribe on August 26: a real-time speech-to-text model that cleans up filler words, self-corrections, and jargon while transcribing, and supports 85+ languages and dialects. Google cites a 4.0% WER for streaming (2.6% non-streaming) and a 70% faster time-to-final-transcript versus its predecessor, Chirp 3. It's live in public preview via the Gemini API and Antigravity, and already powers Gboard's Rambler feature and the Gemini app on macOS, with Chrome, Search Live, Docs, and Gmail integrations coming.",
+      "whyItMatters": "A disfluency-cleaning, low-latency ASR model with broad multilingual coverage is directly relevant to the STT leg of Romain's or Anna's pipeline — worth benchmarking against Whisper/Deepgram/ElevenLabs Scribe for French accuracy and latency, especially since it already strips 'euh' filler words the way a French tutor transcript would need to.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "source": "Google Blog",
+      "tags": ["stt", "asr", "latency", "multilingual"]
+    },
+    {
+      "id": "nvidia-acquires-hugging-face",
+      "category": "general",
+      "title": "Nvidia agrees to acquire Hugging Face for $12.9B",
+      "summary": "Reported August 27, Nvidia has agreed to buy Hugging Face — the open-source hub hosting over 2 million models and used by 13M+ developers — for roughly $12.9B, a huge step up from its $4.5B valuation in 2023 (Hugging Face had rejected a $500M Nvidia investment at a $7B valuation as recently as late 2025). The deal isn't yet signed and could still fall through, per The Information.",
+      "whyItMatters": "Hugging Face is the default place to pull open-weight ASR/TTS/LLM checkpoints for a self-hosted tutor pipeline; Nvidia ownership could reshape hosting terms, inference pricing (paired with Nvidia hardware), or licensing for the exact open models a fallback Romain/Anna stack would depend on.",
+      "url": "https://siliconangle.com/2026/08/27/nvidia-reportedly-acquires-ai-project-hosting-platform-hugging-face-for-12-9b/",
+      "source": "SiliconANGLE",
+      "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/08/Nvidia1.png",
+      "tags": ["acquisition", "infrastructure", "open-source"]
+    },
+    {
+      "id": "judge-blocks-pentagon-anthropic-blacklist",
+      "category": "general",
+      "title": "Judge rules Pentagon's blacklisting of Anthropic was illegal",
+      "summary": "U.S. District Judge Rita Lin ruled August 27 that the Pentagon's supply-chain-risk designation of Anthropic — imposed after Anthropic refused to let Claude be used for autonomous weapons or mass surveillance — violated the First and Fifth Amendments, calling the move 'illegal and baseless' in a 59-page order. A separate, related Anthropic suit over a D.C. contract-exclusion designation is still pending.",
+      "whyItMatters": "A win here removes a cloud over Anthropic's ability to operate freely and signals continued legal/regulatory turbulence around frontier AI vendors — background risk worth tracking for anyone routing any tutor workflow through Claude's API.",
+      "url": "https://wkzo.com/2026/08/27/us-judge-blocks-pentagons-anthropic-blacklisting/",
+      "source": "AP via WKZO",
+      "tags": ["anthropic", "legal", "policy"]
+    },
+    {
+      "id": "anthropic-claude-team-plan-scientists",
+      "category": "general",
+      "title": "Anthropic opens 10,000 free/discounted Claude seats for scientists",
+      "summary": "Announced August 27, Anthropic's new Claude Team plan for scientists gives principal investigators at academic or nonprofit institutions free standard seats and $15/month premium seats (5x usage limits, an 80% discount) for one year, plus access to up to $50,000 in compute credits via its expanded AI for Science program.",
+      "whyItMatters": "Indirect signal only — shows Anthropic prioritizing research-community goodwill and subsidized access over near-term revenue, which is a reasonable read on how aggressively it's still investing in ecosystem growth around Claude.",
+      "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "Anthropic",
+      "tags": ["anthropic", "pricing", "research"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-27T06:25:31Z",
+  "generatedAt": "2026-08-28T06:27:10Z",
   "digests": [
+    {
+      "date": "2026-08-28",
+      "title": "Gemini 3.5 Transcribe ships, Nvidia buys Hugging Face for $12.9B",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Google launches Gemini 3.5 Transcribe, a reasoning-powered speech-to-text model",
+        "Nvidia agrees to acquire Hugging Face for $12.9B",
+        "Judge rules Pentagon's blacklisting of Anthropic was illegal"
+      ]
+    },
     {
       "date": "2026-08-27",
       "title": "Cartesia's Sonic-3.6 goes GA, Z.ai's 10x-cheaper GLM-5.3-Flash",
