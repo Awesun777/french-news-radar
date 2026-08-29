@@ -1,5 +1,5 @@
 {
-  "lastRunAt": "2026-08-29T06:38:08Z",
+  "lastRunAt": "2026-08-29T06:38:42Z",
   "outcome": "new-postings",
   "newCount": 9,
   "detail": "9 new postings (Pwc 8, Dc advisory 1); Deutsche Bank, Barclays, Raymond James, and Houlihan Lokey Workday tenants all returned outage/maintenance pages this run (PwC's Workday tenant worked fine, so this looks tenant-specific rather than a full Workday platform outage); UBS's Taleo-based search UI yielded no extractable data",
