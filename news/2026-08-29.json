@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    {
+      "id": "save-our-voices-now-campaign",
+      "category": "general",
+      "title": "80+ UK actors back 'Save Our Voices Now' campaign for legal voice ownership",
+      "summary": "Nicola Coughlan, Matt Lucas, Hugh Bonneville, Luke Evans and 80+ other UK entertainment figures signed an open letter and government petition on August 28 demanding legislation that gives individuals statutory ownership of their voice against unauthorized AI cloning. Campaign founder Alice Sockett called voice theft \"an existential threat to our entire industry,\" citing that 28% of UK adults report experiencing voice-cloning scams; the campaign points to Denmark's recent likeness-ownership law reform as a model.",
+      "whyItMatters": "Direct signal on the regulatory direction for voice cloning consent and rights — relevant if Anna's ElevenLabs voice is ever cloned from a real narrator, since UK-style statutory ownership rules could require explicit licensing or compensation for the source voice.",
+      "url": "https://tribune.com.pk/story/2626243/nicola-coughlan-matt-lucas-hugh-bonneville-back-campaign-calling-for-laws-against-ai-voice-cloning",
+      "source": "The Express Tribune",
+      "tags": ["voice", "policy", "consent", "cloning"]
+    },
+    {
+      "id": "anthropic-model-hardware-standard",
+      "category": "general",
+      "title": "Anthropic previews Model Hardware Standard for AI-controlled lab and factory equipment",
+      "summary": "Anthropic opened a research preview of its Model Hardware Standard (MHS) on August 27 — a shared, model-agnostic specification (accessible via protocols like MCP) that lets AI agents discover and safely operate physical devices such as microscopes, liquid handlers, and robotic arms. Built with HHMI Janelia and shared first with partners including Genentech, University of Washington, Carnegie Mellon, and QuEra Computing, MHS claims to cut hardware-integration time from weeks to hours ahead of a planned open-source release.",
+      "whyItMatters": "A standardized, protocol-based interface for agents to control external hardware is a useful reference pattern even outside robotics — the same discover-and-control abstraction could simplify how Romain or Anna route to interchangeable ASR/TTS backends behind one interface.",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source": "Anthropic",
+      "tags": ["agents", "protocol", "infrastructure"]
+    },
+    {
+      "id": "anthropic-automated-alignment-researchers",
+      "category": "general",
+      "title": "Anthropic shows automated researchers can reliably fix model alignment failures",
+      "summary": "A new Anthropic paper published August 28, led by fellow Chen Yueh-Han, found that an automated alignment researcher (AAR) — which searches literature, proposes a method, then trains a model for 30-minute iterative sessions — improved performance on all 10 tested misalignment benchmarks without degrading general capability. The best AAR method beat experienced human researchers on average within six hours, at roughly $4/hour in API inference versus $150/hour for human researchers.",
+      "whyItMatters": "Early evidence that cheap, automated post-training loops can reliably fix specific model behaviors is a leading indicator for how affordable targeted fine-tuning (e.g., correcting a tutor model's French-grammar-explanation errors) could become.",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "source": "TechCrunch",
+      "tags": ["alignment", "fine-tuning", "research", "cost"]
+    }
+  ]
+}

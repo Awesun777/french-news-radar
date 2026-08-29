@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-28T06:27:10Z",
+  "generatedAt": "2026-08-29T06:26:07Z",
   "digests": [
+    {
+      "date": "2026-08-29",
+      "title": "UK actors demand voice-ownership law, Anthropic's self-improving alignment",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "80+ UK actors back 'Save Our Voices Now' campaign for legal voice ownership",
+        "Anthropic previews Model Hardware Standard for AI-controlled lab equipment",
+        "Anthropic shows automated researchers can reliably fix model alignment failures"
+      ]
+    },
     {
       "date": "2026-08-28",
       "title": "Gemini 3.5 Transcribe ships, Nvidia buys Hugging Face for $12.9B",
