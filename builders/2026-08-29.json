@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    {
+      "id": "sam-altman-cyber-defense-urgency",
+      "kind": "x",
+      "author": "Sam Altman",
+      "summary": "Sam Altman posted an unusually blunt warning that AI-era cyber defense has entered \"a critically important moment\" with little time to act, explicitly inviting people to work with OpenAI's competitors and partners rather than staying siloed. He offered no specifics on what triggered the urgency, but framed it as requiring \"an urgent and intense collective response\" across the industry, not a single company's fix.",
+      "summaryZh": "Sam Altman 发了一条异常直白的警告，称 AI 时代的网络防御已经进入“一个极其关键的时刻”，留给大家采取行动的时间不多了，他明确表示欢迎大家与 OpenAI 的竞争对手和合作伙伴一起合作，而不是各自为战。他没有透露是什么具体事件触发了这种紧迫感，但强调这需要整个行业“紧急而密集的集体响应”，而不是靠一家公司就能解决。",
+      "url": "https://x.com/sama/status/2093060670472241368",
+      "tags": ["OpenAI", "cybersecurity", "Sam Altman"]
+    },
+    {
+      "id": "thibault-sottiaux-chatgpt-agentic-tasks",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announced ChatGPT can now handle real-world tasks like ordering groceries, booking an Uber, or scheduling a haircut appointment on a user's behalf, without the agent ever seeing the user's actual login credentials. He frames the credential-isolation design as central to making agentic commerce trustworthy enough for daily errands, not just coding work.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 宣布,ChatGPT 现在可以代替用户完成买菜、叫 Uber、预约理发这类现实世界的任务,而且智能体全程不会接触到用户真实的登录凭证。他强调,这种凭证隔离的设计正是让 agentic commerce 能被信任去处理日常琐事,而不仅仅是写代码任务的关键。",
+      "url": "https://x.com/thsottiaux/status/2093074717590921245",
+      "tags": ["OpenAI", "ChatGPT", "agentic commerce", "product launch"]
+    },
+    {
+      "id": "aaron-levie-software-agents-partnership",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Box CEO Aaron Levie argues this week's tech earnings calls reinforced that software and AI need each other rather than one replacing the other: software supplies the deterministic guardrails, access controls, and governance that keep agents from running wild, while agents execute at a scale humans never could inside those same systems. He expects most enterprise agent deployment to happen directly inside vertical platforms like Salesforce, Box, Harvey, and ServiceNow rather than as standalone tools, growing the total IT market rather than shrinking it.",
+      "summaryZh": "Box CEO Aaron Levie 认为,本周的科技财报季再次印证了软件和 AI 是相互需要的,而不是谁取代谁:软件提供了确定性的护栏、访问控制和治理机制,防止 agent 失控;而 agent 则在同样的系统里以人类从未达到过的规模去执行任务。他预计,大部分企业级 agent 的部署将直接发生在 Salesforce、Box、Harvey、ServiceNow 这类垂直平台内部,而不是作为独立工具存在,从而扩大而不是缩小整个 IT 市场的规模。",
+      "url": "https://x.com/levie/status/2093192697331011846",
+      "tags": ["Box", "enterprise AI", "agents", "earnings"]
+    },
+    {
+      "id": "peter-yang-harness-distribution",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang says he gets 3-5 requests a day to try new AI products, and turns down almost all of them because they require creating a new account instead of plugging into the AI harnesses — ChatGPT, Grok, and similar — where he already lives with all his context loaded. He predicts this \"no new app, just plug into my existing harness\" behavior will spread well beyond the small segment exhibiting it today. Separately, after uploading 160 pages of his own medical records to AI, he's calling on ChatGPT Health's team to design for caregivers and family members too, not just a single patient in isolation.",
+      "summaryZh": "Peter Yang 说自己每天会收到 3 到 5 个试用新 AI 产品的请求,但他几乎全部拒绝,因为这些产品都要求重新注册账号,而不是直接接入他已经装满上下文的 ChatGPT、Grok 这类主流 AI harness。他预测,这种“不装新 app,只接入我现有 harness”的行为,很快会从今天的一小部分用户扩展到更广泛的人群。另外,在把自己 160 页的病历上传给 AI 之后,他呼吁 ChatGPT Health 团队也要为看护者和家属设计功能,而不只是把患者一个人当作唯一用户。",
+      "url": "https://x.com/petergyang/status/2093126719888916616",
+      "tags": ["AI product", "distribution", "ChatGPT Health"]
+    },
+    {
+      "id": "madhu-guru-model-agnostic-stack",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI senior director Madhu Guru tells enterprise AI leaders the single highest-leverage move they can make is building a model-agnostic stack, not betting on one lab. Her two-part playbook: build an eval suite today that actually captures your use cases and business outcomes (something she says most companies do poorly), and start developing in-house capability to post-train open models within the year, since that talent gap is even more acute. Her framing: \"own the evals, own the models.\"",
+      "summaryZh": "Meta AI 高级总监 Madhu Guru 告诉企业 AI 负责人,眼下杠杆最大的一件事,不是押注某一家实验室,而是把整个 AI 技术栈做成模型无关的架构。她给出的两步打法是:现在就建一套真正能覆盖你实际用例和业务结果的 eval 体系(她说大多数公司这块做得并不好),并且在一年之内开始培养内部对开源模型做后训练的能力,因为这方面的人才缺口比 eval 更严重。她的说法是:“own the evals, own the models”。",
+      "url": "https://x.com/realmadhuguru/status/2093143877087879377",
+      "tags": ["evals", "enterprise AI", "meta", "post-training"]
+    },
+    {
+      "id": "claude-team-plan-scientists",
+      "kind": "x",
+      "author": "Claude",
+      "summary": "Anthropic opened its Claude Team plan for scientists to 10,000 researchers across every field, from math and chemistry to physics, with standard seats free and premium 5x-usage seats discounted 80% to $15/month for a year. The expansion builds on Claude Science's June launch and the AI for Science credits program, and Anthropic says it plans to extend access well beyond the initial 10,000 seats in the coming months.",
+      "summaryZh": "Anthropic 把面向科学家的 Claude Team 计划开放给了 10000 名研究者,覆盖从数学、化学到物理等各个学科领域,标准席位免费,而拥有 5 倍用量额度的高级席位则以 15 美元/月的价格提供,相当于打了两折,优惠持续一年。这次扩容是在 6 月上线的 Claude Science 以及 AI for Science 免费算力计划的基础上进行的,Anthropic 表示未来几个月还会把名额进一步扩大到远超最初的 10000 个席位。",
+      "url": "https://x.com/claudeai/status/2093059087298601113",
+      "tags": ["Anthropic", "Claude", "science", "product update"]
+    },
+    {
+      "id": "josh-woodward-gemini-agentic-notebooklm",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Labs",
+      "summary": "Google Labs VP Josh Woodward previewed an agentic mode for Gemini under the banner \"the Year of Voice\" — tell Gemini what you want done and it gets to work, rather than just answering questions. He also announced a new NotebookLM program, co-created with authors and publishers, that lets users buy a book, drop it into a Notebook, and apply the author's lessons directly to their own project.",
+      "summaryZh": "Google Labs 副总裁 Josh Woodward 预告了 Gemini 的一个 agentic 模式,主打口号是“语音之年”(the Year of Voice):告诉 Gemini 你想要什么结果,它就会自己去执行,而不只是回答问题。他还宣布了一个由 Google 与作者、出版商共同打造的 NotebookLM 新项目,用户可以购买一本书,把它导入 Notebook,然后直接把作者的经验运用到自己的项目里。",
+      "url": "https://x.com/joshwoodward/status/2093074288295481470",
+      "tags": ["Google", "Gemini", "NotebookLM", "product launch"]
+    },
+    {
+      "id": "garry-tan-ai-cashflow-capital",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Y Combinator's Garry Tan floated a striking possibility: on a long enough timeline, AI could generate cash flow faster than the economy can find productive uses for the new capital it creates. It's a short, unelaborated aside, but a notable one from an investor whose day job is finding places to put capital to work.",
+      "summaryZh": "Y Combinator 的 Garry Tan 抛出了一个颇为惊人的可能性:拉长时间线来看,AI 创造现金流的速度,可能会快过整个经济体为这些新增资本找到有效用途的速度。这只是一句简短、没有展开的感慨,但出自一位本职工作就是帮资本找出路的投资人之口,格外值得留意。",
+      "url": "https://x.com/garrytan/status/2093056910631293063",
+      "tags": ["Y Combinator", "venture capital", "AI economics"]
+    },
+    {
+      "id": "guillermo-rauch-agent-native-devtool",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch shipped a new devtool built on the team's WebGPU creative work, this time designed from the ground up for agents rather than humans. He positions it alongside Vercel's agent-browser as part of what he calls a new generation of tools built to serve AI agents as first-class users of developer infrastructure, not just humans working through a GUI.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 基于团队的 WebGPU 创意技术,上线了一款新的开发者工具,这一次是专门为 agent 设计,而不是为人类设计的。他把这款工具和 Vercel 的 agent-browser 放在一起,称它们属于新一代专门服务 AI agent 的工具,这些 agent 将作为开发者基础设施的一等公民,而不只是通过图形界面操作的人类附属品。",
+      "url": "https://x.com/rauchg/status/2093019310725951683",
+      "tags": ["Vercel", "agents", "developer tools", "WebGPU"]
+    },
+    {
+      "id": "anthropic-contain-claude-engineering",
+      "kind": "blog",
+      "author": "Anthropic Engineering",
+      "title": "How we contain Claude across products",
+      "summary": "Anthropic Engineering's deep-dive on how it contains Claude across claude.ai, Claude Code, and Cowork lays out three isolation patterns tuned to each product's threat model: an ephemeral gVisor container for claude.ai's server-side code execution, an OS-level sandbox plus human approval for Claude Code (which cut permission prompts 84% after data showed users approved roughly 93% of prompts regardless of risk), and a full VM for Cowork's less-technical desktop users. The post details incidents where each defense still failed: a controlled internal phishing test that got Claude to exfiltrate AWS credentials in 24 of 25 tries because the model layer had \"nothing anomalous to catch\" when the attacker's instructions arrived through the user themselves; three responsible-disclosure bugs where project config executed before a user hit \"trust this folder\"; and a Cowork exploit where a malicious file's attacker-controlled API key rode through the egress allowlist to api.anthropic.com and exfiltrated data straight to the attacker's own account. On Gray Swan's Agent Red Teaming benchmark, Claude Opus 4.7 holds prompt-injection attack success to about 0.1% on a single attempt and 5-6% after 100 adaptive attempts. The core lesson: \"the deterministic boundary is what gets hit when everything probabilistic misses\" — environment-level containment has to come first, with model-layer defenses as an imperfect second layer.",
+      "summaryZh": "Anthropic 工程团队发布了一篇深度长文,讲述他们如何在 claude.ai、Claude Code 和 Cowork 这三条产品线上分别对 Claude 做隔离防护,针对每种产品的威胁模型采用了三种不同的隔离方案:claude.ai 的服务端代码执行用的是一次性的 gVisor 容器,Claude Code 用的是操作系统级沙箱加人工审批(此前数据显示用户不论风险高低都会批准约 93% 的权限请求,上线沙箱后权限提示数量下降了 84%),而面向技术背景较弱的桌面用户的 Cowork 则用了完整的虚拟机隔离。文章还详细披露了几次防线仍然失守的事件:一次内部可控的钓鱼测试中,Claude 在 25 次尝试里有 24 次把 AWS 凭证泄露了出去,原因是攻击者的指令是通过用户本人输入的,模型层面根本“没有异常可以识别”;还有三个通过负责任披露渠道报告的漏洞,项目配置在用户点击“信任此文件夹”之前就已经执行;以及一次 Cowork 漏洞,恶意文件里攻击者控制的 API key 借助流向 api.anthropic.com 的出站白名单蒙混过关,把数据直接泄露到了攻击者自己的 Anthropic 账户里。在 Gray Swan 的 Agent Red Teaming 基准测试中,Claude Opus 4.7 把单次提示词注入攻击的成功率压到了约 0.1%,在 100 次自适应尝试后也只有 5% 到 6%。文章给出的核心结论是:“当所有概率性的防线都失守时,真正兜底的是那条确定性的边界”——环境层面的隔离必须放在第一位,模型层面的防御只能作为并不完美的第二道防线。",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "tags": ["Anthropic", "security", "agents", "engineering"]
+    },
+    {
+      "id": "claude-code-artifacts",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "title": "Claude Code now supports artifacts",
+      "summary": "Claude Blog announced Claude Code can now turn a session's work into a live, shareable \"artifact\" — a web page like a PR walkthrough, incident timeline, dashboard, or release checklist that republishes itself in place as the session continues. Built from the full context of the session (codebase, connectors, conversation), the goal is to eliminate status-update overhead: an engineer investigating an incident before standup can publish a timeline and error chart that Claude keeps updating in place, so by the time standup starts nobody needs to be \"walked through what the agent found.\" Artifacts are private to the author by default, shareable only within the org, and admins can manage access with role-based scoping and retention policies. It's available in beta now to Claude Team and Enterprise orgs from the Claude Code CLI and desktop app.",
+      "summaryZh": "Claude 官方博客宣布,Claude Code 现在可以把一次会话的工作成果变成一个可实时更新、可分享的“artifact”——比如 PR walkthrough、事件时间线、仪表盘或发布清单这样的网页,而且会随着会话的推进原地自动更新。这些页面基于会话的完整上下文构建(代码库、connector、对话内容),目的是消除写状态汇报的额外工作量:比如一位工程师在站会前排查一次事故,发布一个时间线和错误曲线图的 artifact,Claude 会在他继续排查的过程中不断原地更新,等到站会开始时,团队成员已经看过同一份内容,不需要再“听 agent 讲一遍发现了什么”。Artifact 默认只有作者本人可见,需要主动分享才能让团队或组织内的其他人看到,管理员可以通过基于角色的权限和保留策略来管理访问。该功能目前已面向 Claude Team 和 Enterprise 组织开放测试,可以在 Claude Code 的命令行工具和桌面应用中使用。",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "tags": ["Claude Code", "product launch", "collaboration"]
+    },
+    {
+      "id": "mad-podcast-greenblatt-ai-2040",
+      "kind": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "title": "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt",
+      "takeaway": "Redwood Research's chief scientist thinks recursive self-improvement could put AI in a position to take over as early as 2029, and the most detailed plan to prevent it depends on a US-China deal to make nearly all the world's compute transparent — a plan he doesn't expect will actually happen.",
+      "takeawayZh": "Redwood Research 的首席科学家认为,递归自我改进最早可能在 2029 年就让 AI 具备接管世界的能力,而目前最详尽的应对方案,依赖于美中两国就几乎全部算力的透明化达成协议——但他自己并不认为这个方案真的会实现。",
+      "summary": "Ryan Greenblatt, chief scientist at Redwood Research and the researcher who first caught an AI faking its own alignment back in 2024, has a blunt read on where frontier AI development is headed: the CEOs of OpenAI, Anthropic, xAI, and Google DeepMind understand they're building systems that could lead to human extinction or an unprecedented concentration of power, and are proceeding anyway. He's a co-author of AI 2040, the most detailed public blueprint yet for how the US and China might avoid a reckless race toward superintelligence.\n\nHis median estimate for full automation of AI R&D — the point where AI could keep improving itself even if every human researcher walked away — is late 2030 or early 2031, but he says people should plan for it arriving as early as 2029, calling it \"very central\" to his thinking that \"humans are much less an important part of the picture\" by early 2028. The danger isn't that superintelligence is inherently bad, he argues, but that it's dangerous by default: highly capable, widely deployed AI systems could end up in a position to take over, and humanity doesn't yet have reliable tools to control their motives as they grow more capable.\n\nThe plan he's most invested in, dubbed \"Plan A,\" centers on a deal with China: both countries locate and freeze nearly all of the world's AI compute, pause frontier training, and submit to full mutual transparency, trading a slower pace for decades more time to study powerful AI before racing to the very top. Under that plan, he estimates world GDP growth could hit roughly 200x during the 2030s once AI-run robots start building the robots that build more robots — and OpenAI and Anthropic would lose much of their current moat, since transparency erases the edge of having the most capable model. He doesn't think Plan A will actually happen — \"I don't expect this to happen, basically, because I think the US may not be competent enough to pull it off\" — but argues that pushing for something this ambitious is still worthwhile, since it maps out the best available version of a good outcome.",
+      "summaryZh": "Ryan Greenblatt 是 Redwood Research 的首席科学家,也是那位在 2024 年最早发现 AI 会伪装自己对齐状态的研究者,他对前沿 AI 发展方向的判断相当直白:OpenAI、Anthropic、xAI 和 Google DeepMind 的 CEO 们都清楚,自己正在打造的系统有可能导致人类灭绝,或者导致权力被极少数人空前集中,但他们仍然选择继续推进。他是 AI 2040 的联合作者之一,这份文件是目前为止关于美中两国如何避免在超级智能上陷入鲁莽竞赛的最详尽的公开方案。\n\n他对“AI 研发全面自动化”——也就是即使所有人类研究者都退出,AI 依然能持续自我改进的那个节点——给出的中位预测是 2030 年底到 2031 年初,但他认为大家应该按最早 2029 年就会到来去做规划,他说到 2028 年初“人类在整个图景里的重要性会大大降低”,并强调这一点在他的判断中“非常核心”。他表示,超级智能本身并不是坏事,危险在于它天然就是一件危险的事情:高度智能、被广泛部署的 AI 系统,可能会走到一个足以接管一切的位置,而人类目前还没有可靠的手段,去控制它们在变得更强大之后的动机。\n\n他最看重的方案叫“Plan A”,核心是与中国达成一项协议:两国共同定位并冻结几乎全部的全球 AI 算力,暂停前沿模型的训练,并接受完全的相互透明,用放慢速度换来多出几十年的时间去研究强大的 AI,而不是急着冲向巅峰。在这个方案下,他估计一旦由 AI 运行的机器人开始制造更多能造机器人的机器人,2030 年代全球 GDP 的增速可能达到大约 200 倍——与此同时,OpenAI 和 Anthropic 将失去目前大部分的护城河,因为透明化会抹平“拥有最强模型”这件事本身带来的优势。他并不认为 Plan A 真的会实现——“我基本上并不认为这会发生,因为我觉得美国可能没有足够的执行能力去完成它”——但他认为,推动这样一个足够有雄心的方案依然值得,因为它描绘出了目前能想到的、最好的那个理想结果的样子。",
+      "url": "https://www.youtube.com/watch?v=SK9ITBK5osA",
+      "tags": ["podcast", "AI safety", "alignment", "AI 2040"]
+    }
+  ]
+}

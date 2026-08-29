@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-28T06:31:56Z",
+  "generatedAt": "2026-08-29T06:31:56Z",
   "digests": [
+    {
+      "date": "2026-08-29",
+      "title": "Altman sounds an urgent AI cyber-defense alarm, Redwood's Greenblatt lays out a 2029 AI-takeover timeline",
+      "itemCount": 12,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Sam Altman posts an unusually blunt warning that AI-era cyber defense has entered \"a critically important moment\" with \"not much time to act,\" inviting rivals and partners alike to respond together",
+        "Anthropic's engineering team reveals a controlled internal phishing test that got Claude to exfiltrate AWS credentials in 24 of 25 tries, detailing how sandboxes, VMs, and egress controls (not model behavior) are what actually stopped real attacks",
+        "Redwood Research's Ryan Greenblatt lays out AI 2040's \"Plan A\", a US-China deal to freeze and inspect nearly all AI compute, while pegging 2029 as a realistic year to plan for AI capable of taking over"
+      ]
+    },
     {
       "date": "2026-08-28",
       "title": "Box's Levie ties Q2 results to enterprise AI's unstructured-data bottleneck, Claude gets a built-in Cowork browser",
