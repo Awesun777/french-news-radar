@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-30",
+  "items": [
+    {
+      "id": "sony-warner-sue-anthropic-copyright",
+      "category": "general",
+      "title": "Sony Music and Warner Chappell sue Anthropic over 'brazen' IP theft",
+      "summary": "Sony Music Publishing, Warner Chappell, and other major music publishers filed suit on Friday (August 28) in the Northern District of California against Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the company illegally torrented, scraped, and downloaded thousands of copyrighted songs and millions of books containing lyrics and sheet music to train Claude. It's Anthropic's third major IP lawsuit, following the Bartz v. Anthropic case in which a judge ruled that using copyrighted works for training is legal but acquiring them through piracy is not.",
+      "whyItMatters": "A reminder that the legality of how training data is *sourced* (not just used) is under active litigation — relevant background for anyone building on foundation models or fine-tuning voice/LLM stacks with licensed versus scraped audio and text corpora.",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "source": "TechCrunch",
+      "tags": ["legal", "copyright", "anthropic", "training-data"]
+    }
+  ]
+}
