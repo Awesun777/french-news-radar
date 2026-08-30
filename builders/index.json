@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-29T06:31:56Z",
+  "generatedAt": "2026-08-30T06:32:39Z",
   "digests": [
+    {
+      "date": "2026-08-30",
+      "title": "OpenAI severs Cursor's model access as Anthropic and Replit court the fallout, Eon's founders on AI agents as the new ransomware",
+      "itemCount": 10,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "OpenAI's Thibault Sottiaux cuts off Cursor's model access effective November 12 over trust, and within hours Replit's Amjad Masad offers free OpenAI access plus funded migration while Anthropic's Thariq publicly recommits to the Cursor partnership",
+        "Box's Aaron Levie and Meta's Madhu Guru both clock AI's belief half-life at a few months, whether it's industry-wide takes or product playbooks",
+        "Eon co-founders Ofir Ehrlich and Gonen Stein tell No Priors that AI agents with legitimate credentials now drop production tables as fast as ransomware, and most enterprises don't know what data they have to protect"
+      ]
+    },
     {
       "date": "2026-08-29",
       "title": "Altman sounds an urgent AI cyber-defense alarm, Redwood's Greenblatt lays out a 2029 AI-takeover timeline",

@@ -1,0 +1,105 @@
+{
+  "date": "2026-08-30",
+  "items": [
+    {
+      "id": "thibault-sottiaux-openai-ends-cursor-partnership",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announced the company is cutting off Cursor's access to its models entirely, ending the partnership effective November 12. He frames it bluntly as a trust issue rather than a technical or business dispute, while insisting OpenAI still wants Cursor users covered: they can keep going through their own OpenAI API key or OpenAI's own IDE extensions, and OpenAI will keep supporting \"the broadest range of tools and harnesses,\" open-source and closed alike.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 宣布,公司将彻底切断 Cursor 对其模型的访问权限,合作关系将于 11 月 12 日正式终止。他直言这是信任问题,而非技术或商业纠纷,但同时强调 OpenAI 仍希望覆盖到 Cursor 的用户:他们可以继续使用自己的 OpenAI API key,或者通过 OpenAI 自家的 IDE 插件访问,OpenAI 也会继续支持“尽可能广泛的工具和 harness 生态”,无论开源还是闭源。",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "tags": ["OpenAI", "Cursor", "partnership", "developer tools"]
+    },
+    {
+      "id": "amjad-masad-replit-cursor-defection-offer",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "Replit CEO",
+      "summary": "Hours after OpenAI's Cursor cutoff, Replit CEO Amjad Masad moved to pick up the fallout: free access to OpenAI models on Replit, a router he says makes high-end models cost-efficient regardless of provider, and a standing offer to fund the migration for any business wanting an independent, multi-model alternative to Cursor. It's a direct pitch to developers left stranded by the OpenAI-Cursor split rather than a general product announcement.",
+      "summaryZh": "就在 OpenAI 宣布切断 Cursor 访问权限几小时后,Replit CEO Amjad Masad 立刻出手接盘:在 Replit 上免费提供 OpenAI 模型访问、一个他称能让高端模型不论供应商都变得极具成本效益的路由系统,并主动提出为任何想要一个独立、多模型 Cursor 替代方案的企业出资承担迁移费用。这是一次直接针对被 OpenAI-Cursor 分手事件晾在原地的开发者的精准喊话,而不是一次泛泛的产品发布。",
+      "url": "https://x.com/amasad/status/2093533378880667787",
+      "tags": ["Replit", "Cursor", "OpenAI", "competition"]
+    },
+    {
+      "id": "thariq-cursor-partnership-continues",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "As OpenAI was severing Cursor's model access, Anthropic's Thariq posted the opposite signal: a public show of admiration for the Cursor team and a stated commitment to \"continue to partner with them.\" Read against Sottiaux's announcement the same day, it reads less like a routine compliment and more like Anthropic positioning itself as the stable model supplier Cursor can still rely on.",
+      "summaryZh": "就在 OpenAI 切断 Cursor 模型访问权限的同一天,Anthropic 的 Thariq 发出了截然相反的信号:公开表达对 Cursor 团队的赞赏,并表示会“继续与他们合作”。结合当天 Sottiaux 的公告来看,这条推文与其说是一句例行的客套话,不如说是 Anthropic 在向外界表明,自己是 Cursor 仍然可以依赖的那个稳定的模型供应方。",
+      "url": "https://x.com/trq212/status/2093541555068182781",
+      "tags": ["Anthropic", "Cursor", "Claude Code", "partnership"]
+    },
+    {
+      "id": "guillermo-rauch-agent-centric-web-eve",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch argues the web is splitting into two extremes with nothing durable left in the middle: ultra-fancy human experiences built for delight and brand on one end, and pure, lossless agent-centric content and APIs (markdown, MCP) on the other — with \"the agent as the new browser\" generating just-in-time UI for whatever falls in between. He points to explosive MCP adoption (citing npm downloads of the mcp-handler package) as early proof, and shipped eve the same day, a tool he pitches as the rare agent framework that hands developers a Git repo giving them real ownership of the runtime, model choice, skills, tools, and sandbox rather than a black box.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 认为,互联网正在分裂成两个极端,中间地带不再有立足之地:一端是为了愉悦感和品牌打造的极致人类体验,另一端是纯粹、无损的面向 agent 的内容和 API(markdown、MCP),而“agent 就是新的浏览器”,会为介于两者之间的一切需求即时生成 UI。他以 MCP 的爆炸式增长为佐证(引用了 mcp-handler 这个 npm 包的下载量),并在同一天上线了 eve——他将其定位为少见的能把一个 Git 仓库真正交到开发者手中的 agent 框架,让开发者真正掌控运行时、模型选择、技能、工具和沙箱,而不是一个黑箱。",
+      "url": "https://x.com/rauchg/status/2093482695838007318",
+      "tags": ["Vercel", "agents", "MCP", "product launch"]
+    },
+    {
+      "id": "aaron-levie-ai-belief-half-life",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "Box CEO",
+      "summary": "Box CEO Aaron Levie says the average strongly held belief in AI now lasts about six months before the industry quietly abandons it, and lists a dozen examples with no current consensus either way: \"OSS is too far behind to catch up,\" \"the labs can't be profitable at scale,\" \"RAG is dead,\" \"we've hit a training wall,\" \"prompting won't matter in the future.\" His takeaway isn't which of these is right, but that operators need to stay flexible in their thinking because the field will stay in constant flux for a while.",
+      "summaryZh": "Box CEO Aaron Levie 说,如今 AI 领域里一条被人坚信不疑的观点,平均只能撑大约六个月就会被行业悄悄抛弃,他列举了一打这样的例子,而且目前对它们谁对谁错都没有共识:“开源太落后追不上了”“实验室没法大规模盈利”“RAG 已死”“我们撞上了训练的天花板”“未来 prompting 不再重要”。他给出的结论不是这些说法哪个是对的,而是从业者必须保持思维上的灵活,因为这个领域还会持续剧烈变动相当一段时间。",
+      "url": "https://x.com/levie/status/2093568352736436576",
+      "tags": ["Box", "AI industry", "commentary"]
+    },
+    {
+      "id": "madhu-guru-playbook-half-life",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI senior director Madhu Guru says AI product playbooks now go stale in about three months, versus the five years a traditional product org expects to milk a working formula — and that AI labs deliberately throw playbooks away once they see diminishing returns rather than defending them. Her prescription for builders: stop optimizing for playbook execution and instead build meta-principles for continuously sensing what the market wants now versus three months out, paired with a team built to execute with urgency, since \"legacy teams are optimized for playbook milking\" while AI teams need to be optimized for inventing.",
+      "summaryZh": "Meta AI 高级总监 Madhu Guru 表示,如今 AI 产品的打法大约三个月就会过时,而传统产品团队通常指望一套打法能吃上五年;AI 实验室的做法是,一旦看到边际收益递减,就主动放弃这套打法,而不是死守不放。她给建设者的建议是:不要再执着于把一套打法执行到极致,而是要建立一套元原则,持续感知市场当下想要什么、三个月后又会想要什么,并配上一支能雷厉风行执行的团队,因为“传统团队是为了把一套打法吃干榨尽而优化的”,而 AI 团队需要为不断发明新打法而优化。",
+      "url": "https://x.com/realmadhuguru/status/2093562783627620456",
+      "tags": ["Meta", "AI product", "strategy"]
+    },
+    {
+      "id": "peter-yang-grok-bot-end-state",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang argues Claude Cowork and ChatGPT Work are both partial solutions and that Grok Bot is closer to the right end state for a capable AI agent product aimed at non-technical people, because \"Grok Bot\" reads immediately as a computer running in the cloud, while most people couldn't explain the difference between ChatGPT Work and Codex, or how Claude Cowork actually works under the hood. His bet is on legibility of the mental model, not raw capability, as the thing that decides which agent product wins with mainstream users.",
+      "summaryZh": "Peter Yang 认为,Claude Cowork 和 ChatGPT Work 都只是过渡性的部分解决方案,而 Grok Bot 更接近面向非技术用户的能力型 AI agent 产品的正确终局形态,原因是“Grok Bot”这个名字能让人立刻理解成“一台跑在云端的电脑”,而大多数人根本说不清 ChatGPT Work 和 Codex 有什么区别,也不明白 Claude Cowork 底层到底是怎么运作的。他押注的是心智模型的易理解程度,而不是原始能力,才是决定哪款 agent 产品能真正打入主流用户的关键。",
+      "url": "https://x.com/petergyang/status/2093379695144530313",
+      "tags": ["Grok", "AI agents", "product", "UX"]
+    },
+    {
+      "id": "zara-zhang-slop-and-grok-bot-risk",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "summary": "Zara Zhang pushes back on equating AI-generated content with \"slop,\" arguing the real test is whether the content is informed by specific, unique human experience or perspective — there's plenty of human-generated slop, and plenty of AI-assisted work that clears that bar. Separately, she raised a concrete safety question about Grok Bot: if you sign into your real X account inside its virtual computer and let it act on your timeline, bookmarks, or followers, is there a risk of the account getting banned or flagged — noting she's stayed cautious about giving any agent that kind of account access precisely because she doesn't know the answer.",
+      "summaryZh": "Zara Zhang 反对把 AI 生成的内容直接等同于“slop”(垃圾内容),她认为真正的判断标准是这些内容是否体现了具体、独特的人类经验或视角——人类自己也能产出大量垃圾内容,而不少 AI 辅助的作品同样能达到这个标准。另外,她还提出了一个关于 Grok Bot 的具体安全疑问:如果在它的虚拟电脑里登录自己真实的 X 账号,让它去处理时间线、书签或关注列表,账号是否有被封禁或标记的风险——她表示自己一直对给任何 agent 这种账号访问权限保持谨慎,正是因为不清楚答案。",
+      "url": "https://x.com/zarazhangrui/status/2093396989329469505",
+      "tags": ["AI content", "Grok", "agent security"]
+    },
+    {
+      "id": "nikunj-kothari-pitch-advice",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari offers founders two pieces of pitch advice drawn from what he's seeing in the current AI fundraising wave: the best pitches don't even need to use the word \"AI,\" and AI can't be the only \"why now\" a founder leans on. He flags it as subjective to his own preferences rather than universal VC wisdom, but frames both points as things founders should get ahead of before walking into a room.",
+      "summaryZh": "FPV Ventures 的合伙人 Nikunj Kothari 结合当下 AI 融资热潮中观察到的现象,给创业者提出了两条建议:最好的 pitch 甚至不需要用到“AI”这个词;AI 不能是你唯一的“为什么是现在”的理由。他承认这只是自己个人偏好,并非放之四海而皆准的风投智慧,但强调创业者最好在走进会议室之前就先把这两点想清楚。",
+      "url": "https://x.com/nikunj/status/2093367245024240043",
+      "tags": ["venture capital", "fundraising", "advice"]
+    },
+    {
+      "id": "no-priors-eon-data-infrastructure",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "takeaway": "The AI-era enterprise data fight is really a security fight: agents with legitimate permissions can now drop a production table as fast as any ransomware attack, and most companies don't know what data they even have to protect.",
+      "takeawayZh": "AI 时代的企业数据之争,本质上是一场安全之争:拥有合法权限的 agent 现在能像勒索软件一样迅速删掉一张生产数据库表,而大多数公司甚至不知道自己到底有哪些数据需要保护。",
+      "summary": "Ofir Ehrlich and Gonen Stein, co-founders of Eon (and previously of CloudEndure, sold to AWS), came on No Priors to explain why they think enterprise data infrastructure has to be rebuilt for the AI era. Eon started as cloud backup and disaster recovery, but the founders say the AI wave turned that into something bigger: a platform that maps, classifies, and ingests scattered structured and unstructured data — much of it locked away for twenty years in systems \"no one really understands\" — into a foundation AI models can actually query. Their opening data point is blunt: Google just paid $10M for bankrupt Spirit Airlines' customer data specifically to train models on it, reportedly outbidding Mercor, and Stein says labs are now going directly to Wall Street hedge funds asking to buy proprietary datasets, because \"models, compute, everything is relatively ephemeral\" while data has become the only real moat left.\n\nThe security framing is where the conversation gets sharpest. Ehrlich, who watched a large AWS customer get hit by ransomware despite believing they were protected (they hadn't mapped or tagged their resources properly, so 60% of the environment was exposed), says the same failure mode is now showing up with AI agents that hold legitimate credentials: \"the same type of threat is coming from non-human actors... a table is all of a sudden dropped,\" and detecting it requires similar anomaly-detection methodology to ransomware, just at far higher velocity. Stein adds that six months ago no enterprise leader wanted to discuss this; now nearly everyone he meets either fears it happening or has already lived through it, partly because non-technical employees are building agents on tools like Lovable with company data and no awareness of compliance exposure.\n\nOn what survives the shift, Stein argues most of today's ETL and data-engineering plumbing was built single-purpose and disconnected — a credit-card transaction and a customer-support ticket about the same person never talk to each other — and that only companies that can cheaply unify and contextualize their data will let teams \"go wild\" with it. He predicts more dashboards, not fewer, since tracking what an unbounded chain of agents-triggering-agents is actually doing inside an organization is becoming its own unsolved problem, one reason he says non-human-identity security startups are proliferating. His closing read on the moment: enterprises are being pushed by boards and CEOs to adopt AI immediately while simultaneously terrified of losing control, and \"most companies still don't use AI\" — the transformation, he says, has barely started.",
+      "summaryZh": "Eon 的联合创始人 Ofir Ehrlich 和 Gonen Stein(此前创立的 CloudEndure 已被 AWS 收购)做客 No Priors,讲述了他们认为企业数据基础设施为何必须为 AI 时代重新打造。Eon 最初做的是云备份和灾难恢复,但两位创始人说 AI 浪潮把这件事变成了更大的事情:一个能够对分散在各处的结构化和非结构化数据进行映射、分类、并接入的平台,其中很多数据已经在“没人真正搞得清楚是什么”的系统里锁了二十年,现在要把它们整合成一个 AI 模型真正能够查询的基础层。他们开场就抛出一个很直白的数据点:Google 刚刚花了 1000 万美元买下破产的 Spirit 航空的客户数据,专门用来训练模型,据说还压过了 Mercor 的出价;Stein 说,现在各大实验室已经直接找上华尔街的对冲基金,要求购买其专有数据集,因为“模型、算力,这些东西相对而言都是转瞬即逝的”,而数据已经成了唯一真正的护城河。\n\n对话中最尖锐的部分是关于安全的讨论。Ehrlich 曾亲眼见证一家大型 AWS 客户遭遇勒索软件攻击,尽管他们自认为已经受到保护(但因为没有正确地映射和标记资源,导致 60% 的环境暴露在外),他说同样的失败模式,如今正出现在持有合法凭证的 AI agent 身上:“同类型的威胁现在也来自非人类的行动者……一张数据表突然就被删掉了”,而检测这种情况需要和检测勒索软件类似的异常检测方法,只是速度快得多。Stein 补充说,半年前几乎没有企业领导者愿意谈这个话题,而现在他遇到的几乎每个人,要么害怕这种事发生在自己身上,要么已经亲身经历过,部分原因是非技术员工正在用 Lovable 这类工具搭建 agent,把公司数据放进去,却完全没有意识到合规风险。\n\n谈到这场变革中哪些东西会留存下来时,Stein 认为如今大多数 ETL 和数据工程的“管道”都是为单一目的、彼此割裂而建的——一笔信用卡交易记录和同一个人的一张客服工单,彼此从不互通。只有那些能够低成本地统一并赋予数据上下文的公司,才能让团队真正“放开手脚”地使用数据。他预测仪表盘不会减少反而会增多,因为追踪一条由 agent 触发 agent、层层嵌套、边界无限延伸的链条,在组织内部到底在做什么,正在成为一个全新的、尚未解决的难题,这也是他认为“非人类身份(NHI)”安全类初创公司如雨后春笋般涌现的原因之一。他对当下这个时刻的总结是:企业一边被董事会和 CEO 逼着立刻拥抱 AI,一边又极度害怕失去掌控,而“大多数公司现在其实还没用上 AI”——这场转型,他说,才刚刚开始。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["podcast", "enterprise data", "AI security", "No Priors"]
+    }
+  ]
+}
