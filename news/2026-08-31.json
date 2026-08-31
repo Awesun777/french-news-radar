@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "id": "anthropic-infostealer-claude-sessions",
+      "category": "general",
+      "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+      "summary": "Anthropic disclosed on August 30 that a bad actor is using common infostealer malware (Vidar, LummaC2, StealC, RedLine, Acreed on Windows; Atomic Stealer on a small number of Macs) to steal active Claude login sessions from infected PCs, then using those sessions to access accounts and burn through usage without authorization. Anthropic is signing affected users out everywhere, removing saved payment methods, and refunding unauthorized charges, and stresses the malware isn't distributed via Claude itself.",
+      "whyItMatters": "A reminder that session/credential theft is a live threat vector for any product wired into an LLM API key or user account — worth double-checking how Romain/Anna's backend stores and rotates API credentials and OAuth sessions rather than assuming the provider's own account is the weak link.",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+      "source": "BleepingComputer",
+      "tags": ["security", "anthropic", "malware", "accounts"]
+    },
+    {
+      "id": "npr-newsguard-chatbot-propaganda-test",
+      "category": "general",
+      "title": "NPR/NewsGuard test finds AI chatbots debunk foreign propaganda better than search engines",
+      "summary": "NPR and NewsGuard published results on August 30 from testing ChatGPT, Gemini, Copilot, Meta AI, Grok, and Claude against 30 false narratives pushed by China, Iran, and Russia since December 2025. All six chatbots correctly identified the falsehoods roughly three-quarters of the time and generally avoided repeating disinformation, outperforming AI-generated summaries placed above traditional search results.",
+      "whyItMatters": "A useful data point on how much to trust an LLM's factual grounding out of the box — relevant if Romain or Anna ever answer open-ended cultural or current-events questions in French rather than sticking to scripted tutoring content.",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5876436/chatbots-search-propaganda",
+      "source": "NPR",
+      "tags": ["llm", "misinformation", "evaluation", "trust"]
+    }
+  ]
+}
