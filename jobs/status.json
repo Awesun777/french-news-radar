@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-08-30T06:39:52Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-08-31T06:42:02Z",
+  "outcome": "no-new-postings",
   "newCount": 1,
   "detail": "1 new posting (Pwc); Deutsche Bank and Barclays Workday tenants recovered and now queried directly, all matched postings already tracked; UBS's Taleo search UI and Bda partners' evergreen page again yielded no new extractable postings",
   "dayFile": "2026-08-30",
