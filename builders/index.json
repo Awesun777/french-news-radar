@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-30T06:32:39Z",
+  "generatedAt": "2026-08-31T06:30:46Z",
   "digests": [
+    {
+      "date": "2026-08-31",
+      "title": "Rauch ships fx 0.0.7 with deeper MCP support, Science's Max Hodak on the brain as a computer",
+      "itemCount": 5,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Vercel CEO Guillermo Rauch ships fx 0.0.7 with hugely improved MCP support validated against Context7, Datadog, MongoDB, Linear, Notion, Supabase, Neon, Stagehand, and Kernel, while stripping the tool down to fewer, more reliable built-in commands",
+        "Matt Turck says every frontier AI lab is now converging on recursive self-improvement, pointing to Ryan Greenblatt's timeline for a plausible AI takeover as early as late 2028 or 2029",
+        "Science Corp CEO Max Hodak tells No Priors his retinal implant Prima just won European approval to start restoring sight to blind patients, built on the conviction that \"the brain very literally, very clearly, plainly is a computer\""
+      ]
+    },
     {
       "date": "2026-08-30",
       "title": "OpenAI severs Cursor's model access as Anthropic and Replit court the fallout, Eon's founders on AI agents as the new ransomware",

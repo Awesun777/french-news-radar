@@ -1,0 +1,57 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "id": "rauch-fx-0-0-7-mcp",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch shipped v0.0.7 of fx, his open-source CLI agent, with what he calls \"hugely improved\" MCP support validated against production-grade MCP servers from Context7, Datadog, MongoDB, Linear, Notion, Supabase, Neon, Stagehand, and Kernel. He's also stripping the tool down — fewer built-in tools, smarter shell execution — arguing that reliably running arbitrary commands (handling hangs, huge output, and monitorability) is one of the hardest unsolved problems in CLI coding agents.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 发布了他的开源 CLI agent fx 的 0.0.7 版本,他称这次带来了\"大幅改进\"的 MCP 支持,并用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon、Stagehand 和 Kernel 等生产级 MCP 服务器做了验证。他还在给工具做减法——内置工具更少,shell 执行更智能——他认为,可靠地运行任意命令(处理卡死、巨量输出和可监控性)是 CLI coding agent 至今仍未解决的最难问题之一。",
+      "url": "https://x.com/rauchg/status/2093736865191076318",
+      "tags": ["MCP", "CLI agents", "developer tools", "product update"]
+    },
+    {
+      "id": "turck-rsi-takeover-2029",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at FirstMark Capital, host of the MAD Podcast",
+      "summary": "FirstMark VC and MAD Podcast host Matt Turck argues every frontier AI lab is now converging on the same project: recursive self-improvement (RSI), AI building AI. He points to Redwood Research's Ryan Greenblatt's timeline putting an AI takeover as plausible as soon as late 2028 or 2029 — framing RSI less as one lab's bet and more as the industry's shared, and riskiest, north star.",
+      "summaryZh": "FirstMark 的 VC、MAD Podcast 主持人 Matt Turck 认为,所有前沿 AI 实验室现在其实都在做同一件事:recursive self-improvement(RSI),也就是用 AI 来构建 AI。他援引 Redwood Research 的 Ryan Greenblatt 的时间线,认为最早在 2028 年底或 2029 年就有可能出现 AI takeover——他把 RSI 视为整个行业共同的、也是风险最高的北极星,而不只是某一家实验室的孤注一掷。",
+      "url": "https://x.com/mattturck/status/2093794720510062617",
+      "tags": ["AI takeover", "recursive self-improvement", "AI safety", "frontier labs"]
+    },
+    {
+      "id": "zhang-ai-product-homogeneity",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang says the AI product boom has produced more sameness than innovation: despite an exploding number of launches, she argues there aren't many radically new ideas, and most tools blur together until you've sunk hours figuring out what's actually different. Her second gripe: every new AI product demands the same laundry list of integrations — Gmail, Calendar, Notion, Granola, GitHub, Slack — turning onboarding into homework instead of a reason to switch.",
+      "summaryZh": "独立创业者 Zara Zhang 认为,这波 AI 产品热潮带来的更多是同质化,而不是创新:尽管新产品层出不穷,她认为真正激进的新想法并不多,大多数工具彼此模糊难辨,得花上好几个小时才能搞清楚它们到底有什么不同。她的第二个抱怨是,几乎每个新 AI 产品都要求接入同一串工具——Gmail、Calendar、Notion、Granola、GitHub、Slack——让 onboarding 变得像做作业,而不是让人有理由切换过去。",
+      "url": "https://x.com/zarazhangrui/status/2093944988262371465",
+      "tags": ["AI products", "product design", "startups"]
+    },
+    {
+      "id": "kothari-token-price-war",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner at FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari reads the current spat between big model labs as the opening move of a coming price correction: he predicts subsidized token prices rise within six months as compute costs and shortages get \"actually\" felt, meaning today's generous reset limits disappear. He frames it as good for customer choice long-term, but expects it to simultaneously hand another $1-30B in valuation to the \"open harness\" layer sitting on top of the labs in the short run.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 认为,大模型实验室之间目前的这场纷争,其实是即将到来的价格修正的开端:他预测六个月内,随着算力成本和短缺被\"真正\"感受到,被补贴的 token 价格会上涨,也就是说现在这种慷慨的 reset 额度会消失。他认为这从长期看对用户选择是好事,但短期内会让处在实验室之上的 \"open harness\" 这一层再获得 10 到 300 亿美元的估值。",
+      "url": "https://x.com/nikunj/status/2093860971781746776",
+      "tags": ["token pricing", "AI economics", "venture capital"]
+    },
+    {
+      "id": "no-priors-max-hodak-science",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+      "takeaway": "Science Corp CEO Max Hodak argues the brain is literally a computer, and it's why his lab just won European approval to sell an implant that restores sight to blind patients.",
+      "takeawayZh": "Science Corp 创始人兼 CEO Max Hodak 认为大脑本质上就是一台计算机,这也是他的实验室刚刚在欧洲拿到批准、可以销售一款帮助失明患者恢复视力的植入设备的原因。",
+      "summary": "Max Hodak, founder and CEO of Science Corp (formerly of Neuralink), just won CE marking in Europe for Prima, a retinal prosthesis for patients who've gone blind from diseases like macular degeneration — clearing the device to start commercial sales within weeks. It's a tiny chip implanted under the retina that pairs with glasses carrying a laser projector, bypassing dead photoreceptors to stimulate the retina directly. In trials, patients who'd been completely blind went from nothing to filling in sudoku puzzles and reading books.\n\nHodak's founding thesis is unapologetically literal: \"the brain very literally, very clearly, plainly is a computer,\" and treating medicine that way gets results biology-first approaches rarely deliver — implant electrodes in motor cortex and \"you will probably be using a computer in an hour,\" he says, something no drug trial can promise. That conviction is why Science skipped biotech's usual small-molecule slog for a device-first strategy, acquiring French startup Pixium (which held the state of the art in electrical retinal stimulation) and building toward what Hodak calls \"substrate independence\" — separating the mind from any one physical body.\n\nNotably, Hodak is uninterested in the most obvious pitch for brain-computer interfaces: a \"brain keyboard\" that lets you silently dictate to an AI. He argues that talking or writing is thinking itself, not a slow proxy for some faster pre-formed thought, and that the brain has a hard ~10-bit-per-second cognitive bottleneck no interface can bypass. Instead he's betting on the other end of the spectrum — restoring vision and hearing now, and eventually treating cancer and cardiovascular disease through the same brain-first lens, on the theory that \"the two leading causes of death... are cardiovascular disease and cancer that metastasized to the brain,\" and both are attackable through this approach.",
+      "summaryZh": "Max Hodak 是 Science Corp 的创始人兼 CEO(此前曾任职于 Neuralink),他刚刚为 Prima 拿到了欧洲 CE 认证——这是一款视网膜假体,面向因黄斑变性等疾病而失明的患者,意味着这款设备将在几周内开始商业销售。Prima 是一枚植入视网膜下方的微型芯片,搭配带有激光投影仪的眼镜使用,绕过已经死亡的感光细胞直接刺激视网膜。在临床试验中,原本完全失明的患者恢复到能填数独、能读书的程度。\n\nHodak 的创业理念毫不含糊:\"大脑真的、非常清楚、明明白白就是一台计算机\",而一旦用这种方式来做医学,就能得到生物学路径很少能给出的效果——他说,把电极植入运动皮层,\"你大概一小时之内就能用电脑\",这是任何药物试验都无法承诺的。正是这种信念,让 Science 跳过了生物科技行业惯常的小分子药物长跑,转而采取以设备为先的策略:收购了法国初创公司 Pixium(它在视网膜电刺激领域拥有当时最先进的技术),并朝着 Hodak 所说的 \"substrate independence\" 迈进——让心智不再依附于某一具体的身体。\n\n值得注意的是,Hodak 对脑机接口领域最显而易见的卖点毫无兴趣——也就是让人可以无声地\"口述\"给 AI 的 \"brain keyboard\"。他认为,说话或写作本身就是思考的过程,而不是某种更快的、预先成形的想法的缓慢替代品,大脑存在一个每秒约 10 bit 的认知瓶颈,任何接口都无法绕开。相反,他押注的是光谱的另一端——现在先恢复视觉和听觉,最终以同样\"大脑优先\"的思路去治疗癌症、心血管疾病这类问题,他的理由是\"两大主要死因……是心血管疾病,以及转移到大脑的癌症\",而这两者都可以通过这种方法去攻克。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["brain-computer interface", "medical device", "neuroscience", "podcast"]
+    }
+  ]
+}
