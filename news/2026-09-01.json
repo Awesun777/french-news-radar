@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "id": "apple-openai-trade-secret-evidence",
+      "category": "general",
+      "title": "Apple files 'shocking evidence' in trade-secret suit against ex-employee now at OpenAI",
+      "summary": "On August 31, Apple submitted new forensic evidence pulled from former engineer Chang Liu's old Apple laptop, alleging he used a confidential Apple circuit schematic and an internally-named tool at OpenAI, and enlisted a colleague to help destroy evidence once he learned Apple was investigating. Apple says over 400 former employees now work at OpenAI and is seeking a preliminary injunction plus expedited discovery; OpenAI calls the suit \"meritless.\"",
+      "whyItMatters": "A reminder that trade-secret and data-provenance risk cuts both ways when hiring from big incumbents — worth keeping engineering and design docs cleanly separated from anything brought in by staff who joined from a competitor.",
+      "url": "https://techcrunch.com/2026/08/31/apple-shares-shocking-evidence-against-former-employee-accused-of-stealing-company-data-for-openai/",
+      "source": "TechCrunch",
+      "tags": ["legal", "openai", "apple", "trade-secrets"]
+    },
+    {
+      "id": "pentagon-genai-mil-chatgpt-grok",
+      "category": "general",
+      "title": "Pentagon launches military ChatGPT and Grok via GenAI.mil, skips Claude",
+      "summary": "On August 31, the Department of Defense rolled out \"ChatGPT Mil\" and \"Grok for Government\" through GenAI.mil, a secure portal already used by over 1.7 million of the department's 3 million civilian and military personnel, keeping DoD data out of consumer AI pipelines. Google Gemini is part of the program too, but Anthropic's Claude was notably left out after past disputes with the Pentagon over safety guardrails.",
+      "whyItMatters": "A live example of a major customer walking away from a vendor over safety-guardrail disagreements — a useful data point for any product wiring in an LLM provider whose refusal/safety behavior might not fit a specific use case, like a French tutor aimed at younger learners.",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "source": "TechCrunch",
+      "tags": ["enterprise", "government", "anthropic", "safety"]
+    },
+    {
+      "id": "instagram-ai-generated-profile-label",
+      "category": "general",
+      "title": "Instagram limits reach of undisclosed AI-generated profiles",
+      "summary": "On August 31, Meta renamed Instagram's \"AI creator\" label to \"AI-generated profile\" and said accounts featuring a synthetic persona that skip the label will see their Reels/Explore discovery reach throttled. Creators who use AI only to edit photos or polish captions aren't affected; Meta says the change responds to user frustration about not knowing when a profile's \"person\" isn't real.",
+      "whyItMatters": "Signals where platform-level disclosure norms for AI personas are heading — relevant if Romain or Anna ever get social-facing presences (demo clips, marketing avatars) that could be mistaken for real people.",
+      "url": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/08/Instagram-label-.png?w=1024",
+      "tags": ["policy", "disclosure", "consent", "meta"]
+    }
+  ]
+}

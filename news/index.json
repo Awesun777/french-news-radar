@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-31T06:27:23Z",
+  "generatedAt": "2026-09-01T13:00:00Z",
   "digests": [
+    {
+      "date": "2026-09-01",
+      "title": "Apple's OpenAI evidence, Pentagon skips Claude for ChatGPT and Grok",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "Apple files 'shocking evidence' in trade-secret suit against ex-employee now at OpenAI",
+        "Pentagon launches military ChatGPT and Grok via GenAI.mil, skips Claude",
+        "Instagram limits reach of undisclosed AI-generated profiles"
+      ]
+    },
     {
       "date": "2026-08-31",
       "title": "Infostealer malware drains Claude sessions, chatbots beat propaganda",
