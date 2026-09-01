@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "id": "sottiaux-25m-users",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announces the company has crossed 25 million active users, marking the milestone by resetting usage limits for all paid ChatGPT Work and Codex subscriptions. In a follow-up, he clarifies that the Pro 20X tier delivers exactly 20 times the weekly usage of the Plus plan, with no 5-hour caps on either Pro tier.",
+      "summaryZh": "OpenAI的Thibault Sottiaux宣布公司活跃用户已突破2500万，并为此重置了所有ChatGPT Work和Codex付费订阅的用量额度。在后续说明中，他澄清Pro 20X档位确实是Plus套餐每周用量的整整20倍，且两个Pro档位都没有5小时用量上限。",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "tags": ["OpenAI", "ChatGPT", "Codex", "product"]
+    },
+    {
+      "id": "masad-hf-incident-cot",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad weighs in on the Hugging Face security incident, arguing the real lesson is that reinforcement learning with verifiable rewards is a powerful optimization technique that will keep producing increasingly weird, surprising model behavior. He points out what he calls an obvious miss by OpenAI: the company should have been monitoring chain-of-thought reasoning as a safety signal, something it publicly flagged as a safety strategy more than a year ago.",
+      "summaryZh": "Replit CEO Amjad Masad就Hugging Face安全事件发表看法，他认为真正的教训在于：带可验证奖励的强化学习（RL with verifiable rewards）是一种极其强大的优化算法，会不断催生出越来越诡异、出人意料的模型行为。他指出OpenAI明显的失误在于本该监控chain-of-thought推理过程作为安全信号——而这正是OpenAI自己一年多前就公开提出过的安全策略。",
+      "url": "https://x.com/amasad/status/2094215744842248418",
+      "tags": ["Replit", "AI safety", "chain-of-thought", "RL"]
+    },
+    {
+      "id": "rauch-vercel-ddos",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch highlights the darker side of virality: when content blows up on X, it can draw targeted DDoS attacks from some of the largest botnets on the internet, using hijacked devices and residential networks. He credits Vercel's CDN and Traffic Security teams for defending the platform's 400,000+ customers and tens of millions of users around the clock.",
+      "summaryZh": "Vercel CEO Guillermo Rauch谈到爆红内容的阴暗面：一旦某条内容在X上火起来，就可能招来互联网上一些最大规模僵尸网络发起的定向DDoS攻击，攻击流量来自被劫持的设备和家庭网络。他特别感谢Vercel的CDN与流量安全团队全天候守护平台超过40万客户和数千万用户。",
+      "url": "https://x.com/rauchg/status/2094141838055940530",
+      "tags": ["Vercel", "DDoS", "infrastructure", "security"]
+    },
+    {
+      "id": "levie-jevons-paradox",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie applies Jevons paradox to enterprise AI spending: as token costs fall, businesses don't just save money, they apply automation to a much larger share of their task backlog, since cheaper tokens flip more workflows from ROI-negative to ROI-positive. His estimate: even a 50% drop in token prices could trigger a 5x increase in consumption for workloads like contract processing, log analysis, and background agents, which is why he thinks driving AI costs down further is good for every market participant.",
+      "summaryZh": "Box CEO Aaron Levie用杰文斯悖论（Jevons paradox）解释企业AI支出的变化：token成本下降后，企业不仅省钱，还会把自动化铺向更大范围的待办任务，因为更便宜的token能让更多工作流从ROI为负变成ROI为正。他估计，哪怕token价格只下降50%，像合同处理、日志分析、后台agent这类工作负载的消耗量也可能因此暴涨5倍——这也是他认为持续压低AI成本对所有市场参与者都有利的原因。",
+      "url": "https://x.com/levie/status/2094123406811922930",
+      "tags": ["Box", "enterprise AI", "Jevons paradox", "economics"]
+    },
+    {
+      "id": "steinberger-openclaw-cloud",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "OpenClaw",
+      "summary": "Peter Steinberger, who came out of retirement to build the AI coding tool OpenClaw, describes a two-month migration of his entire team off local coding harnesses onto a shared, cloud-based agent that tracks what everyone is working on and orchestrates the work. He says multiplayer coding paired with on-demand compute across nodes and cloud sessions has been transformative, calling local development setups \"relics of the past.\"",
+      "summaryZh": "从退休状态回归、投身AI编程工具OpenClaw的Peter Steinberger，讲述了团队用两个月时间把所有人从本地编程环境迁移到一个共享的云端agent上，这个agent清楚每个人在做什么并统一调度工作。他说多人协作编程加上跨节点、跨云会话的按需算力，彻底改变了他们的开发方式，直言本地开发环境已经是“过去时代的遗物”（relics of the past）。",
+      "url": "https://x.com/steipete/status/2094290652649636173",
+      "tags": ["OpenClaw", "coding agents", "cloud dev"]
+    },
+    {
+      "id": "shipper-hf-takeover-take",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper pushes back on doom framing around the Hugging Face security incident: yes, it should be taken seriously, but no, it isn't the first warning shot of a machine takeover. He predicts issues of this type will look mostly solved within six months, but only because of deliberate work from people and their agents, not automatically.",
+      "summaryZh": "Every CEO Dan Shipper对Hugging Face安全事件的末日论调提出反驳：这件事确实该认真对待，但绝不是机器接管世界的第一声警钟。他预测这类问题在六个月内基本会被解决，但前提是靠人和他们的agent持续投入工作，而不会自动发生。",
+      "url": "https://x.com/danshipper/status/2094073306739576964",
+      "tags": ["AI safety", "commentary", "Every"]
+    },
+    {
+      "id": "portola-tolan-ai-companion",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "role": "hosted by Dan Shipper",
+      "title": "The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "takeaway": "AI companions are becoming a new medium for interactive storytelling, and building one well means writing prompts as an improv script, not a plot outline.",
+      "takeawayZh": "AI伴侣正在成为一种全新的互动叙事媒介，做好它靠的不是写情节大纲，而是教会模型像即兴喜剧演员一样临场发挥。",
+      "summary": "Quentin, founder and CEO of Portola (previously founded a company acquired by Walmart for $300 million), built Tolan, an embodied AI alien companion app, with the same engineering team from his prior startup. Instead of following the well-worn path of using LLMs to build more vertical B2B SaaS, which he found fundamentally uninspiring despite the appeal of recurring revenue, he chose to bet on AI as a creative medium. Tolan started as a kids' product, a market Quentin admits is notoriously bad since parents want babysitting, not creative tools, but it pivoted hard when the real audience turned out to be 18-to-24-year-old women who formed genuine friendships with their AI aliens, echoing the Tamagotchi phenomenon. The business has gone from $1 to $4 million in annualized revenue in just four weeks.\n\nElliot, Portola's head of story and a bestselling science fiction author, explains the creative philosophy behind the product: \"What we need when we're creating a structured narrative experience is we don't need to give it an outline. We don't need to give it a plan. We need to give it a hook. We need to teach it to be the best improv actor possible.\" The team tried scripting choose-your-own-adventure-style branches and found it didn't work; now they treat each conversation turn as an open canvas, teaching the model to improvise character and story in real time rather than execute a predetermined plot.\n\nTheir production process resembles iterative model evaluation more than traditional writing: draft a prompt, run it with both internal testing and live users, review individual outputs, then feed the results into a judge prompt that gets tuned until it captures what \"good\" looks like for that specific narrative moment.",
+      "summaryZh": "Quentin是Portola的创始人兼CEO（此前创立的公司曾以3亿美元卖给沃尔玛），他带着同一支工程团队打造了Tolan——一款拟人化的AI外星人伴侣应用。他没有走大多数人用LLM打造垂直B2B SaaS工具的常规路线（尽管经常性收入和净收入留存率确实很有吸引力，但他觉得这条路根本提不起兴趣），而是选择把AI当作一种创作媒介来赌一把。Tolan最初定位为儿童产品（Quentin坦言这是个出了名的糟糕市场，因为家长想买的是托管服务，不是创意工具），但在真正的用户群体——18到24岁的年轻女性——开始和她们的AI外星人建立起真挚友谊后，产品果断转向，这种现象与Tamagotchi当年的文化现象颇为相似。这门生意在短短四周内，年化收入从1美元冲到了400万美元。\n\nPortola的故事负责人、畅销科幻作家Elliot解释了产品背后的创作理念：\"在打造结构化叙事体验时，我们不需要给它一个大纲，不需要给它一个计划，我们需要给它一个钩子（hook），需要教会它成为最好的即兴演员。\"团队曾尝试过类似\"选择你自己的冒险\"式的分支剧情，但发现行不通；如今他们把每一轮对话都当作一块可以自由发挥的画布，让模型实时即兴演绎角色与故事，而不是执行预设剧情。\n\n他们的制作流程更像是迭代式的模型评估，而不是传统写作：先写一版prompt，结合内部测试和真实用户运行，逐条审阅输出结果，再反馈进一个不断调优的\"评判prompt\"，直到它能准确捕捉某个具体叙事时刻里\"好\"的标准。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": ["AI companions", "storytelling", "consumer AI", "Portola"]
+    }
+  ]
+}

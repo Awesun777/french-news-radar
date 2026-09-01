@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-31T06:30:46Z",
+  "generatedAt": "2026-09-01T06:29:05Z",
   "digests": [
+    {
+      "date": "2026-09-01",
+      "title": "OpenAI hits 25M users, builders split on the Hugging Face security scare, Portola's AI companion app rockets to $4M ARR",
+      "itemCount": 7,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "OpenAI's Thibault Sottiaux marks 25 million active users by resetting usage limits across ChatGPT Work and Codex paid plans",
+        "Replit's Amjad Masad and Every's Dan Shipper offer contrasting takes on the Hugging Face security incident, one calling out OpenAI's chain-of-thought monitoring miss, the other pushing back on machine-takeover framing",
+        "Portola CEO Quentin and head of story Elliot tell Every's AI & I podcast how their AI alien companion Tolan grew from $1 to $4M in ARR in four weeks by treating prompts as improv scripts, not plot outlines"
+      ]
+    },
     {
       "date": "2026-08-31",
       "title": "Rauch ships fx 0.0.7 with deeper MCP support, Science's Max Hodak on the brain as a computer",
