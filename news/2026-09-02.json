@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": "chatgpt-pronunciation-tap-to-hear",
+      "category": "inspiration",
+      "title": "ChatGPT adds tap-to-hear pronunciation with phonetic breakdowns",
+      "summary": "OpenAI shipped a ChatGPT update on August 31 so that when you ask how to pronounce a word or phrase, you can now tap to hear it spoken aloud and see a phonetic breakdown alongside it. It ships as part of the same update wave that brought Live voice to the iPhone Lock Screen and Dynamic Island.",
+      "whyItMatters": "This is almost exactly the pronunciation-feedback loop a French tutor needs — Romain or Anna could offer a tap-to-hear + phonetic-breakdown affordance for tricky French sounds instead of relying purely on live conversational correction.",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "OpenAI (ChatGPT release notes)",
+      "tags": ["pronunciation", "feature-idea", "openai", "chatgpt"]
+    },
+    {
+      "id": "anthropic-fable-mythos-5-1",
+      "category": "models",
+      "title": "Anthropic launches Claude Fable 5.1 and Mythos 5.1",
+      "summary": "Anthropic released Fable 5.1 on September 1, its top model for coding, agentic work, and long-running problem-solving, alongside Mythos 5.1 (same model, reduced safeguards for vetted cybersecurity/life-sciences use). Cache-read pricing dropped 75%, cutting typical workload costs ~25% and agent-heavy workload costs up to ~45%, with input/output token pricing unchanged at $10/$50 per million.",
+      "whyItMatters": "Cheaper cache reads matter directly for any tutor backend that keeps a long-running system prompt or conversation history in context — a 75% cut on cached tokens lowers the per-session cost of a persistent Romain/Anna prompt.",
+      "url": "https://anthropic.com/claude-fable-and-mythos-5-1",
+      "source": "Anthropic",
+      "tags": ["llm", "anthropic", "pricing", "caching"]
+    },
+    {
+      "id": "eu-chatgpt-vlose-dsa",
+      "category": "general",
+      "title": "EU designates ChatGPT a 'Very Large Online Search Engine' under the DSA",
+      "summary": "The European Commission classified ChatGPT as a Very Large Online Search Engine on August 31, the first time a generative AI chatbot has landed in the DSA's strictest regulatory tier, after OpenAI reported 159.1 million average monthly EU users. OpenAI now has four months to comply with annual risk assessments, independent audits, regulator/researcher data access, and biannual transparency reports.",
+      "whyItMatters": "Worth tracking as a bellwether for how EU regulators treat conversational AI products with search-like behavior — relevant if a voice tutor ever adds web-connected lookups (news, current events) for French learners in the EU.",
+      "url": "https://winbuzzer.com/2026/09/01/eu-designates-chatgpt-tougher-dsa-search-engine-scrutiny-xcxwbn/",
+      "source": "WinBuzzer",
+      "tags": ["policy", "eu", "dsa", "openai"]
+    },
+    {
+      "id": "anthropic-lambda-nvidia-35b-texas",
+      "category": "general",
+      "title": "Anthropic signs $35B compute deal with Nvidia-backed Lambda for Texas data center",
+      "summary": "Anthropic signed a six-year, $35 billion cloud agreement on August 31 with Lambda (backed by Nvidia, which is also chip supplier and site landlord) for ~350 megawatts of GPU capacity at a new Hut 8-developed data center in Nueces County, Texas. It's Anthropic's second mega-deal in a week, following $45 billion committed to Nscale in West Virginia, pushing disclosed compute commitments past $80 billion.",
+      "whyItMatters": "Signals Anthropic is racing to secure enough GPU capacity to keep serving Claude at scale — a useful data point on supply-side pressure that could affect API availability or pricing stability for anyone building production voice/LLM products on Claude.",
+      "url": "https://betanews.com/article/anthropic-35-billion-lambda-nvidia-texas-deal/",
+      "source": "BetaNews",
+      "image": "https://media.betanews.com/uploads/2026/09/anthropic-signs-35-billion-lambda-deal-for-nvidia-backed-tex-5a16be49a89f4614-640x360.webp",
+      "tags": ["infrastructure", "anthropic", "nvidia", "compute"]
+    }
+  ]
+}
