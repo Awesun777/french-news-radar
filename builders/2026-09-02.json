@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": "nan-yu-joins-openai",
+      "kind": "x",
+      "author": "Nan Yu",
+      "role": "joining OpenAI; previously Head of Product, Linear",
+      "summary": "Nan Yu, Head of Product at Linear for the past four years, announces she's leaving to join OpenAI and work on Codex and ChatGPT. She frames the move as carrying everything she learned about the craft of software at Linear — a company widely regarded as a product-taste benchmark — into her next chapter.",
+      "summaryZh": "在Linear担任产品负责人四年的Nan Yu宣布即将离职,加入OpenAI负责Codex和ChatGPT相关工作。她表示这次转身是把自己在Linear（一家以产品品味著称的公司）积累的软件工艺经验,带入职业生涯的下一章。",
+      "url": "https://x.com/thenanyu/status/2094427243565269107",
+      "tags": ["OpenAI", "Linear", "Codex", "career move"]
+    },
+    {
+      "id": "guru-pm-model-frontier-alpha",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI senior director Madhu Guru argues that tracking the model frontier for your specific product is now a core part of the PM job, not a nice-to-have. She lists four questions PMs should be able to answer better than most frontier-lab researchers: what each model size handles well today, where each one fails, what workarounds cover the gaps, and what the roadmap should assume models will be capable of two to three months out.",
+      "summaryZh": "Meta AI高级总监Madhu Guru认为,持续追踪模型前沿在自家产品和场景中的具体表现,如今已是PM工作的核心职责,而不是可有可无的加分项。她列出PM应该比大多数前沿实验室的研究员和PM更能回答的四个问题:每个尺寸档位的模型现在擅长做什么、各自的失败点在哪、有哪些变通方法能弥补短板,以及按照当前趋势,两三个月后模型大概会具备什么能力、路线图该如何据此调整。",
+      "url": "https://x.com/realmadhuguru/status/2094591503981281503",
+      "tags": ["Meta", "product management", "AI strategy"]
+    },
+    {
+      "id": "rauch-ai-gateway-per-user-budgets",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says coding tokens are basically infrastructure now, yet most companies hand them out like an unrestricted AWS key that can spin up anything from a $3.80/month instance to a $40k/month one with no guardrails. He says Vercel's AI Gateway fixes this with per-key, and now per-user, budgets — the same governance, cost control, and observability companies already demand for their core infrastructure.",
+      "summaryZh": "Vercel CEO Guillermo Rauch表示,coding token本质上已经是一种基础设施,但大多数公司对待它的方式,就像随手发一把不设限制的AWS密钥——既能开一个每月3.8美元的最小实例,也能开一个每月4万美元的大实例,却毫无管控。他说Vercel的AI Gateway现在通过按key、以及新增的按用户设置预算来解决这个问题,把公司早已要求核心基础设施必须具备的治理、成本控制和可观测性,同样落到token管理上。",
+      "url": "https://x.com/rauchg/status/2094523399280435630",
+      "tags": ["Vercel", "AI infrastructure", "cost governance", "product update"]
+    },
+    {
+      "id": "levie-vertical-model-licensing",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie says the calculus has flipped for companies sitting on large proprietary datasets: licensing that data to outside labs used to be the only play, but better open-weights models plus maturing, commercialized post-training infrastructure now make training your own vertical model realistic without competing head-on with the labs on research. He still expects general-purpose frontier models to keep an edge on the broadest tasks, but predicts a future with far more models than today, spread across every vertical and domain.",
+      "summaryZh": "Box CEO Aaron Levie表示,对于坐拥大量专有数据的公司来说,算盘已经变了:过去把数据授权给外部实验室训练模型是唯一的选择,但如今开源权重模型越来越强,后训练基础设施也日趋成熟、商业化,这让企业完全可以训练自己的垂直模型,而不必在研究层面正面硬刚各大实验室。他认为通用型前沿模型在最广泛的任务上仍会保持优势,但预测未来会出现比现在多得多的模型,分布在每一个垂直领域和行业里。",
+      "url": "https://x.com/levie/status/2094650992818274514",
+      "tags": ["Box", "vertical AI", "data licensing", "enterprise AI"]
+    },
+    {
+      "id": "tan-gbrain-evals-sota",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Y Combinator's Garry Tan publishes new evals for GBrain, his open-source memory-retrieval layer for AI agents, claiming they prove it's state-of-the-art at reading memory back without an LLM in the loop. He's also added evals for saving memory straight from an agent's transcript, which he calls the best way to enrich an agent's long-term memory, and posted the underlying numbers as \"receipts\" alongside the claim.",
+      "summaryZh": "Y Combinator总裁兼CEO Garry Tan为GBrain（他开源的AI agent记忆检索层）发布了新的评测,他表示这些评测证明GBrain在无需LLM介入的情况下读取记忆的能力已达到SOTA水平。他还新增了从agent对话记录中直接保存记忆的评测,称这是丰富agent长期记忆的最佳方式,并把底层评测数据作为“证据”一并公开。",
+      "url": "https://x.com/garrytan/status/2094462971598754010",
+      "tags": ["Y Combinator", "AI agents", "memory", "open source"]
+    },
+    {
+      "id": "shipper-anthropomorphization-good-bad",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper stakes out a middle position on anthropomorphizing AI: it's useful when it helps people understand and predict how a model will behave, but harmful when it's used to sow panic or to smuggle in claims about AI consciousness and moral status. He argues most critics of anthropomorphism are rightly reacting to that second, manipulative use — not to the practice itself, which he says can be done responsibly.",
+      "summaryZh": "Every CEO Dan Shipper在AI拟人化问题上表明了一个中间立场:当拟人化能帮助人们理解和预测模型行为时,它是有用的;但当它被用来煽动恐慌,或借机夹带AI具有意识、拥有道德地位之类的主张时,它就是有害的。他认为,大多数反对拟人化的人,其实是在正确地反对后一种带有操纵性的用法,而不是反对拟人化这件事本身——他认为拟人化完全可以被负责任地使用。",
+      "url": "https://x.com/danshipper/status/2094406185109647580",
+      "tags": ["AI safety", "commentary", "Every"]
+    },
+    {
+      "id": "sutton-javed-oak-continual-learning",
+      "kind": "podcast",
+      "author": "Training Data",
+      "role": "hosted by Sonya Huang and Pat Grady",
+      "title": "Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again",
+      "takeaway": "Sutton and Javed argue today's LLMs are frozen the instant training ends, and fixing that requires new algorithms built from scratch for continual learning — not more data, and not bolting learning onto an existing model.",
+      "takeawayZh": "Sutton和Javed认为,今天的大语言模型一旦训练结束就彻底冻结了,要解决这个问题需要的是从头设计、专为持续学习打造的新算法,而不是喂更多数据,也不是把学习能力硬接到现有模型上。",
+      "summary": "Rich Sutton, author of The Bitter Lesson and a founding figure of reinforcement learning, joins his former student and Oak Lab co-founder Khurram Javed to argue that large language models are both a triumph and a dead end of the bitter lesson: they scaled spectacularly by drinking in the internet, but that data source is finite, and \"the world is massively bigger than everything we stored on the internet.\" They reject synthetic data as the fix, calling it the \"big world hypothesis\" — any simulation a team can write is microscopic next to the real world's complexity, so it can't substitute for learning from live experience.\n\nTheir sharpest claim is that today's deployed models simply don't learn. \"Their weights never change,\" Sutton says, dismissing the idea that giving a model more context counts as learning. \"They claim they can get PhD-level experience and expertise out of something that doesn't learn at all anymore. So I'm not the weird one\" — his running joke is that the field, not him, has the strange definition of learning. Javed points out that even Cursor's Tab autocomplete, one of the rare production examples of weights actually updating, only works by batching feedback from thousands of users into single policy updates — useless if you want a model to learn something specific to just you.\n\nTheir fix, drawn from Sutton's 2022 \"Alberta Plan,\" is a concrete two-part algorithm: per-weight step-size meta-learning, so most of a network's weights move too slowly to be destroyed by a single new example, paired with \"continual backprop,\" which keeps injecting freshly randomized units into the network so it never runs out of the raw variety gradient descent needs to keep growing. Their ambition for Oak is a model that stays self-consistent while continuously updating itself — potentially a trillion-parameter model running on 20 watts within five to ten years — with Sutton adding that large language models, for all their success, are \"maybe 20% or a quarter of intelligence,\" not the whole of it.",
+      "summaryZh": "《苦涩的教训》作者、强化学习奠基人之一Rich Sutton,与他的前学生、Oak Lab联合创始人Khurram Javed一起做客节目,提出一个观点:大语言模型既是“苦涩的教训”的胜利,也是它的死胡同——LLM靠疯狂吞噬互联网数据实现了惊人的规模化,但这个数据源是有限的,而“世界远比我们存进互联网里的一切都要庞大得多”。他们否定了用合成数据来解决问题的思路,称之为“大世界假说”(big world hypothesis):任何团队能写出的模拟环境,相对于真实世界的复杂度而言都微不足道,根本无法替代从真实经验中学习。\n\n两人最尖锐的论断是:今天部署的模型根本不会学习。Sutton说,“它们的权重永远不会变”,他不认同“给模型更多上下文”也算学习。“他们声称能从一个已经彻底停止学习的东西里,榨出博士级别的经验和专业能力。所以我才不是那个奇怪的人”——他一贯的调侃是,真正对“学习”这个词有奇怪定义的是整个领域,而不是他自己。Javed指出,就连Cursor的Tab自动补全——这个业内少见的“权重真的会更新”的生产案例——也只是把成千上万用户的反馈打包成批次去做一次策略更新,如果你想让模型学会只属于你自己的东西,这套方法完全没用。\n\n他们给出的解法,源自Sutton 2022年提出的“阿尔伯塔计划”(Alberta Plan),是一套具体的两部分算法:一是逐权重的步长元学习,让网络里大多数权重的更新速度慢到不会被单个新样本“冲毁”;二是配合“持续反向传播”(continual backprop),不断向网络中注入全新的随机初始化单元,确保梯度下降所需的“原始多样性”永远不会耗尽,从而让网络持续生长。他们对Oak的野心,是打造一个能持续自我更新、同时保持自洽的模型——五到十年内甚至有望做到一个万亿参数模型只耗电20瓦。Sutton还补充说,大语言模型固然取得了巨大成功,但它“也许只占智能的20%,顶多四分之一”,远非智能的全部。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "tags": ["reinforcement learning", "continual learning", "Oak Lab", "podcast"]
+    }
+  ]
+}

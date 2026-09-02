@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-01T06:29:05Z",
+  "generatedAt": "2026-09-02T06:30:23Z",
   "digests": [
+    {
+      "date": "2026-09-02",
+      "title": "Sutton and Javed on why LLMs stop learning, Nan Yu leaves Linear for OpenAI Codex",
+      "itemCount": 7,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Rich Sutton and Oak Lab co-founder Khurram Javed tell Training Data that deployed LLMs never actually learn — their weights are frozen — and lay out the continual-learning algorithms (per-weight step sizes, continual backprop) they think can fix it",
+        "Linear's outgoing Head of Product Nan Yu announces she's joining OpenAI to work on Codex and ChatGPT after four years shaping Linear's product",
+        "Aaron Levie says better open-weights models and mature post-training infra now let data-rich companies train their own vertical models instead of just licensing data to the labs, while Guillermo Rauch ships per-user token budgets treating coding tokens as real infrastructure"
+      ]
+    },
     {
       "date": "2026-09-01",
       "title": "OpenAI hits 25M users, builders split on the Hugging Face security scare, Portola's AI companion app rockets to $4M ARR",
