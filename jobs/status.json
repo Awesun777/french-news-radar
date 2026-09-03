@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-09-03T19:49:17Z",
+  "lastRunAt": "2026-09-03T20:33:41Z",
   "outcome": "new-postings",
-  "newCount": 11,
-  "detail": "11 new postings (Barclays 6, Deutsche Bank 2, JP Morgan 2, Pwc 1); manual catch-up after last night's DNS failure; DC Advisory 403-blocked; BDA Partners has no per-posting URLs",
+  "newCount": 173,
+  "detail": "173 new (Citi 80, Scotiabank 34, Mizuho americas 23, Nomura 20, Barclays 6, Mangroup 5, Deutsche Bank 2, JP Morgan 2, Pwc 1); watchlist synced (+6 companies, first-run snapshots); BNPP 403-blocked, DC Advisory 403, BDA no URLs",
   "dayFile": "2026-09-03",
   "companies": {
     "Deutsche Bank": "ok",
@@ -13,8 +13,12 @@
     "Dc advisory": "unreachable",
     "Bda partners": "ok",
     "Houlihan Lokey": "ok",
-    "Macquarie": "ok",
-    "Pwc": "ok",
-    "Ubs": "ok"
+    "Ubs": "ok",
+    "Mizuho americas": "ok",
+    "Mangroup": "ok",
+    "Scotiabank": "ok",
+    "Nomura": "ok",
+    "Citi": "ok",
+    "BNPP": "unreachable"
   }
 }

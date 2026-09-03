@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:08:57.459Z",
+  "updatedAt": "2026-09-03T20:30:02.217Z",
   "companies": [
     {
       "id": "deutsche-bank",
@@ -66,28 +66,60 @@
       "addedAt": "2026-08-19T16:13:50.125Z"
     },
     {
-      "id": "macquarie",
-      "company": "Macquarie",
-      "careersUrl": "https://recruitment.macquarie.com/en_US/careers/SearchJobs/?10671=%5B871428%5D&10671_format=21337&10672=%5B887459%5D&10672_format=21338&10703=%5B341310%5D&10703_format=21378&listFilterMode=1&jobRecordsPerPage=9&jobOffset=0",
-      "roles": "Analyst, Associate",
-      "countries": "United States",
-      "addedAt": "2026-08-19T20:10:31.432Z"
-    },
-    {
-      "id": "pwc",
-      "company": "Pwc",
-      "careersUrl": "https://jobs-us.pwc.com/us/en/search-results",
-      "roles": "Deals",
-      "countries": "United States",
-      "addedAt": "2026-08-19T20:11:26.282Z"
-    },
-    {
       "id": "ubs",
       "company": "Ubs",
       "careersUrl": "https://jobs.ubs.com/TGNewUI/Search/Home/Home?partnerid=25008&siteid=5155#keyWordSearch=&locationSearch=United%20States&Job%20Type=Full%20Time&Business%20Divisions=Asset%20Management_or_Global%20Wealth%20Management_or_Investment%20Bank",
       "roles": "Investment Banking, Research",
       "countries": "United States",
       "addedAt": "2026-08-19T22:07:20.309Z"
+    },
+    {
+      "id": "scotiabank",
+      "company": "Scotiabank",
+      "careersUrl": "https://jobs.scotiabank.com/search/?createNewAlert=false&q=&locationsearch=new+york",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-20T03:22:30.387Z"
+    },
+    {
+      "id": "bnpp",
+      "company": "BNPP",
+      "careersUrl": "https://group.bnpparibas/en/careers/all-job-offers?country=10%7C883%7C210%7C212%7C214%7C218%7C221",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-20T04:05:32.999Z"
+    },
+    {
+      "id": "nomura",
+      "company": "Nomura",
+      "careersUrl": "https://careers.nomura.com/Nomura/go/Career-Opportunities-Americas/9050800/",
+      "roles": "Analyst",
+      "countries": "United States",
+      "addedAt": "2026-08-28T18:14:06.847Z"
+    },
+    {
+      "id": "mizuho-americas",
+      "company": "Mizuho americas",
+      "careersUrl": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas",
+      "roles": "analyst, associate",
+      "countries": "United States",
+      "addedAt": "2026-09-02T05:45:26.697Z"
+    },
+    {
+      "id": "mangroup",
+      "company": "Mangroup",
+      "careersUrl": "https://job-boards.eu.greenhouse.io/mangroup",
+      "roles": "Analyst",
+      "countries": "United States",
+      "addedAt": "2026-09-03T19:43:18.605Z"
+    },
+    {
+      "id": "citi",
+      "company": "Citi",
+      "careersUrl": "https://jobs.citi.com/search-jobs/Investment%20Banking/New%20York%2C%20NY/287/1/4/6252001-5128638-5128581/40x71427/-74x00597/50/2",
+      "roles": "Investment Banking, Analyst, Research, Leverage Finance",
+      "countries": "United States",
+      "addedAt": "2026-09-03T20:29:48.749Z"
     }
   ]
 }

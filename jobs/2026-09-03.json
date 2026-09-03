@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "generatedAt": "2026-09-03T19:49:17Z",
+  "generatedAt": "2026-09-03T20:33:41Z",
   "items": [
     {
       "id": "barclays-1",
@@ -69,6 +69,817 @@
       ]
     },
     {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "AI & Offensive Security Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/ai-and-offensive-security-analyst-vice-president/287/96827869232",
+      "location": "Irving",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "AVP Quantitative Analyst \u2013 Flow Equity Derivatives",
+      "url": "https://jobs.citi.com/job/new-york/avp-quantitative-analyst-flow-equity-derivatives/287/98388390000",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-3",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-sr-programmer-analyst-assistant-vice-president/287/96783188896",
+      "location": "Tampa",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-4",
+      "company": "Citi",
+      "title": "Apps Development Sr Programmer Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/new-york/apps-development-sr-programmer-analyst-assistant-vice-president/287/92719759376",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-5",
+      "company": "Citi",
+      "title": "Architecture Sr Lead Analyst, Senior Vice President",
+      "url": "https://jobs.citi.com/job/irving/architecture-sr-lead-analyst-senior-vice-president/287/96310686560",
+      "location": "Irving",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-6",
+      "company": "Citi",
+      "title": "Banking - Capital Markets, Full Time Analyst, New York - USA, 2027",
+      "url": "https://jobs.citi.com/job/new-york/banking-capital-markets-full-time-analyst-new-york-usa-2027/287/97845636336",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-7",
+      "company": "Citi",
+      "title": "Banking - Commercial Banking - Natural Resources & Energy,  Summer Analyst, Houston -",
+      "url": "https://jobs.citi.com/job/houston/banking-commercial-banking-natural-resources-and-energy-summer-analyst-houston-us-2027/287/89631582048",
+      "location": "Houston",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-8",
+      "company": "Citi",
+      "title": "Banking - Commercial Banking, Summer Analyst, Los Angeles - US, 2027",
+      "url": "https://jobs.citi.com/job/los-angeles/banking-commercial-banking-summer-analyst-los-angeles-us-2027/287/92883072304",
+      "location": "Los Angeles",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-9",
+      "company": "Citi",
+      "title": "Banking - Commercial Banking, Summer Analyst, San Francisco - US, 2027",
+      "url": "https://jobs.citi.com/job/san-francisco/banking-commercial-banking-summer-analyst-san-francisco-us-2027/287/89631582096",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-10",
+      "company": "Citi",
+      "title": "Banking - Corporate Banking, Full Time Analyst, New York - USA, 2027",
+      "url": "https://jobs.citi.com/job/new-york/banking-corporate-banking-full-time-analyst-new-york-usa-2027/287/97845636640",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-11",
+      "company": "Citi",
+      "title": "Banking - Corporate Banking, Summer Analyst, Houston - US, 2027",
+      "url": "https://jobs.citi.com/job/houston/banking-corporate-banking-summer-analyst-houston-us-2027/287/89623966960",
+      "location": "Houston",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-12",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Full Time Analyst, Houston - US 2027",
+      "url": "https://jobs.citi.com/job/houston/banking-investment-banking-full-time-analyst-houston-us-2027/287/97845636976",
+      "location": "Houston",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-13",
+      "company": "Citi",
+      "title": "Business Analytics Senior Analyst",
+      "url": "https://jobs.citi.com/job/new-york/business-analytics-senior-analyst/287/98363509968",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-14",
+      "company": "Citi",
+      "title": "Corporate Banking Sr Analyst - Industrials",
+      "url": "https://jobs.citi.com/job/new-york/corporate-banking-sr-analyst-industrials/287/99123061056",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-15",
+      "company": "Citi",
+      "title": "Corporate Banking Sr Analyst - Real Estate",
+      "url": "https://jobs.citi.com/job/new-york/corporate-banking-sr-analyst-real-estate/287/99038688112",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-16",
+      "company": "Citi",
+      "title": "Corporate Banking, Analyst - Mobility, Aerospace & Defense",
+      "url": "https://jobs.citi.com/job/new-york/corporate-banking-analyst-mobility-aerospace-and-defense/287/98742236704",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-17",
+      "company": "Citi",
+      "title": "ETF Operations Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/etf-operations-senior-analyst/287/100093417776",
+      "location": "Tampa",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-18",
+      "company": "Citi",
+      "title": "Emerging Markets FX & Rates Research Strategist, LATAM \u2014 Senior Associate",
+      "url": "https://jobs.citi.com/job/new-york/emerging-markets-fx-and-rates-research-strategist-latam-senior-associate/287/99751153904",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-19",
+      "company": "Citi",
+      "title": "Equity Capital Markets Banking - Industrials, Power, Energy - Sr. Analyst",
+      "url": "https://jobs.citi.com/job/new-york/equity-capital-markets-banking-industrials-power-energy-sr-analyst/287/99130358128",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-20",
+      "company": "Citi",
+      "title": "Equity Research Analyst - US Banks (Vice President)",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-analyst-us-banks-vice-president/287/99213748720",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst",
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-21",
+      "company": "Citi",
+      "title": "Equity Research Analyst, Information Services",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-analyst-information-services/287/99340959920",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst",
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-22",
+      "company": "Citi",
+      "title": "Equity Research Analyst, SMID Biotech",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-analyst-smid-biotech/287/99130359264",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst",
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-23",
+      "company": "Citi",
+      "title": "Equity Research Associate - Semis, Networking, Hardware, Quantum",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-associate-semis-networking-hardware-quantum/287/98904584208",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-24",
+      "company": "Citi",
+      "title": "Equity Research Product Manager, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-product-manager-assistant-vice-president/287/99532143504",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-25",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate - Payments, Processors & IT Services",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-payments-processors-and-it-services/287/99807499280",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-26",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate - Telecommunications / Data Centers",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-telecommunications-data-centers/287/98457963744",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-27",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate - U.S. Multi-Industry, Engineering & Construction",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-u-s-multi-industry-engineering-and-construction/287/100084221456",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-28",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate Healthcare Technology & Distribution",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-healthcare-technology-and-distribution/287/99501114832",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-29",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Biotech",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-biotech/287/99450989168",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-30",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Digital Assets and Information Services",
+      "url": "https://jobs.citi.com/job/getzville/equity-research-senior-associate-digital-assets-and-information-services/287/99771839904",
+      "location": "Getzville",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-31",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, FinTech & Financials",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-fintech-and-financials/287/99213748864",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-32",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Healthcare Services",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-healthcare-services/287/98195474592",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-33",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, REITs",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-reits/287/98849848256",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-34",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, SMID Biotech (Assistant Vice President)",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-smid-biotech-assistant-vice-president/287/98473580528",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-35",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Software, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/getzville/equity-research-senior-associate-software-assistant-vice-president/287/97869450160",
+      "location": "Getzville",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-36",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Technology & Communications",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-technology-and-communications/287/98195474640",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-37",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, U.S. Multi-Industry and Engineering & Construction",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-u-s-multi-industry-and-engineering-and-construction/287/99183727232",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-38",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate- Brokers, Asset Managers, Diversified Financials",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-brokers-asset-managers-diversified-financials/287/99461091152",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-39",
+      "company": "Citi",
+      "title": "Finance Accounting Sr. Lead Analyst - SVP",
+      "url": "https://jobs.citi.com/job/irving/finance-accounting-sr-lead-analyst-svp/287/100044155568",
+      "location": "Irving",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-40",
+      "company": "Citi",
+      "title": "Finance Technology Investments Senior Analyst AVP",
+      "url": "https://jobs.citi.com/job/getzville/finance-technology-investments-senior-analyst-avp/287/99130360960",
+      "location": "Getzville",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-41",
+      "company": "Citi",
+      "title": "GSMG Research Senior Associate  / Commercial MBS",
+      "url": "https://jobs.citi.com/job/new-york/gsmg-research-senior-associate-commercial-mbs/287/99436923808",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-42",
+      "company": "Citi",
+      "title": "GSMG Research Senior Associate  / Global Macro Quantitative Research",
+      "url": "https://jobs.citi.com/job/new-york/gsmg-research-senior-associate-global-macro-quantitative-research/287/99436923840",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-43",
+      "company": "Citi",
+      "title": "GSMG Research Senior Associate / Global Macro Strategy",
+      "url": "https://jobs.citi.com/job/new-york/gsmg-research-senior-associate-global-macro-strategy/287/99436923888",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-44",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Healthcare",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-healthcare/287/95047073776",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-45",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Industrials",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-industrials/287/96971629472",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-46",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Industrials",
+      "url": "https://jobs.citi.com/job/chicago/investment-banking-associate-industrials/287/98388418576",
+      "location": "Chicago",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-47",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Metals & Mining",
+      "url": "https://jobs.citi.com/job/los-angeles/investment-banking-associate-metals-and-mining/287/98704620480",
+      "location": "Los Angeles",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-48",
+      "company": "Citi",
+      "title": "Investment Banking Associate / Sr. Associate - Industrials & Natural Resources",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-sr-associate-industrials-and-natural-resources/287/98588440080",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-49",
+      "company": "Citi",
+      "title": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A&qu",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-senior-associate-mergers-and-acquisitions-m-and-a/287/72465907728",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-50",
+      "company": "Citi",
+      "title": "Investment Banking Senior Analyst - Industrials",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-analyst-industrials/287/99795560752",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-51",
+      "company": "Citi",
+      "title": "Investment Banking Senior Analyst - M&A",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-analyst-m-and-a/287/96962323088",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-52",
+      "company": "Citi",
+      "title": "Investment Banking Senior Analyst / Associate - Debt Capital Markets",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-analyst-associate-debt-capital-markets/287/99771785456",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-53",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-associate/287/99108091264",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-54",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate - Healthcare",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-associate-healthcare/287/92960156416",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-55",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate - Power",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-associate-power/287/99508166112",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-56",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate - Technology M&A",
+      "url": "https://jobs.citi.com/job/san-francisco/investment-banking-senior-associate-technology-m-and-a/287/97794741344",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-57",
+      "company": "Citi",
+      "title": "Investment Banking Sr Analyst - Financial Institutions",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-sr-analyst-financial-institutions/287/99221503584",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-58",
+      "company": "Citi",
+      "title": "Investment Banking Sr Analyst - Healthcare",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-sr-analyst-healthcare/287/98534972048",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-59",
+      "company": "Citi",
+      "title": "Investment Banking Sr Associate - Financial Institutions Group",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-sr-associate-financial-institutions-group/287/99221503616",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-60",
+      "company": "Citi",
+      "title": "Investment Banking Vice President  - Energy",
+      "url": "https://jobs.citi.com/job/houston/investment-banking-vice-president-energy/287/95000196352",
+      "location": "Houston",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-61",
+      "company": "Citi",
+      "title": "Investment Banking, ECM - Analyst/ Senior Analyst - North America and LATAM Coverage",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-ecm-analyst-senior-analyst-north-america-and-latam-coverage/287/98481852592",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking",
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-62",
+      "company": "Citi",
+      "title": "Java Apps Developer Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/new-york/java-apps-developer-lead-analyst-vice-president/287/92719792640",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-63",
+      "company": "Citi",
+      "title": "Java Apps Developer Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/new-york/java-apps-developer-lead-analyst-vice-president/287/92719792624",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-64",
+      "company": "Citi",
+      "title": "Leveraged Finance Underwriting Analyst",
+      "url": "https://jobs.citi.com/job/new-york/leveraged-finance-underwriting-analyst/287/99865808944",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-65",
+      "company": "Citi",
+      "title": "Markets Quantitative Analyst - Capital Analytics",
+      "url": "https://jobs.citi.com/job/new-york/markets-quantitative-analyst-capital-analytics/287/99405744832",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-66",
+      "company": "Citi",
+      "title": "Media Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/new-york/media-lead-analyst-vice-president/287/96971657488",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-67",
+      "company": "Citi",
+      "title": "Nonlinear Rates Risk Technical Analyst \u2013 Vice President",
+      "url": "https://jobs.citi.com/job/new-york/nonlinear-rates-risk-technical-analyst-vice-president/287/94334655552",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-68",
+      "company": "Citi",
+      "title": "Prime Finance Senior Business Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/new-york/prime-finance-senior-business-analyst-vice-president/287/94342829984",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-69",
+      "company": "Citi",
+      "title": "Prime Services & Delta One Quantitative Analyst - Director",
+      "url": "https://jobs.citi.com/job/new-york/prime-services-and-delta-one-quantitative-analyst-director/287/98804324128",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-70",
+      "company": "Citi",
+      "title": "Private Credit Financing Analyst - C11 - NEW YORK",
+      "url": "https://jobs.citi.com/job/new-york/private-credit-financing-analyst-c11-new-york/287/99842612752",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-71",
+      "company": "Citi",
+      "title": "Quantitative Analyst, Equities Algorithmic Trading, VP",
+      "url": "https://jobs.citi.com/job/new-york/quantitative-analyst-equities-algorithmic-trading-vp/287/98054564480",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-72",
+      "company": "Citi",
+      "title": "Research Senior Associate - US Economics",
+      "url": "https://jobs.citi.com/job/new-york/research-senior-associate-us-economics/287/99985733616",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-73",
+      "company": "Citi",
+      "title": "Senior Business Associate - Research Business Execution Team (Vice President)",
+      "url": "https://jobs.citi.com/job/getzville/senior-business-associate-research-business-execution-team-vice-president/287/98105523888",
+      "location": "Getzville",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-74",
+      "company": "Citi",
+      "title": "Services - Summer Analyst Program, New York City - US, 2027",
+      "url": "https://jobs.citi.com/job/new-york/services-summer-analyst-program-new-york-city-us-2027/287/93724104768",
+      "location": "New York",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-75",
+      "company": "Citi",
+      "title": "Supervisory Analyst/Editor, Research Americas, Vice President",
+      "url": "https://jobs.citi.com/job/san-francisco/supervisory-analyst-editor-research-americas-vice-president/287/98105526016",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "Analyst",
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-76",
+      "company": "Citi",
+      "title": "US Advisory Salesperson, Equities Research Sales, Director",
+      "url": "https://jobs.citi.com/job/new-york/us-advisory-salesperson-equities-research-sales-director/287/96267020512",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-77",
+      "company": "Citi",
+      "title": "UX Product Research and Strategy Lead",
+      "url": "https://jobs.citi.com/job/tampa/ux-product-research-and-strategy-lead/287/98849895520",
+      "location": "Tampa",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-78",
+      "company": "Citi",
+      "title": "UX Research Lead",
+      "url": "https://jobs.citi.com/job/new-york/ux-research-lead/287/99771871440",
+      "location": "New York",
+      "matchedRoles": [
+        "Research"
+      ]
+    },
+    {
+      "id": "citi-79",
+      "company": "Citi",
+      "title": "VP Investment Banking - Consumer & Retail",
+      "url": "https://jobs.citi.com/job/new-york/vp-investment-banking-consumer-and-retail/287/92391437840",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-80",
+      "company": "Citi",
+      "title": "Vice President Investment Banking - Technology",
+      "url": "https://jobs.citi.com/job/san-francisco/vice-president-investment-banking-technology/287/99364780800",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
       "id": "deutsche-bank-1",
       "company": "Deutsche Bank",
       "title": "Associate Trader \u2013 CMO Derivatives Desk",
@@ -113,6 +924,491 @@
       ]
     },
     {
+      "id": "mangroup-1",
+      "company": "Mangroup",
+      "title": "Investment / Portfolio Management Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4785026101",
+      "location": "New York",
+      "postedAt": "2026-08-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "mangroup-2",
+      "company": "Mangroup",
+      "title": "Investment Specialists Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4965206101",
+      "location": "Boston",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "mangroup-3",
+      "company": "Mangroup",
+      "title": "Portfolio Management Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4933777101",
+      "location": "New York",
+      "postedAt": "2026-08-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "mangroup-4",
+      "company": "Mangroup",
+      "title": "Risk & Performance Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4958874101",
+      "location": "Boston",
+      "postedAt": "2026-08-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "mangroup-5",
+      "company": "Mangroup",
+      "title": "Trade Support Analyst",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/4965210101",
+      "location": "New York",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-1",
+      "company": "Mizuho americas",
+      "title": "Equity Research Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Equity-Research-Associate_R7063",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-2",
+      "company": "Mizuho americas",
+      "title": "Financial Accounting Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Financial-Accounting-Associate_R7256",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-3",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Asset Backed Debt Syndicate Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Investment-Grade-and-Asset-Backed-Debt-Syndicate-Analyst_R7187",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-4",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Corporate Credit Structuring Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Corporate-Credit-Structuring-Associate_R6883",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-5",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Corporate Credit Structuring Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Corporate-Credit-Structuring-Associate_R7083-1",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-6",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - DCM Associate (Healthcare, Consumer & Industrials)",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---DCM-Associate--Healthcare--Consumer---Industrials-_R7186-1",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-7",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Financial Sponsors & Strategic Solutions Group (FS&SSG) \u2013 Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Financial-Sponsors---Strategic-Solutions-Group--FS-SSG----Analyst_R6766-1",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-8",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Industrials & Diversified Industries, Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Industrials---Diversified-Industries--Associate_R6238",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-9",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Latin America Finance - Portfolio Management, Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Latin-America-Finance---Portfolio-Management--Analyst_R7281",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-10",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Project Finance, Power & Infrastructure \u2013 Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Project-Finance--Power---Infrastructure---Associate_R7301-1",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-11",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking - Technology, Media & Telecommunications (TMT), Associate (San Francisco)",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/San-Francisco-CA/Investment---Corporate-Banking---Technology--Media---Telecommunications--TMT---Associate--San-Francisco-_R7141",
+      "location": "San Francisco, CA",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-12",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking | Infrastructure & Project Finance | Digital Infrastructure - Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Infrastructure---Project-Finance---Digital-Infrastructure---Associate_R7325",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-13",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Analyst, Office of the Head of Banking",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Analyst--Office-of-the-Head-of-Banking_R7300",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-14",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Associate, Office of the Head of Banking",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Associate--Office-of-the-Head-of-Banking_R7299",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-15",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Healthcare, Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--Analyst_R6940",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-16",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Healthcare, Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Healthcare--Associate_R7053",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-17",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Power & Utilities, Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Power---Utilities--Analyst_R7068",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-18",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Technology, Media & Telecommunications (TMT), Analyst (NYC)",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Technology--Media---Telecommunications--TMT---Analyst--NYC-_R6765",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-19",
+      "company": "Mizuho americas",
+      "title": "Investment & Corporate Banking \u2013 Technology, Media & Telecommunications (TMT), Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Technology--Media---Telecommunications--TMT---Associate_R7052",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-20",
+      "company": "Mizuho americas",
+      "title": "Mizuho | Greenhill - Investment Banking M&A Analyst",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Mizuho---Greenhill---Investment-Banking-M-A-Analyst_R7138",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "mizuho-americas-21",
+      "company": "Mizuho americas",
+      "title": "Mizuho | Greenhill - Investment Banking M&A Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Mizuho---Greenhill---Investment-Banking-M-A-Associate_R7136",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-22",
+      "company": "Mizuho americas",
+      "title": "Spread Products Market Risk Associate",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Spread-Products-Market-Risk-Associate_R7263",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "mizuho-americas-23",
+      "company": "Mizuho americas",
+      "title": "Treasury Project Manager / Business Analyst Lead",
+      "url": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Treasury-Project-Manager---Business-Analyst-Lead_R7185",
+      "location": "New York, NY (1271 AOA/6th Ave)",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "Analyst/Associate, Executive Office, Global Markets & Investment Banking",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-AnalystAssociate%2C-Executive-Office%2C-Global-Markets-&-Investment-Banking-NY-10019/1336167600/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-2",
+      "company": "Nomura",
+      "title": "Analyst/Associate, Fixed Income Strategy & Solutions Group",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-AnalystAssociate%2C-Fixed-Income-Strategy-&-Solutions-Group-PA-19106/1376378800/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-3",
+      "company": "Nomura",
+      "title": "Associate, Senior Quantitative Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-Associate%2C-Senior-Quantitative-Analyst-PA-19106/1348533000/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-4",
+      "company": "Nomura",
+      "title": "Business Analyst (ETF Focused)",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-Business-Analyst-%28ETF-Focused%29-PA-19106/1380579500/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-5",
+      "company": "Nomura",
+      "title": "Business Analyst - Equities",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Business-Analyst-Equities-NY-10019/1401993200/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-6",
+      "company": "Nomura",
+      "title": "Business Management Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-Business-Management-Analyst-PA-19106/1415885300/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-7",
+      "company": "Nomura",
+      "title": "CLO Trading Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-CLO-Trading-Analyst-NY-10019/1415971700/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-8",
+      "company": "Nomura",
+      "title": "Cash Management Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Cash-Management-Analyst-NY-10019/1421166800/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-9",
+      "company": "Nomura",
+      "title": "Credit Risk Analyst/Associate",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Credit-Risk-AnalystAssociate-NY-10019/1367972900/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-10",
+      "company": "Nomura",
+      "title": "Editor / Research Operations Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Editor-Research-Operations-Analyst-NY-10019/1410753500/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-11",
+      "company": "Nomura",
+      "title": "Financial Control Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Jacksonville-Financial-Control-Analyst-FL-32207/1399661500/",
+      "location": "Jacksonville, FL, US, 32207",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-12",
+      "company": "Nomura",
+      "title": "Fund Financing Analyst/Associate",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Fund-Financing-AnalystAssociate-NY-10019/1416199100/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-13",
+      "company": "Nomura",
+      "title": "Investment Research Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Overland-Park-Investment-Research-Analyst-KS-66202/1371627400/",
+      "location": "Overland Park, KS, US, 66202",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-14",
+      "company": "Nomura",
+      "title": "Lead Support Analyst - Low Latency Electronic Trading",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Lead-Support-Analyst-Low-Latency-Electronic-Trading-NY-10019/1396842400/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-15",
+      "company": "Nomura",
+      "title": "PB Trade Support Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-PB-Trade-Support-Analyst-NY-10019/1411869600/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-16",
+      "company": "Nomura",
+      "title": "Prime Production Services Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Prime-Production-Services-Analyst-NY-10019/1412114100/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-17",
+      "company": "Nomura",
+      "title": "Sales Support Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Sales-Support-Analyst-NY-10019/1415067100/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-18",
+      "company": "Nomura",
+      "title": "Senior Healthcare Equity Analyst/Associate Portfolio Manager",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-Senior-Healthcare-Equity-AnalystAssociate-Portfolio-Manager-PA-19106/1348604100/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-19",
+      "company": "Nomura",
+      "title": "US Wealth Product Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-US-Wealth-Product-Analyst-PA-19106/1406592000/",
+      "location": "Philadelphia, PA, US, 19106",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-20",
+      "company": "Nomura",
+      "title": "Whole Loan Analyst / Associate",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Whole-Loan-Analyst-Associate-NY-10019/1421657200/",
+      "location": "New York, NY, US, 10019",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
       "id": "pwc-1",
       "company": "Pwc",
       "title": "Deals - FDD Contracts and Closing Mechanisms - Senior Associate",
@@ -121,6 +1417,346 @@
       "postedAt": "2026-09-03",
       "matchedRoles": [
         "Deals"
+      ]
+    },
+    {
+      "id": "scotiabank-1",
+      "company": "Scotiabank",
+      "title": "Analyst, Corporate Finance Advisory",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Analyst%2C-Corporate-Finance-Advisory-NY-10281/603574617/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-2",
+      "company": "Scotiabank",
+      "title": "Analyst, Infrastructure & Project Finance",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Analyst%2C-Infrastructure-&-Project-Finance-NY-10281/605362717/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-3",
+      "company": "Scotiabank",
+      "title": "Analyst- Global Securitization Banking - New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Analyst-Global-Securitization-Banking-New-York%2C-NY-NY-10281/602479317/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-4",
+      "company": "Scotiabank",
+      "title": "Associate - US Structured Notes",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-US-Structured-Notes-NY-10281/604253917/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-5",
+      "company": "Scotiabank",
+      "title": "Associate Director - Reservoir Engineering, GBM CIB, GIB-Energy (Houston)",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director-Reservoir-Engineering%2C-GBM-CIB%2C-GIB-Energy-%28Houston%29-NY-77002/605781817/",
+      "location": "New York City, NY, US, 77002",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-6",
+      "company": "Scotiabank",
+      "title": "Associate Director, Commercial Real Estate Finance (Loan Closing), Transaction Advisory Group",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Commercial-Real-Estate-Finance-%28Loan-Closing%29%2C-Transaction-Advisory-Group-NY-10281/604170217/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-7",
+      "company": "Scotiabank",
+      "title": "Associate Director, Corporate Banking, Origination",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Corporate-Banking%2C-Origination-NY-10281/603975617/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-8",
+      "company": "Scotiabank",
+      "title": "Associate Director, Credit Quant",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Credit-Quant-NY-10281/603982617/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-9",
+      "company": "Scotiabank",
+      "title": "Associate Director, Equity Sales; Global Banking & Markets; New York, New York",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Equity-Sales-Global-Banking-&-Markets-New-York%2C-New-York-NY-10001/600972117/",
+      "location": "New York City, NY, US",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-10",
+      "company": "Scotiabank",
+      "title": "Associate Director, Legal Counsel, Structured Finance Group",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Associate-Director%2C-Legal-Counsel%2C-Structured-Finance-Group-TX-10281/600783817/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-11",
+      "company": "Scotiabank",
+      "title": "Associate Director, Non-Bank Financial Institutions",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Non-Bank-Financial-Institutions-NY-10281/604931617/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-12",
+      "company": "Scotiabank",
+      "title": "Associate Director, US Equity Sales (US Long Only clients)",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-US-Equity-Sales-%28US-Long-Only-clients%29-NY-10281/605349117/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-13",
+      "company": "Scotiabank",
+      "title": "Associate Director, US KYC Periodic Refresh",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Associate-Director%2C-US-KYC-Periodic-Refresh-TX-10281/603688017/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-14",
+      "company": "Scotiabank",
+      "title": "Associate Director, US KYC Refresh",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Associate-Director%2C-US-KYC-Refresh-TX-10281/603689317/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-15",
+      "company": "Scotiabank",
+      "title": "Associate Director, US Securitization Banking - New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-US-Securitization-Banking-New-York%2C-NY-NY-10001/598745717/",
+      "location": "New York City, NY, US",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-16",
+      "company": "Scotiabank",
+      "title": "Associate Director, eFI Quant Trading, New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-eFI-Quant-Trading%2C-New-York%2C-NY-NY-10281/603094617/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-17",
+      "company": "Scotiabank",
+      "title": "Associate, Balance Sheet Management",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Balance-Sheet-Management-NY-10281/604889817/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-18",
+      "company": "Scotiabank",
+      "title": "Associate, Commodity/FX Derivatives Quant - New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-CommodityFX-Derivatives-Quant-New-York%2C-NY-NY-10281/604377717/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-19",
+      "company": "Scotiabank",
+      "title": "Associate, Corporate Banking, Financial Institutions Group",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Corporate-Banking%2C-Financial-Institutions-Group-NY-10281/605082017/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-20",
+      "company": "Scotiabank",
+      "title": "Associate, Equity Research, Energy",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Equity-Research%2C-Energy-NY-77002/605488417/",
+      "location": "New York City, NY, US, 77002",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-21",
+      "company": "Scotiabank",
+      "title": "Associate, Global Securitization Banking - New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Global-Securitization-Banking-New-York%2C-NY-NY-10001/598744817/",
+      "location": "New York City, NY, US",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-22",
+      "company": "Scotiabank",
+      "title": "Associate, Investment Banking - Power & Utilities - Houston, TX",
+      "url": "https://jobs.scotiabank.com/job/Houston-Associate%2C-Investment-Banking-Power-&-Utilities-Houston%2C-TX-TX-10281/591428417/",
+      "location": "Houston, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-23",
+      "company": "Scotiabank",
+      "title": "Associate, Investment Banking - Real Estate, New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Investment-Banking-Real-Estate%2C-New-York%2C-NY-NY-10281/600740217/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-24",
+      "company": "Scotiabank",
+      "title": "Associate, Investment Banking, Leveraged Finance",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-Investment-Banking%2C-Leveraged-Finance-NY-10281/598763317/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-25",
+      "company": "Scotiabank",
+      "title": "Associate, REGAL Corporate Banking",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate%2C-REGAL-Corporate-Banking-NY-10281/604824017/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-26",
+      "company": "Scotiabank",
+      "title": "Associate, US Client Onboarding",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Associate%2C-US-Client-Onboarding-TX-10281/603685817/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-27",
+      "company": "Scotiabank",
+      "title": "Associate, US KYC Refresh",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Associate%2C-US-KYC-Refresh-TX-10281/603687217/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-28",
+      "company": "Scotiabank",
+      "title": "Associate/Associate Director, Global Fixed Income, Product Delivery Manager",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-AssociateAssociate-Director%2C-Global-Fixed-Income%2C-Product-Delivery-Manager-NY-10281/603819317/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-29",
+      "company": "Scotiabank",
+      "title": "Customer Experience Associate - Humbertown Centre, Etobicoke, ON (26.25 hours/week)",
+      "url": "https://jobs.scotiabank.com/job/North-York-Customer-Experience-Associate-Humbertown-Centre%2C-Etobicoke%2C-ON-%2826_25-hoursweek%29-ON-M9A3T7/605769217/",
+      "location": "North York, ON, CA, M9A3T7",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-30",
+      "company": "Scotiabank",
+      "title": "ScotiaMcLeod Investment Associate - North York",
+      "url": "https://jobs.scotiabank.com/job/North-York-ScotiaMcLeod-Investment-Associate-North-York-ON-M2N6K1/604122117/",
+      "location": "North York, ON, CA, M2N6K1",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-31",
+      "company": "Scotiabank",
+      "title": "Senior Analyst Audit, Capital Markets",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Senior-Analyst-Audit%2C-Capital-Markets-NY-10281/604940817/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-32",
+      "company": "Scotiabank",
+      "title": "Senior Analyst, Investment Banking, Mergers & Acquisitions",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Senior-Analyst%2C-Investment-Banking%2C-Mergers-&-Acquisitions-NY-10281/601812217/",
+      "location": "New York City, NY, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-33",
+      "company": "Scotiabank",
+      "title": "Senior Analyst, U.S. Client Onboarding",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Senior-Analyst%2C-U_S_-Client-Onboarding-TX-10281/603686217/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-34",
+      "company": "Scotiabank",
+      "title": "Senior Analyst, U.S. KYC Refresh",
+      "url": "https://jobs.scotiabank.com/job/Dallas-Senior-Analyst%2C-U_S_-KYC-Refresh-TX-10281/603686417/",
+      "location": "Dallas, TX, US, 10281",
+      "matchedRoles": [
+        "Analyst"
       ]
     }
   ]
