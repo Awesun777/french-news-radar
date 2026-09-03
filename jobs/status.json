@@ -1,20 +1,20 @@
 {
-  "lastRunAt": "2026-09-03T16:30:21Z",
-  "outcome": "error",
-  "newCount": 21,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-09-02",
+  "lastRunAt": "2026-09-03T19:49:17Z",
+  "outcome": "new-postings",
+  "newCount": 11,
+  "detail": "11 new postings (Barclays 6, Deutsche Bank 2, JP Morgan 2, Pwc 1); manual catch-up after last night's DNS failure; DC Advisory 403-blocked; BDA Partners has no per-posting URLs",
+  "dayFile": "2026-09-03",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",
     "Raymond James": "ok",
-    "Dc advisory": "ok",
+    "Dc advisory": "unreachable",
     "Bda partners": "ok",
     "Houlihan Lokey": "ok",
     "Macquarie": "ok",
     "Pwc": "ok",
-    "Ubs": "unreachable"
+    "Ubs": "ok"
   }
 }
