@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T20:30:02.217Z",
+  "updatedAt": "2026-09-03T20:42:35.000Z",
   "companies": [
     {
       "id": "deutsche-bank",
@@ -120,6 +120,22 @@
       "roles": "Investment Banking, Analyst, Research, Leverage Finance",
       "countries": "United States",
       "addedAt": "2026-09-03T20:29:48.749Z"
+    },
+    {
+      "id": "macquarie",
+      "company": "Macquarie",
+      "careersUrl": "https://recruitment.macquarie.com/en_US/careers/SearchJobs/?10671=%5B871428%5D&10671_format=21337&10672=%5B887459%5D&10672_format=21338&10703=%5B341310%5D&10703_format=21378&listFilterMode=1&jobRecordsPerPage=9&jobOffset=0",
+      "roles": "Analyst, Associate",
+      "countries": "United States",
+      "addedAt": "2026-08-19T20:10:31.432Z"
+    },
+    {
+      "id": "pwc",
+      "company": "Pwc",
+      "careersUrl": "https://jobs-us.pwc.com/us/en/search-results",
+      "roles": "Deals",
+      "countries": "United States",
+      "addedAt": "2026-08-19T20:11:26.282Z"
     }
   ]
 }

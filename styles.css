@@ -516,6 +516,9 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
   color: var(--amber); background: rgb(var(--amber-rgb) / .12);
   padding: 2px 7px; border-radius: 999px;
 }
+.watch-removed { opacity: .55; border-left-color: var(--faint); }
+.watch-removed .watch-company { text-decoration: line-through; }
+.watch-pending-del { color: var(--muted); background: rgb(127 127 127 / .12); }
 .watch-editing { flex-direction: column; align-items: stretch; gap: 8px; }
 .watch-edit-grid { width: 100%; }
 .watch-edit {

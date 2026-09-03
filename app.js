@@ -314,7 +314,25 @@ function renderWatchlist() {
     el.jobsWatchlist.innerHTML = `<p class="watch-empty">No companies watched yet.</p>`;
     return;
   }
-  el.jobsWatchlist.innerHTML = list.map((c) => {
+  // Pending removals stay VISIBLE. A removed company used to vanish from the
+  // list instantly, and the removal then sat in localStorage — invisible and
+  // immortal — until some later "Sync to agent" carried it into the repo,
+  // weeks after the click that caused it. (That is how Macquarie and PwC left
+  // the list on 2026-09-03.) Now the row stays, greyed, with an undo.
+  const removedRows = repoWatchlist.filter((c) => removed.has(c.careersUrl));
+  el.jobsWatchlist.innerHTML = [...list, ...removedRows].map((c) => {
+    if (removed.has(c.careersUrl)) {
+      let host = c.careersUrl;
+      try { host = new URL(c.careersUrl).hostname.replace(/^www\./, ""); } catch { /* keep raw */ }
+      return `<div class="watch-row watch-removed">
+        <div class="watch-main">
+          <span class="watch-company">${esc(c.company)}</span>
+          <span class="watch-pending watch-pending-del">will be removed at next sync</span>
+          <a class="watch-link" href="${esc(c.careersUrl)}" target="_blank" rel="noopener">${esc(host)}</a>
+        </div>
+        <button class="journal-btn watch-undo" type="button" data-url="${esc(c.careersUrl)}">Undo</button>
+      </div>`;
+    }
     if (c.careersUrl === watchEditing) {
       return `<div class="watch-row watch-editing" data-url="${esc(c.careersUrl)}">
         <div class="jobs-form-grid watch-edit-grid">
@@ -1379,13 +1397,24 @@ el.jobsWatchlist.addEventListener("click", (e) => {
     renderWatchlist();
     return;
   }
+  const undo = e.target.closest(".watch-undo");
+  if (undo) {
+    const p = pendingRead();
+    p.removed = p.removed.filter((u) => u !== undo.dataset.url);
+    pendingWrite(p);
+    renderWatchlist();
+    return;
+  }
   const btn = e.target.closest(".watch-remove");
   if (!btn) return;
   const url = btn.dataset.url;
   const p = pendingRead();
   if (p.added.some((c) => c.careersUrl === url)) {
+    // Un-adding something never synced needs no ceremony.
     p.added = p.added.filter((c) => c.careersUrl !== url);
   } else if (!p.removed.includes(url)) {
+    const entry = repoWatchlist.find((c) => c.careersUrl === url);
+    if (!confirm(`Stop watching ${entry ? entry.company : url}? It will be removed from the watchlist at the next "Sync to agent".`)) return;
     p.removed.push(url);
   }
   pendingWrite(p);
