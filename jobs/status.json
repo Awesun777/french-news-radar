@@ -1,24 +1,26 @@
 {
-  "lastRunAt": "2026-09-03T20:33:41Z",
+  "lastRunAt": "2026-09-04T06:50:02Z",
   "outcome": "new-postings",
-  "newCount": 173,
-  "detail": "173 new (Citi 80, Scotiabank 34, Mizuho americas 23, Nomura 20, Barclays 6, Mangroup 5, Deutsche Bank 2, JP Morgan 2, Pwc 1); watchlist synced (+6 companies, first-run snapshots); BNPP 403-blocked, DC Advisory 403, BDA no URLs",
-  "dayFile": "2026-09-03",
+  "newCount": 106,
+  "detail": "106 new (Houlihan Lokey 23, Citi 33, Barclays 30, Mizuho americas 5, Raymond James 5, Scotiabank 4, Mangroup 3, Nomura 2, JP Morgan 1); Deutsche Bank/UBS/Stepstone JS-rendered (no API found), BNPP/DC Advisory/BDA Partners 403-blocked; LinkedIn fallback unavailable (session login pending)",
+  "dayFile": "2026-09-04",
   "companies": {
-    "Deutsche Bank": "ok",
+    "Deutsche Bank": "unreachable",
     "Barclays": "ok",
     "JP Morgan": "ok",
-    "Stepstone": "ok",
+    "Stepstone": "unreachable",
     "Raymond James": "ok",
     "Dc advisory": "unreachable",
-    "Bda partners": "ok",
+    "Bda partners": "unreachable",
     "Houlihan Lokey": "ok",
-    "Ubs": "ok",
+    "Ubs": "unreachable",
+    "Scotiabank": "ok",
+    "BNPP": "unreachable",
+    "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
-    "Scotiabank": "ok",
-    "Nomura": "ok",
     "Citi": "ok",
-    "BNPP": "unreachable"
+    "Macquarie": "ok",
+    "Pwc": "ok"
   }
 }
