@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "id": "woodward-gemini-3-8-flash",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini App",
+      "summary": "Google Labs VP Josh Woodward announces the rollout of Gemini 3.8 Flash, pitching it simply as \"great quality at great price,\" and confirms the model is now live inside the Gemini app for users.",
+      "summaryZh": "Google Labs 副总裁 Josh Woodward 宣布 Gemini 3.8 Flash 上线,用一句话概括其定位:“质量出色、价格实惠”(great quality at great price),并确认该模型现已在 Gemini app 中面向用户开放。",
+      "url": "https://x.com/joshwoodward/status/2095178970912461279",
+      "tags": ["Google", "Gemini", "product launch", "model release"]
+    },
+    {
+      "id": "cherny-background-computer-use",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny says background computer use is \"underrated,\" pointing to Claude's newly shipped ability to click, type, and open apps on your desktop while you work on something else, now in beta on Pro and Max plans in the macOS desktop app. He showcases the feature through Claude Tag in Slack, where it assembles a last-minute leadership deck from a metrics spreadsheet and scattered Slack data, and catches a vendor report whose numbers don't match before handing it off.",
+      "summaryZh": "Anthropic 的 Boris Cherny 表示后台电脑操作(background computer use)“被严重低估了”,他提到 Claude 新上线的能力——可以在你处理其他事情时,像人一样在你的桌面上点击、输入、打开应用,目前已在 macOS 桌面端以 beta 形式向 Pro 和 Max 用户开放。他用 Slack 里的 Claude Tag 功能演示这项能力:它能根据一份指标表格和散落在 Slack 里的数据,临时拼出一份领导层汇报文档,还能在交付前发现一份数字对不上的供应商报告。",
+      "url": "https://x.com/bcherny/status/2095276133214491086",
+      "tags": ["Anthropic", "Claude", "computer use", "product launch"]
+    },
+    {
+      "id": "sottiaux-chatgpt-desktop-browser",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux describes the company's culture as a \"mega startup\" defined by extreme ownership, care, and pace — something he says is hard to believe unless you're inside it. He also says the ChatGPT desktop app has become his primary browser, and that his own productivity has \"never been higher\" running through it.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 把公司文化形容为一家“超级创业公司”(mega startup),特点是极致的主人翁精神、用心和节奏——他说如果不是身处其中,很难相信这是真的。他还表示 ChatGPT 桌面应用已经成为自己的主浏览器,自己的生产力“从未如此之高”。",
+      "url": "https://x.com/thsottiaux/status/2095369901137654271",
+      "tags": ["OpenAI", "ChatGPT", "company culture", "commentary"]
+    },
+    {
+      "id": "yang-job-title-inflation",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang pokes at AI-era title inflation — \"Product manager = Member of product staff,\" \"Designer = Member of design staff,\" \"Engineer = Member of technical staff\" — joking that AI is making job functions sound more verbose, not less. He says he'd welcome it if the trend flattens levels and titles, but reads it as evidence that even top labs haven't collapsed distinct specialties into one universal \"AI builder\" role — people still cluster around what they're good at.",
+      "summaryZh": "Peter Yang 调侃 AI 时代职位名称越来越冗长——“Product manager = Member of product staff”、“Designer = Member of design staff”、“Engineer = Member of technical staff”,他打趣说 AI 是不是正在把职能名称变得更啰嗦而不是更简洁。他表示如果这个趋势能拉平层级和头衔,他反而是支持的,但这也说明,就算是最顶尖的实验室,也没有真正出现一个统一的“AI builder”头衔能囊括所有职能——人们仍然会按各自擅长的方向分工。",
+      "url": "https://x.com/petergyang/status/2095255545594941910",
+      "tags": ["AI industry", "job titles", "commentary"]
+    },
+    {
+      "id": "guru-abstract-model-choice",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI senior director Madhu Guru argues every AI product should be working to abstract model choice away from users entirely, since picking a model is too much cognitive load when all people actually care about is getting the job done. She says doing this well takes three things — deep knowledge of the model frontier across weight classes for your use case, strong evals showing which model wins where, and a team with the AI-native operating model to keep adapting as the frontier shifts — and singles out the Lovable team as one that has all three.",
+      "summaryZh": "Meta AI 高级总监 Madhu Guru 认为,所有 AI 产品都应该致力于把模型选择这件事从用户面前彻底抽象掉,因为对用户来说,挑模型的认知负担太重了,大家真正在意的只是事情能不能被完成。她说要做好这件事需要三样东西:对自己场景下不同参数量级模型前沿能力的深刻理解、能清楚判断哪个模型在哪里表现最好的强评测体系,以及一支具备 AI-native 运营模式、能随着前沿变化持续调整的团队——她特别点名 Lovable 团队三者都具备。",
+      "url": "https://x.com/realmadhuguru/status/2095174463696589223",
+      "tags": ["Meta", "product strategy", "model selection", "AI product"]
+    },
+    {
+      "id": "thariq-prompt-cache-effort-levels",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq clarifies that the fix keeping effort levels from breaking the prompt cache is already live on the API but hasn't shipped to Claude Code yet — an oversight from being out of office when the model launched — and says it should land within a day.",
+      "summaryZh": "Anthropic 的 Thariq 澄清说,让 effort levels 不破坏 prompt cache 的修复其实已经在 API 上线,但还没推送到 Claude Code——这是他休假期间模型发布时遗漏的一环,预计一天左右就能补上。",
+      "url": "https://x.com/trq212/status/2095367584489038044",
+      "tags": ["Anthropic", "Claude Code", "prompt caching", "product update"]
+    },
+    {
+      "id": "levie-muse-escape-velocity",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie calls this week \"absolutely nuts for AI releases,\" flagging a major new model update from Muse as a sign the industry is hitting \"escape velocity\" in capability progress. He says if Muse ships as open weights, it would completely change the dynamics of U.S. open-weights competitiveness.",
+      "summaryZh": "Box CEO Aaron Levie 说这一周的 AI 发布节奏“疯狂到不行”,他特别提到 Muse 发布的重大模型更新,认为这是行业在能力进展上正在达到“逃逸速度”的信号。他表示如果 Muse 以开源权重形式发布,将彻底改变美国开源权重模型的竞争格局。",
+      "url": "https://x.com/levie/status/2095234253613359200",
+      "tags": ["Box", "open weights", "AI industry", "commentary"]
+    },
+    {
+      "id": "zhang-meetings-for-agents",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang flags a shift she's seeing in how teams use meeting recordings: \"We are not recording meetings for humans anymore. Nobody reads the AI summary notes or listens back. We are capturing transcripts to feed agents.\" The point being that meeting capture is quietly becoming agent infrastructure rather than a human-facing productivity feature.",
+      "summaryZh": "独立创业者 Zara Zhang 观察到团队使用会议录音的方式正在悄然改变:“我们现在录会议已经不是给人听的了。没人会去读 AI 生成的摘要,也没人会回听录音。我们录制文字记录是为了喂给 agent。”她的意思是,会议记录正在从面向人类的效率工具,悄悄变成 agent 的基础设施。",
+      "url": "https://x.com/zarazhangrui/status/2095375073381318656",
+      "tags": ["AI agents", "meetings", "product trend"]
+    },
+    {
+      "id": "agarwal-frontier-lab-trust",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, SPC",
+      "summary": "SPC general partner Aditya Agarwal says it's genuinely hard to trust frontier labs' promises not to train on your data, calling it \"a huge reason to use OSS models\" and noting the odd inversion where Chinese open models can offer more privacy assurance than closed U.S. labs — which he says makes strong U.S. open-weights options critical. Separately, he tells startups they're too focused on solving today's model limitations, and that having a real point of view on what capabilities and issues will look like a year out — hard as that is — is far more valuable.",
+      "summaryZh": "SPC 普通合伙人 Aditya Agarwal 表示,前沿实验室承诺“不会用你的数据训练模型”这件事,实际上很难让人真正信任,他称这是“选择使用开源模型的一个重要原因”,并指出一个颇为讽刺的现象:中国的开源模型有时反而比闭源的美国实验室能提供更强的隐私保障——这也是为什么美国必须要有强有力的开源权重选项。另外,他也提醒创业者,大家太专注于解决模型当下存在的问题,而更有价值的是对一年后模型能力和问题会是什么样子有一个真正的判断,尽管这确实很难。",
+      "url": "https://x.com/adityaag/status/2095227334534041714",
+      "tags": ["AI privacy", "open weights", "venture capital", "startups"]
+    },
+    {
+      "id": "every-katie-parrott-compound-writing",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "role": "guest: Katie Parrott, staff writer at Every; hosted by Natalia Quintero",
+      "title": "How a Professional Writer Writes With AI",
+      "takeaway": "Every staff writer Katie Parrott turned her own AI workflow — built from two years of trial and error — into a public \"Compound Writing\" plugin that codifies literary review lenses like Vonnegut and Hitchcock so anyone can get expert-level editorial feedback on a draft.",
+      "takeawayZh": "Every 专栏作者 Katie Parrott 把自己两年反复摸索出的 AI 工作流,打造成一款公开的 “Compound Writing” 插件,把 Vonnegut、Hitchcock 等文学审阅视角都编码进去,让任何人都能获得专家级的编辑反馈。",
+      "summary": "Katie Parrott, a staff writer at Every, walks through two years of building an increasingly elaborate AI-powered writing and career system, starting from a $20-a-month ChatGPT subscription she turned to as a makeshift career coach after being laid off from a crypto firm. \"I can't afford like $150 an hour... but I can sign up for a $20 a month ChatGPT subscription and get some of that same result of externalizing my thinking,\" she says of that early period, which eventually led her back to Every.\n\nThat single career-coach chat has since grown into a full Codex project with a \"dossier\" on her role, competitive positioning documents, a \"validation folder\" of positive reader feedback, and her quarterly OKRs — all of which she now updates largely by voice, monologuing her priorities and letting the system act as a chief of staff that maintains her Kanban board and tells her what's due when.\n\nThe bigger release is her new Compound Writing plugin, forked from Every colleague Kieran Klassen's Compound Engineering plugin and adapted for prose instead of code: brainstorming, outlining, drafting, and two rounds of review (a structural \"substantive edit\" and a line edit) instead of coding conventions. Its most distinctive feature is a set of reviewer \"skills\" built from literary frameworks she admires — Kurt Vonnegut's eight rules of story structure, Hitchcock's theory of suspense (the bomb under the table), Sorkin, and Sedaris — so a writer can \"invoke Vonnegut\" or \"invoke Hitchcock\" to review a draft through that specific lens.\n\nParrott, who has bipolar disorder, also frames AI as a \"supportive technology\" as much as a productive one: agents now handle what her COO calls \"computer errands,\" like finding and booking a doctor's appointment she'd put off for three years, or filing insurance reimbursements. Looking ahead to a November 5 talk at Every's Thesis conference, she says her thesis is that \"education and access are going to matter more than they ever have before,\" warning that AI's compounding value could concentrate among an early, well-resourced few unless the field actively works to spread access wider.",
+      "summaryZh": "Every 专栏作者 Katie Parrott 讲述了自己过去两年如何一步步搭建出一套越来越精细的 AI 写作与职业系统。起点是被一家加密货币公司裁员后,她开始用每月 20 美元的 ChatGPT 订阅当作临时职业教练。她回忆当时的心态:“我付不起每小时 150 美元(或者不管多少)的真人职业教练,但我可以订阅一个每月 20 美元的 ChatGPT,得到差不多的效果——把自己的想法外化出来。”这段经历最终把她带回了 Every。\n\n如今,那个最初的“职业教练”对话,已经演变成一个完整的 Codex project:里面有关于她角色的“档案”、竞争定位文档、收集读者正面反馈的“validation folder”,还有她每个季度的 OKR。这些内容她现在大多靠语音更新——把自己的优先事项说出来,系统就像一位幕僚长一样,帮她维护 Kanban 看板,并告诉她什么时候该交付什么。\n\n更重要的发布是她的新插件 Compound Writing,它 fork 自 Every 同事 Kieran Klassen 的 Compound Engineering 插件,把面向代码的流程改造成面向文字的流程:头脑风暴、列提纲、起草,再加两轮审阅(把控整体结构的 “substantive edit”,以及逐句打磨的 line edit),而不是代码规范之类的东西。它最独特的地方,是一组基于她欣赏的文学框架打造的“审阅技能”——Kurt Vonnegut 的故事结构八原则、Hitchcock 的悬念理论(“桌子底下的炸弹”)、还有 Sorkin、Sedaris 的风格——写作者可以“召唤 Vonnegut”或“召唤 Hitchcock”,从这个特定视角来审视一份草稿。\n\n患有双相情感障碍的 Parrott,也把 AI 视为一种“支持性技术”,而不只是“生产性技术”:agent 现在能处理她们公司 COO 口中的“电脑跑腿”(computer errands),比如帮她找到并预约一位她拖了三年都没约上的医生,或者帮她提交保险报销。展望 11 月 5 日在 Every 的 Thesis 大会上的演讲,她说自己的核心论点是“教育和获取渠道将比以往任何时候都更重要”,并提醒说,如果这个领域不主动去扩大普及面,AI 带来的复利式价值很可能只会集中在早期入场、资源充裕的少数人身上。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": ["AI writing", "Every", "compound engineering", "podcast"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-02T06:30:23Z",
+  "generatedAt": "2026-09-04T06:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-04",
+      "title": "Every's Katie Parrott open-sources Compound Writing, Anthropic ships background computer use",
+      "itemCount": 10,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Every staff writer Katie Parrott open-sources Compound Writing, a plugin forked from Kieran Klassen's Compound Engineering that gives any writer expert-level editorial review powered by Vonnegut, Hitchcock, and Sorkin frameworks",
+        "Anthropic ships background computer use in Claude Cowork and Code, in beta on Pro/Max desktop for macOS, with Boris Cherny showing Claude Tag catching a bad vendor number while building a deck unattended",
+        "Aaron Levie calls the week 'absolutely nuts for AI releases' citing Muse's new model, while Josh Woodward rolls out Gemini 3.8 Flash and Madhu Guru argues products should hide model choice from users entirely"
+      ]
+    },
     {
       "date": "2026-09-02",
       "title": "Sutton and Javed on why LLMs stop learning, Nan Yu leaves Linear for OpenAI Codex",
