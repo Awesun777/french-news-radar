@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "id": "openai-gpt6-astra-rollout",
+      "category": "models",
+      "title": "OpenAI begins rolling out GPT-6 Astra, its first model to cross the 'Critical' cyber threshold",
+      "summary": "On September 3, OpenAI began rolling out GPT-6 Astra to a limited set of organizations, with broader access to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS coming over the following days. Astra is state-of-the-art on computer use, coding, and professional/science tasks, and is also the first OpenAI model to cross the \"Critical\" tier of its Preparedness Framework for cybersecurity, having independently found and exploited zero-day vulnerabilities in testing — so its most powerful capabilities are gated behind the invite-only Daybreak program.",
+      "whyItMatters": "A jump in general reasoning/coding capability from a frontier lab is worth tracking as a candidate backbone for any agent orchestration Romain/Anna might need beyond pure voice (lesson planning, content generation), and the new safety-gating precedent shows how access to a lab's most capable model can now come with real restrictions.",
+      "url": "https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
+      "source": "9to5Mac",
+      "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/chatgpt-codex-gpt-6-astra-1.webp",
+      "tags": ["llm", "openai", "gpt-6", "cybersecurity"]
+    },
+    {
+      "id": "google-gemini-3-8-flash",
+      "category": "models",
+      "title": "Google launches Gemini 3.8 Flash and a gated Gemini 3.8 Flash Cyber variant",
+      "summary": "Google shipped Gemini 3.8 Flash on September 2 at the same introductory price as 3.7 Flash ($0.75/$3.75 per million input/output tokens through year-end, cached input at $0.075/M), with gains in agentic software-engineering and multi-step reasoning tasks. Alongside it, Gemini 3.8 Flash Cyber — a security-focused variant with loosened mitigations for vulnerability discovery — is gated to trusted defenders via Google's new Fairwind Program.",
+      "whyItMatters": "Flash-tier pricing and reasoning upgrades matter for any lightweight backend task around a voice tutor (grading, content generation, lesson-plan drafting) that doesn't need a full frontier model — cheap, capable Flash models are the ones actually worth wiring into a cost-sensitive product.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source": "Google Blog",
+      "tags": ["llm", "google", "gemini", "pricing"]
+    },
+    {
+      "id": "meta-muse-spark-1-3",
+      "category": "models",
+      "title": "Meta releases Muse Spark 1.3, an agent that asks clarifying questions and confirms before acting",
+      "summary": "Meta shipped Muse Spark 1.3 on September 2 with better long-horizon collaboration on coding/agentic tasks — it uses roughly 20% fewer tool calls and 25% fewer tokens than 1.2, generates its own context from messy sources, asks clarifying questions when a prompt is ambiguous, and confirms before taking consequential actions. Pricing is unchanged from 1.2.",
+      "whyItMatters": "The \"ask before assuming, confirm before acting\" pattern is directly applicable UX inspiration for a tutoring agent — Romain or Anna checking in on ambiguous student intent, rather than guessing, mirrors good pedagogy as much as good agent design.",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "source": "Meta AI Research",
+      "tags": ["llm", "meta", "agentic", "inspiration"]
+    }
+  ]
+}

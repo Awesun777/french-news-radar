@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-02T06:26:24Z",
+  "generatedAt": "2026-09-04T06:26:41Z",
   "digests": [
+    {
+      "date": "2026-09-04",
+      "title": "GPT-6 Astra rollout begins, Gemini 3.8 Flash lands",
+      "itemCount": 3,
+      "categories": ["models"],
+      "highlights": [
+        "OpenAI begins rolling out GPT-6 Astra, its first model to cross the 'Critical' cyber threshold",
+        "Google launches Gemini 3.8 Flash and a gated Gemini 3.8 Flash Cyber variant",
+        "Meta releases Muse Spark 1.3, an agent that asks clarifying questions and confirms before acting"
+      ]
+    },
     {
       "date": "2026-09-02",
       "title": "ChatGPT pronunciation help, Claude Fable 5.1, EU tags ChatGPT a search engine",
