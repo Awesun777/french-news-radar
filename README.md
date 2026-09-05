@@ -15,7 +15,17 @@ Built to inspire and de-risk the [French voice tutor](https://romaintalk.com) pr
 - Pure static site — no build, no server, no database.
 - Data lives as JSON in [`news/`](./news): `index.json` is the catalog; one `YYYY-MM-DD.json` per day holds that day's items.
 - [`app.js`](./app.js) loads the JSON and renders a date-grouped feed with live search and category filters.
-- Hosted on **GitHub Pages**.
+- Hosted on **Railway** (via the [`Dockerfile`](./Dockerfile) + [`Caddyfile`](./Caddyfile) static server; [`railway.json`](./railway.json) holds the service config). Also deployable on GitHub Pages, since it's plain static files.
+
+## Deploying on Railway
+
+The repo ships everything Railway needs. One-time setup:
+
+1. Go to [railway.com/new](https://railway.com/new) → **Deploy from GitHub repo** → pick this repo (authorize GitHub access if prompted).
+2. Railway detects the `Dockerfile` and builds automatically — the JSON data deploys with it, since it lives in the repo.
+3. In the service's **Settings → Networking**, click **Generate Domain** to get a public URL.
+
+After that, every push to the deployed branch redeploys automatically — so the digest skills (`/news-digest`, `/jobs-digest`, `/builders-digest`) keep working unchanged: they commit + push, Railway redeploys.
 
 ## Adding a digest
 

@@ -1,0 +1,10 @@
+.git
+.claude
+.gitignore
+node_modules
+*.log
+.DS_Store
+Dockerfile
+.dockerignore
+railway.json
+README.md

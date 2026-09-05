@@ -1,0 +1,10 @@
+# Railway injects PORT; default to 8080 for local runs.
+:{$PORT:8080} {
+	root * /srv
+	encode gzip
+	file_server
+
+	# JSON digests change daily; don't let browsers cache them stale.
+	@json path *.json
+	header @json Cache-Control "no-cache"
+}
