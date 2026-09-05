@@ -1,6 +1,6 @@
 # 📡 News Radar
 
-A standalone, static web app that shows a **daily curated radar** of:
+A standalone web app — Express + Postgres on Railway — that shows a **daily curated radar** of:
 
 - **Models & APIs** — new LLM / voice / video model releases and pricing that could improve or cheapen an AI voice tutor (OpenAI Realtime, Gemini Live, DeepSeek, ElevenLabs, Cartesia, Deepgram, Tavus, HeyGen, …).
 - **Language Apps** — product launches and new features from Duolingo, Babbel, Busuu, Speak, ELSA, and interesting newcomers.
@@ -12,20 +12,23 @@ Built to inspire and de-risk the [French voice tutor](https://romaintalk.com) pr
 
 ## How it works
 
-- Pure static site — no build, no server, no database.
-- Data lives as JSON in [`news/`](./news): `index.json` is the catalog; one `YYYY-MM-DD.json` per day holds that day's items.
-- [`app.js`](./app.js) loads the JSON and renders a date-grouped feed with live search and category filters.
-- Hosted on **Railway** (via the [`Dockerfile`](./Dockerfile) + [`Caddyfile`](./Caddyfile) static server; [`railway.json`](./railway.json) holds the service config). Also deployable on GitHub Pages, since it's plain static files.
+- [`server.js`](./server.js) — an Express server that serves the frontend and answers every data request **from Postgres**.
+- The JSON files in [`news/`](./news), [`builders/`](./builders) and [`jobs/`](./jobs) are the *ingest source*: on every boot the server syncs them into the database ([`scripts/sync-data.js`](./scripts/sync-data.js), idempotent upserts), and the database is what the site serves. The frontend URLs are unchanged (`news/index.json`, `news/<date>.json`, …) — they're now API routes backed by SQL.
+- [`app.js`](./app.js) renders the date-grouped feed with live search and category filters.
+- `GET /api/health` reports database status and per-feed day counts.
+- Hosted on **Railway** ([`Dockerfile`](./Dockerfile) + [`railway.json`](./railway.json)) with the **Railway Postgres** add-on.
 
 ## Deploying on Railway
 
-The repo ships everything Railway needs. One-time setup:
+One-time setup:
 
 1. Go to [railway.com/new](https://railway.com/new) → **Deploy from GitHub repo** → pick this repo (authorize GitHub access if prompted).
-2. Railway detects the `Dockerfile` and builds automatically — the JSON data deploys with it, since it lives in the repo.
-3. In the service's **Settings → Networking**, click **Generate Domain** to get a public URL.
+2. In the project canvas, click **+ Create → Database → Add PostgreSQL**.
+3. On the app service → **Variables**, add a variable reference: `DATABASE_URL` = `${{Postgres.DATABASE_URL}}`.
+4. Redeploy if needed. On boot the server creates its tables and imports every digest into Postgres automatically — that's the data migration.
+5. In the service's **Settings → Networking**, click **Generate Domain** for the public URL.
 
-After that, every push to the deployed branch redeploys automatically — so the digest skills (`/news-digest`, `/jobs-digest`, `/builders-digest`) keep working unchanged: they commit + push, Railway redeploys.
+Every push to the deployed branch redeploys and re-syncs — so the digest skills (`/news-digest`, `/jobs-digest`, `/builders-digest`) keep working unchanged: they commit + push JSON, Railway redeploys, the boot sync upserts the new day into the database.
 
 ## Adding a digest
 
@@ -39,7 +42,11 @@ It researches the day's news, writes `news/<today>.json`, updates `news/index.js
 
 ## Preview locally
 
+Needs a local Postgres to point at:
+
 ```sh
-python3 -m http.server 8080   # then open http://localhost:8080
+npm install
+DATABASE_URL=postgres://localhost:5432/radar npm start   # then open http://localhost:8080
 ```
-(`fetch()` needs a server — opening `index.html` via `file://` won't load the JSON.)
+
+The server creates its tables and imports the JSON digests on first boot. `npm run sync` re-imports without starting the server.
