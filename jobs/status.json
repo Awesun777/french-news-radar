@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-06T13:18:30Z",
-  "outcome": "error",
+  "lastRunAt": "2026-09-07T15:15:15Z",
+  "outcome": "no-new-postings",
   "newCount": 106,
   "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-09-04",
