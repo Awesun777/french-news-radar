@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "id": "levie-agents-internet-unprepared",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues the internet is almost entirely unprepared for a future where everyone's personal agents are running around executing tasks on their behalf. He predicts that shift will open endless new challenges and opportunities at the infrastructure layer, in user experience design, and in entirely new business models.",
+      "summaryZh": "Box CEO Aaron Levie 认为,互联网几乎完全没有为一个未来做好准备——那个未来里,每个人的个人 agent 都会到处跑动,替他们执行各种任务。他预测这种转变会在基础设施层、用户体验设计,以及全新商业模式上,带来无穷无尽的新挑战和新机会。",
+      "url": "https://x.com/levie/status/2096735726750908464",
+      "tags": ["Box", "AI agents", "infrastructure", "commentary"]
+    },
+    {
+      "id": "zhang-agents-attention-span",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang names the shrinking human attention span as one of the defining crises of the era, and argues AI agents are making it worse, not better, cutting against the usual productivity narrative built around them.",
+      "summaryZh": "独立创业者 Zara Zhang 认为,人类注意力持续缩短是这个时代最大的危机之一,而她指出 AI agent 正在让这个问题变得更糟,而不是更好——这与围绕 agent 常见的“提升效率”叙事恰恰相反。",
+      "url": "https://x.com/zarazhangrui/status/2096824861108928701",
+      "tags": ["AI agents", "attention span", "commentary"]
+    }
+  ]
+}
