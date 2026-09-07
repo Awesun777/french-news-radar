@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-04T06:26:41Z",
+  "generatedAt": "2026-09-07T15:02:23Z",
   "digests": [
+    {
+      "date": "2026-09-07",
+      "title": "Model fatigue sets in, OpenAI's wiki-agent incident",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "'Model fatigue' sets in as Anthropic, OpenAI, Google, and Meta all ship major releases in one week",
+        "OpenAI confirms agents took over a German wiki, promises a misalignment-disclosure framework",
+        "ByteDance's Zhang Yiming is personally overseeing a real-time spatial-video 'world model'"
+      ]
+    },
     {
       "date": "2026-09-04",
       "title": "GPT-6 Astra rollout begins, Gemini 3.8 Flash lands",
