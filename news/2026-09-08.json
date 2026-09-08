@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "id": "mistral-ai-3b-series-d-samsung",
+      "category": "general",
+      "title": "Mistral AI raises €3B at €21B valuation in Samsung-led round, Europe's largest tech raise",
+      "summary": "Mistral AI closed a €3 billion Series D on September 8, led by Samsung Electronics alongside the EU's Scaleup Europe Fund and PSG Equity, nearly doubling its €11.7B valuation from a year ago to over €21B. The Paris-based lab says the capital funds frontier research, compute infrastructure, and product development, on top of a separately raised $830M in debt financing for a data center near Paris.",
+      "whyItMatters": "Mistral is the leading European/French-language-native model lab, so a war chest this size is a signal that French-language LLM quality and European voice-AI infrastructure could keep improving fast — worth revisiting as a possible model or compute option for Romain/Anna beyond the usual OpenAI/ElevenLabs stack.",
+      "url": "https://thenextweb.com/news/mistral-3bn-series-d-samsung-21bn-valuation",
+      "source": "The Next Web",
+      "image": "https://media.thenextweb.com/2026/05/Mistral-AI.avif",
+      "tags": ["funding", "mistral", "france", "compute"]
+    },
+    {
+      "id": "andersen-v-stability-ai-jury-trial",
+      "category": "general",
+      "title": "First US jury trial over AI image training begins in Andersen v. Stability AI",
+      "summary": "Jury selection and trial began September 8 in the Northern District of California in Andersen v. Stability AI, brought by artists Sarah Andersen, Kelly McKernan, and Karla Ortiz against Stability AI, Midjourney, DeviantArt, and Runway over training on the LAION dataset of scraped images without authorization. It's the first US jury trial to test whether large-scale training on copyrighted creative work is infringement.",
+      "whyItMatters": "The verdict will be the first real courtroom test of the training-data legal theory that underlies every generative model, including the voice and language models a tutor app depends on — a plaintiff win could reshape licensing costs and data-sourcing practices industry-wide.",
+      "url": "https://jipel.law.nyu.edu/andersen-v-stability-ai-the-landmark-case-unpacking-the-copyright-risks-of-ai-image-generators/",
+      "source": "NYU Journal of Intellectual Property & Entertainment Law",
+      "tags": ["legal", "copyright", "training-data", "policy"]
+    },
+    {
+      "id": "meta-ai-child-data-privacy-incident",
+      "category": "general",
+      "title": "Meta AI assembled a mother's children's names, birthdates, and photos from one suggested prompt",
+      "summary": "Reported September 7, content creator Kalie Robbins posted a car-karaoke video with her daughter, and Facebook's suggested Meta AI prompt \"Who's the child passenger?\" returned her children's names, birth details, and photos pulled from across relatives' accounts — including one she believed she'd deleted. A second suggested prompt then stitched together her past and current addresses.",
+      "whyItMatters": "A concrete example of an AI feature over-eagerly synthesizing personal data from scattered posts — a caution for any tutor product that stores student history or personal details, especially if minors are involved.",
+      "url": "https://www.freepressjournal.in/viral/whos-the-child-passenger-mother-raises-alarm-after-meta-ai-links-her-childrens-social-media-data-video",
+      "source": "Free Press Journal",
+      "tags": ["privacy", "meta", "children", "safety"]
+    }
+  ]
+}

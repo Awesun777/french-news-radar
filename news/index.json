@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-07T15:02:23Z",
+  "generatedAt": "2026-09-08T07:11:51Z",
   "digests": [
+    {
+      "date": "2026-09-08",
+      "title": "Mistral's €21B round, first AI-training jury trial, Meta AI privacy scare",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "Mistral AI raises €3B at €21B valuation in Samsung-led round, Europe's largest tech raise",
+        "First US jury trial over AI image training begins in Andersen v. Stability AI",
+        "Meta AI assembled a mother's children's names, birthdates, and photos from one suggested prompt"
+      ]
+    },
     {
       "date": "2026-09-07",
       "title": "Model fatigue sets in, OpenAI's wiki-agent incident",
