@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-07T15:10:00Z",
+  "generatedAt": "2026-09-08T07:20:00Z",
   "digests": [
+    {
+      "date": "2026-09-08",
+      "title": "Masad calls coding agents 'functionally AGI', Levie says AI is creating jobs, not just cutting them",
+      "itemCount": 5,
+      "kinds": ["x"],
+      "highlights": [
+        "Replit CEO Amjad Masad says coding agents are now \"functionally indistinguishable from AGI\" since they never get tired, and announces Replit's first international office in London built around a partnership to teach AI skills to disadvantaged youth",
+        "Box CEO Aaron Levie argues the AI jobs story is playing out backwards from predictions, with agents creating whole new categories of work in cybersecurity and forward-deployed engineering rather than erasing white-collar jobs",
+        "Vercel CEO Guillermo Rauch ships agent-browser for reviewing AI-written code and hands out v2 of his personal $35K open-source grants program across five agent-era themes"
+      ]
+    },
     {
       "date": "2026-09-07",
       "title": "Levie says the internet isn't ready for personal agents, Zhang blames agents for shrinking attention spans",
