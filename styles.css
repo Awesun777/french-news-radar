@@ -557,6 +557,7 @@ main.wrap { padding-top: 28px; padding-bottom: 60px; }
 
 /* ─── Applications workspace ───────────────────────────────────────────────── */
 .app-card { cursor: pointer; }
+.token-error { color: var(--amber); font-weight: 600; font-size: 13px; }
 .token-gate { display: flex; flex-direction: column; gap: 10px; align-items: center; max-width: 340px; margin: 0 auto; }
 .token-gate input {
   width: 100%; padding: 9px 12px; font: inherit; font-size: 14px;

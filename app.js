@@ -446,10 +446,23 @@ async function loadSection(name) {
     // One fetch from the tracker sheet; category order is the sheet's own.
     slice.needToken = false;
     if (!appsToken()) { slice.failed = true; slice.needToken = true; return; }
+    slice.badToken = false;
     try {
       const res = await fetch(`${APPS_WEBHOOK}?action=workspace&token=${encodeURIComponent(appsToken())}`);
       const data = await res.json();
-      if (!data.ok) throw new Error(data.error || "feed error");
+      if (!data.ok) {
+        // A wrong stored token used to dead-end here: needToken stayed false
+        // (a token exists), so the generic empty state rendered with no way
+        // to re-enter it and the bad token kept failing silently forever.
+        if (/unauthor/i.test(data.error || "")) {
+          localStorage.removeItem(APPS_TOKEN_KEY);
+          slice.failed = true;
+          slice.needToken = true;
+          slice.badToken = true;
+          return;
+        }
+        throw new Error(data.error || "feed error");
+      }
       const w = data.workspace || {};
       // The Applications tab renders from AppData alone — every card IS an
       // extension-saved job, and contacts join it by the exact appKey both
@@ -542,6 +555,7 @@ async function showSection(name) {
     if (name === "applications" && slice.needToken) {
       // First visit on this browser: ask for the access token once.
       el.status.innerHTML = `<div class="token-gate">
+        ${slice.badToken ? `<p class="token-error">That token wasn't accepted — check it and try again.</p>` : ""}
         <p>This dashboard is private. Enter the access token to unlock it on this browser.</p>
         <input type="password" id="apps-token-input" placeholder="Access token" autocomplete="off" />
         <button id="apps-token-save" type="button">Unlock</button>
