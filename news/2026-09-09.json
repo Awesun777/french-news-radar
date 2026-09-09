@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "id": "deepseek-v4-1-flash-beta",
+      "category": "models",
+      "title": "DeepSeek tests V4.1 Flash, claims it beats V4 Pro on cost and speed ahead of Sept 10 launch",
+      "summary": "DeepSeek opened a two-day beta of V4.1 Flash under the API id deepseek-v4.1-flash-expires-on-0910, a new architecture with native multimodal support that the company says fully surpasses V4 Pro on performance, cost, and speed. Reports out of Beijing say the full release is planned around September 10, 2026, at the same price as the current V4 Flash tier.",
+      "whyItMatters": "A frontier-adjacent lab pushing a cheaper, faster flash-tier model with native multimodal support is worth tracking for any cost-sensitive backend task around Romain/Anna (grading, content generation) that doesn't need the current default provider.",
+      "url": "https://www.odaily.news/en/newsflash/516591",
+      "source": "Odaily",
+      "tags": ["llm", "deepseek", "pricing", "multimodal"]
+    },
+    {
+      "id": "desert-ant-labs-on-device-audio-models",
+      "category": "inspiration",
+      "title": "Desert Ant Labs launches 18 on-device models, including a transcription model 4.7x faster than Whisper",
+      "summary": "New lab Desert Ant Labs launched SDKs for iOS, macOS, Android, and web with 18 small on-device models for audio, vision, and text that run fully offline. Its Voz model transcribes 10 minutes of audio in 2 seconds on an iPhone (4.7x faster than Whisper) with word-level timestamps across 25 European languages, free up to 100k monthly active devices.",
+      "whyItMatters": "A free, on-device ASR model with word-level timing across 25 European languages, French included, is directly relevant to cutting latency and cost in the Romain/Anna pipeline, especially for offline or edge-first transcription features.",
+      "url": "https://desertant.com/blog/introducing-desert-ant-labs/",
+      "source": "Desert Ant Labs",
+      "image": "https://desertant.com/og/blog/introducing-desert-ant-labs.jpg",
+      "tags": ["on-device", "asr", "latency", "voice"]
+    },
+    {
+      "id": "openbmb-minicpm5-2b",
+      "category": "inspiration",
+      "title": "OpenBMB releases MiniCPM5-2B, a 2.5B on-device model with 131K context and SOTA 2B-class scores",
+      "summary": "OpenBMB shipped MiniCPM5-2B under Apache-2.0 on September 7, a 2.52B-parameter dense model averaging 53.9 across 34 benchmarks, competitive with some 4B models, built for local/CPU deployment via GGUF, MLX, and GPTQ with Ollama/llama.cpp support.",
+      "whyItMatters": "A capable, open, small-footprint model with a 131K-token context window is a candidate for on-device or cheap-tier reasoning tasks around a voice tutor, like session summarization or lesson-plan drafting, without a full frontier-model bill.",
+      "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "source": "Hugging Face / OpenBMB",
+      "tags": ["llm", "on-device", "open-source", "context"]
+    }
+  ]
+}

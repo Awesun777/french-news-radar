@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-08T07:11:51Z",
+  "generatedAt": "2026-09-09T14:02:02Z",
   "digests": [
+    {
+      "date": "2026-09-09",
+      "title": "DeepSeek's V4.1 Flash beta, Desert Ant Labs' on-device voice models",
+      "itemCount": 3,
+      "categories": ["models", "inspiration"],
+      "highlights": [
+        "DeepSeek tests V4.1 Flash, claims it beats V4 Pro on cost and speed ahead of Sept 10 launch",
+        "Desert Ant Labs launches 18 on-device models, including a transcription model 4.7x faster than Whisper",
+        "OpenBMB releases MiniCPM5-2B, a 2.5B on-device model with 131K context and SOTA 2B-class scores"
+      ]
+    },
     {
       "date": "2026-09-08",
       "title": "Mistral's €21B round, first AI-training jury trial, Meta AI privacy scare",
