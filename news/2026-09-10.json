@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "deepseek-v4-1-flash-launch",
+      "category": "models",
+      "title": "DeepSeek officially launches V4.1 Flash, retires V4 Pro naming",
+      "summary": "DeepSeek officially launched V4.1 Flash on September 10, collapsing the old deepseek-v4-flash and deepseek-v4-pro model names into a single deepseek-flash endpoint. The new architecture adds native multimodal support, and DeepSeek says it beats V4 Pro on performance, cost, and speed; from September 14, all V4 Pro traffic will route to V4.1 Flash pricing.",
+      "whyItMatters": "A cheaper, faster flash-tier model with native multimodal support quietly taking over V4 Pro's traffic is worth a look for cost-sensitive backend tasks around Romain/Anna, like grading or content generation, that don't need the primary voice-model provider.",
+      "url": "https://api-docs.deepseek.com/news/news250910",
+      "source": "DeepSeek API docs",
+      "tags": ["llm", "deepseek", "pricing", "multimodal"]
+    },
+    {
+      "id": "openai-navier-stokes-millennium-prize",
+      "category": "general",
+      "title": "OpenAI says an unreleased model produced a Navier-Stokes proof in 88 hours",
+      "summary": "OpenAI says an unreleased model running roughly 10,000 agents in parallel produced a proof addressing the Navier-Stokes existence and smoothness problem, one of the Clay Mathematics Institute's seven Millennium Prize Problems, over 88 hours starting August 28. The claim drew pushback from mathematicians including Tristan Buckmaster, who accused OpenAI of muscling in on ongoing human research, though he called it a \"Deep Blue-Kasparov moment\" for AI-assisted math.",
+      "whyItMatters": "A concrete data point on how much unreleased agent-orchestration capability OpenAI is sitting on, from the same lab powering Romain's Realtime API, even if the math itself is unrelated to a voice tutor.",
+      "url": "https://www.semafor.com/article/09/08/2026/openai-agents-find-proof-to-1-million-millennium-prize-problem",
+      "source": "Semafor",
+      "tags": ["llm", "openai", "research", "agents"]
+    },
+    {
+      "id": "nsa-cisa-fbi-chinese-ai-distillation-advisory",
+      "category": "general",
+      "title": "NSA, CISA, FBI name six Chinese AI firms in mass model-distillation advisory",
+      "summary": "A joint advisory (AA26-251A) published September 8 names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI for running industrial-scale distillation campaigns against Claude, GPT, Gemini, and Grok since late 2024, using fraudulent accounts, proxy \"transfer stations,\" and jailbreak prompts to extract billions of tokens. The advisory calls distillation \"the critical core\" of these companies' model development, not a supplement, and recommends US providers quietly degrade rather than outright block suspected accounts.",
+      "whyItMatters": "A reminder to weigh trust and data-handling risk, not just price and latency, when picking model providers for a product that handles a student's voice and personal learning data.",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "source": "CISA",
+      "tags": ["security", "policy", "china", "distillation"]
+    },
+    {
+      "id": "meta-muse-ai-agent-launch",
+      "category": "general",
+      "title": "Meta launches Muse, a personal AI agent that emails, books, and shops for you",
+      "summary": "Meta launched Muse on September 8, a personal AI agent that sends emails, books travel, fills forms, and makes purchases via Stripe Link, running inside an isolated \"Muse Secure VM\" that keeps user data separate from a distinct on-VM security agent. It's live for US users on the web, iOS, Android, and WhatsApp with free, $20, and $100 monthly tiers, and asks for approval before sensitive actions.",
+      "whyItMatters": "Its confirm-before-acting pattern and isolated-VM approach to holding personal data is a useful reference point if Romain/Anna ever grow agentic side-tasks, like booking an exam slot or paying for a subscription, on a student's behalf.",
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "source": "TechCrunch",
+      "tags": ["agents", "meta", "privacy", "product"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-09T14:02:02Z",
+  "generatedAt": "2026-09-10T06:26:02Z",
   "digests": [
+    {
+      "date": "2026-09-10",
+      "title": "DeepSeek's V4.1 Flash launches, OpenAI's Navier-Stokes claim",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "DeepSeek officially launches V4.1 Flash, retires V4 Pro naming",
+        "OpenAI says an unreleased model produced a Navier-Stokes proof in 88 hours",
+        "NSA, CISA, FBI name six Chinese AI firms in mass model-distillation advisory"
+      ]
+    },
     {
       "date": "2026-09-09",
       "title": "DeepSeek's V4.1 Flash beta, Desert Ant Labs' on-device voice models",
