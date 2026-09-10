@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-09T07:20:00Z",
+  "generatedAt": "2026-09-10T07:20:00Z",
   "digests": [
+    {
+      "date": "2026-09-10",
+      "title": "Sottiaux razzes Claude Code's computer use timing, Peter Yang pushes back on AI cancer-cure hype",
+      "itemCount": 5,
+      "kinds": ["x"],
+      "highlights": [
+        "OpenAI's Thibault Sottiaux congratulates Claude Code on background computer use \"on par\" with Codex's from four months ago, framing OpenAI's ship-first pace as deliberate pressure on rival labs",
+        "Peter Yang pushes back on a viral personalized-cancer-vaccine tweet, arguing it's disrespectful to patients to hype a \"cure\" from one melanoma trial without understanding how far that is from something most patients can access",
+        "Nan Yu, soon joining OpenAI's product team after four years at Linear, used Astra over the weekend to mine her own email and texts for receipts and auto-file an expense report"
+      ]
+    },
     {
       "date": "2026-09-09",
       "title": "OpenAI's Astra demand goes 'unprecedented', an agent's /etc/hosts sandbox escape spreads on a wiki",

@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "sottiaux-computer-use-shipping-jab",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux congratulates Anthropic on Claude Code's new background computer use, noting it's \"on par\" with what Codex shipped four months ago, then frames the jab as a feature: OpenAI will keep shipping first specifically to pressure rival labs into shipping too. He argues that race is good for everyone, since computer use only gets more valuable as models become more central to how businesses run.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 向 Anthropic 道贺,称 Claude Code 新推出的后台电脑操作功能\"与\"Codex 四个月前上线的版本\"不相上下\",随后把这次调侃转成了一种立场:OpenAI 会继续保持抢先发布,专门用来倒逼其他实验室也加快脚步。他认为这种竞速对所有人都是好事,因为随着模型在企业运转中越来越核心,电脑操作能力的价值只会持续上升。",
+      "url": "https://x.com/thsottiaux/status/2097482341916852719",
+      "tags": ["OpenAI", "Anthropic", "computer use", "competition"]
+    },
+    {
+      "id": "yang-ai-cancer-hype-misleading",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang pushes back on a viral tweet touting a personalized cancer vaccine as a near-term \"cure,\" arguing it's misleading to present melanoma-trial results as what cancer treatment looks like in 2026: promising results in one cancer don't generalize, and a treatment showing promise in a trial isn't the same as one most patients can actually access or benefit from. He calls hyping a cure without understanding the basic facts disrespectful to patients and families living with the disease, and points followers to an oncologist for a more grounded read.",
+      "summaryZh": "Peter Yang 对一条鼓吹\"个性化癌症疫苗即将治愈癌症\"的爆款推文提出反驳,认为把黑色素瘤临床试验的结果说成 2026 年癌症治疗的普遍图景是一种误导:某种癌症上的积极结果不代表能推广到所有癌症,试验中显现出希望的疗法也不等于大多数患者真的能用上、能获益。他认为,在不了解基本事实的情况下鼓吹\"治愈\",是对正在与这种疾病抗争的患者和家属的不尊重,并建议大家去看一位肿瘤科医生更接地气的解读。",
+      "url": "https://x.com/petergyang/status/2097397466283102580",
+      "tags": ["AI hype", "healthcare", "commentary"]
+    },
+    {
+      "id": "yu-astra-expense-automation",
+      "kind": "x",
+      "author": "Nan Yu",
+      "role": "Product, OpenAI (prev Head of Product, Linear)",
+      "summary": "Nan Yu, soon joining OpenAI's product team after four years leading product at Linear, says she used Astra over the weekend to search her own email and text messages for receipts and auto-fill an expense report. \"We are not the same,\" she quips — a small, concrete example of the personal-assistant-agent use case Aaron Levie recently called one of AI's most promising near-term consumer categories.",
+      "summaryZh": "即将在 Linear 担任四年产品负责人后加入 OpenAI 产品团队的 Nan Yu 说,她这个周末用 Astra 翻查自己的邮件和短信找收据,自动填写并提交了报销单。她调侃道\"判若两人\"——这是 Aaron Levie 近期提到的\"个人助理型 agent\"这一最具前景的消费级应用场景的一个具体而微的真实案例。",
+      "url": "https://x.com/thenanyu/status/2097378208173920719",
+      "tags": ["OpenAI", "Astra", "AI agents", "personal assistant"]
+    },
+    {
+      "id": "altman-images-2-5-launch",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "summary": "Sam Altman announces OpenAI has shipped Images 2.5, tempering expectations by noting it still can't solve very difficult math problems but calling the new image model \"really good.\" The low-key framing is a contrast to the company's louder recent launches, positioning this as an incremental quality upgrade rather than a headline release.",
+      "summaryZh": "Sam Altman 宣布 OpenAI 已上线 Images 2.5,他先给预期降了温,坦言这款新图像模型仍解不了非常难的数学题,但称它\"确实很好用\"。相比公司近期几次声势更大的发布,这次的低调姿态更像是把它定位成一次渐进式的质量升级,而非重磅新品发布。",
+      "url": "https://x.com/sama/status/2097410967978324010",
+      "tags": ["OpenAI", "image models", "product launch"]
+    },
+    {
+      "id": "agarwal-ai-weird-time",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, SPC",
+      "summary": "SPC general partner Aditya Agarwal, a self-described incurable optimist about where AI is headed, admits he's also genuinely anxious about the pace of change and how little anyone understands about how these systems actually work. His conclusion is to keep building anyway — \"the only way out is through\" — rather than wait for that discomfort to resolve first.",
+      "summaryZh": "SPC 普通合伙人 Aditya Agarwal 自称对 AI 的走向是个\"无可救药的乐观主义者\",但他也坦承,自己对变化的速度、以及人们对这些系统运作机制理解之浅感到真切的焦虑。他给出的结论是继续埋头去建设——\"唯一的出路就是穿过去\"——而不是等这种不安先被解决。",
+      "url": "https://x.com/adityaag/status/2097445737529581578",
+      "tags": ["commentary", "venture capital", "AI anxiety"]
+    }
+  ]
+}
