@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "id": "openai-gpt-live-1-ga-speak-partner",
+      "category": "models",
+      "title": "OpenAI ships GPT-Live-1 in the API, Speak reports 80% fewer interruptions",
+      "summary": "OpenAI launched GPT-Live-1 in general availability on September 10, a full-duplex voice model that listens and speaks at the same time and can hand reasoning/tool calls off to a backend model like GPT-6 Astra. It costs $0.05/minute for the voice layer, ships with 12 voices, and lists French among its native-quality-fluency languages at launch alongside English, Spanish, Mandarin, Japanese, and German. Language app Speak is a named launch partner: its CTO reported GPT-Live-1 cut mid-sentence interruptions during learners' thinking pauses by about 80% versus its prior turn-based system.",
+      "whyItMatters": "Full-duplex listen-while-speaking is exactly the architecture problem behind Romain's turn-taking with hesitant French learners, and Speak's own numbers on a live language-tutor product are the closest real-world benchmark yet for whether switching off a chained STT-LLM-TTS pipeline is worth it.",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "source": "OpenAI",
+      "tags": ["voice", "realtime", "french", "openai"]
+    },
+    {
+      "id": "gemini-live-real-time-translation-rollout",
+      "category": "inspiration",
+      "title": "Gemini Live adds an in-conversation live-translation toggle, French included",
+      "summary": "Google is rolling out a \"Turn on live translation\" option inside Gemini Live's voice settings on Android, letting the assistant detect spoken words in another language and translate them on the fly with on-screen captions as the conversation continues. It ships alongside minor UI tweaks (a clearer exit button, on-screen interruption prompts) in a gradual server-side rollout reported September 10, building on Gemini's broader Live Translate feature that already covers French among its 70+ supported languages.",
+      "whyItMatters": "A captioned, always-listening live-translation toggle inside an ordinary voice-assistant UI is a direct product-design reference for a fallback \"help me understand\" mode inside Romain or Anna when a learner gets stuck mid-sentence.",
+      "url": "https://www.androidheadlines.com/2026/09/google-gemini-live-real-time-translation-ui-update.html",
+      "source": "Android Headlines",
+      "tags": ["translation", "realtime", "ux", "french"]
+    },
+    {
+      "id": "openai-agents-api-public-beta",
+      "category": "inspiration",
+      "title": "OpenAI opens the Agents API in public beta, exposing the Codex harness",
+      "summary": "OpenAI launched the Agents API in public beta on September 10, putting the same session/orchestration/context-compaction harness that powers Codex behind a single API call. It supports MCP connections, sandboxed code and file-editing execution (OpenAI-managed, self-hosted, or partner sandboxes), and multi-agent delegation, with no extra fee beyond model tokens and paid tools.",
+      "whyItMatters": "A managed harness for juggling conversation state, tool calls, and multi-agent delegation could simplify the backend orchestration behind Romain/Anna's session logic (grammar lookups, progress tracking) without hand-rolling that plumbing.",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "source": "OpenAI",
+      "tags": ["agents", "orchestration", "mcp", "openai"]
+    },
+    {
+      "id": "elevenlabs-umg-licensing-deal",
+      "category": "general",
+      "title": "ElevenLabs signs its first major-label deal, with Universal Music Group",
+      "summary": "Universal Music Group and ElevenLabs announced a multi-year licensing agreement on September 10 to build a fan-facing AI music co-creation platform for remixes, mashups, and \"personalized vocal experiences\" using UMG artists' catalogs. It's ElevenLabs' first agreement with a major label, sitting separately from its existing Music API and ElevenMusic products, with no launch date yet.",
+      "whyItMatters": "Not a tutoring feature, but a data point on ElevenLabs' commercial trajectory and rights-clearing playbook as a vendor Anna's stack depends on for TTS.",
+      "url": "https://www.digitalmusicnews.com/2026/09/10/universal-music-elevenlabs-deal/",
+      "source": "Digital Music News",
+      "tags": ["elevenlabs", "voice", "licensing", "industry"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-10T06:26:02Z",
+  "generatedAt": "2026-09-11T06:08:48Z",
   "digests": [
+    {
+      "date": "2026-09-11",
+      "title": "OpenAI's GPT-Live-1 GA, Speak cuts interruptions 80%",
+      "itemCount": 4,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "OpenAI ships GPT-Live-1 in the API, Speak reports 80% fewer interruptions",
+        "Gemini Live adds an in-conversation live-translation toggle, French included",
+        "OpenAI opens the Agents API in public beta, exposing the Codex harness"
+      ]
+    },
     {
       "date": "2026-09-10",
       "title": "DeepSeek's V4.1 Flash launches, OpenAI's Navier-Stokes claim",
