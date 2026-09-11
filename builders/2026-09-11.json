@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "id": "levie-coding-agents-diffusion",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues coding agents are about to be used for \"far more than anyone would have thought,\" from cybersecurity to life-sciences research to legacy-system upgrades, predicting that lowering the cost of code will make software more useful and actually increase demand for engineers, not shrink it. In a companion thread, he pushes back on using GDP as the yardstick for AI's economic impact, arguing that \"diffusion\" through corporate change management, procurement, and permitting will take a decade even once the underlying models are capable enough, calling AI diffusion \"the theme of the next decade.\"",
+      "summaryZh": "Box首席执行官Aaron Levie认为，编程agent即将被用于“远超任何人预想”的场景，从网络安全到生命科学研究再到遗留系统升级都会涉及，他预测降低编程成本将让软件变得更有用，反而会增加对工程师的需求，而不是减少。在另一条推文中，他反对用GDP衡量AI的经济影响，认为即便底层模型能力已经足够，企业变更管理、采购流程和审批许可等“扩散”过程仍需要长达十年时间，并称AI扩散将是“下一个十年的主题”。",
+      "url": "https://x.com/levie/status/2097920810543468551",
+      "tags": ["coding agents", "AI diffusion", "jobs"]
+    },
+    {
+      "id": "shipper-jobs-report-critique",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper critiques a widely-circulated report on AI and jobs for resting on two shaky assumptions: that jobs decompose cleanly into tasks, and that automation always nets out to less human work. Drawing on Wittgenstein and Heidegger, he argues a job is \"a particular way of seeing and caring about the world\" that keeps generating new tasks as tools change, a dynamic he says the task-list framing structurally misses. He links his own fuller argument that automation often creates more work for humans than it removes, not less.",
+      "summaryZh": "Every首席执行官Dan Shipper批评了一份广为流传的AI与就业报告，指出其建立在两个站不住脚的假设上：一是工作可以被干净地拆解为任务清单，二是自动化总会净减少人类工作量。他借用维特根斯坦和海德格尔的观点，认为一份工作是“一种观察和关心世界的特定方式”，会随着工具变化不断生成新任务，而任务清单式的框架从结构上就忽略了这一点。他还在帖子中链接了自己更完整的论述，主张自动化往往会为人类创造更多工作，而非减少。",
+      "url": "https://x.com/danshipper/status/2097758891270697101",
+      "tags": ["AI & jobs", "automation", "philosophy"]
+    },
+    {
+      "id": "rauch-model-price-cuts",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch notes that in just the past six months, the AI model market has seen 8 price cuts, fee removals or structural improvements plus 16 model discounts, framing it as evidence that competition among model providers keeps intensifying, with \"more to come.\"",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch指出，仅过去六个月里，AI模型市场就出现了8次降价、取消费用或结构性改进，外加16次模型折扣，他将此视为模型提供商之间竞争持续加剧的证据，并表示“后续还会更多”。",
+      "url": "https://x.com/rauchg/status/2097828203658383674",
+      "tags": ["pricing", "model market", "Vercel"]
+    },
+    {
+      "id": "steipete-openclaw-cloud-sessions",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "creator, OpenClaw",
+      "summary": "OpenClaw creator Peter Steinberger says he finally got cloud sessions running fast in the tool, adding remote terminal, WebVNC, and computer-use agent (CUA) support. He also notes that the Dashboards/Mini-Apps feature he pushed two months ago has since replaced a lot of the team's custom internal tooling, with \"everything\" now built as a sidebar entry, dashboard, or plugin on their team server.",
+      "summaryZh": "OpenClaw的创建者Peter Steinberger表示，他终于让云端会话在工具中快速运行起来，并新增了远程终端、WebVNC和计算机操作agent（CUA）支持。他还提到，两个月前推动的Dashboards/Mini-Apps功能已经取代了团队大量的内部定制工具，现在团队服务器上的“一切”都以侧边栏条目、仪表盘或插件的形式构建。",
+      "url": "https://x.com/steipete/status/2097935551735423464",
+      "tags": ["OpenClaw", "agent tooling", "product"]
+    },
+    {
+      "id": "sottiaux-banked-resets-glitch",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux disclosed a glitch where some banked usage resets didn't fully apply for users of ChatGPT Work and Codex, and said everyone affected during the window is getting another reset plus an apology email.",
+      "summaryZh": "OpenAI的Thibault Sottiaux披露了一个故障：部分用户在ChatGPT Work和Codex中使用的“预留重置额度”未能完全生效，他表示受影响时段内的所有用户都将获得另一次重置额度，并收到道歉邮件。",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "tags": ["OpenAI", "Codex", "incident"]
+    },
+    {
+      "id": "yang-brutal-feedback-prompt",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang shares his favorite way to stress-test a new model's reasoning: ask it for brutally honest feedback on your personal blind spots using a specific image prompt, and see how direct the answer is. He notes OpenAI's Astra was especially blunt when he tried it.",
+      "summaryZh": "Peter Yang分享了他测试新模型推理能力的最爱方法：用一个特定的图片提示词，让模型对你的个人盲点给出直言不讳的反馈，看它的回答有多坦诚。他提到，用这个方法测试OpenAI的Astra时，得到的反馈格外犀利直接。",
+      "url": "https://x.com/petergyang/status/2097729250505966046",
+      "tags": ["prompting", "model eval", "Astra"]
+    }
+  ]
+}

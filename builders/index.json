@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-10T07:20:00Z",
+  "generatedAt": "2026-09-11T06:24:43Z",
   "digests": [
+    {
+      "date": "2026-09-11",
+      "title": "Levie says coding agents will expand software categories, Shipper picks apart an AI-jobs report's assumptions",
+      "itemCount": 6,
+      "kinds": ["x"],
+      "highlights": [
+        "Box CEO Aaron Levie predicts coding agents will be used for \"far more than anyone would have thought,\" arguing lower code costs raise engineer demand rather than cut it, and that AI diffusion through corporate change management will take a decade regardless of model capability",
+        "Every CEO Dan Shipper critiques a viral AI-and-jobs report for assuming jobs decompose cleanly into tasks and that automation always nets out to less human work, arguing (via Wittgenstein and Heidegger) that automation often creates more work than it removes",
+        "OpenAI's Thibault Sottiaux discloses a glitch where banked usage resets didn't fully apply for some ChatGPT Work and Codex users, with affected accounts getting another reset and an apology"
+      ]
+    },
     {
       "date": "2026-09-10",
       "title": "Sottiaux razzes Claude Code's computer use timing, Peter Yang pushes back on AI cancer-cure hype",
