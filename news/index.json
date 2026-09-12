@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-11T06:08:48Z",
+  "generatedAt": "2026-09-12T06:12:56Z",
   "digests": [
+    {
+      "date": "2026-09-12",
+      "title": "Cohere's open translation model tops DeepL, OpenAI pauses Pro sign-ups",
+      "itemCount": 4,
+      "categories": ["inspiration", "general"],
+      "highlights": [
+        "Cohere's open-weight North Small Translate beats DeepL and Google Translate across 50 languages",
+        "OpenAI pauses new $200 Pro sign-ups as GPT-6 Astra demand strains capacity",
+        "Sakana AI's Fugu Max routes tasks across models at 40-60% below Sonnet 5 and GPT-5.6 Terra"
+      ]
+    },
     {
       "date": "2026-09-11",
       "title": "OpenAI's GPT-Live-1 GA, Speak cuts interruptions 80%",

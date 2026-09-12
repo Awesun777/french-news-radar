@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "cohere-north-small-translate",
+      "category": "inspiration",
+      "title": "Cohere ships North Small Translate, an open-weight 218B model beating DeepL and Google Translate",
+      "summary": "Cohere released North Small Translate on September 10, an open-weight sparse mixture-of-experts translation model (25B active / 218B total parameters, 128 experts with 8 active per token) covering 50 languages. It scores 83.6 on the WMT26 all-languages benchmark versus 81.37 for DeepL NextGen, rising to 84.36 with an agentic multi-pass mode that finds and fixes its own errors. It's text-only with a 16K-token input/output limit, weights gated on Hugging Face under CC BY-NC 4.0 for research and non-commercial use.",
+      "whyItMatters": "A dedicated, openly-weighted translation model beating DeepL is a concrete building block for a \"help me understand\" translation fallback inside Romain or Anna, and its self-correcting agentic pass is a pattern worth studying for catching mistranslations before they reach a learner.",
+      "url": "https://cohere.com/blog/north-small-translate",
+      "source": "Cohere blog",
+      "tags": ["translation", "open-weights", "moe", "inspiration"]
+    },
+    {
+      "id": "openai-pauses-pro-astra-demand",
+      "category": "general",
+      "title": "OpenAI pauses new $200 Pro sign-ups as Astra demand strains capacity",
+      "summary": "OpenAI temporarily disabled new sign-ups and upgrades to its $200/month ChatGPT Pro tier on September 10, citing what a product lead called \"unprecedented\" demand for GPT-6 Astra's computer-use features straining infrastructure. Existing Pro subscribers are unaffected, and the API plus the Go and Plus plans remain open.",
+      "whyItMatters": "A reminder that even OpenAI's own infrastructure can buckle under a popular agentic feature, worth factoring into capacity planning for any backend task that leans on GPT-6 Astra behind Romain.",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "source": "TechCrunch",
+      "tags": ["openai", "capacity", "astra", "pricing"]
+    },
+    {
+      "id": "gemini-desktop-app-windows",
+      "category": "general",
+      "title": "Google launches a native Gemini desktop app for Windows",
+      "summary": "Google shipped a native Gemini app for Windows 10 and 11 (x64 and ARM64) on September 10, invoked with an Alt+Space shortcut, with Workspace-grounded drafting from Gmail and Drive and built-in Nano Banana image generation. It's free with daily usage limits; heavier use requires a Google AI Plus, Pro, or Ultra subscription starting at $19.99/month.",
+      "whyItMatters": "Not tutor-specific, but it's a data point on how Google is packaging an always-available assistant as an OS-level habit via one keyboard shortcut, the kind of frictionless entry point worth matching for Romain or Anna.",
+      "url": "https://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html",
+      "source": "Google Workspace Updates",
+      "tags": ["gemini", "product", "google", "desktop"]
+    },
+    {
+      "id": "sakana-fugu-max-launch",
+      "category": "general",
+      "title": "Sakana AI launches Fugu Max, an orchestration layer priced 40-60% below Sonnet 5 and GPT-5.6 Terra",
+      "summary": "Sakana AI released Fugu Max and Fugu Ultra v2 on September 11. Rather than a single trained network, Fugu is a multi-agent router that dispatches each task across a pool of open and specialized models, including Nvidia Nemotron, behind one OpenAI-compatible endpoint. Priced at $2/$6 per million input/output tokens, Sakana says it undercuts Sonnet 5, GPT-5.6 Terra, and Kimi K3 on output cost while topping six agentic and coding benchmarks.",
+      "whyItMatters": "A production example of routing each task to the cheapest capable model behind a single API is directly applicable to trimming backend costs for non-voice work, like grading or lesson generation, that supports Romain and Anna.",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "source": "Sakana AI",
+      "tags": ["orchestration", "pricing", "agents", "routing"]
+    }
+  ]
+}
