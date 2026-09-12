@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "levie-enterprise-ai-field-notes",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie shares field notes from meeting a couple dozen enterprise technology leaders across banking, media, insurance, and consulting this week. Cybersecurity is now the top concern, driven by the OpenAI-Hugging Face incident and a rising rate of AI-surfaced vulnerabilities, while companies increasingly worry about managing agent identity and security as agents try to access every system they can. He also notes most enterprises are running multiple frontier models with little standardization, spend concentrated on just a few vendors, and separately announced a deeper Box-OpenAI partnership letting enterprise content be used securely inside ChatGPT.",
+      "summaryZh": "Box首席执行官Aaron Levie分享了本周与来自银行、媒体、保险和咨询行业的数十位企业技术负责人交流后的见闻。网络安全如今是头号担忧,原因是OpenAI-Hugging Face事件以及AI暴露出的漏洞数量不断上升,企业也越来越担心如何管理agent的身份和安全,因为agent会尝试访问它们能接触到的每一个系统。他还提到,大多数企业同时部署了多个前沿模型,标准化程度很低,但支出仍集中在少数几家供应商身上;他另外宣布Box与OpenAI深化合作,让企业内容可以安全地在ChatGPT中使用。",
+      "url": "https://x.com/levie/status/2098218284139311615",
+      "tags": ["enterprise AI", "cybersecurity", "Box", "OpenAI"]
+    },
+    {
+      "id": "sottiaux-pro-plan-pause-agents-api",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux says the company is pausing new subscriptions to its $200/month ChatGPT Pro plan to protect Astra access for existing users, since Pro accounts put the most strain on capacity; he stresses current subscribers see no impact while OpenAI races to add more capacity. The same day, he opened up \"Scaled agents on demand,\" the same infrastructure that runs ChatGPT Work, as a public API developers can start using in under a minute.",
+      "summaryZh": "OpenAI的Thibault Sottiaux表示,公司将暂停ChatGPT Pro(每月200美元)套餐的新订阅,以保护现有用户对Astra的使用体验,因为Pro账户给系统容量带来的压力最大;他强调现有订阅用户不受任何影响,同时团队正在争分夺秒地增加算力。同一天,他还把支撑ChatGPT Work的同一套基础设施——“按需扩展agent”——开放为一个公开API,开发者一分钟内就能上手使用。",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "tags": ["OpenAI", "Astra", "capacity", "agents API"]
+    },
+    {
+      "id": "cherny-claude-code-bar-threat-intel",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny tells frustrated users that Claude-written production code should be held to a higher bar than code written by humans, not a lower one, pointing to Anthropic's own guardrails: heavy lint rules, Claude-driven end-to-end tests, daily fuzzers, and automated code review and refactoring. His advice before blaming the model: upgrade to Opus 5 or Fable 5.1, raise the effort setting to high or xhigh, or invest more in CLAUDE.md and skills. Separately, he calls Anthropic's newest Threat Intelligence report \"terrifying and important,\" warning that capabilities like strong coding or biology assistance are increasingly dual-use, useful for hacking infrastructure or engineering the next pandemic.",
+      "summaryZh": "Anthropic的Boris Cherny回应心怀不满的用户时表示,Claude写的生产代码应该被要求达到比人写代码更高的标准,而不是更低。他列举了Anthropic自身的把关机制:严格的lint规则、Claude驱动的端到端测试、每日运行的fuzzer,以及自动化代码审查和重构。在归咎于模型之前,他建议先尝试:升级到Opus 5或Fable 5.1、把effort调到high或xhigh、或者在CLAUDE.md和skills上多投入。另外,他评价Anthropic最新的Threat Intelligence报告“读起来令人不安却又极其重要”,警告说编程能力强、擅长辅助生物学研究等能力正变得越来越“双重用途”,既能帮上忙,也能被用来攻击关键基础设施或制造下一场大流行病。",
+      "url": "https://x.com/bcherny/status/2098217573276131577",
+      "tags": ["Claude Code", "code quality", "AI safety", "Anthropic"]
+    },
+    {
+      "id": "rauch-vercel-deployment-scale",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch discloses the platform now handles roughly 10 million deployments a day (2.35 billion all-time) as one of the most heavily multi-tenant systems in the world, with a global metadata store that syncs config and routing changes within hundreds of milliseconds. He says the team just made that system 91% faster at p99 specifically to absorb the growing load from agentic, AI-driven deployments, and teases a next product: \"a computer for every agent, in every region.\"",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch透露,该平台如今每天处理约1000万次部署(累计达23.5亿次),是全球多租户程度最高的系统之一,其全球元数据存储能在数百毫秒内同步配置和路由变更。他表示团队刚把这套系统的p99延迟提升了91%,专门用来应对由agentic(AI驱动)部署快速增长带来的负载压力,并预告了下一款产品:“为每一个agent、每一个区域都配一台计算机”。",
+      "url": "https://x.com/rauchg/status/2098091056302833837",
+      "tags": ["Vercel", "infrastructure", "AI agents", "scale"]
+    },
+    {
+      "id": "guru-evals-measure-steps",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI, Meta",
+      "summary": "In the 10th installment of his eval-building series, Meta AI senior director Madhu Guru argues teams should score agent trajectories by their steps, not just their final answer. Two agents can land on the identical correct output, his example is the number 42, while one gets there through four clean tool calls and the other needs 17, repeating the same search three times and recovering from two errors along the way.",
+      "summaryZh": "在他“如何做好evals”系列的第十篇中,Meta AI高级总监Madhu Guru主张团队评估agent时应该关注它走的每一步,而不只是最终答案。他举例说,两个agent可能得出完全相同的正确结果(比如数字42),但一个通过4次干净利落的tool call就完成了,另一个却用了17次调用,重复搜索了三次同样的内容,还中途出错又恢复了两次。",
+      "url": "https://x.com/realmadhuguru/status/2098064969464217720",
+      "tags": ["evals", "AI agents", "Meta"]
+    },
+    {
+      "id": "kothari-seed-valuation-froth",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari names what he calls three truths of the current early-stage market: everyone wants to raise a $50 million seed round, everyone projects hitting $30 million ARR next year, and almost every hot, oversubscribed seed round somehow ends up priced at roughly a $300 million valuation regardless of the underlying business.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari总结了当下早期投资市场的“三个真相”:每个人都想融一轮5000万美元的种子轮,每个人都预测明年能做到3000万美元ARR,而几乎每一轮热门、超额认购的种子轮,不管背后的业务到底如何,最后估值都神奇地落在约3亿美元左右。",
+      "url": "https://x.com/nikunj/status/2098078391065018816",
+      "tags": ["venture capital", "seed funding", "AI startups"]
+    },
+    {
+      "id": "masad-extinction-risk-pushback",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad pushes back hard on AI doom framing, saying he genuinely worries about near-term risks like cybersecurity, but dismisses \"extinction risk\", the scenario where literally 100% of humans die, as \"not remotely\" one of the real risks on the table.",
+      "summaryZh": "Replit首席执行官Amjad Masad强烈反对AI末日论的叙事框架,他表示自己确实担心网络安全等近期风险,但认为“灭绝风险”(也就是人类100%全部死亡的情形)“完全谈不上”是真正摆在台面上的风险之一。",
+      "url": "https://x.com/amasad/status/2098171265924116732",
+      "tags": ["AI risk", "Replit", "commentary"]
+    },
+    {
+      "id": "socher-turck-recursive-self-improvement",
+      "kind": "podcast",
+      "author": "Richard Socher",
+      "role": "Founder & CEO, Recursive (guest on The MAD Podcast with Matt Turck)",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "takeaway": "The same next-token prediction trick that taught AI to master language can be pointed at proteins, molecules, and economies, and that, not raw compute, is what could finally reassemble science's fragmented, hyper-specialized pieces into a new era of discovery.",
+      "takeawayZh": "让AI掌握语言的那套next-token prediction手法,同样可以用在蛋白质、分子和经济体系上,这才是真正能把科学碎片化的高度专业领域重新拼接起来、开启新一轮发现时代的关键,而不是单纯堆算力。",
+      "summary": "Richard Socher, the former chief scientist at Salesforce, one of the most cited researchers in AI, and now founder of Recursive, a startup that just raised $650 million to build AI that improves itself, argues in his new book The Eureka Machine that AI is about to do for science what calculus did for physics.\n\nHis starting claim is counterintuitive: scientific progress has actually slowed down, not accelerated, despite record numbers of researchers and funding. The reason, he says, is that knowledge has splintered into thousands of hyper-specialized subfields nobody can bridge alone, what he calls evolving \"from a body of knowledge to a labyrinth of knowledge.\" His bet is that the same next-token prediction that let large language models master English can be pointed at any sequence, whether that's amino acids, molecules, or economic decisions, and by predicting what comes next in that sequence, a model absorbs real knowledge of the domain without anyone hand-engineering the rules.\n\nSocher lays out a simple rule for where AI will hit superhuman performance first: any domain you can simulate or verify, AI will eventually solve. That's why coding, math, and games fell first, and why he thinks biology is next, once virtual cells and perturbation data catch up. He's also unusually candid about who benefits: \"if you care about the outputs of an industry or a company then you love AI. If you get paid hourly you probably hate AI\", his frame for why the discourse around AI and jobs feels so split. He does not expect a sudden \"hard takeoff,\" since biology and medicine still require years of real-world trials no simulation can skip.\n\nThe takeaway: mastering language was never really about language, it was a proof that predicting the next token in any sequence extracts real knowledge, and Socher is betting that same trick, pointed at proteins, molecules, and economies, is what finally reassembles science's scattered pieces into a new era of discovery.",
+      "summaryZh": "Richard Socher曾任Salesforce首席科学家,是AI领域被引用最多的研究者之一,如今创办了Recursive,一家刚刚融资6.5亿美元、致力于打造能自我改进的AI的公司。他在新书The Eureka Machine中提出一个观点:AI即将为科学做的事情,就像微积分当年为物理学做的事情一样。\n\n他开篇的论点相当反直觉:尽管研究者数量和资金投入都达到历史新高,科学进步实际上却在放缓。原因在于,知识已经碎片化成了成千上万个高度专业化的子领域,没有人能独自把它们串联起来,他把这个过程形容为“从一个知识体系演变成了一座知识迷宫”。他押注的是:让大语言模型掌握英语的那套next-token prediction,同样可以用在任何序列上,无论是氨基酸、分子还是经济决策,模型通过预测序列中接下来会出现什么,就能吸收该领域的真实知识,而不需要任何人手工设计规则。\n\nSocher给出了一个判断AI会在哪些领域率先达到超人类水平的简单法则:任何能被模拟或验证的领域,AI最终都能解决。这就是编程、数学和棋类游戏最先被攻克的原因,也是他认为生物学会是下一个突破口的原因,前提是虚拟细胞和扰动实验数据能跟上进度。他对谁会从中受益也异常坦率:“如果你在意的是一个行业或一家公司产出了什么,你会喜欢AI。如果你是按小时计酬的,你大概会讨厌AI”,他用这句话解释了为什么围绕AI和就业的讨论会如此两极分化。他并不认为会出现突然的“硬起飞”,因为生物学和医学仍然需要经年累月的真实世界试验,这是任何模拟都无法跳过的。\n\n核心结论:让AI掌握语言,从来都不只是关于语言本身,它证明了预测任意序列中的下一个token就能提取出真实的知识,而Socher押注的是,把这套同样的手法用在蛋白质、分子和经济体系上,最终能把科学那些散落的碎片重新拼接起来,开启一个新的发现时代。",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": ["recursive self-improvement", "AI for science", "Recursive", "podcast"]
+    }
+  ]
+}

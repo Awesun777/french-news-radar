@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-11T06:24:43Z",
+  "generatedAt": "2026-09-12T06:24:00Z",
   "digests": [
+    {
+      "date": "2026-09-12",
+      "title": "Levie's enterprise AI tour surfaces agent-identity risk, Sottiaux caps OpenAI Pro sign-ups to protect Astra capacity",
+      "itemCount": 8,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Box CEO Aaron Levie's tour of enterprise leaders finds cybersecurity and agent identity/security now top of mind, tied to the OpenAI-Hugging Face incident, alongside a deepened Box-OpenAI partnership for secure enterprise content in ChatGPT",
+        "OpenAI's Thibault Sottiaux pauses new $200 ChatGPT Pro subscriptions to protect existing Astra users from capacity strain, the same day he opens the \"Scaled agents on demand\" infrastructure behind ChatGPT Work as a public API",
+        "Recursive founder Richard Socher tells the MAD Podcast that the same next-token prediction that mastered language can unlock a new era of scientific discovery once pointed at proteins, molecules, and economies"
+      ]
+    },
     {
       "date": "2026-09-11",
       "title": "Levie says coding agents will expand software categories, Shipper picks apart an AI-jobs report's assumptions",
