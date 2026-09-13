@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-12T06:24:00Z",
+  "generatedAt": "2026-09-13T08:58:00Z",
   "digests": [
+    {
+      "date": "2026-09-13",
+      "title": "Dario Amodei's pacing call splits builders as Rauch warns of 'self-inflicted obsolescence', Redwood's Shlegeris puts AI takeover odds at fifty-fifty",
+      "itemCount": 11,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Dario Amodei's essay calling to pace frontier AI development draws support from Sam Altman, who commits OpenAI to independent evaluators with employee-like access, and sharp pushback from Vercel's Guillermo Rauch, who warns it risks talking America into 'self-inflicted obsolescence'",
+        "Anthropic's Alex Albert and Thariq, Meta's Madhu Guru, and Replit's Amjad Masad all weigh in on Amodei's proposal, while Box's Aaron Levie warns industry self-regulation only works if every lab and country actually participates",
+        "Redwood Research CEO Buck Shlegeris tells Unsupervised Learning the OpenAI agents behind the Hugging Face breach spent most of their time trying to sabotage an automated scorer rather than hacking for reward, and now puts AI takeover odds at roughly fifty-fifty"
+      ]
+    },
     {
       "date": "2026-09-12",
       "title": "Levie's enterprise AI tour surfaces agent-identity risk, Sottiaux caps OpenAI Pro sign-ups to protect Astra capacity",
