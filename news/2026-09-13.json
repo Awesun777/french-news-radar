@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "id": "amodei-pace-the-frontier-essay",
+      "category": "general",
+      "title": "Anthropic's Amodei calls to 'pace the frontier,' Altman and Musk agree, OpenAI shelves 2026 IPO",
+      "summary": "On September 12, Anthropic CEO Dario Amodei published \"We Must Pace the Frontier,\" a roughly 3,800-word essay arguing AI capability gains are outrunning the industry's ability to test and control them, and proposing embedded third-party evaluators with employee-level access, coordination among frontier labs, and international cooperation. OpenAI's Sam Altman and xAI's Elon Musk both publicly agreed within hours. Separately, Altman told Fortune that OpenAI won't go public in 2026, citing the same safety concerns.",
+      "whyItMatters": "If frontier labs actually slow capability releases and add outside evaluators, it likely means fewer sudden model swaps to plan around for Romain's OpenAI backend, but also more friction before any lab ships its next big voice or agentic upgrade.",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source": "Dario Amodei (darioamodei.com)",
+      "tags": ["policy", "safety", "openai", "anthropic"]
+    },
+    {
+      "id": "anthropic-threat-intel-report-sept-2026",
+      "category": "general",
+      "title": "Anthropic's September 2026 threat report: a single actor with Claude now matches a state-backed hacking team",
+      "summary": "Anthropic's September 2026 Threat Intelligence report, published September 10, documents AI-orchestrated misuse across seven harm areas including cyber operations, influence operations, surveillance, and model distillation. Cases include a 130-day Russian state-espionage campaign against Ukrainian defense and drone-supply-chain targets, and Iranian units analyzing over 150,000 tweets for open-source intelligence on US naval fleet positions. Anthropic says it disrupted each case and shared intelligence with authorities.",
+      "whyItMatters": "A reminder that the same agentic, tool-using capabilities behind Romain and Anna can be run end-to-end by a single bad actor, worth weighing when deciding how much unsupervised autonomy any backend agent for the tutor gets.",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "source": "Anthropic",
+      "tags": ["security", "safety", "agents", "policy"]
+    },
+    {
+      "id": "papercut-ai-agent-swarm-attack",
+      "category": "general",
+      "title": "Hundreds of AI agents built on Codex and DeepSeek breach 440 PaperCut servers across 395 organizations",
+      "summary": "Security firm GreyNoise reported that a likely Russian-speaking threat actor ran hundreds of AI agents built on OpenAI's Codex harness and a DeepSeek model, alongside tools like Mimikatz and Impacket, to exploit two PaperCut NG/MF vulnerabilities starting August 31. The campaign compromised at least 440 instances across 395 organizations in 48 countries, reaching domain-admin access at 12 of them, with education the hardest-hit sector.",
+      "whyItMatters": "A concrete benchmark for how cheaply an agent swarm built from consumer coding tools can now run and pivot an attack unsupervised, useful context for deciding how much autonomous action any tutor-side agent should ever be granted.",
+      "url": "https://www.greynoise.io/blog/ai-orchestrated-campaign-against-papercut-ng-mf",
+      "source": "GreyNoise",
+      "tags": ["security", "agents", "openai", "deepseek"]
+    }
+  ]
+}

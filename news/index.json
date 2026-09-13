@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-12T06:12:56Z",
+  "generatedAt": "2026-09-13T06:14:10Z",
   "digests": [
+    {
+      "date": "2026-09-13",
+      "title": "Amodei's AI slowdown call, agent swarms breach 440 PaperCut servers",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "Anthropic's Amodei calls to 'pace the frontier,' Altman and Musk agree, OpenAI shelves 2026 IPO",
+        "Anthropic's September 2026 threat report: a lone actor with Claude now matches a state-backed hacking team",
+        "Hundreds of AI agents built on Codex and DeepSeek breach 440 PaperCut servers across 395 organizations"
+      ]
+    },
     {
       "date": "2026-09-12",
       "title": "Cohere's open translation model tops DeepL, OpenAI pauses Pro sign-ups",
