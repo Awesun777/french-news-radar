@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "guru-eval-talent-migration-metr",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta",
+      "summary": "Meta AI Sr Director Madhu Guru predicts a wave of frontier-model-eval talent will migrate toward safety-focused groups like METR over the next 12 months. They argue this expertise is currently concentrated in a handful of labs, data providers, and independent research groups, and that new funding, financial independence from lab equity, and the pull of addressing AI's existential risk will drive the shift.",
+      "summaryZh": "Meta AI高级总监Madhu Guru预测,未来12个月里,大批从事前沿模型evals的人才将转向METR这类专注于AI安全的机构。Guru认为,这类人才目前集中在少数几家实验室、数据提供商和独立研究团体手中,而新增资金、摆脱实验室股权带来的经济独立,以及应对AI生存风险的使命感,将共同推动这一人才迁移。",
+      "url": "https://x.com/realmadhuguru/status/2098859477219037691",
+      "tags": ["AI safety", "talent", "evals", "METR"]
+    }
+  ]
+}
