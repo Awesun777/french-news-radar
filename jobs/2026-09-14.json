@@ -1,0 +1,887 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T06:39:51Z",
+  "items": [
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "Application Support Intermediate Analyst",
+      "url": "https://jobs.citi.com/job/tampa/application-support-intermediate-analyst/287/99130324352",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "Applications Development Intermediate Programmer Analyst - Officer",
+      "url": "https://jobs.citi.com/job/houston/applications-development-intermediate-programmer-analyst-officer/287/100362243920",
+      "location": "Houston, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-3",
+      "company": "Citi",
+      "title": "Applications Development Senior Programmer Analyst - AVP",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-senior-programmer-analyst-avp/287/97913146800",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-4",
+      "company": "Citi",
+      "title": "Applications Development Senior Programmer Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/new-castle/applications-development-senior-programmer-analyst-assistant-vice-president/287/100084195168",
+      "location": "New Castle, Delaware, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-5",
+      "company": "Citi",
+      "title": "Applications Development Senior Programmer Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-senior-programmer-analyst-assistant-vice-president/287/100444738448",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-6",
+      "company": "Citi",
+      "title": "Applications Development Seniorr Programmer Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-seniorr-programmer-analyst-assistant-vice-president/287/100444738464",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-7",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-sr-programmer-analyst/287/100354353920",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-8",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst (AI Focus) - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-sr-programmer-analyst-ai-focus-assistant-vice-president/287/96027560944",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-9",
+      "company": "Citi",
+      "title": "Applications Development Tech Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-tech-lead-analyst/287/100497277600",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-10",
+      "company": "Citi",
+      "title": "Applications Development Technology Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-technology-lead-analyst/287/100116970720",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-11",
+      "company": "Citi",
+      "title": "Applications Support Senior Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/applications-support-senior-analyst-assistant-vice-president/287/99405694784",
+      "location": "Jacksonville, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-12",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - Officer",
+      "url": "https://jobs.citi.com/job/irving/apps-dev-intmd-programmer-analyst-officer/287/100164751808",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-13",
+      "company": "Citi",
+      "title": "Banking - Corporate Banking, Full Time Analyst, San Francisco - USA, 2027",
+      "url": "https://jobs.citi.com/job/san-francisco/banking-corporate-banking-full-time-analyst-san-francisco-usa-2027/287/97845636672",
+      "location": "San Francisco, California, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-14",
+      "company": "Citi",
+      "title": "Banking - Corporate Banking, Summer Analyst, San Francisco - US, 2027",
+      "url": "https://jobs.citi.com/job/san-francisco/banking-corporate-banking-summer-analyst-san-francisco-us-2027/287/89623967024",
+      "location": "San Francisco, California, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-15",
+      "company": "Citi",
+      "title": "Client Onboarding Associate Analyst",
+      "url": "https://jobs.citi.com/job/getzville/client-onboarding-associate-analyst/287/98695751264",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-16",
+      "company": "Citi",
+      "title": "Client Onboarding Associate Analyst",
+      "url": "https://jobs.citi.com/job/getzville/client-onboarding-associate-analyst/287/98412622480",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-17",
+      "company": "Citi",
+      "title": "Custody Service Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/custody-service-lead-analyst/287/100444751632",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-18",
+      "company": "Citi",
+      "title": "Data Owner Sr. Lead Analyst",
+      "url": "https://jobs.citi.com/job/irving/data-owner-sr-lead-analyst/287/100133515200",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-19",
+      "company": "Citi",
+      "title": "Digital Assets Production Support & SRE Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/digital-assets-production-support-and-sre-analyst-assistant-vice-president/287/96818300480",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-20",
+      "company": "Citi",
+      "title": "Digital Channel Lead Analyst - C13",
+      "url": "https://jobs.citi.com/job/irving/digital-channel-lead-analyst-c13/287/100178771936",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-21",
+      "company": "Citi",
+      "title": "Digital S/W Eng Sr Analyst / SDET",
+      "url": "https://jobs.citi.com/job/irving/digital-s-w-eng-sr-analyst-sdet/287/100453285664",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-22",
+      "company": "Citi",
+      "title": "Digital Software Eng Senior Lead Analyst SVP",
+      "url": "https://jobs.citi.com/job/irving/digital-software-eng-senior-lead-analyst-svp/287/100500715792",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-23",
+      "company": "Citi",
+      "title": "Digital Software Engineer Lead Analyst - VP",
+      "url": "https://jobs.citi.com/job/jacksonville/digital-software-engineer-lead-analyst-vp/287/100116994496",
+      "location": "Jacksonville, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-24",
+      "company": "Citi",
+      "title": "Digital Software Engineer Lead Analyst, Android Development",
+      "url": "https://jobs.citi.com/job/irving/digital-software-engineer-lead-analyst-android-development/287/99686251216",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-25",
+      "company": "Citi",
+      "title": "ETF Operations Analyst",
+      "url": "https://jobs.citi.com/job/tampa/etf-operations-analyst/287/100093417728",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-26",
+      "company": "Citi",
+      "title": "Equity and Deferred Compensation Sr. Analyst / AVP",
+      "url": "https://jobs.citi.com/job/tampa/equity-and-deferred-compensation-sr-analyst-avp/287/99501114496",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-27",
+      "company": "Citi",
+      "title": "Forms Governance Business Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/fort-lauderdale/forms-governance-business-lead-analyst-vice-president/287/99985734864",
+      "location": "Fort Lauderdale, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-28",
+      "company": "Citi",
+      "title": "Functions - Chief Operating Office, Full Time Analyst, Tampa - USA, 2027",
+      "url": "https://jobs.citi.com/job/tampa/functions-chief-operating-office-full-time-analyst-tampa-usa-2027/287/98236354848",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-29",
+      "company": "Citi",
+      "title": "Functions - Chief Operating Office, Summer Analyst, Tampa - USA, 2027",
+      "url": "https://jobs.citi.com/job/tampa/functions-chief-operating-office-summer-analyst-tampa-usa-2027/287/100084223904",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-30",
+      "company": "Citi",
+      "title": "Functions - Internal Audit, Summer Analyst, Dallas - USA, 2027",
+      "url": "https://jobs.citi.com/job/irving/functions-internal-audit-summer-analyst-dallas-usa-2027/287/93639707136",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-31",
+      "company": "Citi",
+      "title": "Functions - Internal Audit, Summer Analyst, Tampa - USA, 2027",
+      "url": "https://jobs.citi.com/job/tampa/functions-internal-audit-summer-analyst-tampa-usa-2027/287/93639707152",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-32",
+      "company": "Citi",
+      "title": "Functions - Risk Management, Summer Analyst, Buffalo - USA, 2027",
+      "url": "https://jobs.citi.com/job/getzville/functions-risk-management-summer-analyst-buffalo-usa-2027/287/94188563568",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-33",
+      "company": "Citi",
+      "title": "Functions - Risk Management, Summer Analyst, Irving - USA, 2027",
+      "url": "https://jobs.citi.com/job/irving/functions-risk-management-summer-analyst-irving-usa-2027/287/94188563584",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-34",
+      "company": "Citi",
+      "title": "Functions - Risk Management, Summer Analyst, Tampa - USA, 2027",
+      "url": "https://jobs.citi.com/job/tampa/functions-risk-management-summer-analyst-tampa-usa-2027/287/100084224112",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-35",
+      "company": "Citi",
+      "title": "IT Business Lead Analyst",
+      "url": "https://jobs.citi.com/job/jacksonville/it-business-lead-analyst/287/99729621152",
+      "location": "Jacksonville, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-36",
+      "company": "Citi",
+      "title": "IT Business Sr Analyst",
+      "url": "https://jobs.citi.com/job/tampa/it-business-sr-analyst/287/100500723760",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-37",
+      "company": "Citi",
+      "title": "IT Lead Product Analyst Vice President",
+      "url": "https://jobs.citi.com/job/getzville/it-lead-product-analyst-vice-president/287/100093427504",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-38",
+      "company": "Citi",
+      "title": "IT Quality Intermediate Analyst Officer",
+      "url": "https://jobs.citi.com/job/new-castle/it-quality-intermediate-analyst-officer/287/100494893184",
+      "location": "New Castle, Delaware, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-39",
+      "company": "Citi",
+      "title": "IT Quality Intermediate Analyst Officer",
+      "url": "https://jobs.citi.com/job/new-castle/it-quality-intermediate-analyst-officer/287/100494893168",
+      "location": "New Castle, Delaware, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-40",
+      "company": "Citi",
+      "title": "Java Fullstack Developer Lead Application Development Technical  Lead Analyst Vice President Conversion",
+      "url": "https://jobs.citi.com/job/irving/java-fullstack-developer-lead-application-development-technical-lead-analyst-vice-president-convers/287/99532153872",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-41",
+      "company": "Citi",
+      "title": "Lead IT Business Analyst",
+      "url": "https://jobs.citi.com/job/jacksonville/lead-it-business-analyst/287/99213759056",
+      "location": "Jacksonville, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-42",
+      "company": "Citi",
+      "title": "Loan IQ IT Solutions Architecture Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-castle/loan-iq-it-solutions-architecture-lead-analyst/287/99229518320",
+      "location": "New Castle, Delaware, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-43",
+      "company": "Citi",
+      "title": "Managers Control Self-Assessment (MCA) Lead Analyst - VP",
+      "url": "https://jobs.citi.com/job/getzville/managers-control-self-assessment-mca-lead-analyst-vp/287/100186098224",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-44",
+      "company": "Citi",
+      "title": "Market Operations Junior Analyst Program Hybrid",
+      "url": "https://jobs.citi.com/job/getzville/market-operations-junior-analyst-program-hybrid/287/99995232432",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-45",
+      "company": "Citi",
+      "title": "Market Risk Data Quality Lead Analyst \u2013 Vice President",
+      "url": "https://jobs.citi.com/job/getzville/market-risk-data-quality-lead-analyst-vice-president/287/100400082352",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-46",
+      "company": "Citi",
+      "title": "Media Planning Analyst",
+      "url": "https://jobs.citi.com/job/irving/media-planning-analyst/287/99771809472",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-47",
+      "company": "Citi",
+      "title": "Model Validation 2nd LOD Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/model-validation-2nd-lod-lead-analyst/287/99723893328",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-48",
+      "company": "Citi",
+      "title": "Operational Risk Manager - Platform Utilities and Infrastructure Analyst-VP",
+      "url": "https://jobs.citi.com/job/getzville/operational-risk-manager-platform-utilities-and-infrastructure-analyst-vp/287/99865815808",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-49",
+      "company": "Citi",
+      "title": "Operations Core Project Lead Analyst",
+      "url": "https://jobs.citi.com/job/getzville/operations-core-project-lead-analyst/287/94059789152",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-50",
+      "company": "Citi",
+      "title": "Portfolio Credit Risk Management 2nd LOD Sr. Lead Analyst - SVP",
+      "url": "https://jobs.citi.com/job/getzville/portfolio-credit-risk-management-2nd-lod-sr-lead-analyst-svp/287/100362286192",
+      "location": "Getzville, New York, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-51",
+      "company": "Citi",
+      "title": "Programmatic Campaign Analyst",
+      "url": "https://jobs.citi.com/job/irving/programmatic-campaign-analyst/287/100494917280",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-52",
+      "company": "Citi",
+      "title": "Securities & Derivatives Intermediate Associate Analyst Hybrid",
+      "url": "https://jobs.citi.com/job/sioux-falls/securities-and-derivatives-intermediate-associate-analyst-hybrid/287/99221526816",
+      "location": "Sioux Falls, South Dakota, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-53",
+      "company": "Citi",
+      "title": "Securities Derivatives Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/securities-derivatives-senior-analyst/287/98704637184",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-54",
+      "company": "Citi",
+      "title": "Security and Derivatives Intermediate Associate Analyst",
+      "url": "https://jobs.citi.com/job/tampa/security-and-derivatives-intermediate-associate-analyst/287/99771844496",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-55",
+      "company": "Citi",
+      "title": "Stress Testing 2nd LOD Lead Analyst",
+      "url": "https://jobs.citi.com/job/irving/stress-testing-2nd-lod-lead-analyst/287/98731728144",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-56",
+      "company": "Citi",
+      "title": "Syndicated Loan Analyst",
+      "url": "https://jobs.citi.com/job/irving/syndicated-loan-analyst/287/100494931200",
+      "location": "Irving, Texas, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-57",
+      "company": "Citi",
+      "title": "Treasury Risk Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/treasury-risk-senior-analyst/287/100444786464",
+      "location": "Tampa, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-58",
+      "company": "Citi",
+      "title": "VP, Senior Bond Analyst, Issuer Services",
+      "url": "https://jobs.citi.com/job/jacksonville/vp-senior-bond-analyst-issuer-services/287/94737237136",
+      "location": "Jacksonville, Florida, United States",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-1",
+      "company": "Houlihan Lokey",
+      "title": "Investment Banking Analyst | Business Services",
+      "url": "https://hl.wd1.myworkdayjobs.com/en-US/Lateral/job/New-York-NY-USA/Investment-Banking-Analyst---Business-Services_R3578",
+      "location": "New York, NY, USA",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "jp-morgan-1",
+      "company": "JP Morgan",
+      "title": "2027 Marketing Leadership Development Program - Full-Time Analyst Opportunity",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765640",
+      "location": "New York, NY, United States",
+      "team": "Analysts",
+      "postedAt": "2026-09-14",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-1",
+      "company": "Macquarie",
+      "title": "Associate General Counsel, Funds",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=18061",
+      "location": "New York Office",
+      "team": "Legal",
+      "postedAt": "2026-07-13",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-2",
+      "company": "Macquarie",
+      "title": "Vice President/Associate Director, Clearing & Execution Sales Originator",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=19329",
+      "location": "Houston Office",
+      "team": "Commodities, Sales, Structuring & Trading",
+      "postedAt": "2026-04-17",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-3",
+      "company": "Macquarie",
+      "title": "Senior Associate / Vice President, Credit Risk (Financial Markets)",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=19591",
+      "location": "New York Office",
+      "team": "Credit",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-4",
+      "company": "Macquarie",
+      "title": "Senior Energy Quantitative Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=19928",
+      "location": "Houston Office",
+      "team": "Commodities, Derivatives",
+      "postedAt": "2025-12-15",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-5",
+      "company": "Macquarie",
+      "title": "Associate Director, Real Estate Digital and AI",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=20377",
+      "location": "New York Office",
+      "team": "Technology - Product",
+      "postedAt": "2026-01-28",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-6",
+      "company": "Macquarie",
+      "title": "Analyst/Associate, Private Credit",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=20560",
+      "location": "New York Office",
+      "team": "Credit, Private Equity & Venture Capital",
+      "postedAt": "2026-04-30",
+      "matchedRoles": [
+        "Analyst",
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-7",
+      "company": "Macquarie",
+      "title": "Analyst or Associate, Equity and Capital Solutions",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=20561",
+      "location": "New York Office",
+      "team": "Credit, Private Equity & Venture Capital",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Analyst",
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-8",
+      "company": "Macquarie",
+      "title": "Junior Energy Quantitative Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=21964",
+      "location": "Houston Office",
+      "team": "Commodities, Quantitative Analysis",
+      "postedAt": "2026-04-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-9",
+      "company": "Macquarie",
+      "title": "Payroll Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22335",
+      "location": "Houston Office",
+      "team": "People and Culture",
+      "postedAt": "2026-09-12",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-10",
+      "company": "Macquarie",
+      "title": "Associate Business Analyst, Client",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22440",
+      "location": "New York Office",
+      "team": "Technology - Project Management / PMO",
+      "postedAt": "2026-06-03",
+      "matchedRoles": [
+        "Analyst",
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-11",
+      "company": "Macquarie",
+      "title": "Associate, Private Credit, Real Estate",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22443",
+      "location": "New York Office",
+      "team": "Asset Management, Credit, Real Estate",
+      "postedAt": "2026-06-26",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-12",
+      "company": "Macquarie",
+      "title": "Futures Top Day Clearing Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22769",
+      "location": "Chicago Office",
+      "team": "Operations",
+      "postedAt": "2026-09-08",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-13",
+      "company": "Macquarie",
+      "title": "Securitized Credit Research Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22843",
+      "location": "Philadelphia Office",
+      "team": "Asset Management",
+      "postedAt": "2026-08-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-14",
+      "company": "Macquarie",
+      "title": "Cyber Threat Intelligence Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=22857",
+      "location": "Houston Office",
+      "team": "Technology - Security",
+      "postedAt": "2026-07-27",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-15",
+      "company": "Macquarie",
+      "title": "Analyst, Infrastructure & Energy M&A/Advisory",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23177",
+      "location": "Houston Office",
+      "team": "Corporate Finance / M&A",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-16",
+      "company": "Macquarie",
+      "title": "North American Gas Settlements Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23353",
+      "location": "Houston Office",
+      "team": "Operations",
+      "postedAt": "2026-07-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-17",
+      "company": "Macquarie",
+      "title": "Senior Associate, Digital Infrastructure Investing",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23442",
+      "location": "New York Office",
+      "team": "Asset Management, Private Equity & Venture Capital",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-18",
+      "company": "Macquarie",
+      "title": "Futures Business Solutions Analyst",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23465",
+      "location": "Chicago Office",
+      "team": "Operations",
+      "postedAt": "2026-08-06",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-19",
+      "company": "Macquarie",
+      "title": "Senior Associate, Portfolio Performance Group, Real Assets",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23871",
+      "location": "New York Office",
+      "team": "Asset Management, Management Consultancy / Bus Improvement, Operations",
+      "postedAt": "2026-08-21",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-20",
+      "company": "Macquarie",
+      "title": "Senior Analyst, Consumer, Gaming and Leisure",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23874",
+      "location": "Los Angeles Office",
+      "team": "Corporate Finance / M&A",
+      "postedAt": "2026-08-19",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "macquarie-21",
+      "company": "Macquarie",
+      "title": "Associate, Business Operational Risk (Specialised Asset Finance)",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=23966",
+      "location": "New York Office",
+      "team": "Risk Management",
+      "postedAt": "2026-08-28",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-22",
+      "company": "Macquarie",
+      "title": "Associate, Futures Brokerage",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24017",
+      "location": "Chicago Office, New York Office",
+      "team": "Operations",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-23",
+      "company": "Macquarie",
+      "title": "Associate, Futures Project Manager",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24018",
+      "location": "Chicago Office",
+      "team": "Operations",
+      "postedAt": "2026-09-01",
+      "matchedRoles": [
+        "Associate"
+      ]
+    }
+  ]
+}
