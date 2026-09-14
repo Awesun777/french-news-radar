@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-13T06:14:10Z",
+  "generatedAt": "2026-09-14T06:12:53Z",
   "digests": [
+    {
+      "date": "2026-09-14",
+      "title": "Amodei-Altman-Musk slowdown call rattles markets, Trump pushes back",
+      "itemCount": 5,
+      "categories": ["general"],
+      "highlights": [
+        "AI-linked Asian stocks slump, SoftBank drops as much as 13% after Amodei, Altman, and Musk call for a slowdown",
+        "Trump rejects Amodei, Altman, and Musk's AI slowdown call, citing the race with China",
+        "Anthropic's Joe Benton and Google DeepMind's Josh Engels quit to join independent evaluator METR"
+      ]
+    },
     {
       "date": "2026-09-13",
       "title": "Amodei's AI slowdown call, agent swarms breach 440 PaperCut servers",

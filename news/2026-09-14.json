@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "ai-slowdown-market-selloff",
+      "category": "general",
+      "title": "AI-linked Asian stocks slump, SoftBank drops as much as 13% after Amodei, Altman, and Musk call for a slowdown",
+      "summary": "AI-linked shares fell sharply in early Asian trading on September 14 after Anthropic's Dario Amodei, OpenAI's Sam Altman, and xAI's Elon Musk all called for slowing the pace of AI capability development. SoftBank, a major OpenAI investor, tumbled as much as 13.2%, memory-chip maker Kioxia fell as much as 9.8%, and Tokyo Electron dropped 3.7%, while Nasdaq 100 and S&P 500 futures slid as investors reassessed AI spending and valuations.",
+      "whyItMatters": "A market swing this sharp, triggered by lab CEOs openly discussing a pacing slowdown, is worth watching before locking in compute or API-pricing assumptions for Romain's OpenAI backend or Anna's ElevenLabs stack.",
+      "url": "https://www.business-standard.com/technology/tech-news/asian-ai-stocks-slide-as-top-lab-ceos-call-for-slower-development-of-tech-126091400135_1.html",
+      "source": "Business Standard",
+      "tags": ["markets", "policy", "openai", "anthropic"]
+    },
+    {
+      "id": "trump-rejects-ai-slowdown-china",
+      "category": "general",
+      "title": "Trump rejects Amodei, Altman, and Musk's AI slowdown call, citing the race with China",
+      "summary": "Speaking to reporters on September 13, President Trump dismissed the joint call from the CEOs of Anthropic, OpenAI, and xAI to slow AI development, saying \"whoever wins AI wins\" and that dire warnings about AI risk were being pushed by \"negative forces.\" He said the US could add guardrails but would not cede its lead over China.",
+      "whyItMatters": "A signal that US policy is unlikely to force a near-term pacing slowdown on the labs behind Romain's OpenAI backend, even as the labs themselves debate it internally.",
+      "url": "https://www.yahoo.com/news/us/article/trump-rejects-call-by-ceos-of-anthropic-openai-and-xai-to-slow-ai-down-whoever-wins-with-ai-wins-182008851.html",
+      "source": "AP via Yahoo News",
+      "tags": ["policy", "government", "openai", "anthropic"]
+    },
+    {
+      "id": "nadella-mai-code-of-conduct",
+      "category": "general",
+      "title": "Nadella backs 'deliberate pacing,' says Microsoft will publish a Code of Conduct for its own MAI models",
+      "summary": "Responding to Amodei's essay, Microsoft CEO Satya Nadella posted on September 13 that Microsoft \"welcomes\" the deliberate pacing needed to get AI alignment right, and said the company would publish a Code of Conduct underlying its first-party MAI models on September 14 for public consultation, alongside ideas like embedded third-party evaluators.",
+      "whyItMatters": "A major lab formalizing published behavior rules for its own models previews the kind of conduct standard that could eventually be expected of any voice model powering Romain or Anna.",
+      "url": "https://www.tribuneindia.com/news/ai-development-pace/microsoft-ceo-satya-nadella-backs-need-for-evaluators-for-ai-systems-amid-slowdown-debate",
+      "source": "The Tribune (India)",
+      "tags": ["policy", "microsoft", "safety", "governance"]
+    },
+    {
+      "id": "anthropic-deepmind-researchers-quit-metr",
+      "category": "general",
+      "title": "Anthropic's Joe Benton and Google DeepMind's Josh Engels quit to join independent evaluator METR",
+      "summary": "Joe Benton, who led Anthropic's Scalable Oversight team, and Josh Engels, of Google DeepMind's AGI safety team, resigned around September 12-13 to join METR, an independent AI-evaluation nonprofit. Both said they could do more investigating AI systems that act outside intended instructions from outside the labs than from within them, following an earlier resignation and public warning from another Anthropic researcher days prior.",
+      "whyItMatters": "Independent evaluators like METR are exactly the kind of outside check that could eventually audit agentic tutor systems like Romain and Anna, not just frontier labs' own models.",
+      "url": "https://www.nbcnews.com/tech/security/two-ai-researchers-leave-anthropic-google-safety-concerns-rcna597086",
+      "source": "NBC News",
+      "tags": ["safety", "anthropic", "google", "careers"]
+    },
+    {
+      "id": "meta-aai-managers-reversal",
+      "category": "general",
+      "title": "Meta asks Applied AI staff to become managers again, reversing its flat-org bet",
+      "summary": "Meta is asking individual contributors in its Applied AI (AAI) division, the roughly 7,000-person unit formed this year to bridge AI research and product, whether they want to move back into manager roles, according to reporting from September 11-12. It's a partial reversal of the up-to-50-to-1 span-of-control structure Zuckerberg pushed as part of his 'year of efficiency,' after finding AI hadn't absorbed enough of the coordination work managers used to do.",
+      "whyItMatters": "A concrete data point that even Meta's AI-native reorg underestimated how much human coordination agentic AI work still needs, worth remembering before assuming a lean team can run Romain and Anna's ops unsupervised.",
+      "url": "https://fortune.com/2026/09/12/meta-year-of-efficiency-managers-ai-investment/",
+      "source": "Fortune",
+      "tags": ["meta", "org-design", "industry"]
+    }
+  ]
+}
