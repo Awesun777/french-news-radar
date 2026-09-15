@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "elevenlabs-music-v2-5",
+      "category": "models",
+      "title": "ElevenLabs launches Music v2.5, its 'best' music model, with free lossless downloads",
+      "summary": "ElevenLabs shipped Music v2.5 on September 14, now the default model for prompted and reference generation in ElevenMusic. The company says a blind test across nearly 48,000 prompt pairs preferred v2.5's takes over v2 the majority of the time, with the biggest gains on vocal-led and acoustic-heavy genres. The update also brings five lossless downloads a day to the free plan.",
+      "whyItMatters": "Not a direct fit for Romain or Anna since this is music generation, but it's a signal ElevenLabs keeps pouring model-quality investment into audio generally, which tends to spill over into their speech/TTS stack over time.",
+      "url": "https://elevenmusic.io/blog/introducing-music-v2-5",
+      "source": "ElevenMusic (ElevenLabs)",
+      "tags": ["elevenlabs", "audio", "music-gen", "pricing"]
+    },
+    {
+      "id": "china-global-times-slowdown-cold-war",
+      "category": "general",
+      "title": "China's Global Times calls the Amodei-Altman-Musk AI slowdown call a 'Cold War playbook'",
+      "summary": "State-run Global Times and China's foreign ministry pushed back hard on the AI slowdown call from Anthropic's Amodei, OpenAI's Altman, and xAI's Musk, arguing it is 'packed with containment provisions targeting China' rather than a genuine safety measure. The reaction followed Amodei's remarks that a Chinese lead in AI would pose 'grave danger,' with foreign ministry spokesperson Guo Jiakun warning that 'fearmongering, confrontation and malicious competition' would only disrupt AI governance.",
+      "whyItMatters": "Geopolitical framing around US model access and export controls could eventually affect which frontier models (OpenAI, Anthropic) are safe long-term bets for Romain's backend.",
+      "url": "https://www.nbcnews.com/world/china/china-ai-slowdown-trump-amodei-altman-threat-cold-war-rcna597631",
+      "source": "NBC News",
+      "tags": ["policy", "china", "openai", "anthropic"]
+    },
+    {
+      "id": "softbank-nikkei-rebound-ai-selloff",
+      "category": "general",
+      "title": "SoftBank and Nikkei rebound after Monday's AI-slowdown-driven selloff",
+      "summary": "SoftBank shares jumped more than 8-9% in Tokyo trading on September 15, recouping much of the prior session's 10.7% plunge, and the Nikkei 225 rose about 0.8% as investors reassessed the AI-slowdown warnings from Amodei, Altman, and Musk that had triggered the initial selloff.",
+      "whyItMatters": "A one-day round trip in AI-linked equities suggests markets aren't pricing in an actual capability slowdown yet, so near-term API pricing and availability for Romain's and Anna's backends likely stay on the current trajectory.",
+      "url": "https://www.brecorder.com/news/40439551/japans-nikkei-rises-as-softbank-rebounds-from-ai-led-selloff",
+      "source": "Business Recorder",
+      "tags": ["markets", "openai", "softbank"]
+    },
+    {
+      "id": "altman-lose-control-pacing-explainer",
+      "category": "general",
+      "title": "Altman spells out why OpenAI backed the slowdown call: 'we could lose control'",
+      "summary": "In a detailed post, Sam Altman laid out two failure modes he's worried about: losing control of the future to AI, and AI power concentrating around a single person or company. He distinguished 'pacing' from a full stop, saying OpenAI will extend independent evaluators the same system access as employees, while insisting progress 'will continue' just slower than technically possible.",
+      "whyItMatters": "OpenAI committing to heavier third-party evaluation and safety cases on its models is worth tracking since Romain runs on OpenAI's Realtime stack, and any added review overhead could show up as latency or feature gating later.",
+      "url": "https://www.cnbc.com/2026/09/14/sam-altman-ai-slowdown-anthropic-amodei-musk.html",
+      "source": "CNBC",
+      "tags": ["openai", "policy", "safety"]
+    }
+  ]
+}
