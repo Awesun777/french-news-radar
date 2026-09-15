@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "altman-two-failure-modes-safety-cases",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "summary": "OpenAI CEO Sam Altman lays out the two failure modes he says AI development must avoid: losing control of the future to AI, which is unacceptable since \"we are unapologetically on Team Humanity,\" and ending up with one person, company, or country using an extraordinarily powerful AI to impose its worldview on everyone else. He commits OpenAI to formulating explicit \"safety cases\" before major frontier reinforcement-learning runs, not just before model releases, welcomes a federal framework with independent auditors, and stresses that \"pacing\" means deliberately slowing down, not stopping: \"no amount of American competitive pressure should justify recklessness, or let capabilities get ahead of alignment and monitoring.\"",
+      "summaryZh": "OpenAI首席执行官Sam Altman列出了他认为AI发展过程中必须避免的两种失败模式:一是人类对未来失去对AI的控制,这绝对不可接受,因为\"我们坚定地站在人类这一边\";二是权力过度集中,如果某个极其强大的AI系统被某个人、某家公司甚至某个国家用来把自己的世界观强加给所有人。他承诺OpenAI将在重大的前沿强化学习训练开始之前(而不只是模型发布之前)就明确制定\"安全案例\",欢迎建立包含独立审计员的联邦框架,并强调\"定节奏\"意味着有意放慢进度而不是停下来:\"无论美国面临多大的竞争压力,都不应该成为鲁莽行事、或者让能力发展超过对齐与监控能力的理由。\"",
+      "url": "https://x.com/sama/status/2099352016988614852",
+      "tags": ["AI safety", "OpenAI", "pacing", "policy"]
+    },
+    {
+      "id": "levie-pacing-critical-infrastructure-parity",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie pushes back on \"pacing\" being read as an arbitrary slowdown or a way to hobble competitors through regulation, arguing the specific goals in Dario Amodei's essay are basic necessities no different from what aerospace, life sciences, and healthcare already require. AI is about to underpin financial trading systems, medical devices, biotech, defense systems, and government workflows, he says, so wanting those systems \"safe\" and \"aligned\" isn't controversial — the hard part is getting there without meaningfully slowing innovation or reducing competition.",
+      "summaryZh": "Box首席执行官Aaron Levie回应说,\"定节奏\"这个说法容易被误解为对能力发展的随意压制,或是借监管之名给竞争对手使绊子,但他认为Dario Amodei文章里提出的具体目标其实是基本必要条件,航空航天、生命科学、医疗保健等行业早就有类似要求。他指出AI即将成为金融交易系统、医疗设备、生物科技、国防系统和政府工作流程等关键领域的底层技术,因此希望这些系统\"安全\"且\"对齐\"并不算争议——真正困难的是如何在不明显拖慢创新、也不削弱竞争的前提下做到这一点。",
+      "url": "https://x.com/levie/status/2099167992835924301",
+      "tags": ["AI safety", "Box", "regulation", "commentary"]
+    },
+    {
+      "id": "yang-ai-adoption-still-early",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "AI commentator Peter Yang shares a chart Brex CEO Pedro Franceschi likes to cite to argue that, despite all the debate over whether AI ends badly for humanity, most of the world hasn't even started using it: 84% of people have never touched AI, 16% use a free chatbot, roughly 0.3% pay for one, and only about 0.04% use agents effectively. He notes the data is from February 2026 and adoption has likely picked up since, but the core point stands — we're still extremely early.",
+      "summaryZh": "AI内容创作者Peter Yang引用了Brex首席执行官Pedro Franceschi常用的一张图表,指出尽管大家都在争论AI会不会给人类带来坏结果,但世界上大多数人其实压根还没开始用AI:84%的人从未使用过AI,16%使用免费聊天机器人,大约0.3%的人付费使用AI,而真正有效使用agent的人只占约0.04%。他提到这份数据是2026年2月的,现在的采用率大概率已经有所提升,但核心结论依然成立——我们仍处在非常早期的阶段。",
+      "url": "https://x.com/petergyang/status/2099200231820963891",
+      "tags": ["AI adoption", "commentary", "agents"]
+    },
+    {
+      "id": "zhang-astra-agrees-but-doesnt-act",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang flags a recurring frustration with OpenAI's Astra: point out that a step was wrong, and it agrees and says it should do Y instead — but then doesn't actually go and do Y, unlike other models that just act on the correction. It's a pointed critique of the gap between an agent verbally accepting feedback and actually executing on it.",
+      "summaryZh": "Builder Zara Zhang指出了自己在使用OpenAI Astra时反复遇到的一个令人恼火的问题:她指出某一步做错了,Astra会表示认同,说自己应该改做Y,但接下来却不会真的去执行Y,而其他模型在被纠正后会直接照做。这是一条很尖锐的批评,直指agent\"嘴上认账\"和\"真正落实纠正\"之间的落差。",
+      "url": "https://x.com/zarazhangrui/status/2099348631291883945",
+      "tags": ["Astra", "OpenAI", "agents", "product feedback"]
+    },
+    {
+      "id": "kothari-valuation-comp-caution",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari warns founders and job-seekers not to equate a startup's higher valuation or higher comp offer with safety, since a company priced at 100x ARR still has to grow into that multiple. He says the fix is to look objectively at market size, traction, and realistic exit value rather than the headline valuation, and shares a personal example: he once joined a company that had raised $60 million from a top-tier investor, which folded three years later with all equity wiped out.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari提醒正在求职或创业的人,不要把一家初创公司更高的估值或更高的薪酬包等同于\"更安全\",因为一家按100倍ARR估值的公司,终究还是要真正成长到配得上这个倍数。他建议应该客观分析市场空间、业务牵引力和现实的退出价值,而不是只看估值这个头条数字;他还分享了自己的亲身经历:曾入职一家从顶级投资人那里融了6000万美元的公司,结果三年后公司倒闭,全部股权归零。",
+      "url": "https://x.com/nikunj/status/2099198567923765357",
+      "tags": ["startups", "venture capital", "compensation", "careers"]
+    },
+    {
+      "id": "steipete-worktrees-80-percent-faster",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "summary": "Peter Steinberger, the builder behind OpenClaw, ships a performance upgrade making git worktrees roughly 80% faster by using filesystem-native folder clones (APFS, Btrfs, XFS, ReFS) instead of full copies, while also cutting disk usage substantially. He says the improvement lands in the next release or dev channel.",
+      "summaryZh": "OpenClaw的开发者Peter Steinberger发布了一项性能升级,通过使用文件系统原生的文件夹克隆技术(APFS、Btrfs、XFS、ReFS)而不是完整复制,让git worktree的创建速度提升了约80%,同时大幅节省磁盘空间。他表示这项改进会出现在下一个正式版本或开发者频道中。",
+      "url": "https://x.com/steipete/status/2099197266636783989",
+      "tags": ["developer tools", "OpenClaw", "performance"]
+    },
+    {
+      "id": "haas-arm-cpu-orchestration-layer",
+      "kind": "podcast",
+      "author": "Rene Haas",
+      "role": "CEO, Arm and SoftBank Group International",
+      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+      "takeaway": "The CPU isn't being replaced by AI accelerators — it's the orchestration layer that decides where every generated token goes, and as inference overtakes training in AI workloads, Arm is betting that unglamorous chip becomes the industry's real choke point.",
+      "takeawayZh": "CPU并没有被AI加速器取代——它是决定每一个生成出来的token该去哪儿的编排层,而随着推理逐渐取代训练成为AI工作负载的重心,Arm押注的正是这块并不起眼的芯片,会成为整个行业真正的咽喉要道。",
+      "summary": "Rene Haas, CEO of Arm and SoftBank Group International, tells No Priors that when ChatGPT triggered the AI boom, the industry fixated on accelerators, assuming \"no matter what the question is, the answer is the accelerator\" — but the CPU never actually went away, because \"there's no computing problem that's ever been invented that doesn't utilize... the microprocessor.\" As AI workloads shift from training toward inference, something still has to decide \"where those tokens go\" once they're generated — arbitration and orchestration that only CPUs handle.\n\nThat logic is why Arm broke four decades of pure IP-licensing to build its own physical chip, the Arm AGI CPU, after Meta came asking for a general-purpose agentic processor nobody else could supply. Haas argues the constrained supply chain — wafers, memory, packaging, and now data-center buildout — will remain the industry's real bottleneck for three to five more years, \"so long as the transformer is the unit of energy\" behind AI. On the jobs debate, he's blunt: fear that \"my jobs are going to go away\" is driving data-center backlash and outright fabricated claims about their harms, but \"there is no downside from being the leader\" in a foundational technology — only in being the country left behind.\n\nOn AI designing its own chips, Haas is measured: full idea-to-manufacturing-file automation for straightforward designs is plausible \"five plus years\" out, not two or three, because the training data for Arm's most valuable IP — documentation and test benches — is largely proprietary rather than public.\n\nQuote: \"There's no computing problem that's ever been invented that doesn't utilize and can't utilize the microprocessor. It is the heart of everything... Something has to do the orchestration, arbitration decision around where those tokens go. That's what CPUs do.\"",
+      "summaryZh": "Arm和SoftBank Group International首席执行官Rene Haas在No Priors节目中表示,自ChatGPT引爆AI热潮以来,整个行业一度陷入\"不管问题是什么,答案都是加速器\"的思维定式,但CPU从未真正消失,因为\"从来没有哪个计算问题是不需要、也不能用到微处理器的\"。随着AI工作负载的重心从训练转向推理,生成出来的token终究需要有人决定\"该往哪儿送\"——这种编排和仲裁工作,正是CPU在做的事。\n\n正是这套逻辑,促使Arm打破了长达四十年只做IP授权的传统,亲自下场打造了自己的物理芯片Arm AGI CPU,起因是Meta找上门来,希望有一款通用的agentic处理器,而当时市场上没人能提供。Haas认为,晶圆、内存、封装,以及如今的数据中心建设,这条受限的供应链在未来三到五年内仍将是行业真正的瓶颈,\"只要transformer还是AI背后的能量单位\"就会如此。谈到就业这个争议话题时,他直言不讳:对\"我的工作会不会没了\"的恐惧,正是数据中心遭遇抵制、甚至出现纯属编造的负面说法的根源,但\"作为一项基础性技术的领导者,是没有任何坏处的\"——真正的坏处,是沦为落后于人的那个国家。\n\n对于\"AI自己设计芯片\"这个话题,Haas的态度相对谨慎:对于相对简单的设计,实现从想法到量产文件的全流程自动化,五年以上是有可能的,但不是两三年内的事,原因是Arm最有价值的那部分IP(比如文档和测试用例)大多是专有资料,而不是可公开训练的数据。\n\n金句:\"从来没有哪个计算问题是不需要、也不能用到微处理器的。它是一切的核心……总得有东西来做编排和仲裁决策,决定这些token该往哪儿去。这就是CPU在做的事。\"",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["Arm", "chips", "CPU", "podcast"]
+    }
+  ]
+}

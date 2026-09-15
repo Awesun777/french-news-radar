@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-14T06:24:45Z",
+  "generatedAt": "2026-09-15T06:35:00Z",
   "digests": [
+    {
+      "date": "2026-09-15",
+      "title": "Altman doubles down on safety cases as Levie makes the case for AI-specific 'necessities', Arm's Rene Haas on why the CPU is the era's real bottleneck",
+      "itemCount": 7,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Sam Altman commits OpenAI to explicit safety cases before major frontier RL runs and welcomes a federal framework with independent auditors, framing 'pacing' as deliberate slowdown rather than a stop, while Box's Aaron Levie argues Dario Amodei's proposed safety goals are no different from what aerospace, life sciences, and healthcare already require",
+        "Builder Zara Zhang flags Astra's tendency to agree with corrections but not act on them, Peter Yang cites Brex data showing 84% of the world has never used AI, and FPV's Nikunj Kothari warns founders and job-seekers not to mistake a high valuation for safety",
+        "Arm and SoftBank CEO Rene Haas tells No Priors that CPUs, not accelerators, remain AI's real orchestration layer, and predicts wafer, memory, and data-center supply constraints will bottleneck the industry for three to five more years"
+      ]
+    },
     {
       "date": "2026-09-14",
       "title": "Meta's Madhu Guru predicts an eval-talent exodus toward AI safety groups like METR",
