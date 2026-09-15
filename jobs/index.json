@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-09-14T06:39:51Z",
+  "generatedAt": "2026-09-15T06:46:02.000Z",
   "digests": [
+    {
+      "date": "2026-09-15",
+      "itemCount": 32,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Mizuho americas"
+      ]
+    },
     {
       "date": "2026-09-14",
       "itemCount": 83,
