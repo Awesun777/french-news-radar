@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "id": "gemini-3-8-live-extended-thinking",
+      "category": "models",
+      "title": "Google ships Gemini 3.8 Live and 3.8 Live Extended Thinking, auto-switching across 97 languages",
+      "summary": "Google released two new live-dialogue voice models on September 15: Gemini 3.8 Live for cost-efficient, fluid conversation, and Gemini 3.8 Live Extended Thinking for complex multi-step reasoning that keeps talking while executing tools in the background. Both automatically detect and switch between 97 supported languages mid-conversation and process visual input in near real time; Extended Thinking took the #1 spot on Artificial Analysis' Speech-to-Speech Quality Index (82.6). Pricing is $0.005/min for audio input and $0.018/min for audio output, available now via the Gemini API, AI Studio, Gemini Enterprise, Search Live, and Workspace.",
+      "whyItMatters": "A new frontier voice model directly comparable to Romain's OpenAI Realtime and Anna's ElevenLabs stack: mid-conversation language auto-switching across 97 languages (French included) and background tool execution during live dialogue are exactly the kind of UX worth copying, and the quoted per-minute pricing is a useful cost benchmark.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "source": "Google (blog.google)",
+      "tags": ["google", "gemini", "voice", "realtime", "pricing"]
+    },
+    {
+      "id": "openai-anthropic-google-safety-coordination",
+      "category": "general",
+      "title": "OpenAI confirms weeks-long safety coordination with Anthropic and Google DeepMind",
+      "summary": "OpenAI global policy chief Chris Lehane told reporters on September 15 that OpenAI has been coordinating with Anthropic and Google DeepMind on AI safety for several weeks, following Dario Amodei's 'pace the frontier' essay. Lehane said the three labs don't believe they need an antitrust waiver to coordinate, and that OpenAI backs a FRONTIER Act provision letting independent evaluators into frontier labs.",
+      "whyItMatters": "Romain runs on OpenAI's Realtime stack, so formal cross-lab safety coordination or an independent-evaluator requirement could add review overhead or change the release cadence for future voice-model updates.",
+      "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "source": "TechCrunch",
+      "tags": ["policy", "openai", "anthropic", "google-deepmind"]
+    }
+  ]
+}
