@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-16T06:13:41Z",
+  "generatedAt": "2026-09-17T06:29:32Z",
   "digests": [
+    {
+      "date": "2026-09-17",
+      "title": "Mistral powers Firefox AI, DeepL Voice preserves your tone live",
+      "itemCount": 5,
+      "categories": ["models", "inspiration", "general"],
+      "highlights": [
+        "Mistral and Mozilla bring private, multilingual AI to Firefox's Smart Window",
+        "DeepL Voice now preserves a speaker's tone and rhythm during real-time translation",
+        "ElevenLabs' MCP server now generates voice, music, images, and video in one connector"
+      ]
+    },
     {
       "date": "2026-09-16",
       "title": "Gemini 3.8 Live's 97-language switching, labs confirm safety talks",

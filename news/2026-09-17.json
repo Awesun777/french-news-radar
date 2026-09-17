@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "id": "mistral-mozilla-firefox-smart-window",
+      "category": "models",
+      "title": "Mistral and Mozilla bring private, multilingual AI to Firefox's Smart Window",
+      "summary": "Mistral is powering Mozilla's new Firefox Smart Window AI browsing assistant, launching first in France and North America (UK and Germany later in 2026). Mozilla says chats aren't stored on its servers by default, and Mistral commits to zero data retention; the companies say they are fine-tuning models on regional languages and dialects.",
+      "whyItMatters": "A major browser vendor picking Mistral specifically for regional-language fine-tuning (France launches first) and a zero-retention privacy stance is a useful reference point for how much French-specific tuning and data handling users now expect from an AI conversation product.",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "source": "Mistral AI",
+      "tags": ["mistral", "french", "multilingual", "privacy"]
+    },
+    {
+      "id": "deepl-voice-preserves-voice-real-time",
+      "category": "models",
+      "title": "DeepL Voice now preserves a speaker's tone and rhythm during real-time translation",
+      "summary": "DeepL upgraded DeepL Voice so real-time multilingual translation keeps a speaker's tone, pacing, and intonation instead of flattening speech into a generic synthetic voice. Voice-to-voice translation is now generally available across 30+ languages, with voice-identity preservation covering 14 of them, and the system can keep multiple simultaneous speakers distinct.",
+      "whyItMatters": "Voice-identity preservation during live translation is a direct feature idea for Romain and Anna: keeping a learner's or tutor's natural tone through real-time processing, rather than reverting to a flat synthetic voice, is exactly the kind of latency-and-quality tradeoff a French voice tutor has to solve.",
+      "url": "https://www.prnewswire.co.uk/news-releases/deepl-voice-now-preserves-your-voice-in-real-time-multilingual-conversations-302878504.html",
+      "source": "DeepL (PR Newswire)",
+      "tags": ["voice", "real-time-translation", "french", "latency"]
+    },
+    {
+      "id": "elevenlabs-mcp-multimodal-generation",
+      "category": "inspiration",
+      "title": "ElevenLabs' MCP server now generates voice, music, images, and video in one connector",
+      "summary": "ElevenLabs expanded its Model Context Protocol server so assistants like Claude, ChatGPT, and Cursor can generate speech, transcripts, dubs, music, sound effects, images, and video through a single OAuth-connected tool spanning 50+ models, with outputs landing in an 'ElevenCreative' workspace for refinement.",
+      "whyItMatters": "Anna already runs on ElevenLabs; an MCP connector that generates voice and supporting media on demand inside a coding assistant is a practical shortcut for prototyping new tutor content (drills, sound effects, dubbed clips) without leaving the dev workflow.",
+      "url": "https://elevenlabs.io/blog/introducing-voice-music-image-and-video-generation-in-the-elevenlabs-mcp",
+      "source": "ElevenLabs blog",
+      "tags": ["elevenlabs", "mcp", "tooling", "multimodal"]
+    },
+    {
+      "id": "eu-kids-act-ai-chatbots",
+      "category": "general",
+      "title": "EU's forthcoming Kids Act would restrict under-16 access to AI chatbots",
+      "summary": "The European Commission's proposed Kids Act would ban under-13s from social media, some gaming platforms, and AI chatbots without parental supervision, with 13-15 year-olds getting guardian-chaperoned accounts. Companies must verify ages and guard against 'unhealthy emotional attachments' to AI companions, facing fines up to 6% of global revenue for non-compliance.",
+      "whyItMatters": "Worth tracking if the tutor ever serves teen or younger learners in the EU/France: age verification and safeguards against attachment to an AI conversation partner could become a compliance requirement, not just a design choice.",
+      "url": "https://www.macrumors.com/2026/09/16/eu-kids-act-ban-social-media-under-13s/",
+      "source": "MacRumors",
+      "tags": ["regulation", "eu", "child-safety", "chatbots"]
+    },
+    {
+      "id": "openai-1-2-trillion-valuation",
+      "category": "general",
+      "title": "OpenAI reportedly in early talks for a pre-IPO round at a $1.2 trillion valuation",
+      "summary": "OpenAI has held early investor-initiated discussions about a private funding round that could value the company around $1.2 trillion, per the Financial Times, dwarfing its March 2026 raise of $122B at an $852B valuation. Sam Altman said an IPO is unlikely before 2027.",
+      "whyItMatters": "Romain runs on OpenAI's Realtime API, so continued mega-scale fundraising is a signal that infrastructure investment (and by extension pricing and roadmap) for that stack is unlikely to slow down.",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-eyes-1-2-trillion-valuation-in-pre-ipo-funding-round/",
+      "source": "PYMNTS",
+      "tags": ["openai", "funding", "valuation"]
+    }
+  ]
+}
