@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "id": "levie-applied-ai-layer-gap",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues there's a massive chasm between how powerful AI models are and the workflows enterprises are actually trying to automate, and that gap is exactly what the applied AI layer exists to fill. Closing it means connecting intelligence to real processes: reengineering workflows, aggregating the right context and data, designing human-in-the-loop moments, driving change management, running domain-specific evals, and managing security and governance. He expects this layer to emerge across every vertical and horizontal category, and argues that ironically, as models keep getting more capable, the layer becomes more important rather than less, since greater capability just raises the ceiling on how complex the tasks requiring this scaffolding can get.",
+      "summaryZh": "Box首席执行官Aaron Levie表示,AI模型的能力与企业真正想要自动化的工作流程之间存在巨大鸿沟,而这道鸿沟正是应用层AI存在的意义。要填补它,就需要把智能真正接入实际业务流程:重新设计工作流、聚合合适的上下文和数据、设计人工介入的环节、推动变革管理、跑通特定领域的评估,并管好安全与治理。他预计这一层会出现在每一个垂直和横向的行业里,而且颇具讽刺意味的是,模型能力越强,这一层反而会变得更重要,因为能力越强,能被交给它去处理的任务也就越复杂。",
+      "url": "https://x.com/levie/status/2099976021311398230",
+      "tags": ["applied AI", "enterprise AI", "Box", "commentary"]
+    },
+    {
+      "id": "rauch-vercel-labs-launch",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch formally launches Vercel Labs, pitched as the home for the company's in-public research and experimentation arm. He frames it as a way to keep sharing, in the open, what Vercel is supporting, what it's researching, and what experiments didn't pan out, noting Vercel's tools already have 247 million downloads behind them, and credits two Vercel engineers for shaping the initiative.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch正式发布了Vercel Labs,定位为公司公开研究与实验部门的据点。他表示这是一种在公开场合持续分享的方式,分享Vercel在支持什么、在研究什么,以及哪些实验没有成功,并提到Vercel的工具目前已经积累了2.47亿次下载,同时感谢两位Vercel工程师主导塑造了这个项目。",
+      "url": "https://x.com/rauchg/status/2099911447598059812",
+      "tags": ["Vercel", "Vercel Labs", "product launch", "open research"]
+    },
+    {
+      "id": "rauch-multi-model-future",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Guillermo Rauch pushes back on AI products that try to hide the underlying model choice from users, arguing \"the future is multi-model.\" Obscuring that choice, he says, confuses customers and locks them out of the upside of today's fierce model competition, denying them the ability to pick the best tool for a given job.",
+      "summaryZh": "Guillermo Rauch对那些试图向用户隐藏底层模型选择的AI产品提出了批评,他认为\"未来是多模型的\"。他表示,隐藏这个选择只会让用户感到困惑,还会让他们无法从当下激烈的模型竞争中获益,也没办法为具体任务挑选最合适的工具。",
+      "url": "https://x.com/rauchg/status/2099905740505055680",
+      "tags": ["multi-model", "AI strategy", "commentary", "Vercel"]
+    },
+    {
+      "id": "thariq-mcp-beats-cli",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Thariq, who works on Claude Code at Anthropic, says he didn't expect to land here, but now believes MCP beats CLIs for most integrations, since models have gotten much better at tool calling, tool definitions can now be deferred, and MCP itself has become stateless. His practical tip for builders: if you need to compose or filter data, add parameters like a query field directly onto your MCP tools rather than relying on the model to post-process everything.",
+      "summaryZh": "在Anthropic负责Claude Code的Thariq表示,他没想到事情会这样发展,但现在他认为对大多数集成场景来说,MCP比CLI更好用,原因是模型在tool calling上已经进步很多,工具定义现在可以延迟加载,而且MCP本身也变成了无状态的。他给开发者的实用建议是:如果需要对数据做组合或过滤,直接在MCP工具里加上像query这样的参数,而不是指望模型来做后处理。",
+      "url": "https://x.com/trq212/status/2099958388230873165",
+      "tags": ["MCP", "Claude Code", "developer tools", "agents"]
+    },
+    {
+      "id": "kothari-capital-as-weapon",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari warns he's meeting too many founders who assume the \"money spigot\" will keep flowing and their next round is guaranteed. He frames capital as \"a weapon for acceleration\" that makes you unbeatable when used well, but a liability if your business becomes too dependent on it, and urges founders to map out both the default path that guarantees survival without more funding and separate scenarios for abundant or scarce capital, since nobody knows how markets move over the next 6 to 18 months.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari提醒说,他见过太多创始人默认\"资金水龙头\"会一直开着,下一轮融资理所当然会到来。他把资本比作\"加速的武器\":用得好会让你所向披靡,但如果业务过度依赖它,就会变成隐患。他建议创始人同时规划两条线:一条是即使拿不到更多融资也能保证公司生存下去的默认路径,另一条是分别应对资本充裕和资本紧缺的场景,因为没有人知道未来6到18个月资本市场会怎么变化。",
+      "url": "https://x.com/nikunj/status/2100008917980102863",
+      "tags": ["startups", "venture capital", "fundraising", "advice"]
+    },
+    {
+      "id": "woodward-notebooklm-student-features",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini App",
+      "summary": "Google Labs VP Josh Woodward ships new features in Gemini's NotebookLM built specifically for students: live, spoken Q&A with class materials in roughly 100 languages, and on-the-go lecture and note recording that saves audio automatically into the right notebook. He notes university students in 140+ countries can still claim a free Google AI Plan for higher limits and broader product access.",
+      "summaryZh": "Google Labs副总裁Josh Woodward为Gemini旗下的NotebookLM推出了专为学生设计的新功能:可以用约100种语言与课程资料进行实时语音问答,还能随时随地录制课堂内容和笔记,音频会自动保存到对应的notebook里。他还提到,140多个国家的大学生仍然可以免费领取Google AI Plan,获得更高的使用额度和更多产品权限。",
+      "url": "https://x.com/joshwoodward/status/2099921866014306633",
+      "tags": ["Google", "NotebookLM", "Gemini", "education"]
+    },
+    {
+      "id": "tan-capy-halves-fix-time",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "YC president Garry Tan says pairing the coding tool Capy with his own GStack/GBrain setup on a batch of outstanding issues and PRs cut what would have been a full day of work down to about half that time, using the same frontier models underneath as raw Codex or Claude Code. He calls the result genuinely surprising.",
+      "summaryZh": "YC总裁Garry Tan表示,他把编程工具Capy和自己的GStack/GBrain配置结合起来,用在一批待修复的issue和PR上,原本要花一整天的工作量,现在大约只用了一半时间就完成了,而且底层用的还是和原生Codex或Claude Code一样的前沿模型。他说这个结果确实让他感到惊讶。",
+      "url": "https://x.com/garrytan/status/2099964487667454097",
+      "tags": ["coding agents", "Capy", "developer tools", "productivity"]
+    },
+    {
+      "id": "shipper-probability-model-cheap-judge",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper says his team, who almost never test new foundation models, has spent about a week testing one that doesn't output words at all but probabilities instead, letting it act as an efficient judge in places that would otherwise require a frontier-level model. In their testing it ran roughly 25x faster and 600x cheaper, and Shipper calls it the kind of capability that will be \"obviously indispensable\" within six to twelve months.",
+      "summaryZh": "Every首席执行官Dan Shipper表示,他们团队几乎从不测试新的foundation model,但这次花了大约一周时间测试了一个不输出文字、而是直接输出概率的模型,这让它可以在原本需要用到顶尖模型的场景里,高效地充当judge的角色。在他们的测试中,这个模型速度快了大约25倍,成本却便宜了600倍,Shipper认为这是那种在六到十二个月内会\"明显变得不可或缺\"的能力。",
+      "url": "https://x.com/danshipper/status/2099947471518474522",
+      "tags": ["foundation models", "AI judges", "Every", "efficiency"]
+    },
+    {
+      "id": "claude-salesforce-beta",
+      "kind": "x",
+      "author": "Claude",
+      "role": "AI assistant, Anthropic",
+      "summary": "Anthropic's Claude account announces that Salesforce in Claude is now available in beta, bringing accounts, opportunities, and pipeline data directly into Claude alongside 37 pre-built sales skills for prepping calls, reviewing deals, and building pipeline dashboards.",
+      "summaryZh": "Anthropic的Claude官方账号宣布,Salesforce in Claude现已进入beta阶段,可以把客户账户、商机和销售管道数据直接接入Claude,并配有37个预置的销售技能,帮助用户准备通话、复盘交易、搭建管道仪表盘。",
+      "url": "https://x.com/claudeai/status/2099876514330206578",
+      "tags": ["Claude", "Salesforce", "integrations", "sales"]
+    },
+    {
+      "id": "claude-blog-small-business-workflows",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "summary": "Claude Blog announces Claude for Small Business now ships 43 workflows and 27 new integrations with tools owners already run their businesses on, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. Where the May launch focused on running the back office, this release is built to help owners grow it too: generating leads, answering inbound inquiries, writing proposals, and handling day-to-day reporting, the requests Anthropic says came directly from more than 1,000 owners across 10 cities on its spring SMB tour. The product has been installed more than 900,000 times since its May launch with partners including Intuit QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365. The tour returns this fall with free workshops in 10 US cities, backed by 150+ trained \"Approved Claude SMB Trainers\" running 750+ community workshops and 14 integration partners hosting webinars. Owners quoted in the post describe concrete results: Blackfyre GovCon's Pedro Rubio says work that used to take 120 hours now takes five minutes; Driller Design Co.'s Garrett French has Claude scan the CRM every morning at 6am and send a prioritized daily briefing; Modern Classical Chefs' Dan Ninerell says he made $20,000 in a month and a half using Claude-drafted proposals.",
+      "summaryZh": "Claude官方博客宣布,Claude for Small Business现在新增了43个workflow和27个新集成,对接的都是小企业主已经在用的工具,包括Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe和Zapier。如果说5月份的首发版本重点是帮企业主打理好后台事务,这次的更新则是要帮他们把生意做大:找线索、回复咨询、写提案、处理日常报表,Anthropic表示这些需求都直接来自春季SMB巡回活动中10座城市里1000多位企业主的反馈。这款产品自5月上线以来已经被安装超过90万次,合作伙伴包括Intuit QuickBooks、PayPal、HubSpot、Canva、Docusign、Google Workspace和Microsoft 365。今年秋天巡回活动将重返10座美国城市举办免费工作坊,由150多位经过培训认证的\"Claude SMB培训师\"主持750多场社区工作坊,另有14家集成合作伙伴举办线上讲座。博文中引用的企业主反馈很具体:Blackfyre GovCon创始人Pedro Rubio说,原本要花120个小时的工作现在只需5分钟;Driller Design Co.的Garrett French让Claude每天早上6点扫描CRM,发送优先级排好的每日简报;Modern Classical Chefs创始人Dan Ninerell说,他靠Claude起草的提案在一个半月里赚了2万美元。",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "tags": ["Claude for Small Business", "integrations", "Anthropic", "SMB"]
+    },
+    {
+      "id": "levie-training-data-applied-ai-layer",
+      "kind": "podcast",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "takeaway": "The real money in AI isn't purely in the model — it's in the \"applied AI layer\" that bridges frontier intelligence to a company's actual workflow, and that bridge gets more valuable, not less, as the underlying models keep improving.",
+      "takeawayZh": "AI真正的价值不完全在模型本身,而在于把前沿智能接入企业实际工作流程的\"应用层AI\",而且随着底层模型不断进步,这座桥梁只会变得更重要,而不是更不重要。",
+      "summary": "Box CEO Aaron Levie tells Training Data that \"application companies are the hottest neo labs\" — a claim he says would have sounded absurd two years ago but is clearly playing out now. His argument: roughly a trillion dollars has effectively been bet on one of two theses, that the bridge from a model's raw capability to an enterprise's actual workflow is either thin or vast, and it's turning out to be vast. Closing that gap means reengineering business processes, handling human-in-the-loop moments, working around legacy systems, and absorbing the delays baked into real operations — the unglamorous work no pure research lab wants to do.\n\nLevie draws a direct parallel to cloud infrastructure: \"If you were to go back ten years ago and you were to look at what was happening in the data space... you would not have predicted Snowflake or Databricks existing\" on top of AWS and GCP. He expects the same pattern with intelligence — models will be enormously valuable, but a comparable amount of value will accrue to the software that applies them inside banking, life sciences, healthcare, and government.\n\nHe's skeptical that today's subsidized token pricing lasts: once model labs go public, he expects them to face \"the same laws of capitalism\" on gross margin, forcing a choice between cheap API access and revenue from their own applied products. He's also blunt about incentives — enterprises will always want a vendor with no stake in which of ten models wins a given task, \"fox guarding the henhouse\" logic that favors independent applied-AI vendors over the labs themselves.\n\nQuote: \"They need something that bridges the core technology to their workflow and their business process, and AI has not meaningfully changed the need or the shape of what that looks like.\"",
+      "summaryZh": "Box首席执行官Aaron Levie在Training Data节目中表示,\"应用层公司才是现在最炙手可热的neo lab\"——他说这句话放在两年前会显得很荒谬,但现在正在真实发生。他的论点是:市场上大约有一万亿美元实际上押注在两种判断之一:模型原始能力到企业实际工作流程之间的这座桥梁,到底是很薄还是很厚,而事实证明它很厚。要填平这道鸿沟,需要重新设计业务流程、处理人工介入的环节、绕开遗留系统的限制,还要消化真实业务运营里天然存在的各种延迟,这些都是纯研究型实验室不愿意去做的\"脏活累活\"。\n\nLevie还把这个现象直接类比到云基础设施上:\"如果你回到十年前去看数据领域正在发生什么……你根本不会预料到Snowflake或Databricks会建立在AWS和GCP之上\"并发展成如今的规模。他认为智能领域也会出现同样的模式:模型本身价值巨大,但把模型真正应用到银行、生命科学、医疗健康和政府等领域的软件,也会积累起相当规模的价值。\n\n他对如今被补贴的token定价能否持续表示怀疑:一旦这些模型实验室上市,他预计它们将在毛利率上面临\"和所有其他公司一样的资本主义规律\",不得不在低价API和自家应用层产品的营收之间做取舍。他对其中的激励机制也讲得很直白:企业永远会更想要一个在\"十个模型里谁赢\"这件事上完全没有利益牵扯的供应商,这种\"狐狸看鸡舍\"式的逻辑,天然更有利于独立的应用层AI厂商,而不是模型实验室自己。\n\n金句:\"企业需要的是能把核心技术和他们的工作流程、业务流程连接起来的东西,而AI并没有真正改变这种需求本身,也没有改变它应有的样子。\"",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "tags": ["Box", "applied AI", "enterprise", "podcast"]
+    }
+  ]
+}

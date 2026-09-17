@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-15T06:35:00Z",
+  "generatedAt": "2026-09-17T00:00:00Z",
   "digests": [
+    {
+      "date": "2026-09-17",
+      "title": "Box's Aaron Levie makes the case for an 'applied AI layer' as Rauch launches Vercel Labs and argues for multi-model",
+      "itemCount": 11,
+      "kinds": ["x", "blog", "podcast"],
+      "highlights": [
+        "Box CEO Aaron Levie argues, both in a tweet and on the Training Data podcast, that the real opportunity is the 'applied AI layer' bridging raw model power to enterprise workflows, and predicts subsidized token pricing won't survive labs going public",
+        "Vercel CEO Guillermo Rauch launches Vercel Labs as the company's in-public research arm and argues 'the future is multi-model,' warning that hiding model choice from users cuts them out of today's competition",
+        "Anthropic's Claude account brings Salesforce data into Claude in beta with 37 sales skills, while Claude Blog details 43 new small-business workflows and 27 integrations now installed over 900,000 times"
+      ]
+    },
     {
       "date": "2026-09-15",
       "title": "Altman doubles down on safety cases as Levie makes the case for AI-specific 'necessities', Arm's Rene Haas on why the CPU is the era's real bottleneck",
