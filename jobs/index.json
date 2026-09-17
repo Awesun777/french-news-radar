@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-16T16:01:13Z",
+  "generatedAt": "2026-09-17T16:12:18Z",
   "digests": [
+    {
+      "date": "2026-09-17",
+      "itemCount": 31,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Deutsche Bank",
+        "JP Morgan",
+        "Macquarie"
+      ]
+    },
     {
       "date": "2026-09-16",
       "itemCount": 33,
