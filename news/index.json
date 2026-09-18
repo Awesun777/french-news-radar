@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-17T06:29:32Z",
+  "generatedAt": "2026-09-18T06:26:24Z",
   "digests": [
+    {
+      "date": "2026-09-18",
+      "title": "Grok Bot's voice mode, OpenAI's misalignment framework",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "xAI ships voice mode for Grok Bot, claims 1.5-2x better transcription accuracy than Deepgram and ElevenLabs",
+        "OpenAI launches a formal misalignment reporting framework, discloses six new incidents",
+        "Anthropic says Claude now leads 26% of its own model R&D, up from under 1% in February"
+      ]
+    },
     {
       "date": "2026-09-17",
       "title": "Mistral powers Firefox AI, DeepL Voice preserves your tone live",
