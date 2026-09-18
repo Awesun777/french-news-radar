@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "id": "cherny-claude-cowork-chat-merge",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic engineer Boris Cherny says Claude Docs, Slides, and Design now live inside every conversation, so asking Claude for a presentation returns something you can open, edit, and export as PowerPoint or PDF without ever leaving the chat. He frames it as the second half of a bigger shift: Claude Code proved AI could ship real code, Cowork proved it could finish knowledge work, and today chat and Cowork start merging into 'one Claude' that carries context everywhere. After using the merged experience daily for weeks ahead of launch, he calls it 'simpler, faster, and more powerful.'",
+      "summaryZh": "Anthropic工程师Boris Cherny表示,Claude Docs、Claude Slides和Claude Design现在已经嵌入到每一次对话中,向Claude要一份演示文稿,得到的就是一份可以直接打开、编辑,并导出为PowerPoint或PDF的成品,根本不用离开聊天窗口。他把这看作一次更大变革的下半场:Claude Code证明了AI能交付真正的代码,Cowork证明了AI能完成知识工作,而今天chat和Cowork开始合并成'同一个Claude',在任何场景下都能延续上下文。在发布前已经每天使用这个合并版本好几周之后,他形容它'更简单、更快、也更强大'。",
+      "url": "https://x.com/bcherny/status/2100259951398789487",
+      "tags": ["Claude", "Cowork", "product launch", "Anthropic"]
+    },
+    {
+      "id": "thariq-tool-shaped-apis",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq argues that reliable tool-calling increasingly means giving Claude tools shaped the way a task actually needs, rather than tricking it through a layer of indirection — for structured data, that means a real database API instead of a simulated filesystem. He says 'bash is no longer all you need' for tool-calling specifically, though sandboxes paired with bash still matter for work involving real code generation and execution. He also reports porting an old bash-tool-calling project to Claude Managed Agents, where the sandbox is optional and can spin up independently of the rest of the agent loop, calling the balance 'right.'",
+      "summaryZh": "Anthropic的Thariq认为,想让工具调用变得可靠,越来越关键的是让Claude使用的工具本身就是按任务实际需要设计的,而不是靠一层间接的封装去'哄骗'它完成任务,比如处理结构化数据时,应该给它一个真正的数据库API,而不是模拟一个文件系统。他说,就工具调用而言,'bash已经不再是万能的了',不过在涉及真正代码生成与执行的工作中,沙盒配合bash依然很重要。他还提到自己把一个老旧的、以bash工具调用为核心的项目迁移到了Claude Managed Agents上,那里的沙盒是可选的,可以独立于agent循环的其余部分启动,他认为这个平衡把握得'恰到好处'。",
+      "url": "https://x.com/trq212/status/2100315538472009897",
+      "tags": ["tool calling", "agents", "Claude Managed Agents", "Anthropic"]
+    },
+    {
+      "id": "rauch-fx-auto-safety-reviewer",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says fx's default 'auto' mode now runs a safety reviewer on every command, powered by GPT Luna via Typesafe AI, and that the reviewer is up to 18x faster at p95 while also being more accurate. He expects the approach to come to Vercel's AI Gateway and likely become its new default, part of a broader bet that lightweight classifier models — not just frontier LLMs — belong in the safety-review loop for agentic coding tools.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch表示,fx的默认'auto'模式现在会对每一条命令都跑一次安全审查,背后由Typesafe AI提供的GPT Luna驱动,审查速度在p95上快了多达18倍,而且准确率还更高。他预计这套方案会被引入Vercel的AI Gateway,并很可能成为新的默认选项,这也体现了一个更大的判断:在agentic编程工具的安全审查环节里,真正需要的未必是frontier级别的LLM,轻量级的分类模型同样有用武之地。",
+      "url": "https://x.com/rauchg/status/2100307962262872105",
+      "tags": ["fx", "AI Gateway", "safety review", "Vercel"]
+    },
+    {
+      "id": "zhang-claude-tone-insufferable",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang says she's using Claude less these days, not because of what it can do, but because of how it talks. She describes its voice as 'insufferable,' constantly trying to showcase how smart or sophisticated it is rather than just communicating a point clearly.",
+      "summaryZh": "独立开发者Zara Zhang表示,自己最近用Claude变少了,原因不是它能做什么,而是它说话的方式。她形容Claude的语气'让人受不了',总是在炫耀自己有多聪明、多老练,而不是把一个观点干脆利落地说清楚。",
+      "url": "https://x.com/zarazhangrui/status/2100278750776824115",
+      "tags": ["Claude", "tone", "user feedback"]
+    },
+    {
+      "id": "levie-fast-cheap-models-enterprise",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie says there are 'entire universes of AI innovation' still off most people's radar, pointing to models that process information extremely fast and cheaply while staying capable enough for narrow tasks. He lists data classification, workflow routing decisions, domain-specific judgment calls, and quick safety or security checks as the 'gates' inside large enterprise processes that this class of model is suited for, betting that cheap, fast, narrow models — not just frontier ones — could unlock a wave of agentic enterprise workflows.",
+      "summaryZh": "Box首席执行官Aaron Levie表示,还有'整片整片的AI创新领域'完全不在大多数人的雷达范围内,他特别提到那些处理信息极快、成本极低,同时又足够胜任特定任务的模型。他列举了数据分类、工作流路由决策、特定领域的判断、以及快速的安全或安保检查,认为这些正是大型企业流程中那些'关卡'式环节,恰好适合这类模型来处理。他的判断是,真正能解锁新一波企业级agentic工作流的,未必只是frontier模型,便宜、快速、专精的模型同样关键。",
+      "url": "https://x.com/levie/status/2100448648672993540",
+      "tags": ["enterprise AI", "small models", "agentic workflows", "Box"]
+    },
+    {
+      "id": "yang-eight-podcast-skills",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang says he produces his entire podcast using eight custom AI skills while still applying his own taste and judgment throughout. /podcast-prep researches the guest and builds an interview guide, /podcast-edit works with him to pick quotes and cuts from the raw transcript, and /podcast-production orchestrates five more skills to turn a finished episode into six different assets. He pushes back on the idea that newer, more capable models make skills redundant, saying they remain essential for getting AI to follow his specific editing and browser-use instructions.",
+      "summaryZh": "Peter Yang表示,他制作整档播客靠的是8个自定义AI skill,同时全程依然由自己把关品味和判断。/podcast-prep负责调研嘉宾并整理出采访提纲,/podcast-edit配合他从原始文字稿里挑出精彩引言并确定剪辑点,/podcast-production则统筹另外5个skill,把一期做完的节目产出成6种不同形式的素材。他不认同'模型越来越强,skill就变得多余'的说法,认为要让AI遵循他那些具体的剪辑和浏览器操作指令,这些skill仍然不可或缺。",
+      "url": "https://x.com/petergyang/status/2100328939034128856",
+      "tags": ["AI skills", "podcast production", "workflow automation"]
+    },
+    {
+      "id": "guru-safety-as-product-feature",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI, Meta",
+      "summary": "Meta AI Sr Director Madhu Guru argues safety and security should be built as features of an AI product and model, not guardrails imposed on it from the outside. It's a compact but pointed framing: treat safety as a first-class part of the product itself, not a compliance layer bolted on afterward.",
+      "summaryZh": "Meta AI高级总监Madhu Guru认为,安全性和安保应该是AI产品与模型本身自带的功能,而不是从外部强加上去的护栏。这个说法虽然简短,但态度鲜明:安全应该是产品本身的核心组成部分,而不是事后补上的一层合规措施。",
+      "url": "https://x.com/realmadhuguru/status/2100312717739667963",
+      "tags": ["AI safety", "product design", "Meta"]
+    },
+    {
+      "id": "kothari-home-agent-daily-use",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari says the 'Home' agent he's been building on NousResearch has finally gotten good enough to become a genuine family tool — the first 'group' bot he and his wife use daily. He says he's tried recreating the same setup with Grok Bot and similar agents but couldn't match the granularity and control Home gives him, like reading only certain emails, converting inline attachments into structured data, or working from logged-in browser sessions.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari表示,他用NousResearch搭建的'Home' agent终于做到了足够好用,成了一个真正的家庭工具,是他和妻子第一个每天都会用的'群组'机器人。他说自己也试过用Grok Bot等类似agent复刻同样的设置,但都做不到Home给他的那种精细度和控制力,比如只读取特定邮件、把邮件内嵌附件转换成结构化数据,或者基于已登录的浏览器会话来工作。",
+      "url": "https://x.com/nikunj/status/2100212813625196917",
+      "tags": ["personal agent", "NousResearch", "agents"]
+    },
+    {
+      "id": "claude-blog-cowork-chat-merge",
+      "kind": "blog",
+      "author": "Claude Blog",
+      "title": "Claude Cowork and chat are now one Claude",
+      "summary": "Anthropic is merging Claude Cowork and Claude chat into a single product, ending the choice between a 'quick question' interface and a separate place for bigger work. Claude now decides on its own whether a prompt needs a fast answer or deeper agentic work, routing the output accordingly, while users keep the ability to stop, redirect, or dial in more control at any point. Alongside the merge, Claude Docs and Claude Slides launch in beta on paid plans, joining Claude Design so a document, a matching deck, and a visual can all be drafted, edited, and exported as PowerPoint or PDF from directly inside a conversation, with everything landing at one shareable link. Anthropic frames the change around a real workflow: hand Claude a weekly report before leaving the office, check progress from a phone on the way in, and find a finished doc with a teammate's notes and a ready slide deck waiting at the desk. The rollout starts on Pro and Max plans over the coming weeks, with Team and Free plans to follow and Enterprise admins getting at least 30 days' notice. As the post puts it: 'We stopped making you choose.'",
+      "summaryZh": "Anthropic正在把Claude Cowork和Claude chat合并成同一款产品,不再让用户在'快速提问'界面和专门处理大项目的独立空间之间做选择。现在由Claude自己判断一个请求需要的是快速回答还是更深入的agentic工作,并据此安排输出方式,同时用户在任何环节都依然可以叫停、重新指定方向,或者调整介入的精细程度。伴随这次合并,Claude Docs和Claude Slides在付费版上以beta形式上线,和Claude Design一起,让文档、配套的演示文稿以及配图都能直接在对话内起草、编辑,并导出为PowerPoint或PDF,所有成果最终都汇总到同一个可分享的链接里。Anthropic用一个真实场景来说明这次改动:下班前把周报交给Claude,通勤路上用手机查看进度,到工位时已经有一份带着同事批注的完整文档,以及一份随时能用的演示文稿在等着你。这次更新会先在Pro和Max计划上铺开,未来几周内逐步推进,Team和Free计划随后跟进,Enterprise管理员会提前至少30天收到通知。正如文中所说:'我们不再让你选了。'",
+      "url": "https://claude.com/blog/cowork-is-now-claude",
+      "tags": ["Claude Cowork", "Claude Docs", "Claude Slides", "Anthropic"]
+    }
+  ]
+}

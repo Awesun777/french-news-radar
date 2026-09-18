@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-17T00:00:00Z",
+  "generatedAt": "2026-09-18T06:27:04Z",
   "digests": [
+    {
+      "date": "2026-09-18",
+      "title": "Anthropic merges Cowork and chat into 'one Claude' with Docs and Slides, Zhang calls Claude's tone 'insufferable'",
+      "itemCount": 9,
+      "kinds": ["x", "blog"],
+      "highlights": [
+        "Anthropic merges Claude Cowork and chat into a single product that routes each prompt to a quick answer or deeper agentic work, launching Claude Docs and Claude Slides in beta alongside Claude Design so decks, docs, and visuals can be built entirely inside a conversation",
+        "Builder Zara Zhang says she's using Claude less because its voice has become 'insufferable,' while Vercel's Guillermo Rauch ships an 18x-faster safety reviewer for fx's auto mode and Anthropic's Thariq argues tool-calling now needs task-shaped APIs, not bash tricks",
+        "Box CEO Aaron Levie bets fast, cheap models will unlock enterprise agentic workflows at the 'gates' inside big processes, while FPV's Nikunj Kothari says his NousResearch-built 'Home' agent finally became his family's daily tool"
+      ]
+    },
     {
       "date": "2026-09-17",
       "title": "Box's Aaron Levie makes the case for an 'applied AI layer' as Rauch launches Vercel Labs and argues for multi-model",
