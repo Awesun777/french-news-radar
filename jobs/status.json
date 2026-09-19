@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-09-18T13:22:07Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-09-19T18:10:29Z",
+  "outcome": "error",
   "newCount": 68,
-  "detail": "68 new postings (61 Citi, 2 JP Morgan, 2 Scotiabank, 1 Deutsche Bank, 1 Raymond James, 1 Ubs)",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-09-18",
   "companies": {
     "Raymond James": "ok",
