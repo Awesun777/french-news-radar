@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-19",
+  "items": [
+    {
+      "id": "plugin4shell-ai-coding-agent-rce",
+      "category": "general",
+      "title": "Plugin4Shell: zero-click RCE flaw hits Claude Code, Codex, Copilot, and Gemini CLI",
+      "summary": "AIR Security disclosed Plugin4Shell on September 17: all four major AI coding agents check out a pinned plugin commit without verifying the checkout actually landed there, letting an attacker silently swap in malicious code past SHA pinning once a trusted extension auto-updates. Anthropic patched Claude Code in 2.1.179 and OpenAI patched Codex in 0.146.0; Microsoft hasn't shipped a Copilot fix, and Google deprecated Gemini CLI rather than patch it.",
+      "whyItMatters": "A supply-chain flaw in the exact class of coding-agent tooling used to build and ship Romain/Anna is a concrete reminder to audit plugin/pin verification in any dev pipeline touching the tutor's codebase.",
+      "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+      "source": "Help Net Security",
+      "tags": ["security", "supply-chain", "coding-agents", "vulnerability"]
+    },
+    {
+      "id": "google-cc-family-agent",
+      "category": "general",
+      "title": "Google's CC assistant expands into a shared AI agent for families, with its own Google account",
+      "summary": "Google Labs said on September 17 that CC, its personal daily-briefing agent launched in December, now supports up to six household members who each choose what to share with it. CC consolidates shared material into a \"Your Day Ahead\" brief, calendar entries, and a task list from its own dedicated Google account, rolling out first to existing US CC users 18+ with new users joining a waitlist.",
+      "whyItMatters": "A shared-but-permissioned multi-user agent design, where each person opts into what the assistant can see, is a pattern worth studying for any future multi-learner or family plan on a French tutor.",
+      "url": "https://www.msspalert.com/brief/google-cc-ai-agent-expands-to-households",
+      "source": "MSSP Alert",
+      "tags": ["google", "agent", "product-design", "permissions"]
+    },
+    {
+      "id": "openai-astra-for-law",
+      "category": "general",
+      "title": "OpenAI launches Astra for Law, a GPT-6 Astra legal-research index spanning 230M+ URLs",
+      "summary": "OpenAI introduced Astra for Law on September 17: a GPT-6 Astra configuration paired with a legal search index covering more than 230 million URLs of US case law, statutes, regulations, and court rules, sourced largely via the Free Law Project's CourtListener. On Vals AI's Legal Research Bench it passed 54% of 200 test questions versus 38.7% for plain web search; it's available to select US law firms via a Trusted Access program.",
+      "whyItMatters": "Pairing a general model with a purpose-built, continuously updated retrieval index for one domain is the same playbook a French tutor needs for grounding grammar rules, exam formats, or vocabulary in an authoritative corpus.",
+      "url": "https://openai.com/index/astra-for-law/",
+      "source": "OpenAI",
+      "tags": ["openai", "retrieval", "rag", "domain-grounding"]
+    }
+  ]
+}

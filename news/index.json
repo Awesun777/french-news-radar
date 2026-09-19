@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-18T06:26:24Z",
+  "generatedAt": "2026-09-19T06:13:00Z",
   "digests": [
+    {
+      "date": "2026-09-19",
+      "title": "Plugin4Shell hits AI coding agents, OpenAI's Astra for Law debuts",
+      "itemCount": 3,
+      "categories": ["general"],
+      "highlights": [
+        "Plugin4Shell zero-click RCE flaw hits Claude Code, Codex, Copilot, and Gemini CLI",
+        "Google's CC assistant expands into a shared AI agent for families",
+        "OpenAI launches Astra for Law, a legal-research index spanning 230M+ URLs"
+      ]
+    },
     {
       "date": "2026-09-18",
       "title": "Grok Bot's voice mode, OpenAI's misalignment framework",
