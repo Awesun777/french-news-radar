@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-09-19T18:10:29Z",
-  "outcome": "error",
-  "newCount": 68,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-09-18",
+  "lastRunAt": "2026-09-20T06:49:08Z",
+  "outcome": "new-postings",
+  "newCount": 18,
+  "detail": "18 new postings (Citi (5), Pwc (3), Raymond James (3), Barclays (1), Dc advisory (1), Houlihan Lokey (1), JP Morgan (1), Mizuho americas (1), Scotiabank (1), Ubs (1))",
+  "dayFile": "2026-09-20",
   "companies": {
     "Raymond James": "ok",
     "Houlihan Lokey": "ok",
-    "Mizuho americas": "ok",
-    "Stepstone": "ok",
     "Mangroup": "ok",
     "Scotiabank": "ok",
     "Nomura": "ok",
     "Citi": "ok",
+    "Deutsche Bank": "unreachable",
     "Barclays": "ok",
-    "Deutsche Bank": "ok",
     "JP Morgan": "ok",
+    "Stepstone": "unreachable",
+    "Dc advisory": "ok",
+    "Bda partners": "ok",
     "Ubs": "ok",
     "BNPP": "unreachable",
-    "Dc advisory": "unreachable",
-    "Bda partners": "ok",
     "Macquarie": "ok",
-    "Pwc": "ok"
+    "Pwc": "ok",
+    "Mizuho americas": "ok"
   }
 }
