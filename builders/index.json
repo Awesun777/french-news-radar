@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-18T06:27:04Z",
+  "generatedAt": "2026-09-20T06:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-20",
+      "title": "Builders race to demo Typesafe AI's fast, cheap 'Jev' model as Inception's Ermon bets diffusion beats autoregressive at inference",
+      "itemCount": 8,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Box's Aaron Levie, FPV's Nikunj Kothari, and Vercel's Guillermo Rauch all spend the weekend building on Typesafe AI's new 'Jev' model, from a Box workflow that instantly classifies and routes incident reports to a site cataloging community Jev demos and a snack-scoring test run in 28 seconds for 11 cents",
+        "Anthropic's Thariq ships AGENTS.md support in Claude Code as one of the first 'Claude Code mods,' Peter Yang credits Meta's Muse with saving him $800+ a year by negotiating his own cable bill, and OpenClaw's Peter Steinberger shows off an agent running his team's server around the clock on Discord",
+        "Inception co-founder and CEO Stefano Ermon tells No Priors that diffusion models process tokens in parallel rather than one at a time, betting the same logic that made transformers beat RNNs will let diffusion eventually beat autoregressive models at AI inference"
+      ]
+    },
     {
       "date": "2026-09-18",
       "title": "Anthropic merges Cowork and chat into 'one Claude' with Docs and Slides, Zhang calls Claude's tone 'insufferable'",

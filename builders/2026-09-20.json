@@ -1,0 +1,88 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "id": "levie-jev-box-demo",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie shows off a live demo wiring Typesafe AI's fast, cheap 'Jev' model into Box: it pulls an incident report, judges in an instant whether it's customer-facing and how severe, routes the file into escalate, monitor, or review folders, and fills in a metadata template — all at almost no cost. He argues this class of split-second, judgment-call model is exactly what enterprise workflows need for use cases like insurance claims, contract management, loan processing, and security reviews.",
+      "summaryZh": "Box首席执行官Aaron Levie展示了一段现场演示,把Typesafe AI推出的这款快速、低成本的'Jev'模型接入了Box:它会读取一份事故报告,几乎瞬间判断出这份报告是否面向客户、严重程度如何,然后把文件归入升级、监控或复核文件夹,并填好对应的元数据模板,而且整个过程成本极低。他认为,这类能做出瞬时判断的模型正是企业工作流所需要的,比如保险理赔、合同管理、贷款审批和安全审查等场景。",
+      "url": "https://x.com/levie/status/2101007708044574906",
+      "tags": ["Jev", "Box", "enterprise AI", "Typesafe AI"]
+    },
+    {
+      "id": "kothari-jev-demos",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari spends the weekend stress-testing Typesafe AI's new 'Jev' model, building a site called Jevable that catalogs and filters the wave of Jev demos flooding X, and running his own: scoring 3,000 kids' snacks against multiple criteria in 28 seconds for 11 cents. It's a hands-on illustration of what a genuinely fast, cheap judgment model unlocks once builders start pointing it at real, high-volume classification tasks.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari周末花时间实测了Typesafe AI新推出的'Jev'模型,他搭建了一个名为Jevable的网站,收集并按类别筛选X上层出不穷的Jev demo,还亲自做了一个演示:用多项标准给3000款儿童零食打分,只用了28秒,花费仅0.11美元。这是一个很直观的例子,说明当开发者真正把一个足够快、足够便宜的判断类模型用在大批量分类任务上时,能解锁什么样的场景。",
+      "url": "https://x.com/nikunj/status/2101006585481073093",
+      "tags": ["Jev", "Typesafe AI", "demos", "venture capital"]
+    },
+    {
+      "id": "rauch-ai-gateway-open-models",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says today may be a record day for open-model token share on Vercel's AI Gateway — 78.4% open versus 21.6% closed — and notes that while spend usually tells a different story, Moonshot AI and DeepSeek rank #3 and #4 by spend, and their combined total, with Z.ai added, now surpasses OpenAI's. He's careful to note this reflects inference spend across providers, not revenue flowing directly to the open-weight labs themselves.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch表示,今天可能是Vercel AI Gateway上开源模型token占比创纪录的一天:开源78.4%,闭源21.6%。他提到,虽然按花费来看情况通常不一样,但今天按花费排名第三和第四的分别是Moonshot AI和DeepSeek,如果再加上Z.ai,它们的合计花费已经超过了OpenAI。他也特别说明,这里统计的是各家提供商上的推理花费,而不是直接流向开源权重模型实验室的营收。",
+      "url": "https://x.com/rauchg/status/2101186741042663579",
+      "tags": ["AI Gateway", "open models", "Vercel", "DeepSeek"]
+    },
+    {
+      "id": "thariq-agents-md-support",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq announces Claude Code now supports AGENTS.md: starting in version 2.1.277, if a folder has no CLAUDE.md, Claude will look for and use an AGENTS.md file instead, with the behavior toggleable in /config. He says the feature is built as one of the first 'Claude Code mods,' an upcoming system for customizing the harness that builders will also be able to use to create their own custom project-instruction behaviors.",
+      "summaryZh": "Anthropic的Thariq宣布Claude Code现在支持AGENTS.md:从2.1.277版本开始,如果某个文件夹里没有CLAUDE.md,Claude会自动查找并使用AGENTS.md文件,这个行为可以在/config里开关。他表示这个功能是作为首批'Claude Code mod'之一构建的,这是即将推出的一套用于定制Claude Code底层运行方式的系统,开发者今后也能用它来打造自己的项目指令定制方案。",
+      "url": "https://x.com/trq212/status/2101009392611278961",
+      "tags": ["Claude Code", "AGENTS.md", "Anthropic", "developer tools"]
+    },
+    {
+      "id": "yang-muse-bill-negotiation",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang calls Meta's Muse the best personal agent he's tried, crediting it with saving him over $800 a year on his cable and phone bills, including a phone call where it negotiated $288 in annual savings directly with Comcast customer support. He walks through ten of his favorite Muse use cases in a new video, among them a personalized morning news feed and a habit tracker, and half-jokes that most companies' support lines aren't ready for agents calling in on customers' behalf.",
+      "summaryZh": "Peter Yang称Meta的Muse是他用过的最好的个人agent,说它帮自己每年在有线电视和电话账单上省下了800多美元,其中一次是Muse直接打电话和Comcast客服交涉,谈下了288美元的年度优惠。他在一段新视频里介绍了自己最喜欢的10个Muse用法,包括一份个性化的早间新闻推送和一个习惯追踪器,还半开玩笑地说,大多数公司的客服热线根本没准备好应对替客户打电话来的agent。",
+      "url": "https://x.com/petergyang/status/2101033599319613533",
+      "tags": ["Muse", "Meta", "personal agents", "AI tools"]
+    },
+    {
+      "id": "steipete-roboclaw-team-server",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Builder, OpenClaw",
+      "summary": "OpenClaw builder Peter Steinberger shows off 'roboclaw,' an agent that now runs his team's server around the clock, stays live on Discord, and talks to teammates via gpt-live while keeping track of every session it's juggling — he says they can ask it about current or past session context mid-meeting. He also shares a workflow tip: a teammate now 'desloping' his sessions by hijacking and cleaning them up before a PR lands, and suggests using the home sidebar to ask your own claw to reorganize sessions.",
+      "summaryZh": "OpenClaw的开发者Peter Steinberger展示了他的agent'roboclaw',现在它全天候运行团队服务器,常驻在Discord上,通过gpt-live和队友交流,还能记住自己同时处理的每一个session。他说,即使在开会的时候,团队也可以直接向它询问当前或过往session的上下文。他还分享了一个使用技巧:现在有队友专门在PR落地前'接管'并清理他的session,帮他去掉冗余内容,他建议大家可以打开home侧边栏,让自己的claw帮忙整理session。",
+      "url": "https://x.com/steipete/status/2101141707375227372",
+      "tags": ["OpenClaw", "agents", "developer tools", "workflow"]
+    },
+    {
+      "id": "shipper-jack-cheng-demo-defense",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper pushes back after someone called an AI demo from builder Jack Cheng 'fake,' calling Cheng one of the smartest, most intellectually honest, and craft-focused people he's worked with, and insisting the demo is both real and a genuine glimpse of where things are headed. He frames it as part of a broader problem: plenty of AI demos on X really are overhyped, but that makes it easy, and unfair, to lump in the ones that aren't.",
+      "summaryZh": "Every首席执行官Dan Shipper在有人称builder Jack Cheng的一个AI demo是'假的'之后站出来反驳,他说Cheng是自己共事过的人里最聪明、最诚实、最讲究工艺的人之一,而且那个demo是真实的,也确实让人看到了未来的一角。他借此指出一个更普遍的问题:X上确实有不少被过度包装的AI demo,但这也让人很容易、也很不公平地把那些真实的demo一并归为一类。",
+      "url": "https://x.com/danshipper/status/2101155521818476693",
+      "tags": ["AI demos", "credibility", "Every", "commentary"]
+    },
+    {
+      "id": "ermon-no-priors-diffusion-inference",
+      "kind": "podcast",
+      "author": "Stefano Ermon",
+      "role": "Co-Founder & CEO, Inception",
+      "title": "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "takeaway": "Diffusion models process many tokens in parallel instead of one at a time, which is why Inception's CEO bets they'll eventually beat autoregressive LLMs on inference speed and cost, not just on scale.",
+      "takeawayZh": "扩散模型在每一步都能并行处理很多个token,而不是像自回归模型那样一个一个生成,这正是Inception首席执行官押注它最终会在推理速度和成本上超越自回归大模型的原因,而不仅仅是靠规模取胜。",
+      "summary": "Stefano Ermon, a longtime Stanford professor and co-founder and CEO of Inception, has spent his entire career on generative models, long before anyone thought the field was interesting. He started building diffusion models, the technology under nearly every top image, video, and protein-generation model today, back in 2019, when the goal was simply denoising noisy images well enough to reverse the process and generate new ones from scratch.\n\nErmon's contrarian bet is that diffusion isn't just for pictures. While every major AI lab builds text and code models the same way, autoregressive, generating one token at a time left to right, Ermon thinks that architecture has an inference problem no amount of scale fixes. Generating token ten requires having already generated tokens one through nine, a workload that's inherently sequential and, on today's GPUs, memory-bound rather than compute-bound. Diffusion models, by contrast, refine many tokens in parallel at every step, which happens to map onto exactly what GPUs are built to do well.\n\nThat matters more as the industry shifts from training toward inference-heavy workloads: reasoning models scaling test-time compute, and RL post-training bottlenecked on generating and scoring rollouts. Ermon argues the same logic that pushed transformers to replace sequential RNNs in 2017 will eventually push diffusion to replace autoregressive generation for text, because parallelism wins. Inception's Mercury models, he says, now match the quality of frontier labs' speed-optimized models like Gemini Flash and OpenAI's mini and nano tiers, while running significantly faster in production, a claim backed by the fact that Inception had to build its own serving engine from scratch since existing inference stacks like vLLM or SGLang can't run diffusion-based LLMs at all.\n\nIn his own words: 'The bitter lesson is that the more parallel solution is the one that is eventually going to win.'",
+      "summaryZh": "Stefano Ermon是斯坦福大学的资深教授,也是Inception的联合创始人兼首席执行官,他几乎整个职业生涯都在研究生成式模型,那还是在这个领域被普遍看好之前很久的事。他早在2019年就开始构建扩散模型,也就是如今几乎所有顶尖的图像、视频和蛋白质生成模型背后所用的技术,当时的目标很朴素:让模型足够擅长给带噪声的图像去噪,以至于可以反过来利用这个过程,从零生成全新的图像。\n\nErmon的一个反直觉判断是,扩散模型不只适用于图片。目前几乎所有主要AI实验室在做文本和代码模型时,用的都是同一种架构,也就是自回归模型,逐个token从左到右生成。但Ermon认为,这种架构在推理阶段有一个再多堆算力也解决不了的问题:要生成第十个token,就必须先生成前面九个,这种工作方式天生是顺序执行的,而且在现在的GPU上,瓶颈主要卡在内存搬运而不是算力本身。相比之下,扩散模型在每一步都会并行地优化很多个token,而这恰好正是GPU真正擅长的事情。\n\n随着行业的重心从训练逐渐转向以推理为主的负载,比如推理模型不断扩大测试时计算量,以及强化学习后训练主要受限于生成和打分rollout的效率,这一点就变得更加关键。Ermon认为,就像2017年transformer凭借并行化取代了顺序执行的RNN一样,未来扩散模型也会因为同样的逻辑取代自回归模型来生成文本:并行才是赢家。他表示,Inception的Mercury模型现在的质量已经能追平各大前沿实验室主打速度的模型,比如Gemini Flash、OpenAI的mini和nano档位,但在生产环境中运行速度明显更快,而能做到这一点的一个佐证是,Inception不得不从零开始搭建自己的推理服务引擎,因为像vLLM、SGLang这样的现有推理框架根本跑不了基于扩散的语言模型。\n\n用他自己的话来说:'惨痛的教训是,更能并行的方案终究会赢。'",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["diffusion models", "Inception", "AI inference", "podcast"]
+    }
+  ]
+}
