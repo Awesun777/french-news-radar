@@ -1,0 +1,58 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "levie-agent-attention-economy",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues personal agents like Meta's Muse are the ultimate case of \"build something that agents want\": since users now hand off a task expecting the agent to finish it end to end, the agent needs to operate your tools (MCP, CLI, site navigation, transactions) without a human in the loop. He says the real competition shifts from winning user attention to winning agent attention — the products that let agents order food, book flights, and move money will win — and calls it the biggest shakeup in consumer tech since the App Store.",
+      "summaryZh": "Box首席执行官Aaron Levie认为,像Meta的Muse这样的个人agent正是\"打造agent真正想用的产品\"的极致体现:用户现在把任务直接交给agent,期待它能端到端独立完成,这就要求agent能在没有人工介入的情况下操作你的工具,比如MCP、CLI、浏览网站、完成交易。他表示,真正的竞争焦点正从争夺用户注意力转向争夺agent的\"注意力\":能让agent订餐、订机票、转账的产品才会真正被大量使用,他称这将是继App Store之后消费科技领域最大的一次洗牌。",
+      "url": "https://x.com/levie/status/2101427997597446636",
+      "tags": ["personal agents", "Muse", "consumer AI", "Box"]
+    },
+    {
+      "id": "kothari-vc-daily-tinkering",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari says he spends about two hours a day programming and tinkering on side projects, fielding near-daily DMs asking why a VC bothers, and answers that the pace of change makes hands-on building the only way he knows to actually track model capabilities, infra needs, and harness limits. He breaks his framework into three layers worth understanding firsthand — model research, infra, and the app layer — and tells other investors to just start tinkering daily, promising ten days in they'll be equally obsessed.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari表示,他每天大约花两个小时编程、捣鼓side project,几乎每天都会收到私信问他\"你不是VC吗,为什么还要自己写代码\"。他的回答是:现在变化速度太快,亲自动手是他唯一知道能真正跟上模型能力、基础设施需求和harness局限的方式。他把自己需要亲身理解的部分拆成三层:模型研究、基础设施、应用层,并建议其他投资人也每天抽时间动手实践,坚持十天后一定会同样上瘾。",
+      "url": "https://x.com/nikunj/status/2101340098356990058",
+      "tags": ["venture capital", "builder practice", "AI investing"]
+    },
+    {
+      "id": "agarwal-nation-state-penetration",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner, SPC",
+      "summary": "SPC general partner and former Dropbox CTO Aditya Agarwal says that after watching Google, OpenAI, and Anthropic all rush out announcements about deeper agent access into companies' systems, he now takes it as close to certain that a number of major companies have already been penetrated by nation-state actors without knowing it. It's a stark, if unproven, warning from a veteran infrastructure engineer about the security tradeoffs of racing to give agents more reach.",
+      "summaryZh": "SPC普通合伙人、前Dropbox首席技术官Aditya Agarwal表示,看到Google、OpenAI和Anthropic争相宣布让agent更深入接入企业系统的种种进展后,他现在几乎百分之百确信,已经有不少大公司在自己毫不知情的情况下被某些民族国家渗透了。这是一位资深基础设施工程师发出的尖锐警告,尽管尚无实证,但直指agent权限不断扩大背后的安全代价。",
+      "url": "https://x.com/adityaag/status/2101426570850451914",
+      "tags": ["AI security", "agents", "nation-state risk"]
+    },
+    {
+      "id": "yang-tastemaker-skill",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang describes a personal /tastemaker skill built on top of a simple markdown file where he logs ratings for movies, TV shows, and books he's seen — the skill then checks weekly for new releases and unwatched titles and surfaces recommendations he says are consistently on point. He's floating open-sourcing it, a small but concrete example of the kind of lightweight, file-backed personal-agent workflow builders keep reaching for.",
+      "summaryZh": "Peter Yang介绍了自己搭建的一个个人/tastemaker skill:背后只是一个简单的markdown文件,记录他看过的电影、剧集和书籍的评分,这个skill每周会自动检查新上线的内容以及他还没看过的作品,给出的推荐他说都相当准。他正在考虑把它开源,这是一个小而具体的例子,展示了开发者们不断在尝试的那种轻量级、基于文件的个人agent工作流。",
+      "url": "https://x.com/petergyang/status/2101503916743749878",
+      "tags": ["personal agents", "AI skills", "workflow automation"]
+    },
+    {
+      "id": "socher-mad-podcast-recursive-self-improvement",
+      "kind": "podcast",
+      "author": "Richard Socher",
+      "role": "Co-Founder & CEO, Recursive",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "takeaway": "Socher's bet, backed by $650M for his company Recursive, is that any domain you can simulate or verify — games, math, code, and eventually biology — AI will eventually solve, starting with making itself smarter first.",
+      "takeawayZh": "Socher押注(并为此给自己的公司Recursive筹到了6.5亿美元):任何能被模拟或验证的领域——游戏、数学、代码,最终还有生物学——AI终将攻克,而第一步是先让AI自己变得更聪明。",
+      "summary": "Richard Socher, one of the most cited researchers in AI and now CEO of Recursive, opens his conversation with Matt Turck by arguing scientific progress has quietly slowed down, not from lack of money or researchers, but because knowledge has fractured into thousands of hyper-specialized subfields — what he calls the shift \"from a body of knowledge to a labyrinth of knowledge.\" No single person can be a generalist across biology, physics, and chemistry anymore; each field takes years just to speak the lingo.\n\nHis new book, The Eureka Machine, argues AI is positioned to do for biology what calculus did for physics: weave fragmented, deeply understood pieces back into a working model of complex systems, the same way a next-token predictor incorporates real-world geography or protein-folding structure just by learning to guess what comes next in a sequence. He's careful to caveat the analogy as imperfect but says it has proven surprisingly durable across chemistry, biology, and beyond.\n\nThe core mechanism he's betting Recursive's $650M raise on is recursive self-improvement: any domain where you can simulate outcomes and verify results — games like chess and Go, mathematics, and especially programming — is a domain AI can eventually master by playing against itself at scale. Recursive's strategy is sequential: first build AI that's extremely good at researching and improving AI itself, effectively giving it \"the equivalent of 50,000 PhDs,\" and only then turn that compounding capability loose on the physical and natural sciences, biology chief among them, using what he calls four pillars — human knowledge and LLMs, real-world measurements, simulation, and robotic data collection — plus a coordinating swarm of AI agents.\n\nIn his words: \"Anything you can simulate, AI will solve.\"",
+      "summaryZh": "Richard Socher是AI领域被引用次数最多的研究者之一,现在是Recursive公司的首席执行官,他在与Matt Turck的对话开场就提出:科学进步其实已经悄悄放缓了,原因不是缺钱或缺研究者,而是知识已经碎裂成成千上万个高度专业化的子领域——他称之为从\"知识体系\"变成了\"知识迷宫\"。如今已经没有人能同时精通生物学、物理学和化学这样的通才了,每个领域光是学会行话就要耗费数年。\n\n他的新书《The Eureka Machine》提出,AI将为生物学扮演当年微积分之于物理学的角色:把那些已被深入理解但彼此割裂的知识碎片重新编织成一个能运转的复杂系统模型,就像next-token预测器仅仅通过学习预测序列中的下一个词,就顺带掌握了真实世界的地理知识或蛋白质折叠结构一样。他也坦承这个类比并不完美,但表示它在化学、生物学等领域的适用性出乎意料地稳固。\n\nRecursive这轮6.5亿美元融资押注的核心机制,是递归式自我改进(recursive self-improvement):任何能被模拟结果、验证效果的领域——比如国际象棋和围棋这样的游戏、数学,尤其是编程——AI最终都能通过大规模自我对弈来掌握。Recursive的策略是分步走的:先打造一个极其擅长研究和改进AI本身的AI,相当于让它拥有\"5万个博士的知识储备\",然后才把这种不断复利增长的能力真正投向物理和自然科学领域,其中生物学是重中之重,靠的是他所说的四大支柱——人类知识与大语言模型、真实世界的测量数据、模拟仿真,以及机器人数据采集,再加上一群协同工作的AI agent。\n\n用他自己的话说:\"任何能被模拟的东西,AI都能解决。\"",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": ["recursive self-improvement", "Recursive", "AI for science", "podcast"]
+    }
+  ]
+}

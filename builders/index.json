@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-20T06:30:00Z",
+  "generatedAt": "2026-09-21T06:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-21",
+      "title": "Levie bets on an agent attention economy as Recursive's Socher stakes $650M on AI improving itself",
+      "itemCount": 5,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Box's Aaron Levie argues personal agents like Muse shift consumer tech's real competition from winning user attention to winning agent attention, in what he calls the biggest shakeup since the App Store",
+        "FPV's Nikunj Kothari says he still codes two hours a day to keep pace with the field, Peter Yang floats open-sourcing his markdown-based /tastemaker recommendation skill, and SPC's Aditya Agarwal warns he now assumes some major companies have already been penetrated by nation-state actors via agent access",
+        "Recursive CEO Richard Socher tells the MAD Podcast his $650M bet is recursive self-improvement — AI made superhuman at improving AI first, then pointed at biology and the physical sciences — arguing 'anything you can simulate, AI will solve'"
+      ]
+    },
     {
       "date": "2026-09-20",
       "title": "Builders race to demo Typesafe AI's fast, cheap 'Jev' model as Inception's Ermon bets diffusion beats autoregressive at inference",
