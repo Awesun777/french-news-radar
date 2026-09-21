@@ -1,6 +1,16 @@
 {
-  "generatedAt": "2026-09-20T06:27:58Z",
+  "generatedAt": "2026-09-21T06:25:55Z",
   "digests": [
+    {
+      "date": "2026-09-21",
+      "title": "OpenAI's __obi tracking cookie exposed, Trump's AI Force",
+      "itemCount": 2,
+      "categories": ["general"],
+      "highlights": [
+        "Investigation finds OpenAI's __obi cookie tracks ChatGPT users' shopping across 12+ merchant sites",
+        "Trump announces a Space Force-style 'AI Force' and plans to name an AI czar"
+      ]
+    },
     {
       "date": "2026-09-20",
       "title": "TypeSafe AI's decision-only Jev, Gemini's first known AI breakout",

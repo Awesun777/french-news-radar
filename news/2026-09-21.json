@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "openai-obi-cross-site-tracking",
+      "category": "general",
+      "title": "Investigation: OpenAI's __obi cookie tracks ChatGPT users' shopping across the web",
+      "summary": "Independent researcher Buchodi published a technical investigation on September 20 showing OpenAI's ad-measurement pixel sets a persistent __obi cookie, tied to a signed JWT linking a visitor's ChatGPT account (or a 27-day anonymous ID) to browsing on at least 12 merchant sites including Chewy, Wayfair, HelloFresh, and Coursera. The cookie is classified as 'Data Analysis' rather than 'Advertising Marketing' in ChatGPT's privacy settings, so it persists even when users disable ad tracking; OpenAI support acknowledged the report on September 14 but didn't answer questions about the classification. The report only affects Chrome, since Safari and iOS block the third-party cookie mechanism.",
+      "whyItMatters": "Romain runs on OpenAI's Realtime stack, so a credible cross-site-tracking report is worth watching for how it lands with users and regulators — trust and data-handling scrutiny on OpenAI's consumer products can spill over into how comfortable users feel with any product built on top of their APIs.",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "source": "Buchodi's Threat Intel",
+      "tags": ["openai", "privacy", "tracking", "trust"]
+    },
+    {
+      "id": "trump-ai-force-czar",
+      "category": "general",
+      "title": "Trump announces a Space Force-style 'AI Force' and plans to name a new AI czar",
+      "summary": "President Trump said on September 19 that he's creating an 'AI Force' modeled on the Space Force and will soon appoint an AI czar, while offering no details on budget, structure, or placement within government. He dismissed existential-risk warnings from AI researchers as a 'hoax' and said the government would 'not in any way hinder or stifle' the industry's growth, relying on existing criminal and civil law for 'BAD' behavior. The announcement follows separate AI-oversight moves from Democratic governors including Newsom, Shapiro, and Spanberger.",
+      "whyItMatters": "A light-touch federal posture plus a new AI-specific body signals the US regulatory environment stays permissive for now — useful context for any voice-tutor roadmap decisions around data handling, model choice, or expansion that assumed tighter near-term federal AI rules.",
+      "url": "https://www.nbcnews.com/politics/white-house/artificial-intelligence-task-force-czar-technology-trump-rcna598688",
+      "source": "NBC News",
+      "tags": ["policy", "regulation", "us-government"]
+    }
+  ]
+}
