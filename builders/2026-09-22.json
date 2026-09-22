@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "id": "yang-personal-agent-race-scorecard",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang ranks the personal-agent race and picks Meta's Muse as the likely winner, predicting it becomes Meta's biggest homegrown app after Facebook itself — bigger than Threads — thanks to an intuitive app and aggressive cross-promotion. He rates ChatGPT the current leader purely on its 1B+ user base despite a confusing work/personal split, dismisses Grok Bot as a work-only play that could become \"multiplayer agentic Slack,\" and calls Google a dark horse that needs to stop burying Spark inside Gemini. His real prediction: nobody has solved multiplayer AI yet — you still can't loop a spouse or coworker into one agent thread — and that's the next big unlock. His own stack today: Muse for personal, Grok Bot for cloud tasks, Claude for specific use cases, and ChatGPT for everything else.",
+      "summaryZh": "Peter Yang给个人agent赛道的选手打分,认为Meta的Muse最有可能胜出,预测它会成为Meta继Facebook之后最成功的自研产品——超过Threads——原因是App体验足够直观,加上Meta在旗下所有产品线上的强力交叉推广。他认为ChatGPT目前仍是领跑者,但纯粹是靠10亿+的用户规模,尽管工作版和个人版的划分让人摸不着头脑;他觉得Grok Bot算不上Muse的真正对手,更像是在往\"多人协作的agentic版Slack\"方向发展;他把Google视为一匹黑马,但前提是Google得别再把Spark藏在Gemini里当二级标签。他真正的预测是:目前还没有人真正解决多人agent协作的问题——你还没法把配偶或同事直接拉进同一个agent对话——他认为这会是下一个大机会。他目前自己的工具组合是:个人事务用Muse,云端任务用Grok Bot,特定场景用Claude,其余一切用ChatGPT。",
+      "url": "https://x.com/petergyang/status/2101862331345154469",
+      "tags": ["personal agents", "Muse", "AI agent race", "consumer AI"]
+    },
+    {
+      "id": "rauch-agentic-qa-mordor",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says the thoroughness of agentic QA is now \"unrivaled\" by humans: he flagged a rendering bug in a mobile in-app browser and watched an agent chase it \"to the depths of Mordor\" — reproducing it, spinning up an ephemeral Vercel deployment, throwing it at an iPhone simulator, then fixing, deploying, and verifying the fix end to end. His takeaway is blunt: humans could never match that level of grinding intensity — we'd run out of energy and extrapolate instead of exhaustively verifying — and he expects software quality and performance to reach levels never experienced before as a result.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch表示,agent做QA的彻底程度如今\"无人能及\":他指出一个移动端应用内浏览器的渲染问题后,眼看着agent一路追查到\"魔多的最深处\"——复现问题、创建一个临时的Vercel部署、丢到iPhone模拟器里测试,然后修复、部署、验证,全流程走完。他的结论很直接:人类根本比不了这种不知疲倦的高强度——我们会精力耗尽,会靠外推猜测而不是穷尽式验证——他认为这种转变会带来前所未有的软件质量和性能水平。",
+      "url": "https://x.com/rauchg/status/2101846262840799251",
+      "tags": ["agentic QA", "Vercel", "software quality", "AI agents"]
+    }
+  ]
+}

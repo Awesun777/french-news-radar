@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-21T06:30:00Z",
+  "generatedAt": "2026-09-22T06:43:45Z",
   "digests": [
+    {
+      "date": "2026-09-22",
+      "title": "Yang bets Muse wins the personal agent race, Rauch marvels at 'unrivaled' agentic QA",
+      "itemCount": 2,
+      "kinds": ["x"],
+      "highlights": [
+        "Peter Yang scorecards the personal-agent race and picks Meta's Muse to become Meta's biggest homegrown app after Facebook itself, bigger than Threads, while rating ChatGPT the leader on scale alone and calling multiplayer AI the still-unsolved next unlock",
+        "Vercel CEO Guillermo Rauch says agentic QA has reached a thoroughness humans 'could simply never match' after watching an agent chase a mobile rendering bug 'to the depths of Mordor' to reproduce, fix, and verify it end to end",
+        "A quiet day for the tracked builder feed: most posts were personal asides, jokes, or promo (Swyx's podcast plug, Nikunj's curry joke, Amjad Masad's computer build) and were skipped as too thin"
+      ]
+    },
     {
       "date": "2026-09-21",
       "title": "Levie bets on an agent attention economy as Recursive's Socher stakes $650M on AI improving itself",
