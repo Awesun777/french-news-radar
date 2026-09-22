@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-09-20T06:49:08Z",
+  "generatedAt": "2026-09-22T14:18:27Z",
   "digests": [
+    {
+      "date": "2026-09-22",
+      "itemCount": 10,
+      "companies": [
+        "Deutsche Bank",
+        "Houlihan Lokey",
+        "JP Morgan",
+        "Nomura",
+        "Pwc",
+        "Raymond James",
+        "Scotiabank"
+      ]
+    },
     {
       "date": "2026-09-20",
       "itemCount": 18,
