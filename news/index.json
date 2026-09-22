@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-21T06:25:55Z",
+  "generatedAt": "2026-09-22T06:41:57Z",
   "digests": [
+    {
+      "date": "2026-09-22",
+      "title": "Grok 4.7 ships, OpenAI's global RSI standards push",
+      "itemCount": 4,
+      "categories": ["models", "general"],
+      "highlights": [
+        "xAI ships Grok 4.7, a coding-focused bump at unchanged pricing",
+        "OpenAI calls for US-led global standards on recursive self-improvement",
+        "Amazon blocks Meta's Muse AI agent from shopping on its site"
+      ]
+    },
     {
       "date": "2026-09-21",
       "title": "OpenAI's __obi tracking cookie exposed, Trump's AI Force",
