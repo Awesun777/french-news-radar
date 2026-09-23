@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "id": "openai-gpt-6-sol-luna",
+      "category": "models",
+      "title": "OpenAI ships GPT-6 Sol and Luna, cutting API prices roughly 50%",
+      "summary": "OpenAI released GPT-6 Sol and GPT-6 Luna on September 22, extending the GPT-6 Astra architecture into faster, cheaper tiers for the API, ChatGPT, and Codex. API pricing drops about 50%: Sol falls to $2/$10 per million input/output tokens (from $4/$20) and Luna to $0.10/$0.50 (from $0.20/$1.20), and OpenAI says Sol now makes roughly half as many factual mistakes as its predecessor, reaching Astra-level reliability at a fraction of the cost.",
+      "whyItMatters": "Romain runs on OpenAI's stack, so a same-or-better-quality mid-tier model at half the price is a direct lever for cutting the backend reasoning cost behind every conversation turn.",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "source": "OpenAI",
+      "tags": ["openai", "llm", "pricing", "gpt-6"]
+    },
+    {
+      "id": "anthropic-opus-5-5",
+      "category": "models",
+      "title": "Anthropic launches Claude Opus 5.5, Fable-level performance at 40% lower cost",
+      "summary": "Anthropic released Claude Opus 5.5 on September 22, the first model in its new 5.5 family, matching Claude Fable 5.1 on most tasks while costing about 40% less to run. API pricing drops 20% to $4/$20 per million input/output tokens (cache reads down 60% to $0.20), and output generation is over 30% faster than Opus 5; Sonnet 5.5 and Haiku 5.5 are expected in the coming weeks.",
+      "whyItMatters": "Not part of Romain or Anna's stack, but it's a useful cost/quality marker — frontier reasoning getting 40% cheaper and 30% faster is a preview of where any Claude-assisted grading, lesson-planning, or content-generation backend could land.",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "source": "Anthropic",
+      "tags": ["anthropic", "llm", "pricing", "claude"]
+    },
+    {
+      "id": "un-security-council-ai-briefing",
+      "category": "general",
+      "title": "OpenAI, Anthropic, and DeepSeek set to brief the UN Security Council on AI risk",
+      "summary": "The UN Security Council is convening this week to hear AI-safety briefings from OpenAI's Sam Altman, Anthropic's Dario Amodei (remote), Yoshua Bengio, and Hugging Face's Clement Delangue, joined for the first time by China's DeepSeek and Moonshot AI. It's reported to be the first time Chinese and US frontier labs have briefed the Council together on AI risk, timed to the UN General Assembly's annual session.",
+      "whyItMatters": "OpenAI and Anthropic sit at the base of Romain and Anna's respective stacks, so growing UN-level scrutiny of frontier labs is worth tracking for any downstream effect on API terms, safety requirements, or model availability.",
+      "url": "https://techstartups.com/2026/09/22/deepseek-openai-and-anthropic-to-brief-un-security-council-on-ai-safety-and-risks-amid-us-china-tensions/",
+      "source": "Tech Startups",
+      "tags": ["policy", "openai", "anthropic", "deepseek"]
+    },
+    {
+      "id": "meta-muse-shop-pay",
+      "category": "general",
+      "title": "Shopify lets Meta's Muse agent check out with Shop Pay",
+      "summary": "Shopify and Meta partnered to let Muse, Meta's personal AI agent, complete purchases via Shop Pay's agentic checkout across all Shopify-powered stores, with the customer approving the total in-chat before anything is charged. The move comes just a day after Amazon blocked Muse from shopping on its own site.",
+      "whyItMatters": "A real-money agentic-commerce rollout, approved step by step in chat, is a concrete pattern for how much autonomy users will grant a conversational agent — relevant if Romain or Anna ever need to gate a paid or transactional action.",
+      "url": "https://www.pymnts.com/commerce/ecommerce/2026/shopify-brings-shop-pay-checkout-solution-to-metas-muse-ai-agent/",
+      "source": "PYMNTS",
+      "tags": ["agents", "meta", "commerce"]
+    },
+    {
+      "id": "xiaomi-mimo-v2-6",
+      "category": "general",
+      "title": "Xiaomi open-sources MiMo-V2.6, an omnimodal model with 1M-token context",
+      "summary": "Xiaomi open-sourced the MiMo-V2.6 family on September 21 under an MIT license: a 1.02T-parameter Pro model and a 309B-parameter Flash model, both omnimodal (text, image, video, and audio input) with a 1M-token context window, plus a 9B distilled variant built on Qwen3.5.",
+      "whyItMatters": "A free, audio-input-capable, million-token open model is a reminder that the cost floor for capable multimodal building blocks keeps dropping — worth a look as a cheap fallback or experimentation path outside the OpenAI/ElevenLabs stack.",
+      "url": "https://huggingface.co/collections/XiaomiMiMo/mimo-v26",
+      "source": "Hugging Face",
+      "tags": ["open-source", "multimodal", "xiaomi"]
+    }
+  ]
+}

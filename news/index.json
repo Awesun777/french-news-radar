@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-22T06:41:57Z",
+  "generatedAt": "2026-09-23T06:17:10Z",
   "digests": [
+    {
+      "date": "2026-09-23",
+      "title": "GPT-6 Sol and Luna's 50% price cut, Claude Opus 5.5 debuts",
+      "itemCount": 5,
+      "categories": ["models", "general"],
+      "highlights": [
+        "OpenAI ships GPT-6 Sol and Luna, cutting API prices roughly 50%",
+        "Anthropic launches Claude Opus 5.5, Fable-level performance at 40% lower cost",
+        "OpenAI, Anthropic, and DeepSeek set to brief the UN Security Council on AI risk"
+      ]
+    },
     {
       "date": "2026-09-22",
       "title": "Grok 4.7 ships, OpenAI's global RSI standards push",
