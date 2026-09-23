@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-09-22T14:18:59Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-09-23T06:52:13Z",
+  "outcome": "error",
   "newCount": 10,
-  "detail": "10 new postings (JP Morgan (3), Deutsche Bank (2), Houlihan Lokey (1), Nomura (1), Pwc (1), Raymond James (1), Scotiabank (1))",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-09-22",
   "companies": {
     "Deutsche Bank": "ok",
