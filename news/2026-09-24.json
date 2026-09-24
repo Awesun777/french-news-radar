@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "fireworks-ember-1",
+      "category": "models",
+      "title": "Fireworks ships Ember-1, a reasoning model using 40% fewer tokens than Kimi K3",
+      "summary": "Fireworks Research released Ember-1 on September 23, a specialized reasoning model built on Moonshot's Kimi K3 that learns to cut unnecessary reasoning steps, using roughly 35-50% fewer tokens across benchmarks while developers reported no quality drop in production testing. It's live now on OpenRouter and Fireworks' serverless platform, taking text and image input.",
+      "whyItMatters": "A same-quality reasoning model at a third fewer tokens is a direct pattern for trimming the cost of any LLM step behind Romain or Anna's pipeline (intent parsing, grading, lesson generation) without touching voice latency.",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "source": "Fireworks AI",
+      "tags": ["llm", "pricing", "reasoning", "efficiency"]
+    },
+    {
+      "id": "meta-muse-charm",
+      "category": "general",
+      "title": "Meta unveils Muse Charm, a keychain-sized dedicated device for its AI agent",
+      "summary": "At Meta Connect on September 23, Zuckerberg introduced Muse Charm, a palm-sized, 5G-connected gadget with a small screen and fingerprint-sensor activation that lets users talk to Meta's Muse AI agent hands-free, without a phone. It's slated to ship before the December holidays; pricing hasn't been announced.",
+      "whyItMatters": "A standalone hardware form factor built purely for voice-first AI-agent interaction is a live experiment in phone-free conversational UX — worth watching for cues on activation patterns and always-on voice design that could inform how Romain or Anna are packaged.",
+      "url": "https://www.meta.com/muse-charm/",
+      "source": "Meta",
+      "tags": ["hardware", "voice", "agents", "meta"]
+    },
+    {
+      "id": "anthropic-claude-enzyme-discovery",
+      "category": "general",
+      "title": "Anthropic says 950 Claude agents autonomously discovered a novel CRISPR-like enzyme system",
+      "summary": "Anthropic announced a new life-sciences research lab and said a swarm of roughly 950 Claude agents spent 21 hours combing a database of 200,000+ reverse transcriptases, narrowing them to 3,500 candidates and flagging a previously unknown enzyme system (dubbed ART) with CRISPR-like DNA repeats in bacteriophages. The function isn't yet proven or linked to programmable gene editing.",
+      "whyItMatters": "Not voice-specific, but a concrete demonstration of large-scale autonomous multi-agent research is a useful data point on how far agent orchestration has come — similar coordination patterns eventually trickle down into tutoring pipelines like adaptive curriculum design.",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "source": "Anthropic",
+      "tags": ["anthropic", "agents", "research", "claude"]
+    }
+  ]
+}

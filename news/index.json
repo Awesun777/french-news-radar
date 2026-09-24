@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-23T06:17:10Z",
+  "generatedAt": "2026-09-24T06:27:51Z",
   "digests": [
+    {
+      "date": "2026-09-24",
+      "title": "Meta's Muse Charm device, Claude's 950-agent enzyme find",
+      "itemCount": 3,
+      "categories": ["models", "general"],
+      "highlights": [
+        "Fireworks ships Ember-1, a reasoning model using 40% fewer tokens than Kimi K3",
+        "Meta unveils Muse Charm, a keychain-sized dedicated device for its AI agent",
+        "Anthropic says 950 Claude agents autonomously discovered a novel CRISPR-like enzyme system"
+      ]
+    },
     {
       "date": "2026-09-23",
       "title": "GPT-6 Sol and Luna's 50% price cut, Claude Opus 5.5 debuts",
