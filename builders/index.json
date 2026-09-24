@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-22T06:43:45Z",
+  "generatedAt": "2026-09-24T06:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-24",
+      "title": "Levie bets falling AI prices are Jevons paradox for agents as Cherny formally verifies Claude's SDK with Lean",
+      "itemCount": 11,
+      "kinds": ["x"],
+      "highlights": [
+        "Box CEO Aaron Levie reads Opus 5.5's price cut and OpenAI's 50% GPT-6 Sol/Luna cut as Jevons paradox for AI agents, then backs it with Box benchmarks showing Opus 5.5 hitting up to 65% higher task accuracy on enterprise workflows while using up to 82% fewer tokens",
+        "Anthropic's Boris Cherny uses Opus 5.5 to formally verify the Claude Agent SDK with Lean, turning a few prompts into 16 bug-fixing PRs, while Vercel's Guillermo Rauch clocks Opus 5.5, GPT-6 Sol, and Fable 5.1 tied at 97% on fresh Next.js evals",
+        "OpenClaw's Peter Steinberger has OpenAI's Astra track a ChatGPT crash to a 14-year-old libuv bug, and FPV's Nikunj Kothari warns that SPV-heavy fundraise headlines can no longer be taken at face value"
+      ]
+    },
     {
       "date": "2026-09-22",
       "title": "Yang bets Muse wins the personal agent race, Rauch marvels at 'unrivaled' agentic QA",

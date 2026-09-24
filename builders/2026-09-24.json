@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "levie-jevons-paradox-price-cuts",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues Claude Opus 5.5's price cut, alongside OpenAI's 50% GPT-6 Sol and Luna price cut on the same day, is Jevons paradox playing out for AI agents: as cost per task keeps falling, the range of use cases enterprises will deploy agents against keeps expanding. He predicts cheaper tokens directly unlock broader diffusion of AI at scale — agents scanning code for security issues, reading all log data to make decisions, and running in swarms across workflows.",
+      "summaryZh": "Box首席执行官Aaron Levie认为,Claude Opus 5.5降价,加上OpenAI同一天把GPT-6 Sol和Luna的价格砍半,正是杰文斯悖论在AI agent领域的体现:每个任务的成本持续下降,企业愿意部署agent去做的用例范围也在持续扩大。他预测,更便宜的token会直接带来AI在经济中更大规模的普及——agent扫描代码找安全漏洞、读取全部日志数据来做决策、在工作流中以agent集群方式运作,都会因此变得可行。",
+      "url": "https://x.com/levie/status/2102477253070430322",
+      "tags": ["Jevons paradox", "enterprise AI", "price cuts", "AI agents"]
+    },
+    {
+      "id": "levie-box-opus-5-5-benchmarks",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie publishes internal benchmark results testing Opus 5.5 against Opus 5 on real enterprise knowledge-work tasks: a financial due-diligence review hit 39% higher accuracy while using 82% fewer tokens, a cloud-cost analysis task gained 65% accuracy on 70% fewer tokens, and a malaria diagnostics dataset task caught a subtle statistical error Opus 5 missed. Across the board Levie reports the model used 63% fewer tokens, was 42% less verbose, and ran 30% faster than its predecessor.",
+      "summaryZh": "Box首席执行官Aaron Levie公布了一份内部基准测试结果,在真实的企业知识工作任务上对比Opus 5.5和Opus 5:一项金融尽职调查任务准确率提升了39%,同时token消耗减少了82%;一项云成本分析任务准确率提升了65%,token消耗减少了70%;在一份疟疾诊断数据集任务中,Opus 5.5还发现了一个Opus 5没能察觉的统计错误。总体而言,Levie表示新模型比上一代少用63%的token,内容简洁度提高42%,速度快了30%。",
+      "url": "https://x.com/levie/status/2102448415775051790",
+      "tags": ["Box", "Opus 5.5", "enterprise AI", "benchmarks"]
+    },
+    {
+      "id": "sottiaux-gpt6-sol-luna-launch",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announces GPT-6 Sol and Luna, calling them a significant improvement across the board including in writing quality, and permanently cutting API prices by 50% to open up new use cases and stretch subscription usage further. He also loads a banked usage-limit reset into all Plus, Pro, and Business accounts the same day.",
+      "summaryZh": "OpenAI的Thibault Sottiaux宣布推出GPT-6 Sol和Luna,称它们在各方面都有显著提升,包括写作质量这种\"一用就能感觉到\"的体验层面,同时把API价格永久下调50%,以打开更多新用例,也让订阅用户的用量更经用。同一天,他还给所有Plus、Pro和Business账户发放了一次\"银行式\"的用量重置。",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "tags": ["GPT-6", "OpenAI", "price cuts", "product launch"]
+    },
+    {
+      "id": "catwu-opus-5-5-default-model",
+      "kind": "x",
+      "author": "Cat Wu",
+      "role": "Claude Code & Cowork, Anthropic",
+      "summary": "Anthropic's Cat Wu announces Claude Opus 5.5 is now the default model across Claude Code, the Claude app, and Cowork for Pro, Max, and Team plans, defaulting to 'effort medium' — comparable in intelligence to Fable 5.1 but faster — and stretching rate limits 25% further than Opus 5. She says she's been using it as her daily driver and calls out its clear communication and ability to match her own writing style.",
+      "summaryZh": "Anthropic的Cat Wu宣布,Claude Opus 5.5现已成为Claude Code、Claude App以及Cowork中Pro、Max和Team套餐的默认模型,默认运行在\"effort medium\"档位——智能水平接近Fable 5.1但速度更快,而且相比Opus 5,速率限制的额度能多用25%。她表示自己一直把它当日常主力模型使用,尤其称赞它清晰的表达能力和贴合自己写作风格的能力。",
+      "url": "https://x.com/_catwu/status/2102437713781944397",
+      "tags": ["Opus 5.5", "Claude Code", "Anthropic", "product update"]
+    },
+    {
+      "id": "cherny-formal-verification-haproxy-port",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny says he used Opus 5.5 to formally verify the Claude Agent SDK with Lean, turning a couple of short prompts into 16 pull requests fixing bugs and race conditions, and that he sometimes combines Lean with TLA+ to catch data-flow and concurrency issues a human likely wouldn't spot. He also reports having Opus 5.5 and Fable 5.1 each independently port HAProxy from C to Rust: both passed nearly all of HAProxy's test suite, but Opus 5.5 finished in 9.5 hours versus Fable 5.1's 12, for 51% less cost.",
+      "summaryZh": "Anthropic的Boris Cherny表示,他用Opus 5.5借助Lean对Claude Agent SDK做了形式化验证,几个简短的prompt就产出了16个修复bug和竞态条件的PR;他有时还会把Lean和TLA+结合起来,用来排查人类很可能发现不了的数据流和并发问题。他还分享了另一个实验:让Opus 5.5和Fable 5.1各自独立把HAProxy从C语言移植到Rust,两者都通过了HAProxy几乎全部的测试用例,但Opus 5.5只用了9.5小时就完成,比Fable 5.1的12小时更快,成本还低51%。",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "tags": ["Opus 5.5", "formal verification", "Claude Agent SDK", "Anthropic"]
+    },
+    {
+      "id": "rauch-nextjs-evals-generative-software",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch publishes fresh Next.js evals putting Opus 5.5, GPT-6 Sol, and Fable 5.1 in a three-way tie at 97%, with Grok 4.7 close behind at 94% but 2-7x cheaper. He also predicts 'software will never die again' now that anyone can regenerate and redeploy a beloved discontinued product, like Google Reader, and keep it running indefinitely.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch公布了最新的Next.js评测结果:Opus 5.5、GPT-6 Sol和Fable 5.1三者战平,都拿到97%,Grok 4.7以94%紧随其后,但价格便宜2到7倍。他还预测\"软件再也不会消亡了\"——如果你怀念一款已经停运的产品,比如Google Reader,现在完全可以自己生成并部署一份,永远属于你自己。",
+      "url": "https://x.com/rauchg/status/2102519097770885231",
+      "tags": ["Next.js", "evals", "Vercel", "AI benchmarks"]
+    },
+    {
+      "id": "albert-blender-1906-sf-demo",
+      "kind": "x",
+      "author": "Alex Albert",
+      "role": "Research, Anthropic",
+      "summary": "Anthropic's Alex Albert says Opus 5.5's improved 3D modeling and vision let him build an entire historically accurate world from a single prompt: a from-scratch Blender reconstruction of San Francisco's Market Street exactly as it stood the afternoon before the 1906 earthquake, built entirely from Sanborn fire insurance maps, period film and photographs, and USGS topography, with every building traceable back to a sourced fact and confidence level rather than any downloaded mesh or texture.",
+      "summaryZh": "Anthropic的Alex Albert表示,Opus 5.5更强的3D建模和视觉能力,让他仅凭一个prompt就能搭建出一整个历史还原世界:他在Blender里从零重建了旧金山Market Street在1906年大地震前一天下午的样子,完全依据1899至1905年的Sanborn火险地图、当年的影像与老照片、以及USGS地形数据搭建,每一栋建筑都能追溯到具体的数据来源和置信度,没有用任何下载来的模型或贴图。",
+      "url": "https://x.com/alexalbert__/status/2102466523164274839",
+      "tags": ["Opus 5.5", "Blender", "3D generation", "Anthropic"]
+    },
+    {
+      "id": "thariq-ship-fewer-features-philosophy",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq argues the right way to use today's model capabilities isn't to ship 10x more features to production, but to spend the freed-up time actually understanding users, running experiments, and building prototypes so what does ship actually works. He adds that workflows, not one-off prompts, are now core to how he uses Claude day to day, crediting Fable-level intelligence made newly affordable for workflow use.",
+      "summaryZh": "Anthropic的Thariq认为,面对如今模型能力的提升,正确的做法不是把生产环境里的功能数量翻十倍去堆砌,而是把省下来的时间真正花在理解用户、做实验、搭原型上,这样最终上线的东西才能真正有用。他还提到,工作流而不是零散的单次prompt,如今才是他日常使用Claude的核心方式,他很高兴现在有了媲美Fable级别智能、但成本上更适合跑工作流的模型。",
+      "url": "https://x.com/trq212/status/2102548686303854790",
+      "tags": ["Claude Code", "product philosophy", "workflows", "Anthropic"]
+    },
+    {
+      "id": "steipete-astra-libuv-bug",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Builder, OpenClaw",
+      "summary": "OpenClaw builder Peter Steinberger says after ChatGPT started crashing on him following a macOS 27 update, OpenAI's Astra agent tracked the crash down to a roughly 14-year-old bug in libuv, the low-level async I/O library that underlies Node.js and much other software. It's a small but striking example of an agent independently root-causing a bug that had apparently sat undetected in widely used infrastructure for over a decade.",
+      "summaryZh": "OpenClaw开发者Peter Steinberger说,自己升级到macOS 27之后ChatGPT开始时不时崩溃,结果OpenAI的Astra agent帮他定位到了一个存在了大约14年的libuv底层bug。libuv是Node.js等大量软件底层依赖的异步I/O库,这是一个不大但很扎眼的例子:一个agent独立找出了一个在广泛使用的基础设施里潜伏了十多年都没被发现的bug。",
+      "url": "https://x.com/steipete/status/2102501642176528743",
+      "tags": ["Astra", "OpenAI", "bug fix", "agents"]
+    },
+    {
+      "id": "kothari-spv-skepticism",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari warns that the sheer number of SPVs organized by even top-tier investors is now so large that any headline about a big fundraise can reasonably be assumed to include significant SPV money the announcement doesn't disclose. Combined with tranched valuations that don't map cleanly to revenue, he says the takeaway is simple: don't take funding headlines at face value, because the real numbers aren't publicly visible anywhere.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari提醒大家,如今就连最顶尖的投资人组织的SPV数量也多到令人咋舌,以至于看到一则大额融资的新闻标题时,基本可以合理推测其中相当一部分资金来自新闻里根本没提到的SPV。再加上分级估值(tranched valuation)和实际营收对不上号的情况,他的结论很简单:别再轻信融资新闻标题了,因为真实的数字从来没有公开摆在任何地方。",
+      "url": "https://x.com/nikunj/status/2102534909076349291",
+      "tags": ["venture capital", "SPVs", "fundraising", "commentary"]
+    },
+    {
+      "id": "tan-capy-pr-speed",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Y Combinator CEO Garry Tan says the coding agent Capy lets him ship pull requests noticeably faster than using Codex or Claude Code alone, a small but concrete data point on the fast-moving competition among AI coding tools.",
+      "summaryZh": "Y Combinator首席执行官Garry Tan表示,编码agent工具Capy让他发PR的速度明显快于单独使用Codex或Claude Code,这是AI编码工具赛道快速竞争中一个虽小但很具体的信号。",
+      "url": "https://x.com/garrytan/status/2102544711647129902",
+      "tags": ["coding agents", "Capy", "Y Combinator", "developer tools"]
+    }
+  ]
+}
