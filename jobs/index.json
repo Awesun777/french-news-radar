@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-09-22T14:18:27Z",
+  "generatedAt": "2026-09-24T06:45:00Z",
   "digests": [
+    {
+      "date": "2026-09-24",
+      "itemCount": 19,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Deutsche Bank",
+        "JP Morgan",
+        "Mizuho americas",
+        "Nomura",
+        "Pwc"
+      ]
+    },
     {
       "date": "2026-09-22",
       "itemCount": 10,
