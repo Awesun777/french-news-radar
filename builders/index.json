@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-24T06:30:00Z",
+  "generatedAt": "2026-09-25T00:00:00Z",
   "digests": [
+    {
+      "date": "2026-09-25",
+      "title": "Rauch decouples agent brains from hands with Vercel Drives, Ryo Lu warns AI risks making us 'endlessly busy'",
+      "itemCount": 9,
+      "kinds": ["x"],
+      "highlights": [
+        "Vercel CEO Guillermo Rauch splits every successful agent into brain/hands/files and ships Drives, a decoupled storage layer for cloud agents, while separately clocking Opus 5.5 finding shell-startup optimizations other models missed",
+        "Anthropic's Boris Cherny explains how Claude hunts bugs by modeling a codebase's trickiest state machines for counter-examples, and flags a new engineering blog post on how Claude.ai and Desktop got faster",
+        "Cursor designer Ryo Lu pushes back on the industry's speed obsession, Swyx makes Opus 5.5 the default model for Latent Space's AINews, and Meta's Madhu Guru publicly spars with Ben Thompson over agent-driven consumer friction"
+      ]
+    },
     {
       "date": "2026-09-24",
       "title": "Levie bets falling AI prices are Jevons paradox for agents as Cherny formally verifies Claude's SDK with Lean",

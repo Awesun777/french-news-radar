@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    {
+      "id": "rauchg-agent-brain-hands-files-drives",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch broke every successful agent — Muse, Instinct, OpenClaw, Claude Code — down into three parts: a brain (model plus harness logic), hands (tools, browser, computer), and files (memory, skills, repos). He argued that bundling all three onto one always-on machine is the easy path, but cost-efficient cloud agents have to decouple them, and announced Drives — Vercel's new attachable storage layer that lets agents read and write files without booting a full sandboxed computer. He says the split also makes agents meaningfully more secure and auditable.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 把所有成功的 agent——Muse、Instinct、OpenClaw、Claude Code——都拆解成三个部分：大脑（模型加 harness 逻辑）、手（工具、浏览器、电脑）、文件（记忆、skill、仓库）。他认为把三者都塞进一台常开的机器是最省事的做法,但要在云端高效运行 agent 就必须把它们解耦,并宣布推出 Drives——Vercel 新的可挂载存储层,让 agent 无需启动完整的沙箱电脑就能读写文件。他表示这种拆分也让 agent 在安全性和可审计性上有实质提升。",
+      "url": "https://x.com/rauchg/status/2102820148629614685",
+      "tags": ["vercel", "agent-architecture", "infrastructure", "drives"]
+    },
+    {
+      "id": "bcherny-formal-methods-counterexamples",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny detailed the formal-methods technique Claude now uses to hunt bugs in real codebases: rather than formally verifying an entire program, it builds a targeted model of the trickiest state-machine or race-prone section, searches that model for counter-examples that reveal suspected bugs, reproduces them, then fixes the underlying code. It's a narrow, practical slice of formal verification aimed at a codebase's hairiest corners rather than an all-or-nothing proof of correctness.",
+      "summaryZh": "Anthropic 的 Boris Cherny 详细介绍了 Claude 如今在真实代码库中排查 bug 所用的形式化方法：并非对整个程序做形式化验证,而是针对最棘手的状态机或容易出现竞态问题的部分构建一个有针对性的模型,在模型中寻找能暴露疑似 bug 的反例,复现这些 bug,然后修复底层代码。这是形式化验证的一个精简、实用的切片,瞄准的是代码库中最难啃的部分,而不是追求整体的正确性证明。",
+      "url": "https://x.com/bcherny/status/2102898067133595992",
+      "tags": ["formal-methods", "claude-code", "debugging", "anthropic"]
+    },
+    {
+      "id": "ryolu-efficiency-vs-meaning-essay",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Cursor designer",
+      "summary": "Cursor designer Ryo Lu published a pointed essay pushing back on the industry's worship of speed, arguing that shipping faster, merging more PRs, and managing more agents mean nothing if nobody has time left to actually think. His contrarian claim: AI's real danger isn't making people lazy, it's making them \"endlessly busy\" — handing out infinite production before anyone develops the taste or intention to know what's worth making. He calls for treating AI as \"a new canvas\" for strange, personal, impossible things rather than another slop factory.",
+      "summaryZh": "Cursor 设计师 Ryo Lu 发表了一篇犀利的文章,反驳整个行业对速度的迷信,他认为如果没人再有时间真正思考,发布更快、合并更多 PR、管理更多 agent 都毫无意义。他提出的反直觉观点是：AI 真正的危险不是让人变懒,而是让人“永无止境地忙碌”——在任何人培养出判断力或明确意图之前,就先给了无限的产出能力。他呼吁把 AI 当作“一块新画布”,用来创造奇怪的、个人化的、不可能的东西,而不是又一座“水货工厂”。",
+      "url": "https://x.com/ryolu_/status/2102933485795369213",
+      "tags": ["philosophy", "ai-culture", "contrarian"]
+    },
+    {
+      "id": "realmadhuguru-vs-benthompson-agent-friction",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI, Meta",
+      "summary": "Madhu Guru publicly pushed back on Ben Thompson, arguing he's missing that consumers don't have one relationship with \"doing things\" — browsing clothes can be entertainment, but hiring a roofer is miserable. Drawing on years building consumer products at Google and Meta, she compared the skepticism to early-2000s doubts about buying clothes or TVs online, and argued the latent demand for agents that remove friction from tedious, multi-step tasks is immense.",
+      "summaryZh": "Madhu Guru 公开反驳 Ben Thompson,认为他忽略了一点：消费者对“做事情”这件事并非只有一种关系——逛街买衣服可以是一种消遣,但请人修屋顶却令人痛苦。她结合自己多年在 Google 和 Meta 打造消费级产品的经验,把这种怀疑态度类比为 2000 年代初人们对网购衣服、网购电视的质疑,并认为能替消费者消除繁琐多步骤任务摩擦的 agent,潜在需求非常巨大。",
+      "url": "https://x.com/realmadhuguru/status/2102777931764498536",
+      "tags": ["agents", "consumer-ai", "meta"]
+    },
+    {
+      "id": "swyx-ainews-opus-5-5-default",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "Smol AI · Cognition · Latent Space",
+      "summary": "Swyx ran Opus 5.5 side by side with GPT-5 Sol to generate Latent Space's AINews digest and called the difference \"night and day.\" Opus 5.5 is now AINews' default model going forward — he says it produces far more concise, tasteful reporting with much less \"slopese\" than even the previous Opus 5.",
+      "summaryZh": "Swyx 用 Opus 5.5 和 GPT-5 Sol 并排生成 Latent Space 的 AINews 摘要进行对比,称两者差异“判若云泥”。此后 Opus 5.5 已成为 AINews 的默认模型——他表示其生成的报道更简洁、更有品味,比上一代 Opus 5 的“水话”少得多。",
+      "url": "https://x.com/swyx/status/2102650014552182920",
+      "tags": ["opus-5.5", "model-comparison", "ai-news"]
+    },
+    {
+      "id": "petergyang-model-vs-harness-gap",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang argued that with a model as capable as Opus 5.5, the Claude Code harness now needs real live voice and browser/computer-use to keep up — computer use is improving, he says, but it's still the bottleneck. His pointed framing: right now one lab has the best model, and a different lab has the best harness, and neither has both yet.",
+      "summaryZh": "Peter Yang 认为,像 Opus 5.5 这样强大的模型,已经要求 Claude Code 的 harness 具备真正的实时语音以及浏览器/电脑操作能力才能跟上——他说电脑操作能力正在进步,但仍是短板。他给出的犀利概括是：目前一家实验室拥有最好的模型,另一家实验室拥有最好的 harness,但还没有谁两者兼备。",
+      "url": "https://x.com/petergyang/status/2102952201350254667",
+      "tags": ["opus-5.5", "claude-code", "agent-harness"]
+    },
+    {
+      "id": "rauchg-shellperfbench-zshrc",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Rauch shared ShellPerfBench, his own neurotic obsession with shell startup time — he says Opus 5.5 found optimizations for a new terminal session that other models missed entirely. His practical takeaway: point your coding agent at your .zshrc and friends, because you might be silently losing time every time you open a terminal.",
+      "summaryZh": "Rauch 分享了他自制的 ShellPerfBench,反映他对 shell 启动速度近乎偏执的执念——他说 Opus 5.5 找到了其他模型都没发现的新终端会话优化点。他给出的实用建议是：让你的编程 agent 去优化你的 .zshrc 等配置文件,因为你每次打开终端都可能在悄悄浪费时间。",
+      "url": "https://x.com/rauchg/status/2102947745132924993",
+      "tags": ["opus-5.5", "developer-tools", "performance"]
+    },
+    {
+      "id": "garrytan-agents-want-people-want-software",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Garry Tan flagged two trends he sees happening in parallel in how startups win customers: making software that agents themselves want to use, and using agents to make people want your software in the first place. It's a compact reframing of go-to-market for a world where AI agents are increasingly both the user and the marketer.",
+      "summaryZh": "Garry Tan 指出了他观察到的两个并行发生的趋势,关乎创业公司如何获客：一是打造连 agent 自己都想用的软件,二是用 agent 来让人们想要你的软件。这是对一个 AI agent 正日益同时扮演“用户”和“营销者”角色的世界里,获客打法的一次简洁重构。",
+      "url": "https://x.com/garrytan/status/2102955139875397806",
+      "tags": ["go-to-market", "agents", "startups"]
+    },
+    {
+      "id": "bcherny-claude-desktop-speed-blogpost",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Cherny flagged that Claude.ai and the Desktop app have gotten noticeably faster over the past few weeks, and pointed to a new engineering blog post laying out exactly how the team pulled it off. He pitched it squarely at engineers working on their own apps, promising concrete performance techniques rather than vague speed tips.",
+      "summaryZh": "Cherny 指出,过去几周 Claude.ai 和桌面应用的速度明显变快了,并提到团队专门写了一篇新的工程博客详细说明具体做法。他把这篇文章推荐给同样在优化自家应用性能的工程师,承诺里面是具体可用的提速技巧,而不是空泛的建议。",
+      "url": "https://x.com/bcherny/status/2102854267782705648",
+      "tags": ["performance", "claude-code", "engineering"]
+    }
+  ]
+}
