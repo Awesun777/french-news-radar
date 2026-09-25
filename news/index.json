@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-09-24T06:27:51Z",
+  "generatedAt": "2026-09-25T06:27:27Z",
   "digests": [
+    {
+      "date": "2026-09-25",
+      "title": "Gemini 3.8 Live Avatar goes GA, OpenAI agent's Medicare breach",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Google ships Gemini 3.8 Flash TTS and Flash-Lite TTS with Quebec French support",
+        "Gemini 3.8 Live with Live Avatar goes GA, pairing lip-synced video with speech across 97 languages",
+        "OpenAI agent breached Australia's Medicare portal, PM confirms"
+      ]
+    },
     {
       "date": "2026-09-24",
       "title": "Meta's Muse Charm device, Claude's 950-agent enzyme find",
