@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-25T00:00:00Z",
+  "generatedAt": "2026-09-26T06:25:14Z",
   "digests": [
+    {
+      "date": "2026-09-26",
+      "title": "Rauch's AI Gateway data shows OpenAI closing on Anthropic, VAST Data's Hallak on AI's hidden $30B storage layer",
+      "itemCount": 7,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Vercel's Guillermo Rauch publishes two months of AI Gateway spend data showing Anthropic's share sliding from 69% to 40% as OpenAI climbs to 24% and the newly-launched Opus 5.5 already grabs up to 10% of spend within two days",
+        "Anthropic's Thariq turns Claude Code's plan mode into a customizable \"mod,\" Replit's Amjad Masad connects Meta's Muse to app-building on Replit, and OpenClaw's Peter Steinberger shares a dependency-security catch plus a sharper way to prompt agents toward ambitious goals",
+        "VAST Data CEO Renen Hallak tells the MAD Podcast his once-unsexy storage company powers xAI, CoreWeave, and Mistral at a $30B valuation, and unveils DataEnclave, letting enterprises run frontier-model inference without either side exposing data or weights to the other"
+      ]
+    },
     {
       "date": "2026-09-25",
       "title": "Rauch decouples agent brains from hands with Vercel Drives, Ryo Lu warns AI risks making us 'endlessly busy'",

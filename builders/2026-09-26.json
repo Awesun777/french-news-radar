@@ -1,0 +1,78 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "rauchg-ai-gateway-spend-shift",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch published two months of Vercel AI Gateway spend data showing a real share shift: Anthropic's share of spend dropped from 69% to 40% while OpenAI's climbed from 10% to 24%, driven by GPT-6 Astra and GPT-5.6 Sol. He noted Kimi K3 and DeepSeek absorbed roughly half of Anthropic's lost share, OpenAI now leads on raw token volume and image generation (62%), while the freshly-launched Opus 5.5 already claimed up to 10% of spend within two days.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch公布了Vercel AI Gateway过去两个月的支出数据,显示出真实的份额转移:Anthropic的支出份额从69%降至40%,而OpenAI的份额从10%升至24%,主要由GPT-6 Astra和GPT-5.6 Sol拉动。他指出,Kimi K3和DeepSeek吸收了Anthropic流失份额的近一半,OpenAI目前在token总量和图像生成(占62%)上都已领先,而刚刚发布的Opus 5.5在短短两天内就已经拿下高达10%的支出份额。",
+      "url": "https://x.com/rauchg/status/2103216656747262419",
+      "tags": ["vercel", "ai-gateway", "model-spend", "market-share"]
+    },
+    {
+      "id": "trq212-plan-mode-becomes-mod",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq said feedback on Claude Code's plan mode split sharply — some people plan for themselves and don't want the interruption, others like entering a mode where Claude just thinks and brainstorms with them. His response: turn plan mode into a built-in, customizable \"mod,\" letting users rewrite the prompt, create and share their own modes, or rebind shift+tab to something else entirely.",
+      "summaryZh": "Anthropic的Thariq表示,用户对Claude Code计划模式(plan mode)的反馈明显分成两派——一部分人习惯自己做计划,不想被打断;另一部分人则喜欢进入一种让Claude单纯思考、和自己一起头脑风暴的模式。他的应对方案是:把计划模式做成一个内置的可定制\"mod\",让用户可以重写提示词、创建并分享自己的模式,或者干脆把shift+tab重新绑定成别的功能。",
+      "url": "https://x.com/trq212/status/2103212051065921632",
+      "tags": ["claude-code", "plan-mode", "customization", "anthropic"]
+    },
+    {
+      "id": "amasad-muse-replit-integration",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad announced that Meta's personal-agent app Muse can now build apps directly on Replit, a small but concrete integration linking a consumer-facing personal agent to a coding platform, letting Muse users turn a conversation into a running app without leaving the chat.",
+      "summaryZh": "Replit首席执行官Amjad Masad宣布,Meta的个人agent应用Muse现在可以直接在Replit上构建应用了。这是一次不大但很具体的整合,把一个面向消费者的个人agent和一个编程平台连接起来,让Muse用户无需离开对话界面,就能把一段对话变成一个真正运行起来的应用。",
+      "url": "https://x.com/amasad/status/2103129037011120525",
+      "tags": ["replit", "muse", "meta", "integration"]
+    },
+    {
+      "id": "steipete-daybreak-oss-leaks",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Builder, OpenClaw",
+      "summary": "OpenClaw builder Peter Steinberger ran the security tool Daybreak against his own stack and turned up eight more long-standing leaks, a reminder that open-source dependencies quietly accumulate vulnerabilities that go unnoticed until someone actually scans for them.",
+      "summaryZh": "OpenClaw开发者Peter Steinberger用安全工具Daybreak扫描了自己的技术栈,又多找出8个存在已久的漏洞,提醒大家开源依赖会在无人察觉的情况下悄悄积累漏洞,除非真的有人专门去扫描它们。",
+      "url": "https://x.com/steipete/status/2103200311641076100",
+      "tags": ["security", "open-source", "daybreak", "dependencies"]
+    },
+    {
+      "id": "steipete-ambitious-agent-goals",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Builder, OpenClaw",
+      "summary": "Peter Steinberger shared a concrete prompting tip for coding agents: telling an agent to simply \"clean up\" makes it stop far too early, but giving it an ambitious, measurable goal — his example, \"remove 20% of the least useful tests while maintaining code coverage within 2%\" — pushes it to actually finish the job.",
+      "summaryZh": "Peter Steinberger分享了一个给编程agent下达指令的实用技巧:如果只是让agent\"清理一下\",它往往会过早收手;但如果给它一个有野心、可量化的目标——他举的例子是\"在保持代码覆盖率误差不超过2%的前提下,删掉20%价值最低的测试\"——它就会真正把活干完。",
+      "url": "https://x.com/steipete/status/2103148444701610233",
+      "tags": ["prompting", "coding-agents", "productivity"]
+    },
+    {
+      "id": "joshwoodward-dreambeans-google-labs",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Labs & Gemini App",
+      "summary": "Google's Josh Woodward highlighted Dreambeans, a new Google Labs experiment building a \"growing cult following\": each morning a fixed number of virtual beans brew, and the app nudges you to spend them on real activities with real people rather than more time on a screen.",
+      "summaryZh": "Google的Josh Woodward展示了Dreambeans,这是Google Labs的一个新实验项目,已经积累了一批\"死忠粉\"。它的玩法很简单:每天早上会\"煮\"出固定数量的虚拟豆子,引导你把这些豆子花在和真实的人一起做真实的事情上,而不是继续多刷一会儿屏幕。",
+      "url": "https://x.com/joshwoodward/status/2103182635992514569",
+      "tags": ["google-labs", "dreambeans", "product-launch"]
+    },
+    {
+      "id": "vast-data-renen-hallak-mad-podcast",
+      "kind": "podcast",
+      "author": "Renen Hallak",
+      "role": "CEO, VAST Data",
+      "title": "Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "takeaway": "The unsexy software-infrastructure layer between GPUs and AI models has quietly become a $30B business, and VAST Data CEO Renen Hallak says the real constraint on AI's growth isn't chips or money — it's whether the plumbing underneath can keep up.",
+      "takeawayZh": "在GPU和AI模型之间那个毫不性感的软件基础设施层,已经悄悄成长为一家300亿美元的公司,VAST Data首席执行官Renen Hallak表示,AI发展真正的制约因素不是芯片或资金,而是底层这套\"管道\"能否跟得上。",
+      "summary": "VAST Data CEO Renen Hallak sits in what he calls the middle of Nvidia's \"five-layer cake\" — power, hardware, software infrastructure, models, applications — the layer most people have never heard of despite it now underpinning xAI, CoreWeave, Mistral, and other frontier AI shops at a $30B valuation. His core technical bet, made back in 2016 before transformers existed: old \"shared-nothing\" storage architectures break down once you need millions of nodes seeing the same data at once, so VAST built \"shared everything\" instead, letting every node access the full dataset over the network as if it were locally attached.\n\nThat architecture is why he can say, half-joking, that customers now terrify him with how fast their needs grow: one AI cloud told VAST it would need 500 petabytes over three years, then came back a quarter later asking for two exabytes more. Hallak's biggest announcement is DataEnclave, a confidential-computing setup built with Nvidia that lets enterprises run inference on frontier models entirely within their own walls — the model builder's weights stay encrypted end-to-end, the enterprise's data never leaves its premises, and neither side has to trust the other with their crown jewels.\n\nHe's also blunt about who wins long-term: hardware commoditizes fast, but the software layer running it — the \"operating system\" for AI — accrues most of the value, the way Amazon, Microsoft, and Google did for the cloud, PC, and internet eras. And he thinks the frontier is moving faster than most people are prepared for: \"Sometimes it scares me... we're probably going to need about 500 petabytes over the next three years. Last week, came back to us and said, we're gonna need an extra two exabytes on top of that 500 petabytes.\"",
+      "summaryZh": "VAST Data首席执行官Renen Hallak将自己所在的位置形容为英伟达\"五层蛋糕\"模型的中间层——从下到上依次是电力、硬件、软件基础设施、模型、应用——这是大多数人从未听说过的一层,却已经支撑起xAI、CoreWeave、Mistral等前沿AI公司的运转,公司估值也达到300亿美元。他在2016年、Transformer架构问世之前就下了一个关键的技术赌注:传统的\"无共享\"(shared-nothing)存储架构一旦需要数百万个节点同时访问同一份数据就会崩溃,因此VAST反其道而行之,构建了\"全共享\"(shared everything)架构,让每个节点都能通过网络访问全部数据集,效果如同数据直接挂载在本地一样。\n\n正是这套架构,让他能半开玩笑地说,客户需求增长的速度快到让他害怕:一家AI云公司曾告诉VAST,未来三年大概需要500PB(拍字节)的存储,结果一个季度后又跑回来说还需要再加2EB(艾字节)。Hallak此次最重磅的发布是DataEnclave,这是一套与英伟达合作打造的机密计算方案,让企业可以完全在自己的墙内运行前沿模型的推理——模型方的权重全程端到端加密,企业的数据也从不离开自己的场地,双方都不必把自己的\"命根子\"托付给对方。\n\n他对长期谁能获益也毫不含糊:硬件很快就会商品化,但运行硬件的软件层——AI时代的\"操作系统\"——才会沉淀下大部分价值,就像亚马逊、微软、谷歌在云计算、PC、互联网时代所做的那样。他还认为,前沿的演进速度超出大多数人的心理准备:\"有时候这真的让我害怕……我们大概三年内需要500PB。结果上周他们又跑回来说,在那500PB之上还得再加2EB。\"",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": ["vast-data", "ai-infrastructure", "storage", "confidential-computing"]
+    }
+  ]
+}
