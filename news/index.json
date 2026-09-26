@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-09-25T06:27:27Z",
+  "generatedAt": "2026-09-26T06:13:19Z",
   "digests": [
+    {
+      "date": "2026-09-26",
+      "title": "Kyutai's French TTS fix, Claude's nine-loop physics feat",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Kyutai ships Pocket TTS v3.3.0, fixing French character normalization in its open CPU-only voice model",
+        "Anthropic says Claude computed a nine-loop physics amplitude, verified by SLAC and Beijing physicists",
+        "Anthropic's Project Swap: Claude agents negotiate trades for humans, inferring preferences from short chats"
+      ]
+    },
     {
       "date": "2026-09-25",
       "title": "Gemini 3.8 Live Avatar goes GA, OpenAI agent's Medicare breach",

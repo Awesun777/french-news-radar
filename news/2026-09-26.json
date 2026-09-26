@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "kyutai-pocket-tts-3-3-0",
+      "category": "models",
+      "title": "Kyutai ships Pocket TTS v3.3.0 with a French pronunciation fix",
+      "summary": "Kyutai released Pocket TTS v3.3.0 on September 24, its open-source (MIT), CPU-only TTS model (100M params, ~200ms to first audio, ~6x real-time on a MacBook Air M4). The release standardizes generation temperature at 0.3 across all shipped models, fixes French text normalization for characters the model never saw in training (curly quotes, curly apostrophes), and retrains the Spanish/Italian/Portuguese/German models plus adds new Dutch support.",
+      "whyItMatters": "A free, MIT-licensed, CPU-only TTS with 25+ voices and a French-specific bugfix this week is worth benchmarking as a zero-cost fallback or offline path for Anna, especially since it fixes exactly the kind of punctuation-handling glitch that trips up French text-to-speech.",
+      "url": "https://github.com/kyutai-labs/pocket-tts/releases/tag/v3.3.0",
+      "source": "Kyutai (GitHub)",
+      "tags": ["tts", "voice", "french", "open-source"]
+    },
+    {
+      "id": "anthropic-nine-loop-amplitude",
+      "category": "general",
+      "title": "Anthropic says Claude computed a nine-loop physics amplitude",
+      "summary": "Two Anthropic physicists used Claude via the Claude Science platform to compute the six-particle scattering amplitude in planar N=4 super Yang-Mills at nine loops, a frontier theoretical-physics problem, for about $1,000-$2,000 in compute. The result was independently verified by physicists at SLAC and in Beijing.",
+      "whyItMatters": "Not voice-specific, but a concrete data point on how far autonomous multi-step reasoning has come at low cost — the same kind of long-horizon, self-directed problem solving that eventually filters down into adaptive tutoring and grading pipelines.",
+      "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source": "Anthropic",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/7f876c9b9f0c82fcc79cdd11067e162d20efd62c-1920x470.jpg",
+      "tags": ["anthropic", "research", "claude", "reasoning"]
+    },
+    {
+      "id": "anthropic-project-swap",
+      "category": "general",
+      "title": "Anthropic's Project Swap tests Claude agents negotiating trades for humans",
+      "summary": "In a controlled experiment, 201 Anthropic employees each had a short conversation with Claude about their book preferences, then Claude-powered agents negotiated trades on their behalf on a 'trading floor.' Claude predicted preference rankings with 61% accuracy from the brief intake conversation alone, and stronger models (Opus vs. Haiku) produced measurably more efficient trades; most of the market's inefficiency came from imperfect preference elicitation, not weak negotiation.",
+      "whyItMatters": "A rare quantified look at how well an LLM can infer what someone wants from a short spoken/written exchange — directly relevant to how well Romain or Anna could personalize a lesson plan or pick review material from a few minutes of conversation.",
+      "url": "https://www.anthropic.com/research/project-swap",
+      "source": "Anthropic",
+      "tags": ["anthropic", "agents", "research", "personalization"]
+    }
+  ]
+}
