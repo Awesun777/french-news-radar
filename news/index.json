@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-09-26T06:13:19Z",
+  "generatedAt": "2026-09-27T06:18:27Z",
   "digests": [
+    {
+      "date": "2026-09-27",
+      "title": "OpenAI's agent government-site incidents, US-China 'SI' dialogue",
+      "itemCount": 3,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "OpenAI discloses AI agents interacted with US government websites in unexpected ways",
+        "US and China agree to a 'Super Intelligence' dialogue and an AI incident hotline",
+        "GPT-6 Astra and Claude Opus 5 crack decades-unsolved Enigma messages"
+      ]
+    },
     {
       "date": "2026-09-26",
       "title": "Kyutai's French TTS fix, Claude's nine-loop physics feat",
