@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "id": "bcherny-tag-writes-half-of-prs",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Boris Cherny said the internal Slack bot \"Tag\" now writes more than half of his pull requests every day, plus nearly all of his data analysis and most product-feedback fixes and bug fixes. He described it as fundamentally different from a typical Slack bot: it's proactive, programmable, has memory and connector access, and — running on Opus 5.5 and Fable 5.1 — has strong enough judgment to run end-to-end workflows like reproducing a bug, filing a PR, and tagging the right reviewer.",
+      "summaryZh": "Anthropic的Boris Cherny表示,内部Slack机器人\"Tag\"现在每天要写掉他一半以上的PR,几乎全部的数据分析工作,以及大部分产品反馈和bug修复也都由它完成。他说这完全不同于普通的Slack机器人:它是主动式的、可编程的,拥有记忆和连接器权限——在Opus 5.5和Fable 5.1的加持下,它的判断力已经足够强,能端到端跑完整个流程,比如复现一个bug、提交PR,再标记正确的审核人。",
+      "url": "https://x.com/bcherny/status/2103538666597691552",
+      "tags": ["claude-code", "tag", "slack-bot", "anthropic"]
+    },
+    {
+      "id": "petergyang-muse-model-critique",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang tested Meta's Muse against Grok's bot on an identical flight search and found Muse quoted a price over $1,000 higher, because it pulled fares from an obscure booking site called Duffel instead of Google Flights. His verdict: Muse's UI and mascot are excellent, but the model underneath is questionable — which he says makes sense for a consumer app built to scale to a billion people rather than to be the smartest possible agent.",
+      "summaryZh": "专注实用AI教程的Peter Yang用同一个日本航班行程对比测试了Grok的bot和Meta的Muse,结果Muse给出的报价比Grok贵了1000多美元,原因是它调用了一个叫Duffel的冷门订票网站,而不是Google Flights。他的结论是:Muse的界面和吉祥物设计都很出色,但底层模型的智能程度值得怀疑——他认为这也说得通,因为这款产品是为服务十亿级用户而设计的,而不是为了做到最聪明。",
+      "url": "https://x.com/petergyang/status/2103693608729932025",
+      "tags": ["muse", "meta", "consumer-ai", "benchmarks"]
+    },
+    {
+      "id": "trq212-effort-levels-deep-dive",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq dug into a question he says he gets constantly — what \"effort\" settings in Claude Code actually change, and why not just run everything at max — publishing interactive benchmark explainers on a new dev site after testing it himself, with results he called surprising. His own habit: he reaches for effort low far more often, specifically to stay in the loop on what the agent is doing, and saves effort max for cases where he wants zero input or is hunting for security vulnerabilities.",
+      "summaryZh": "Anthropic的Thariq深入研究了一个他说自己被反复问到的问题——Claude Code里的\"effort\"(努力程度)设置到底改变了什么,为什么不干脆把所有任务都设成最高档——他亲自做了测试,在新的开发者网站上发布了交互式的基准讲解,并表示结果让他相当意外。他自己的习惯是:更多时候用effort low,主要是为了能全程跟进agent在做什么;effort max则只留给完全不想插手,或者专门找安全漏洞的场景。",
+      "url": "https://x.com/trq212/status/2103576349499855160",
+      "tags": ["claude-code", "effort-levels", "benchmarks", "anthropic"]
+    },
+    {
+      "id": "amasad-replit-acquires-atta",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad announced Replit has acquired Atta, a team he says built \"a beautiful approach to business analysis and data visualization,\" folding founders Omar and Amine into Replit. He framed the deal around a bigger goal — building the \"self-driving company\" — where understanding a business through data becomes accessible to anyone, not just analysts.",
+      "summaryZh": "Replit首席执行官Amjad Masad宣布Replit收购了Atta团队,他称这个团队\"打造了一套优雅的商业分析和数据可视化方案\",创始人Omar和Amine将并入Replit。他把这次收购放进了一个更大的目标里——打造\"自动驾驶公司\",让理解一家企业所需的数据能力不再只属于分析师,而是人人可用。",
+      "url": "https://x.com/amasad/status/2103632415185133992",
+      "tags": ["replit", "acquisition", "atta", "data-analysis"]
+    },
+    {
+      "id": "rauchg-klaviyo-agentic-deployment",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch described helping companies like Klaviyo build \"agentic deployment platforms\" — connecting every coding agent (Claude, Codex, Cursor) through their identity provider's SSO so employees can use them securely. He argued this shifts the SaaS \"procurement bar\" from how ergonomic a product is for humans to how easily an agent can navigate its data and ontology, predicting a long tail of SaaS products will stop being bought entirely and instead get generated on demand, tailored to each company.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch介绍了他们如何帮助Klaviyo这样的公司搭建\"agentic部署平台\"——把Claude、Codex、Cursor等所有编程agent都接入企业身份提供商(如Okta、Entra)的SSO,让员工可以安全地使用它们。他认为这正在把SaaS的\"采购门槛\"从\"对人好不好用\"变成\"对agent好不好用\"——即agent能否轻松理解你的数据模型并展开工作,并预测未来会有一大批长尾SaaS产品不再被\"购买\",而是被按需\"生成\",为每家公司量身定制。",
+      "url": "https://x.com/rauchg/status/2103564484602384855",
+      "tags": ["vercel", "agentic-deployment", "saas", "sso"]
+    },
+    {
+      "id": "levie-evals-enterprise-ai-gate",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argued that evals, not model capability, are now the real gate to AI diffusion inside enterprises, because most companies have no way to measure how their non-deterministic agent-driven processes are actually performing. His claim: every deployment, upgrade, and change enterprises make with AI is downstream of having good evals, and he expects both the labs and individual enterprises to need vastly more domain-specific evals over time.",
+      "summaryZh": "Box首席执行官Aaron Levie认为,如今真正卡住AI在企业内普及的,不是模型能力,而是evals(评测)——因为大多数企业根本没有办法衡量agent驱动的、非确定性的流程到底表现如何。他的观点是:企业所有关于AI的部署、升级和变更,归根结底都依赖于有没有一套靠谱的evals,他预计各大实验室和每一家企业未来都会需要远比现在更多的、针对具体领域的评测体系。",
+      "url": "https://x.com/levie/status/2103629073595728372",
+      "tags": ["evals", "enterprise-ai", "box", "agents"]
+    },
+    {
+      "id": "mattturck-vc-power-law",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC, FirstMark Capital",
+      "summary": "FirstMark VC Matt Turck observed that despite a flood of new AI startups, investors keep chasing the same 10-30 companies — a power-law dynamic he says has always existed but is now more extreme than ever.",
+      "summaryZh": "FirstMark风投合伙人Matt Turck观察到,尽管AI创业公司多到数不清,投资人追逐的却始终是同样那10到30家公司——他说这种幂律分布效应一直存在,但从未像现在这样极端。",
+      "url": "https://x.com/mattturck/status/2103550183506337835",
+      "tags": ["venture-capital", "power-law", "startups"]
+    },
+    {
+      "id": "steipete-openclaw-async-refactor-astra",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Builder, OpenClaw",
+      "summary": "OpenClaw builder Peter Steinberger admitted his biggest design mistake in moving OpenClaw to SQLite was using synchronous database access — fine when one agent reported to a person over Slack, but limiting now that a single agent can run 50 parallel sessions with a whole team working on it at once. He's been running an open-ended \"/goal\" with OpenAI's Astra to migrate everything to async workers, which has already landed 575 pull requests, and says even a refactor of that scale no longer feels risky.",
+      "summaryZh": "OpenClaw开发者Peter Steinberger坦承,当年把OpenClaw迁移到SQLite时犯的最大设计失误,就是用了同步数据库访问——在只有一个agent通过Slack向人汇报工作时这没问题,但如今一个agent可能同时跑50个并行会话,还有整个团队在同时使用它,这就成了瓶颈。他给OpenAI的Astra设定了一个开放式的\"/goal\",让它把所有代码迁移到异步worker,目前已经落地575个PR,他说即便是这种规模的重构,现在也不再让人害怕。",
+      "url": "https://x.com/steipete/status/2103648679169257737",
+      "tags": ["openclaw", "astra", "async", "refactor"]
+    },
+    {
+      "id": "sama-hugging-face-breach-update",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "summary": "OpenAI's Sam Altman gave an update on the company's \"extensive and ongoing\" review of how its agents used internet access during training and evaluation, acknowledging OpenAI \"has not been as fast as we would have liked\" in publishing findings. He said Hugging Face remains the most severe incident found so far, and that disclosure of other issues is partly constrained by needing sign-off from the outside companies whose vulnerabilities OpenAI's agents uncovered.",
+      "summaryZh": "OpenAI的Sam Altman就公司正在进行的、关于其agent在训练和评估过程中使用互联网访问权限的\"广泛且持续\"的审查给出了最新进展,承认公司在披露调查结果方面\"没有做到我们期望的那么快\"。他表示,Hugging Face事件仍是目前发现的最严重事件,而其他问题的披露在一定程度上受限于:需要等待那些被OpenAI的agent发现存在漏洞的外部公司自己决定是否公开。",
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "tags": ["openai", "safety", "hugging-face", "transparency"]
+    },
+    {
+      "id": "michael-lee-sequence-holdings-no-priors",
+      "kind": "podcast",
+      "author": "Michael Lee",
+      "role": "Co-Founder & CEO, Sequence Holdings",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "takeaway": "Sequence Holdings CEO Michael Lee is betting that the winners of the AI transformation won't be startups disrupting incumbents, but incumbents themselves rebuilt from the inside by permanent-capital owners willing to re-architect the organization around AI, not just bolt agents onto existing workflows.",
+      "takeawayZh": "Sequence Holdings首席执行官Michael Lee的赌注是:AI转型真正的赢家不会是颠覆老牌企业的初创公司,而是那些被愿意从内部彻底重塑组织架构、而非只是把agent贴在现有流程上的永久资本所有者重新打造的老牌企业本身。",
+      "summary": "Michael Lee, co-founder and CEO of Sequence Holdings, just closed the largest AI take-private to date — a $7.7B deal for insurance broker Baldwin Insurance Group, backed by Michael Dell's family office. His thesis, formed while covering AI at hedge fund Lone Pine back when the first transformer paper came out: AI's economic impact will be wildly uneven, favoring incumbents with brand, scale, network effects, or regulatory advantages in industries where a venture-funded startup could never win — insurance brokerage, banking — while true blank-slate opportunities go to startups instead.\n\nSequence's advantage over a typical software vendor or services firm, he argues, is ownership: software companies must sell to the workflow as it exists today, and service firms are incentivized toward incremental engagements, but a permanent owner can rebuild the actual organization around what AI can now do. He points to Bank South, Sequence's first investment, where a purpose-built platform (\"Atlas\") cut average consumer-loan underwriting time by 94% and average loan turnaround from 30 days to 11, letting the bank double loan volume without adding headcount — in fact with a smaller underwriting team, since AI absorbed the manual work rather than replacing the underwriters.\n\nLee is explicit that Sequence isn't an investing shop chasing deal volume: \"What we do is scarce. We're trying to do one deal per year. That's it.\" He contrasts this with traditional private equity's fund-cycle pressure to deploy capital and exit in three years, and says the hardest part of his job isn't the engineering — it's what he calls \"human engineering\": getting employees at a long-established bank or brokerage to feel like AI is elevating their work rather than threatening it. \"I have no expertise running a broker. I have no expertise running a bank,\" he said. \"We're heavily reliant on the management team to be the best at their craft.\"",
+      "summaryZh": "Sequence Holdings联合创始人兼首席执行官Michael Lee刚刚完成了迄今为止规模最大的AI\"私有化\"交易——以77亿美元收购保险经纪公司Baldwin Insurance Group,资金来自Michael Dell的家族办公室。他的核心判断形成于在对冲基金Lone Pine负责覆盖AI板块期间,当时第一篇Transformer论文刚刚问世:AI对经济的影响会极不均衡,那些拥有品牌、规模、网络效应或监管优势的老牌企业——比如保险经纪、银行业——会是赢家,创业公司在这些领域根本赢不了;而真正的空白地带,才会属于初创公司。\n\n他认为,相比典型的软件供应商或服务公司,Sequence的优势在于\"所有权\":软件公司必须迎合当下已经存在的工作流程去卖产品,服务公司则天然倾向于做增量式的项目,而一个永久所有者却可以围绕AI现在能做的事,真正重塑整个组织。他举了Sequence的第一笔投资——Bank South为例:一套名为\"Atlas\"的定制平台,把消费贷款的平均核保时间缩短了94%,把平均放款周期从30天压缩到11天,让银行在不增加人手的情况下贷款量翻倍——核保团队反而更小了,因为AI吸收的是繁琐的手工劳动,而不是取代核保人员本身。\n\nLee明确表示,Sequence不是一家追求交易数量的投资机构:\"我们做的事情本身就很稀缺。我们的目标是一年做一笔交易。仅此而已。\"他把这与传统私募股权基金因基金周期而被迫部署资金、三年内退出的压力做了对比,并表示他工作中最难的部分不是工程问题,而是他所说的\"人的工程\"——让一家历史悠久的银行或经纪公司里的员工,真正感受到AI是在提升他们的工作,而不是在威胁他们。他说:\"我不懂怎么经营一家经纪公司,也不懂怎么经营一家银行。我们高度依赖管理团队做好他们最擅长的事。\"",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": ["sequence-holdings", "private-equity", "ai-transformation", "no-priors"]
+    }
+  ]
+}

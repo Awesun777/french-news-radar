@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-26T06:25:14Z",
+  "generatedAt": "2026-09-27T06:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-27",
+      "title": "Cherny's Tag now writes half his PRs, Sequence Holdings' Michael Lee bets AI's winners are rebuilt incumbents",
+      "itemCount": 10,
+      "kinds": ["x", "podcast"],
+      "highlights": [
+        "Anthropic's Boris Cherny says internal Slack bot Tag now writes over half his PRs and nearly all his data analysis, while Thariq publishes a deep dive on what Claude Code's \"effort\" settings actually change and Peter Steinberger has OpenAI's Astra land 575 PRs migrating OpenClaw to async workers",
+        "Vercel's Guillermo Rauch describes helping Klaviyo build an \"agentic deployment platform\" with per-agent SSO, arguing SaaS procurement is shifting from human ergonomics to agent ergonomics, while Box's Aaron Levie says evals, not model capability, are now the real gate to enterprise AI adoption",
+        "Sequence Holdings CEO Michael Lee tells No Priors his $7.7B take-private of insurance broker Baldwin bets that AI's real winners will be old-line incumbents rebuilt from the inside, pointing to a 94% cut in loan-underwriting time at his first deal, Bank South"
+      ]
+    },
     {
       "date": "2026-09-26",
       "title": "Rauch's AI Gateway data shows OpenAI closing on Anthropic, VAST Data's Hallak on AI's hidden $30B storage layer",
