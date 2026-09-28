@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": "rauch-native-browser",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch ports his personal web browser, Mini, from Electron+Bun to native Rust and Swift, built largely with Opus 5.5 and Sol 6. He argues the shift buys real gains — Safari-like UX via the cef crate for up-to-date Chromium, an embedded agent over ACP that talks to his local fx CLI, and Mac-native details like fine-grained focus control that are \"nightmare fuel\" in JS. He predicts the entire software world will \"nativify\" faster than people expect, pointing to DHH's own native push at Rails World, with Vercel's Fluid runtime built to support whichever native stack developers pick.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 把他的个人浏览器 Mini 从 Electron+Bun 重写为原生 Rust 和 Swift，主要靠 Opus 5.5 和 Sol 6 完成。他认为这次迁移收获实实在在：借助 cef crate 打包最新版 Chromium，获得 Safari 般的体验；通过 ACP 嵌入一个与本地 fx CLI 对话的 agent；还有精细焦点控制等在 JS 里“噩梦级”的 Mac 原生细节，现在都开箱即用。他预测整个软件世界会比人们想象得更快“原生化”，并援引 DHH 在 Rails World 上对原生的呼吁，而 Vercel 的 Fluid 运行时正是为支持开发者选择的任何原生技术栈而生。",
+      "url": "https://x.com/rauchg/status/2104428800134013205",
+      "tags": ["native-apps", "rust", "ai-coding", "vercel"]
+    },
+    {
+      "id": "levie-agent-friction",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie argues that once agents reliably pick the best or most efficient option for their users, entire categories of business built on customer friction get exposed. Markets that profit from switching costs will see competition intensify until a new equilibrium forms between incumbents and disruptors, he says, while historically frictionful markets — healthcare, travel, local services, and new information markets — stand to gain the most as agents make buying far easier. His bottom line: a future \"meaningfully mediated by agents that work tirelessly for us\" can't function the way today's economy does.",
+      "summaryZh": "Box CEO Aaron Levie 认为，一旦 agent 能稳定地为用户挑出最优或最高效的选择，那些靠“客户转换成本”赚钱的商业模式就会被彻底暴露。他说，在那些吃转换摩擦红利的市场里，转换成本会下降，竞争会急剧加剧，直到老牌企业与颠覆者之间达成新的均衡；而医疗、旅行、本地服务和一些全新的信息类市场，由于历来摩擦极大，反而最可能从 agent 让购买变得容易中获益。他的结论是：一个“被为我们不知疲倦工作的 agent 深度中介”的未来，不可能和今天的经济以同样方式运转。",
+      "url": "https://x.com/levie/status/2104350592290406849",
+      "tags": ["agents", "economics", "business-model"]
+    },
+    {
+      "id": "sottiaux-code-freeze",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux predicts the traditional pre-release \"code freeze\" is disappearing, floating a future where code itself gets generated on the fly, per request, within a set of constraints rather than shipped as a fixed build. It's a short but pointed claim about how agentic coding could change not just how software gets written, but when and whether it's \"finished\" at all.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 预测，发布前的传统“代码冻结”正在消失，他设想未来代码本身可能会根据请求、在一定约束下实时生成，而不是打包成固定版本发布。这是一个简短却犀利的判断：agentic coding 可能不仅改变软件的写法，还会改变软件“完成”的时点乃至这个概念本身。",
+      "url": "https://x.com/thsottiaux/status/2104108167806550046",
+      "tags": ["ai-coding", "software-development", "openai"]
+    },
+    {
+      "id": "turck-researcher-certainty",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC, FirstMark Capital",
+      "summary": "FirstMark VC Matt Turck flags a split he finds notable: AI researchers who actually understand how the technology works tend to hold neither hard AI-doom nor runaway-acceleration views, while people with limited technical knowledge of AI often hold the most confident, definite opinions on where it's headed.",
+      "summaryZh": "FirstMark 的风险投资人 Matt Turck 指出一个值得注意的分化：真正懂 AI 技术原理的研究者，往往既不持“AI 末日论”也不信“失控式加速”，态度相对温和；反倒是对 AI 了解有限的人，常常对它的走向持有最笃定、最确信的看法。",
+      "url": "https://x.com/mattturck/status/2104331402385002831",
+      "tags": ["ai-safety", "commentary", "vc"]
+    },
+    {
+      "id": "kothari-astra-verifiable",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari says OpenAI's Astra agent is \"absurd\" when given genuinely hard, verifiable end-to-end tasks paired with the right tools — a pointed endorsement of pairing agents with tasks that have a clear, checkable finish line rather than open-ended asks.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 说，只要给 OpenAI 的 Astra agent 配上足够难、且结果可验证的端到端任务和合适的工具，它的表现就“离谱”地好——这是在明确力挺一种做法：把 agent 用在有清晰、可核验终点的任务上，而不是开放式的模糊需求。",
+      "url": "https://x.com/nikunj/status/2104444216017637575",
+      "tags": ["astra", "agents", "openai"]
+    },
+    {
+      "id": "steinberger-ci-load",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "OpenClaw",
+      "summary": "OpenClaw's Peter Steinberger says his team needs to distribute CI load off sponsor Blacksmith and plans to hand the decision to Codex itself — letting the agent determine which tests actually need to run, drastically cutting the CI footprint, with the remainder run on an hourly cadence instead of on every push.",
+      "summaryZh": "OpenClaw 的 Peter Steinberger 表示团队需要把 CI 负载从赞助商 Blacksmith 那里分散出去，计划干脆让 Codex 自己判断哪些测试真正需要跑，大幅削减 CI 规模，剩下的测试则改成每小时跑一次，而不是每次提交都跑。",
+      "url": "https://x.com/steipete/status/2104305554760114488",
+      "tags": ["ci-cd", "agents", "openclaw"]
+    },
+    {
+      "id": "thariq-agent-laziness",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code, Anthropic",
+      "summary": "Anthropic's Thariq voices a concern less about agent capability and more about human habit: his biggest fear is that people will \"eat the productivity gains of agents by just becoming lazier\" rather than redirecting that freed-up time and effort into higher-value work.",
+      "summaryZh": "Anthropic 的 Thariq 表达了一种担忧，与其说是 agent 能力不够，不如说是人类习惯的问题：他最担心的是人们会因为变懒而把 agent 带来的生产力提升“吃掉”，而不是把省下来的时间和精力投入到更高价值的工作中。",
+      "url": "https://x.com/trq212/status/2104273243599405395",
+      "tags": ["agents", "productivity", "anthropic"]
+    },
+    {
+      "id": "shipper-rational-agents",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper needles an industry built on modeling humans as perfectly rational economic agents, noting the irony that it's now \"panicking\" as humans actually start adopting AI agents that act rationally on their behalf.",
+      "summaryZh": "Every CEO Dan Shipper 调侃了一个建立在“人是理性经济人”假设之上的行业，讽刺的是，当人类真的开始采用能替自己理性行事的 AI agent 时，这个行业反而“慌了”。",
+      "url": "https://x.com/danshipper/status/2104302924251951553",
+      "tags": ["commentary", "agents", "economics"]
+    },
+    {
+      "id": "zhang-tech-hype-blindspot",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang warns that flashy new technology can be so dazzling it hides the ways it's actually not working — and that the sheer pace of AI hype makes people blame themselves rather than the tool when something breaks, since \"everyone seems ahead of you.\"",
+      "summaryZh": "独立 builder Zara Zhang 提醒，炫目的新技术很容易掩盖它实际上“不好用”的那些地方——而且 AI 炒作的节奏太快，反而会让人在工具出问题时怪自己而不是怪工具，因为“看起来所有人都走在你前面”。",
+      "url": "https://x.com/zarazhangrui/status/2104112917264126195",
+      "tags": ["ai-hype", "commentary", "builder-culture"]
+    },
+    {
+      "id": "yang-saas-vs-games",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "AI tutorials & interviews creator",
+      "summary": "Peter Yang points out that almost nobody looks back fondly on the SaaS or business software they used years ago, while people vividly remember their favorite games — arguing games are the software genre with the longest staying power in memory, and that today's LLM-based products may be running the inverse trajectory.",
+      "summaryZh": "Peter Yang 指出一个有意思的现象：几乎没人会怀念自己当年用过的 SaaS 或商业软件，但人们对小时候玩过的游戏却记忆犹新——他认为游戏是留存记忆时间最长的软件品类，而如今基于 LLM 的产品，走的可能恰恰是相反的轨迹。",
+      "url": "https://x.com/petergyang/status/2104414495376564517",
+      "tags": ["ai-products", "commentary", "games"]
+    }
+  ]
+}

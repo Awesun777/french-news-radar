@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-27T06:30:00Z",
+  "generatedAt": "2026-09-28T15:35:00Z",
   "digests": [
+    {
+      "date": "2026-09-28",
+      "title": "Rauch bets native apps beat Electron as Levie sees agents dissolving switching-cost businesses",
+      "itemCount": 10,
+      "kinds": ["x"],
+      "highlights": [
+        "Vercel's Guillermo Rauch rewrites his personal browser from Electron+Bun into native Rust and Swift, predicting the whole software world will \"nativify\" faster than expected, while Box's Aaron Levie argues agents that pick the most efficient option for users will erode entire business models built on customer switching friction",
+        "OpenAI's Thibault Sottiaux predicts pre-release code freezes are disappearing as code gets generated per request, FPV's Nikunj Kothari calls OpenAI's Astra \"absurd\" on hard verifiable tasks, and OpenClaw's Peter Steinberger plans to let Codex itself decide which CI tests need to run",
+        "FirstMark's Matt Turck notes AI researchers hold more measured doom/acceleration views than non-experts, Anthropic's Thariq worries agents' productivity gains will just be eaten by laziness, and Every's Dan Shipper needles an industry built on rational-agent theory now panicking as humans adopt real AI agents"
+      ]
+    },
     {
       "date": "2026-09-27",
       "title": "Cherny's Tag now writes half his PRs, Sequence Holdings' Michael Lee bets AI's winners are rebuilt incumbents",
