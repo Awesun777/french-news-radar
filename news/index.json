@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-09-27T06:18:27Z",
+  "generatedAt": "2026-09-28T15:30:50Z",
   "digests": [
+    {
+      "date": "2026-09-28",
+      "title": "Kyutai's single-step Pocket TTS, Modulate's audio-native $25M",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "Kyutai trains Pocket TTS's sampler with a 'drifting' objective, cutting inference to one step",
+        "Modulate raises $25M for its audio-native, 100+ small-model voice analysis suite",
+        "Viral AI phone/text agent Instinct raises $1B Series C at a $10B valuation"
+      ]
+    },
     {
       "date": "2026-09-27",
       "title": "OpenAI's agent government-site incidents, US-China 'SI' dialogue",

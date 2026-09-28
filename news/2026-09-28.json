@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": "kyutai-pocket-tts-drifting-sampler",
+      "category": "models",
+      "title": "Kyutai trains Pocket TTS's sampler with a 'drifting' objective, cutting inference to one step",
+      "summary": "Kyutai published a new training technique for its open, CPU-only Pocket TTS model: instead of flow matching, the sampler head is trained with a 'drifting' objective, letting it generate audio in a single step with no Jacobian calculation, at the same quality as before. The training recipe and a new 'english_drifting_26-09' checkpoint are up on GitHub.",
+      "whyItMatters": "A single-step, lower-compute decoding path for an open, CPU-capable TTS model is exactly the kind of latency/cost win worth tracking for a cheap or on-device fallback voice for Anna or Romain, on top of Kyutai's earlier French-normalization fix to the same model.",
+      "url": "https://kyutai.org/blog/2026-09-28-pocket-tts-drifting/",
+      "source": "Kyutai blog",
+      "tags": ["voice", "tts", "latency", "open-source"]
+    },
+    {
+      "id": "modulate-25m-audio-native-voice-models",
+      "category": "inspiration",
+      "title": "Modulate raises $25M for its audio-native, 100+ small-model voice analysis suite",
+      "summary": "Boston startup Modulate raised $25M (led by Future Ventures, with Hyperplane and Lakestar) for a voice-intelligence platform that runs over 100 small, audio-native models — rather than one monolithic LLM — to handle transcription, emotion/intent analysis, deepfake detection, and compliance for voice agents in regulated industries.",
+      "whyItMatters": "Its pitch that many small audio-native models beat one big LLM, and don't need specialized hardware, is a pattern worth borrowing if Romain or Anna ever need bolt-on emotion or safety checks without bloating the core real-time voice pipeline's cost.",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/Modulate-Cofounders_3.jpg",
+      "tags": ["voice", "funding", "architecture", "compliance"]
+    },
+    {
+      "id": "instinct-1b-series-c",
+      "category": "general",
+      "title": "Viral AI phone/text agent Instinct raises $1B Series C at a $10B valuation",
+      "summary": "Instinct, an invite-only personal AI agent that calls and texts businesses on a user's behalf to book, buy, or cancel things, raised a $1B Series C from Sequoia, Benchmark, and Coatue at a $10B valuation — roughly 4x the valuation of its Series B just a month earlier.",
+      "whyItMatters": "Not language-learning, but a useful data point on how aggressively investors are now pricing voice/phone-calling AI agents, the same product category Romain and Anna sit in.",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "source": "TechCrunch",
+      "tags": ["funding", "agents", "voice"]
+    }
+  ]
+}
