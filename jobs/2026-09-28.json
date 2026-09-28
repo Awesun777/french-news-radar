@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-28T15:50:24Z",
+  "items": [
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "Architecture Lead Analyst (VP)",
+      "url": "https://jobs.citi.com/job/new-york/architecture-lead-analyst-vp/287/101100764896",
+      "location": "New York, New York, United States",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "dc-advisory-1",
+      "company": "Dc advisory",
+      "title": "Compliance Analyst (New York, NY)",
+      "url": "https://recruiting.ultipro.com/DCA1000DCV/JobBoard/14d25b5f-98b9-46da-846e-1447f13e2cda/Opportunity/OpportunityDetail?opportunityId=a49e986d-ba55-426b-a608-5d934f33a23d",
+      "location": "New York, NY, United States",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "dc-advisory-2",
+      "company": "Dc advisory",
+      "title": "Investment Banking Healthcare Associate (Chicago, Illinois or New York, NY)",
+      "url": "https://recruiting.ultipro.com/DCA1000DCV/JobBoard/14d25b5f-98b9-46da-846e-1447f13e2cda/OpportunityDetail?opportunityId=df038e91-bba1-4ffd-8300-d718164ed97c",
+      "location": "Chicago, IL or New York, NY, United States",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "dc-advisory-3",
+      "company": "Dc advisory",
+      "title": "Investment Banking Industrials Associate (Chicago, Illinois)",
+      "url": "https://recruiting.ultipro.com/DCA1000DCV/JobBoard/14d25b5f-98b9-46da-846e-1447f13e2cda/OpportunityDetail?opportunityId=c1fb0c95-ffdb-4744-954f-e73e00a96d69",
+      "location": "Chicago, IL, United States",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "dc-advisory-4",
+      "company": "Dc advisory",
+      "title": "Investment Banking Tech Associate (San Francisco, California)",
+      "url": "https://recruiting.ultipro.com/DCA1000DCV/JobBoard/14d25b5f-98b9-46da-846e-1447f13e2cda/OpportunityDetail?opportunityId=d0ee1b61-b8a7-4cd5-8640-bd4e0df25cc7",
+      "location": "San Francisco, CA, United States",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "macquarie-1",
+      "company": "Macquarie",
+      "title": "Analyst, Transportation, Real Assets",
+      "url": "https://recruitment.macquarie.com/en_US/careers/JobDetail?jobId=24422",
+      "location": "New York Office, United States",
+      "postedAt": "2026-09-28",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "pwc-1",
+      "company": "Pwc",
+      "title": "Deal Data Technology & Analytics, Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/CA-Silicon-Valley/Deal-Data-Technology---Analytics--Manager_739092WD?source=US_EXP_Careers",
+      "location": "CA-Silicon Valley",
+      "postedAt": "2026-06-24",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-2",
+      "company": "Pwc",
+      "title": "Deal Data Technology & Analytics, Director",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/CA-Silicon-Valley/Deal-Data-Technology---Analytics--Director_739097WD?source=US_EXP_Careers",
+      "location": "CA-Silicon Valley",
+      "postedAt": "2026-06-24",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-3",
+      "company": "Pwc",
+      "title": "Deal Data Technology & Analytics, Senior Associate",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/CA-Silicon-Valley/Deal-Data-Technology---Analytics--Senior-Associate_721131WD?source=US_EXP_Careers",
+      "location": "CA-Silicon Valley",
+      "postedAt": "2026-07-23",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-4",
+      "company": "Pwc",
+      "title": "Mergers and Acquisitions (M&A) Partnership Tax - Senior Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/MA-Boston/Mergers-and-Acquisitions--M-A--Partnership-Tax---Senior-Manager_693108WD?source=US_EXP_Careers",
+      "location": "MA-Boston",
+      "postedAt": "2025-12-23",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-5",
+      "company": "Pwc",
+      "title": "Mergers and Acquisitions Tax - Senior Associate",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/NY-New-York/Mergers-and-Acquisitions-Tax---Senior-Associate_693097WD-1?source=US_EXP_Careers",
+      "location": "NY-New York",
+      "postedAt": "2026-09-18",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-6",
+      "company": "Pwc",
+      "title": "Mergers and Acquisition Tax, Senior Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/IL-Chicago/Mergers-and-Acquisition-Tax--Senior-Manager_679636WD?source=US_EXP_Careers",
+      "location": "IL-Chicago",
+      "postedAt": "2026-07-28",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-7",
+      "company": "Pwc",
+      "title": "Mergers and Acquisitions Tax - Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/NY-New-York/Mergers-and-Acquisitions-Tax---Manager_693104WD?source=US_EXP_Careers",
+      "location": "NY-New York",
+      "postedAt": "2026-09-18",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-8",
+      "company": "Pwc",
+      "title": "International Tax M&A - Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/NY-New-York/International-Tax-M-A---Manager_693096WD?source=US_EXP_Careers",
+      "location": "NY-New York",
+      "postedAt": "2026-05-26",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-9",
+      "company": "Pwc",
+      "title": "Tax Mergers and Acquisitions (M&A) Partnership Tax - Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/CA-San-Francisco/Tax-Mergers-and-Acquisitions--M-A--Partnership-Tax---Manager_676612WD?source=US_EXP_Careers",
+      "location": "CA-San Francisco",
+      "postedAt": "2026-05-27",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-10",
+      "company": "Pwc",
+      "title": "International Tax M&A - Senior Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/NY-New-York/Financial-Services-Global-Structuring---Senior-Manager_693094WD-1?source=US_EXP_Careers",
+      "location": "NY-New York",
+      "postedAt": "2026-05-26",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-11",
+      "company": "Pwc",
+      "title": "US National Tax Services M&A Partnership Tax - Senior Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/DC-Washington/US-National-Tax-Services-M-A-Partnership-Tax---Senior-Manager_693056WD?source=US_EXP_Careers",
+      "location": "DC-Washington",
+      "postedAt": "2025-12-22",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "scotiabank-1",
+      "company": "Scotiabank",
+      "title": "GTB Sales Associate",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-GTB-Sales-Associate-NY-10281/606513017/",
+      "location": "New York City, NY, US, 10281",
+      "postedAt": "2026-09-28",
+      "matchedRoles": [
+        "Associate"
+      ]
+    }
+  ]
+}
