@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-09-28T15:30:50Z",
+  "generatedAt": "2026-09-29T06:12:59Z",
   "digests": [
+    {
+      "date": "2026-09-29",
+      "title": "Claude Sonnet 5.5 ships, ElevenLabs' v4 speech model debuts",
+      "itemCount": 5,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Anthropic ships Claude Sonnet 5.5, 30% faster and cheaper per task",
+        "ElevenLabs launches Eleven v4 and v4 Turbo, ~100ms latency with French accent control",
+        "AMD to acquire Fei-Fei Li's World Labs for $8.2B"
+      ]
+    },
     {
       "date": "2026-09-28",
       "title": "Kyutai's single-step Pocket TTS, Modulate's audio-native $25M",
