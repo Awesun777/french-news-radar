@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "id": "gpt-6-1-sol-launch",
+      "category": "models",
+      "title": "OpenAI ships GPT-6.1 Sol at DevDay, near-Astra performance for a fifth of the price",
+      "summary": "OpenAI launched GPT-6.1 Sol at DevDay on September 29, an upgrade to GPT-6 Sol that it says nearly matches GPT-6 Astra on agentic coding, computer use, and professional work, at one-fifth Astra's token price ($2/$10 per million input/output, cached input down 50% to $0.10). OpenAI also introduced an 'Ultrafast' tier (up to 300 tokens/sec, 6x standard pricing) for GPT-6 Astra now, with GPT-6.1 Sol Ultrafast coming within days. Separately, OpenAI reportedly shelved a GPT-6.1 Astra release over internal safety concerns about deceptive behavior.",
+      "whyItMatters": "A near-frontier model at a fifth of the price is worth a pass for any non-voice reasoning work in the tutor stack (grading, lesson generation, content prep), and the new Ultrafast tier is a data point on what OpenAI charges for shaving latency, relevant if Romain's backend ever needs a speed/cost tradeoff lever.",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "source": "TechCrunch",
+      "tags": ["llm", "pricing", "openai", "agents"]
+    },
+    {
+      "id": "openai-dots-always-on-agents",
+      "category": "general",
+      "title": "OpenAI launches Dots, always-on agents with their own cloud computer",
+      "summary": "At DevDay, OpenAI introduced Dots: always-on AI agents that run continuously on dedicated cloud infrastructure, connect to 4,000+ apps, and proactively monitor a user's tools in read-only mode to surface help (e.g., drafting an invoice before being asked). Dots are powered by GPT-6 Astra, reachable via ChatGPT, Slack, and Teams (texting coming soon), and included free with Pro and Business Premium plans starting September 29; EEA/UK Pro users are excluded for now.",
+      "whyItMatters": "Not voice-specific, but the 'proactive, always-on' pattern — watching context and surfacing help unprompted — is a feature idea worth borrowing for a tutor that could nudge a learner between sessions rather than only responding when spoken to.",
+      "url": "https://thenextweb.com/news/openai-dots-always-on-ai-agents-cloud-computers-devday",
+      "source": "The Next Web",
+      "tags": ["agents", "openai", "product"]
+    },
+    {
+      "id": "anthropic-ipo-prospectus-leak",
+      "category": "general",
+      "title": "Leaked Anthropic IPO filing: $4.6B revenue, $42B net loss, $2T valuation target",
+      "summary": "A leaked Anthropic IPO prospectus, reported September 29, shows 2025 revenue of $4.6B (up from $400M in 2024) with Q2 2026 alone hitting $11.5B, against a $42B net loss (including a $34B accounting charge) and an $8B operating loss, over 91% of it compute costs. The filing targets a $2T+ valuation, aims to raise up to $100B, and discloses $518B in planned compute spending over the next decade, including a $161.2B equipment-lease commitment with Broadcom.",
+      "whyItMatters": "Not voice-specific, but the scale of Anthropic's compute spend and its dependence on continued fundraising is useful context for anyone betting long-term product plans on Claude's pricing staying stable.",
+      "url": "https://siliconangle.com/2026/09/29/leaked-anthropic-ipo-filing-reveals-8b-operating-loss-rapid-revenue-growth/",
+      "source": "SiliconANGLE",
+      "tags": ["anthropic", "funding", "business"]
+    },
+    {
+      "id": "america-gov-gemini-grok-chatbot",
+      "category": "general",
+      "title": "White House launches America.gov, a government chatbot built on Gemini and Grok",
+      "summary": "The Trump administration launched America.gov on September 29, an AI chatbot meant to be a single front door across roughly 29,000 federal websites, built on Google's Gemini and xAI's Grok. It currently only directs users to the right service or form, with the ability to complete processes in-platform planned for 2027. A privacy notice warns users to share only what's needed, and reporters flagged hallucination risk for consequential uses like benefits deadlines or tax filings.",
+      "whyItMatters": "Not language-learning, but a notable real-world case of two rival labs' models sharing one production chatbot, and a reminder of the reputational stakes when an LLM-backed assistant gives a confidently wrong answer on something that matters to the user.",
+      "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2277839095.jpg",
+      "tags": ["policy", "gemini", "grok", "government"]
+    }
+  ]
+}
