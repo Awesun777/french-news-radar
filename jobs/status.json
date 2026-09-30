@@ -1,11 +1,11 @@
 {
-  "lastRunAt": "2026-09-29T13:14:52Z",
-  "outcome": "error",
-  "newCount": 18,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-09-28",
+  "lastRunAt": "2026-09-30T15:30:00Z",
+  "outcome": "new-postings",
+  "newCount": 24,
+  "detail": "24 new postings (Citi, Barclays, Scotiabank, Mizuho americas, and 6 others)",
+  "dayFile": "2026-09-30",
   "companies": {
-    "Deutsche Bank": "ok",
+    "Deutsche Bank": "unreachable",
     "Barclays": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",

@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-09-28T15:50:24Z",
+  "generatedAt": "2026-09-30T15:30:00Z",
   "digests": [
+    {
+      "date": "2026-09-30",
+      "itemCount": 24,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Dc advisory",
+        "Houlihan Lokey",
+        "JP Morgan",
+        "Macquarie",
+        "Mizuho americas",
+        "Pwc",
+        "Raymond James",
+        "Scotiabank"
+      ]
+    },
     {
       "date": "2026-09-28",
       "itemCount": 18,
