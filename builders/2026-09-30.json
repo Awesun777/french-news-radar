@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "id": "sama-dots-and-sol-pricing",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "CEO, OpenAI",
+      "summary": "OpenAI CEO Sam Altman used DevDay to launch \"Dots,\" a persistent AI agent he describes as working 24/7 to free up a person's time and attention for higher-level work, distinct from a one-off chat session. In the same burst of posts he called the new \"Ultrafast\" inference mode so fast he doesn't \"ever want to go back,\" and flagged GPT-6.1 Sol as an \"extremely capable model\" priced at a fifth of Astra's cost with a 95% cache-read discount — leading with speed and price as Dots' selling points rather than raw capability claims.",
+      "summaryZh": "OpenAI首席执行官Sam Altman在DevDay上发布了\"Dots\"——一款他称之为7x24小时工作的常驻AI agent,目的是把人的时间和注意力还给更高层次的工作,而不是一次性的聊天会话。同一波推文里,他还称新的\"Ultrafast\"推理模式快到自己\"再也不想回到过去\",并强调GPT-6.1 Sol是一款\"极其强大的模型\",定价仅为Astra的五分之一,还有95%的缓存读取折扣——他为Dots打的卖点主打速度和价格,而不是单纯的能力宣称。",
+      "url": "https://x.com/sama/status/2104995014208258235",
+      "tags": ["openai", "dots", "agents", "devday"]
+    },
+    {
+      "id": "sottiaux-dots-rollout",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT, OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux said a few million Dots (the persistent agent Sam Altman launched at DevDay) will be online within days, working across \"such a diverse and large community\" of tasks. He described feeling a personal jump in usefulness after 2-3 days of teaching his own Dot his preferences, and said the team is deliberately watching how people use one primary Dot before it opens up the ability to run an entire team of them.",
+      "summaryZh": "OpenAI的Thibault Sottiaux表示,Sam Altman在DevDay发布的常驻agent \"Dots\"将在几天内让数百万个上线,服务于\"如此多元和庞大的社区\"里的各种任务。他说自己在教会自己的Dot了解个人偏好后,用了2到3天就感受到实实在在的能力跃升,并表示团队是有意先观察大家如何使用一个主力Dot,之后才会开放让用户运行一整个Dot团队的能力。",
+      "url": "https://x.com/thsottiaux/status/2105105086506840421",
+      "tags": ["openai", "dots", "agents", "devday"]
+    },
+    {
+      "id": "rauch-ai-sdk-30m-downloads",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch marked the AI SDK crossing 30 million weekly downloads, and used the milestone itself as a demo: he had his fx CLI tool, paired with Opus, one-shot a GPU-rendered video written in Rust that plots the 5M/10M/20M/30M growth curve. The download curve doubles as evidence for his broader running claim that agentic tools are now fast and capable enough to produce finished creative output, not just code, from a single prompt.",
+      "summaryZh": "Vercel首席执行官Guillermo Rauch宣布AI SDK的周下载量突破3000万,并把这个里程碑本身变成了一次演示:他让自己的fx命令行工具配合Opus,一次性生成了一段用Rust编写、GPU渲染的视频,展示从500万到3000万的增长曲线。这条下载曲线同时也印证了他一直以来的论点——如今的agentic工具已经快到、也强到能凭一条提示就产出完整的创意成果,而不只是代码。",
+      "url": "https://x.com/rauchg/status/2105043144975011982",
+      "tags": ["vercel", "ai-sdk", "growth", "ai-coding"]
+    },
+    {
+      "id": "levie-safety-standards-optimism",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie struck an optimistic note on AI safety, arguing the industry can plausibly handle safety and security through shared standards and practices for the foreseeable future rather than needing heavy-handed regulation now. He said greater oversight, testing, and liability will inevitably arrive as capability progresses, but welcomed a moment where the whole industry can align on voluntary efforts quickly without undercutting competition.",
+      "summaryZh": "Box首席执行官Aaron Levie在AI安全议题上表达了乐观态度,认为在可预见的未来,行业完全有可能通过一套共享的标准和做法来应对安全问题,而不必现在就上重手监管。他说,随着能力的进步,更多的监督、测试和责任机制必然会到来,但他很高兴看到整个行业能在不削弱竞争的前提下,迅速就自愿性举措达成一致。",
+      "url": "https://x.com/levie/status/2105111520913039530",
+      "tags": ["ai-safety", "regulation", "industry-standards", "box"]
+    },
+    {
+      "id": "kothari-mercenaries-and-thousand-small-things",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner, FPV Ventures",
+      "summary": "FPV Ventures partner Nikunj Kothari shared two blunt observations on the current market: missionaries are getting harder to find as founders leave companies they co-founded to join \"obvious\" winners, and even public-company CEOs are jumping to lab jobs, leaving remaining teams as shells. On defensibility, he argues the moat is no longer any single thing — especially at the application layer, where the harness is \"a thousand small things done well,\" much of it invisible — and that the real edge increasingly comes down to founders' raw speed of execution, since no market stays blue-ocean once it shows even a little heat.",
+      "summaryZh": "FPV Ventures合伙人Nikunj Kothari分享了两点关于当下市场的直白观察:一是\"传教士型\"创始人越来越难找,不少人正离开自己联合创立的公司,转投\"显而易见\"的赢家,甚至上市公司CEO也在跳槽去实验室,留下的团队常常只剩一个空壳;二是关于防御性——他认为如今护城河不再是某一件单一的东西,尤其在应用层,所谓的harness其实是\"一千件小事做好\",而且大多不可见,真正的优势越来越归结为创始人本身的执行速度,因为一旦市场稍微有点热度,就不再有\"蓝海\"可言。",
+      "url": "https://x.com/nikunj/status/2105148927599423752",
+      "tags": ["venture-capital", "startups", "moats", "commentary"]
+    },
+    {
+      "id": "zhang-opus-water-bottle-site",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang built a full marketing website for her water bottle using just six prompts to Opus 5.5, which orchestrated ElevenLabs for the music, Meshy for 3D assets, and the OpenAI API for images. It's a concrete, end-to-end example of a single model coordinating multiple specialized tools to produce a finished creative product rather than just code.",
+      "summaryZh": "独立builder Zara Zhang只用了6条提示词,让Opus 5.5为自己的水壶做出一个完整的营销网站,期间Opus 5.5还自行调度了ElevenLabs生成音乐、Meshy生成3D素材、OpenAI API生成图片。这是一个具体的端到端案例,展示了单个模型如何协调多个专用工具,产出一个完整的创意成品,而不只是代码。",
+      "url": "https://x.com/zarazhangrui/status/2105096296831017078",
+      "tags": ["ai-coding", "opus", "demo", "builder-culture"]
+    },
+    {
+      "id": "garrytan-openclaw-test-audit-in-gstack",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Y Combinator's Garry Tan merged a version of OpenClaw's test-audit skill into his own GStack project, calling test bloat \"a real problem\" that's now cheap to fix given how easily available agent intelligence has become. It's a small but concrete signal of tooling built by one builder (OpenClaw's Peter Steinberger) getting adopted and ported by another within days.",
+      "summaryZh": "Y Combinator总裁兼CEO Garry Tan把OpenClaw的测试审查(test-audit)技能的一个版本合并进了自己的GStack项目,他说测试臃肿\"是个真实存在的问题\",而如今agent智能唾手可得,修复这个问题的成本已经很低。这是一个小却具体的信号:一个builder(OpenClaw的Peter Steinberger)做出的工具,几天内就被另一个builder拿来直接采用和移植。",
+      "url": "https://x.com/garrytan/status/2105049005147525231",
+      "tags": ["openclaw", "gstack", "testing", "y-combinator"]
+    }
+  ]
+}

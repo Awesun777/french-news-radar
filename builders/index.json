@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-28T15:35:00Z",
+  "generatedAt": "2026-09-30T15:45:05Z",
   "digests": [
+    {
+      "date": "2026-09-30",
+      "title": "OpenAI launches persistent agent 'Dots' at DevDay, Kothari says founders are the last real moat",
+      "itemCount": 7,
+      "kinds": ["x"],
+      "highlights": [
+        "OpenAI's Sam Altman and Thibault Sottiaux launch 'Dots' at DevDay, a persistent 24/7 agent rolling out to millions within days, alongside an 'Ultrafast' inference mode and GPT-6.1 Sol priced at a fifth of Astra's cost",
+        "FPV's Nikunj Kothari argues moats are no longer any single thing but 'a thousand small things done well,' with founders leaving their own companies for 'obvious winners' making missionaries harder to find than ever",
+        "Vercel's Guillermo Rauch marks the AI SDK hitting 30M weekly downloads, Zara Zhang builds a full water-bottle marketing site from six Opus 5.5 prompts, and Garry Tan ports OpenClaw's test-audit skill into his own GStack"
+      ]
+    },
     {
       "date": "2026-09-28",
       "title": "Rauch bets native apps beat Electron as Levie sees agents dissolving switching-cost businesses",
