@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-09-30T15:30:00Z",
+  "generatedAt": "2026-10-01T06:36:42Z",
   "digests": [
+    {
+      "date": "2026-10-01",
+      "itemCount": 25,
+      "companies": [
+        "Barclays",
+        "JP Morgan",
+        "Mizuho Americas",
+        "Nomura",
+        "PwC",
+        "Scotiabank",
+        "UBS"
+      ]
+    },
     {
       "date": "2026-09-30",
       "itemCount": 24,
