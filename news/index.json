@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-01T06:12:46Z",
+  "generatedAt": "2026-10-02T06:18:46Z",
   "digests": [
+    {
+      "date": "2026-10-02",
+      "title": "Tavus Griffin passes a video Turing test, HeyGen undercuts MiniMax",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Tavus unveils Griffin, claiming the first live video Turing test pass",
+        "HeyGen launches HeyGen Video, a MiniMax H3 post-train at $0.01/second",
+        "OpenAI launches ChatGPT Space, a shared workspace agents can edit alongside people"
+      ]
+    },
     {
       "date": "2026-10-01",
       "title": "Gemini 4 Argon ships, ElevenLabs doubles to $22B",

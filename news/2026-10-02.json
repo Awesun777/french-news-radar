@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "id": "tavus-griffin-video-turing-test",
+      "category": "models",
+      "title": "Tavus unveils Griffin, claiming the first live video Turing test pass",
+      "summary": "Tavus introduced Griffin on October 1, a full-duplex video-to-video 'Human Interaction Model' that perceives, decides, speaks, and moves all at once rather than chaining separate ASR/LLM/TTS/render steps. In a blind study, 48% of 54 people who had a one-minute live call with the research-preview 'Griffin-Lite' thought they were talking to a real person, versus under 3% for prior systems; average audio-to-video latency is 0.43s on H100s, and Tavus says it ranks #1 on Nvidia's full-duplex AI video benchmark. Full Griffin is being held back behind additional safety and disclosure work; only select testers have Griffin-Lite access for now.",
+      "whyItMatters": "If Anna or Romain ever grow a face, Griffin's single-model 'watch, listen, and speak simultaneously' approach — rather than stitching ASR, an LLM, and TTS together — is the architecture to study for cutting turn-taking latency below half a second.",
+      "url": "https://www.tavus.io/griffin",
+      "source": "Tavus",
+      "tags": ["avatar", "video", "realtime", "latency"]
+    },
+    {
+      "id": "heygen-video-1-launch",
+      "category": "models",
+      "title": "HeyGen launches HeyGen Video, a MiniMax H3 post-train at $0.01/second",
+      "summary": "HeyGen shipped its first general-purpose video model, HeyGen Video, on September 30 — a prompt-to-video system built on MiniMax's H3 and post-trained in-house, generating a full scene (subject, setting, and sound) from one text/image/reference prompt. Launch pricing is $0.01 per second through October, well under both HeyGen's own post-launch list price and MiniMax H3's underlying $0.08-0.13/sec API rate.",
+      "whyItMatters": "A fine-tuned, 8x-cheaper repackaging of an open video model is a concrete playbook for undercutting a base model's sticker price on a narrower product — useful if Romain or Anna's stack ever leans on a fine-tuned open voice/video model instead of a frontier API.",
+      "url": "https://developers.heygen.com/docs/models/heygen-video",
+      "source": "HeyGen",
+      "tags": ["avatar", "video", "pricing"]
+    },
+    {
+      "id": "openai-chatgpt-space-devday",
+      "category": "general",
+      "title": "OpenAI launches ChatGPT Space, a shared workspace agents can edit alongside people",
+      "summary": "At DevDay on October 1, OpenAI introduced ChatGPT Space, replacing Library with a collaborative hub of 'Pages' — documents, spreadsheets, and files that people and ChatGPT (or an always-on 'Dot') edit together in real time, with comments, tagging, and automated meeting summaries. It ships for Pro, Business, and Enterprise users on desktop and web.",
+      "whyItMatters": "Not voice-specific, but the pattern of letting an agent maintain a shared, continuously-updated document is a feature idea worth borrowing for tracking a learner's progress or vocabulary notes between sessions with Romain or Anna.",
+      "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+      "source": "OpenAI",
+      "tags": ["openai", "agents", "product"]
+    },
+    {
+      "id": "anthropic-claude-code-mods",
+      "category": "general",
+      "title": "Anthropic ships Claude Code Mods, letting developers rewrite the CLI's own behavior",
+      "summary": "Anthropic released Claude Code 2.1.287 on October 1 with 'mods': small TypeScript functions that hook into Claude Code's own events to rewrite a prompt before it reaches the model, block or retry a tool call, approve/deny permissions, or redact secrets from tool output. Mods ship inside plugins and work in both the CLI and desktop app; early community examples track token spend live and add extra confirmation before destructive bash commands.",
+      "whyItMatters": "Directly useful for whoever is building Romain and Anna in Claude Code itself — a mod could auto-approve routine tool calls during a long build session or log token spend per feature without touching the core workflow.",
+      "url": "https://claude.com/blog/claude-code-mods",
+      "source": "Anthropic",
+      "tags": ["anthropic", "developer-tools", "claude-code"]
+    }
+  ]
+}
