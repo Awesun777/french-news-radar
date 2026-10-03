@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-02T06:18:46Z",
+  "generatedAt": "2026-10-03T06:17:20Z",
   "digests": [
+    {
+      "date": "2026-10-03",
+      "title": "Microsoft's streaming voice stack, Inworld buys Ultravox, Suno Speech beta",
+      "itemCount": 5,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Microsoft ships MAI-Transcribe-2-Streaming and MAI-Voice-2.1, a French-tested streaming ASR/TTS stack",
+        "Inworld acquires Ultravox, folding it into its sub-100ms Realtime TTS-2",
+        "Anthropic launches Claude Frontier Academy, $100M to train 10,000 enterprise AI engineers"
+      ]
+    },
     {
       "date": "2026-10-02",
       "title": "Tavus Griffin passes a video Turing test, HeyGen undercuts MiniMax",

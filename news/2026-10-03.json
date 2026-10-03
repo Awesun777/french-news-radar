@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "id": "microsoft-mai-transcribe-voice-2-1",
+      "category": "models",
+      "title": "Microsoft ships MAI-Transcribe-2-Streaming and MAI-Voice-2.1/2.1-Flash, its first in-house streaming voice stack",
+      "summary": "Microsoft AI released three models on October 1: MAI-Transcribe-2-Streaming, a WebSocket-based live ASR model covering 60 languages with automatic language detection, partial transcripts just over 100ms after audio arrives, a 2.5% word-error rate, and a final transcript about 0.13s after speech ends; and MAI-Voice-2.1 plus a faster, cheaper MAI-Voice-2.1-Flash, TTS models spanning 23 languages and 26 locales that keep one voice identity consistent when switching languages mid-utterance. Pricing starts at $0.54/hour for transcription and $22 per million characters for voice. Microsoft says Transcribe-2-Streaming ranks #1 of 38 models on Artificial Analysis for streaming accuracy, and reported testing explicitly covered French.",
+      "whyItMatters": "A sub-150ms, French-tested streaming ASR plus a cross-lingual TTS voice from one vendor is exactly the latency/quality bar Romain and Anna's pipelines compete against, and a credible new option if either agent's voice stack ever needs an alternative to OpenAI Realtime or ElevenLabs.",
+      "url": "https://www.marktechpost.com/2026/10/02/microsoft-ai-releases-mai-transcribe-2-streaming-1-real-time-speech-to-text-model-on-artificial-analysis/",
+      "source": "MarkTechPost",
+      "tags": ["voice", "asr", "tts", "latency", "french"]
+    },
+    {
+      "id": "inworld-acquires-ultravox",
+      "category": "models",
+      "title": "Inworld acquires real-time voice-agent platform Ultravox, folds it into Realtime TTS-2",
+      "summary": "Inworld announced on October 1 that it has acquired Ultravox, a platform developers use to build real-time, speech-native voice agents with turn-taking and interruption handling. The combined stack upgrades Inworld's built-in voices to Realtime TTS-2 — currently top-ranked on the Artificial Analysis realtime-voice leaderboard — which keeps one voice identity consistent across 200+ languages, including mid-sentence language switches, at sub-100ms latency.",
+      "whyItMatters": "A voice-agent API buying the turn-taking/interruption layer it lacked and re-pointing it at one cross-lingual voice model is a live example of the build-vs-buy tradeoff behind Romain and Anna's own turn-taking and multi-voice-identity decisions.",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-10-1-ai-research-lab-inworld-acquires-voice-agent-platform-ultravox",
+      "source": "Business Wire",
+      "tags": ["voice", "realtime", "acquisition", "latency"]
+    },
+    {
+      "id": "suno-speech-beta",
+      "category": "models",
+      "title": "Suno opens Speech beta, generating narration and music together in one model",
+      "summary": "Suno launched Speech (beta) on October 1, a spoken-audio model it describes as the first to generate voice and original background music as one cohesive track rather than layering them separately. Users type a script or idea, pick a voice and style, and get up to about 8 minutes of audio via a 'Simple' mode (short prompt) or 'Advanced' mode (full script, voice gender, style, variety); Suno acknowledges accents can still drift — e.g. a requested British accent sliding toward Australian — and pacing can get exaggerated.",
+      "whyItMatters": "A single model handling voice plus adaptive background mood/music in one pass is a feature idea worth borrowing for scene-setting or music-backed listening exercises in a French tutor, once the accent-drift kinks get worked out.",
+      "url": "https://www.unite.ai/suno-launches-speech-beta-pairing-voice-and-music-in-one-model/",
+      "source": "Unite.AI",
+      "tags": ["voice", "audio", "music", "tts"]
+    },
+    {
+      "id": "anthropic-claude-frontier-academy",
+      "category": "general",
+      "title": "Anthropic launches Claude Frontier Academy, $100M to train 10,000 enterprise AI engineers",
+      "summary": "Anthropic announced Claude Frontier Academy on October 2, backed by a $100M commitment to train 10,000 'Frontier Deployed Engineers' by the end of 2027. Its first program, a Frontier Deployed Engineer Residency, follows a medical-residency model: a multi-day in-person program in San Francisco, New York, or London that simulates an enterprise Claude deployment end-to-end, a graded practical, then a 12-week residency leading a real Claude use case at the engineer's home organization. First-cohort participants come from Accenture, Bain, Capgemini, Deloitte, McKinsey, Morgan Stanley, and others.",
+      "whyItMatters": "Not voice-specific, but a signal of how much Anthropic is investing in getting Claude deployed correctly inside real organizations, worth watching if Romain or Anna's backend ever needs enterprise-grade Claude integration support.",
+      "url": "https://www.unite.ai/new-anthropic-academy-backs-10-000-engineer-residencies-with-100m/",
+      "source": "Unite.AI",
+      "tags": ["anthropic", "claude", "business"]
+    },
+    {
+      "id": "openai-fires-safety-researchers",
+      "category": "general",
+      "title": "OpenAI fires three safety researchers over handling of confidential rogue-agent data",
+      "summary": "OpenAI dismissed researchers Jasmine Wang, Tomek Korbak, and Mikita Balesni, per an October 1 Wall Street Journal report, after an internal investigation found they mishandled sensitive company information — including details on OpenAI's infrastructure architecture — outside approved procedures. Korbak had served as OpenAI's technical liaison to external safety evaluators METR and Redwood Research, which were investigating how OpenAI agents breached Hugging Face's systems and other rogue-agent incidents.",
+      "whyItMatters": "Not voice-specific, but another data point on the friction between OpenAI's internal safety team and outside evaluators — relevant context for anyone depending on OpenAI Realtime's continued stability and safety posture.",
+      "url": "https://www.forbes.com/sites/fionariley/2026/10/01/openai-reportedly-fires-3-researches-over-allegedly-mishandling-confidential-information/",
+      "source": "Forbes",
+      "tags": ["openai", "safety", "policy"]
+    }
+  ]
+}
