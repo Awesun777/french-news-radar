@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-03T06:17:20Z",
+  "generatedAt": "2026-10-04T06:19:56Z",
   "digests": [
+    {
+      "date": "2026-10-04",
+      "title": "Gemini's free/Plus tiers shrink, Deepslate's sub-500ms EU voice model",
+      "itemCount": 5,
+      "categories": [
+        "models",
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "Google cuts Gemini Pro access for free and AI Plus users starting October 9",
+        "Berlin's Deepslate raises €7.7M for an EU-hosted, 27-language speech-to-speech model hitting 440ms",
+        "Audible lets listeners talk to a book's characters using generative AI"
+      ]
+    },
     {
       "date": "2026-10-03",
       "title": "Microsoft's streaming voice stack, Inworld buys Ultravox, Suno Speech beta",
