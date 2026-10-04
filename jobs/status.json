@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-10-02T18:25:56Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-10-04T08:05:42Z",
+  "outcome": "error",
   "newCount": 19,
-  "detail": "19 new postings (Barclays, Citi, Deutsche Bank, JP Morgan, Mizuho americas, Nomura, Pwc, Scotiabank)",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-10-02",
   "companies": {
     "Deutsche Bank": "ok",
