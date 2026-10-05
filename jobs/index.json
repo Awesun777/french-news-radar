@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-02T18:25:06Z",
+  "generatedAt": "2026-10-05T06:36:09Z",
   "digests": [
+    {
+      "date": "2026-10-05",
+      "itemCount": 3,
+      "companies": [
+        "Citi",
+        "Nomura"
+      ]
+    },
     {
       "date": "2026-10-02",
       "itemCount": 19,

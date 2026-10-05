@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-05T06:36:01Z",
+  "items": [
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Summer Associate, New York (North America \u2013 2027)",
+      "url": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-associate-new-york-north-america-2027/287/101451410192",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Latin America Group Summer Associate, New York (North America \u2013 2027)",
+      "url": "https://jobs.citi.com/job/new-york/banking-investment-banking-latin-america-group-summer-associate-new-york-north-america-2027/287/101451409984",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "Part-time Tax Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Part-time-Tax-Analyst-NY-10019/1436553200/",
+      "location": "New York, NY",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    }
+  ]
+}
