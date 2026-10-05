@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "id": "google-gemini-free-plus-access-cut",
+      "category": "models",
+      "title": "Google cuts Gemini Pro access for free and AI Plus users starting October 9",
+      "summary": "Reports on October 3 detail a Gemini access overhaul Google is rolling out following Gemini 4 Argon's launch: free users drop from Flash to Flash-Lite only on October 9, and $4.99/month AI Plus subscribers lose Gemini Pro entirely (keeping Flash and Flash-Lite), with Google emailing Plus subscribers their individual cutover date. Only AI Pro and Ultra subscribers keep full access to Pro, and Pro on those tiers gains the Deep Think feature that was previously Ultra-only.",
+      "whyItMatters": "If any backend task for Romain or Anna (lesson planning, content generation, grading) leans on a free or low-tier Gemini key, budget now for Pro access disappearing October 9 — Flash/Flash-Lite are what's left, so prompts may need re-tuning for a smaller model.",
+      "url": "https://www.xda-developers.com/google-ai-plus-users-are-losing-access-to-geminis-pro-model-and-its-happening-very-soon/",
+      "source": "XDA Developers",
+      "tags": ["google", "gemini", "pricing", "policy"]
+    },
+    {
+      "id": "deepslate-seed-eu-speech-to-speech",
+      "category": "models",
+      "title": "Berlin's Deepslate raises €7.7M for an EU-hosted, 27-language speech-to-speech voice model",
+      "summary": "Deepslate, a Berlin voice-AI startup, closed a €7.7M seed round led by 42CAP on October 1. Its in-house speech-to-speech model processes audio directly rather than cascading through ASR/LLM/TTS, covers 27 languages, and is hosted entirely within the EU for GDPR compliance. Deepslate says an independent Artificial Analysis benchmark measured it at 440ms end-to-end response time, the fastest of any speech-to-speech model tested as of September 2026.",
+      "whyItMatters": "A GDPR-hosted, sub-500ms speech-to-speech model built for European languages is a concrete alternative to OpenAI Realtime or ElevenLabs worth benchmarking for French-specific latency and EU data residency if Romain or Anna's stack ever needs one.",
+      "url": "https://tech.eu/2026/10/01/deepslate-secures-eur77m-for-its-european-voice-ai-platform/",
+      "source": "Tech.eu",
+      "tags": ["voice", "realtime", "latency", "funding"]
+    },
+    {
+      "id": "deepseek-huawei-ascend-open-source",
+      "category": "models",
+      "title": "DeepSeek and Huawei open-source a CUDA-alternative toolchain for Ascend chips",
+      "summary": "DeepSeek released a set of open-source programming tools for Huawei's Ascend AI chips on October 1 (China's National Day), including TileLang, DeepGEMM-Ascend, DeepEP-Ascend, TileKernels, FlashMLA, and DeepSelect — compute and communication libraries meant as a simpler, non-Nvidia alternative to CUDA. Huawei provided development support, and the two companies previously co-built a 128-chip Ascend 950 'supernode' system.",
+      "whyItMatters": "Not voice-specific, but a credible, Nvidia-free training/inference stack from a major LLM vendor is a cost lever worth tracking if Romain or Anna's backend LLM costs ever need a cheaper, non-Nvidia-dependent path.",
+      "url": "https://technode.global/2026/10/01/deepseek-huawei-ascend-ai-programming-tools/",
+      "source": "TechNode Global",
+      "tags": ["deepseek", "infrastructure", "cost", "open-source"]
+    },
+    {
+      "id": "audible-talk-to-book-characters",
+      "category": "inspiration",
+      "title": "Audible lets listeners talk to a book's characters using generative AI",
+      "summary": "Audible rolled out three new features on October 1: exploring a book's characters and settings, viewing bonus imagery and context about places mentioned in the story, and — the headline feature — holding an interactive, generative-AI conversation with a book's characters mid-listen.",
+      "whyItMatters": "An in-book character you can talk to in real time is close kin to a tutor persona like Anna staying in character during a roleplay — worth studying how Audible scoped turn-taking, voice, and character consistency for a narrative (not instructional) AI conversation.",
+      "url": "https://techcrunch.com/2026/10/01/audibles-new-features-let-you-explore-book-worlds-and-even-talk-to-characters/",
+      "source": "TechCrunch",
+      "tags": ["inspiration", "conversational-ai", "audio", "feature-idea"]
+    },
+    {
+      "id": "meta-muse-smart-glasses",
+      "category": "general",
+      "title": "Meta's Muse AI agent is coming to its smart glasses",
+      "summary": "Meta said on October 2 that its Muse AI agent, woken with 'Hey Muse' or a custom name, is coming to Meta's smart glasses. Muse runs tasks (reservations, flight searches, workout guidance, logging meals) in a persistent cloud Linux VM with its own browser and filesystem, working in the background and reporting back once done.",
+      "whyItMatters": "Not a voice-tutor release, but a reminder that a voice wake-word plus a background agent that reports back later is becoming a mainstream consumer UX pattern — a model for how Romain or Anna could handle longer, multi-step homework or review tasks.",
+      "url": "https://www.uploadvr.com/meta-smart-glasses-getting-muse-ai-agent/",
+      "source": "UploadVR",
+      "tags": ["meta", "wearables", "voice", "agents"]
+    }
+  ]
+}

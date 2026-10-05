@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "id": "trump-super-intelligence-force",
+      "category": "general",
+      "title": "Trump creates a federal 'Super Intelligence Force' to steer US AI policy",
+      "summary": "President Trump announced on October 4 the formation of a new 'Super Intelligence Force,' naming Director of National Intelligence Jay Clayton to lead it alongside FTC Chair Andrew Ferguson, Pentagon tech chief Emil Michael, and OPM Director Scott Kupor. The body reports to the president and White House Chief of Staff Susie Wiles, and is tasked with coordinating the federal government's engagement with AI companies, infrastructure providers, and the public as a follow-up to an earlier White House Accord on Super Intelligence.",
+      "whyItMatters": "Not voice-specific, but a new top-level federal AI coordinating body signals more policy attention — and potentially new disclosure or compliance expectations — heading toward anyone building products on OpenAI's or Anthropic's APIs.",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "source": "TechCrunch",
+      "tags": ["policy", "government", "regulation"]
+    },
+    {
+      "id": "kyoto-vision-ai-science-pact",
+      "category": "general",
+      "title": "US and 16 nations endorse the 'Kyoto Vision' to put AI at the center of scientific research",
+      "summary": "At the STS Forum in Kyoto, the US — led by White House OSTP Director Michael Kratsios — and 16 other countries including Japan, the UK, and Germany endorsed the 'Kyoto Vision for a Golden Age of Science' on October 4-5. The statement calls for autonomous AI-driven experimentation at scale, faster and more flexible research funding, and wider access to compute and scientific data for researchers.",
+      "whyItMatters": "Not voice-specific, but a sign governments are formally backing AI-run experimentation and broader compute access for research — a direction-of-travel signal worth tracking for AI policy generally.",
+      "url": "https://www.whitehouse.gov/releases/2026/10/us-leads-international-coalition-to-endorse-kyoto-vision-for-a-golden-age-of-science/",
+      "source": "The White House",
+      "tags": ["policy", "international", "science"]
+    }
+  ]
+}
