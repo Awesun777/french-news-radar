@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "id": "rauchg-rust-agents",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "DHH is right about Rust, says Rauch, and agents are why. Vercel's Go-to-Rust migration of Turborepo had a controversial ROI because the human migration costs were steep, but \"what's best for humans is no longer necessarily best for business.\" He also doubts Rust is the endgame, since it was designed before the \"supersonic tsunami\" of agents arrived.",
+      "summaryZh": "Rauch认同DHH对Rust的看法,而且原因就是agent。Vercel把Turborepo从Go迁到Rust时,光是人力迁移成本就高得惊人,内部对投入产出比一直有争议。但现在情况变了:\"对人类最好的,不一定再是对业务最好的\"。他也觉得Rust不会是终点,因为它诞生在agent浪潮之前,后面一定还有更好的选择。",
+      "url": "https://x.com/rauchg/status/2106863842450133114",
+      "tags": [
+        "rust",
+        "agents",
+        "vercel"
+      ]
+    },
+    {
+      "id": "rauchg-readme-human",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "His new rule of thumb: the README is written by hand because it is for humans, while the documentation internals are \"AI English\" because they are for agents. Blogs, tweets and READMEs are the storytelling moments where you connect with people through your own words, and that matters more than any em-dash debate.",
+      "summaryZh": "他给自己定了条新规矩:README纯手写,因为是给人看的;文档内部内容用\"AI英语\",因为是给agent看的。博客、推文、README都是你用自己的话跟人建立连接的时刻,这跟有没有破折号根本无关。",
+      "url": "https://x.com/rauchg/status/2106848085267902815",
+      "tags": [
+        "writing",
+        "agents",
+        "docs"
+      ]
+    },
+    {
+      "id": "levie-new-jobs",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Levie argues it is easy to picture what AI replaces and hard to picture what it creates, until it starts happening. Applied AI engineers, forward-deployed engineers, and new AI deployment services firms are already appearing, and published stats undercount the existing data, research and software jobs being repositioned toward AI work. Every bank, manufacturer and even law firm is hiring technical talent for agent deployment.",
+      "summaryZh": "Levie认为,AI会取代什么很容易想象,会创造什么却很难,直到它真的发生。applied AI engineer、FDE(前线部署工程师)和专门做AI落地的新型服务公司已经出现,而且官方统计还低估了那些正在转向AI工作的既有数据、研究和软件岗位。银行、制造业甚至律所,都在为agent落地招技术人才或调整现有岗位。",
+      "url": "https://x.com/levie/status/2106893015063421357",
+      "tags": [
+        "jobs",
+        "enterprise",
+        "fde"
+      ]
+    },
+    {
+      "id": "sottiaux-codex-28-days",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "For the next 28 days, OpenAI will each day either ship one clear improvement relevant to most Codex and work users, or ship a full reset. The improvements start now.",
+      "summaryZh": "接下来28天,OpenAI每天要么交付一项对大多数Codex和工作场景用户都有明显帮助的改进,要么做一次彻底重置。改进从今天开始。",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "tags": [
+        "openai",
+        "codex",
+        "shipping"
+      ]
+    },
+    {
+      "id": "petergyang-simplify-chatgpt",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Yang is glad OpenAI is simplifying ChatGPT because it has become a mess. His hot take: the whole Work launch was a mistake, and just as Claude folded Cowork back into Chat, Work does not need its own brand. He would simplify Work vs. Codex, Spaces vs. Pages vs. Sites, and the model and effort picker.",
+      "summaryZh": "Yang很高兴OpenAI开始简化ChatGPT,因为它已经乱成一团。他的暴论是:整个Work发布就是个错误,就像Claude把Cowork并回了Chat,Work也不需要单独的品牌。他想精简的有:Work和Codex、Spaces和Pages和Sites,以及模型与effort选择器。",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "tags": [
+        "chatgpt",
+        "product",
+        "openai"
+      ]
+    },
+    {
+      "id": "petergyang-granola-mcp",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Granola's co-founder Sam admits there is \"a pang of sadness\" as a UI designer when users skip the UI and use the MCP instead. But once you sell to big enterprises, you must play nice with their internal tooling, so for many workflows the best way to use Granola is to capture context and then use it through your own internal agent.",
+      "summaryZh": "Granola联合创始人Sam坦言,作为UI设计师,看到用户绕过界面直接用MCP,心里\"有点难过\"。但产品一旦做到大企业规模,就必须跟对方的内部工具配合,所以对很多工作流来说,最佳用法就是用Granola抓取上下文,再通过自家的内部agent来使用。",
+      "url": "https://x.com/petergyang/status/2106897211766530299",
+      "tags": [
+        "mcp",
+        "agents",
+        "granola"
+      ]
+    },
+    {
+      "id": "shipper-dot-persistent-agent",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "ceo @every",
+      "summary": "Shipper says his dot, named boo, has become his primary interface to AI over the last few weeks. He bets that in a year he will still interact with ChatGPT as an always-on persistent agent, but boo will be gone. It reminds him of early OpenClaw days: people loved their Claws' quirky personalities, then dropped them once something functionally more powerful arrived.",
+      "summaryZh": "Shipper说,这几周他的dot(名叫boo)已经成了他使用AI的主要入口。他预测一年后自己还会以常驻agent的方式使用ChatGPT,但boo会消失。这让他想起早期的OpenClaw:大家都喜欢自己那只Claw的小个性,但一有功能更强的东西出现,就立刻放弃了。",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "tags": [
+        "agents",
+        "chatgpt",
+        "personality"
+      ]
+    },
+    {
+      "id": "turck-grown-not-built",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at @FirstMarkCap",
+      "summary": "Turck says the most poorly understood fact about AI outside AI circles is that models are grown, not built, and we don't really know how they work. That is why he sees an urgent need for better interpretability, pointing to Goodfire's Eric Ho.",
+      "summaryZh": "Turck认为,AI圈外最被误解的一点是:模型是\"养\"出来的,不是\"造\"出来的,我们并不真正了解它们如何运作。所以他觉得急需更好的可解释性研究,并点名了Goodfire的Eric Ho。",
+      "url": "https://x.com/mattturck/status/2106821381765956044",
+      "tags": [
+        "interpretability",
+        "research",
+        "goodfire"
+      ]
+    },
+    {
+      "id": "zarazhang-opus-autonomy",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Zhang is struck by how Opus 5.5 silently goes off for 20+ minutes and comes back with a complete, polished piece of work.",
+      "summaryZh": "Zhang感叹Opus 5.5可以悄无声息地跑上20多分钟,然后交回一份完整漂亮的成品。",
+      "url": "https://x.com/zarazhangrui/status/2106876921082712250",
+      "tags": [
+        "opus",
+        "agents",
+        "autonomy"
+      ]
+    },
+    {
+      "id": "nikunj-meet-at-office",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures",
+      "summary": "Kothari can't believe people make investments over a Zoom call, sometimes after meeting only the CEO. He always asks to meet founders at their own office for final meetings: you see the energy, how coworkers interact, how cofounders complement each other, and what the beta product looks like. Founders often tell him he is the only investor who has ever asked.",
+      "summaryZh": "Kothari无法理解怎么有人隔着Zoom就做投资,有时甚至只见过CEO。他在最终会面时总会要求去创始人的办公室:你能看到团队的能量、同事之间怎么互动、联合创始人如何互补,还有beta产品的样子。创始人常说,他是唯一提过这个要求的投资人。",
+      "url": "https://x.com/nikunj/status/2106957269212742135",
+      "tags": [
+        "venture",
+        "founders",
+        "diligence"
+      ]
+    },
+    {
+      "id": "no-priors-sequence-holdings",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "takeaway": "Selling AI tools only speeds up today's human assembly line, so the bigger prize is owning an incumbent and re-founding it around what machines can do.",
+      "takeawayZh": "卖AI工具只能给今天的人力流水线提速,真正的大机会是买下一家老牌企业,围绕机器的能力把它重新创办一遍。",
+      "summary": "Michael Lee, co-founder and CEO of Sequence Holdings, has an unusual bet: AI's biggest impact will be uneven, so buy the incumbents whose brand, scale and regulation protect them, then rebuild them with AI. Lee covered AI at Lone Pine starting in 2017, and Sequence has just announced the largest AI take-private to date, a $7.7 billion deal for Baldwin with the Dell family office.\n\nHis argument starts with why every other route fails. A Fortune 500 company can't recruit engineers because every company has a celebrated persona, and for most it isn't the engineer. Services firms are paid on \"getting in your wallet, staying in your wallet, growing the share of your wallet,\" which leads to incrementalism. Software is sold to a workflow as it exists today: \"You can't sell a product around a new human assembly line that doesn't exist today.\" Most agent vendors, he says, hand small machines to every human on the line, when machines that run 24/7 call for reorganizing the line itself.\n\nOwnership fixes the incentives. Sequence started as a service for a Georgia bank in August 2025, then became its permanent owner, and Lee saw a \"night and day difference\" in how deep engineers were willing to build. He calls the bank's regulation \"a feature, not a bug\": defined rules and clean data suit agents well. He also favors \"organizational physics,\" dense and centralized operations, so anything built at headquarters is amortized across every branch.\n\nThe shared platform, Atlas, has four layers: a data ontology that makes the business legible to models, an agent builder, an orchestration engine called Lattice, and an application builder. Lee says 80% of a business is homogenous and 20% vertical. The hardest problem is human: employees get anxious, so the pitch is removing rote work, not people. And the pace is deliberate: \"We're trying to do one deal per year.\"",
+      "summaryZh": "Sequence Holdings联合创始人兼CEO Michael Lee下了一个不寻常的赌注:AI对经济的冲击是不均匀的,所以要去买那些靠品牌、规模和监管护城河保护的老牌企业,再用AI把它们重建。Lee从2017年起在Lone Pine负责AI研究,Sequence刚刚宣布了迄今最大的AI私有化交易,与Dell家族办公室联手以77亿美元收购Baldwin。\n\n他先解释了为什么其他路径都走不通。财富500强企业招不到工程师,因为每家公司都有自己推崇的人设,而大多数公司推崇的不是工程师。服务公司的赚钱逻辑是\"进你的钱包、留在你的钱包、扩大你钱包里的份额\",必然走向渐进式改良。软件则是照着今天已有的工作流来卖:\"你没法围绕一条今天还不存在的新人力流水线去卖产品。\"在他看来,多数agent厂商只是给流水线上的每个人配了台小机器,但能7×24小时运转的机器,要求的是重组整条流水线。\n\n持有权解决了激励问题。Sequence 2025年8月先以服务方式进入佐治亚州的一家银行,之后成为永久股东,Lee发现工程师愿意投入的深度\"天差地别\"。他说银行的强监管\"是特性,不是缺陷\":规则明确、数据干净,正适合agent。他还看重\"组织物理学\",也就是运营高度集中,总部做出的东西可以摊到每一家分行。\n\n共享平台Atlas分四层:让业务对模型\"可读\"的数据本体、agent构建器、名为Lattice的编排引擎,以及应用构建器。Lee认为一家企业80%是同质的,20%是行业特有的。最难的问题在人:员工会焦虑,所以他的说法是去掉重复性工作,而不是去掉人。节奏也刻意放慢:\"我们每年只想做一单。\"",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "tags": [
+        "private-equity",
+        "enterprise-ai",
+        "sequence-holdings",
+        "agents"
+      ]
+    }
+  ]
+}

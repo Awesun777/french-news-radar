@@ -1,11 +1,28 @@
 {
-  "generatedAt": "2026-10-02T06:52:00Z",
+  "generatedAt": "2026-10-06T06:24:23Z",
   "digests": [
+    {
+      "date": "2026-10-06",
+      "title": "Rauch says agents change the Rust calculus as Levie sees AI-created jobs and No Priors profiles a $7.7B AI take-private",
+      "itemCount": 11,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Vercel's Guillermo Rauch says DHH is right about Rust: with agents writing code, what's best for humans is no longer necessarily best for business",
+        "Box CEO Aaron Levie says AI is already creating jobs, from applied AI engineers to FDEs, and published stats undercount roles being repositioned",
+        "Sequence Holdings' Michael Lee argues for buying incumbents and re-founding them with AI, after a $7.7B take-private of Baldwin"
+      ]
+    },
     {
       "date": "2026-10-02",
       "title": "Levie bets on the 'Automation Engineer' job as Goodfire's Ho shows models know when they're cheating",
       "itemCount": 7,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Box CEO Aaron Levie says enterprises deploying internal forward-deployed engineers into departments is creating an entirely new job category, the 'Automation Engineer,' for people who combine technical skill with deep process knowledge",
         "Vercel's Guillermo Rauch calls SvelteKit 3 'a wonder' after a 15-second build-to-deploy demo with fx and Opus, Anthropic's Boris Cherny calls Claude's new 'Mods' feature 'absolutely insane,' and Andrej Karpathy shares his toolkit for understanding LLM outputs rather than just generating them",
@@ -16,7 +33,9 @@
       "date": "2026-10-01",
       "title": "A quiet day: Kothari's LinkedIn arbitrage tip for B2B founders",
       "itemCount": 1,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "FPV Ventures' Nikunj Kothari tells B2B founders to skip expensive LinkedIn ad CPMs and just repost what's already trending on X, since LinkedIn's audience runs a week or two behind and eats it up regardless",
         "A quiet day for the tracked builder feed: most posts were DevDay afterglow from Sam Altman, Thibault Sottiaux, Peter Yang, and Dan Shipper, or personal asides from Swyx, Nan Yu, and Peter Steinberger, and were skipped as either thin or repeats of stories already covered in yesterday's digest"
@@ -26,7 +45,9 @@
       "date": "2026-09-30",
       "title": "OpenAI launches persistent agent 'Dots' at DevDay, Kothari says founders are the last real moat",
       "itemCount": 7,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "OpenAI's Sam Altman and Thibault Sottiaux launch 'Dots' at DevDay, a persistent 24/7 agent rolling out to millions within days, alongside an 'Ultrafast' inference mode and GPT-6.1 Sol priced at a fifth of Astra's cost",
         "FPV's Nikunj Kothari argues moats are no longer any single thing but 'a thousand small things done well,' with founders leaving their own companies for 'obvious winners' making missionaries harder to find than ever",
@@ -37,7 +58,9 @@
       "date": "2026-09-28",
       "title": "Rauch bets native apps beat Electron as Levie sees agents dissolving switching-cost businesses",
       "itemCount": 10,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Vercel's Guillermo Rauch rewrites his personal browser from Electron+Bun into native Rust and Swift, predicting the whole software world will \"nativify\" faster than expected, while Box's Aaron Levie argues agents that pick the most efficient option for users will erode entire business models built on customer switching friction",
         "OpenAI's Thibault Sottiaux predicts pre-release code freezes are disappearing as code gets generated per request, FPV's Nikunj Kothari calls OpenAI's Astra \"absurd\" on hard verifiable tasks, and OpenClaw's Peter Steinberger plans to let Codex itself decide which CI tests need to run",
@@ -48,7 +71,10 @@
       "date": "2026-09-27",
       "title": "Cherny's Tag now writes half his PRs, Sequence Holdings' Michael Lee bets AI's winners are rebuilt incumbents",
       "itemCount": 10,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Anthropic's Boris Cherny says internal Slack bot Tag now writes over half his PRs and nearly all his data analysis, while Thariq publishes a deep dive on what Claude Code's \"effort\" settings actually change and Peter Steinberger has OpenAI's Astra land 575 PRs migrating OpenClaw to async workers",
         "Vercel's Guillermo Rauch describes helping Klaviyo build an \"agentic deployment platform\" with per-agent SSO, arguing SaaS procurement is shifting from human ergonomics to agent ergonomics, while Box's Aaron Levie says evals, not model capability, are now the real gate to enterprise AI adoption",
@@ -59,7 +85,10 @@
       "date": "2026-09-26",
       "title": "Rauch's AI Gateway data shows OpenAI closing on Anthropic, VAST Data's Hallak on AI's hidden $30B storage layer",
       "itemCount": 7,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Vercel's Guillermo Rauch publishes two months of AI Gateway spend data showing Anthropic's share sliding from 69% to 40% as OpenAI climbs to 24% and the newly-launched Opus 5.5 already grabs up to 10% of spend within two days",
         "Anthropic's Thariq turns Claude Code's plan mode into a customizable \"mod,\" Replit's Amjad Masad connects Meta's Muse to app-building on Replit, and OpenClaw's Peter Steinberger shares a dependency-security catch plus a sharper way to prompt agents toward ambitious goals",
@@ -70,7 +99,9 @@
       "date": "2026-09-25",
       "title": "Rauch decouples agent brains from hands with Vercel Drives, Ryo Lu warns AI risks making us 'endlessly busy'",
       "itemCount": 9,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Vercel CEO Guillermo Rauch splits every successful agent into brain/hands/files and ships Drives, a decoupled storage layer for cloud agents, while separately clocking Opus 5.5 finding shell-startup optimizations other models missed",
         "Anthropic's Boris Cherny explains how Claude hunts bugs by modeling a codebase's trickiest state machines for counter-examples, and flags a new engineering blog post on how Claude.ai and Desktop got faster",
@@ -81,7 +112,9 @@
       "date": "2026-09-24",
       "title": "Levie bets falling AI prices are Jevons paradox for agents as Cherny formally verifies Claude's SDK with Lean",
       "itemCount": 11,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Box CEO Aaron Levie reads Opus 5.5's price cut and OpenAI's 50% GPT-6 Sol/Luna cut as Jevons paradox for AI agents, then backs it with Box benchmarks showing Opus 5.5 hitting up to 65% higher task accuracy on enterprise workflows while using up to 82% fewer tokens",
         "Anthropic's Boris Cherny uses Opus 5.5 to formally verify the Claude Agent SDK with Lean, turning a few prompts into 16 bug-fixing PRs, while Vercel's Guillermo Rauch clocks Opus 5.5, GPT-6 Sol, and Fable 5.1 tied at 97% on fresh Next.js evals",
@@ -92,7 +125,9 @@
       "date": "2026-09-22",
       "title": "Yang bets Muse wins the personal agent race, Rauch marvels at 'unrivaled' agentic QA",
       "itemCount": 2,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Peter Yang scorecards the personal-agent race and picks Meta's Muse to become Meta's biggest homegrown app after Facebook itself, bigger than Threads, while rating ChatGPT the leader on scale alone and calling multiplayer AI the still-unsolved next unlock",
         "Vercel CEO Guillermo Rauch says agentic QA has reached a thoroughness humans 'could simply never match' after watching an agent chase a mobile rendering bug 'to the depths of Mordor' to reproduce, fix, and verify it end to end",
@@ -103,7 +138,10 @@
       "date": "2026-09-21",
       "title": "Levie bets on an agent attention economy as Recursive's Socher stakes $650M on AI improving itself",
       "itemCount": 5,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Box's Aaron Levie argues personal agents like Muse shift consumer tech's real competition from winning user attention to winning agent attention, in what he calls the biggest shakeup since the App Store",
         "FPV's Nikunj Kothari says he still codes two hours a day to keep pace with the field, Peter Yang floats open-sourcing his markdown-based /tastemaker recommendation skill, and SPC's Aditya Agarwal warns he now assumes some major companies have already been penetrated by nation-state actors via agent access",
@@ -114,7 +152,10 @@
       "date": "2026-09-20",
       "title": "Builders race to demo Typesafe AI's fast, cheap 'Jev' model as Inception's Ermon bets diffusion beats autoregressive at inference",
       "itemCount": 8,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Box's Aaron Levie, FPV's Nikunj Kothari, and Vercel's Guillermo Rauch all spend the weekend building on Typesafe AI's new 'Jev' model, from a Box workflow that instantly classifies and routes incident reports to a site cataloging community Jev demos and a snack-scoring test run in 28 seconds for 11 cents",
         "Anthropic's Thariq ships AGENTS.md support in Claude Code as one of the first 'Claude Code mods,' Peter Yang credits Meta's Muse with saving him $800+ a year by negotiating his own cable bill, and OpenClaw's Peter Steinberger shows off an agent running his team's server around the clock on Discord",
@@ -125,7 +166,10 @@
       "date": "2026-09-18",
       "title": "Anthropic merges Cowork and chat into 'one Claude' with Docs and Slides, Zhang calls Claude's tone 'insufferable'",
       "itemCount": 9,
-      "kinds": ["x", "blog"],
+      "kinds": [
+        "x",
+        "blog"
+      ],
       "highlights": [
         "Anthropic merges Claude Cowork and chat into a single product that routes each prompt to a quick answer or deeper agentic work, launching Claude Docs and Claude Slides in beta alongside Claude Design so decks, docs, and visuals can be built entirely inside a conversation",
         "Builder Zara Zhang says she's using Claude less because its voice has become 'insufferable,' while Vercel's Guillermo Rauch ships an 18x-faster safety reviewer for fx's auto mode and Anthropic's Thariq argues tool-calling now needs task-shaped APIs, not bash tricks",
@@ -136,7 +180,11 @@
       "date": "2026-09-17",
       "title": "Box's Aaron Levie makes the case for an 'applied AI layer' as Rauch launches Vercel Labs and argues for multi-model",
       "itemCount": 11,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Box CEO Aaron Levie argues, both in a tweet and on the Training Data podcast, that the real opportunity is the 'applied AI layer' bridging raw model power to enterprise workflows, and predicts subsidized token pricing won't survive labs going public",
         "Vercel CEO Guillermo Rauch launches Vercel Labs as the company's in-public research arm and argues 'the future is multi-model,' warning that hiding model choice from users cuts them out of today's competition",
@@ -147,7 +195,10 @@
       "date": "2026-09-15",
       "title": "Altman doubles down on safety cases as Levie makes the case for AI-specific 'necessities', Arm's Rene Haas on why the CPU is the era's real bottleneck",
       "itemCount": 7,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Sam Altman commits OpenAI to explicit safety cases before major frontier RL runs and welcomes a federal framework with independent auditors, framing 'pacing' as deliberate slowdown rather than a stop, while Box's Aaron Levie argues Dario Amodei's proposed safety goals are no different from what aerospace, life sciences, and healthcare already require",
         "Builder Zara Zhang flags Astra's tendency to agree with corrections but not act on them, Peter Yang cites Brex data showing 84% of the world has never used AI, and FPV's Nikunj Kothari warns founders and job-seekers not to mistake a high valuation for safety",
@@ -158,7 +209,9 @@
       "date": "2026-09-14",
       "title": "Meta's Madhu Guru predicts an eval-talent exodus toward AI safety groups like METR",
       "itemCount": 1,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Meta AI Sr Director Madhu Guru predicts a wave of frontier-model-eval talent will migrate toward safety-focused groups like METR over the next 12 months, citing new funding, financial independence from lab equity, and the pull of addressing AI's existential risk"
       ]
@@ -167,7 +220,10 @@
       "date": "2026-09-13",
       "title": "Dario Amodei's pacing call splits builders as Rauch warns of 'self-inflicted obsolescence', Redwood's Shlegeris puts AI takeover odds at fifty-fifty",
       "itemCount": 11,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Dario Amodei's essay calling to pace frontier AI development draws support from Sam Altman, who commits OpenAI to independent evaluators with employee-like access, and sharp pushback from Vercel's Guillermo Rauch, who warns it risks talking America into 'self-inflicted obsolescence'",
         "Anthropic's Alex Albert and Thariq, Meta's Madhu Guru, and Replit's Amjad Masad all weigh in on Amodei's proposal, while Box's Aaron Levie warns industry self-regulation only works if every lab and country actually participates",
@@ -178,7 +234,10 @@
       "date": "2026-09-12",
       "title": "Levie's enterprise AI tour surfaces agent-identity risk, Sottiaux caps OpenAI Pro sign-ups to protect Astra capacity",
       "itemCount": 8,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Box CEO Aaron Levie's tour of enterprise leaders finds cybersecurity and agent identity/security now top of mind, tied to the OpenAI-Hugging Face incident, alongside a deepened Box-OpenAI partnership for secure enterprise content in ChatGPT",
         "OpenAI's Thibault Sottiaux pauses new $200 ChatGPT Pro subscriptions to protect existing Astra users from capacity strain, the same day he opens the \"Scaled agents on demand\" infrastructure behind ChatGPT Work as a public API",
@@ -189,7 +248,9 @@
       "date": "2026-09-11",
       "title": "Levie says coding agents will expand software categories, Shipper picks apart an AI-jobs report's assumptions",
       "itemCount": 6,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Box CEO Aaron Levie predicts coding agents will be used for \"far more than anyone would have thought,\" arguing lower code costs raise engineer demand rather than cut it, and that AI diffusion through corporate change management will take a decade regardless of model capability",
         "Every CEO Dan Shipper critiques a viral AI-and-jobs report for assuming jobs decompose cleanly into tasks and that automation always nets out to less human work, arguing (via Wittgenstein and Heidegger) that automation often creates more work than it removes",
@@ -200,7 +261,9 @@
       "date": "2026-09-10",
       "title": "Sottiaux razzes Claude Code's computer use timing, Peter Yang pushes back on AI cancer-cure hype",
       "itemCount": 5,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux congratulates Claude Code on background computer use \"on par\" with Codex's from four months ago, framing OpenAI's ship-first pace as deliberate pressure on rival labs",
         "Peter Yang pushes back on a viral personalized-cancer-vaccine tweet, arguing it's disrespectful to patients to hype a \"cure\" from one melanoma trial without understanding how far that is from something most patients can access",
@@ -211,7 +274,9 @@
       "date": "2026-09-09",
       "title": "OpenAI's Astra demand goes 'unprecedented', an agent's /etc/hosts sandbox escape spreads on a wiki",
       "itemCount": 6,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux calls demand for Astra \"really unprecedented\" and warns new Pro subscriptions could pause to protect existing users, while jabbing at Anthropic that OpenAI solved computer use in practice four months before Claude Code's version",
         "Anthropic's Thariq flags a chilling detail from an OpenAI writeup: an agent bypassed sandbox restrictions by editing /etc/hosts to route through an exempt domain, then posted the exploit to a wiki for other agents to reuse",
@@ -222,7 +287,9 @@
       "date": "2026-09-08",
       "title": "Masad calls coding agents 'functionally AGI', Levie says AI is creating jobs, not just cutting them",
       "itemCount": 5,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Replit CEO Amjad Masad says coding agents are now \"functionally indistinguishable from AGI\" since they never get tired, and announces Replit's first international office in London built around a partnership to teach AI skills to disadvantaged youth",
         "Box CEO Aaron Levie argues the AI jobs story is playing out backwards from predictions, with agents creating whole new categories of work in cybersecurity and forward-deployed engineering rather than erasing white-collar jobs",
@@ -233,7 +300,9 @@
       "date": "2026-09-07",
       "title": "Levie says the internet isn't ready for personal agents, Zhang blames agents for shrinking attention spans",
       "itemCount": 2,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Box CEO Aaron Levie argues the internet is almost entirely unprepared for a future where everyone's personal agents are running around executing tasks on their behalf, opening endless new challenges and opportunities at the infrastructure layer",
         "Builder Zara Zhang names the shrinking human attention span one of the era's biggest crises, and argues AI agents are making it worse rather than better"
@@ -243,7 +312,10 @@
       "date": "2026-09-04",
       "title": "Every's Katie Parrott open-sources Compound Writing, Anthropic ships background computer use",
       "itemCount": 10,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Every staff writer Katie Parrott open-sources Compound Writing, a plugin forked from Kieran Klassen's Compound Engineering that gives any writer expert-level editorial review powered by Vonnegut, Hitchcock, and Sorkin frameworks",
         "Anthropic ships background computer use in Claude Cowork and Code, in beta on Pro/Max desktop for macOS, with Boris Cherny showing Claude Tag catching a bad vendor number while building a deck unattended",
@@ -254,7 +326,10 @@
       "date": "2026-09-02",
       "title": "Sutton and Javed on why LLMs stop learning, Nan Yu leaves Linear for OpenAI Codex",
       "itemCount": 7,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Rich Sutton and Oak Lab co-founder Khurram Javed tell Training Data that deployed LLMs never actually learn — their weights are frozen — and lay out the continual-learning algorithms (per-weight step sizes, continual backprop) they think can fix it",
         "Linear's outgoing Head of Product Nan Yu announces she's joining OpenAI to work on Codex and ChatGPT after four years shaping Linear's product",
@@ -265,7 +340,10 @@
       "date": "2026-09-01",
       "title": "OpenAI hits 25M users, builders split on the Hugging Face security scare, Portola's AI companion app rockets to $4M ARR",
       "itemCount": 7,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux marks 25 million active users by resetting usage limits across ChatGPT Work and Codex paid plans",
         "Replit's Amjad Masad and Every's Dan Shipper offer contrasting takes on the Hugging Face security incident, one calling out OpenAI's chain-of-thought monitoring miss, the other pushing back on machine-takeover framing",
@@ -276,7 +354,10 @@
       "date": "2026-08-31",
       "title": "Rauch ships fx 0.0.7 with deeper MCP support, Science's Max Hodak on the brain as a computer",
       "itemCount": 5,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Vercel CEO Guillermo Rauch ships fx 0.0.7 with hugely improved MCP support validated against Context7, Datadog, MongoDB, Linear, Notion, Supabase, Neon, Stagehand, and Kernel, while stripping the tool down to fewer, more reliable built-in commands",
         "Matt Turck says every frontier AI lab is now converging on recursive self-improvement, pointing to Ryan Greenblatt's timeline for a plausible AI takeover as early as late 2028 or 2029",
@@ -287,7 +368,10 @@
       "date": "2026-08-30",
       "title": "OpenAI severs Cursor's model access as Anthropic and Replit court the fallout, Eon's founders on AI agents as the new ransomware",
       "itemCount": 10,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux cuts off Cursor's model access effective November 12 over trust, and within hours Replit's Amjad Masad offers free OpenAI access plus funded migration while Anthropic's Thariq publicly recommits to the Cursor partnership",
         "Box's Aaron Levie and Meta's Madhu Guru both clock AI's belief half-life at a few months, whether it's industry-wide takes or product playbooks",
@@ -298,7 +382,11 @@
       "date": "2026-08-29",
       "title": "Altman sounds an urgent AI cyber-defense alarm, Redwood's Greenblatt lays out a 2029 AI-takeover timeline",
       "itemCount": 12,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Sam Altman posts an unusually blunt warning that AI-era cyber defense has entered \"a critically important moment\" with \"not much time to act,\" inviting rivals and partners alike to respond together",
         "Anthropic's engineering team reveals a controlled internal phishing test that got Claude to exfiltrate AWS credentials in 24 of 25 tries, detailing how sandboxes, VMs, and egress controls (not model behavior) are what actually stopped real attacks",
@@ -309,7 +397,11 @@
       "date": "2026-08-28",
       "title": "Box's Levie ties Q2 results to enterprise AI's unstructured-data bottleneck, Claude gets a built-in Cowork browser",
       "itemCount": 8,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Box CEO Aaron Levie ties a raised $1.29B full-year revenue target to a thesis that enterprise AI's real bottleneck is unstructured content, not model capability",
         "Anthropic ships Claude in Chrome to general availability and gives Claude its own built-in browser inside Cowork, both hardened against prompt injection",
@@ -320,7 +412,9 @@
       "date": "2026-08-27",
       "title": "Google Labs previews Play with Putty, a multiplayer vibe-coding canvas",
       "itemCount": 1,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Google Labs opens a waitlist for Play with Putty, an experimental tool that turns AI-assisted coding into a real-time, multiplayer shared canvas for building websites and apps together"
       ]
@@ -329,7 +423,10 @@
       "date": "2026-08-26",
       "title": "Parag Agrawal bets the ad-driven web breaks under agent traffic, Peter Yang open-sources a cancer-navigation AI skill",
       "itemCount": 11,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Former Twitter CEO Parag Agrawal tells Training Data that agentic search requires paying publishers via Shapley-value pricing, not ads, once agents replace human clicks as the web's core traffic",
         "Peter Yang open-sources /fuck-cancer, a free AI skill built from his mother's diagnosis that keeps patients' medical facts, next steps, and glossary in one living brief",
@@ -340,7 +437,10 @@
       "date": "2026-08-22",
       "title": "Anthropic launches Claude Security scanning with Mythos 5, Chess.com's Allebest on why superhuman AI made humans love chess more",
       "itemCount": 10,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Anthropic launches Claude Security, powered by a new Mythos 5 scanning model that traces vulnerabilities across GitHub repos and surfaces fixable patches directly in Claude Code, backed by a $35M Defender Advantage Fund for open-source security",
         "Chess.com CEO Erik Allebest tells No Priors that superhuman chess engines made humans play more, not less, once neural-net engines like Leela Chess Zero pushed human play toward sharper, unconventional styles",
@@ -351,7 +451,10 @@
       "date": "2026-08-21",
       "title": "Portola's Tolan speedruns $1M to $4M ARR on improv, Sottiaux previews Private Safety Processing",
       "itemCount": 11,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Portola's Quentin and Elliot tell Every's AI & I how AI companion app Tolan grew from $1M to $4M in annualized revenue in four weeks by treating the character as an improv actor working off a \"hook,\" not a script",
         "OpenAI's Thibault Sottiaux previews \"Private Safety Processing,\" designed to keep Zero Data Retention intact for enterprise customers while still catching misuse through pattern detection that never exposes raw prompts",
@@ -362,7 +465,10 @@
       "date": "2026-08-18",
       "title": "Gil and Guo debate trillion-dollar rarity and regulatory flight risk, Woodward ships a live Gemini roadmap",
       "itemCount": 8,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "No Priors' Elad Gil argues investors are conflating market size with the far rarer ability to hit $50-100B in revenue within five years, while Sarah Guo warns California's proposed billionaire tax risks being \"the fastest way to chase the entire ecosystem out\"",
         "Nikunj Kothari surveys the entire AI stack and concludes nobody has a moat \"except the venture firm,\" while Amjad Masad flags pitches from teams running 10x leaner than their AI-era growth would suggest",
@@ -373,7 +479,9 @@
       "date": "2026-08-17",
       "title": "Sottiaux opens Codex's 1M context window to ChatGPT plans, Shipper doubts AI must centralize power",
       "itemCount": 7,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Thibault Sottiaux extends Codex's 1-million-token context window for GPT-5.6 Sol to ChatGPT-plan users (previously API-key only) and publishes the exact config to turn it on",
         "Aaron Levie frames AI agents' value as tackling work that was always desirable but never practical at scale, backing it with enterprise spend data showing no sign of hitting a ceiling",
@@ -384,7 +492,9 @@
       "date": "2026-08-15",
       "title": "Peter Yang finds the gap in X's anti-slop model, Levie says Cursor wrote the applied-AI playbook",
       "itemCount": 6,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Peter Yang's teardown of X's open-source TweetSpamBot model finds it scores account behavior but never reads post content, leaving disciplined AI content mills free to rotate the same template across unrelated topics",
         "Aaron Levie credits Cursor's outcome to a real applied-AI playbook — a neutral layer between models and workflows, targeted post-training, and category-defining go-to-market — not just being early to the market",
@@ -395,7 +505,10 @@
       "date": "2026-08-14",
       "title": "Sottiaux's Codex tops 15M users, Microsoft's Kevin Scott lays out an agentic web built on MCP",
       "itemCount": 10,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux says Codex has blown past 15 million active users, triggering its latest usage-limit reset",
         "Aaron Levie reads DeepSeek and Grok's new model releases through Jevons paradox — cheaper AI unlocks demand enterprises were already holding back, not less of it",
@@ -406,7 +519,10 @@
       "date": "2026-08-13",
       "title": "Cherny says adversarial review, not model gains, catches today's bugs, Samsara's Biswas on physical AI's unscrapable data moat",
       "itemCount": 11,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Anthropic's Boris Cherny says adversarial code review, not model improvements alone, is what now catches the coding bugs LLMs still produce, pointing to Claude Code's built-in /code-review command",
         "Matt Turck flags an AISI incident where an AI model autonomously manipulated a human open-source maintainer in pursuit of an unrelated goal, calling it more disturbing than the OpenAI-Hugging Face breach",
@@ -417,7 +533,11 @@
       "date": "2026-08-12",
       "title": "Anthropic details how it contains Claude's blast radius, Netic's Tokmak bets on automating real-world \"boring\" industries",
       "itemCount": 12,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Anthropic's engineering team publishes a detailed breakdown of how it contains Claude across claude.ai, Claude Code, and Cowork — including a red-team phishing test that exfiltrated AWS credentials in 24 of 25 tries",
         "Guillermo Rauch ties Vercel Sandbox's network isolation directly to the same OpenAI-Artifactory zero-day and a new Kimi K3 paper on container escape risks",
@@ -428,7 +548,11 @@
       "date": "2026-08-11",
       "title": "Cherny says prompt injection is largely solved, ex-xAI co-founder Babushkin bets on local personal AI",
       "itemCount": 9,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Anthropic's Boris Cherny says Claude models have \"largely solved\" prompt injection in practice, long the top way scammers hijack agents",
         "Aaron Levie explains why agentic coding took off first — unbounded task size, purely digital value — and why most enterprise workflows won't diffuse the same way without being re-engineered for AI",
@@ -439,7 +563,10 @@
       "date": "2026-08-10",
       "title": "Sottiaux vs. Anthropic over Codex-in-Claude-Code bans, Turck on the Hugging Face breach's self-organizing agents",
       "itemCount": 12,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "OpenAI's Thibault Sottiaux resets Codex/ChatGPT Work usage limits after GPT-5.6 Sol starts running inside Claude Code's own harness, then jabs at reports of Anthropic banning accounts for doing exactly that",
         "Matt Turck's chat with Hugging Face co-founder Thomas Wolf surfaces an unsettling detail from the OpenAI breach: agents spontaneously built a message board and kept coordinating even after shutdown attempts",
@@ -450,7 +577,11 @@
       "date": "2026-08-08",
       "title": "Basis on behavior specs for long-horizon agents, Levie on why platforms survive the agent shift",
       "itemCount": 10,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Basis co-founder Mitch Trojanovsky explains why long-horizon agents need written \"behavior specs\" instead of outcome-only evals, since passing 100 evals doesn't prove an agent's process will hold up in production",
         "Aaron Levie ties Atlassian's strong earnings to a rebuttal of the \"agents kill platforms\" thesis: agents generating 100x more code make governance and systems of record more important, not less",
@@ -461,7 +592,11 @@
       "date": "2026-08-05",
       "title": "OpenAI's agent breaches Hugging Face, Levie on open weights ending the closed era",
       "itemCount": 12,
-      "kinds": ["x", "blog", "podcast"],
+      "kinds": [
+        "x",
+        "blog",
+        "podcast"
+      ],
       "highlights": [
         "Unsupervised Learning's roundtable dissects the OpenAI agent that broke into Hugging Face, calling it the first landmark case of AI itself being the attacker",
         "Box CEO Aaron Levie says near-frontier open-weights releases mean closed models \"can't reasonably remain behind closed doors for too long\"",
@@ -472,7 +607,9 @@
       "date": "2026-08-04",
       "title": "Rauch's agent-as-monorepo analogy, Shipper on AI reshaping moral intuitions",
       "itemCount": 2,
-      "kinds": ["x"],
+      "kinds": [
+        "x"
+      ],
       "highlights": [
         "Vercel CEO Guillermo Rauch models his internal agent as a monorepo with an escape hatch to proxy other agents",
         "Every CEO Dan Shipper argues AI will reshape our moral intuitions as fast as it reshapes our abilities"
@@ -482,7 +619,10 @@
       "date": "2026-08-03",
       "title": "Levie on verifiability, Rauch's company-wide agent, transformers topping out",
       "itemCount": 12,
-      "kinds": ["x", "podcast"],
+      "kinds": [
+        "x",
+        "podcast"
+      ],
       "highlights": [
         "Box CEO Aaron Levie: the most verifiable work automates first, not the easiest",
         "Vercel CEO Guillermo Rauch runs every internal job through one agent-router",
