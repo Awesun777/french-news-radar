@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "id": "anthropic-claude-voice-data-training-optin",
+      "category": "models",
+      "title": "Anthropic adds an opt-in toggle to train Claude on users' voice chats",
+      "summary": "Anthropic began prompting Claude users on October 5 to opt in to sharing their voice conversations for AI model training, via a new 'Allow us to use your voice data' toggle in Settings > Privacy. The setting is off by default and runs independently from the existing text/code training toggle, so a user can share voice data while keeping text chats excluded, or the reverse.",
+      "whyItMatters": "A frontier lab building a dedicated voice-data consent and training pipeline signals more investment in conversational voice models generally, and it's a useful reference point for how to frame consent if Romain or Anna's own stack ever collects student voice data for improvement.",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+      "source": "BleepingComputer",
+      "tags": ["voice", "anthropic", "privacy", "training"]
+    },
+    {
+      "id": "krisp-voice-isolation-benchmark",
+      "category": "inspiration",
+      "title": "Krisp open-sources a benchmark showing voice isolation cuts STT errors 73% with a second talker",
+      "summary": "Krisp published an open Voice Isolation Benchmark on October 5: a 265-recording dataset (47 speakers, scenarios spanning call centers, open offices, and moving cars) run through 11 speech-to-text engine configurations. Pooled across all files, word error rate dropped 73% when Krisp's voice isolation ran ahead of transcription, with the biggest gains (31.8% to 6.3% WER) in the noisiest scenario; when no second voice was present, isolation cost only about a third of a WER point.",
+      "whyItMatters": "A student practicing French with Romain or Anna is often in a noisy room with a TV, sibling, or classmates nearby — this is a concrete, reproducible case for adding a voice-isolation pre-processing step ahead of ASR so transcription (and grading) stays accurate.",
+      "url": "https://krisp.ai/blog/voice-isolation-benchmark/",
+      "source": "Krisp",
+      "tags": ["asr", "noise-robustness", "benchmark", "latency"]
+    },
+    {
+      "id": "reflection-ai-beam-open-weight",
+      "category": "general",
+      "title": "Reflection AI launches Beam, a 501B open-weight model aimed at undercutting Chinese rivals on compute cost",
+      "summary": "Reflection AI unveiled Beam on October 5: a sparse mixture-of-experts model with 501B total/23B active parameters, a 1M-token context window, pretrained on 23.8T tokens and RL-tuned on 10,500 Nvidia GB300 GPUs. Reflection says Beam matches leading Chinese open models like GLM-5.2 on reasoning benchmarks while using 3-4x less inference compute than other Western open models; full weights ship later this month.",
+      "whyItMatters": "Not voice-specific, but a credible new open-weight frontier model gives backend LLM tasks behind Romain or Anna (lesson planning, grading, content generation) one more lower-cost option to benchmark once the weights are public.",
+      "url": "https://reflection.ai/blog/introducing-beam",
+      "source": "Reflection AI",
+      "tags": ["llm", "open-weight", "cost"]
+    },
+    {
+      "id": "openai-eu-text-watermarking",
+      "category": "general",
+      "title": "OpenAI starts invisibly watermarking ChatGPT and Codex text for EU users",
+      "summary": "OpenAI announced on October 5 that it is rolling out an invisible 'textGrain' watermark to ChatGPT and Codex output for EU users, subtly adjusting word choices to create a statistically detectable pattern, to meet the EU AI Act's content-transparency deadline of December 2. API developers worldwide can opt in for select models, and a watermark-detector application process opened the same day for approved researchers.",
+      "whyItMatters": "Not voice-specific, but a sign of where AI-content disclosure rules are heading — worth tracking if a French tutor's generated lesson text ever needs similar provenance labeling for EU users.",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "source": "TechCrunch",
+      "tags": ["policy", "openai", "eu", "regulation"]
+    },
+    {
+      "id": "deepseek-12b-funding-round",
+      "category": "general",
+      "title": "DeepSeek nears $12B funding round led by Tencent and CATL ahead of a 2027 IPO",
+      "summary": "Bloomberg reported on October 6 that DeepSeek is close to closing at least RMB80B (~$12B) in funding, with Tencent and CATL among the largest backers, well above its original roughly RMB50B target, after strong investor interest following its latest model release. The round is earmarked for compute, model development, and hiring ahead of a planned Shanghai IPO in early 2027.",
+      "whyItMatters": "Not voice-specific, but a sign DeepSeek has the capital to keep pushing aggressive price cuts on its LLM API — worth watching if Romain or Anna's backend text tasks ever shop around for a cheaper model.",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/deepseek-to-raise-at-least-12-billion-in-tencent-backed-funding",
+      "source": "Bloomberg",
+      "tags": ["deepseek", "funding", "llm"]
+    }
+  ]
+}

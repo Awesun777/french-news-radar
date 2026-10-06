@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-05T06:12:53Z",
+  "generatedAt": "2026-10-06T06:12:47Z",
   "digests": [
+    {
+      "date": "2026-10-06",
+      "title": "Anthropic trains Claude on voice, DeepSeek nears $12B",
+      "itemCount": 5,
+      "categories": [
+        "models",
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "Anthropic adds an opt-in toggle to train Claude on users' voice chats",
+        "Krisp open-sources a benchmark showing voice isolation cuts STT errors 73% with a second talker",
+        "Reflection AI launches Beam, a 501B open-weight model aimed at undercutting Chinese rivals on compute cost"
+      ]
+    },
     {
       "date": "2026-10-05",
       "title": "Trump's Super Intelligence Force, Kyoto Vision for AI-driven science",
