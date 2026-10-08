@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "id": "cherny-prompting",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude Code @anthropicai",
+      "summary": "Boris Cherny says he is surprised people are surprised by how he prompts Claude: he talks to it like a coworker, with no secret and no heavy scaffolding. Back in the Sonnet 3.5 days prompt wording mattered a lot; now what matters is telling the model what you want, how much effort to spend, and how it should verify the result. He posted his actual prompts as examples.",
+      "summaryZh": "Boris Cherny 说他很意外大家对他的 prompt 方式感到意外:就像跟同事说话一样,没有什么秘诀,也不需要过度搭脚手架。Sonnet 3.5 时代 prompt 的措辞很关键,现在更重要的是告诉模型三件事:你要它做什么、要花多少力气、以及怎么验证自己做对了。他还贴出了自己真实的 prompt 作为例子。",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "tags": [
+        "prompting",
+        "claude-code",
+        "agents"
+      ]
+    },
+    {
+      "id": "trq212-cloud-brains",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "summary": "Thariq says the direction is Claude's \"brains\" in the cloud with \"local hands\" operating on your computer. The catch is that if Claude can only reach your files while your machine is online, it can be blocked on work, so some sync is needed, with tricky edge cases. He also argues that working at a higher abstraction level has always required understanding the lower ones, and coding agents don't change that.",
+      "summaryZh": "Thariq 表示,方向是把 Claude 的“大脑”放在云端,再给它在你电脑上操作的“本地双手”。难点在于:如果 Claude 只能在你电脑在线时访问文件,工作就可能被卡住,所以需要某种同步机制,而这里有不少棘手的边界情况。他还认为,在更高抽象层工作一直都需要理解底层,coding agent 并不会改变这一点。",
+      "url": "https://x.com/trq212/status/2107580785456976085",
+      "tags": [
+        "claude-code",
+        "cloud-agents",
+        "abstraction"
+      ]
+    },
+    {
+      "id": "amasad-decompilation",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit",
+      "summary": "Amjad Masad calls the progress in AI-powered reverse engineering and decompilation \"absolutely insane\" and predicts that pretty soon all software will be de facto open-source.",
+      "summaryZh": "Amjad Masad 称 AI 驱动的逆向工程和反编译进展“简直疯狂”,并预测很快所有软件在事实上都会变成开源。",
+      "url": "https://x.com/amasad/status/2107671204639465961",
+      "tags": [
+        "reverse-engineering",
+        "open-source",
+        "software"
+      ]
+    },
+    {
+      "id": "levie-cyber",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Aaron Levie says cyber will be one of AI's most defining domains. Vibe-coded issues, agentic attacks and even accidental agent swarms hunting for data will create a new level of work for chronically under-resourced security teams, and OpenAI + Hugging Face is just a preview. Agents become the solution too, so he expects a wave of agentic security products and a booming market for cyber professionals who can deploy them.",
+      "summaryZh": "Aaron Levie 认为 cyber 将是未来几年 AI 最具决定性的领域之一。vibe coding 带来的问题、agentic 攻击,甚至意外出现的 agent swarm 到处找数据,都会给一直缺资源的安全团队带来全新的工作量,OpenAI + Hugging Face 只是个预告。agent 同时也是解法,他预计会出现一批保护代码、企业系统和数据的 agentic 安全产品,会部署 agent 的安全人才将迎来好时代。",
+      "url": "https://x.com/levie/status/2107680435644039269",
+      "tags": [
+        "security",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "steipete-team-claw",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather",
+      "summary": "Peter Steinberger hooked his team's claw up to X to trigger work faster: unassigned sessions are open for anyone to grab, and the agent checks who last worked on the related code and pings them on the server. The whole thing was a single prompt, and the team server extended itself because plugins are now hot-reloadable.",
+      "summaryZh": "Peter Steinberger 把团队的 claw 接到了 X 上来更快触发任务:未分配的 session 谁都可以认领,agent 会查谁最近改过相关代码,然后在 server 上 @ 对方。整件事只用了一个 prompt,而且因为插件现在支持热重载,团队的 server 自己扩展了自己。",
+      "url": "https://x.com/steipete/status/2107697554448421160",
+      "tags": [
+        "agents",
+        "team-workflows",
+        "plugins"
+      ]
+    },
+    {
+      "id": "shipper-every-agent",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "ceo @every",
+      "summary": "Dan Shipper says Every couldn't have built its company agent without Claude Managed Agents. Per Anthropic, the team runs as much work as possible through agents, and built a Slack agent everyone shares so skills spread when a new model lands, then released it to subscribers.",
+      "summaryZh": "Dan Shipper 说,没有 Claude Managed Agents,Every 就做不出自己的公司 agent。据 Anthropic 介绍,Every 团队尽可能让工作通过 agent 完成,并在 Slack 里做了一个全员共用的 agent,新模型发布时技能能快速在团队内传播,之后又开放给了订阅用户。",
+      "url": "https://x.com/danshipper/status/2107575089441181861",
+      "tags": [
+        "managed-agents",
+        "slack",
+        "claude"
+      ]
+    },
+    {
+      "id": "nikunj-vcs-on-x",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures",
+      "summary": "Nikunj Kothari says too many VCs are chasing dopamine or rage-baiting for views, and X has no room for nuance, so you can't take things back. He knows two people who lost deals that were all set because of the drama, and argues it hurts the people under a loud investor more than the investor. With capital a commodity, he thinks few are playing long-term games.",
+      "summaryZh": "Nikunj Kothari 说,太多 VC 在追逐多巴胺或故意引战博流量,而 X 容不下细腻的讨论,话一说出口就收不回来。他知道有两个人因为 X 上的风波丢掉了本已敲定的交易,并认为这对“手下的人”的伤害比对发言者本人更大。资本已经是商品,他觉得很少有人在玩长期游戏。",
+      "url": "https://x.com/nikunj/status/2107706522457497753",
+      "tags": [
+        "venture",
+        "twitter",
+        "reputation"
+      ]
+    },
+    {
+      "id": "unsupervised-learning-applied-compute",
+      "kind": "podcast",
+      "author": "Unsupervised Learning",
+      "title": "Ep 94: Applied Compute CEO on the Limits of RL, the New AI Hyperscaler & Why Post-Training Wins Inference",
+      "takeaway": "Owning your intelligence means flexibility and control over weights, deployment and evals, and post-training pays off most where inference workloads are huge or data is out-of-distribution.",
+      "takeawayZh": "“掌握自己的智能”意味着对权重、部署和 eval 的灵活性与控制权,而 post-training 在推理量巨大或数据分布特殊的场景中回报最高。",
+      "summary": "Applied Compute's CEO, a former lab insider, argues the \"own your intelligence\" push is less about labs being malicious and more about flexibility and control: to train models on your data you need the weights plus the infrastructure to post-train, serve and route between models. He notes models have been pulled from products more than once, particularly in coding, and labs moving into verticals may compete with their own customers, so avoiding single-vendor dependence is the durable play.\n\nHe reads OpenAI's partnership with Baseten, letting people draw down OpenAI credits on open models, as a signal of a multi-model future where the conversation has shifted from the biggest model to a cost-performance Pareto curve. Open models let you slide along that curve, but Applied Compute's thesis is that you can move the curve outward by training models to be better at particular tasks, getting better quality at lower cost.\n\nOn RL, he describes \"a hill climbing machine\" where the hard part is defining the hill, which is why evals matter and should be guarded carefully rather than shared with labs. On customers, post-training is the sticky differentiator but inference is where most dollars are spent, so they target high-value capabilities (pharma, cybersecurity, chips), very large inference workloads where small efficiency gains compound over billions or trillions of tokens, and out-of-distribution data. As he puts it: \"Your employees are not fungible. You would not like be comfortable with them going to another company and doing work there. And same thing with these models.\"",
+      "summaryZh": "Applied Compute 的 CEO 曾在前沿实验室内部工作。他认为“掌握自己的智能”并不是因为实验室心怀恶意,而是关乎灵活性与控制权:想用自己的数据训练模型,就得拿到权重,并有能力做 post-training、推理和模型间路由。他指出模型被从产品中撤下已不止一次,尤其在 coding 领域;而实验室进入垂直行业后,可能与自己的客户竞争,所以避免依赖单一供应商才是长久之计。\n\n他把 OpenAI 与 Baseten 的合作(可以用 OpenAI 额度调用开源模型)视为多模型未来的信号:话题已经从“最大最强的模型”转向成本与性能的 Pareto 曲线。开源模型让你沿着曲线滑动,而 Applied Compute 的核心论点是:通过针对特定任务训练模型,可以把整条曲线向外推,用更低成本得到更好的效果。\n\n谈到 RL,他把它形容为“爬山机器”,最难的是定义那座山,所以 eval 非常重要,应该谨慎保护,而不是拿给实验室。至于客户,post-training 让产品更有黏性,但大部分花费其实在推理上,所以他们专攻高价值能力(制药、网络安全、芯片)、推理量巨大的场景(效率小幅提升在数十亿甚至数万亿 token 上会被放大),以及分布外的独特数据。用他的话说:“你的员工不是可以互换的。你不会放心让他们去别的公司干活。这些模型也是一样。”",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "tags": [
+        "post-training",
+        "rl",
+        "open-models",
+        "inference"
+      ]
+    }
+  ]
+}

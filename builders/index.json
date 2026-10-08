@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-06T06:24:23Z",
+  "generatedAt": "2026-10-08T09:57:53Z",
   "digests": [
+    {
+      "date": "2026-10-08",
+      "title": "Cherny says prompting is just talking to a coworker as Applied Compute's CEO argues post-training wins inference",
+      "itemCount": 8,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Claude Code's Boris Cherny says good prompting now means stating the goal, the effort level, and how to verify the result",
+        "Anthropic's Thariq describes Claude's 'brains' in the cloud with 'local hands' on your machine, and the sync edge cases that creates",
+        "Applied Compute's CEO says owning your intelligence is about control, and that post-training pays most where inference volume is huge"
+      ]
+    },
     {
       "date": "2026-10-06",
       "title": "Rauch says agents change the Rust calculus as Levie sees AI-created jobs and No Priors profiles a $7.7B AI take-private",
