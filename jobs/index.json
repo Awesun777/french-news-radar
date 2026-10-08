@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-07T15:30:42Z",
+  "generatedAt": "2026-10-08T10:04:49Z",
   "digests": [
+    {
+      "date": "2026-10-08",
+      "itemCount": 19,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "JP Morgan",
+        "Nomura",
+        "Stepstone"
+      ]
+    },
     {
       "date": "2026-10-07",
       "itemCount": 2,
