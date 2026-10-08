@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "id": "claude-haiku-5-5",
+      "category": "models",
+      "title": "Anthropic launches Claude Haiku 5.5, its cheapest and fastest small model yet",
+      "summary": "Anthropic released Claude Haiku 5.5 on October 7, calling it its cheapest, fastest, and most capable small model to date. Pricing is $0.10/$0.50 per million input tokens and as low as $0.50 per million output tokens for prompts up to 100k tokens, which Anthropic says cuts costs about 75% versus Haiku 4.5 on average (up to 90% for shorter prompts). It's also the first Haiku-class model with an adjustable reasoning-effort setting (Low through Max), and ships now on the Anthropic API, AWS, and Google Cloud.",
+      "whyItMatters": "A small model this cheap and fast, with tunable effort, is a strong fit for the high-volume backend work around Romain and Anna — grading, summarizing transcripts, classification — without paying Sonnet or Opus rates.",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "Anthropic",
+      "tags": ["llm", "anthropic", "pricing", "cost"]
+    },
+    {
+      "id": "mistral-large-4-preview",
+      "category": "models",
+      "title": "Mistral AI previews Large 4 (\"Le Chonk\"), a 1.05T-parameter open-weight MoE model",
+      "summary": "Mistral opened a public preview of Large 4 on October 6 via its moderated API: a mixture-of-experts model with roughly 1.05 trillion total parameters (about 49B active), a 1.6B-parameter vision encoder for multimodal input, and training data spanning 160+ languages. Open weights are planned for release by the end of October, pending ongoing safety testing with outside researchers.",
+      "whyItMatters": "A new large multilingual model from a French lab, with open weights coming, is worth benchmarking for any backend LLM task behind Romain or Anna that needs strong French-language handling at a lower cost than closed frontier APIs.",
+      "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
+      "source": "MarkTechPost",
+      "tags": ["llm", "mistral", "open-weight", "french"]
+    },
+    {
+      "id": "elevenlabs-2028-ipo-target",
+      "category": "general",
+      "title": "ElevenLabs targets a 2028 IPO as its voice agents cross 15M weekly conversations",
+      "summary": "Reports on October 6-7 say ElevenLabs is preparing for a 2028 IPO after a $300M employee tender offer valued the company at $22B, double its February valuation. ElevenLabs says its AI voice agents now handle more than 15 million conversations a week, roughly triple the February figure, with banks and insurers increasingly deploying them for customer service.",
+      "whyItMatters": "That kind of enterprise voice-agent growth usually comes with fast-moving API changes and new pricing tiers — worth tracking for anything that could affect Anna's ElevenLabs integration.",
+      "url": "https://fintech.global/2026/10/07/elevenlabs-hits-22bn-as-financial-firms-adopt-ai-agents",
+      "source": "FinTech Global",
+      "tags": ["voice", "elevenlabs", "funding", "business"]
+    },
+    {
+      "id": "anthropic-cyber-verification-expansion",
+      "category": "general",
+      "title": "Anthropic restructures its Cyber Verification Program into three access tiers",
+      "summary": "On October 6, Anthropic reorganized its Cyber Verification Program into Defense Access, Red Team Access, and Specialized Access tiers, merging in the earlier Project Glasswing critical-infrastructure program. All tiers cover Claude Opus 5.5, Sonnet 5.5, and Mythos 5.1, loosening cyber-related blocking classifiers for vetted security professionals doing legitimate dual-use work.",
+      "whyItMatters": "Not voice-specific, but a useful reference for how Anthropic scopes access and safety classifiers for sensitive-but-legitimate use cases, in case Romain or Anna's stack ever needs something similar.",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source": "Anthropic",
+      "tags": ["anthropic", "security", "policy"]
+    }
+  ]
+}

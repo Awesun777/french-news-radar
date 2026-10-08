@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-06T06:12:47Z",
+  "generatedAt": "2026-10-08T06:12:43Z",
   "digests": [
+    {
+      "date": "2026-10-08",
+      "title": "Claude Haiku 5.5 ships, Mistral previews 1T-param Large 4",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Anthropic launches Claude Haiku 5.5, 75% cheaper than Haiku 4.5 on average",
+        "Mistral AI previews Large 4 (\"Le Chonk\"), a 1.05T-parameter open-weight MoE model",
+        "ElevenLabs targets a 2028 IPO as its voice agents cross 15M weekly conversations"
+      ]
+    },
     {
       "date": "2026-10-06",
       "title": "Anthropic trains Claude on voice, DeepSeek nears $12B",
