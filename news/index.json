@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-08T06:12:43Z",
+  "generatedAt": "2026-10-09T06:13:03Z",
   "digests": [
+    {
+      "date": "2026-10-09",
+      "title": "GPT-6's Intelligent UI ships, Anthropic's $150M Genesis Mission bet",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "OpenAI rolls out GPT-6 and \"Intelligent UI\" to all ChatGPT tiers",
+        "Anthropic commits $150M to the federal Genesis Mission, opening Claude to 15+ agencies",
+        "Anthropic launches the Cyber Mission, turning Claude on vulnerability hunting"
+      ]
+    },
     {
       "date": "2026-10-08",
       "title": "Claude Haiku 5.5 ships, Mistral previews 1T-param Large 4",
