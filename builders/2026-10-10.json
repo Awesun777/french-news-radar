@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "id": "sottiaux-instant-steering",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux says Codex steering is now instant: the model reacts to your adjustments right away, so you can course-correct in real time instead of letting it waste effort. It ships alongside GPT-6.1 Sol ultrafast, and he says the two work very well together.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 表示，Codex 的引导（steering）现已做到即时响应：模型会立刻对你的调整作出反应，让你实时纠偏，不再白白浪费算力。同时发布的 GPT-6.1 Sol ultrafast 与之搭配效果很好。",
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "tags": [
+        "Codex",
+        "OpenAI",
+        "GPT-6.1"
+      ]
+    },
+    {
+      "id": "guru-agent-stack",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "role": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana",
+      "summary": "Madhu Guru argues that every layer of the computing stack will need rebuilding for agents, and that this is where the startup opportunities hide. Enterprise software went agent-ready via APIs, connectors and MCPs; personal agents now force the same shift in consumer products, with e-commerce first. His prompt for founders: go through each layer (OSes, cloud infra, identity and permissions, interfaces) and ask what has to change when the primary user is an agent.",
+      "summaryZh": "Madhu Guru 认为，计算栈的每一层都需要为智能体重建，创业机会就藏在其中。企业软件已通过 API、连接器和 MCP 变得对智能体友好；如今个人智能体正在把同样的变革推向消费级产品，电商只是开始。他给创业者的提示：逐层审视（操作系统、云基础设施、身份与权限、交互界面），问一句——当主要用户是智能体时，什么必须改变？",
+      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
+      "tags": [
+        "agents",
+        "startups",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "nikunj-seed-three-options",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures - investing in seed/A",
+      "summary": "FPV Ventures partner Nikunj Kothari says he has the same conversation twice a week: a seed founder near $1M revenue whose runway is dwindling while the models haven't caught up to the product they want. His blunt advice is three options: be a cockroach and get to default profitable, pivot to an orthogonal area growing like crazy, or sell or get acquihired and start again in 1-2 years. He adds that the seed-to-Series A bar gets harder every month and old-school metrics no longer apply.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 说，他每周至少有两次同样的对话：一位收入接近 100 万美元的种子轮创始人，现金跑道将尽，而模型能力还没达到他想要的产品所需。他直言只有三条路：像蟑螂一样活下来、先做到默认盈利；转向一个增长迅猛的正交领域；或出售/被收购式招聘，一两年后再创业。他还说，从种子轮到 A 轮的门槛每月都在升高，老派指标已不再适用。",
+      "url": "https://x.com/nikunj/status/2108410378233549106",
+      "tags": [
+        "venture",
+        "seed",
+        "startups"
+      ]
+    },
+    {
+      "id": "levie-be-nice-to-ai",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Box CEO Aaron Levie defends a policy of being polite to AI as an easy Pascal's wager: even though he doesn't believe AI is conscious, you don't want future models trained on endless content of humans being rude to models. If we want safe, aligned models, they should see lots of good interactions in their training data.",
+      "summaryZh": "Box CEO Aaron Levie 认为对 AI 保持礼貌是一场简单的“帕斯卡赌注”：尽管他不相信 AI 有意识，但也不希望未来的模型在海量人类对模型无礼的内容上训练。若想要安全、对齐的模型，训练数据中就该有大量良好的互动。",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "tags": [
+        "alignment",
+        "training-data",
+        "policy"
+      ]
+    },
+    {
+      "id": "levie-box-mount",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Box CEO Aaron Levie announces Box Mount, which lets developers mount Box as a file system directly inside any agent sandbox. His thesis: as agents do more complex work they need to handle files and data like a person would, and \"the future is headless.\"",
+      "summaryZh": "Box CEO Aaron Levie 发布 Box Mount，开发者可将 Box 作为文件系统直接挂载到任意智能体沙盒中。他的观点是：智能体承担的工作越复杂，就越需要像人一样处理文件与数据，“未来是无头（headless）的”。",
+      "url": "https://x.com/levie/status/2108279490510193078",
+      "tags": [
+        "Box",
+        "agents",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": "garrytan-ics-vs-managers",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator",
+      "summary": "Y Combinator's Garry Tan predicts that individual contributors armed with agents will be more productive and produce better outcomes than equivalent people managers from prior eras.",
+      "summaryZh": "Y Combinator 的 Garry Tan 预测：配备智能体的个人贡献者，将比以往时代同等水平的管理者更高产、产出更好的结果。",
+      "url": "https://x.com/garrytan/status/2108433505038606620",
+      "tags": [
+        "agents",
+        "management",
+        "future-of-work"
+      ]
+    },
+    {
+      "id": "claude-startups-pause",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Claude is an AI assistant built by @anthropicai",
+      "summary": "Anthropic says it underestimated demand for the Claude Startups program and is pausing the Claude Team and $1,000 API credit offers while re-reviewing hundreds of thousands of applications. Offers already claimed stay, but some previously approved accounts will not get access. Separately, Claude Docs, Slides, and Design are out of beta and available on every plan including Free, with you and Claude editing the same doc, deck or design together.",
+      "summaryZh": "Anthropic 表示低估了 Claude 初创公司计划的需求，将暂停 Claude Team 与 1,000 美元 API 额度的优惠，并重新审核数十万份申请。已领取的优惠保留，但部分此前获批的账号将无法获得。另外，Claude Docs、Slides 和 Design 已结束测试，面向包括免费版在内的所有套餐开放，你可以和 Claude 共同编辑同一份文档、演示文稿或设计。",
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "tags": [
+        "Anthropic",
+        "startups",
+        "Claude"
+      ]
+    },
+    {
+      "id": "training-data-vahdat-goodput",
+      "kind": "podcast",
+      "author": "Training Data",
+      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI",
+      "takeaway": "Google's AI infrastructure chief says the metric that matters isn't theoretical FLOPS but goodput: useful work actually delivered per watt, after failures, software bugs and recovery.",
+      "takeawayZh": "谷歌 AI 基础设施负责人认为，真正重要的指标不是理论 FLOPS，而是 goodput（有效产出）：扣除故障、软件缺陷和恢复开销后，每瓦实际交付的有效工作量。",
+      "summary": "Amin Vahdat, who heads AI infrastructure at Google, is spearheading one of the most capital-intensive build-outs in history, with Google expected to spend over $200B in capex this year. His accountability metric is goodput, not chip-level FLOPS: at 100,000-accelerator scale something fails multiple times a day, and one failure in a synchronous workload can stall everything, forcing a restore from checkpoint. There is no single common failure cause; it is a long tail of network, hardware and software issues, so compiler or runtime bugs can erase the gains of perfect silicon. Capacity must roughly double every six months, measured as token-generation capability, and most of that comes from model and software gains rather than hardware, though hardware still delivers 2x or more per year.\n\nOn specialization, TPU began in 2013 as a contrarian bet against the 'bitter lesson of chips' that specialization never wins. This year Google split into TPU 8i for inference and 8T for training because inference could be 30-60% of the market; crucially each chip can still do the other's job, so Google doesn't have to predict the mix over a six-year hardware life. Co-design trades flexibility for large multiplicative gains: 10-20% or 2x at each layer compounds end to end. Long-horizon agents change the shape of demand: with no human in the loop, requests arrive in milliseconds, and CPU, networking and storage demand goes through the roof alongside accelerators. His quote: \"We're using Gemini to design hardware for future Geminis as well.\" On goodput: \"It's delivered goodput, not theoretical benchmark throughput.\"",
+      "summaryZh": "Amin Vahdat 负责谷歌 AI 基础设施，主导着史上资本最密集的建设之一，谷歌今年资本支出预计超过 2,000 亿美元。他衡量成效的指标是 goodput 而非芯片层面的 FLOPS：在 10 万加速器规模下，每天会多次出故障，同步工作负载中一处故障就可能让整体停摆，需要从检查点恢复。故障没有单一的常见原因，而是网络、硬件、软件构成的长尾，因此编译器或运行时的缺陷可能抵消完美芯片带来的收益。容量大约每六个月要翻倍（以生成 token 的能力衡量），其中多数来自模型与软件改进，而非硬件，不过硬件每年仍能带来 2 倍以上提升。\n\n在专用化方面，TPU 始于 2013 年，是对“芯片的苦涩教训”（专用化永远赢不了）的逆势押注。今年谷歌推出推理用 TPU 8i 与训练用 8T，因为推理可能占到 30%–60% 的市场；关键在于两种芯片仍能互相替代，因此无需在六年的硬件寿命内预测二者比例。协同设计以灵活性换取成倍的收益：每一层 10%–20% 或 2 倍的优化会层层叠加。长时程智能体改变了需求形态：没有人在回路中，请求以毫秒级到达，除加速器外，对 CPU、网络和存储的需求也急剧上升。他说：“我们也在用 Gemini 为未来的 Gemini 设计硬件。”关于 goodput：“衡量的是交付的 goodput，而不是理论上的基准吞吐量。”",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "tags": [
+        "infrastructure",
+        "TPU",
+        "Google",
+        "data-centers"
+      ]
+    }
+  ]
+}

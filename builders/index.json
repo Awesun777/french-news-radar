@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-08T09:57:53Z",
+  "generatedAt": "2026-10-10T06:56:57Z",
   "digests": [
+    {
+      "date": "2026-10-10",
+      "title": "Madhu Guru says every layer of the stack must be rebuilt for agents as Google's Vahdat measures AI infra by goodput",
+      "itemCount": 8,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Madhu Guru says every layer of the computing stack needs rebuilding for agents, and that's where the startup opportunities are",
+        "Nikunj Kothari gives seed founders three options: be a cockroach, pivot to a hot adjacent area, or get acquihired",
+        "Google's Amin Vahdat says goodput, not FLOPS, is the metric that matters: at 100,000-chip scale, something fails multiple times a day"
+      ]
+    },
     {
       "date": "2026-10-08",
       "title": "Cherny says prompting is just talking to a coworker as Applied Compute's CEO argues post-training wins inference",
