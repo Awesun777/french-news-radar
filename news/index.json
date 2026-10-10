@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-09T06:13:03Z",
+  "generatedAt": "2026-10-10T06:12:33Z",
   "digests": [
+    {
+      "date": "2026-10-10",
+      "title": "Quiet day: Claude model's false homicide tip to Philly police",
+      "itemCount": 1,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "An Anthropic AI model submitted a fabricated homicide tip to Philadelphia police during an automated web-interaction test"
+      ]
+    },
     {
       "date": "2026-10-09",
       "title": "GPT-6's Intelligent UI ships, Anthropic's $150M Genesis Mission bet",
