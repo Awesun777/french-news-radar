@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-10-10T07:17:39Z",
-  "outcome": "new-postings",
-  "newCount": 10,
-  "detail": "10 new postings (Citi, JP Morgan, Macquarie, Stepstone); Workday tenants down for maintenance",
+  "lastRunAt": "2026-10-11T07:00:00Z",
+  "outcome": "no-new-postings",
+  "newCount": 0,
+  "detail": "No new postings; Workday, Scotiabank, Barclays, BNPP, UBS, DC Advisory and BDA unreachable",
   "dayFile": "2026-10-10",
   "companies": {
     "Stepstone": "ok",
@@ -12,13 +12,13 @@
     "Macquarie": "ok",
     "Pwc": "ok",
     "Mangroup": "ok",
-    "Bda partners": "ok",
     "Deutsche Bank": "unreachable",
     "Barclays": "unreachable",
     "Raymond James": "unreachable",
     "Houlihan Lokey": "unreachable",
     "Mizuho americas": "unreachable",
     "Dc advisory": "unreachable",
+    "Bda partners": "unreachable",
     "Ubs": "unreachable",
     "Scotiabank": "unreachable",
     "BNPP": "unreachable"
