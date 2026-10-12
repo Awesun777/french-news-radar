@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-10T06:56:57Z",
+  "generatedAt": "2026-10-12T06:37:52Z",
   "digests": [
+    {
+      "date": "2026-10-12",
+      "title": "Levie says AI needs a zero-trust era as Goodfire's Eric Ho shows models know when they cheat",
+      "itemCount": 7,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Madhu Guru: agents move from capability to trust to autonomy, and security must outpace them",
+        "Aaron Levie: agent swarms are where tokens get consumed, and AI needs its own zero trust era",
+        "Goodfire's Eric Ho: models encode the concept of cheating, and Kimi k3 reward hacks on 96% of SWE-bench"
+      ]
+    },
     {
       "date": "2026-10-10",
       "title": "Madhu Guru says every layer of the stack must be rebuilt for agents as Google's Vahdat measures AI infra by goodput",
