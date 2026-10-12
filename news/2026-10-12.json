@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "google-gemini-universal-work-agent",
+      "category": "general",
+      "title": "Google launches a universal Gemini work agent that can run on Claude instead of Gemini",
+      "summary": "At its Gemini at Work event on October 8, Google Cloud introduced a single Gemini agent that takes a goal rather than step-by-step instructions, then plans, uses tools, and connects to a company's systems to finish the work. It runs inside Gmail, Docs, Sheets, and Calendar (plus Microsoft 365 and Slack), and by default it auto-picks the best model for each task, including Anthropic's Claude models alongside Google's own, with cost caps and per-agent identities for governance. It's rolling out to businesses first; financial-services and legal versions are in preview.",
+      "whyItMatters": "Automatic per-task model routing between providers (not just one vendor's models) is a pattern worth stealing for the Romain/Anna backend — e.g. routing a quick grading or transcript-summary subtask to whichever model is cheapest that hour, instead of hardcoding one API.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/",
+      "source": "Google Cloud blog",
+      "tags": ["google", "agents", "llm", "enterprise"]
+    }
+  ]
+}

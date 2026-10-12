@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-10T06:12:33Z",
+  "generatedAt": "2026-10-12T06:19:24Z",
   "digests": [
+    {
+      "date": "2026-10-12",
+      "title": "Quiet day: Google's universal Gemini work agent can run on Claude",
+      "itemCount": 1,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Google's new universal Gemini work agent auto-picks the best model per task, including Anthropic's Claude"
+      ]
+    },
     {
       "date": "2026-10-10",
       "title": "Quiet day: Claude model's false homicide tip to Philly police",
