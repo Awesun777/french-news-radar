@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T16:30:49Z",
+  "items": [
+    {
+      "id": "barclays-1",
+      "company": "Barclays",
+      "title": "Investment Bank Associate",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Investment-Bank-Associate_JR-0000135640",
+      "location": "New York, 745 7th Avenue",
+      "postedAt": "2026-10-13",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "Data Analyst - Credit Risk Management & Counterparty Risk (Client & Markets Data)",
+      "url": "https://jobs.citi.com/job/tampa/data-analyst-credit-risk-management-and-counterparty-risk-client-and-markets-data/287/101756775392",
+      "location": "Tampa (US)",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "Applications Support Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-support-senior-analyst/287/101860031072",
+      "location": "Tampa (US)",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "deutsche-bank-1",
+      "company": "Deutsche Bank",
+      "title": "Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/DBWebsite/job/New-York-1-Columbus-Circle/Associate_R0455014",
+      "location": "New York, 1 Columbus Circle",
+      "postedAt": "2026-10-08",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "Cash Management Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-Cash-Management-Analyst-NY-10019/1439154400/",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "pwc-1",
+      "company": "Pwc",
+      "title": "Deals - Finanical Due Diligence - Senior Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/NY-New-York/Deals---Finanical-Due-Diligence---Senior-Manager_755675WD-2",
+      "location": "NY-New York",
+      "matchedRoles": [
+        "Deals"
+      ]
+    },
+    {
+      "id": "pwc-2",
+      "company": "Pwc",
+      "title": "Deals - Financial Due Diligence, Manager - East",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/MA-Boston/Deals---Financial-Due-Diligence--Manager---East_722431WD",
+      "location": "MA-Boston",
+      "matchedRoles": [
+        "Deals"
+      ]
+    }
+  ]
+}

@@ -1,14 +1,14 @@
 {
-  "lastRunAt": "2026-10-12T06:55:17Z",
-  "outcome": "no-new-postings",
-  "newCount": 0,
-  "detail": "No new postings; JP Morgan, Stepstone, Macquarie, PwC, Deutsche Bank, Barclays, DC Advisory, BDA, UBS, Scotiabank, BNPP unreachable this run",
-  "dayFile": "2026-10-10",
+  "lastRunAt": "2026-10-13T16:30:49Z",
+  "outcome": "new-postings",
+  "newCount": 7,
+  "detail": "7 new postings (Barclays, Citi, Deutsche Bank, Nomura, Pwc); JP Morgan, Dc advisory, Bda partners, Ubs, Scotiabank, BNPP, Macquarie unreachable this run",
+  "dayFile": "2026-10-13",
   "companies": {
-    "Deutsche Bank": "unreachable",
-    "Barclays": "unreachable",
+    "Deutsche Bank": "ok",
+    "Barclays": "ok",
     "JP Morgan": "unreachable",
-    "Stepstone": "unreachable",
+    "Stepstone": "ok",
     "Raymond James": "ok",
     "Dc advisory": "unreachable",
     "Bda partners": "unreachable",
@@ -21,6 +21,6 @@
     "Mangroup": "ok",
     "Citi": "ok",
     "Macquarie": "unreachable",
-    "Pwc": "unreachable"
+    "Pwc": "ok"
   }
 }
