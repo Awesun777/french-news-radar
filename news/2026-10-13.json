@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "meta-muse-wonder",
+      "category": "models",
+      "title": "Meta releases Muse Wonder, its first frontier model, via Meta Model API",
+      "summary": "Meta launched Muse Wonder, a larger model than Muse Spark that is strong at coding and long-term 'active memory'. API pricing is $4 per million input tokens and $20 per million output tokens, in line with GPT-6 Sol and Opus 5.5.",
+      "whyItMatters": "Another frontier-priced LLM option for the tutor's brain, and its active memory could inspire learner-memory features, though voice and French support weren't mentioned.",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "source": "TechCrunch",
+      "tags": [
+        "llm",
+        "pricing",
+        "memory"
+      ]
+    },
+    {
+      "id": "mistral-large-4",
+      "category": "models",
+      "title": "Mistral unveils Large 4 (ML4), a 1T-parameter open-weight model",
+      "summary": "French startup Mistral announced ML4, an open-weight model it says rivals top Chinese open models. Weights are scheduled for public release in late October 2026.",
+      "whyItMatters": "A French-built open-weight LLM could be a strong, self-hostable option for French-language tutoring once the weights ship.",
+      "url": "https://digitimes.com/news/a20261012PD201/startup-anthropic-performance-2026-openai.html",
+      "source": "Digitimes",
+      "tags": [
+        "mistral",
+        "open-weight",
+        "french"
+      ]
+    }
+  ]
+}
