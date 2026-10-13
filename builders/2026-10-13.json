@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "levie-self-harness",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @ Box",
+      "summary": "Box CEO Aaron Levie says agents will ultimately pick their own harness: once an AI sees the task, it will design the scaffolding better than we can in advance. He also welcomes Meta's jump into the frontier, arguing more players pushing state of the art means faster progress and cheaper tokens. And he expects agent swarms to become a core enterprise workflow, with cyber testing as the biggest early token sink.",
+      "summaryZh": "Box CEO Aaron Levie 认为,agent 最终必然会自己选择 harness:一旦 AI 看到具体任务,它设计脚手架的能力会比我们事先设计得更好。他也欢迎 Meta 全面进入前沿模型竞争,认为更多玩家推动 state of the art,会带来更快的进步和更低的 token 成本。他还预计 agent swarm 将成为企业工作流的核心,而网络安全测试会是最早的大规模 token 消耗场景。",
+      "url": "https://x.com/levie/status/2109682812811137061",
+      "tags": [
+        "agents",
+        "enterprise",
+        "meta",
+        "cyber"
+      ]
+    },
+    {
+      "id": "rauchg-minimal-cli",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO @ Vercel",
+      "summary": "Vercel CEO Guillermo Rauch argues coding CLIs have become over-engineered, with daemons, three layers of TUIs and client-server setups, when a CLI should deliver intelligence with zero friction. His pick is a 6MB, model-agnostic tool that starts in milliseconds and ships MCP, Skills, Subagents and ACP built in. He also noted Meta's Muse Wonder is now on Vercel AI Gateway.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 认为现在的 coding CLI 被过度工程化了:daemon、三层 TUI、client-server 架构一应俱全,但 CLI 的意义本该是零摩擦地交付智能。他推荐的工具只有 6MB,毫秒级启动,不绑定模型,内置 MCP、Skills、Subagents 和 ACP。他还提到 Meta 的 Muse Wonder 已经上线 Vercel AI Gateway。",
+      "url": "https://x.com/rauchg/status/2109734766107099312",
+      "tags": [
+        "cli",
+        "coding-agents",
+        "vercel",
+        "mcp"
+      ]
+    },
+    {
+      "id": "shipper-muse-wonder",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO @ Every",
+      "summary": "Every CEO Dan Shipper tried Meta's Muse Wonder to make a video explaining personal benchmarks, and called the result rough. Every video it has made so far is narrated in an Australian accent. He also flagged that he tested Muse Wonder Standard, since Wonder Full is not available on the API yet.",
+      "summaryZh": "Every CEO Dan Shipper 试用了 Meta 的 Muse Wonder,用它做了一个讲解个人 benchmark 的视频,评价是效果相当粗糙。到目前为止它生成的所有视频都带澳洲口音旁白。他还说明自己测的是 Muse Wonder Standard,因为 Wonder Full 目前还没开放 API。",
+      "url": "https://x.com/danshipper/status/2109778026091209087",
+      "tags": [
+        "video-models",
+        "meta",
+        "evals"
+      ]
+    },
+    {
+      "id": "yang-grok-bot",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang says Grok Bot is his favorite agent right now because it is built on personas instead of chat threads, which feels like hiring employees. Each persona owns one job: customer support, research and prep for his YouTube channel, family errands, workout tracking. His new video covers its latest features: free X access, its own email, and Opus.",
+      "summaryZh": "Peter Yang 说 Grok Bot 是他目前最喜欢的 agent,因为它围绕 persona 而不是聊天线程设计,感觉就像雇了一批员工。每个 persona 负责一件事:客户支持、YouTube 研究准备、家庭杂事、健身计划。他的新视频介绍了它的新功能:免费使用 X、独立邮箱,以及 Opus。",
+      "url": "https://x.com/petergyang/status/2109803399332213090",
+      "tags": [
+        "agents",
+        "personas",
+        "grok"
+      ]
+    },
+    {
+      "id": "steipete-ultrafast",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "OpenClaw + OpenAI",
+      "summary": "Peter Steinberger says 6.1 Sol ultrafast beats 6 Astra by a wide margin: roughly the same cost but a different game at 250 tpm. He also repeated a line from last year: vibes coding is a slur.",
+      "summaryZh": "Peter Steinberger 表示 6.1 Sol ultrafast 远胜 6 Astra:成本差不多,但 250 tpm 的速度完全是另一个层级。他还重申了去年的观点:vibes coding 是一种贬称。",
+      "url": "https://x.com/steipete/status/2109730774593487009",
+      "tags": [
+        "models",
+        "speed",
+        "coding"
+      ]
+    },
+    {
+      "id": "zara-cockroach-game",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Builder Zara Zhang shares a story about a friend whose mother turned killing cockroaches into a game; another friend vibe coded it into a real game where you catch cockroaches and compete against Mom, and the first friend cried playing it. Her point: any model can build the game now, but the human story gives it a soul, so code is the new medium for storytelling.",
+      "summaryZh": "Builder Zara Zhang 讲了一个故事:一位朋友小时候家里蟑螂成灾,妈妈把消灭蟑螂变成了游戏;另一位朋友听完后用 vibe coding 做出了一个真正的游戏,玩家在房间里抓蟑螂并与妈妈比赛,那位朋友玩着玩着哭了。她的观点是:现在任何模型都能很快做出这种游戏,但赋予它灵魂的是背后的人的故事与情感,代码是讲故事的新媒介。",
+      "url": "https://x.com/zarazhangrui/status/2109673430245421415",
+      "tags": [
+        "vibe-coding",
+        "storytelling",
+        "culture"
+      ]
+    },
+    {
+      "id": "adityaag-frontier-delta",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @ SPC",
+      "summary": "SPC General Partner Aditya Agarwal says there is a big gap between how frontier lab employees use AI and how even the top 1% of AI orgs do, on public capabilities alone. He suspects the gap will persist for a while, and sees a company opportunity in building a horizontal accelerant to close it.",
+      "summaryZh": "SPC General Partner Aditya Agarwal 指出,即便只看公开能力,前沿实验室员工使用 AI 的方式与前 1% 的 AI 组织之间仍有很大差距。他判断这个差距会持续一段时间,并认为做一个通用的加速器来弥合差距是个创业机会。",
+      "url": "https://x.com/adityaag/status/2109748501982872003",
+      "tags": [
+        "adoption",
+        "startups",
+        "frontier-labs"
+      ]
+    },
+    {
+      "id": "ryolu-ryos",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Designed Cursor, Notion, Stripe",
+      "summary": "Ryo Lu shipped two new apps on ryOS, Dictionary and Fitness, built with Cursor. Dictionary covers new words, pronunciation and kanji; Fitness plans workouts and tracks body and food with AI, and both sync to your ryOS account.",
+      "summaryZh": "Ryo Lu 在 ryOS 上发布了两个新应用:Dictionary 和 Fitness,均用 Cursor 开发。Dictionary 可学习新词、发音和汉字;Fitness 用 AI 规划训练并记录身体与饮食数据,两者都会同步到你的 ryOS 账号。",
+      "url": "https://x.com/ryolu_/status/2109568690358555064",
+      "tags": [
+        "ryos",
+        "cursor",
+        "apps"
+      ]
+    },
+    {
+      "id": "every-podcast-sam-altman-dots",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "How Sam Altman Uses Dots to Take Back His Time",
+      "takeaway": "The most useful AI is a background agent with good judgment that guards your attention, and people, not machines, stay at the center of what we value.",
+      "takeawayZh": "最有用的 AI 是一个有good judgment、在后台守护你注意力的 agent,而人始终是我们价值判断的中心。",
+      "summary": "Sam Altman, speaking at OpenAI Dev Day, describes Dots, a persistent agent that runs in the background connected to your systems. His own use is blunt: it handles the overnight fires so he no longer pollutes his best creative hours by checking his phone. He says it once flagged that a demo was about to break minutes before the keynote, and that it found a screenshot in Slack overnight that he had given up searching for. He also tells of dictating voice notes while drifting off and waking up to five or six built versions of a feature. The bigger bet is human-centered: Altman frames AI as a Renaissance rather than an industrial revolution, and expects a surge of one-person companies, with ChatGPT subscriptions that follow users into third-party apps. Even Navier-Stokes-scale agent feats, he notes, drew more public interest in the people involved than the problem solved. As he puts it: \"We just, we don't care that much about what the machines do. And in some sense we never have.\" He also expects live documents that update themselves, and a new dashboard of his business that shifts with what he cares about, which has moved from revenue and growth toward safety and security.",
+      "summaryZh": "Sam Altman 在 OpenAI Dev Day 上介绍了 Dots:一个持续在后台运行、连接你各类系统的 agent。他自己的用法很直接:让它处理夜里冒出来的各种突发状况,这样早上就不必刷手机,保住最有创造力的时间。他说它曾在主题演讲前几分钟提醒他某个 demo 可能出问题,也在夜里帮他从 Slack 的截图里找到了他已放弃搜索的内容。他还会在睡前留下长语音笔记,醒来后发现一个功能已经被做出了五六个版本。更大的赌注是以人为中心:Altman 把 AI 比作文艺复兴而非工业革命,预计会出现大量一人公司,ChatGPT 订阅也将跟随用户进入第三方应用。他指出,即便 agent 完成了 Navier-Stokes 级别的壮举,公众更关心的也是背后的人而非问题本身。用他的话说:\"We just, we don't care that much about what the machines do. And in some sense we never have.\"(我们其实并不那么在意机器做了什么,过去也从来如此。)他还期待能自动更新的 live document,以及一个随他关注点变化的业务仪表盘,他的关注点已从营收和增长转向安全与对齐。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": [
+        "openai",
+        "agents",
+        "dots",
+        "devday"
+      ]
+    }
+  ]
+}
