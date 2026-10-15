@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "id": "anthropic-singapore-office",
+      "category": "general",
+      "title": "Anthropic opens its fifth Asia-Pacific office, in Singapore, with a government MOU",
+      "summary": "Anthropic opened an office in Singapore on October 14, its fifth in Asia-Pacific, and signed a Memorandum of Understanding with Singapore's Ministry of Digital Development and Information covering AI safety, security, model evaluation, and research into responsible AI adoption. Anthropic says Singapore ranks second of 121 countries for Claude.ai usage relative to population.",
+      "whyItMatters": "Anthropic's growing investment in formal model-evaluation partnerships could eventually surface better eval tooling or guidance for teams (like this one) that rely on Claude to grade or tutor learners.",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source": "Anthropic",
+      "tags": ["anthropic", "business", "asia-pacific", "safety"]
+    },
+    {
+      "id": "openai-engineer-bugging-arrest",
+      "category": "general",
+      "title": "OpenAI engineer arrested after allegedly bugging an executive conference room",
+      "summary": "Federal prosecutors charged OpenAI engineer Abdulrahman Alfozan with planting a hidden recording device, found September 30 behind a TV in an executive conference room he wasn't authorized to enter. He made an initial court appearance this week and remains in custody; OpenAI says it has no indication model weights, source code, or customer data were accessed.",
+      "whyItMatters": "A sharp reminder that insider threats and physical/operational security, not just prompt injection, are part of the real risk surface when building a product on top of a major AI lab's API and infrastructure.",
+      "url": "https://abcnews.com/Technology/wireStory/employee-arrested-after-listening-device-found-openai-conference-137239998",
+      "source": "ABC News (AP)",
+      "tags": ["openai", "security", "general"]
+    }
+  ]
+}
