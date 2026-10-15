@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-13T16:30:49Z",
+  "generatedAt": "2026-10-15T06:29:11Z",
   "digests": [
+    {
+      "date": "2026-10-15",
+      "itemCount": 21,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Pwc"
+      ]
+    },
     {
       "date": "2026-10-13",
       "itemCount": 7,
