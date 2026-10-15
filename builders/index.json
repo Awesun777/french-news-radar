@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-13T16:27:29Z",
+  "generatedAt": "2026-10-15T06:23:52Z",
   "digests": [
+    {
+      "date": "2026-10-15",
+      "title": "Levie finds Gemini 4 Argon +14 on Box's eval while Shipper sees 21%; Anthropic ditches git for Scion",
+      "itemCount": 6,
+      "kinds": [
+        "x",
+        "blog"
+      ],
+      "highlights": [
+        "Aaron Levie: Gemini 4 Argon jumps 14 points on Box's Complex Work eval, and cyber becomes a huge agent market",
+        "Dan Shipper: Gemini 4 Argon scores only 21% on Every's senior engineer benchmark",
+        "Anthropic Engineering: merges hit 30,000 a day, so a team of seven built Scion to replace git in five months"
+      ]
+    },
     {
       "date": "2026-10-13",
       "title": "Levie: agents will choose their own harness; Altman on Dots guarding attention",

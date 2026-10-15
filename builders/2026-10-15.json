@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "id": "levie-gemini4-argon-box-eval",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie says Gemini 4 Argon jumped 14 points over Gemini 3.1 Pro on Box's Complex Work eval and now sits firmly at the frontier, with gains of +37 in technology and +33 in consumer products. The difference is persistence: it follows every step of a brief, catches gaps like a smart meter log that stops in November, and pulls the offending drugs from a care plan once it spots a dangerous interaction. Separately, he argues cyber will be one of the biggest agent markets, because swarms that review every line of code and probe every exploit permutation finally let defenders cover a backlog no team could hire its way through.",
+      "summaryZh": "Box CEO Aaron Levie 表示，Gemini 4 Argon 在 Box 的 Complex Work 评测中比 Gemini 3.1 Pro 整体高出 14 个百分点，稳稳站在前沿，其中技术类提升 37 点，消费品类提升 33 点。关键差别在于它做事更到位：会逐条照着需求执行，能发现数据中断这类漏洞（比如某个智能电表日志在 11 月就停了），在发现危险的药物相互作用后还会真的把相关药物从最终方案里去掉。此外，他认为网络安全会成为 agent 最大的应用领域之一，因为 agent swarm 可以审查每一行代码、尝试各种攻击组合，让防守方第一次有机会覆盖那些靠招人永远处理不完的风险积压。",
+      "url": "https://x.com/levie/status/2110046686198550539",
+      "tags": [
+        "gemini",
+        "evals",
+        "enterprise",
+        "security"
+      ]
+    },
+    {
+      "id": "rauch-stay-model-agnostic",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says never bet against Google, which has the Transformers legacy, the data, the talent and the compute. Everyone has pivoted back to coding because coding agents are AI's killer app, and he calls this an elysium for developers. With Muse Wonder and Gemini Argon landing back to back, his advice is to stay model agnostic and lean on a gateway.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 认为永远不要押注 Google 会输，因为它既有 Transformer 的底子，又有海量数据、工程人才和算力。大家都回到了 coding 上，因为 coding agent 是 AI 的杀手级应用，对开发者和 builder 来说现在堪称乐土。Muse Wonder 和 Gemini Argon 接连发布，也提醒大家无论个人还是公司，都应该保持 model agnostic，并善用 gateway。",
+      "url": "https://x.com/rauchg/status/2110044152482365747",
+      "tags": [
+        "gemini",
+        "coding-agents",
+        "model-agnostic"
+      ]
+    },
+    {
+      "id": "shipper-gemini4-senior-engineer-benchmark",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Every CEO Dan Shipper pushes back on the Gemini 4 hype: on Every's senior engineer benchmark task, Gemini 4 Argon scores just 21%, far below Sol 6 and even Muse. His team's vibe check still calls it Google being back, so strong general reviews and weak results on hard engineering work can both be true.",
+      "summaryZh": "Every CEO Dan Shipper 给 Gemini 4 的热度泼了点冷水：在 Every 内部的资深工程师基准任务上，Gemini 4 Argon 只拿到 21%，远低于 Sol 6，甚至不及 Muse。不过他们团队的 vibe check 依然认为 Google 回来了，说明整体口碑很好和在高难度工程任务上表现偏弱，可以同时成立。",
+      "url": "https://x.com/danshipper/status/2110056016872427944",
+      "tags": [
+        "gemini",
+        "benchmarks",
+        "coding"
+      ]
+    },
+    {
+      "id": "masad-ai-diffusion-decade",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad makes a bold claim: you could pause frontier research today and it would still take AI another 10 years to diffuse through the economy. Replit is working with solutions partners to speed that diffusion up.",
+      "summaryZh": "Replit CEO Amjad Masad 提出了一个大胆的判断：就算今天暂停前沿研究，AI 也还需要十年才能真正渗透进整个经济。Replit 正在与解决方案合作伙伴一起，努力加快这个过程。",
+      "url": "https://x.com/amasad/status/2110128937049452575",
+      "tags": [
+        "diffusion",
+        "replit",
+        "adoption"
+      ]
+    },
+    {
+      "id": "swyx-kill-your-saas",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "smol_ai, Cognition, AI Engineer, Latent Space",
+      "summary": "Swyx ran a real test of the death-of-SaaS thesis: a global hackathon to clone a $43,000-a-year SaaS in a weekend, with any model and any harness, judged by both AI and human evals. It drew 72 submissions and about 100B tokens, and the Latent Space writeup shares the data, what is still hard about killing non-trivial mid-tier SaaS, and the winners of the $10,000 Kill My SaaS contest.",
+      "summaryZh": "Swyx 用一次真实实验检验了\"SaaS 已死\"的说法：他们发起全球黑客松，要求在一个周末内克隆一款年费 43,000 美元的 SaaS，模型和 harness 不限，并由 AI 和真人共同评测。活动收到 72 份提交，消耗约 100B token，Latent Space 的这期节目公布了数据、要干掉中等规模且不简单的 SaaS 到底难在哪里，以及 10,000 美元 Kill My SaaS 大赛的获奖者。",
+      "url": "https://x.com/swyx/status/2110065576764686421",
+      "tags": [
+        "saas",
+        "hackathon",
+        "evals"
+      ]
+    },
+    {
+      "id": "anthropic-redesigning-source-control-scion",
+      "kind": "blog",
+      "author": "Anthropic Engineering",
+      "title": "Redesigning source control at Anthropic",
+      "summary": "Anthropic Engineering says coding is no longer the bottleneck; developer infrastructure built for human scale is. Merges to its monorepo grew from about 2,500 a day in May 2026 to over 30,000 a day by September, so a team of seven built Scion, an in-house version control system, and migrated off git in five months. Scion assumes clients are always online, so commits happen server-side and checkouts are sparse or virtualized, and its footprint is 200x smaller than the old git mirror fleet, with CI checkouts two orders of magnitude faster and a 25% CI CPU win. One striking data point: an early Claude Mythos Preview rewrote the hand-written ingestion pipeline to use 20x less memory and run 4x faster. Their lesson on the engineer's role: \"the role of the engineers was to tell Claude no.\"",
+      "summaryZh": "Anthropic Engineering 指出，现在写代码已经不是瓶颈，为人类规模设计的开发基础设施才是。其 monorepo 每天合并的改动从 2026 年 5 月的约 2,500 个增长到 9 月的 3 万多个，于是一个七人团队打造了内部版本控制系统 Scion，并在五个月内完成了从 git 的迁移。Scion 假设客户端永远在线，提交都在服务端完成，checkout 采用稀疏或虚拟化方式，整体资源占用比原来的 git 镜像集群小 200 倍，CI 的 checkout 快了两个数量级，CI CPU 容量节省 25%。一个很亮眼的数据：早期的 Claude Mythos Preview 把手写的 ingestion pipeline 重写后，内存占用降低 20 倍，速度快 4 倍。关于工程师的角色，他们的体会是：\"工程师的作用就是对 Claude 说不。\"",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "tags": [
+        "scion",
+        "source-control",
+        "agents",
+        "infrastructure"
+      ]
+    }
+  ]
+}
