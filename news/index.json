@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-15T06:17:34Z",
+  "generatedAt": "2026-10-16T08:21:42Z",
   "digests": [
+    {
+      "date": "2026-10-16",
+      "title": "Meta Muse Spark Open, Anthropic-METR access",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Meta launches Muse Spark Open, an 816B-parameter open-weight model",
+        "Anthropic gives METR researchers employee-level access to audit its models"
+      ]
+    },
     {
       "date": "2026-10-15",
       "title": "Quiet day: Anthropic's Singapore office, OpenAI bugging arrest",

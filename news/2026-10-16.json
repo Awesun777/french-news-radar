@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "id": "meta-muse-spark-open",
+      "category": "models",
+      "title": "Meta launches Muse Spark Open, an 816B-parameter open-weight model",
+      "summary": "Meta released Muse Spark Open, a natively multimodal open-weight model with a 1M-token context window, pitched at coding and agentic work. Running it locally needs about 1 TB of RAM (Mac Studio M5 Ultra), and it is also offered through several API platforms.",
+      "whyItMatters": "Too large to self-host for a voice tutor and no voice or French support was mentioned, but it is another open-weight option that could pressure LLM pricing for the text-reasoning layer.",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2296215726.jpg?w=1024",
+      "tags": ["llm", "open-weight", "meta"]
+    },
+    {
+      "id": "anthropic-metr-access",
+      "category": "general",
+      "title": "Anthropic gives METR researchers employee-level access to audit its models",
+      "summary": "Six METR researchers get employee-level access to independently assess Anthropic's models, safety practices and risk management, and can publish findings without a corporate veto. The arrangement is modeled on embedded bank examiners.",
+      "whyItMatters": "Worth knowing as a sign of how frontier labs are handling third-party scrutiny; the link to the tutor is indirect.",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?w=1024",
+      "tags": ["safety", "anthropic"]
+    }
+  ]
+}
