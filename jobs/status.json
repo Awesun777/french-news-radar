@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-10-15T06:29:19Z",
+  "lastRunAt": "2026-10-16T11:30:27Z",
   "outcome": "new-postings",
-  "newCount": 21,
-  "detail": "21 new postings (Barclays, Citi, Pwc)",
-  "dayFile": "2026-10-15",
+  "newCount": 32,
+  "detail": "32 new postings (Barclays, Citi, JP Morgan, Scotiabank)",
+  "dayFile": "2026-10-16",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
+    "JP Morgan": "ok",
     "Stepstone": "ok",
     "Raymond James": "ok",
+    "Dc advisory": "unreachable",
+    "Bda partners": "unreachable",
     "Houlihan Lokey": "ok",
+    "Ubs": "unreachable",
+    "Scotiabank": "ok",
+    "BNPP": "unreachable",
     "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
     "Citi": "ok",
-    "Pwc": "ok",
-    "JP Morgan": "unreachable",
-    "Dc advisory": "unreachable",
-    "Bda partners": "unreachable",
-    "Ubs": "unreachable",
-    "Scotiabank": "unreachable",
-    "BNPP": "unreachable",
-    "Macquarie": "unreachable"
+    "Macquarie": "ok",
+    "Pwc": "ok"
   }
 }
