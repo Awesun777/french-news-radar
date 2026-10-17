@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-10-16T11:30:43Z",
+  "lastRunAt": "2026-10-17T06:50:20Z",
   "outcome": "new-postings",
-  "newCount": 32,
-  "detail": "32 new postings (Barclays, Citi, JP Morgan, Scotiabank)",
-  "dayFile": "2026-10-16",
+  "newCount": 20,
+  "detail": "20 new postings (Citi, Dc advisory, JP Morgan, Macquarie, Scotiabank); Workday tenants down for maintenance",
+  "dayFile": "2026-10-17",
   "companies": {
-    "Deutsche Bank": "ok",
-    "Barclays": "ok",
+    "Deutsche Bank": "unreachable",
+    "Barclays": "unreachable",
     "JP Morgan": "ok",
     "Stepstone": "ok",
-    "Raymond James": "ok",
-    "Dc advisory": "unreachable",
+    "Raymond James": "unreachable",
+    "Dc advisory": "ok",
     "Bda partners": "unreachable",
-    "Houlihan Lokey": "ok",
+    "Houlihan Lokey": "unreachable",
     "Ubs": "unreachable",
     "Scotiabank": "ok",
     "BNPP": "unreachable",
     "Nomura": "ok",
-    "Mizuho americas": "ok",
+    "Mizuho americas": "unreachable",
     "Mangroup": "ok",
     "Citi": "ok",
     "Macquarie": "ok",
-    "Pwc": "ok"
+    "Pwc": "unreachable"
   }
 }

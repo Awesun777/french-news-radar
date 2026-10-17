@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-16T11:30:27Z",
+  "generatedAt": "2026-10-17T06:50:20Z",
   "digests": [
+    {
+      "date": "2026-10-17",
+      "itemCount": 20,
+      "companies": [
+        "Citi",
+        "Dc advisory",
+        "JP Morgan",
+        "Macquarie",
+        "Scotiabank"
+      ]
+    },
     {
       "date": "2026-10-16",
       "itemCount": 32,
