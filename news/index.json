@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-16T08:21:42Z",
+  "generatedAt": "2026-10-17T06:43:19Z",
   "digests": [
+    {
+      "date": "2026-10-17",
+      "title": "OpenAI GPT-Live-1.1 adds French voices",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "OpenAI GPT-Live-1.1 and GPT-Live-1.1 Quip: 13 new voices incl. two French, better accents",
+        "Jev becomes Vercel's fastest-adopted AI model ever"
+      ]
+    },
     {
       "date": "2026-10-16",
       "title": "Meta Muse Spark Open, Anthropic-METR access",

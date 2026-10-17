@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "id": "openai-gpt-live-1-1",
+      "category": "models",
+      "title": "OpenAI GPT-Live-1.1 and GPT-Live-1.1 Quip: 13 new voices incl. two French, better accents",
+      "summary": "OpenAI updated its voice model behind ChatGPT Voice, Codex and dots, adding 13 voices (two each in French, German, Hindi, Japanese, Korean and Mexican Spanish) and more natural accents. A mini variant, Quip, also ships. API access is 'coming soon' with no date; developers stay on the earlier model for now.",
+      "whyItMatters": "Better French accents and native French voices are exactly what Romain on OpenAI Realtime needs, so watch for the API release to swap in.",
+      "url": "https://runtimewire.com/article/openai-gpt-live-1-1-six-languages",
+      "source": "Runtime Wire",
+      "image": "https://runtimewire.com/api/storage/uploads/hero-images/openai-openai-new-voices-better-accents-and-less-checking-gpt-live-1-1-brings-th-3fcc47f9.png?w=1600&fmt=webp",
+      "tags": ["voice", "openai", "french", "realtime"]
+    },
+    {
+      "id": "jev-vercel-adoption",
+      "category": "general",
+      "title": "Jev becomes Vercel's fastest-adopted AI model ever",
+      "summary": "TypeSafe AI's Jev, launched September 15, is used by 35% of Vercel's paid teams within two weeks, nearly double the second-place model, per Vercel AI gateway data.",
+      "whyItMatters": "A sign of how quickly developers switch models when one is clearly better, which is useful context for how often to re-evaluate the tutor's model stack.",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source": "TechCrunch",
+      "tags": ["adoption", "models"]
+    }
+  ]
+}
