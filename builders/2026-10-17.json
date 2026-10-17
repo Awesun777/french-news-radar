@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "id": "levie-rsi-flywheel",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Levie says AI being better than humans at training models has arrived faster than anyone expected: recursive self-improvement went from feeling far off to showing its first signs. His flywheel is model capability beyond most human engineers, better harnesses and infra for long-running agents, growing data, and agents parallelized across far more tasks and approaches than any person could try. He expects model progress to accelerate faster than ever seen, and warns that anyone not pricing in RSI is probably making a mistake.",
+      "summaryZh": "Levie 认为,AI 在训练模型上超越人类的门槛来得比预期快得多:递归式自我改进从“遥远”一夜之间变成已现端倪。他描述的飞轮包括:模型能力超过多数人类工程师、长时运行 agent 的 harness 与基础设施进步、数据不断增长,以及能把 agent 并行用于远超个人所能尝试的任务和方法。他预计模型进步将以前所未有的速度加快,并警告:如果你没有把 RSI 计入判断,那很可能是个错误。",
+      "url": "https://x.com/levie/status/2111312141609586862",
+      "tags": [
+        "RSI",
+        "agents",
+        "frontier"
+      ]
+    },
+    {
+      "id": "cherny-code-review",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude @anthropicai",
+      "summary": "Cherny says he can't imagine being productive without Claude Code Review, which runs on all of his PRs and catches almost every bug before it ships. He calls it part of the secret sauce that lets his team move fast while still raising the quality bar. In a separate post he adds that he now makes his slide decks with Claude Slides.",
+      "summaryZh": "Cherny 说他无法想象没有 Claude Code Review 还怎么高效工作:它在他所有的 PR 上运行,几乎能在合入前抓住每个 bug。他称这是团队既能快速推进、又能不断抬高质量标准的“秘方”之一。另外他还提到,现在自己做幻灯片都用 Claude Slides。",
+      "url": "https://x.com/bcherny/status/2111158313463525518",
+      "tags": [
+        "Claude Code",
+        "code review",
+        "Anthropic"
+      ]
+    },
+    {
+      "id": "shipper-editing-oversight",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "ceo @every",
+      "summary": "Shipper argues generation is now cheap and high quality, so the capability bump that matters next is editing and oversight.",
+      "summaryZh": "Shipper 认为生成如今已经又便宜又高质量,因此下一个真正需要的能力跃升是编辑与监督。",
+      "url": "https://x.com/danshipper/status/2111174407637139668",
+      "tags": [
+        "editing",
+        "oversight",
+        "generation"
+      ]
+    },
+    {
+      "id": "masad-replit-own-cloud",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit",
+      "summary": "Masad announces that Replit can now be deployed into a customer's own cloud, so data never leaves home. He pitches it at high-stakes environments such as governments, finance and healthcare. Separately he notes mathematicians have gone through all five stages of grief in a compressed window and are now entering acceptance.",
+      "summaryZh": "Masad 宣布 Replit 现在可以部署到客户自己的云中,数据不会离开本地。他把它定位于政府、金融和医疗等高风险场景。另外他观察到,数学家们在很短的时间里走完了悲伤的五个阶段,如今正进入“接受”阶段。",
+      "url": "https://x.com/amasad/status/2111267314012496121",
+      "tags": [
+        "Replit",
+        "enterprise",
+        "data sovereignty"
+      ]
+    },
+    {
+      "id": "sottiaux-codex-slides",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "Sottiaux says Codex gained slides support yesterday. It is currently limited to Pro, Business and Enterprise plans while the team collects feedback.",
+      "summaryZh": "Sottiaux 表示 Codex 昨天新增了幻灯片支持,目前仅对 Pro、Business 和 Enterprise 用户开放,团队正在收集反馈。",
+      "url": "https://x.com/thsottiaux/status/2111249810502353152",
+      "tags": [
+        "Codex",
+        "slides",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "rauch-scriptc-tsgo",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch jokes that TypeScript is the new TypeScript: code compiled with scriptc outperforms tsgo by 2-4x. He also rebuilt the Roadster demo as a playable, highly accurate simulation that keeps many of the real-life details.",
+      "summaryZh": "Rauch 调侃“TypeScript 就是新的 TypeScript”:用 scriptc 编译的代码比 tsgo 快 2 到 4 倍。他还把 Roadster 演示重建成了可玩的高精度模拟,保留了许多现实细节。",
+      "url": "https://x.com/rauchg/status/2111274408706965898",
+      "tags": [
+        "TypeScript",
+        "performance",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "no-priors-brockman-cyber-drugs",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "takeaway": "Brockman argues AI now produces genuinely new knowledge, that defenders have a closing window to use frontier models to pay down internet-scale security debt, and that humans must stay in the driver's seat.",
+      "takeawayZh": "Brockman 认为 AI 如今已能产出真正的新知识,防御者正处在一个会逐渐关闭的窗口期,应借助前沿模型偿还互联网规模的安全债务,同时人类必须始终掌握方向盘。",
+      "summary": "Greg Brockman says this week's math results, roughly 400 important open problems resolved, make it impossible to deny that AI can come up with new knowledge, though not yet whole new theories. The leverage for humans goes way up, and the same recipe of compute, data and algorithms should transfer to biology, where the open question is data. Drug discovery is his top application: models may crack the language of biology, and bottlenecks like year-long regulatory filings are things AI can write far more easily.\n\nHe describes Dots as a proactive, always-on agent with its own cloud computer, running an Astra-level model. Its change is form factor, not capability: it watches his inbox, Slack and calendar, and surfaces things he never asked it to notice. He expects consumer and enterprise AI to converge, with cost the main difference, and says the best UI is no UI, backed by new generative UI that crafts the exact interface needed in the moment.\n\nOn security, he says we are in a defender's window: peak capabilities help defenders, while broadly diffused cyber capability keeps ratcheting up. OpenAI put about 25 production engineers on pure security work until the model saturated the issues it could find, backs defenders through its Daybreak program with a billion-dollar commitment, and sees formal verification and secure-by-default code as ways to pay down tech debt. His bold claim: security spend should vastly outstrip software spend, since software is becoming cheap and what matters is software you can trust. He closes on human agency, citing the iMac handle: people should feel they can always pick the machine up and throw it out the window. \"Humans should be firmly in the driver's seat.\"",
+      "summaryZh": "Greg Brockman 说,本周的数学成果(约 400 个重要开放问题被解决)让人无法再否认 AI 能产出新知识,尽管还不是完整的新理论。人类的杠杆因此大幅提升,同样的算力、数据与算法配方应能迁移到生物学,关键悬念在于数据。药物发现是他心目中的首要应用:模型有望破解“生物学的语言”,而长达一年的监管申报文件这类瓶颈,AI 写起来要容易得多。\n\n他把 Dots 描述为一个主动式、永远在线的 agent,拥有自己的云电脑,运行 Astra 级别的模型。它改变的是形态而非能力:它盯着他的邮箱、Slack 和日历,并提示他从未要求关注的事项。他预计消费级与企业级 AI 将走向融合,主要差别在成本;最好的 UI 就是没有 UI,再配合新的生成式 UI,在需要的当下即时造出所需界面。\n\n在安全方面,他说我们正处于“防御者窗口期”:最强能力可以帮助防御者,而广泛扩散的网络攻击能力也在不断攀升。OpenAI 曾让约 25 名生产工程师专职做安全,直到模型能发现的问题饱和;并通过 Daybreak 计划以十亿美元承诺支持一线防御者,同时看好形式化验证和默认安全的代码来偿还技术债。他的大胆论断是:安全支出应当远超软件支出,因为软件正变得廉价,真正重要的是可信赖的软件。最后他谈到人的能动性,引用 iMac 提手的故事:人应当始终觉得自己可以把机器拎起来扔出窗外。“人类应当牢牢坐在驾驶座上。”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "OpenAI",
+        "cybersecurity",
+        "drug discovery",
+        "Dots"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-15T06:23:52Z",
+  "generatedAt": "2026-10-17T06:44:08Z",
   "digests": [
+    {
+      "date": "2026-10-17",
+      "title": "Levie says price in recursive self-improvement; Brockman wants security spend to outstrip software spend",
+      "itemCount": 7,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Aaron Levie: AI better at training models than humans is arriving fast, and RSI should be priced in",
+        "Boris Cherny: Claude Code Review catches almost every bug on his PRs before they ship",
+        "Greg Brockman: security spend should vastly outstrip software spend as software gets cheap"
+      ]
+    },
     {
       "date": "2026-10-15",
       "title": "Levie finds Gemini 4 Argon +14 on Box's eval while Shipper sees 21%; Anthropic ditches git for Scion",
