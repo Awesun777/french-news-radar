@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": "reflection-beam-open-weights",
+      "category": "general",
+      "title": "Reflection AI releases Beam, a 501B open-weight MoE under Apache 2.0",
+      "summary": "Reflection AI published the weights for Beam on Hugging Face on Oct 16, after unveiling it earlier in the month. It is a sparse mixture-of-experts model with 501B total and 23B active parameters, aimed at coding and agentic work, with a 1M-token context.",
+      "whyItMatters": "A permissively licensed US open-weight model is a possible self-hosted backend for the tutor's text reasoning, though it isn't a voice model and is aimed at coding.",
+      "url": "https://www.vktr.com/ai-platforms/reflection-ai-unveils-beam-a-501b-open-weight-model/",
+      "source": "VKTR",
+      "tags": [
+        "open-weights",
+        "llm",
+        "apache-2.0"
+      ]
+    }
+  ]
+}
