@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": "masad-mathematicians-grief",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO @replit",
+      "summary": "Mathematicians are going through all five stages of grief — denial, anger, bargaining, depression, acceptance — in a compressed window as AI reaches their turf. His read: we're at the tail end of depression and entering acceptance.",
+      "summaryZh": "数学家们正在极短的时间内经历悲伤的五个阶段——否认、愤怒、讨价还价、沮丧、接受——因为AI正在闯入他们的领地。他的判断是:我们正处于沮丧的尾声,即将进入接受阶段。",
+      "url": "https://x.com/amasad/status/2111206044416500159",
+      "tags": [
+        "math",
+        "AI-progress"
+      ]
+    },
+    {
+      "id": "altman-navier-stokes-shirt",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "summary": "The back of the \"Navier-Stokes milestone\" shirt carries the last line of the chain-of-thought from the solution itself.",
+      "summaryZh": "“纳维-斯托克斯里程碑”T恤的背面印着该解答思维链的最后一行。",
+      "url": "https://x.com/sama/status/2111139227761266699",
+      "tags": [
+        "OpenAI",
+        "math",
+        "reasoning"
+      ]
+    },
+    {
+      "id": "cherny-claude-slides",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude @anthropicai",
+      "summary": "Says not to sleep on Claude Slides: it's now how he makes slide decks, ending the old routine of googling \"iphone frame svg\".",
+      "summaryZh": "他说别小看 Claude Slides:现在他就用它做幻灯片,再也不用像以前那样去搜“iphone frame svg”了。",
+      "url": "https://x.com/bcherny/status/2111158659971699136",
+      "tags": [
+        "Claude",
+        "slides",
+        "workflow"
+      ]
+    },
+    {
+      "id": "rauch-roadster-sim",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rebuilt the new Roadster demo as a playable, highly accurate simulation that keeps many of the real-life details.",
+      "summaryZh": "把新款 Roadster 的演示重建成了可玩的高精度模拟,保留了许多现实中的细节。",
+      "url": "https://x.com/rauchg/status/2111313462987231519",
+      "tags": [
+        "Vercel",
+        "simulation",
+        "demo"
+      ]
+    },
+    {
+      "id": "thsottiaux-chatgpt-space",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "Shares a video on ChatGPT Space made by the actual team working on it — endearingly awkward at times — and asks what people want to see next. Users need to update the app to try it.",
+      "summaryZh": "分享了一段由 ChatGPT Space 实际团队出镜的视频,有时略显尴尬却很真诚,并询问大家接下来想看到什么。需要更新应用才能体验。",
+      "url": "https://x.com/thsottiaux/status/2111249534072529256",
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "product"
+      ]
+    },
+    {
+      "id": "swyx-show-launch",
+      "kind": "x",
+      "author": "Swyx",
+      "summary": "Has waited almost a year to launch a new show, sharing behind-the-scenes from the shoot of its latest episode. Separately, he wants the prompts behind a video he calls near-Kurzgesagt clarity of explanation.",
+      "summaryZh": "筹备近一年的新节目终于上线,并分享了最新一期的拍摄花絮。另外,他想要某个视频背后的提示词,称其讲解清晰度接近 Kurzgesagt 的水准。",
+      "url": "https://x.com/swyx/status/2111245359125266915",
+      "tags": [
+        "media",
+        "video",
+        "AI-engineer"
+      ]
+    }
+  ]
+}

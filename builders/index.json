@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-17T06:44:08Z",
+  "generatedAt": "2026-10-18T06:39:00Z",
   "digests": [
+    {
+      "date": "2026-10-18",
+      "title": "Masad sees mathematicians reaching acceptance; Altman shows the Navier-Stokes shirt; Cherny swears by Claude Slides",
+      "itemCount": 6,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Amjad Masad: mathematicians are at the tail end of depression, entering acceptance",
+        "Sam Altman: Navier-Stokes milestone shirt prints the solution's last chain-of-thought line",
+        "Boris Cherny: Claude Slides is now how he makes decks"
+      ]
+    },
     {
       "date": "2026-10-17",
       "title": "Levie says price in recursive self-improvement; Brockman wants security spend to outstrip software spend",
