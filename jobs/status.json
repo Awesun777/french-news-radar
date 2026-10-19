@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-10-18T06:46:20Z",
+  "lastRunAt": "2026-10-19T06:55:04Z",
   "outcome": "new-postings",
-  "newCount": 52,
-  "detail": "52 new postings (Barclays, Deutsche Bank, JP Morgan, Mizuho americas, Pwc, Scotiabank); UBS and BNPP unreachable",
-  "dayFile": "2026-10-18",
+  "newCount": 4,
+  "detail": "4 new postings (Houlihan Lokey, Pwc); UBS and BNPP unreachable",
+  "dayFile": "2026-10-19",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
