@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "id": "anthropic-public-benefit-fund",
+      "category": "general",
+      "title": "Anthropic commits shares to a new Public Benefit Fund",
+      "summary": "Anthropic announced on October 18 that it will commit 5% of its shares (subject to stockholder approval) to a new, wholly-owned Public Benefit Fund LLC, with the stake growing by 2% for every 50% rise in company valuation. The Fund builds on the founders' earlier pledge of 80% of their own equity and brings total committed shares to roughly 20%; Anthropic cites addressing AI's labor-market impact as an example use.",
+      "whyItMatters": "Not a product change, but a signal of how a frontier lab competing with OpenAI and Google on the LLM/voice stack Romain and Anna depend on is structuring its long-term capital and priorities.",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic",
+      "tags": ["anthropic", "business", "general"]
+    }
+  ]
+}
