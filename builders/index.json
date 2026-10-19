@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-18T06:39:00Z",
+  "generatedAt": "2026-10-19T06:38:14Z",
   "digests": [
+    {
+      "date": "2026-10-19",
+      "title": "Masad clarifies Replit's OpenAI tilt; Levie says everything becomes software; Pavlo on agents and databases",
+      "itemCount": 6,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Amjad Masad: Replit stays model agnostic, but OpenAI is now the preferred partner powering Agent",
+        "Aaron Levie: agents turn more of the world into software, raising the value of engineering",
+        "Andy Pavlo: agents need database guardrails that already exist; 60%+ of open-source databases have agent commits"
+      ]
+    },
     {
       "date": "2026-10-18",
       "title": "Masad sees mathematicians reaching acceptance; Altman shows the Navier-Stokes shirt; Cherny swears by Claude Slides",

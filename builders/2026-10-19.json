@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "id": "masad-replit-model-agnostic",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO @replit",
+      "summary": "Masad walks back the read of his TC Disrupt remarks: Replit stays model agnostic, and users can still pick Anthropic and many other models. What he meant is that OpenAI is now the preferred partner powering Replit Agent, chosen for performance, cost and partnership strength. The default is tuned for best performance at best price, with choice left open.",
+      "summaryZh": "Masad澄清了外界对他在TC Disrupt发言的解读：Replit依然不绑定模型，用户仍可选择Anthropic及其他多家模型。他的本意是，OpenAI现在是驱动Replit Agent的首选合作伙伴，理由是性能、成本和合作关系的强度。默认体验按最佳性价比优化，同时保留用户选择权。",
+      "url": "https://x.com/amasad/status/2111494912562888939",
+      "tags": [
+        "Replit",
+        "OpenAI",
+        "Anthropic",
+        "agents"
+      ]
+    },
+    {
+      "id": "levie-everything-becomes-software",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @box",
+      "summary": "Levie says the biggest misread about the end of software engineering was assuming the world needs a fixed amount of software. The opposite is happening: because agents use tools, write software on the fly and process data, problems that could never be digitized now get software thrown at them. Engineering grows in importance, and while nobody will code manually, almost everything will be code.",
+      "summaryZh": "Levie认为，对“软件工程终结论”最大的误读，是假设世界所需的软件总量是固定的。实际恰恰相反：智能体能用工具、即时写软件、处理数据，过去无法数字化的问题现在都能用软件解决。工程的经济地位因此上升——我们未来不再手写代码，但几乎一切都会变成代码。",
+      "url": "https://x.com/levie/status/2111525362446520466",
+      "tags": [
+        "software engineering",
+        "agents",
+        "jobs"
+      ]
+    },
+    {
+      "id": "thsottiaux-codex-agents-taxes",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "Sottiaux describes his work Codex instance (\"Burger\") coordinating over email with his personal one (\"Dorito\") to gather documents, which then dealt with his CPA to file taxes. The whole thing took 20 minutes. His verdict: \"We're still so early.\"",
+      "summaryZh": "Sottiaux讲述他工作用的Codex智能体（“Burger”）应他个人智能体（“Dorito”）的请求，通过邮件与其协调获取文件，再与他的会计师对接完成报税，全程仅20分钟。他的结论是：“我们仍处于非常早期的阶段。”",
+      "url": "https://x.com/thsottiaux/status/2111495392559067199",
+      "tags": [
+        "Codex",
+        "agents",
+        "automation"
+      ]
+    },
+    {
+      "id": "petergyang-claude-code-app",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Yang credits the Claude Code team for making the app much faster, and says it is arguably simpler to use than ChatGPT now. He still wants better browser and computer use, remote control for all threads, and live voice.",
+      "summaryZh": "Yang称赞Claude Code团队让应用速度大幅提升，甚至可以说比ChatGPT更易用。不过他仍希望看到更好的浏览器/电脑操控、对所有会话的远程控制，以及实时语音。",
+      "url": "https://x.com/petergyang/status/2111496600522805624",
+      "tags": [
+        "Claude Code",
+        "product",
+        "UX"
+      ]
+    },
+    {
+      "id": "swyx-latent-space-audience",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & ...",
+      "summary": "Swyx shares audience data: they have served over 1M unique viewers a month since May, yet 58% each month are new and 68% are not subscribed. Viewing peaks 7am-11am PT and drops off after 5pm. In follow-ups he says the channel was ignored for two years before slowly getting recommended via browsing, with poor click-through, and he wants to collab with creators his audience already loves.",
+      "summaryZh": "Swyx分享了观众数据：自5月以来每月服务超过100万独立观众，但每月58%是新观众，68%未订阅。观看高峰在太平洋时间上午7点到11点，下午5点后几乎无人观看。他在后续推文中说，频道两年间几乎无人问津，之后才慢慢通过浏览推荐获得曝光，点击率很差，因此想与观众已喜爱的创作者合作。",
+      "url": "https://x.com/swyx/status/2111350966419411070",
+      "tags": [
+        "media",
+        "YouTube",
+        "audience"
+      ]
+    },
+    {
+      "id": "mad-podcast-pavlo-agents-databases",
+      "kind": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "title": "What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)",
+      "takeaway": "Agents don't need new databases so much as the old guardrails, and agent-written code is already in most open-source database systems.",
+      "takeawayZh": "智能体需要的不是全新的数据库，而是数据库领域早已存在的护栏；而且智能体写的代码已经出现在多数开源数据库中。",
+      "summary": "Carnegie Mellon's Andy Pavlo, who recently founded ClickHouse Labs, argues that databases in the agent era is mostly old lessons relearned. When agents drop production tables, the controls to prevent it already exist; \"everyone wants to reinvent the wheel.\" His fix is guardrails, treating agents like toddlers who need a stair gate. On agent memory, he says a file system is a database, and he doubts native graph databases beat SQL systems with proper graph constructs; he has a standing Hacker News bet that the graph database market won't boom by 2030. Vector databases won't kill Postgres either, and will evolve into systems of record or Elasticsearch-style add-ons.\n\nHe is unsure whether agentic workloads really differ from human ones beyond volume, and calls it an open research question. On building databases with agents, he says you can vibe-code a whole system given enough tokens and guidance, and his Database of Databases site finds over 60% of open-source database systems now have commits from agents. The old rule still holds, though: the first 90% takes three years and the last 10% another seven. Learning database internals still matters because someone must understand what the agents are doing. Of ClickHouse, he says the business moves (Postgres offering, observability, LLM tooling) are what he would have done himself, and that what wins is the scaffolding around the engine: UI, developer experience and ingestion. His record betting on exotic hardware is, in his words, terrible: Optane and processing-in-memory both got killed.\n\nQuote: \"It's the wild west for people that don't know their history. Databases... for years we've had the capabilities to make sure people don't do things they shouldn't be doing.\"\n\nQuote: \"What is a file system? It's a database, right? Everything's a database.\"",
+      "summaryZh": "卡内基梅隆大学的Andy Pavlo（最近创办了ClickHouse Labs）认为，智能体时代的数据库问题多半是老教训的重演。智能体删掉生产数据表时，防止此类事故的控制手段其实早已存在，只是“人人都想重新发明轮子”。他的解法是护栏——把智能体当作需要楼梯护栏的幼儿。关于智能体记忆，他说文件系统本身就是数据库，并怀疑原生图数据库能胜过具备图遍历能力的SQL系统；他在Hacker News上有个赌约：到2030年图数据库市场不会爆发。向量数据库也不会取代Postgres，而会演变为记录系统或类似Elasticsearch的附加组件。\n\n他不确定智能体的负载除了规模之外是否真与人类不同，称这是尚待研究的问题。关于用智能体造数据库，他说只要token和引导足够，可以“凭感觉编程”出整个系统；他的“数据库之数据库”网站显示，超过60%的开源数据库系统已有来自智能体的提交。但老规律依旧：前90%要三年，剩下10%还要七年。学习数据库内部原理依然重要，因为总得有人看懂智能体在做什么。谈到ClickHouse，他说其业务布局（Postgres服务、可观测性、LLM工具）正是他自己会做的选择，而真正决胜的是引擎之外的脚手架：界面、开发者体验和数据摄入。他自嘲押注奇特硬件的战绩很糟：Optane和存内计算都被砍了。\n\n引语：“不了解历史的人眼里这就是狂野西部。数据库……多年来我们一直有能力防止人们做不该做的事。”\n\n引语：“文件系统是什么？它就是数据库。一切都是数据库。”",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": [
+        "databases",
+        "agents",
+        "ClickHouse",
+        "podcast"
+      ]
+    }
+  ]
+}
