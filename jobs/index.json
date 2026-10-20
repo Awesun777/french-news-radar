@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-19T06:55:04Z",
+  "generatedAt": "2026-10-20T06:45:55Z",
   "digests": [
+    {
+      "date": "2026-10-20",
+      "itemCount": 39,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "JP Morgan"
+      ]
+    },
     {
       "date": "2026-10-19",
       "itemCount": 4,
