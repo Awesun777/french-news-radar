@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "id": "nvidia-nemotron-bolt-open-models",
+      "category": "models",
+      "title": "Nvidia launches Nemotron 3.5 Super VL (120B) and Bolt (74B, E4B) open models for agents",
+      "summary": "Nvidia released three open-weight models for agents: the 120B Nemotron 3.5 Super VL for enterprise use and two lighter Bolt models (74B and E4B) meant to run locally on AI PCs with its RTX Spark chip. All are open and can be customized with a company's own data.",
+      "whyItMatters": "A small on-device model like Bolt E4B is a candidate for cheap local tutoring logic (corrections, hints) alongside the realtime voice agents, though French quality is unverified.",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2024/11/GettyImages-2183848501.jpg?w=1024",
+      "tags": ["open-weight", "on-device", "agents"]
+    },
+    {
+      "id": "tolan-30m-ai-companion",
+      "category": "general",
+      "title": "Tolan raises $30M for its AI companion app",
+      "summary": "Tolan raised $30M from Union Square Ventures and Khosla Ventures, reportedly valuing it above $268M. It has over 250,000 active users, 70 million conversations and double-digit millions in ARR. The companion is a cartoon character and is not voice-based.",
+      "whyItMatters": "It shows paying demand for a persistent character that remembers the user, which is a pattern Romain and Anna could borrow for retention.",
+      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/tolan.jpg?w=1024",
+      "tags": ["companion", "funding", "retention"]
+    }
+  ]
+}

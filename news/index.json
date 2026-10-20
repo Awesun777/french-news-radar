@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-19T06:15:46Z",
+  "generatedAt": "2026-10-20T06:38:20Z",
   "digests": [
+    {
+      "date": "2026-10-20",
+      "title": "Quiet day: Nvidia's Nemotron 3.5 and Bolt open models",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Nvidia launches Nemotron 3.5 Super VL (120B) and Bolt (74B, E4B) open models for agents",
+        "Tolan raises $30M for its AI companion app"
+      ]
+    },
     {
       "date": "2026-10-19",
       "title": "Quiet day: Anthropic commits shares to a new Public Benefit Fund",
