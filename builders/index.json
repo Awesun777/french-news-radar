@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-19T06:38:14Z",
+  "generatedAt": "2026-10-20T06:39:43Z",
   "digests": [
+    {
+      "date": "2026-10-20",
+      "title": "Levie on agent swarms and compute; Reflection's Laskin on open models; Sottiaux on the OpenCode attack",
+      "itemCount": 6,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Aaron Levie: agent swarms make compute the key variable in research, testing and data work",
+        "Misha Laskin: Beam's 10,000-GPU RL run shows frontier capability is now an economics question",
+        "Thibault Sottiaux: OpenAI refunds OpenCode users hit by the attack, offers Daybreak Blue for defenders"
+      ]
+    },
     {
       "date": "2026-10-19",
       "title": "Masad clarifies Replit's OpenAI tilt; Levie says everything becomes software; Pavlo on agents and databases",

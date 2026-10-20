@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "id": "levie-agent-swarms",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO of Box",
+      "summary": "Box CEO Aaron Levie argues agent swarms are a big deal because they make compute a critical variable in work that was never compute-limited before. Research, data processing, discovery and testing are bottlenecked by humans planning, reviewing and coordinating, so we do very little of them relative to their economic value. If agents can use tools, write code and coordinate, then fields like cybersecurity, life sciences, materials research, trading and QA become compute-constrained in the limit: set the right goals, apply enough tokens. He says this will even change competitive dynamics in those fields.",
+      "summaryZh": "Box CEO Aaron Levie 认为智能体集群意义重大:它第一次让算力成为大量重要任务中的关键变量。研究、数据处理、探索性工作和测试等,过去受限于人类的规划、执行、评审与协调,因此相对其经济价值,我们做得很少。一旦智能体能调用工具、写代码并相互协作,网络安全、生命科学、材料研究、交易和QA等领域在极限情况下都将成为算力受限问题:设定好目标,投入足够的token即可。他认为这甚至会改变这些领域的竞争格局。",
+      "url": "https://x.com/levie/status/2112051081014649303",
+      "tags": [
+        "agent-swarms",
+        "compute",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "sottiaux-opencode-daybreak",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux says his team worked with OpenCode to get its users who are also OpenAI API customers back in business, with any credits drawn in the attack refunded. He also points defenders to Daybreak Blue, OpenAI's cyber-permissive setup, and urges them to request access before an incident rather than after.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 表示,团队已与 OpenCode 合作,让同时是 OpenAI API 客户的 OpenCode 用户恢复使用,并退还在此次攻击中被消耗的额度。他还提醒防御方可以申请 Daybreak Blue(OpenAI 的网络安全宽松权限配置)用于防御,并建议在事故发生之前就申请,而不是等到出事。",
+      "url": "https://x.com/thsottiaux/status/2112034063934742720",
+      "tags": [
+        "security",
+        "openai",
+        "opencode"
+      ]
+    },
+    {
+      "id": "swyx-data-engineers",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "smol_ai, Cognition, AI Engineer, Latent Space",
+      "summary": "Swyx claims data engineers now beat AI engineers in demand: there's a big gap between a \"RAG guy\" and a \"Data Intensive Applications\" person, and he says he has never seen the difference in demand this stark since the post-search-engine-wars era. He is hiring for it (SF preferred, relocation and visas possible) and invites people whose blog or GitHub reads like a data-systems deep dive to write to jobs@latent.space.",
+      "summaryZh": "Swyx 认为现在数据工程师比AI工程师更抢手:\"RAG 工程师\"和精通《数据密集型应用》的人之间差距巨大,他说自己职业生涯中(搜索引擎大战之后)从未见过需求差异如此悬殊。他正在招聘(优先旧金山,可协助搬迁与签证),并邀请博客或GitHub偏数据系统深度内容的人联系 jobs@latent.space。",
+      "url": "https://x.com/swyx/status/2112073533794971941",
+      "tags": [
+        "hiring",
+        "data-engineering",
+        "ai-engineering"
+      ]
+    },
+    {
+      "id": "trq-vibe-code-games",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code @anthropicai",
+      "summary": "Anthropic's Thariq says he now often prefers vibe coding small parts of games over playing them, especially cerebral ones like League, and thinks that matters for games though he's unsure how. He's sketching a game where making the characters is as much fun as playing: distributed as open source, players vibe code their own characters and the game balances them. Mechanics are undecided, with Salty Bet-style self-playing characters or Persona-like cinematic combat as options.",
+      "summaryZh": "Anthropic 的 Thariq 说,他现在常常更愿意凭感觉编程(vibe code)游戏的一小部分,而不是真正去玩,尤其是像 League 这类需要思考的游戏,他觉得这对游戏行业很重要,但还说不清意味着什么。他在构思一款\"做角色和玩游戏一样有趣\"的游戏:以开源方式发布,玩家用 vibe coding 创造自己的角色,游戏负责平衡。机制尚未确定,备选包括类似 Salty Bet 的角色自动对战,或类似《女神异闻录》的电影化战斗。",
+      "url": "https://x.com/trq212/status/2111945336537420259",
+      "tags": [
+        "vibe-coding",
+        "games",
+        "claude-code"
+      ]
+    },
+    {
+      "id": "yang-work-trials",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "Peter Yang argues work trials should replace interviews as the norm in hiring, citing Anthony Pompliano's story: give a candidate two weeks to build a real feature and you skip four weeks of interviewing and ship something. Pompliano's line: \"I don't have to question whether you can work here or not.\"",
+      "summaryZh": "Peter Yang 主张用试工取代面试成为招聘常态,并引用 Anthony Pompliano 的例子:给候选人两周时间实际做一个功能,就省下四周的面试流程,还顺便发布了新功能。Pompliano 的原话:\"我根本不用怀疑你能不能在这里工作。\"",
+      "url": "https://x.com/petergyang/status/2111970651326267529",
+      "tags": [
+        "hiring",
+        "work-trials"
+      ]
+    },
+    {
+      "id": "no-priors-reflection-beam",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "takeaway": "Reflection AI's Misha Laskin argues open models are winning because safety through many eyeballs beats safety through a few closed labs, and RL at scale now makes frontier capability an economics question.",
+      "takeawayZh": "Reflection AI 的 Misha Laskin 认为开源模型正在胜出:\"众目睽睽\"的安全优于少数封闭实验室的安全,而大规模强化学习让前沿能力变成了一道经济账。",
+      "summary": "Misha Laskin, co-founder and CEO of Reflection AI and a former Google DeepMind researcher with a physics PhD, just shipped Beam, the company's first open model: 500B parameters total, 23B active. Reflection grew from about 30 to 300 people in a year. His thesis starts with security: \"When you remove cyber offensive capabilities, you also remove cyber defensive capabilities.\" He cites a case where a powerful closed model hacked another company, and the victim could only recover using open models, and bets that \"with enough eyeballs, most security and safety vulnerabilities become shallow.\"\n\nThe economics are the counterintuitive part. Catching the frontier cost hundreds of millions of dollars about 18 months ago, billions six months ago, and heads toward tens of billions as each model generation brings roughly 4x compute. But efficiency is compounding: pre-training gains run about 7x a year, reinforcement learning maybe 30x, and models increasingly help build themselves. Beam took about 6,000 GB300s for pre-training and over 10,000 GB300s for four weeks of RL, which he says is the largest documented open RL run. The RL curves \"never stop learning,\" so progress becomes a question of how much money to put in.\n\nThe payoff is reasoning efficiency: Beam is 3-4x more efficient than models of similar capability, and up to 10x versus larger ones, meaning faster, cheaper agents. On business, he frames closed models as renting an apartment and open models as owning a house: enterprises that spend heavily renting intelligence eventually want control. Open tokens flipped from 70/30 closed to 70/30 open on gateways like OpenRouter and Vercel, and he expects Linux-style dominance. Enterprises, he predicts, will mostly customize systems (harnesses for KYC, compliance, cyber defense) before they fine-tune models.",
+      "summaryZh": "Misha Laskin 是 Reflection AI 联合创始人兼CEO,前 Google DeepMind 研究员,物理学博士。他刚发布公司首个开源模型 Beam:总参数5000亿,激活参数230亿。Reflection 一年内从约30人扩张到300人。他的论点从安全说起:\"去掉网络攻击能力,也就去掉了网络防御能力。\"他举例说,一个强大的闭源模型入侵了另一家公司,而受害公司只能靠开源模型完成修复;他相信\"眼睛够多,大多数安全隐患都会变得浅显易见\"。\n\n经济账才是反直觉之处。追上前沿,18个月前要数亿美元,半年前要数十亿美元,而每一代模型算力约增4倍,正走向数百亿美元。但效率也在复合增长:预训练效率每年约提升7倍,强化学习可能达30倍,模型也越来越多地参与构建自己。Beam 预训练用了约6000块GB300,强化学习用了超过1万块GB300跑了四周,他称这是有记录以来最大规模的开源强化学习训练。强化学习曲线\"从不停止学习\",进步因此变成投入多少钱的问题。\n\n回报是推理效率:Beam 比同等能力的模型高效3到4倍,比更大的模型最高达10倍,意味着智能体更快更便宜。商业上,他把闭源模型比作租房,开源模型比作买房:大量花钱租用智能的企业终将想要掌控权。在OpenRouter、Vercel等网关上,开源token占比已从闭源七成翻转为开源七成,他预计会出现类似Linux的主导地位。他预测企业将先定制系统(用于KYC、合规、网络防御的harness),之后才会微调模型。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "open-models",
+        "reinforcement-learning",
+        "reflection-ai",
+        "compute"
+      ]
+    }
+  ]
+}
