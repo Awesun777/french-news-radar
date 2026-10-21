@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-10-20T06:38:20Z",
+  "generatedAt": "2026-10-21T06:38:48Z",
   "digests": [
+    {
+      "date": "2026-10-21",
+      "title": "Quiet day: Google TorchTPU, US DeepSeek ban",
+      "itemCount": 2,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Google releases TorchTPU, open-source PyTorch support for its TPUs",
+        "US orders federal agencies to remove DeepSeek AI from their systems"
+      ]
+    },
     {
       "date": "2026-10-20",
       "title": "Quiet day: Nvidia's Nemotron 3.5 and Bolt open models",

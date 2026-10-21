@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": "google-torchtpu",
+      "category": "general",
+      "title": "Google releases TorchTPU, open-source PyTorch support for its TPUs",
+      "summary": "Google announced TorchTPU, a PyTorch implementation for its TPU chips, joining Amazon's similar effort to loosen Nvidia's grip on AI app developers.",
+      "whyItMatters": "Easier PyTorch-on-TPU could eventually lower inference costs for self-hosted STT/TTS models of the kind a voice tutor might run.",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2215577882.jpg?w=1024",
+      "tags": [
+        "infrastructure",
+        "tpu",
+        "cost"
+      ]
+    },
+    {
+      "id": "us-deepseek-federal-ban",
+      "category": "general",
+      "title": "US orders federal agencies to remove DeepSeek AI from their systems",
+      "summary": "DHS directed federal civilian agencies to remove DeepSeek products and related third-party services, citing concerns over Chinese government access to user data.",
+      "whyItMatters": "Worth knowing if you ever consider DeepSeek as a cheap LLM backend: data-residency and compliance concerns are growing.",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024",
+      "tags": [
+        "deepseek",
+        "policy"
+      ]
+    }
+  ]
+}
