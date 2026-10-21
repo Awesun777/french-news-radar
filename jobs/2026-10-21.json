@@ -1,0 +1,1790 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026-10-21T07:32:36Z",
+  "items": [
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-associate/287/102161073344",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Industrials",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-industrials/287/102165034608",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-3",
+      "company": "Citi",
+      "title": "Investment Banking Associate, M&A",
+      "url": "https://jobs.citi.com/job/san-francisco/investment-banking-associate-m-and-a/287/102165104864",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-4",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Communications",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-communications/287/102165092544",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-5",
+      "company": "Citi",
+      "title": "Investment Banking Senior Analyst - Power",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-senior-analyst-power/287/102161052624",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking",
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-6",
+      "company": "Citi",
+      "title": "Investment Banking Senior Associate - Healthcare",
+      "url": "https://jobs.citi.com/job/san-francisco/investment-banking-senior-associate-healthcare/287/102165112304",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-7",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Equity Capital Markets",
+      "url": "https://jobs.citi.com/job/san-francisco/investment-banking-associate-equity-capital-markets/287/102165141248",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-8",
+      "company": "Citi",
+      "title": "Investment Banking Analyst - Equity Capital Markets",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-analyst-equity-capital-markets/287/102161077200",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking",
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-9",
+      "company": "Citi",
+      "title": "Investment Banking Associate - Metals & Mining",
+      "url": "https://jobs.citi.com/job/los-angeles/investment-banking-associate-metals-and-mining/287/102165037504",
+      "location": "Los Angeles",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-10",
+      "company": "Citi",
+      "title": "Investment Banking Senior Analyst - Metals & Mining",
+      "url": "https://jobs.citi.com/job/los-angeles/investment-banking-senior-analyst-metals-and-mining/287/102161063264",
+      "location": "Los Angeles",
+      "matchedRoles": [
+        "investment banking",
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-11",
+      "company": "Citi",
+      "title": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A\")",
+      "url": "https://jobs.citi.com/job/new-york/investment-banking-associate-senior-associate-mergers-and-acquisitions-m-and-a/287/102165122272",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-12",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Summer Associate, New York (North America – 2027)",
+      "url": "https://jobs.citi.com/job/new-york/banking-investment-banking-summer-associate-new-york-north-america-2027/287/102161060432",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-13",
+      "company": "Citi",
+      "title": "Early ID Program – Investment Banking, Fall 2026 – New York",
+      "url": "https://jobs.citi.com/job/new-york/early-id-program-investment-banking-fall-2026-new-york/287/102161063056",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-14",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Summer Associate, San Francisco Technology (North America – 2027)",
+      "url": "https://jobs.citi.com/job/san-francisco/banking-investment-banking-summer-associate-san-francisco-technology-north-america-2027/287/102161060560",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-15",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Summer Associate, San Francisco Healthcare (North America – 2027)",
+      "url": "https://jobs.citi.com/job/san-francisco/banking-investment-banking-summer-associate-san-francisco-healthcare-north-america-2027/287/102161060384",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-16",
+      "company": "Citi",
+      "title": "Early ID Program - Investment Banking, Fall 2026 – San Francisco Healthcare",
+      "url": "https://jobs.citi.com/job/san-francisco/early-id-program-investment-banking-fall-2026-san-francisco-healthcare/287/102161063024",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-17",
+      "company": "Citi",
+      "title": "Banking - Investment Banking, Latin America Group Summer Associate, New York (North America – 2027)",
+      "url": "https://jobs.citi.com/job/new-york/banking-investment-banking-latin-america-group-summer-associate-new-york-north-america-2027/287/102161061024",
+      "location": "New York",
+      "matchedRoles": [
+        "investment banking"
+      ]
+    },
+    {
+      "id": "citi-18",
+      "company": "Citi",
+      "title": "Corporate Banking Sr Analyst - Global Capital Management",
+      "url": "https://jobs.citi.com/job/new-york/corporate-banking-sr-analyst-global-capital-management/287/102161058960",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-19",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate - U.S. Multi-Industry, Engineering & Construction",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-u-s-multi-industry-engineering-and-construction/287/102161049328",
+      "location": "New York",
+      "matchedRoles": [
+        "research"
+      ]
+    },
+    {
+      "id": "citi-20",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Tech & Comms - AI",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-senior-associate-tech-and-comms-ai/287/102161076288",
+      "location": "New York",
+      "matchedRoles": [
+        "research"
+      ]
+    },
+    {
+      "id": "citi-21",
+      "company": "Citi",
+      "title": "Cash & Trade Processing Lead Analyst",
+      "url": "https://jobs.citi.com/job/getzville/cash-and-trade-processing-lead-analyst/287/102161061792",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-22",
+      "company": "Citi",
+      "title": "IT Business Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/it-business-analyst-assistant-vice-president/287/102218565568",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-23",
+      "company": "Citi",
+      "title": "Nonlinear Rates Risk Technical Analyst – Vice President",
+      "url": "https://jobs.citi.com/job/new-york/nonlinear-rates-risk-technical-analyst-vice-president/287/102161039216",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-24",
+      "company": "Citi",
+      "title": "Regional Marketing Senior Lead Analyst",
+      "url": "https://jobs.citi.com/job/san-francisco/regional-marketing-senior-lead-analyst/287/102161043504",
+      "location": "San Francisco",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-25",
+      "company": "Citi",
+      "title": "Credit Portfolio Sr Analyst",
+      "url": "https://jobs.citi.com/job/new-york/credit-portfolio-sr-analyst/287/102161078544",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-26",
+      "company": "Citi",
+      "title": "Java Development Sr Programmer Analyst - Equity Finance - AVP",
+      "url": "https://jobs.citi.com/job/tampa/java-development-sr-programmer-analyst-equity-finance-avp/287/102161052400",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-27",
+      "company": "Citi",
+      "title": "Equities Application Support Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/new-york/equities-application-support-lead-analyst-vice-president/287/102161045760",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-28",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst -AVP",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-avp/287/102218567632",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-29",
+      "company": "Citi",
+      "title": "Applications Development Senior Programmer Analyst - AVP",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-senior-programmer-analyst-avp/287/102161042736",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-30",
+      "company": "Citi",
+      "title": "Engineering Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/engineering-lead-analyst-vice-president/287/102161084624",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-31",
+      "company": "Citi",
+      "title": "Gen AI Engineering Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/gen-ai-engineering-analyst-vice-president/287/102161052784",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-32",
+      "company": "Citi",
+      "title": "Gen AI Engineering Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/gen-ai-engineering-analyst-vice-president/287/102161052544",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-33",
+      "company": "Citi",
+      "title": "Cyber Defense Analyst VP",
+      "url": "https://jobs.citi.com/job/irving/cyber-defense-analyst-vp/287/102161048768",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-34",
+      "company": "Citi",
+      "title": "Data Analyst - Credit Risk Management & Counterparty Risk (Client & Markets Data)",
+      "url": "https://jobs.citi.com/job/tampa/data-analyst-credit-risk-management-and-counterparty-risk-client-and-markets-data/287/102161064096",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-35",
+      "company": "Citi",
+      "title": "Applications Support Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-support-tech-lead-analyst-vice-president/287/102161050672",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-36",
+      "company": "Citi",
+      "title": "Regional Marketing Senior Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-york/regional-marketing-senior-lead-analyst/287/102161075280",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-37",
+      "company": "Citi",
+      "title": "Applications Development Technology Lead Analyst (VP)",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-technology-lead-analyst-vp/287/102161075520",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-38",
+      "company": "Citi",
+      "title": "Commodities Quantitative Analyst (AVP)",
+      "url": "https://jobs.citi.com/job/houston/commodities-quantitative-analyst-avp/287/102192592080",
+      "location": "Houston",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-39",
+      "company": "Citi",
+      "title": "Head of Product Strategy, Research & Partner Engagement | U.S. Consumer Cards",
+      "url": "https://jobs.citi.com/job/new-york/head-of-product-strategy-research-and-partner-engagement-u-s-consumer-cards/287/102165086000",
+      "location": "New York",
+      "matchedRoles": [
+        "research"
+      ]
+    },
+    {
+      "id": "citi-40",
+      "company": "Citi",
+      "title": "Security and Derivatives Intermediate Associate Analyst",
+      "url": "https://jobs.citi.com/job/tampa/security-and-derivatives-intermediate-associate-analyst/287/102161064592",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-41",
+      "company": "Citi",
+      "title": "Digital PM Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/digital-pm-analyst-assistant-vice-president/287/97579105600",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-42",
+      "company": "Citi",
+      "title": "IT Business Lead Analyst - C13 - SIOUX FALLS",
+      "url": "https://jobs.citi.com/job/sioux-falls/it-business-lead-analyst-c13-sioux-falls/287/102212039488",
+      "location": "Sioux Falls",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-43",
+      "company": "Citi",
+      "title": "ICM Credit Risk Intermediate Analyst (Real Money Funds)",
+      "url": "https://jobs.citi.com/job/getzville/icm-credit-risk-intermediate-analyst-real-money-funds/287/102161049360",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-44",
+      "company": "Citi",
+      "title": "Senior Business Analyst, Fraud Risk Technology",
+      "url": "https://jobs.citi.com/job/irving/senior-business-analyst-fraud-risk-technology/287/102210719888",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-45",
+      "company": "Citi",
+      "title": "Portfolio Credit Risk Management 2nd LOD Sr. Lead Analyst - SVP",
+      "url": "https://jobs.citi.com/job/getzville/portfolio-credit-risk-management-2nd-lod-sr-lead-analyst-svp/287/102161051216",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-46",
+      "company": "Citi",
+      "title": "Digital Software Engineer Lead Analyst VP",
+      "url": "https://jobs.citi.com/job/irving/digital-software-engineer-lead-analyst-vp/287/102161082288",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-47",
+      "company": "Citi",
+      "title": "Operational Risk Manager - Platform Utilities and Infrastructure Analyst-VP",
+      "url": "https://jobs.citi.com/job/getzville/operational-risk-manager-platform-utilities-and-infrastructure-analyst-vp/287/102161078736",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-48",
+      "company": "Citi",
+      "title": "Loan Documentation & Processing Associate Analyst",
+      "url": "https://jobs.citi.com/job/new-castle/loan-documentation-and-processing-associate-analyst/287/102176662368",
+      "location": "New Castle",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-49",
+      "company": "Citi",
+      "title": "Loan Documentation and Processing Intermediate Associate Analyst",
+      "url": "https://jobs.citi.com/job/new-castle/loan-documentation-and-processing-intermediate-associate-analyst/287/102210709680",
+      "location": "New Castle",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-50",
+      "company": "Citi",
+      "title": "Treasury Risk Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/treasury-risk-senior-analyst/287/102161073744",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-51",
+      "company": "Citi",
+      "title": "Intelligence Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/intelligence-senior-analyst/287/102161052032",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-52",
+      "company": "Citi",
+      "title": "IT Business Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/it-business-lead-analyst/287/102161073536",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-53",
+      "company": "Citi",
+      "title": "Systematic Quantitative Analyst",
+      "url": "https://jobs.citi.com/job/new-york/systematic-quantitative-analyst/287/102193201680",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-54",
+      "company": "Citi",
+      "title": "Engineering Lead Analyst",
+      "url": "https://jobs.citi.com/job/irving/engineering-lead-analyst/287/102161079024",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-55",
+      "company": "Citi",
+      "title": "Payroll Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/payroll-lead-analyst/287/102161063520",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-56",
+      "company": "Citi",
+      "title": "Media Sr Analyst",
+      "url": "https://jobs.citi.com/job/new-york/media-sr-analyst/287/102161067072",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-57",
+      "company": "Citi",
+      "title": "Senior Intelligence Analyst",
+      "url": "https://jobs.citi.com/job/tampa/senior-intelligence-analyst/287/102161062672",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-58",
+      "company": "Citi",
+      "title": "Intelligence Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/intelligence-lead-analyst/287/102161047056",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-59",
+      "company": "Citi",
+      "title": "Applications Development Tech Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-tech-lead-analyst/287/102161074704",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-60",
+      "company": "Citi",
+      "title": "Digital PM Analyst",
+      "url": "https://jobs.citi.com/job/irving/digital-pm-analyst/287/102161083856",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-61",
+      "company": "Citi",
+      "title": "Programmatic Campaign Analyst",
+      "url": "https://jobs.citi.com/job/new-york/programmatic-campaign-analyst/287/102161081216",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-62",
+      "company": "Citi",
+      "title": "Programmatic Campaign Analyst",
+      "url": "https://jobs.citi.com/job/irving/programmatic-campaign-analyst/287/102161081168",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-63",
+      "company": "Citi",
+      "title": "Applications Support Sr Analyst",
+      "url": "https://jobs.citi.com/job/irving/applications-support-sr-analyst/287/102210707440",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-64",
+      "company": "Citi",
+      "title": "ETL Application Support Analyst",
+      "url": "https://jobs.citi.com/job/tampa/etl-application-support-analyst/287/102161081456",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-65",
+      "company": "Citi",
+      "title": "Assoc Ops Support Analyst",
+      "url": "https://jobs.citi.com/job/new-york/assoc-ops-support-analyst/287/102161084960",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-66",
+      "company": "Citi",
+      "title": "Applications Development Tech Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-tech-lead-analyst/287/102161074480",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-67",
+      "company": "Citi",
+      "title": ".NET Senior Programmer Analyst",
+      "url": "https://jobs.citi.com/job/tampa/net-senior-programmer-analyst/287/102161084496",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-68",
+      "company": "Citi",
+      "title": "Data Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/data-analyst-assistant-vice-president/287/102161068144",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-69",
+      "company": "Citi",
+      "title": "Fund Accounting Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/fund-accounting-lead-analyst/287/102161054064",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-70",
+      "company": "Citi",
+      "title": "Financial Administration Intermediate Analyst",
+      "url": "https://jobs.citi.com/job/columbus/financial-administration-intermediate-analyst/287/102161058288",
+      "location": "Columbus",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-71",
+      "company": "Citi",
+      "title": "Digital PM Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/digital-pm-analyst-assistant-vice-president/287/102161057920",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-72",
+      "company": "Citi",
+      "title": "Applications Development Tech Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-tech-lead-analyst/287/102161072688",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-73",
+      "company": "Citi",
+      "title": "Asset Servicing Associate Analyst",
+      "url": "https://jobs.citi.com/job/tampa/asset-servicing-associate-analyst/287/102161064704",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-74",
+      "company": "Citi",
+      "title": "Applicationss Support Intermediate Analyst",
+      "url": "https://jobs.citi.com/job/irving/applicationss-support-intermediate-analyst/287/102210693936",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-75",
+      "company": "Citi",
+      "title": "Digital PM Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-york/digital-pm-lead-analyst/287/102161083872",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-76",
+      "company": "Citi",
+      "title": "IT Business Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/it-business-lead-analyst/287/102161084592",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-77",
+      "company": "Citi",
+      "title": "Credit Portfolio Sr Analyst",
+      "url": "https://jobs.citi.com/job/new-york/credit-portfolio-sr-analyst/287/102161074816",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-78",
+      "company": "Citi",
+      "title": "Full Stack Software Engineer Analyst",
+      "url": "https://jobs.citi.com/job/irving/full-stack-software-engineer-analyst/287/102155172256",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-79",
+      "company": "Citi",
+      "title": "Quantitative Analyst (VP), Commodities",
+      "url": "https://jobs.citi.com/job/houston/quantitative-analyst-vp-commodities/287/102192597584",
+      "location": "Houston",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-80",
+      "company": "Citi",
+      "title": "Applications Support Senior Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-support-senior-analyst/287/102161074896",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-81",
+      "company": "Citi",
+      "title": "Client Onboarding Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/client-onboarding-lead-analyst/287/102161061088",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-82",
+      "company": "Citi",
+      "title": "Applications Development Technical Lead Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-technical-lead-analyst/287/102161073680",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-83",
+      "company": "Citi",
+      "title": "Apps Sup Tech Lead Analyst - VP",
+      "url": "https://jobs.citi.com/job/tampa/apps-sup-tech-lead-analyst-vp/287/102161053024",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-84",
+      "company": "Citi",
+      "title": "Intermediate Associate Finance Tax Analyst",
+      "url": "https://jobs.citi.com/job/tampa/intermediate-associate-finance-tax-analyst/287/102161064272",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-85",
+      "company": "Citi",
+      "title": "Mortgage Quantitative Analyst, VP",
+      "url": "https://jobs.citi.com/job/new-york/mortgage-quantitative-analyst-vp/287/102161040704",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-86",
+      "company": "Citi",
+      "title": "Marketing Customer Engagement Lead Analyst",
+      "url": "https://jobs.citi.com/job/schaumburg/marketing-customer-engagement-lead-analyst/287/102161043696",
+      "location": "Schaumburg",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-87",
+      "company": "Citi",
+      "title": "Consumer Product Sales Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/schaumburg/consumer-product-sales-lead-analyst-vice-president/287/102224921472",
+      "location": "Schaumburg",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-88",
+      "company": "Citi",
+      "title": "Marketing Customer Engagement Lead Analyst",
+      "url": "https://jobs.citi.com/job/schaumburg/marketing-customer-engagement-lead-analyst/287/102161081344",
+      "location": "Schaumburg",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-89",
+      "company": "Citi",
+      "title": "Digital Software Engineer Intermediate Analyst",
+      "url": "https://jobs.citi.com/job/irving/digital-software-engineer-intermediate-analyst/287/102161059760",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-90",
+      "company": "Citi",
+      "title": "Applications Development Senior Programmer Analyst",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-senior-programmer-analyst/287/102161073600",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-91",
+      "company": "Citi",
+      "title": "Analyst, Media Sciences and Measurement",
+      "url": "https://jobs.citi.com/job/irving/analyst-media-sciences-and-measurement/287/102161083232",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-92",
+      "company": "Citi",
+      "title": "Digital Software Engineering Lead Analyst",
+      "url": "https://jobs.citi.com/job/irving/digital-software-engineering-lead-analyst/287/102161074560",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-93",
+      "company": "Citi",
+      "title": "Model Validation 2nd LOD Sr. Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-york/model-validation-2nd-lod-sr-lead-analyst/287/102161073328",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-94",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - Officer",
+      "url": "https://jobs.citi.com/job/rutherford/apps-dev-intmd-programmer-analyst-officer/287/102161047712",
+      "location": "Rutherford",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-95",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - Officer",
+      "url": "https://jobs.citi.com/job/irving/apps-dev-intmd-programmer-analyst-officer/287/102161047680",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-96",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst Vice President",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-tech-lead-analyst-vice-president/287/102161048896",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-97",
+      "company": "Citi",
+      "title": "Apps Support Intmd Analyst - Officer",
+      "url": "https://jobs.citi.com/job/irving/apps-support-intmd-analyst-officer/287/102161079488",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-98",
+      "company": "Citi",
+      "title": "Specialized Analytics Senior Analyst",
+      "url": "https://jobs.citi.com/job/san-antonio/specialized-analytics-senior-analyst/287/102161082192",
+      "location": "San Antonio",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-99",
+      "company": "Citi",
+      "title": "Business Analytics Sr Analyst",
+      "url": "https://jobs.citi.com/job/jacksonville/business-analytics-sr-analyst/287/102161062592",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-100",
+      "company": "Citi",
+      "title": "Business Analytics Lead Analyst",
+      "url": "https://jobs.citi.com/job/jacksonville/business-analytics-lead-analyst/287/102161061280",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-101",
+      "company": "Citi",
+      "title": "Digital Channel Lead Analyst",
+      "url": "https://jobs.citi.com/job/irving/digital-channel-lead-analyst/287/102161049504",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-102",
+      "company": "Citi",
+      "title": "Regional Marketing Intermediate Analyst",
+      "url": "https://jobs.citi.com/job/new-york/regional-marketing-intermediate-analyst/287/102161046000",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-103",
+      "company": "Citi",
+      "title": "Infrastructure Senior Tech Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/infrastructure-senior-tech-analyst-assistant-vice-president/287/102161062368",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-104",
+      "company": "Citi",
+      "title": "Consumer Product Sales Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/wilmington/consumer-product-sales-lead-analyst-vice-president/287/102224921360",
+      "location": "Wilmington",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-105",
+      "company": "Citi",
+      "title": "Apps Development Lead Analyst - Senior Vice President",
+      "url": "https://jobs.citi.com/job/irving/apps-development-lead-analyst-senior-vice-president/287/102218557024",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-106",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-tech-lead-analyst-vice-president/287/102218569024",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-107",
+      "company": "Citi",
+      "title": "Applications Development Intermediate Programmer Analyst - UI Developer",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-intermediate-programmer-analyst-ui-developer/287/102161063232",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-108",
+      "company": "Citi",
+      "title": "IT Business Sr Analyst - C12 - IRVING",
+      "url": "https://jobs.citi.com/job/irving/it-business-sr-analyst-c12-irving/287/102161049696",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-109",
+      "company": "Citi",
+      "title": "Apps Development Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/tampa/apps-development-lead-analyst-vice-president/287/102218586080",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-110",
+      "company": "Citi",
+      "title": "Applications Development Technology Lead Analyst, Collections & Recovery",
+      "url": "https://jobs.citi.com/job/irving/applications-development-technology-lead-analyst-collections-and-recovery/287/102161064560",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-111",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/apps-dev-tech-lead-analyst-vice-president/287/102161053920",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-112",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-tech-lead-analyst-vice-president/287/102161053904",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-113",
+      "company": "Citi",
+      "title": "Market Operations Junior Analyst Program Hybrid",
+      "url": "https://jobs.citi.com/job/getzville/market-operations-junior-analyst-program-hybrid/287/102161073776",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-114",
+      "company": "Citi",
+      "title": "Applications Support Sr Analyst - Asst Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-support-sr-analyst-asst-vice-president/287/102161084240",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-115",
+      "company": "Citi",
+      "title": "Applications Support Sr Analyst - Asst. Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-support-sr-analyst-asst-vice-president/287/102161079520",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-116",
+      "company": "Citi",
+      "title": "Process Improvement Lead Analyst Vice President",
+      "url": "https://jobs.citi.com/job/san-antonio/process-improvement-lead-analyst-vice-president/287/102161081936",
+      "location": "San Antonio",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-117",
+      "company": "Citi",
+      "title": "Data Center Engineer, Infrastructure Senior Technical Analyst AVP",
+      "url": "https://jobs.citi.com/job/roanoke/data-center-engineer-infrastructure-senior-technical-analyst-avp/287/102161061008",
+      "location": "Roanoke",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-118",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/apps-dev-tech-lead-analyst-vice-president/287/102210700880",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-119",
+      "company": "Citi",
+      "title": "VP Security Operations Center (SOC) Cyber Fraud Analyst – Level 2 (L2)",
+      "url": "https://jobs.citi.com/job/irving/vp-security-operations-center-soc-cyber-fraud-analyst-level-2-l2/287/102161052416",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-120",
+      "company": "Citi",
+      "title": "Citi Security and Investigative Services - Intelligence Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-york/citi-security-and-investigative-services-intelligence-lead-analyst/287/102161062320",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-121",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/rutherford/apps-dev-tech-lead-analyst-vice-president/287/102161044736",
+      "location": "Rutherford",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-122",
+      "company": "Citi",
+      "title": "Apps Development Sr Programmer Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/apps-development-sr-programmer-analyst-assistant-vice-president/287/102218565504",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-123",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - C11 - TAMPA",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/102161062688",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-124",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - C11 - TAMPA",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/102161051312",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-125",
+      "company": "Citi",
+      "title": "Apps Dev Intmd Programmer Analyst - C11 - TAMPA",
+      "url": "https://jobs.citi.com/job/tampa/apps-dev-intmd-programmer-analyst-c11-tampa/287/102161051296",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-126",
+      "company": "Citi",
+      "title": "Business Analytics Senior Lead Analyst",
+      "url": "https://jobs.citi.com/job/jacksonville/business-analytics-senior-lead-analyst/287/102161050592",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-127",
+      "company": "Citi",
+      "title": "Fraud Red Team Senior Analyst",
+      "url": "https://jobs.citi.com/job/san-antonio/fraud-red-team-senior-analyst/287/102161050176",
+      "location": "San Antonio",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-128",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst - Asst. Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-sr-programmer-analyst-asst-vice-president/287/102161054016",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-129",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst - Asst Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-asst-vice-president/287/102161053840",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-130",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst - Asst Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-asst-vice-president/287/102161053824",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-131",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst - Asst Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-asst-vice-president/287/102161053744",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-132",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-assistant-vice-president/287/102205675392",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-133",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - C13 - IRVING",
+      "url": "https://jobs.citi.com/job/irving/apps-dev-tech-lead-analyst-c13-irving/287/102205675360",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-134",
+      "company": "Citi",
+      "title": "Equity Research Business Analyst/Product Manager, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/new-york/equity-research-business-analyst-product-manager-assistant-vice-president/287/102161073408",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst",
+        "research"
+      ]
+    },
+    {
+      "id": "citi-135",
+      "company": "Citi",
+      "title": "Model Validation 2nd LOD Sr. Lead Analyst",
+      "url": "https://jobs.citi.com/job/new-york/model-validation-2nd-lod-sr-lead-analyst/287/102161073712",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-136",
+      "company": "Citi",
+      "title": "Vice President - Operational Risk Lead Analyst - Hybrid",
+      "url": "https://jobs.citi.com/job/jacksonville/vice-president-operational-risk-lead-analyst-hybrid/287/102161064688",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-137",
+      "company": "Citi",
+      "title": "Intmd Assoc Exec Resp Analyst - B11",
+      "url": "https://jobs.citi.com/job/kentucky/intmd-assoc-exec-resp-analyst-b11/287/102219384416",
+      "location": "Kentucky",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-138",
+      "company": "Citi",
+      "title": "Applications Support Senior Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/applications-support-senior-analyst-assistant-vice-president/287/102161082256",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-139",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst -Assistant Vice President",
+      "url": "https://jobs.citi.com/job/irving/applications-development-sr-programmer-analyst-assistant-vice-president/287/102210700800",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-140",
+      "company": "Citi",
+      "title": "Cash and Trade Processing Intermediate Associate Analyst Two",
+      "url": "https://jobs.citi.com/job/getzville/cash-and-trade-processing-intermediate-associate-analyst-two/287/102161066304",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-141",
+      "company": "Citi",
+      "title": "Applications Support Sr Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-support-sr-analyst-assistant-vice-president/287/102161062784",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-142",
+      "company": "Citi",
+      "title": "Application Support Sr Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/application-support-sr-analyst-assistant-vice-president/287/102161045792",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-143",
+      "company": "Citi",
+      "title": "VP, Senior Bond Analyst, Issuer Services",
+      "url": "https://jobs.citi.com/job/jacksonville/vp-senior-bond-analyst-issuer-services/287/102161070704",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-144",
+      "company": "Citi",
+      "title": "IT Quality Sr Analyst - C12",
+      "url": "https://jobs.citi.com/job/irving/it-quality-sr-analyst-c12/287/102161055264",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-145",
+      "company": "Citi",
+      "title": "Specialized Analytics Lead Analyst, Vice President",
+      "url": "https://jobs.citi.com/job/new-york/specialized-analytics-lead-analyst-vice-president/287/102161050496",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-146",
+      "company": "Citi",
+      "title": "Consumer Product Sales Lead Analyst, Vice President (Hybrid)",
+      "url": "https://jobs.citi.com/job/new-york/consumer-product-sales-lead-analyst-vice-president-hybrid/287/102163044064",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-147",
+      "company": "Citi",
+      "title": "Database Engineering Senior Analyst - Asst. Vice President",
+      "url": "https://jobs.citi.com/job/irving/database-engineering-senior-analyst-asst-vice-president/287/102161061600",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-148",
+      "company": "Citi",
+      "title": "Apps Dev Tech Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/rutherford/apps-dev-tech-lead-analyst-vice-president/287/102161044080",
+      "location": "Rutherford",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-149",
+      "company": "Citi",
+      "title": "Consumer Product Sales Intmd Analyst - C11 - Telecommuter",
+      "url": "https://jobs.citi.com/job/nevada/consumer-product-sales-intmd-analyst-c11-telecommuter/287/102161043904",
+      "location": "Nevada",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-150",
+      "company": "Citi",
+      "title": "Java Apps Developer Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/new-york/java-apps-developer-lead-analyst-vice-president/287/102161080848",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-151",
+      "company": "Citi",
+      "title": "Java Apps Developer Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/new-york/java-apps-developer-lead-analyst-vice-president/287/102161080832",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-152",
+      "company": "Citi",
+      "title": "Applications Development Sr Programmer Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-sr-programmer-analyst-assistant-vice-president/287/102161068432",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-153",
+      "company": "Citi",
+      "title": "Technology Product Management Lead Analyst - C13 - IRVING",
+      "url": "https://jobs.citi.com/job/irving/technology-product-management-lead-analyst-c13-irving/287/102161049712",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-154",
+      "company": "Citi",
+      "title": "Cash and Trade Processing Senior Analyst Global Billing Assistant Vice President",
+      "url": "https://jobs.citi.com/job/getzville/cash-and-trade-processing-senior-analyst-global-billing-assistant-vice-president/287/102161067008",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-155",
+      "company": "Citi",
+      "title": "Prime Services & Delta One Quantitative Analyst - Director",
+      "url": "https://jobs.citi.com/job/new-york/prime-services-and-delta-one-quantitative-analyst-director/287/102161078256",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-156",
+      "company": "Citi",
+      "title": "Digital Software Engineering Lead Analyst - Vice President",
+      "url": "https://jobs.citi.com/job/irving/digital-software-engineering-lead-analyst-vice-president/287/102161059168",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-157",
+      "company": "Citi",
+      "title": "Infra/Platform Asset Management Analyst - Asst. Vice President",
+      "url": "https://jobs.citi.com/job/tampa/infra-platform-asset-management-analyst-asst-vice-president/287/102161042336",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-158",
+      "company": "Citi",
+      "title": "Engineering Lead Analyst – Test Automation Platform Engineering - VP",
+      "url": "https://jobs.citi.com/job/tampa/engineering-lead-analyst-test-automation-platform-engineering-vp/287/102161053088",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-159",
+      "company": "Citi",
+      "title": "Assistant Vice President - Credit Portfolio Sr Analyst - Hybrid",
+      "url": "https://jobs.citi.com/job/o-fallon/assistant-vice-president-credit-portfolio-sr-analyst-hybrid/287/102161041408",
+      "location": "O Fallon",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-160",
+      "company": "Citi",
+      "title": "Loan Documentation and Processing Intermediate Associate Analyst",
+      "url": "https://jobs.citi.com/job/tampa/loan-documentation-and-processing-intermediate-associate-analyst/287/102161083216",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-161",
+      "company": "Citi",
+      "title": "Model Identification and Assurance Review Analyst, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/getzville/model-identification-and-assurance-review-analyst-assistant-vice-president/287/102161046384",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-162",
+      "company": "Citi",
+      "title": "Operational Risk Manager - Platform Utilities and Infrastructure Analyst-VP",
+      "url": "https://jobs.citi.com/job/getzville/operational-risk-manager-platform-utilities-and-infrastructure-analyst-vp/287/102161078576",
+      "location": "Getzville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-163",
+      "company": "Citi",
+      "title": "Financing and Clearing Platform Lead Analyst, Prime Product Development, Vice President",
+      "url": "https://jobs.citi.com/job/new-york/financing-and-clearing-platform-lead-analyst-prime-product-development-vice-president/287/102161057008",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-164",
+      "company": "Citi",
+      "title": "Assistant Vice President - Risk Management Country Sr. Analyst - Hybrid",
+      "url": "https://jobs.citi.com/job/irving/assistant-vice-president-risk-management-country-sr-analyst-hybrid/287/102161050480",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-165",
+      "company": "Citi",
+      "title": "Applications Development Technology Senior Lead Analyst - Senior Vice President",
+      "url": "https://jobs.citi.com/job/tampa/applications-development-technology-senior-lead-analyst-senior-vice-president/287/102161066640",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-166",
+      "company": "Citi",
+      "title": "Data Center Service Delivery Infrastructure Technical Analyst Assistant Vice President",
+      "url": "https://jobs.citi.com/job/rutherford/data-center-service-delivery-infrastructure-technical-analyst-assistant-vice-president/287/102161061328",
+      "location": "Rutherford",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-167",
+      "company": "Citi",
+      "title": "IT Quality Sr Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/tampa/it-quality-sr-analyst-assistant-vice-president/287/102161053968",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-168",
+      "company": "Citi",
+      "title": "Oracle SaaS Reference Data Integration Analyst - AVP",
+      "url": "https://jobs.citi.com/job/tampa/oracle-saas-reference-data-integration-analyst-avp/287/102161052272",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-169",
+      "company": "Citi",
+      "title": "Apps Development Sr Programmer Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/new-york/apps-development-sr-programmer-analyst-assistant-vice-president/287/102161083088",
+      "location": "New York",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-170",
+      "company": "Citi",
+      "title": "Foreign Exchange (FX) Applications Support Sr Analyst - AVP",
+      "url": "https://jobs.citi.com/job/irving/foreign-exchange-fx-applications-support-sr-analyst-avp/287/102161053104",
+      "location": "Irving",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-171",
+      "company": "Citi",
+      "title": "Engineering Lead Analyst – SonarQube & Code Quality Engineering - VP",
+      "url": "https://jobs.citi.com/job/tampa/engineering-lead-analyst-sonarqube-and-code-quality-engineering-vp/287/102161052944",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-172",
+      "company": "Citi",
+      "title": "Real Estate Risk 2LOD Sr. Lead Analyst, Senior Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/real-estate-risk-2lod-sr-lead-analyst-senior-vice-president/287/102161046288",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-173",
+      "company": "Citi",
+      "title": "Product Developer / Business Analyst - Counterparty Credit Risk Stress Testing, Vice President",
+      "url": "https://jobs.citi.com/job/tampa/product-developer-business-analyst-counterparty-credit-risk-stress-testing-vice-president/287/102161044784",
+      "location": "Tampa",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "citi-174",
+      "company": "Citi",
+      "title": "Career Insights: Meet the Business - Markets & Research (NAM Session)",
+      "url": "https://jobs.citi.com/job/new-york/career-insights-meet-the-business-markets-and-research-nam-session/287/102161049472",
+      "location": "New York",
+      "matchedRoles": [
+        "research"
+      ]
+    },
+    {
+      "id": "citi-175",
+      "company": "Citi",
+      "title": "Equity Research Senior Associate, Autos, Assistant Vice President",
+      "url": "https://jobs.citi.com/job/getzville/equity-research-senior-associate-autos-assistant-vice-president/287/102161042816",
+      "location": "Getzville",
+      "matchedRoles": [
+        "research"
+      ]
+    },
+    {
+      "id": "deutsche-bank-1",
+      "company": "Deutsche Bank",
+      "title": "Information Security Analyst - Analyst",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Jacksonville-5201-Gate-Parkway/Information-Security-Analyst---Analyst_R0430063",
+      "location": "Jacksonville, 5201 Gate Parkway",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "pwc-1",
+      "company": "Pwc",
+      "title": "Deals - CMAAS Project Management Advisory - Manager",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/IL-Chicago/Deals---CMAAS-Project-Management-Advisory---Manager_762393WD",
+      "location": "10 Locations",
+      "matchedRoles": [
+        "deals"
+      ]
+    },
+    {
+      "id": "pwc-2",
+      "company": "Pwc",
+      "title": "Deals - CMAAS Project Management Advisory - Senior Associate",
+      "url": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/IL-Chicago/Deals---CMAAS-Project-Management-Advisory---Senior-Associate_762392WD",
+      "location": "12 Locations",
+      "matchedRoles": [
+        "deals"
+      ]
+    }
+  ]
+}

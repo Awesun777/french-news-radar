@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-10-20T06:46:06Z",
+  "lastRunAt": "2026-10-21T07:32:36Z",
   "outcome": "new-postings",
-  "newCount": 39,
-  "detail": "39 new postings (Barclays, Citi, JP Morgan); UBS, BNPP, BDA Partners, Scotiabank unreachable",
-  "dayFile": "2026-10-20",
+  "newCount": 178,
+  "detail": "178 new postings (Citi, Deutsche Bank, Pwc); BDA Partners, UBS, Scotiabank, BNPP unreachable",
+  "dayFile": "2026-10-21",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
