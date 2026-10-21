@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": "levie-autonomous-systems",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @ Box",
+      "summary": "Levie says the durable form factor for AI is autonomous systems dedicated to specific domains, a huge leap past the LLM-wrapper days. He credits three shifts: better tool and computer use (agents can operate external systems and build missing software themselves), stronger judgment in legal, bio, security and supply chain, and harness infrastructure like sandboxes and file systems that allows long-running work. With human oversight, he expects one of these systems for nearly every role in the economy.",
+      "summaryZh": "Levie 认为 AI 未来相当长一段时间的形态,就是面向特定任务或领域的自主系统,这远远超越了 LLM wrapper 时代。他归因于三点:模型的 tool use 和 computer use 更强(agent 可以操作外部系统,没有现成软件就自己造);法律、生物、安全、供应链等垂直领域的判断力提升;以及 sandbox、文件系统等 harness 基础设施让 agent 能长时间运行。在人类监督下,他预计经济中几乎每个岗位都会有这样的系统。",
+      "url": "https://x.com/levie/status/2112769686798832013",
+      "tags": [
+        "agents",
+        "enterprise",
+        "harness"
+      ]
+    },
+    {
+      "id": "sottiaux-usage-bug",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "OpenAI found about 40,000 accounts whose applied usage limits didn't match their selected plan, which explains reports of usage draining faster over the weekend. Sottiaux says the issue is fixed, affected users are being contacted individually, and credits will be added. Separately, the API cache window is now 12 hours, and logged-in Codex and Work users get cache kept indefinitely, so resuming an old conversation carries no penalty.",
+      "summaryZh": "Sottiaux 表示,周末有用户反映用量消耗过快,原因是约 4 万个账号实际应用的用量限额与所选套餐不符。问题已修复,OpenAI 会逐一联系受影响用户并补发 credits。另外,API 的 cache 时长现在是 12 小时;登录用户在 Codex 和 Work 中的 cache 则永久保留,重新打开旧对话也不会有任何惩罚,保证命中 cache。",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "tags": [
+        "openai",
+        "codex",
+        "caching"
+      ]
+    },
+    {
+      "id": "rauch-durable-harnesses",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO @ Vercel",
+      "summary": "Vercel is extending the durability infrastructure behind its Workflows to any agent harness, including Pi and OpenCode, as an open-source, runtime-agnostic solution that runs locally, on Vercel or DIY. Rauch notes even Claude Code and Codex can be made durable and observable this way, but they aren't designed for embedding, so they're less efficient and portable and need an extra sandbox.",
+      "summaryZh": "Vercel 正把 Workflows 背后的 durability 基础设施扩展到所有 agent harness,包括 Pi 和 OpenCode,做成开源、与 runtime 无关的方案,可本地、Vercel 或自建运行。Rauch 提到 Claude Code 和 Codex 也能用这种方式实现持久化和可观测,但它们并非为嵌入而设计,效率和可移植性较差,还需要额外的 sandbox。",
+      "url": "https://x.com/rauchg/status/2112658577110520122",
+      "tags": [
+        "vercel",
+        "agent-infra",
+        "open-source"
+      ]
+    },
+    {
+      "id": "steipete-two-agent-goal",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather",
+      "summary": "Steinberger found that prompting a planning agent to run Codex CLI in worktrees works far better than relying on subagents. A second agent oversees the work and challenges it, a \"smart goal\" take on /goal where a separate agent, not the same one reviewing a text file, keeps things on track. He wrote an OC plugin for it.",
+      "summaryZh": "Steinberger 发现,让负责规划的 agent 在 worktree 里调用 Codex CLI,效果远好于依赖 subagent。再加第二个 agent 全程监督并质疑结果,相当于 /goal 的升级版:不是同一个 agent 对着文本文件自查,而是由另一个 agent 来挑战。他为此写了一个 OC 插件,称之为「smart goal」。",
+      "url": "https://x.com/steipete/status/2112605703219347503",
+      "tags": [
+        "agents",
+        "codex",
+        "workflow"
+      ]
+    },
+    {
+      "id": "aditya-agent-swarms-cpu",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @ SPC, Co-Founder @ Bevel Health",
+      "summary": "Agarwal sees a familiar arc: inference-time scaling to subagents to agent swarms mirrors CPU threads to multi-core CPUs to distributed multi-node systems. His shorthand: history rhymes.",
+      "summaryZh": "Agarwal 认为这条演进路径似曾相识:inference time scaling → subagent → agent swarm,对应的是 CPU 线程 → 多核 CPU → 多节点分布式系统。用他的话说,历史总是押韵。",
+      "url": "https://x.com/adityaag/status/2112579526379401408",
+      "tags": [
+        "agents",
+        "scaling",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": "swyx-opus-prod-not-god",
+      "kind": "x",
+      "author": "Swyx",
+      "summary": "Swyx says Opus is great for writing until a stray \"no-no word\" in the prompt trips it up. Agreeing with @CompleteSkeptic, he wants reliable models for production rather than the most powerful ones, because he can't build an AI media org with that failure in the critical path.",
+      "summaryZh": "Swyx 说 Opus 写作能力很强,但 prompt 里只要混入某些「禁用词」就会出问题。他认同 @CompleteSkeptic 的观点:要的是能上 production 的稳定,而不是最强的模型。关键链路上有这种不确定性,他没法搭建 AI 媒体公司。",
+      "url": "https://x.com/swyx/status/2112772374823407870",
+      "tags": [
+        "models",
+        "reliability",
+        "production"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-20T06:39:43Z",
+  "generatedAt": "2026-10-21T06:56:19Z",
   "digests": [
+    {
+      "date": "2026-10-21",
+      "title": "Levie on autonomous systems; OpenAI's 40,000-account usage bug; Vercel makes harnesses durable",
+      "itemCount": 6,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Aaron Levie: autonomous domain-specific agents are AI's lasting form factor, enabled by tool use, domain judgment and harness infra",
+        "Thibault Sottiaux: OpenAI fixes a limit mismatch on ~40,000 accounts and credits users; cache extended to 12h in the API",
+        "Guillermo Rauch: Vercel opens its durability infrastructure to any agent harness, from Pi to OpenCode"
+      ]
+    },
     {
       "date": "2026-10-20",
       "title": "Levie on agent swarms and compute; Reflection's Laskin on open models; Sottiaux on the OpenCode attack",
