@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-21T06:56:19Z",
+  "generatedAt": "2026-10-22T06:28:44Z",
   "digests": [
+    {
+      "date": "2026-10-22",
+      "title": "OpenAI's 12h prompt cache; Rauch on AI-driven education; open-source on-device voice",
+      "itemCount": 4,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Thibault Sottiaux: API prompt cache extended to 12h; Codex/Work users get cache kept indefinitely",
+        "Guillermo Rauch: AI will compute the delta of what you know, enabling free personalized education",
+        "Matt Turck: Gradium ships tiny open-source on-device TTS models"
+      ]
+    },
     {
       "date": "2026-10-21",
       "title": "Levie on autonomous systems; OpenAI's 40,000-account usage bug; Vercel makes harnesses durable",

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": "sottiaux-cache-12h",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "The OpenAI API prompt cache now lasts 12 hours. For logged-in users across Codex and Work, cache is kept indefinitely, so resuming an old conversation after a few hours carries no penalty and is guaranteed to hit the cache.",
+      "summaryZh": "OpenAI API 的提示缓存现已延长至 12 小时；对于 Codex 和 Work 中的登录用户，缓存会一直保留，因此隔几个小时后继续旧对话不会有任何惩罚，并且保证命中缓存。",
+      "url": "https://x.com/thsottiaux/status/2112712984644784534",
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "caching"
+      ]
+    },
+    {
+      "id": "rauch-ultimate-education",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch predicts AI will compute the exact delta between what you understand and what you don't, letting you progressively learn any idea and unravel any mystery. If you want, you can reach the ceiling of your own capability: the ultimate education, for free.",
+      "summaryZh": "Rauch 预测，AI 将能精确计算出你已理解与未理解之间的差距，帮助你循序渐进地学会任何概念、解开任何谜题。只要你愿意，就能达到自身能力的上限——这是终极教育，而且免费。",
+      "url": "https://x.com/rauchg/status/2112638107749355867",
+      "tags": [
+        "education",
+        "AI",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "turck-open-source-voice",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at @FirstMarkCap. Host: MAD Podcast",
+      "summary": "Turck flags big news in open-source voice AI: Gradium released a suite of tiny on-device text-to-speech models he calls SOTA. He also notes a busy day for FirstMark: a Series B at Daytona (which FirstMark led after leading its Series A) and a Series A at Baba.",
+      "summaryZh": "Turck 指出开源语音 AI 的重大消息：Gradium 发布了一套小型的端侧文本转语音模型，他称其为 SOTA。他还提到 FirstMark 忙碌的一天：领投了 Daytona 的 B 轮（此前也领投了其 A 轮），并参与 Baba 的 A 轮。",
+      "url": "https://x.com/mattturck/status/2112623582098428015",
+      "tags": [
+        "voice AI",
+        "open source",
+        "VC"
+      ]
+    },
+    {
+      "id": "zarazhang-audience-signal",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder. Make something people want, then make people want it.",
+      "summary": "For early-stage product builders, an audience's biggest advantage isn't distribution. It lets you test different ideas and angles to see what resonates, and find your first 100 early adopters. Her line: signals over distribution.",
+      "summaryZh": "对于最早期的产品构建者，拥有自己的受众最大的好处并非分发，而是可以测试不同的想法和角度、看哪些引起共鸣，并找到最初的 100 位早期用户。她的结论是：信号胜过分发。",
+      "url": "https://x.com/zarazhangrui/status/2112530473994072225",
+      "tags": [
+        "audience",
+        "product",
+        "startups"
+      ]
+    }
+  ]
+}
