@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-21T06:38:48Z",
+  "generatedAt": "2026-10-22T06:28:07Z",
   "digests": [
+    {
+      "date": "2026-10-22",
+      "title": "Quiet day: Recursive's Flint, Meta Muse",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Recursive launches Flint, a free 40B MoE coding model that runs on laptops",
+        "Meta says its Muse AI agent has passed 10M users, with shopping a top use"
+      ]
+    },
     {
       "date": "2026-10-21",
       "title": "Quiet day: Google TorchTPU, US DeepSeek ban",

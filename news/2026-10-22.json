@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": "recursive-flint",
+      "category": "models",
+      "title": "Recursive launches Flint, a free 40B MoE coding model that runs on laptops",
+      "summary": "Recursive (Richard Socher's startup) released Flint, a 40B mixture-of-experts model with only 2.5B active parameters, under Apache 2.0 on Hugging Face. It reaches about 131 tokens/s on a MacBook Pro M4 Pro and beats other sub-50B models on SWE-Bench Verified. The company says it was largely built by its own AI research system.",
+      "whyItMatters": "A tiny-active-parameter MoE running fast locally shows where cheap on-device inference for tutor tooling and dev workflows is heading, though it is a coding model rather than a voice one.",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source": "TechCrunch",
+      "tags": ["open-source", "moe", "on-device"]
+    },
+    {
+      "id": "meta-muse-10m",
+      "category": "general",
+      "title": "Meta says its Muse AI agent has passed 10M users, with shopping a top use",
+      "summary": "About 25% of Muse users are active daily, and shopping and personal productivity (email, calendar) lead usage. Meta plans a free tier with commerce commissions plus a paid premium tier, and says it expects over 10x compute-efficiency gains within a year.",
+      "whyItMatters": "Shows how a big consumer AI assistant plans to monetize (free tier plus commissions, paid premium models), which is a useful reference for pricing a tutor.",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "source": "TechCrunch",
+      "tags": ["agents", "monetization", "meta"]
+    }
+  ]
+}
