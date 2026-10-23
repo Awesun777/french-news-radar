@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-22T06:28:07Z",
+  "generatedAt": "2026-10-23T06:24:08Z",
   "digests": [
+    {
+      "date": "2026-10-23",
+      "title": "ElevenLabs Eleven Realtime, OpenAI Decisions API",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "ElevenLabs Eleven Realtime v1 Mini and Max speech-to-speech agent models",
+        "OpenAI makes its Decisions API model widely available",
+        "Anthropic launches Claude Duet, a background agent app built on Opus 5.5"
+      ]
+    },
     {
       "date": "2026-10-22",
       "title": "Quiet day: Recursive's Flint, Meta Muse",
