@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-10-22T06:36:59Z",
+  "lastRunAt": "2026-10-23T06:31:21Z",
   "outcome": "new-postings",
-  "newCount": 12,
-  "detail": "12 new postings (Citi, Nomura, Pwc, Raymond James); Ubs, Scotiabank, BNPP unreachable; BDA Partners shows no US roles",
-  "dayFile": "2026-10-22",
+  "newCount": 13,
+  "detail": "13 new postings (Citi, Deutsche Bank, Mizuho americas, Nomura, Scotiabank); Ubs, BNPP, Dc advisory, Macquarie unreachable; BDA Partners shows no US roles",
+  "dayFile": "2026-10-23",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",
     "Raymond James": "ok",
-    "Dc advisory": "ok",
+    "Dc advisory": "unreachable",
     "Bda partners": "ok",
     "Houlihan Lokey": "ok",
     "Ubs": "unreachable",
-    "Scotiabank": "unreachable",
+    "Scotiabank": "ok",
     "BNPP": "unreachable",
     "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
     "Citi": "ok",
-    "Macquarie": "ok",
+    "Macquarie": "unreachable",
     "Pwc": "ok"
   }
 }
