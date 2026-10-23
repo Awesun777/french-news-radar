@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "claude-duet",
+      "kind": "x",
+      "author": "Cat Wu",
+      "role": "claude code + cowork @anthropicai",
+      "summary": "Anthropic is pushing Claude toward proactive work with Claude Duet, an always-on agent that notices work that needs doing and does it before you ask. It is an early research preview behind a waitlist, built around Claude Opus 5.5 for judgment on what needs you and what can wait. Anthropic says it never directly sees your passwords and uses a new classifier to guard sensitive information.",
+      "summaryZh": "Anthropic 推出 Claude Duet，让 Claude 变得更主动：这是一个常驻的 agent，会自己发现需要做的事，在你开口之前就把它做完。目前是早期研究预览，需要排队等候，核心是 Claude Opus 5.5，由它判断哪些事要找你、哪些可以先放一放。Anthropic 表示 Duet 不会直接接触你的密码，并用新的 classifier 防止泄露敏感信息。",
+      "url": "https://x.com/_catwu/status/2112988751576330487",
+      "tags": [
+        "anthropic",
+        "agents",
+        "claude-duet"
+      ]
+    },
+    {
+      "id": "every-duet-vibe-check",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "ceo @every",
+      "summary": "After two weeks of testing, Shipper calls Duet the first personal agent he'd call a pro tool, and says his usage has moved from mostly ChatGPT to roughly 50/50 with Claude. He likes the separate app and per-area channels, but says it is not yet a chief of staff: it can see his Claude sessions but cannot direct them, its email drafts are worse than dot's, and voice is transcription only. Verdict: good vibes, worth trying.",
+      "summaryZh": "试用两周后，Shipper 说 Duet 是他第一个愿意称为 pro tool 的个人 agent，他的使用比例也从以 ChatGPT 为主变成和 Claude 大约五五开。他喜欢独立的 app 和按领域划分的 channel，但认为它还不算 chief of staff：能看到他的 Claude session 却不能指挥，邮件草稿不如 dot，语音也只有转写。结论是手感不错，值得一试。",
+      "url": "https://x.com/danshipper/status/2112997559463506059",
+      "tags": [
+        "claude-duet",
+        "agents",
+        "vibe-check"
+      ]
+    },
+    {
+      "id": "levie-cyber-tokens",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "summary": "Levie argues cyber will be one of AI's most profound areas: a tireless workforce can now hunt, discover, patch or attack any software ever written, on both sides. He expects the defensive loop to use 100X more tokens than people imagine, since agents can scan every log, line of code and packet. Enterprises will care more than ever about networks, identity and data, and agents will be the solution while keeping everyone up at night.",
+      "summaryZh": "Levie 认为 cyber 会是 AI 影响最深远的领域之一：现在有了不知疲倦的劳动力，可以去查找、修补或攻击任何软件，攻守双方都一样。他预计防御这一环用掉的 token 会比大家想象的多 100 倍，因为 agent 能扫描每一条日志、每一行代码和所有流量。企业会比以往更重视网络、身份和数据，agent 将成为解决方案，但也会让所有人睡不着觉。",
+      "url": "https://x.com/levie/status/2112964214818283917",
+      "tags": [
+        "cybersecurity",
+        "agents",
+        "tokens"
+      ]
+    },
+    {
+      "id": "steipete-php-vuln",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather",
+      "summary": "The PHP vulnerability expected to cause havoc this week was found with GPT-5.6 Sol, he says.",
+      "summaryZh": "Steinberger 表示，这周预计会引发大麻烦的那个 PHP 漏洞，是用 GPT-5.6 Sol 找出来的。",
+      "url": "https://x.com/steipete/status/2112913060709228764",
+      "tags": [
+        "security",
+        "openai",
+        "php"
+      ]
+    },
+    {
+      "id": "rauch-php2shell",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch describes the industry coordinating weeks ahead, over a Slack channel, to mitigate php2shell, with Vercel WAF rules already blocking attempts on PHP origins. His advice: assume more vulnerabilities are coming and keep the patch-and-redeploy muscle flexed. Separately, Vercel rolled out Firewall-level mitigations for a Node.js RCE ahead of the official patch, protecting all deployments automatically.",
+      "summaryZh": "Rauch 描述了业界提前数周在一个 Slack channel 里协同应对 php2shell 的过程，Vercel WAF 的规则已经成功拦截了针对 PHP origin 的攻击尝试。他的建议是：假设还会有更多漏洞，保持打补丁再重新部署的肌肉记忆。另外，Vercel 在官方补丁发布前就推出了针对 Node.js RCE 的 Firewall 级缓解措施，所有部署自动受保护。",
+      "url": "https://x.com/rauchg/status/2112989629536440400",
+      "tags": [
+        "security",
+        "vercel",
+        "php"
+      ]
+    },
+    {
+      "id": "rauch-deepseek-token-pass",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "DeepSeek v4.1 Flash is now included in Vercel's Token Pass, fast, very cheap and served with zero-data retention. Rauch pitches it for running subagents that execute plans conceived by larger, pricier models, joking you could port TypeScript to Rust 10 times without running out of credits.",
+      "summaryZh": "DeepSeek v4.1 Flash 现已加入 Vercel 的 Token Pass，速度快、价格极低，并提供 ZDR（零数据留存）。Rauch 推荐用它来跑 subagent，执行由更大更贵的模型制定的计划，还开玩笑说把 TypeScript 移植到 Rust 十遍都用不完额度。",
+      "url": "https://x.com/rauchg/status/2113010010766913815",
+      "tags": [
+        "vercel",
+        "deepseek",
+        "subagents"
+      ]
+    },
+    {
+      "id": "adityaag-building-joy",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @SPC, Co-Founder @Bevel_Health",
+      "summary": "Agarwal observes that making things with AI may be as fun as using it: his son watched Star Wars for about 3 hours, then spent about 20 hours building games about it, and barely played them. As a programmer he gets that the act of building is the joy, and wonders whether everyone will now get to experience it.",
+      "summaryZh": "Agarwal 观察到，用 AI 做东西可能和用 AI 一样好玩：他儿子看了大约 3 小时《星球大战》，然后花了大约 20 小时做相关的游戏，自己却没怎么玩。作为程序员，他明白创造本身就是乐趣所在，也在想这种乐趣是不是现在人人都能体会到了。",
+      "url": "https://x.com/adityaag/status/2112923959176106056",
+      "tags": [
+        "building",
+        "vibe-coding",
+        "education"
+      ]
+    },
+    {
+      "id": "every-frontier-team",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "How a Frontier Team Can Help Your Company Keep Up With AI",
+      "takeaway": "Every's answer to the choice between getting work done and keeping up with AI is a dedicated frontier team that experiments, so everyone else can stay focused and only adopt what is ready.",
+      "takeawayZh": "Every 对「是做完手头工作还是跟上 AI」这个两难的答案，是设立专门的 frontier team 去做实验，其他人专心工作，只采用已经成熟的成果。",
+      "summary": "Dan Shipper opens with the dilemma every employee faces: ignore the frontier and risk being disrupted by an agent-native rival, or chase shiny objects and never build anything lasting. A frontier team separates the two. Natalia, Every's head of enterprise AI adoption, says it lets people who love new tools run experiments, from good content at the low end to features pushed into products at the high end, without the rest of the company tracking every model drop. The best teams mix pirates, who try a billion sloppy things fast, with architects, who compress the mess into something maintainable.\n\nMike Taylor, self-titled head of evals, turns vibe checks into numbers and helps people build personal benchmarks. He had Opus, in its highest-effort mode with hundreds of agents, read his Slack messages and meeting notes and produce an auditable explainer video with receipts for each claim. His cheat sheet: give AI all your context, then protect other people's attention, because producing more ideas now means flooding colleagues. Arielle, the Frontier Wrangler, built a usage dashboard that tracks tokens and dollars per person across harnesses and buckets them by work type. Jack Cheng built a tabless browser with a model-agnostic agent pane, arguing models now let you personalize the application itself rather than a plugin. Dan's payoff: the team moves fast on what is new without distracting everyone, which builds confidence.\n\n\"It's your job now to protect other people's context.\" (Mike Taylor)",
+      "summaryZh": "Dan Shipper 开场就点出每个员工的两难：无视前沿，可能被 agent-native 的对手颠覆；追逐新鲜玩意，又做不出任何持久的东西。frontier team 正是把这两件事分开。Every 负责企业 AI 落地的 Natalia 说，这让爱折腾新工具的人去做实验，低端的成果是好内容，高端的成果会被推进产品，而公司其他人不必盯着每一次模型发布。最好的团队会把海盗和架构师搭配起来：海盗飞快地试上亿种粗糙的做法，架构师把乱摊子压缩成可维护的东西。\n\n自封 head of evals 的 Mike Taylor 把凭感觉的 vibe check 变成数字，帮大家搭建个人 benchmark。他让 Opus 用最高强度模式调度上百个 agent，通读他的 Slack 消息和会议记录，做出一支每个论点都有出处、可审计的讲解视频。他的小抄是：把你所有的上下文都交给 AI，然后保护别人的注意力，因为你产出的想法越多，就越容易淹没同事。Frontier Wrangler Arielle 做了一个用量看板，跨各种 harness 统计每个人的 token 和花费，并按工作类型归类。Jack Cheng 做了一个没有标签页的浏览器，带一个可选任意模型的 agent 面板，他认为现在的模型能让你直接定制应用本身，而不只是插件。Dan 的总结是：团队能快速跟进新东西又不打扰所有人，这会让大家更有信心。\n\n“现在你的工作是保护别人的上下文。”（Mike Taylor）",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": [
+        "every",
+        "frontier-team",
+        "evals",
+        "adoption"
+      ]
+    }
+  ]
+}

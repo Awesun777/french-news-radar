@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-22T06:28:44Z",
+  "generatedAt": "2026-10-23T06:25:11Z",
   "digests": [
+    {
+      "date": "2026-10-23",
+      "title": "Anthropic's Claude Duet; Levie on cyber and tokens; Every's frontier team",
+      "itemCount": 8,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Anthropic launches Claude Duet, an always-on proactive agent; Dan Shipper's two-week verdict: worth trying but not yet a chief of staff",
+        "Aaron Levie: cyber is AI's most profound area, with 100X more tokens on the defensive loop",
+        "Every's podcast: a frontier team of pirates and architects keeps a company current without distracting everyone"
+      ]
+    },
     {
       "date": "2026-10-22",
       "title": "OpenAI's 12h prompt cache; Rauch on AI-driven education; open-source on-device voice",
