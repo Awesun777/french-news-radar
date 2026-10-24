@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "id": "anthropic-agent-skills-aaif",
+      "category": "general",
+      "title": "Anthropic donates Agent Skills, its open agent-standard, to the Agentic AI Foundation",
+      "summary": "Anthropic handed the Agent Skills standard — name, logo, GitHub org, and the agentskills.io domain — to the Linux Foundation's Agentic AI Foundation (AAIF), which it co-founded with Block and OpenAI and which already holds Anthropic's donated Model Context Protocol. Since the standard launched in December 2025, 70+ platforms (ChatGPT, Cursor, GitHub Copilot, VS Code) have adopted it, with nearly 1M skills published and ~280M installs.",
+      "whyItMatters": "Agent Skills' pattern of packaged, versioned knowledge/workflow modules is a reusable model for giving Romain or Anna specialized tutoring behaviors (grammar drills, exam prep, pronunciation feedback) without bespoke prompt engineering or retraining.",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source": "Anthropic",
+      "tags": ["anthropic", "agents", "open-source"]
+    },
+    {
+      "id": "deepseek-minimax-global-approval",
+      "category": "general",
+      "title": "China reportedly clears DeepSeek and MiniMax for overseas AI model use",
+      "summary": "A CCTV-affiliated social account (Yuyuan Tantian) said on Oct 22 that DeepSeek and MiniMax have won approval for global/overseas use of their AI models, under Beijing's draft AI export-control rules (proposed Oct 16) covering 23 AI technologies; licensing for open-source exports is reportedly simplified, though API/SaaS sales stay outside the approval. Neither company has confirmed it, and this surfaced two days after the US ordered federal agencies to strip DeepSeek from their systems.",
+      "whyItMatters": "Easier overseas distribution of cheap Chinese open-weight models could keep downward pressure on LLM backend costs for the tutor's reasoning layer, though US compliance restrictions complicate actually adopting DeepSeek in production.",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/23/deepseek-minimax-win-approval-for-global-use-state-media-says",
+      "source": "Reuters via The Star",
+      "tags": ["deepseek", "minimax", "policy", "pricing"]
+    }
+  ]
+}

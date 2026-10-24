@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-10-23T06:24:08Z",
+  "generatedAt": "2026-10-24T06:12:06Z",
   "digests": [
+    {
+      "date": "2026-10-24",
+      "title": "Quiet day: Anthropic donates Agent Skills, DeepSeek/MiniMax go global",
+      "itemCount": 2,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Anthropic donates Agent Skills, its open agent-standard, to the Agentic AI Foundation",
+        "China reportedly clears DeepSeek and MiniMax for overseas AI model use"
+      ]
+    },
     {
       "date": "2026-10-23",
       "title": "ElevenLabs Eleven Realtime, OpenAI Decisions API",
