@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "id": "claude-platform-auto-mode",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Anthropic's Claude account",
+      "summary": "Anthropic is closing the gap between app and platform: new features and betas now ship the same day on the native Claude Platform, including fast mode for Opus 5.5, code execution and the Skills API. Claude Models on Google Cloud (Anthropic managed) is GA with Google Cloud IAM, billing and commitment retirement. Starting next week, Claude web, desktop and mobile sessions run in auto mode by default on Pro, Max and Team, where an automated check blocks risky actions instead of asking for approval at every step.",
+      "summaryZh": "Anthropic 正在抹平应用和平台之间的差距：新功能和 beta 现在与原生 Claude Platform 同日上线，包括 Opus 5.5 的 fast mode、代码执行和 Skills API。Claude Models on Google Cloud（由 Anthropic 托管）正式 GA，支持 Google Cloud IAM、账单和承诺额度抵扣。下周起，Pro、Max 和 Team 套餐的 Claude 网页、桌面和移动端会话默认进入 auto mode，由自动检查拦截高风险操作，不再每一步都问你要不要批准。",
+      "url": "https://x.com/claudeai/status/2113380126561800305",
+      "tags": [
+        "claude",
+        "platform",
+        "auto-mode"
+      ]
+    },
+    {
+      "id": "cherny-skills-donation",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude @anthropicai",
+      "summary": "Agent Skills began as an experiment inside Claude Code, but enough of the industry adopted it that Anthropic decided it belonged in neutral hands. It is being donated to the Agentic AI Foundation, sitting next to MCP.",
+      "summaryZh": "Agent Skills 最初只是 Claude Code 里的一个实验，但业界已经广泛采用，Anthropic 认为它更适合放到中立机构手里。它将捐赠给 Agentic AI Foundation，与 MCP 并列。",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "tags": [
+        "agent-skills",
+        "open-standards",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "swyx-opus-estimator",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "smol_ai, Cognition, Temporal, aidotengineer, latentspacepod",
+      "summary": "Swyx calls Opus 5.5 the best work-estimator model he has used, and argues calibration matters more as we delegate more. His complaint: don't quote a human's 2-3 working days to an indefatigable, parallelizable AGI that can finish in 2-3 hours. He also flags a model estimating the ETA of its own pipeline fixes while the pipeline runs as extremely important for pipelining, and says the right attitude toward AI-found bugs is to lock in and clear them fast rather than blame the AI.",
+      "summaryZh": "Swyx 称 Opus 5.5 是他用过最好的工作量估算模型，并认为随着委派的工作越来越多，校准能力会越来越重要。他的槽点是：别拿人类的 2-3 个工作日去估算一个不知疲倦、可以高度并行的 AGI，它可能 2-3 小时就搞定。他还指出，模型在 pipeline 运行时估算自己修复 pipeline 的 ETA，对流水线编排极其重要；对于 AI 找出的 bug，正确态度是集中火力尽快清掉，而不是怪 AI。",
+      "url": "https://x.com/swyx/status/2113283272130412684",
+      "tags": [
+        "opus-5-5",
+        "estimation",
+        "agents"
+      ]
+    },
+    {
+      "id": "thsottiaux-decisions-api",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "In his day-18 update, Sottiaux says the Decisions API is GA, OpenResponses has joined the Linux Foundation, performance improvements shipped, and Uber is going all-in on Codex and work. He teases another launch landing before 10am PST the next day alongside a small ship.",
+      "summaryZh": "Sottiaux 在第 18 天的更新中表示，Decisions API 已 GA，OpenResponses 加入 Linux Foundation，性能也有改进，Uber 全面押注 Codex 和 work。他还预告第二天太平洋时间上午 10 点前会有新发布，并附带一个小更新。",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "tags": [
+        "openai",
+        "codex",
+        "decisions-api"
+      ]
+    },
+    {
+      "id": "levie-security-obscurity",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Levie says security through obscurity is fully over: it barely worked against humans and fails against autonomous systems that try every permutation of attack. Years of legacy enterprise infrastructure, security practice, data pipelines and access controls will need modernizing, and agents can help defensively by accelerating the work and simulating risk vectors. The catch is a long road ahead, which is partly why he thinks diffusion timelines will run longer than some expect.",
+      "summaryZh": "Levie 认为靠隐蔽来保证安全的时代已经彻底结束：它对人类攻击者都勉强有效，面对会尝试每一种攻击组合的自主系统更是无效。企业多年积累的遗留基础设施、安全实践、数据管道和访问控制都需要升级，agent 可以通过加速这项工作、模拟风险路径来帮助防守。但这条路还很长，这也是他认为 diffusion 时间线会比一些人预想更久的部分原因。",
+      "url": "https://x.com/levie/status/2113499900399034689",
+      "tags": [
+        "security",
+        "enterprise",
+        "agents"
+      ]
+    },
+    {
+      "id": "rauchg-static-credentials",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch's weekly TL;DR is blunt: your aunt's password is P4ssword! on a Post-it, while the stewards of the internet's encryption used the password 4, a key that could target and decrypt almost everything and is still being cleaned up. His fix is to kill static credentials and move to self-destructing keys, doing for OIDC what the industry once did for TLS.",
+      "summaryZh": "Rauch 本周的总结很直白：你阿姨的密码是贴在厨房便利贴上的 P4ssword!，而守护互联网加密的人用的密码是 4，这把密钥几乎能针对并解密一切，残留风险至今仍在清理。他的主张是淘汰静态凭证，改用会自毁的密钥，像当年行业为 TLS 做的那样，把同样的事在 OIDC 上做一遍。",
+      "url": "https://x.com/rauchg/status/2113462657059639505",
+      "tags": [
+        "security",
+        "oidc",
+        "credentials"
+      ]
+    },
+    {
+      "id": "albert-small-business-duet",
+      "kind": "x",
+      "author": "Alex Albert",
+      "role": "Research @AnthropicAI",
+      "summary": "Albert suggests a fun side quest: run a bunch of local small businesses with AI helping. He thinks products like Claude Duet could end up mattering more to these businesses than Square or Google Maps did, and asks small-business owners using Claude to share what they are doing.",
+      "summaryZh": "Albert 提出一个有趣的支线任务：让 AI 帮忙经营一批本地小生意。他认为像 Claude Duet 这样的产品，对这类小企业的意义最终可能超过 Square 或 Google Maps，并邀请正在用 Claude 经营小生意的人分享做法。",
+      "url": "https://x.com/alexalbert__/status/2113386454907007444",
+      "tags": [
+        "claude-duet",
+        "small-business",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "nikunj-seed-squeeze",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures",
+      "summary": "Nikunj says only about 10% of the seed companies he meets get acquired within months of the first meeting, and the seed to Series A squeeze is at an all-time high with no sign of easing. His one-line summary: never been easier to dream, never been harder to scale. An essay follows next week.",
+      "summaryZh": "Nikunj 说，他见过的 seed 公司里，只有约 10% 会在初次见面后几个月内被收购，而 seed 到 Series A 的挤压处于历史最高，短期内不会缓解。他的一句话总结是：做梦从未如此容易，规模化从未如此艰难。下周会有相关长文。",
+      "url": "https://x.com/nikunj/status/2113405034826477910",
+      "tags": [
+        "venture",
+        "seed",
+        "startups"
+      ]
+    },
+    {
+      "id": "turck-mistral-le-chonk",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at @FirstMarkCap. Host: MAD Podcast",
+      "summary": "Turck's MAD Podcast talks with Pierre Stock, who runs research at Mistral, about Le Chonk, billed as the West's biggest open model. Chapters cover the Western open-weight comeback, training on 3,800 GPUs in Mistral's own datacenters, mixture of experts, RL, open weights versus cyber refusals, and a coming Mistral Large 5. Separately he notes everyone in AI is increasingly competing with everyone else: chipmakers with inference providers, models with apps and chips, while NVIDIA sells to all of them.",
+      "summaryZh": "Turck 的 MAD Podcast 采访了负责 Mistral 研究的 Pierre Stock，聊到被称为西方最大开源模型的 Le Chonk。章节涵盖西方开源权重模型的回归、在 Mistral 自有数据中心用 3,800 块 GPU 训练、mixture of experts、RL、开源权重与网络安全拒答，以及即将推出的 Mistral Large 5。他另外指出，AI 行业里人人都在和别人竞争：芯片厂商对推理服务商，模型对应用和芯片，而 NVIDIA 把货卖给所有人。",
+      "url": "https://x.com/mattturck/status/2113311361639829673",
+      "tags": [
+        "mistral",
+        "open-weights",
+        "podcast"
+      ]
+    },
+    {
+      "id": "adityaag-levine-pi07",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @SPC",
+      "summary": "Agarwal says robotics is repeating the LLM arc: from fine-tuning, to prompting, to simply telling the model what you want. Physical Intelligence co-founder Sergey Levine described how pi0.7 learns new skills from plain-language coaching. He adds that a PhD from a top university doesn't automatically make someone a great robotics researcher.",
+      "summaryZh": "Agarwal 认为机器人领域正在重复 LLM 的路径：从 fine-tuning 到 prompting，再到直接告诉模型你想要什么。Physical Intelligence 联合创始人 Sergey Levine 介绍了 π0.7 如何通过自然语言指导学会新技能。他还补充说，名校博士学位并不能自动造就优秀的机器人研究者。",
+      "url": "https://x.com/adityaag/status/2113385971844518124",
+      "tags": [
+        "robotics",
+        "physical-intelligence",
+        "pi0-7"
+      ]
+    },
+    {
+      "id": "peteryang-security-steps",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Yang published a video with six steps to secure your accounts given the recent incidents, plus a prompt that has AI walk you through them and generate a personalized security report. Separately he observes the gap while supporting his mother's cancer treatment: great AI breakthroughs online, yet documents are still faxed and imaging delivered on CD-ROMs.",
+      "summaryZh": "Yang 发布了一期视频，针对近期的安全事件给出保护账号的六个步骤，并附带一个 prompt，让 AI 带你逐步完成并生成个性化安全报告。另外，他在陪母亲治疗癌症时感受到落差：网上全是 AI 突破，现实里文件仍靠传真，影像资料还在用 CD-ROM 递送。",
+      "url": "https://x.com/petergyang/status/2113405131106742406",
+      "tags": [
+        "security",
+        "healthcare",
+        "tutorials"
+      ]
+    },
+    {
+      "id": "training-data-silver-espeholt",
+      "kind": "podcast",
+      "author": "Training Data",
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "takeaway": "Silver bets that superintelligence will not come from scaling human data and LLMs, but from agents that learn from raw experience in rich environments and discover knowledge for themselves.",
+      "takeawayZh": "Silver 押注，超级智能不会来自扩大人类数据和 LLM，而是来自在丰富环境中从原始经验学习、自己发现知识的 agent。",
+      "summary": "David Silver, whose PhD on reinforcement learning for Go led to AlphaGo, and Lasse Espeholt, an early pioneer of scaling RL, left DeepMind to found Ineffable Intelligence. Their pitch is a \"superlearner\": a system that starts knowing nothing and keeps discovering, going beyond human knowledge, and that can be dropped into any stream of experience, simulated or physical. Silver's reason for leaving is contrarian. The world already has hundreds of thousands of researchers doubling down on LLMs, and he did not want to be the 100,001st. \"The path that I believe in doesn't actually go through LLM based products as an intermediate point.\"\n\nTheir method differs from most RL on language models. Rather than hand-crafting rewards for science or math and pulling the agent toward a goal, they give it a simple objective inside a very complex world and let complexity emerge, the way evolution turned a simple fitness signal into all of life. They call these worlds \"crucibles\": physics engines with millions of interacting objects, or millions of interacting agents. Go is the model case. With one player it is a boring grid, but add a second agent and you get \"an infinite onion of layers of complexity.\"\n\nSilver also argues human language can hold reasoning back. Train on the language of two thousand years ago and an agent might believe the world is flat or that disease comes from the four humors, biases that are hard to remove. Ineffable is betting it can go further by giving up human data entirely. Milestones are the great moments of human discovery, which agents should rediscover. Silver says he hopes to be surprised, and prefers research questions that are \"on a knife edge\" at fifty-fifty, since 95% certain is boring.",
+      "summaryZh": "David Silver 的博士研究是用强化学习攻克围棋，后来催生了 AlphaGo；Lasse Espeholt 则是扩大 RL 规模的早期先驱。两人离开 DeepMind，创办了 Ineffable Intelligence。他们的目标是打造 \"superlearner\"：从一无所知开始、持续发现并超越人类知识，还能被放进任何经验流里，无论是模拟世界还是物理世界。Silver 离开的理由很反主流：全世界已有几十万研究者在加码 LLM，他不想当第 100,001 个。他说：\"The path that I believe in doesn't actually go through LLM based products as an intermediate point.\"（我相信的路径，并不以 LLM 产品作为中间站。）\n\n他们的方法也不同于大多数针对语言模型的 RL。他们不为科学或数学手工设计奖励、把 agent 往目标上拽，而是在一个极其复杂的世界里给它一个简单目标，让复杂性自己涌现，就像进化把简单的适应度信号变成了整个生命世界。他们把这些世界称为 \"crucibles\"：有数百万个相互作用物体的物理引擎，或数百万个相互作用的 agent。围棋是典型例子：只有一个玩家时它是个无聊的格子，加入第二个 agent 后就出现了 \"an infinite onion of layers of complexity\"（无穷层层叠叠的复杂性）。\n\nSilver 还认为人类语言可能拖累推理。如果用两千年前的语言训练，agent 可能会相信地球是平的、疾病源于四种体液，这些偏见很难清除。Ineffable 赌的是彻底放弃人类数据，反而能走得更远。里程碑是人类历史上的重大发现，agent 要重新发现它们。Silver 说他希望被惊喜到，并且偏爱五五开、\"on a knife edge\" 的研究问题，因为有 95% 把握的事情很无聊。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "tags": [
+        "reinforcement-learning",
+        "superintelligence",
+        "deepmind",
+        "ineffable"
+      ]
+    }
+  ]
+}
