@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "id": "thariq-leaves-anthropic",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Claude Code at Anthropic (bio)",
+      "summary": "Thariq announced he has left Anthropic after more than a year working on Claude Code and watching it scale \"larger than I ever imagined.\" He says he still believes in the mission and the idea of a race to the top, and trusts his former colleagues \"deeply.\" Next is a break before \"diving into something new.\"",
+      "summaryZh": "Thariq 宣布离开 Anthropic，此前他在 Claude Code 上工作了一年多，看着它的规模远超自己的想象。他说自己仍然相信公司的使命和\"向上竞争\"的理念，也深深信任前同事。接下来他打算先休息一阵，再投身新的事情。",
+      "url": "https://x.com/trq212/status/2113844051938054167",
+      "tags": [
+        "anthropic",
+        "claude-code",
+        "departure"
+      ]
+    },
+    {
+      "id": "thsottiaux-codex-cli",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT at OpenAI",
+      "summary": "Codex CLI got reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in, plus fixes for failures when resuming long sessions and Windows corporate-proxy auth. The surprising number: CLI usage has grown 2X since devday. Separately, changing reasoning or working mid-conversation no longer invalidates the cache.",
+      "summaryZh": "Codex CLI 新增了可复用的 prompt 预设、行内模型和权限设置，以及企业级 MCP 登录，还修复了恢复长会话时的失败问题，并支持 Windows 公司代理认证。最让他意外的是：自 devday 以来 CLI 的使用量翻了 2 倍。另外，在对话中途切换 reasoning 或继续工作，现在不会再让 cache 失效。",
+      "url": "https://x.com/thsottiaux/status/2113770862860222611",
+      "tags": [
+        "openai",
+        "codex",
+        "cli"
+      ]
+    },
+    {
+      "id": "rauch-agents-ouija",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO of Vercel",
+      "summary": "Rauch says agents can \"play Ouija in the cloud\": the OpenAI-found attack is a noisy-neighbor timing attack on shared-host VMs, a class known since at least 2015 with no full fix. Two agents on one machine can detect each other through CPU cache noise. The only complete answer is dedicated hardware per agent, which carries real economic costs, so Vercel Sandbox ships every practical mitigation plus always-on monitoring and red-teaming.",
+      "summaryZh": "Rauch 说 agent 能在云上\"玩通灵板\"：OpenAI 发现的这个攻击属于共享主机 VM 上的 noisy neighbor 计时攻击，这类问题至少从 2015 年起就已为人所知，至今没有彻底的解法。同一台机器上的两个 agent，可以通过 CPU 缓存产生的噪声互相探测。唯一完整的办法是每个 agent 独占硬件，经济代价不小，所以 Vercel Sandbox 部署了所有可行的缓解措施，并配合全天候监控和 red-teaming。",
+      "url": "https://x.com/rauchg/status/2113759533801877920",
+      "tags": [
+        "security",
+        "agents",
+        "vercel"
+      ]
+    },
+    {
+      "id": "levie-agent-swarms-cyber",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO of Box",
+      "summary": "Levie predicts agent swarms for cyber defense will become one of AI's biggest categories. Security is an ideal fit because more compute in directly means more value out: agents will review code and infra, test every permutation of risk and chew through huge volumes of data that people never get around to.",
+      "summaryZh": "Levie 预测，用于网络防御的 agent swarm 会成为 AI 最大的品类之一。安全是天然适合的场景，因为投入的算力越多，产出的价值就越多：agent 会审查代码和基础设施，测试每一种风险组合，处理人类一直没空碰的海量数据。",
+      "url": "https://x.com/levie/status/2113738768645808277",
+      "tags": [
+        "security",
+        "agents",
+        "swarms"
+      ]
+    },
+    {
+      "id": "masad-replit-chroma",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO of Replit",
+      "summary": "Replit is bringing in Jeff and the Chroma team, whom Masad calls pioneers who \"were building RAG before it was even a thing.\" Their job is one of the hardest problems in AI: giving agents the context and memory to do real work, which he frames as a step toward the self-driving company. He also announced Replit for Government, led by Michael Greenwald, formerly head of AWS's public sector business.",
+      "summaryZh": "Replit 迎来 Jeff 和 Chroma 团队，Masad 称他们是先行者，\"在 RAG 还不成气候时就在做 RAG 了\"。他们要攻克的是 AI 最难的问题之一：让 agent 拥有完成真实工作所需的 context 和记忆，他把这视为迈向\"自动驾驶公司\"的一大步。他还宣布推出 Replit for Government，由前 AWS 公共部门负责人 Michael Greenwald 领衔。",
+      "url": "https://x.com/amasad/status/2113736007111827606",
+      "tags": [
+        "replit",
+        "rag",
+        "acquisition"
+      ]
+    },
+    {
+      "id": "petergyang-time-over-money",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Yang argues most ambitious people never stop to notice that at some point their time becomes worth more than their money. Being in the sandwich generation, with young kids and aging parents, taught him this sooner, and he says many tech people are in a position to choose agency over their time but never reflect on it.",
+      "summaryZh": "Yang 认为，大多数有野心的人从没停下来想过：到了某个阶段，自己的时间比钱更值钱。他正处在上有老下有小的\"三明治一代\"，所以比多数人更早体会到这一点。他说很多科技从业者其实也有条件选择掌控自己的时间，只是从未认真反思过。",
+      "url": "https://x.com/petergyang/status/2113672812909191292",
+      "tags": [
+        "career",
+        "time",
+        "reflection"
+      ]
+    },
+    {
+      "id": "adityaag-bigger-problem",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner at SPC",
+      "summary": "Agarwal pulls out a principle from his SPC conversations: some of the biggest AI advances came from solving many problems together rather than training specialized systems for each task. He notes Sergey Levine of Physical Intelligence makes the same argument for robotics, and boils it down to \"make the problem bigger.\"",
+      "summaryZh": "Agarwal 从 SPC 的对话中提炼出一条原则：AI 最大的一些突破，来自把许多问题放在一起解决，而不是为每个任务训练专用系统。他提到 Physical Intelligence 的 Sergey Levine 在机器人领域也持同样观点，并把它归结为一句话：\"把问题做大\"。",
+      "url": "https://x.com/adityaag/status/2113666947766169868",
+      "tags": [
+        "research",
+        "robotics",
+        "generalization"
+      ]
+    },
+    {
+      "id": "no-priors-cloudflare-knecht",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht",
+      "takeaway": "Knecht says AI-found vulnerabilities now hit weekly at Log4j scale, so security will eat most engineering time for about 18 months, while agents force a new payment model for the web.",
+      "takeawayZh": "Knecht 表示，AI 发现的漏洞如今每周都有 Log4j 级别的规模，未来约 18 个月里安全将占去大部分工程时间，同时 agent 也在倒逼网络出现新的付费模式。",
+      "summary": "Cloudflare CTO Dane Knecht says the last year felt like ten compressed into one. Vulnerability reports have gone up exponentially over three to six months: Log4j or Shellshock moments used to come about once a year, and \"these things are now happening weekly.\" He expects the majority of team time to go to security over the next 18 months, but \"I don't think that will last forever,\" since AI will eventually have surveyed most code and found most bugs. Some of the biggest recent finds came from high school kids pointing agents at targets for bug bounties, not nation states, and the models and harnesses keep improving. His advice for building secure software starts with first principles: reduce attack surface. Early AI is verbose and loves complexity, so human judgment still matters. Cloudflare writes its principles into a document called the Codex that agents follow in review, with adversarial performance and security runs deeper in the factory. On the web, Knecht sees a messy middle where agents parse a human-designed web at a cost to site owners. He expects a split in how content is delivered, with agents deciding whether to pay a site's CPM, and says agents will finally push micropayments forward. Cloudflare's pay-per-crawl-style gateway offers wallets and a stablecoin, a project with OpenAI called Signals helps agents discover new content without crawling everything, and he likes x402 for reviving the HTTP 402 payment code. The goal: \"instead of them paying us, we're paying them.\" He also describes Cloudflare OS, the internal AI platform that is used more by go-to-market and G&A than engineering because it removes the blank-slate problem. After the May restructuring, a three-team email process became one tool where a product manager describes a cohort, writes an email and a manager clicks approve. On token budgets, he says \"it's kinda silly that we're actually asking humans to decide which model to do each task.\"",
+      "summaryZh": "Cloudflare CTO Dane Knecht 说，过去这一年像是把十年压缩进了一年。三到六个月里，漏洞报告呈指数级增长：以前 Log4j 或 Shellshock 这类事件大约一年一次，现在\"每周都在发生\"。他预计未来 18 个月里，团队的大部分时间都会花在安全上，但\"我不认为这会永远持续\"，因为 AI 最终会把大部分代码扫一遍，找出大多数 bug。最近一些最大的发现并非来自国家级黑客，而是高中生用 agent 去冲 bug bounty，而且模型和 harness 还在不断进步。谈到如何构建安全的软件，他回到第一性原理：缩小攻击面。早期的 AI 写代码啰嗦、喜欢堆复杂度，所以人的判断依然重要。Cloudflare 把自己的原则写进一份叫 Codex 的文档，让 agent 在 review 时遵循，再在流水线更深处安排对抗式的性能和安全测试。关于网络本身，Knecht 认为现在处于混乱的中间期：agent 在解析为人类设计的网页，给站点方带来成本。他预计内容分发会分流，由 agent 决定要不要按站点的 CPM 付费，并认为 agent 终将推动 micropayments 落地。Cloudflare 的内容变现网关提供 agent 钱包和稳定币，与 OpenAI 合作的 Signals 项目让 agent 不必爬遍全网就能发现新内容，他也喜欢 x402 让 HTTP 402 支付状态码重获新生。目标是：\"不再是他们付钱给我们，而是我们付钱给他们。\"他还介绍了 Cloudflare OS，这个内部 AI 平台被市场和行政团队用得比工程团队还多，因为它解决了面对空白对话框无从下手的问题。五月重组之后，原本要经过三个团队的邮件流程变成了一个工具：产品经理描述人群、写邮件，经理点一下批准即可。至于 token 预算，他说\"让人来决定每个任务该用哪个模型，其实挺傻的\"。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "security",
+        "agents",
+        "cloudflare",
+        "payments"
+      ]
+    }
+  ]
+}
