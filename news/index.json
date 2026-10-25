@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-24T06:12:06Z",
+  "generatedAt": "2026-10-25T06:23:41Z",
   "digests": [
+    {
+      "date": "2026-10-25",
+      "title": "Quiet day: Block's Dessa voice model",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Block unveils Dessa, a full-duplex speech-to-speech model that runs locally",
+        "OpenAI will stop training models on the live internet, citing safety risks"
+      ]
+    },
     {
       "date": "2026-10-24",
       "title": "Quiet day: Anthropic donates Agent Skills, DeepSeek/MiniMax go global",
