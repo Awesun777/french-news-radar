@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-24T06:30:31Z",
+  "generatedAt": "2026-10-25T06:29:08Z",
   "digests": [
+    {
+      "date": "2026-10-25",
+      "itemCount": 15,
+      "companies": [
+        "Barclays",
+        "Citi",
+        "Deutsche Bank",
+        "Nomura",
+        "Raymond James"
+      ]
+    },
     {
       "date": "2026-10-24",
       "itemCount": 22,
