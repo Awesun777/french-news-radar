@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-10-25T06:29:08Z",
+  "generatedAt": "2026-10-26T06:31:32Z",
   "digests": [
+    {
+      "date": "2026-10-26",
+      "itemCount": 3,
+      "companies": [
+        "Citi",
+        "Scotiabank"
+      ]
+    },
     {
       "date": "2026-10-25",
       "itemCount": 15,

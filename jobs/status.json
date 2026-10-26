@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-10-25T06:29:17Z",
+  "lastRunAt": "2026-10-26T06:31:32Z",
   "outcome": "new-postings",
-  "newCount": 15,
-  "detail": "15 new postings (Barclays, Citi, Deutsche Bank, Nomura, Raymond James); unreachable: Scotiabank, BNPP, Ubs, Dc advisory, Bda partners",
-  "dayFile": "2026-10-25",
+  "newCount": 3,
+  "detail": "3 new postings (Citi, Scotiabank); unreachable: BNPP, Ubs, Bda partners (Scotiabank only partially fetched)",
+  "dayFile": "2026-10-26",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
@@ -17,10 +17,10 @@
     "Citi": "ok",
     "Nomura": "ok",
     "Macquarie": "ok",
-    "Scotiabank": "unreachable",
+    "Dc advisory": "ok",
+    "Scotiabank": "ok",
     "BNPP": "unreachable",
     "Ubs": "unreachable",
-    "Dc advisory": "unreachable",
     "Bda partners": "unreachable"
   }
 }

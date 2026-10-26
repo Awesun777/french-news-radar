@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T06:31:32Z",
+  "items": [
+    {
+      "id": "citi-1",
+      "company": "Citi",
+      "title": "IT Business Analyst, Fraud Risk Technology",
+      "url": "https://jobs.citi.com/job/irving/it-business-analyst-fraud-risk-technology/287/102348293712",
+      "location": "Irving",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "citi-2",
+      "company": "Citi",
+      "title": "Business Analytics Senior Analyst - Assistant Vice President",
+      "url": "https://jobs.citi.com/job/jacksonville/business-analytics-senior-analyst-assistant-vice-president/287/102348293504",
+      "location": "Jacksonville",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-3",
+      "company": "Scotiabank",
+      "title": "Analyst, Fixed Income Middle Office - MBS Allocations",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Analyst%2C-Fixed-Income-Middle-Office-MBS-Allocations-NY-10281/601647917/",
+      "location": "New York City, NY",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    }
+  ]
+}
