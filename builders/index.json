@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-25T06:24:36Z",
+  "generatedAt": "2026-10-26T06:24:44Z",
   "digests": [
+    {
+      "date": "2026-10-26",
+      "title": "Almeida's Jev: decisions over text; Ryo Lu on losing the struggle; Rauch on minimum viable English",
+      "itemCount": 4,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Diogo Almeida (RLHF co-inventor, TypeSafe CEO): chat models are 95% Einstein, 5% Mr. Bean; Jev returns thresholdable scores instead of prose",
+        "Ryo Lu fears AI removes the struggle, and the human collaboration, that teaches us",
+        "Rauch: calibrating how much to guide AI is the #0 skill he hires for"
+      ]
+    },
     {
       "date": "2026-10-25",
       "title": "Thariq leaves Anthropic; Rauch on agent Ouija attacks; Cloudflare's Knecht on weekly Log4j-scale bugs",

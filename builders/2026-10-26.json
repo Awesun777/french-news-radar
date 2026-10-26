@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "id": "ryolu-struggle-together",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Designed Cursor, Notion, Stripe; built startups",
+      "summary": "Ryo Lu worries that AI removes the difficulty before we understand what it was teaching us: we ask, something appears, and we never learn the questions we should have asked. His sharper fear is social. An always-patient agent makes it easier to skip the discomfort of working with people, and that is where friendships begin. He wants tools that send people toward each other, like a jazz band, instead of leaving each of us with a private agent in \"the silent static of the server farm.\"",
+      "summaryZh": "Ryo Lu担心AI在我们理解困难的意义之前就把困难拿走了：我们提问、结果出现、然后继续前进，却从未学会本该问的问题。他更深的忧虑在人际层面：永远耐心的智能体让人更容易回避与他人共事的不适，而友谊正是从那里开始的。他希望工具能让人们更靠近彼此、像爵士乐队一样即兴合作，而不是让每个人守着自己的智能体，沉入“服务器机房的寂静噪音”。",
+      "url": "https://x.com/ryolu_/status/2114187405251219954",
+      "tags": [
+        "ai-and-work",
+        "design",
+        "human-collaboration"
+      ]
+    },
+    {
+      "id": "rauch-minimum-english",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Rauch notes that coding models favor a detective's vocabulary (\"gate, evidence, culprit, durable, provenance, contract\"), because most engineering is debugging and forensics on existing systems. He wonders what the minimum viable English for productive work is: ASD-STE100 Simplified Technical English has about 900 approved words, and he suspects we need far fewer. Separately, he says the #0 skill he hires for is calibrating guidance, since you can over-guide an AI that knows better and under-guide one that goes off-track.",
+      "summaryZh": "Rauch观察到编码模型偏爱“侦探式”词汇（gate、evidence、culprit、durable、provenance、contract），因为大多数工程工作就是对现有系统做调试与取证。他好奇高效工作所需的“最小可用英语”有多小：ASD-STE100简化技术英语约有900个核准词，他怀疑需要的更少。另外他表示，自己招人最看重的第0项技能是把握引导的分寸：对比你更聪明的AI引导过度，或对容易跑偏的AI引导不足，都会出问题。",
+      "url": "https://x.com/rauchg/status/2114164830403989880",
+      "tags": [
+        "agents",
+        "prompting",
+        "hiring"
+      ]
+    },
+    {
+      "id": "adityaag-irl-time",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner at SPC, co-founder of Bevel Health",
+      "summary": "Agarwal says being \"max AI pilled\" has made him treasure in-person time with family and friends more. His advice: put on some techno, dance with friends, take the kids to the park, and let the agents cook (or not). \"But dear god, celebrate humans.\"",
+      "summaryZh": "Agarwal说，彻底拥抱AI之后，他反而更珍惜与家人朋友面对面相处的时间。他的建议是：放点电子乐跟朋友跳舞，带孩子去公园，让智能体自己去忙（或不忙）。“但天哪，一定要庆祝人类。”",
+      "url": "https://x.com/adityaag/status/2114135237806760097",
+      "tags": [
+        "culture",
+        "ai-and-work"
+      ]
+    },
+    {
+      "id": "mad-podcast-jev-almeida",
+      "kind": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "title": "Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)",
+      "takeaway": "Diogo Almeida argues that most business automation needs fast, controllable decisions rather than fluent text, so Jev returns probabilities that code can threshold and test, instead of prose that has to be prompted and trusted.",
+      "takeawayZh": "Diogo Almeida认为，大多数企业自动化需要的是快速、可控的决策而非流畅的文本，因此Jev输出可由代码设定阈值并测试的概率，而不是需要靠提示词和信任的长篇文字。",
+      "summary": "Diogo Almeida, a co-inventor of RLHF at OpenAI and now CEO of TypeSafe, came out of two years in stealth with Jev, a new kind of model that went viral (a 40M-view launch video) and just raised an $870M Series A at a $7.5B valuation. His thesis: today's chat models are tuned to please people, which breeds sycophancy, over-refusal, and \"Einstein 95% of the time, Mr. Bean 5%\" unreliability. \"95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you gonna automate anything?\"\n\nHis alternative is to stop programming behavior in a giant natural-language system prompt, where error rates climb as complexity does, and instead build many small classifiers, \"smart if statements\" such as \"is this inbound?\" or \"is this urgent?\". Each returns a score (angry: 0.85) and the developer picks the threshold. Disney and Character AI want very different refusal thresholds, and a binary yes/no hides that choice. Because every check is separate, you can measure it, add misses to an eval, and be sure no rule is forgotten. \"Code is kind of like the roller coaster tracks. You don't go off the rails.\"\n\nThe bigger bet is composability: reliable building blocks stacked into higher-level boxes, the way software scaled from logic gates. He calls today's AI \"incredibly noncomposable\" because it \"plays nicely with nothing except other AI.\" He also rejects the \"just a classifier\" dismissal, arguing classification is AI-complete and Jev is \"just a different shape of intelligence.\" His forecast is that the future will be about intelligence per dollar, not just per second.",
+      "summaryZh": "Diogo Almeida是OpenAI时期RLHF的共同发明者，现任TypeSafe CEO。他的团队潜伏两年后推出新型模型Jev，发布视频播放量达4000万，并刚完成8.7亿美元A轮融资，估值75亿美元。他的核心论点：当今的聊天模型被调教成讨好人类，由此产生谄媚、过度拒答，以及“95%是爱因斯坦、5%是憨豆先生”的不可靠性。“95%爱因斯坦，5%憨豆先生。如果它不告诉你什么时候是憨豆先生，你怎么实现自动化？”\n\n他的替代方案是不再用一大段自然语言系统提示来编程行为（复杂度越高，错误率越高），而是构建许多小型分类器，也就是“智能if语句”，例如“这是外部来信吗？”“这紧急吗？”。每个分类器返回一个分数（如愤怒程度0.85），由开发者自行设定阈值。迪士尼与Character AI对拒答的容忍度截然不同，二元的是/否会掩盖这种选择。由于每项检查彼此独立，你可以衡量它、把漏判加入评测，并确保不会遗漏任何规则。“代码就像过山车的轨道，你不会脱轨。”\n\n更大的赌注是可组合性：把可靠的积木堆叠成更高层的“盒子”，就像软件从逻辑门发展起来那样。他称当今的AI“极难组合”，因为它“除了其他AI，跟什么都合不来”。他也反驳“不过是个分类器”的说法，认为分类是AI完备问题，Jev只是“另一种形态的智能”。他预测未来的关键将是每美元的智能，而不仅仅是每秒的智能。",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "tags": [
+        "jev",
+        "rlhf",
+        "classifiers",
+        "reliability"
+      ]
+    }
+  ]
+}
