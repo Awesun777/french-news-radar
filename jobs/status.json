@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-10-26T06:31:39Z",
+  "lastRunAt": "2026-10-27T06:29:22Z",
   "outcome": "new-postings",
-  "newCount": 3,
-  "detail": "3 new postings (Citi, Scotiabank); unreachable: BNPP, Ubs, Bda partners (Scotiabank only partially fetched)",
-  "dayFile": "2026-10-26",
+  "newCount": 7,
+  "detail": "7 new postings (JP Morgan, Nomura, Scotiabank, Stepstone); unreachable: BNPP, Ubs, Bda partners",
+  "dayFile": "2026-10-27",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
