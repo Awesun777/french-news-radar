@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-26T06:24:44Z",
+  "generatedAt": "2026-10-27T06:24:15Z",
   "digests": [
+    {
+      "date": "2026-10-27",
+      "title": "Levie on agent swarms for security; Yang on cloning video styles with Claude; Zhang on daily video over big launches",
+      "itemCount": 3,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Aaron Levie (Box CEO): long-running agents make security tractable, but enterprises must fix data and infra basics first",
+        "Peter Yang: upload a reference clip in HyperFrames and prompt Claude to restyle it",
+        "Zara Zhang: a daily video system beats one expensive launch video"
+      ]
+    },
     {
       "date": "2026-10-26",
       "title": "Almeida's Jev: decisions over text; Ryo Lu on losing the struggle; Rauch on minimum viable English",

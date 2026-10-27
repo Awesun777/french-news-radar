@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "id": "levie-agents-security",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Enterprise security is a mess of fragmented data, sprawling infrastructure and over-broad privileges, and most large companies can barely keep up, let alone startups. But long-running agents and capable computer use, which only arrived in the past few months, mean agent swarms can fan out across security tools, simulate attack variations, read logs and score data for risk. Levie sees that as a reason for optimism on the offense/defense balance, provided companies first do the hard work of getting data and infrastructure basics right.",
+      "summaryZh": "大型企业的安全现状很混乱：数据碎片化、基础设施庞杂、权限开得过宽，大公司都勉强应付，创业公司和非科技行业就更难了。不过长时运行的 agent 和足够好的 computer use 是最近几个月才成熟的，agent 集群可以同时调用各种安全工具、模拟多种攻击变体、读日志、评估数据风险。Levie 认为这是对攻防平衡保持乐观的理由，前提是企业先把数据和基础设施的基本功做好。",
+      "url": "https://x.com/levie/status/2114391265655816315",
+      "tags": [
+        "security",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "yang-claude-video-style",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "A practical recipe for cloning a short-form video style with Claude: in HyperFrames studio, upload or pick a reference clip, then describe in the prompt what to change, such as a different font or colors. As HyperFrames' Jake Moran puts it, the result is structurally the same idea, and you can see where the inspiration comes from. Yang links a full AI video editing tutorial.",
+      "summaryZh": "用 Claude 复刻短视频风格的实用做法：在 HyperFrames studio 里上传或选一段参考视频，再用 prompt 描述想改的地方，比如换字体或配色。HyperFrames 的 Jake Moran 说，结果在结构上还是同一个思路，你也能看出灵感来源。Peter Yang 还附上了完整的 AI 视频剪辑教程。",
+      "url": "https://x.com/petergyang/status/2114507378532229214",
+      "tags": [
+        "claude",
+        "video",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "zhang-daily-video",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "Most people overestimate the value of one huge launch and underestimate showing up on the timeline every day. Her advice: build a system that produces a video a day rather than spending tens of thousands of dollars on a single launch video.",
+      "summaryZh": "大多数人高估了一次盛大发布的价值，低估了每天在时间线上持续出现的力量。她的建议是建立一套每天产出一条视频的系统，而不是花几万美元只做一条发布视频。",
+      "url": "https://x.com/zarazhangrui/status/2114255477907570865",
+      "tags": [
+        "distribution",
+        "content",
+        "startups"
+      ]
+    }
+  ]
+}
