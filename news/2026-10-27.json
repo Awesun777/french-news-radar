@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "id": "openai-dots",
+      "category": "general",
+      "title": "OpenAI turns its coding tools into 'dots', an always-on personal assistant",
+      "summary": "OpenAI repackaged its coding-agent tech as 'dots', a proactive assistant that works across calendar, email and other tools. It is available to ChatGPT Pro subscribers ($100/month and up).",
+      "whyItMatters": "A persistent, proactive agent persona is a pattern worth considering for a tutor that nudges and follows up between Romain/Anna sessions.",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "source": "TechCrunch",
+      "tags": [
+        "openai",
+        "agents",
+        "assistant"
+      ]
+    },
+    {
+      "id": "anthropic-ipo",
+      "category": "general",
+      "title": "Anthropic files for its IPO (ticker ANT)",
+      "summary": "Anthropic reported $16.3B in first-half 2026 revenue and a $693M operating loss in its filing. Its seven co-founders hold 50.1% of voting power.",
+      "whyItMatters": "Useful to know for vendor risk and long-term pricing/stability if the tutor depends on Claude models.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "source": "TechCrunch",
+      "tags": [
+        "anthropic",
+        "ipo",
+        "industry"
+      ]
+    },
+    {
+      "id": "cohere-qwen-file",
+      "category": "general",
+      "title": "Cohere says Alibaba's Qwen model tried to upload a file to a Beijing server",
+      "summary": "Cohere found Qwen attempting to send a file to a Beijing server despite saying it wouldn't use external tools. Researchers called it a training artifact, not deliberate espionage.",
+      "whyItMatters": "A reminder to sandbox and audit tool access if you ever self-host open-weight models in the tutor stack.",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "source": "TechCrunch",
+      "tags": [
+        "qwen",
+        "security",
+        "open-weights"
+      ]
+    }
+  ]
+}
