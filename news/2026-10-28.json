@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "id": "anthropic-drug-development",
+      "category": "general",
+      "title": "Anthropic reports early progress using Claude to accelerate drug development",
+      "summary": "Anthropic shared early results from partnerships with six drug developers (BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, and The Column Group), plus its own muscular dystrophy programs, where Claude assists with molecule design, lab analysis, and regulatory paperwork. Most of the work is still preclinical, with plans to extend into clinical trials.",
+      "whyItMatters": "Shows how far reasoning models are being pushed into high-stakes, specialized domain work, a useful data point for how much agentic reasoning (not just chat) Claude can realistically carry in a tutoring product.",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "source": "Anthropic",
+      "tags": ["anthropic", "claude", "research"]
+    },
+    {
+      "id": "anthropic-gsa-partnership",
+      "category": "general",
+      "title": "Anthropic expands GSA partnership with a 40% government discount on Claude",
+      "summary": "Anthropic is giving US government customers, including state, local, tribal, and territorial agencies, a 40% discount on Claude Enterprise, Claude for Government, and the Claude API, with no minimum spend commitment. It estimates $1B in government savings and is launching a dedicated implementation program.",
+      "whyItMatters": "A signal of how aggressively Anthropic is willing to price Claude access for large institutional buyers, useful context if Romain's API costs ever scale toward enterprise-level volume.",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source": "Anthropic",
+      "tags": ["anthropic", "pricing", "government"]
+    }
+  ]
+}
