@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "id": "levie-agents-enterprise-workflows",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Agents are deployed in under 1% of enterprise workflows today, mostly single-pass LLM calls rather than real automation, and Levie says the bottleneck was AI capability more than slow enterprise adoption. With computer use, long-running agents and better harnesses, self-improving systems can now tune a workflow over many runs, and agent swarms let a company throw any amount of compute at a problem. The real win comes when organizations re-engineer workflows around agents instead of prompting them task by task, especially in finance, life sciences and healthcare.",
+      "summaryZh": "Levie 说，目前企业工作流里部署了 agent 的可能不到 1%，大多只是单次调用 LLM 做个判断，谈不上真正的自动化，而这主要是因为过去 AI 能力还不够，而不只是企业采用速度慢。现在有了 computer use、长时运行的 agent 和更好的 harness，系统可以在大量实例上不断自我改进，agent 集群还能让公司想投多少算力就投多少。真正的突破不在于用户逐个任务去 prompt agent，而是企业围绕 agent 重新设计工作流，金融、生命科学和医疗这些信息密集的领域影响最大。",
+      "url": "https://x.com/levie/status/2115305369799110905",
+      "tags": [
+        "agents",
+        "enterprise",
+        "automation"
+      ],
+      "kind": "x"
+    },
+    {
+      "id": "masad-underwrite-discovery",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "If he were investing in frontier AI, Masad says he would underwrite it mostly on new scientific discovery and applications like medicine, because coding and most knowledge work are quickly being saturated by sub-frontier models.",
+      "summaryZh": "Masad 说，如果让他投资前沿 AI，他主要会看新发现和相关应用，比如医疗，因为编程和大部分知识工作很快就会被次前沿模型吃饱，不再需要最强的模型。",
+      "url": "https://x.com/amasad/status/2115207856496480261",
+      "tags": [
+        "investing",
+        "frontier-ai",
+        "medicine"
+      ],
+      "kind": "x"
+    },
+    {
+      "id": "thariq-open-source-agents",
+      "author": "Thariq",
+      "role": "formerly Claude Code at Anthropic",
+      "summary": "Thariq argues open source needs a new distribution model: people should be able to modify software through their own agents while still getting upstream changes merged in automatically. Coding agents can do this today, but they won't do it on their own. Separately, he is prototyping an AI-native macOS dock with custom modes like writing and building, where an agent can add modes and classify his activity and notifications in real time. He calls it an HCI experiment with many edge cases and is not sharing it yet.",
+      "summaryZh": "Thariq 认为开源软件需要一种新的分发方式：用户可以通过自己的 agent 修改软件，同时上游的更新还能自动合并进来。coding agent 现在已经有这个能力，只是不会自己主动去做。另外他在做一个 AI-native 的 macOS dock 个人项目，有写作、开发等自定义模式，agent 可以新增模式，并实时分类他的活动和通知。他称这是一次 HCI 实验，边界情况还很多，暂时不公开。",
+      "url": "https://x.com/trq212/status/2115188992861970693",
+      "tags": [
+        "open-source",
+        "agents",
+        "HCI"
+      ],
+      "kind": "x"
+    },
+    {
+      "id": "shipper-video-games-knowledge-work",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Shipper predicts video creation and game making will become widely distributed foundations of knowledge work, the way documents and decks are today.",
+      "summaryZh": "Shipper 预测，视频制作和游戏开发会像今天的文档和幻灯片一样，成为知识工作中人人都会用的基础能力。",
+      "url": "https://x.com/danshipper/status/2115093098816745910",
+      "tags": [
+        "video",
+        "games",
+        "knowledge-work"
+      ],
+      "kind": "x"
+    },
+    {
+      "id": "tan-capy-software-factory",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator; creator of GStack & GBrain",
+      "summary": "Tan says Capy's software factory has reshuffled his GitHub contribution graph, with 10 to 20 subagents running at all times across GStack and GBrain and PRs coming in hot and heavy. He is also working to slim down GStack to cut token usage and task latency.",
+      "summaryZh": "Tan 说 Capy 的 software factory 彻底改变了他的 GitHub 贡献图：GStack 和 GBrain 上时刻有 10 到 20 个 subagent 在跑，PR 一个接一个。他同时也在精简 GStack，降低 token 消耗和任务延迟。",
+      "url": "https://x.com/garrytan/status/2115193524152860771",
+      "tags": [
+        "subagents",
+        "software-factory",
+        "GStack"
+      ],
+      "kind": "x"
+    },
+    {
+      "id": "turck-cofounders",
+      "author": "Matt Turck",
+      "role": "VC at FirstMark",
+      "summary": "Conventional startup advice says too many co-founders means dilution, friction and paralysis. Turck points out that Anthropic has 7 co-founders, OpenAI 11 and Databricks 7. Nikunj Kothari of FPV Ventures makes the same point: the best startups are outliers, and there is no single right way to build one.",
+      "summaryZh": "常规的创业建议说联合创始人太多会稀释股权、引发摩擦、导致决策拖沓。Turck 指出 Anthropic 有 7 位联合创始人，OpenAI 有 11 位，Databricks 有 7 位。FPV Ventures 的 Nikunj Kothari 也有同样的观察：最好的创业公司都是异类，创业没有唯一正确的方式。",
+      "url": "https://x.com/mattturck/status/2115132327131328806",
+      "tags": [
+        "startups",
+        "cofounders"
+      ],
+      "kind": "x"
+    }
+  ]
+}

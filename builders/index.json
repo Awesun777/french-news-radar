@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-10-27T06:24:15Z",
+  "generatedAt": "2026-10-28T06:38:33Z",
   "digests": [
+    {
+      "date": "2026-10-28",
+      "title": "Levie on agents in under 1% of enterprise workflows; Masad on underwriting frontier AI; Thariq on agent-modifiable open source",
+      "itemCount": 6,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Aaron Levie (Box CEO): agents touch <1% of enterprise workflows, but long-running agents and swarms change that",
+        "Amjad Masad (Replit CEO): frontier AI is best underwritten on scientific discovery, since coding is saturating",
+        "Thariq: open source needs a distribution model where agent-made modifications still merge upstream"
+      ]
+    },
     {
       "date": "2026-10-27",
       "title": "Levie on agent swarms for security; Yang on cloning video styles with Claude; Zhang on daily video over big launches",
