@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-28T06:38:33Z",
+  "generatedAt": "2026-10-29T06:55:40Z",
   "digests": [
+    {
+      "date": "2026-10-29",
+      "title": "Gemini 4 Carbon and a Google comeback; Levie on 1,000X token demand; Fred Graver on making good art with AI",
+      "itemCount": 11,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Josh Woodward (Google): Gemini 4 Carbon lands two weeks after Argon, rolling out to cyber defenders first",
+        "Aaron Levie (Box CEO): agents will consume 1,000X more tokens, pushing both closed and open-weights models",
+        "Fred Graver (AI & I): empty out what is uniquely yours before opening AI, or it goes to the mean"
+      ]
+    },
     {
       "date": "2026-10-28",
       "title": "Levie on agents in under 1% of enterprise workflows; Masad on underwriting frontier AI; Thariq on agent-modifiable open source",

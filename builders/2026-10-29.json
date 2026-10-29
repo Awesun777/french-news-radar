@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "id": "woodward-gemini-4-carbon",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google Labs, Gemini App, Google AI Studio",
+      "summary": "Google VP Josh Woodward says Gemini 4 Carbon arrives just two weeks after Gemini 4 Argon, with \"good internal vibes\" on the model. It rolls out to cyber defenders first, then more widely. He also announced that Gemini can now connect to Strava and turn years of workout logs into a personalized coaching plan.",
+      "summaryZh": "Google VP Josh Woodward 表示，Gemini 4 Carbon 在 Gemini 4 Argon 发布仅两周后就来了，内部对这个模型的评价很好。它会先开放给 cyber defenders，之后再扩大范围。他还宣布 Gemini 现在可以连接 Strava，把多年的运动记录变成个性化的训练计划。",
+      "url": "https://x.com/joshwoodward/status/2115495943948902517",
+      "tags": [
+        "gemini",
+        "google",
+        "models"
+      ]
+    },
+    {
+      "id": "swyx-gemini-comeback",
+      "kind": "x",
+      "author": "Swyx",
+      "summary": "Swyx sees Gemini hitting #1 on AAv5 as the start of \"comeback season\" for Google, joining Meta and Grok in being cool again, and says it pulled him back into Antigravity for the first time in a long while. His broader point: there are now roughly 2x more frontier labs than a year ago, so the field's \"model neurodiversity\" keeps growing.",
+      "summaryZh": "Swyx 认为 Gemini 登顶 AAv5 标志着 Google 的“回归季”，和 Meta、Grok 一样重新变酷了，这也让他久违地重新打开了 Antigravity。他的更大判断是：现在的前沿实验室数量大约是一年前的两倍，模型的“神经多样性”还在增加。",
+      "url": "https://x.com/swyx/status/2115624308567658713",
+      "tags": [
+        "gemini",
+        "frontier-labs",
+        "antigravity"
+      ]
+    },
+    {
+      "id": "masad-vibench-2",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit CEO Amjad Masad reports that ViBench 2.0, a prompt-to-app benchmark, just dropped and GPT 6.1 Sol takes the lead.",
+      "summaryZh": "Replit CEO Amjad Masad 称，从提示词直接生成应用的基准测试 ViBench 2.0 刚刚发布，GPT 6.1 Sol 位居第一。",
+      "url": "https://x.com/amasad/status/2115565072734888447",
+      "tags": [
+        "benchmarks",
+        "replit",
+        "gpt"
+      ]
+    },
+    {
+      "id": "cherny-utah-claude-code",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "role": "Claude, Anthropic",
+      "summary": "Boris Cherny highlights a Utah state pilot: 34 developers across 10 agencies got Claude Code, 80% had a working environment within 30 minutes, and 71% reported saving 20+ hours over the four-week pilot.",
+      "summaryZh": "Boris Cherny 分享了犹他州的试点：10 个州政府机构的 34 名开发者使用 Claude Code，80% 在 30 分钟内就搭好了可用环境，71% 表示在四周试点中节省了 20 小时以上。",
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "tags": [
+        "claude-code",
+        "government",
+        "adoption"
+      ]
+    },
+    {
+      "id": "levie-1000x-tokens",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box CEO Aaron Levie predicts agents will consume 1,000X more tokens than we do today, because they will run inside workflows, process all our data, build nearly all software and secure enterprises. To serve that scale he argues for pushing closed models forward while also making open-weights models more capable, more secure and more efficient, and he points to Suhail's Particle as one bet on this.",
+      "summaryZh": "Box CEO Aaron Levie 预测，agent 消耗的 token 将是我们今天的 1000 倍，因为它们会跑在各种工作流里，处理所有数据，写出几乎所有软件，并保护企业安全。为了支撑这个规模，他主张一边继续推进闭源模型，一边提升开源权重模型的能力、安全性和效率，并提到 Suhail 的 Particle 是这方面的一个尝试。",
+      "url": "https://x.com/levie/status/2115516370695987435",
+      "tags": [
+        "agents",
+        "tokens",
+        "open-weights"
+      ]
+    },
+    {
+      "id": "rauch-agentic-ci",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Vercel CEO Guillermo Rauch says CI is the real AI coding bottleneck and Vercel attacks it three ways: fast, stable infrastructure (20 clusters running millions of microVMs a day), Turborepo to skip and cache prior work, and agentic CI. The new `vercel ci` CLI lets agents inspect, abort, trigger and replay CI, with more hooks coming so CI can capture an engineer's judgment, like whether a test is even worth running. Separately, he describes Vercel's new model alias as \"DNS for models\": it resolves to a model, which lets teams steer traffic, avoid being stuck on old versions and cut cost.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 认为 CI 才是 AI 编程真正的瓶颈，Vercel 从三个方向解决：快而稳的基础设施（20 个集群，每天运行数百万个 microVM）、用 Turborepo 跳过并缓存已完成的工作，以及 agentic CI。新的 `vercel ci` CLI 让 agent 可以查看、中止、触发和重放 CI，之后还会加入更多 hook，让 CI 具备工程师的判断力，比如“这些测试到底值不值得跑”。另外，他把 Vercel 新推出的模型别名比作“模型的 DNS”：别名会解析到具体模型，团队可以调配流量、避免卡在旧版本上，还能省钱。",
+      "url": "https://x.com/rauchg/status/2115539426684408300",
+      "tags": [
+        "vercel",
+        "ci",
+        "agents"
+      ]
+    },
+    {
+      "id": "thariq-technical-sad",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "formerly Claude Code, Anthropic",
+      "summary": "Thariq notes a weird split: technical people are sad because they think their skills are now useless, while non-technical people desperately wish they were more technical so they could use agents better. He extends it to creative fields, wishing he could sketch animation ideas and character concepts for his agent to flesh out, since he lacks the language to describe them.",
+      "summaryZh": "Thariq 观察到一个奇怪的分化：技术人员很沮丧，觉得自己的技能没用了；非技术人员则迫切希望自己更懂技术，好把 agent 用得更好。他把这个现象延伸到创意领域，说自己很希望能画出动画想法和角色草图交给 agent 去完善，因为他缺少描述这些东西的语言。",
+      "url": "https://x.com/trq212/status/2115544056038350960",
+      "tags": [
+        "agents",
+        "skills",
+        "creativity"
+      ]
+    },
+    {
+      "id": "yang-world-models",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang says world models are in the GPT-3.5 era, impressive but not there yet, like the early Will Smith spaghetti videos. Once they reach GPT-5 or GPT-6 level he expects big effects: a director could generate a full dragon-battle scene from one frame, and games could look and sound great though gameplay loops and progression still need work. Paired with good coding models, he thinks making your own game could become as fun as playing a mass-market one. He ties it to a Genie 4 tutorial.",
+      "summaryZh": "Peter Yang 认为 world model 还处在 GPT-3.5 时代，很惊艳但还不够好，就像早期威尔·史密斯吃意面的视频。等它们到了 GPT-5 或 GPT-6 水平，影响会很大：导演只要一帧画面就能生成整场龙之战，游戏的画面和声音会很出色，不过核心玩法循环和成长系统仍需打磨。再配合好用的 coding model，他认为自己做游戏可能会和玩大众游戏一样有趣。他还附上了 Genie 4 的教程。",
+      "url": "https://x.com/petergyang/status/2115556794076741647",
+      "tags": [
+        "world-models",
+        "genie-4",
+        "games"
+      ]
+    },
+    {
+      "id": "ryolu-augmenting-intellect",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Designed Cursor, Notion, Stripe",
+      "summary": "Ryo Lu pushes back on the \"software factory\" story: more agents, more output from fewer people, and less attention to the person it is for. Drawing on Engelbart's 1962 \"augmenting human intellect\" and Licklider's human-computer symbiosis, he argues the real test of a system is whether it helps you discover what you mean, not just whether it runs faster as a black box.",
+      "summaryZh": "Ryo Lu 反对“软件工厂”式的叙事：更多 agent、更少人产出更多东西，却越来越少关注这一切究竟为谁服务。他引用 Engelbart 1962 年提出的“增强人类智力”和 Licklider 的人机共生，认为衡量一个系统的真正标准是，它能否帮你发现自己想表达什么，而不只是作为黑盒跑得更快。",
+      "url": "https://x.com/ryolu_/status/2115683228027912634",
+      "tags": [
+        "design",
+        "human-ai",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "steipete-openclaw-offline",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "summary": "Peter Steinberger shipped an offline-capable OpenClaw web UI with smarter websocket compression and reconnect logic, and says he got plenty of work done on a flight to Vienna despite spotty airplane wifi. In another post he notes how easy it is for agents to spot bugs that humans miss.",
+      "summaryZh": "Peter Steinberger 发布了支持离线使用的 OpenClaw web UI，并改进了 websocket 的压缩和重连逻辑。他说自己在飞往维也纳的航班上，即使机上 wifi 很不稳定，也完成了不少工作。在另一条帖子里，他提到 agent 发现 bug 比人类容易得多。",
+      "url": "https://x.com/steipete/status/2115397368229060636",
+      "tags": [
+        "openclaw",
+        "tools",
+        "offline"
+      ]
+    },
+    {
+      "id": "every-fred-graver-ai-art",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "Can You Use AI To Make Good Art? — With Fred Graver",
+      "takeaway": "AI makes a great writers' room and production partner, but only if you first empty out what is uniquely yours, because asked what to say, it \"goes to the mean\".",
+      "takeawayZh": "AI 可以成为出色的编剧室和制作搭档，但前提是你先把自己独有的东西倒空到纸上，因为如果让它告诉你该说什么，它只会“回归平均”。",
+      "summary": "Fred Graver is a four-time Emmy-winning filmmaker whose career ran from National Lampoon and Letterman to Disney Imagineering, MTV and VH1, head of TV at early Twitter, and conversation design at Microsoft. He now builds a production workflow around AI, and his claim is that every stage should start with a human, not a prompt.\n\nHis three-part loop is ideation (producing the script), production (everything from preproduction to editing) and reaching the audience. Marketing joins at the start, not the end: build a proxy trailer for an idea and see if you can sell tickets before it exists. His method for writers is to write a \"who I am\" document and a \"what I'm working on\" document, then use AI as a virtual writers' room, even a simulated focus group of eight people including the negative one. None of it is AI writing for you.\n\nThe counterintuitive step comes first. Spend a day or two dumping everything you know onto the page by hand or by voice, because \"you will never have that opportunity again once you open AI.\" Without that compass you just follow the model, and a model asked what you should say \"goes to the mean.\" It can suggest a series idea for a 55+ audience, but not the personal quirk that makes a character endearing, like the improvised voice behind Homer Simpson.\n\nHe also sees a social upside: when a bad idea is on the table, everyone can blame the AI, which removes friction that usually turns personal in show business. His blunt caveat is that the first two parts of the loop are falling into place, while reaching an audience is still the hard part, and the golden-age development deals \"ain't coming back.\"",
+      "summaryZh": "Fred Graver 是四届 Emmy 奖得主，职业生涯从 National Lampoon 和 Letterman 节目起步，历经 Disney Imagineering、MTV 和 VH1，在早期 Twitter 担任电视业务负责人，后来又在 Microsoft 做对话设计。如今他围绕 AI 搭建制作流程，核心主张是每个环节都应该从人开始，而不是从 prompt 开始。\n\n他的三段式循环是：构思（产出剧本）、制作（从前期筹备到剪辑）、触达观众。营销不是最后才加入，而是一开始就参与：先为一个创意做一个“代理预告片”，看看在作品还不存在时能不能卖出票。他给写作者的方法是写一份“我是谁”的文档和一份“我在做什么”的文档，然后把 AI 当作虚拟编剧室，甚至模拟一个八人焦点小组，其中包括那个爱唱反调的人。整个过程不是让 AI 替你写。\n\n最反直觉的一步放在最前面：花一两天，用手写或语音把你知道的一切倒在纸上，因为“一旦打开 AI，你就再也没有这个机会了”。没有这个指南针，你只会跟着模型走，而让模型告诉你该说什么，它只会“回归平均”。它可以给 55 岁以上受众提出一个剧集创意，却给不出让角色可爱的个人怪癖，比如 Homer Simpson 配音演员那句即兴发挥。\n\n他还看到一个社交上的好处：遇到不靠谱的想法时，大家都可以怪 AI，这样就减少了娱乐圈里常常演变成人身攻击的摩擦。他也直言不讳：循环的前两部分正在到位，触达观众仍然最难，而黄金年代的开发合约“已经回不来了”。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": [
+        "creativity",
+        "film",
+        "writing",
+        "ai-art"
+      ]
+    }
+  ]
+}
