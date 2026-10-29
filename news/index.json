@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-28T06:14:44Z",
+  "generatedAt": "2026-10-29T06:54:39Z",
   "digests": [
+    {
+      "date": "2026-10-29",
+      "title": "Gemini 4 Carbon, Anthropic spend tools",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Google unveils Gemini 4 Carbon, its top model, limited to cyber defenders for now",
+        "Anthropic launches tools showing enterprises what their Claude spend is buying",
+        "Microsoft's 10-Q shows ~$10B quarterly revenue from OpenAI arrangements"
+      ]
+    },
     {
       "date": "2026-10-28",
       "title": "Quiet day: Anthropic's drug-development work, GSA discount",

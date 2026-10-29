@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "id": "gemini-4-carbon",
+      "category": "models",
+      "title": "Google unveils Gemini 4 Carbon, its top model, limited to cyber defenders for now",
+      "summary": "Google launched Gemini 4 Carbon, which it pitches as its most capable model for cybersecurity and long coding tasks. Access starts with a small group of cyber defenders via the Fairwind Program; introductory pricing is $2/$10 per million input/output tokens, rising to $4/$20.",
+      "whyItMatters": "Not usable for the tutor yet and the post says nothing about voice or French, but it sets a new price and capability ceiling to watch for when it reaches general availability.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "Google blog",
+      "tags": ["gemini", "pricing", "llm"]
+    },
+    {
+      "id": "anthropic-spend-reporting",
+      "category": "general",
+      "title": "Anthropic launches tools showing enterprises what their Claude spend is buying",
+      "summary": "New reporting shows each team's output, cost and workflow friction, with recommendations and pooled group budgets. Anthropic is using it to demonstrate ROI to large customers.",
+      "whyItMatters": "Worth knowing as a model for per-session cost and usage dashboards if the tutor ever needs to track spend per learner.",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/claude-enterprise-social-smartreports-five-beats-gray200-animated-1080x608-v032.gif?w=1024",
+      "tags": ["anthropic", "enterprise", "cost"]
+    },
+    {
+      "id": "microsoft-openai-revenue",
+      "category": "general",
+      "title": "Microsoft's 10-Q shows ~$10B quarterly revenue from OpenAI arrangements",
+      "summary": "Microsoft reported about $10B from OpenAI-related deals in the quarter ended Sept 30, nearly 11% of revenue, with $7.2B in receivables. Its OpenAI ownership stake fell to about 24%.",
+      "whyItMatters": "Shows how entangled and capital-heavy the OpenAI ecosystem is, relevant to Romain's reliance on OpenAI Realtime pricing and stability.",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source": "TechCrunch",
+      "tags": ["openai", "microsoft", "industry"]
+    }
+  ]
+}
