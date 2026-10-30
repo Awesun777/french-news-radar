@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-29T06:55:40Z",
+  "generatedAt": "2026-10-30T06:39:11Z",
   "digests": [
+    {
+      "date": "2026-10-30",
+      "title": "Levie on the widening AI gap; Thariq on agent mania; State of AI 2026 and the cyber-risk turn",
+      "itemCount": 9,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Aaron Levie (Box CEO): the gap between frontier AI users and everyone else keeps widening as progress goes vertical",
+        "Thariq: coding agents can induce a mania of busyness where nothing is really happening",
+        "MAD Podcast: Nathan Benaich says cyber risk beats extinction risk and AI building AI makes AGI 2027 plausible"
+      ]
+    },
     {
       "date": "2026-10-29",
       "title": "Gemini 4 Carbon and a Google comeback; Levie on 1,000X token demand; Fred Graver on making good art with AI",
