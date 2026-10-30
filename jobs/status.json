@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-10-29T16:38:01Z",
+  "lastRunAt": "2026-10-30T14:13:00Z",
   "outcome": "new-postings",
-  "newCount": 55,
-  "detail": "55 new postings (Citi, Dc advisory, Deutsche Bank, Houlihan Lokey, JP Morgan, Mangroup, Nomura, Pwc); unreachable: Ubs, Scotiabank, BNPP",
-  "dayFile": "2026-10-29",
+  "newCount": 2,
+  "detail": "2 new postings (Dc advisory, Pwc); unreachable: Ubs, Scotiabank, BNPP",
+  "dayFile": "2026-10-30",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
