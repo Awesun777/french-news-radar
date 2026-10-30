@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "id": "anthropic-ai-for-science-expands",
+      "category": "general",
+      "title": "Anthropic's AI for Science program expands to 20 foundations and research institutions",
+      "summary": "Anthropic widened its AI for Science program, which gives free Claude credits to researchers, to 20 new partners including the Sloan Foundation, the Simons Foundation, the Crick Institute and EMBL. The program now also backs specific projects such as the gnomAD genomics database and the Tau Ceti mathematics library.",
+      "whyItMatters": "Not voice- or French-specific, but it signals Anthropic keeps pushing Claude deeper into research workflows — worth tracking in case tooling from this program (e.g. structured data/RAG patterns) trickles into tutoring use cases.",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source": "Anthropic",
+      "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5b18c53b35c0425fda21efaf2c3bcf10761798ec-2000x1125.jpg",
+      "tags": [
+        "anthropic",
+        "research",
+        "general"
+      ]
+    }
+  ]
+}
