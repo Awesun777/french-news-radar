@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "id": "claude-ultra-plan",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Claude is an AI assistant built by @anthropicai",
+      "summary": "Anthropic is renaming its Max plans: Max 5x becomes Max and Max 20x becomes Ultra, with prices unchanged at $100 and $200 a month. The bigger change is that verified Ultra accounts lose the 5-hour usage limit, starting today with most existing subscribers. Newer accounts keep a temporary limit until verified, which Anthropic says helps prevent fraud and abuse.",
+      "summaryZh": "Anthropic 重新命名了 Max 套餐：Max 5x 改称 Max，Max 20x 改称 Ultra，价格不变，仍为每月 $100 和 $200。更大的变化是：经过验证的 Ultra 账户取消 5 小时用量限制，今天起先覆盖大部分现有订阅用户。较新的账户在验证前仍有临时限制，Anthropic 称这有助于防范欺诈和滥用。",
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "tags": [
+        "Anthropic",
+        "pricing",
+        "Claude"
+      ]
+    },
+    {
+      "id": "trq-agi-pilled-economics",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "playing WoW forever, formerly Claude Code @anthropicai",
+      "summary": "Thariq argues that almost everyone is bad at predicting how more intelligence will show up in the economy, and that the default story, 'it'll cost a lot and unemploy everyone', isn't actually very AGI-pilled. His cure for economic doomerism is to be even more AGI-pilled: bet on a well-aligned ASI that explains its work and makes each individual maximally effective, and avoid hyperstitioning the doom into reality.",
+      "summaryZh": "Thariq 认为几乎所有人都不擅长预测更强的智能会如何体现在经济中，而最常见的说法——“成本很高、会让所有人失业”——其实并不够 AGI-pilled。他给经济末日论开的药方是更加 AGI-pilled：相信一个对齐良好、能解释自己工作的 ASI，让每个人都发挥最大效能，别把末日叙事 hyperstition 成现实。",
+      "url": "https://x.com/trq212/status/2116212324696777073",
+      "tags": [
+        "AGI",
+        "economy",
+        "alignment"
+      ]
+    },
+    {
+      "id": "amasad-self-maintaining-software",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "summary": "Amjad Masad pitches Replit's 'autofix' as the route to self-maintaining software: host an app on Replit, turn autofix on, and it keeps itself running. Replit also launched Replit for Government and published a whitepaper on how to properly sandbox agents to maximize productivity while reducing risk.",
+      "summaryZh": "Amjad Masad 把 Replit 的 “autofix” 定位为通往自维护软件（Self-Maintaining Software）的路径：把应用托管在 Replit 并开启 autofix，应用就能自己保持运行。Replit 还发布了 Replit for Government，并推出一份白皮书，讲解如何正确地为 agent 做 sandbox，在提高生产力的同时降低风险。",
+      "url": "https://x.com/amasad/status/2116343923925041462",
+      "tags": [
+        "Replit",
+        "agents",
+        "sandboxing"
+      ]
+    },
+    {
+      "id": "steipete-own-harness",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "summary": "Steinberger sees another reason to run your own harness rather than one where companies can change what you can or can't do at will. He adds that unpredictable inference quality was usually why he recommended skipping the middleman.",
+      "summaryZh": "Steinberger 认为这又是一个该用自己 harness 的理由：别用那种公司可以随意改变你能做什么、不能做什么的 harness。他还说，推理质量不稳定，往往就是他建议跳过中间商的原因。",
+      "url": "https://x.com/steipete/status/2116153238563242385",
+      "tags": [
+        "harness",
+        "open-source",
+        "agents"
+      ]
+    },
+    {
+      "id": "garrytan-gbrain-cloud",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "summary": "Garry Tan launched GBrain Cloud as the fastest way to run GBrain across all your agents. His premise is that every harness has its strengths: Grok, Muse and Dots for personal use, OpenClaw and Hermes for raw power, Claude Code, Codex and Capy for codegen. GBrain lets you keep one context across all of them.",
+      "summaryZh": "Garry Tan 推出了 GBrain Cloud，让 GBrain 以最快的方式覆盖你所有的 agent。他的前提是每个 harness 各有所长：个人使用选 Grok、Muse、Dots，要原始性能选 OpenClaw、Hermes，写代码选 Claude Code、Codex、Capy。GBrain 让你的 context 在所有这些工具上通用。",
+      "url": "https://x.com/garrytan/status/2116303457774899251",
+      "tags": [
+        "GBrain",
+        "context",
+        "agents"
+      ]
+    },
+    {
+      "id": "adityaag-ant-valuation",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "summary": "Agarwal finds it odd how fixated investors and press are on the last private round price. Whether ANT IPOs at $1.2T or $2T, he calls it an insanely impressive act of value creation within six years, and notes that most of a company's value ends up being created after it goes public.",
+      "summaryZh": "Agarwal 觉得投资人和媒体总盯着最后一轮私募价格很奇怪。无论 ANT 以 $1.2T 还是 $2T 上市，他都认为这是六年内极其惊人的价值创造，而且大部分价值其实是在公司上市之后才创造出来的。",
+      "url": "https://x.com/adityaag/status/2116249251651215822",
+      "tags": [
+        "IPO",
+        "valuation",
+        "venture"
+      ]
+    },
+    {
+      "id": "zarazhang-one-prompt-video",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder. Harvard’17.",
+      "summary": "Zara Zhang says the video editing for her new video essay was done with just one prompt, a very long one, by a coding agent. The essay itself is about how to create tasteful things with AI without being a designer.",
+      "summaryZh": "Zara Zhang 说，她新视频随笔的剪辑只用了一条 prompt（一条很长的 prompt），由 coding agent 完成。视频内容讲的是：不是设计师，也能用 AI 做出有品位的东西。",
+      "url": "https://x.com/zarazhangrui/status/2116283023415287932",
+      "tags": [
+        "coding-agents",
+        "video",
+        "design"
+      ]
+    },
+    {
+      "id": "nopriors-serval-jake-stauch",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch",
+      "takeaway": "Serval's bet is that as agents get smarter, enterprises will clamp permissions down to least privilege, which makes the layer that grants audited, approved exceptions more essential, not less.",
+      "takeawayZh": "Serval 的赌注是：agent 越聪明，企业越会把权限收紧到最小权限，而负责发放经过审批、可审计的例外权限的那一层只会更不可或缺。",
+      "summary": "Jake Stauch, co-founder and CEO of Serval, explains how a two-and-a-half-year-old company is going directly after ServiceNow. His pitch is 'coding agents for the rest of us': under the hood Serval uses coding agents to build IT, HR, finance and legal automations, but wrapped in approvals, staging and audit trails, because 'under the hood, we are also a ticketing system'. He argues personal agents work for consumers and SMBs but are crippled in big enterprises, where an individual's permissions are so narrow an agent 'can barely even read your emails'. Serval instead uses service-account and admin permissions, issuing just-in-time access to run a deterministic workflow once, with every step logged.\n\nOn strategy, Stauch says they rejected both common startup paths, a thin layer on top of the incumbent or a down-market play, and set out on day one to beat ServiceNow. The core belief was that code is the right way to express enterprise automation, drag-and-drop builders are too complex for non-technical users and too abstract for technical ones, and AI finally lets anyone write code. The bet was that coding is a verifiable domain that would hill-climb well. Early demos had to seed the LLM with example workflows; now it is hard to give it a workflow it can't automate if the APIs exist.\n\nOn go-to-market, Serval sells top-down to IT leadership and pairs customers with a deployment strategist and a deployed software engineer, then keeps an automation-engineering team for the long tail, since demand for automation is effectively unlimited. Fox Corporation adopted Serval company-wide, and the person who led the migration was nominated company MVP. Looking ahead, he expects everyone to have a personal agent at work, separate from their personal one, and sees the tension between what employees want and what governance requires as the big opportunity.\n\nQuote: \"Serval is the boundary. Serval is the guardrails.\" And: \"We become more powerful and more essential the more you clamp down on end user permissions.\"",
+      "summaryZh": "Serval 联合创始人兼 CEO Jake Stauch 讲述了这家成立仅两年半的公司如何正面挑战 ServiceNow。他的定位是“给我们其余人用的 coding agent”：Serval 底层用 coding agent 为 IT、HR、财务和法务团队构建自动化，但外面包着审批、staging 和审计链路，因为“从底层看，我们同时也是一个工单系统”。他认为个人 agent 对消费者和中小企业很好用，但在大企业里会被严重限制，因为个人权限太窄，agent “连邮件都几乎读不了”。Serval 则用服务账号和管理员权限，发放 just-in-time 访问权限，让一个确定性 workflow 运行一次，每一步都有记录。\n\n在战略上，Stauch 说他们拒绝了两条常见创业路径——在现有巨头之上做一层薄薄的应用，或者从下沉市场切入——而是从第一天起就立志击败 ServiceNow。核心信念是：代码才是表达企业自动化的正确方式，拖拽式 workflow 构建器对非技术用户太复杂，对技术用户又太抽象，而 AI 终于让每个人都能写代码。他们赌的是 coding 属于可验证领域，能很好地 hill-climb。早期 demo 需要给 LLM 喂示例 workflow；现在只要 API 存在，几乎很难给它出一个它自动化不了的 workflow。\n\n在市场策略上，Serval 自上而下向 IT 负责人销售，为客户配备 deployment strategist 和 deployed software engineer，之后还有 automation engineering 团队负责长尾需求，因为自动化的需求几乎是无限的。Fox Corporation 在全公司采用了 Serval，主导迁移的员工还被提名为公司 MVP。展望未来，他预计每个人在工作中都会有一个与私人 agent 分开的工作 agent，并认为员工想要的和企业治理所需要的之间的张力是最大的机会。\n\n原话：“Serval is the boundary. Serval is the guardrails.” 以及：“我们变得更强大、更不可或缺，正是因为你对终端用户权限收得越紧。”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "enterprise",
+        "coding-agents",
+        "ServiceNow",
+        "security"
+      ]
+    }
+  ]
+}
