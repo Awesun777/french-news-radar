@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "id": "ai-crawl-opt-out-standard",
+      "category": "general",
+      "title": "Google, Microsoft, Anthropic and OpenAI back a single robots.txt opt-out for AI crawling",
+      "summary": "The four companies plan to support an upcoming web standard that lets site operators block AI training scrapers with one robots.txt entry instead of one per provider. Microsoft will also add an 'AI Grounding' setting that stops models fetching pages to answer questions, and OpenAI plans similar controls.",
+      "whyItMatters": "If the tutor ever scrapes French news or learning content for lessons, one opt-out signal will govern which sites it can safely use.",
+      "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard",
+      "source": "SiliconANGLE",
+      "tags": ["policy", "crawling", "content"]
+    }
+  ]
+}

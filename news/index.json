@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-30T06:17:00Z",
+  "generatedAt": "2026-10-31T08:30:04Z",
   "digests": [
+    {
+      "date": "2026-10-31",
+      "title": "Quiet day: shared AI crawling opt-out",
+      "itemCount": 1,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Google, Microsoft, Anthropic and OpenAI back a single robots.txt opt-out for AI crawling"
+      ]
+    },
     {
       "date": "2026-10-30",
       "title": "Quiet day: Anthropic's AI for Science expansion",
