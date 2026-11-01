@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "id": "swyx-low-effort-critique-loop",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "summary": "Swyx says to join him on the light side: low effort plus a critique loop beats whatever \"superultramaxhigh\" setting you were about to reach for. He pitches it for the throughput-constrained and points to his swyxio/skills/babysit-runs skill.",
+      "summaryZh": "Swyx 主张走「轻量路线」：低 effort 加上 critique loop，比任何「superultramaxhigh」之类的最高档设置都更好用。他说这尤其适合吞吐量受限的人，并推荐了自己的 swyxio/skills/babysit-runs skill。",
+      "url": "https://x.com/swyx/status/2116642586387730593",
+      "tags": [
+        "agents",
+        "effort-levels",
+        "workflow"
+      ]
+    },
+    {
+      "id": "swyx-effort-tabs-vs-spaces",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "summary": "Swyx calls strong opinions on effort levels the tabs-vs-spaces debate of our time: just tweak to taste. His data point is that Karpathy uses medium effort on Opus 5.5 for his latest project, Hackertube, which launched today, though he insists his own setting is still superior.",
+      "summaryZh": "Swyx 觉得对 effort 档位抱有强烈立场，就像这个时代的「tab 还是空格」之争，按个人口味调就行。他举的例子是 Karpathy 在最新项目 Hackertube（今天上线）里用的是 Opus 5.5 的 medium 档，不过他还是坚持自己的设置更胜一筹。",
+      "url": "https://x.com/swyx/status/2116773135668404286",
+      "tags": [
+        "opus",
+        "karpathy",
+        "effort-levels"
+      ]
+    },
+    {
+      "id": "levie-pushing-ai-enough",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "summary": "Levie offers a litmus test for whether you are pushing AI hard enough: if you could have done what you're doing before AI, you're likely not pushing it enough. Until about six months ago AI mostly did the same work faster, but now prototypes, architectures, research and business processes should come out qualitatively better than anything you could have produced alone, because AI is smarter than us on enough axes to matter when combined with what humans are good at.",
+      "summaryZh": "Levie 给出一个检验自己有没有把 AI 用到位的简单标准：如果你现在做的事在没有 AI 时也能做出来，那多半是还没用够。大约半年前 AI 还只是把原本的活干得更快，现在原型、架构、研究和业务流程的产出都应该远超你一个人能做到的水平，因为 AI 在足够多的维度上已经比人强，再和人的长处结合，结果就会是质变。",
+      "url": "https://x.com/levie/status/2116652002830963114",
+      "tags": [
+        "ai-adoption",
+        "productivity",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "latent-space-arca-long-horizon-finance",
+      "kind": "podcast",
+      "author": "Latent Space",
+      "title": "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "takeaway": "Arca uses agents to replace all the work around the advisor, not the advisor, and keeps safety deterministic with human sign-off on anything that moves money or talks to clients.",
+      "takeawayZh": "Arca 让 agent 取代的是围绕顾问的所有后台工作，而不是顾问本人，并用确定性的规则保证安全，凡是动用资金或直接联系客户的环节都必须由人确认。",
+      "summary": "Recorded at AI Engineer New York, Aman Singh leads the AI platform team at Arca, an AI-native wealth management firm that recently raised $64 million. Their line is that AI replaces \"all of the work around the advisor\", while clients only feel a level of service delivered through a human's empathy. \"Agents prompt people more than people prompt agents.\"\n\nModels are chosen by internal benchmarks, not external ones: Claude has been the primary model after earlier stints on Gemini and OpenAI, and a recent model that looked great on public benchmarks was too slow and expensive for them. They run their own model-agnostic harness with tiers by task complexity, so a tax analysis gets the heaviest tier while background work gets a cheaper one, and advisors never see the routing.\n\nFor a ten-day task such as raising $100,000 for a tax bill, agents do the allocation analysis fully, but strict human-in-the-loop guardrails cover anything that moves money, liquidates assets or contacts clients directly. Long tasks survive across days through per-client memory plus a \"dreaming\" process that reflects on the state of the client's world; a fresh signal like a phone call wakes a new agent that ramps up from that memory.\n\nSafety is \"fully deterministic\" and takes decisions out of the agent's hands: an LLM check on every database write, prompt-injection detection at the edges, and PII checks plus a consensus of small models on anything leaving the system. Compliance cares about auditability, so every change by an agent or a human is logged with what, who, where and when, and that same log feeds the agentic loop. The principle is to contain agents at the edges of capability and not earlier.",
+      "summaryZh": "这期节目录于 AI Engineer New York，嘉宾 Aman Singh 负责 Arca 的 AI 平台团队，Arca 是一家刚融资 6400 万美元的 AI 原生财富管理公司。他们的定位是：AI 取代的是「围绕顾问的所有工作」，客户感受到的仍然是由真人带着同理心提供的服务。「Agents prompt people more than people prompt agents.」\n\n选模型靠内部 benchmark，而不是外部榜单：早期用过 Gemini 和 OpenAI，现在 Claude 是主力；最近一个在公开榜单上表现很亮眼的模型，在他们这里又慢又贵。他们自建了与模型无关的 harness，按任务复杂度分档，税务分析用最重的一档，后台任务用便宜的档，顾问完全感知不到这层路由。\n\n以为客户凑 10 万美元税款这类长达十天的任务为例，资产配置分析完全由 agent 完成，但凡是动用资金、变现资产或直接联系客户，都有严格的 human-in-the-loop 限制。长周期任务靠每位客户的记忆系统加上一个「做梦」式的反思流程来续上，比如中途来了一通电话，就会唤醒一个新 agent，从记忆里快速了解全局。\n\n安全机制是「完全确定性」的，决策权不交给 agent：每次写数据库都有一道 LLM 校验，在入口处检测 prompt injection，数据外发时既做 PII 检查，也由一组小模型投票判断有无数据外泄。合规部门在意的是可审计性，所以 agent 和人的每次改动都会记录内容、操作者、来源和时间，这份日志同时也驱动 agentic loop。核心原则是：把 agent 限制在能力边界上，而不是更早。",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "tags": [
+        "agents",
+        "fintech",
+        "safety",
+        "long-horizon"
+      ]
+    }
+  ]
+}

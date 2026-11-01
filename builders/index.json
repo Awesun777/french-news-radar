@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-31T15:35:41Z",
+  "generatedAt": "2026-11-01T14:42:07Z",
   "digests": [
+    {
+      "date": "2026-11-01",
+      "title": "Swyx on low effort plus critique loops; Levie's test for pushing AI; Arca runs wealth management with agents",
+      "itemCount": 4,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Swyx: low effort + critique loop beats maxed-out effort settings",
+        "Levie: if you could have done it before AI, you're not pushing AI enough",
+        "Latent Space: Arca's agents do the work around the advisor, with deterministic guardrails"
+      ]
+    },
     {
       "date": "2026-10-31",
       "title": "Claude's Ultra plan drops the 5-hour limit; Thariq on AGI-pilled economics; Serval takes on ServiceNow",
