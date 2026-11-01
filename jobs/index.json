@@ -1,6 +1,15 @@
 {
-  "generatedAt": "2026-10-31T17:33:03Z",
+  "generatedAt": "2026-11-01T14:46:53Z",
   "digests": [
+    {
+      "date": "2026-11-01",
+      "itemCount": 11,
+      "companies": [
+        "Citi",
+        "Houlihan Lokey",
+        "JP Morgan"
+      ]
+    },
     {
       "date": "2026-10-31",
       "itemCount": 14,
