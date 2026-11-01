@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-10-31T08:30:04Z",
+  "generatedAt": "2026-11-01T13:08:35Z",
   "digests": [
+    {
+      "date": "2026-11-01",
+      "title": "Quiet day: OpenAI funding target cut",
+      "itemCount": 1,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "OpenAI reportedly cuts its funding-round target from $30B to $20B"
+      ]
+    },
     {
       "date": "2026-10-31",
       "title": "Quiet day: shared AI crawling opt-out",

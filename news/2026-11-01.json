@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "id": "openai-funding-target-cut",
+      "category": "general",
+      "title": "OpenAI reportedly cuts its funding-round target from $30B to $20B",
+      "summary": "Per FT and WSJ reports cited by TechCrunch, OpenAI lowered its target for its latest round, with about $11B secured so far and some large investors tepid. A UAE-led round and a later retail offering are meant to reach the $20B goal.",
+      "whyItMatters": "Romain runs on OpenAI Realtime, so signs of funding pressure are worth watching for future pricing or product-priority changes, though nothing suggests an immediate impact.",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch",
+      "tags": ["openai", "funding", "industry"]
+    }
+  ]
+}
