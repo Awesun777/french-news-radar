@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "id": "openai-ai-compute-campuses",
+      "category": "general",
+      "title": "OpenAI reportedly plans post-midterms PR push, may rebrand data centers as 'AI compute campuses'",
+      "summary": "OpenAI is reportedly preparing a public relations push after the midterm elections, with ideas including AI 'speed limits', messaging on everyday benefits and US leadership on global standards. Chief global affairs officer Chris Lehane floated rebranding data centers as 'AI compute campuses' amid growing public opposition.",
+      "whyItMatters": "Indirect for the tutor, but growing local opposition to data centers could shape compute supply and pricing for the realtime voice APIs Romain relies on.",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch",
+      "tags": ["openai", "policy", "infrastructure"]
+    }
+  ]
+}
