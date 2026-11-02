@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-11-01T14:47:02Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-11-02T17:37:11Z",
+  "outcome": "error",
   "newCount": 11,
-  "detail": "11 new postings (Citi, Houlihan Lokey, JP Morgan); unreachable: Dc advisory, Ubs, Scotiabank, BNPP",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-11-01",
   "companies": {
     "Deutsche Bank": "ok",
