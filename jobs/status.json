@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-11-02T17:37:11Z",
-  "outcome": "error",
-  "newCount": 11,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-11-01",
+  "lastRunAt": "2026-11-03T07:44:09Z",
+  "outcome": "new-postings",
+  "newCount": 15,
+  "detail": "15 new postings (Barclays, Citi, JP Morgan, Pwc)",
+  "dayFile": "2026-11-03",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",
     "Raymond James": "ok",
-    "Dc advisory": "unreachable",
-    "Bda partners": "ok",
+    "Dc advisory": "ok",
     "Houlihan Lokey": "ok",
-    "Ubs": "unreachable",
-    "Scotiabank": "unreachable",
-    "BNPP": "unreachable",
+    "Scotiabank": "ok",
     "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
     "Citi": "ok",
     "Macquarie": "ok",
-    "Pwc": "ok"
+    "Pwc": "ok",
+    "Bda partners": "unreachable",
+    "Ubs": "unreachable",
+    "BNPP": "unreachable"
   }
 }
