@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "id": "rauchg-stateless-sandboxes",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Stateless sandboxes are the wrong benchmark, Rauch argues: agents are only useful when their workspace travels with them — identity, skills, repos, memories. He says Vercel Sandbox is hitting its latency, throughput and reliability SLOs while shipping clusters in 19 global regions, with customer demand growing double digits per week.",
+      "summaryZh": "Rauch认为无状态沙箱是错误的衡量标准:只有当工作空间(身份、技能、代码仓库、记忆)随智能体一起走,智能体才真正有用。他表示Vercel Sandbox在延迟、吞吐和可靠性SLO上持续达标,已在全球19个区域部署集群,客户需求每周两位数增长。",
+      "url": "https://x.com/rauchg/status/2117338179535810957",
+      "tags": [
+        "agents",
+        "sandbox",
+        "vercel"
+      ]
+    },
+    {
+      "id": "thariq-token-budget",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "Formerly Claude Code at Anthropic",
+      "summary": "One week in, Thariq's takeaway is that you don't need unlimited tokens to do great work — the $200 plans are amazing. He adds that this is the most expensive intelligence will ever be.",
+      "summaryZh": "Thariq用了一周后的结论是:做出优秀的工作并不需要无限token,200美元的套餐就已经很棒。他还说,这将是智能最昂贵的时候,以后只会更便宜。",
+      "url": "https://x.com/trq212/status/2117305792923889731",
+      "tags": [
+        "pricing",
+        "tokens"
+      ]
+    },
+    {
+      "id": "petergyang-harness",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews",
+      "summary": "The best model for writing and editing is held back by its harness, says Yang. ChatGPT's copy edits were almost entirely bad while Gemini's were great, but Antigravity lacks working browser use, so he has to paste Gemini's edits back into ChatGPT by hand.",
+      "summaryZh": "Yang指出,最适合写作和编辑的模型被它的运行框架(harness)拖了后腿。ChatGPT的润色建议几乎全是糟糕的,Gemini的却很好,但Antigravity没有可用的浏览器操作功能,他只能手动把Gemini的修改贴回ChatGPT。",
+      "url": "https://x.com/petergyang/status/2117333424403042330",
+      "tags": [
+        "gemini",
+        "harness",
+        "antigravity"
+      ]
+    },
+    {
+      "id": "garrytan-capy-captains",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO, Y Combinator",
+      "summary": "Capy Captains raised Tan's issue-fixing throughput about 5X overnight. He calls coordinating across captains and subthreads an insane unlock.",
+      "summaryZh": "Tan说Capy Captains一夜之间让他修复issue的吞吐量提升了约5倍,并称跨captain和子线程的协调是惊人的突破。",
+      "url": "https://x.com/garrytan/status/2117410016730964358",
+      "tags": [
+        "agents",
+        "coding",
+        "throughput"
+      ]
+    },
+    {
+      "id": "thenanyu-group-chat",
+      "kind": "x",
+      "author": "Nan Yu",
+      "role": "Product, Codex at OpenAI; previously head of product at Linear",
+      "summary": "Except in rare circumstances, Yu says group chat is a terrible multiplayer AI experience — literally guaranteed slop.",
+      "summaryZh": "Yu认为,除少数情况外,群聊是糟糕的多人AI体验——简直注定产出垃圾内容。",
+      "url": "https://x.com/thenanyu/status/2117432599559716940",
+      "tags": [
+        "product",
+        "multiplayer"
+      ]
+    },
+    {
+      "id": "amasad-agent-environments",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Masad's rule for agents: run them in dedicated, organization-controlled environments with limited access to only the resources each task requires.",
+      "summaryZh": "Masad对智能体的原则是:让它们运行在专用的、由组织控制的环境中,只授予每项任务所需资源的有限访问权限。",
+      "url": "https://x.com/amasad/status/2117499074496872882",
+      "tags": [
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "id": "latent-space-legora",
+      "kind": "podcast",
+      "author": "Latent Space",
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "takeaway": "Legora's CTO says frontier model releases keep solving problems for free, so the durable work is the harness, private-data handling and a legal-specific eval team.",
+      "takeawayZh": "Legora的CTO表示,前沿模型的每次发布都会免费解决一些问题,因此真正持久的工作是运行框架、私有数据处理和面向法律的评测团队。",
+      "summary": "Jacob Lauritzen traces Legora from a ChatGPT-with-Swedish-law search tool to an agent that drafts, edits Word files, runs analyses and orchestrates legal work through Tabular Review (bulk extraction across agreements in due diligence), Lists, Intake and Portal. The agent switch came about a year ago, and subagent delegation for fan-out retrieval is something that now works well. Models are chosen per task and subdivided, though a model picker exists because users wanted it — he says they fought introducing it for a long time. Fewer lawyers want the newest model than engineers do, and he thinks a lot of legal work doesn't need Mythos-level intelligence; roughly 60% is done well today, with cost and latency the remaining issue, while very complex analysis still needs more intelligence.\n\nOn evals, Legora tracks every model across practice areas on a heat map and sees many releases improve some tasks while regressing others. The team is about three engineers and three lawyers, plus a pool of around 100 'legal engineers' — Big Law lawyers with CS degrees. Environments are like RL worlds, e.g. a 10,000-file data room where a due-diligence report must surface the right red flags concisely. Until recently, he says, evals weren't worth it because each frontier model just fixed things: \"It went from, like, seventy percent to, like, ninety-nine. It's just like we did nothing.\" His take on staying small: \"We're just gonna be twenty engineers for the rest of the company's history\" — yet at a hundred engineers it still feels \"way too small.\"",
+      "summaryZh": "Jacob Lauritzen回顾了Legora的发展:从带瑞典法律检索的ChatGPT工具,到如今能起草文件、编辑Word、运行分析并编排法律工作的智能体,配套Tabular Review(尽职调查中批量提取和审阅协议)、Lists、Intake和Portal等功能。大约一年前他们从助手转向智能体,而用于扇出式检索的子智能体委派现在已经运作得很好。模型按任务拆分并路由,但也提供了模型选择器——他说他们抵制了很久才加上,因为用户想要这种控制。相比工程师,律师追逐最新模型的比例更低;他认为很多法律工作并不需要Mythos级别的智能,目前约60%的工作已能做得很好,剩下的是成本与延迟问题,而非常复杂的分析仍需要更强的智能。\n\n在评测方面,Legora用热力图跟踪每个模型在各法律领域的表现,发现很多新模型发布会提升一部分任务、同时让另一些任务退步。评测团队约有三名工程师和三名律师,外加约100名“法律工程师”——拥有计算机学位的大所律师。评测环境类似强化学习世界,例如一个有1万份文件的数据室,要求尽调报告简洁地列出正确的风险点。他说直到最近评测都不太值得做,因为每个前沿模型都会直接修好问题:“引用准确率从70%涨到99%,我们什么都没做。”关于保持精简,他说:“公司永远只要二十名工程师”,但现在有一百名工程师,仍觉得“人手太少”。",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "tags": [
+        "legal",
+        "agents",
+        "evals",
+        "latent-space"
+      ]
+    }
+  ]
+}
