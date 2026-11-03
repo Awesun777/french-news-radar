@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "id": "elevenlabs-voice-vs-chat",
+      "category": "inspiration",
+      "title": "ElevenLabs study: voice agents beat chat on long, complex conversations; latency drives success",
+      "summary": "ElevenLabs compared voice and chat across deployed agents (May–July 2026). In conversations over two minutes voice succeeded ~32% more often, while chat won under one minute. Across 315 agents that switched to a faster LLM, a 16% drop in end-to-end latency came with a 26% lift in success rate. The data is self-reported by a voice vendor.",
+      "whyItMatters": "It backs latency work on Romain/Anna with numbers (faster LLM turn = better outcomes) and suggests voice suits longer, more demanding practice sessions rather than quick drills.",
+      "url": "https://elevenlabs.io/blog/voice-wins-complex-stressful-conversations",
+      "source": "ElevenLabs blog",
+      "tags": ["voice", "latency", "research"]
+    },
+    {
+      "id": "anthropic-rsi-sec-filing",
+      "category": "general",
+      "title": "Anthropic's amended S-1 says it may imminently hit its RSI threshold",
+      "summary": "A revised filing says Anthropic may soon meet its Responsible Scaling Policy threshold for dramatically accelerated AI-attributable progress. No current model is designated as over it, and the company is considering RSP updates to keep humans in the loop. Skeptics note an S-1 is also marketing.",
+      "whyItMatters": "Worth knowing as a signal of how fast frontier model capability, and therefore the models behind tutoring tools, may be moving.",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Recursive-Neural-Spiral-in-Circuitry.png?w=1024",
+      "tags": ["anthropic", "safety", "ipo"]
+    }
+  ]
+}

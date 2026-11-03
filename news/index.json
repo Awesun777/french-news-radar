@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-02T12:57:38Z",
+  "generatedAt": "2026-11-03T07:37:33Z",
   "digests": [
+    {
+      "date": "2026-11-03",
+      "title": "Voice beats chat; Anthropic RSI warning",
+      "itemCount": 2,
+      "categories": [
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "ElevenLabs study: voice agents beat chat on long, complex conversations; latency drives success",
+        "Anthropic's amended S-1 says it may imminently hit its RSI threshold"
+      ]
+    },
     {
       "date": "2026-11-02",
       "title": "Quiet day: OpenAI compute campuses",
