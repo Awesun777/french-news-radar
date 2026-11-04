@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-11-03T07:37:33Z",
+  "generatedAt": "2026-11-04T12:07:49Z",
   "digests": [
+    {
+      "date": "2026-11-04",
+      "title": "Quiet day: Fal $16B, Anthropic FlashProve",
+      "itemCount": 2,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Fal raises $1.3B at $16B valuation as AI inference demand surges",
+        "Anthropic develops FlashProve, open-source system to verify which AI model produced an output"
+      ]
+    },
     {
       "date": "2026-11-03",
       "title": "Voice beats chat; Anthropic RSI warning",

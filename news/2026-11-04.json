@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "id": "fal-16b-inference",
+      "category": "general",
+      "title": "Fal raises $1.3B at $16B valuation as AI inference demand surges",
+      "summary": "Fal, which runs AI video, image and audio models, raised $1.3B led by Bessemer at a $16B valuation, double its April figure. Demand is strong, especially for open-source models.",
+      "whyItMatters": "Signals a maturing market for hosted open audio/video models, which could mean cheaper alternatives for tutor voice and avatar features.",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "TechCrunch",
+      "tags": [
+        "inference",
+        "funding",
+        "video",
+        "audio"
+      ]
+    },
+    {
+      "id": "anthropic-flashprove",
+      "category": "general",
+      "title": "Anthropic develops FlashProve, open-source system to verify which AI model produced an output",
+      "summary": "Anthropic released a spec and code for a system where labs publish model fingerprints so outputs can be cryptographically verified. It has no plans to deploy it yet.",
+      "whyItMatters": "Worth knowing if the tutor ever needs to prove or audit which model answered, though the tutor link is indirect.",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch",
+      "tags": [
+        "anthropic",
+        "verification",
+        "open-source"
+      ]
+    }
+  ]
+}
