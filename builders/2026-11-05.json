@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-05",
+  "items": [
+    {
+      "id": "swyx-distillation",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity",
+      "summary": "A model that is 3x faster and 5x cheaper but scores the same on FrontierCode 2 is \"distillation without tradeoffs.\" Swyx calls Thinking Machines' Inkling one of the most underrated base models in the world, and expects a ton more of these distillations, especially built on US-pretrained models.",
+      "summaryZh": "速度快 3 倍、成本低 5 倍,但在 FrontierCode 2 上的评测成绩完全一样——Swyx 称这是「没有取舍的蒸馏」。他认为 Thinking Machines 的 Inkling 是全球被低估的基础模型之一,并预期会看到更多这类蒸馏模型,尤其是基于美国预训练模型的。",
+      "url": "https://x.com/swyx/status/2118208851506036989",
+      "tags": [
+        "distillation",
+        "evals",
+        "models"
+      ]
+    },
+    {
+      "id": "catwu-joins-openai",
+      "kind": "x",
+      "author": "Cat Wu",
+      "role": "core products @openai, prev: claude code @anthropic",
+      "summary": "Cat Wu, formerly of Claude Code at Anthropic, is joining OpenAI to lead product management for Core Products, working with Thibault Sottiaux. Her stated goal: build agents that have your back and your team's, while keeping you in control.",
+      "summaryZh": "曾负责 Anthropic Claude Code 的 Cat Wu 宣布加入 OpenAI,领导 Core Products 的产品管理,与 Thibault Sottiaux 共事。她的目标是打造「站在你和团队这一边」、同时让你保持掌控的 agent。",
+      "url": "https://x.com/_catwu/status/2118137612577968402",
+      "tags": [
+        "talent",
+        "openai",
+        "agents"
+      ]
+    },
+    {
+      "id": "rauch-rewrite-software",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Most human-made software was slow, full of security holes, and under-specified, Rauch argues, and AI will rewrite all of it, repeatedly: proving, formally verifying, load testing, and turning memory-unsafe foundations into robust ones. He calls this \"the true birth of software engineering.\" As evidence, Vercel's free Security Reviews found 6,817 vulnerabilities in 24 hours, 580 critical or high, with 1,411 already patched by an agent.",
+      "summaryZh": "Rauch 认为,人类写的大多数软件都很慢、漏洞百出、规格不清,而 AI 会把这一切反复重写:证明、形式化验证、压力测试,把内存不安全的底层换成稳健的实现。他称之为「软件工程的真正诞生」。佐证是:Vercel 免费的 Security Reviews 在 24 小时内发现 6,817 个漏洞,其中 580 个为严重或高危,1,411 个已由 agent 修复。",
+      "url": "https://x.com/rauchg/status/2118166970273292299",
+      "tags": [
+        "security",
+        "agents",
+        "software-engineering"
+      ]
+    },
+    {
+      "id": "amasad-replit-smfl",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit",
+      "summary": "Replit is partnering with Sumitomo Mitsui Finance & Leasing, which recently finished in one week with one person a project that used to take six people six months. The next step is bringing AI-powered software creation to Japanese enterprises facing labor shortages.",
+      "summaryZh": "Replit 与三井住友融资租赁(SMFL)达成合作。SMFL 最近用 Replit,一个人一周就完成了过去需要六个人做六个月的项目。下一步是把 AI 软件创作带给面临劳动力短缺的日本企业。",
+      "url": "https://x.com/amasad/status/2118180254300688857",
+      "tags": [
+        "replit",
+        "enterprise",
+        "japan"
+      ]
+    },
+    {
+      "id": "ryolu-what-we-want",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Designed @Cursor_ai, @NotionHQ, @Stripe",
+      "summary": "Ryo Lu's question from his AI Engineer Shanghai talk: when we can make anything, do we still know what we want? He wants tools that help people find their own answers rather than skip the process of forming them, with more room to think, care, and make together instead of just more output.",
+      "summaryZh": "Ryo Lu 在 AI Engineer 上海站提出的问题:当我们什么都能做出来时,我们还知道自己想要什么吗?他想要的工具是帮人找到自己的答案,而不是跳过形成答案的过程——不只是更多产出,而是更多思考、关怀与共创的空间。",
+      "url": "https://x.com/ryolu_/status/2118207967728451760",
+      "tags": [
+        "design",
+        "tools",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "steipete-individual-limits",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "summary": "Do individual usage limits still make sense? Steinberger says that as capabilities grow, you want to support an agent that represents your project, runs loops, and evolves the codebase, while humans merely curate the automations.",
+      "summaryZh": "个人用量上限还合理吗?Steinberger 认为,随着能力提升,你更需要支持一个代表整个项目的 agent:它跑循环、持续演进代码库,而人类只是负责策划这些自动化。",
+      "url": "https://x.com/steipete/status/2118116514700386439",
+      "tags": [
+        "agents",
+        "limits",
+        "workflow"
+      ]
+    },
+    {
+      "id": "every-kevin-roose-agi-chronicles",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "The Inside Story of the 50 Who Built Modern AI With Kevin Roose",
+      "takeaway": "The people building AI mostly want to slow down, so the real near-term lever is a safety-testing standard plus a coordination mechanism for the frontier, ideally before a crisis forces clumsy rules.",
+      "takeawayZh": "打造 AI 的人大多自己也想放慢脚步,所以近期真正的杠杆是安全测试标准加上前沿研发的协调机制,最好赶在危机逼出仓促法规之前。",
+      "summary": "Kevin Roose spent a year interviewing around 150 people, 50 of them central, to write the history of how modern AI got built. He is not a doomer: \"I don't think we're doomed. But we have a lot to do.\" Federal regulation won't come from the current administration without a disaster, he says, so he wants a certification regime first (\"We require pharmaceutical companies to test their drugs before selling them to the public. We should require AI companies to test their models\") and then a way to slow the frontier. He used to think slowing down was impossible, but now believes Dario, Demis and Sam really do think things are moving too fast.\n\nThe archival gems: Dario Amodei's 2017 \"big blob of compute\" memo, written at OpenAI before large language models existed, argued that narrow, hand-built systems were the wrong path and that unstructured compute pointed at general problems like next-word prediction would produce intelligence. Roose also traces how The Making of the Atomic Bomb shaped Dario, who sees himself as a modern Leo Szilard.\n\nHis own workflow: he wrote every word himself, but ran a \"council of Claudes\" in Claude Code, a swarm of agents with personas (AI skeptic, AI historian, storytelling craftsperson) plus a master editor agent that synthesized their critiques. It caught factual errors his human editors missed. \"A couple years ago we had to fact check the AIs, and now the AIs fact check me.\" He also leaned on NotebookLM to query his research. What AI still can't do is the coaching part of an editor: \"Go back, it doesn't feel like you've totally gotten that one yet.\"",
+      "summaryZh": "Kevin Roose 花了一年采访约 150 人(其中 50 位是核心人物),写下现代 AI 是如何被造出来的。他并不悲观:「我不认为我们完蛋了,但我们有很多事要做。」他认为,没有灾难发生,现任政府不会推动联邦层面的监管,所以首先要建立认证机制(「我们要求制药公司在销售前测试药品,也应该要求 AI 公司测试模型」),其次是放慢前沿研发的协调机制。他以前觉得放慢不可能,现在相信 Dario、Demis 和 Sam 确实认为发展太快了。\n\n书中的珍贵史料:Dario Amodei 2017 年在 OpenAI 写的「big blob of compute」备忘录,当时大语言模型还不存在。他认为针对单一任务手工打造的系统是错误路径,应该把大规模非结构化算力用在预测下一个词这类通用问题上,智能自然会出现。Roose 还讲到《原子弹的制造》如何塑造了 Dario,后者把自己看作当代的 Leo Szilard。\n\n他自己的工作流:每个字都是自己写的,但在 Claude Code 里搭了一个「Claude 议会」——一群带有不同人设的 agent(AI 怀疑论者、AI 历史学家、讲故事的匠人),再由一个总编辑 agent 汇总意见。它发现了人类编辑漏掉的事实错误。「几年前我们得给 AI 做事实核查,现在是 AI 给我核查。」他还用 NotebookLM 来检索研究资料。AI 目前还做不到的,是编辑的「教练」角色:「回去再想想,这一块感觉还没真正写透。」",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "tags": [
+        "history",
+        "safety",
+        "regulation",
+        "claude-code"
+      ]
+    }
+  ]
+}

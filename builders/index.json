@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-03T07:38:18Z",
+  "generatedAt": "2026-11-05T07:38:27Z",
   "digests": [
+    {
+      "date": "2026-11-05",
+      "title": "Cat Wu to OpenAI; Rauch on AI rewriting all software; Kevin Roose on the people who built AI",
+      "itemCount": 7,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Rauch: AI will rewrite most human-made software; Vercel's agent patched 1,411 of 6,817 vulnerabilities in 24 hours",
+        "Swyx: 3x faster, 5x cheaper distillation with the same evals — expect many more",
+        "Roose: the builders want to slow down; start with mandatory safety testing and a 'council of Claudes' caught his errors"
+      ]
+    },
     {
       "date": "2026-11-03",
       "title": "Rauch on agents needing their workspace; Thariq on the $200 plan; Legora's CTO on legal agents and evals",
