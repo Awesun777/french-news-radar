@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-05T07:37:30Z",
+  "generatedAt": "2026-11-06T07:25:57Z",
   "digests": [
+    {
+      "date": "2026-11-06",
+      "title": "Meta Muse avatar video chat",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Meta launches Muse Voice: real-time video chat with an animated AI avatar (US)",
+        "Thinking Machines releases Inkling 2 Small (594B MoE, 17B active)",
+        "Claude adds Personal Finance beta: link bank accounts via Plaid"
+      ]
+    },
     {
       "date": "2026-11-05",
       "title": "Quiet day: Meta buys Conductor",

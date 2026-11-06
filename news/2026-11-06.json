@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "id": "meta-muse-voice-avatar",
+      "category": "models",
+      "title": "Meta launches Muse Voice: real-time video chat with an animated AI avatar (US)",
+      "summary": "Meta made Muse Voice available to all US users, powered by new Muse Realtime Avatar and Muse Realtime Voice models. The avatar (\"Jolly\") changes expression to match the conversation's tone; it runs on mobile, web and Mac, with glasses and a Muse Charm device to follow.",
+      "whyItMatters": "A big-tech real-time expressive avatar is a direct preview of the 'in-between' voice+video tutor experience Romain/Anna could grow into, and raises user expectations for face-to-face practice.",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1024",
+      "tags": ["avatar", "realtime", "voice", "video"]
+    },
+    {
+      "id": "inkling-2-small",
+      "category": "general",
+      "title": "Thinking Machines releases Inkling 2 Small (594B MoE, 17B active)",
+      "summary": "Thinking Machines Lab released Inkling 2 Small, a mixture-of-experts model with image input and variable effort settings, available now on Tinker with closed weights. Apache 2.0 weights are promised after safety testing; it does not support audio.",
+      "whyItMatters": "No audio support means no direct use in the voice loop yet, but open weights later could give a cheap, tunable text brain behind a tutor.",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+      "source": "Thinking Machines",
+      "tags": ["llm", "open-weights", "moe"]
+    },
+    {
+      "id": "claude-personal-finance",
+      "category": "general",
+      "title": "Claude adds Personal Finance beta: link bank accounts via Plaid",
+      "summary": "Anthropic launched a read-only Personal Finance tool letting US Pro, Max and Ultra users connect bank and card accounts and ask questions about spending.",
+      "whyItMatters": "Shows Claude moving into personalized, data-connected assistants — a pattern relevant to tutors that use a learner's own history to personalize lessons.",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "source": "TechCrunch",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance-2.png?w=1024",
+      "tags": ["anthropic", "personalization"]
+    }
+  ]
+}
