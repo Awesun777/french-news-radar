@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-05T07:38:27Z",
+  "generatedAt": "2026-11-06T07:31:58Z",
   "digests": [
+    {
+      "date": "2026-11-06",
+      "title": "Rauch: scheduled agents are the killer app; Claude launches Personal Finance; Replit dodges 96% of Linux zero-days",
+      "itemCount": 9,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Rauch: \"doing stuff for you over time\" is the killer app of agents; Vercel Schedules are cron on steroids",
+        "Anthropic's Claude gets read-only Personal Finance in US beta",
+        "JEV's creator: intelligence should be like SQL, and benchmarks are lost trust"
+      ]
+    },
     {
       "date": "2026-11-05",
       "title": "Cat Wu to OpenAI; Rauch on AI rewriting all software; Kevin Roose on the people who built AI",

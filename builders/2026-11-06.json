@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "id": "rauch-schedules",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch calls \"doing stuff for you over time\" the killer app of agents: Muse and Instinct consolidate memories overnight, remind you in the morning, and ping you after N days of silence. Vercel Schedules, he says, are cron on steroids: defined at runtime, infinitely scalable, and outside the Sandbox so compute is only invoked when needed. He also pitched a loop of X sub, build with Grok/Cursor, deploy to Vercel, distribute and monetize on X.",
+      "summaryZh": "Rauch 认为“长期替你做事”才是 agent 的杀手级应用：Muse 和 Instinct 会在夜间整合记忆、早上提醒你、在你多日未互动后主动联系。他说 Vercel Schedules 是“加强版 cron”：可在运行时定义、无限扩展，并且独立于 Sandbox，只在需要时才调用算力。他还描绘了一个闭环：订阅 X、用 Grok/Cursor 构建、部署到 Vercel、在 X 上分发并变现。",
+      "url": "https://x.com/rauchg/status/2118440831355068671",
+      "tags": [
+        "agents",
+        "vercel",
+        "infra"
+      ]
+    },
+    {
+      "id": "sottiaux-security",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "Sottiaux says humans were not very good at writing secure infrastructure; the end state will be hypersecure software for all, but with turbulence on the way. He adds that formal proofs of tens of millions of lines of code are no longer ridiculous and should be considered when designing new systems.",
+      "summaryZh": "Sottiaux 直言人类并不擅长编写安全的基础设施；最终我们会得到人人可用的超安全软件，但过程中会有一段动荡。他还说，对数千万行代码做形式化证明已不再荒谬，设计新系统时应当纳入考虑。",
+      "url": "https://x.com/thsottiaux/status/2118569235953893573",
+      "tags": [
+        "security",
+        "formal-verification",
+        "codex"
+      ]
+    },
+    {
+      "id": "masad-replit-kernel",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit",
+      "summary": "Masad says that with so many Linux zero-days around, Replit's custom kernel build avoids 96% of them. He points to a write-up on Replit's new sandbox design.",
+      "summaryZh": "Masad 表示，如今 Linux 零日漏洞层出不穷，而 Replit 的定制内核构建可以避开其中 96%。他附上了介绍 Replit 新沙箱设计的文章。",
+      "url": "https://x.com/amasad/status/2118503241390665776",
+      "tags": [
+        "security",
+        "replit",
+        "sandbox"
+      ]
+    },
+    {
+      "id": "levie-agents-context",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box",
+      "summary": "Levie predicts 100X more agents than people working with enterprise data and systems, and says every deployment hinges on access to context. With 90% of enterprise data unstructured, Box is partnering with NVIDIA on retrieval that combines lexical and semantic search while respecting access controls.",
+      "summaryZh": "Levie 预测企业里与数据和系统打交道的 agent 数量将是人类的 100 倍，而每一次 agent 部署的成败都取决于能否获取关键上下文。企业 90% 的数据是非结构化的，因此 Box 与 NVIDIA 合作，把词法搜索和语义搜索结合起来，同时遵守访问控制。",
+      "url": "https://x.com/levie/status/2118498574497665316",
+      "tags": [
+        "enterprise",
+        "agents",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "tan-little-tech",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator",
+      "summary": "Tan says this week's results make him optimistic about a bipartisan opening to rein in Big Tech's abuse of market power. His argument: inventing powerful AI is only half the job, and it matters little if a few trillion-dollar companies can block new products from reaching users. He wants Congress to open markets to Little Tech.",
+      "summaryZh": "Tan 说本周的结果让他乐观，认为出现了难得的两党合作机会来遏制大型科技公司滥用市场支配地位。他的观点是：发明强大的 AI 只完成了一半，如果少数万亿美元公司能阻止新产品触达用户，成果就会打折扣。他希望国会向 Little Tech 开放市场。",
+      "url": "https://x.com/garrytan/status/2118557763156733984",
+      "tags": [
+        "policy",
+        "antitrust",
+        "startups"
+      ]
+    },
+    {
+      "id": "claude-personal-finance",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Anthropic's AI assistant",
+      "summary": "Claude announced Personal Finance in beta in the US: connect accounts you choose and ask money questions answered from your own balances and transactions. Access is read-only, Claude cannot move or invest money, and there are no ads or sponsored recommendations. It rolls out gradually on Pro, Max and Ultra.",
+      "summaryZh": "Claude 发布了美国地区的 Personal Finance 测试版：连接你选择的账户，即可基于自己的余额和交易记录提问。权限为只读，Claude 无法转账或投资，也没有广告或赞助推荐。将逐步向 Pro、Max 和 Ultra 用户开放。",
+      "url": "https://x.com/claudeai/status/2118403114890137895",
+      "tags": [
+        "anthropic",
+        "product",
+        "finance"
+      ]
+    },
+    {
+      "id": "steipete-safari",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather",
+      "summary": "Steinberger questions whether Apple is being truthful about Safari. In his experience building for it, Safari is slower, has fewer features and odd bugs, and many sites just don't work, so matching Chrome's performance is a fight.",
+      "summaryZh": "Steinberger 质疑苹果在 Safari 上的说法是否属实。在他的开发经验里，Safari 更慢、功能更少、bug 古怪，不少网站根本无法使用，想接近 Chrome 的性能很费劲。",
+      "url": "https://x.com/steipete/status/2118492097917628704",
+      "tags": [
+        "safari",
+        "web",
+        "apple"
+      ]
+    },
+    {
+      "id": "thariq-location-reminders",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "formerly Claude Code @anthropicai",
+      "summary": "Thariq shares a favorite agent prompt for Instinct: location-based reminders. His example: track when laundry was last done and, after five days, nudge him 30 minutes after he gets home on a weekday until he confirms or delays.",
+      "summaryZh": "Thariq 分享了他最喜欢的 Instinct agent 提示之一：基于位置的提醒。例如记录上次洗衣时间，超过 5 天后，在工作日他到家 30 分钟后提醒，并持续提醒直到他确认或推迟。",
+      "url": "https://x.com/trq212/status/2118399561324699655",
+      "tags": [
+        "agents",
+        "prompts",
+        "instinct"
+      ]
+    },
+    {
+      "id": "unsupervised-learning-ep97",
+      "kind": "podcast",
+      "author": "Unsupervised Learning",
+      "title": "Ep 97: Jev Creator on Decision Models, Benchmark Fatigue &amp; Why the Labs Missed It",
+      "takeaway": "The creator of JEV argues the field is chasing new model shapes and benchmarks when what developers need is reliability, and that AI should become as provider-agnostic and composable as SQL.",
+      "takeawayZh": "JEV 的创造者认为，业界忙于追逐新的模型形态和基准分数，而开发者真正需要的是可靠性；AI 应当像 SQL 一样与供应商无关、可组合。",
+      "summary": "The guest, who built JEV, says he was never a \"mission driven\" believer in OpenAI's vague mission but is now. What motivated him was squaring AI being brilliant with it barely moving productivity stats. His test: treat LLMs as an API called by software, and ask what share of calls are for human consumption versus machines. Even string-pilled people answer \"many nines\" of percent machine-native, so he works backwards from that cognitive core, and says JEV isn't there yet.\n\nHe pushes back on developers building theories of mind about which model suits which task: \"the north star for intelligence is gonna be a lot like SQL,\" reliable enough to be provider agnostic. Updating to the latest model is like updating dependencies, \"the worst thing ever for production software,\" and the treadmill persists only because models don't yet run in the background for months without babysitting. He notes the paradox of solving Millennium Prize problems in math while being unable to automate anything touching accounting, and insists intelligence is not a single axis measured by the benchmark of the day. RLVR is incredible, he says, but still human-in-the-loop.\n\nOn the field, he says real-world feedback barely shapes the roadmap and developers should complain far more, especially about model jaggedness. He is anti-benchmark: people have stopped caring about releases \"because they've all been lied to so many times.\" Too many new model shapes are shipped with overpromised utility, and he hopes people \"start giving unbelievable levels of fucks for utility, usefulness, reliability.\" He also teases a future release funding things like coding agents \"free from the tyranny of the KV cache.\" He is bullish on LLMs for pseudo-expert chat answers and throwaway software, and on Anthropic, he thinks some valuations bake in misunderstandings of AI, and that \"let them cure cancer\" will age like \"let them eat cake.\"",
+      "summaryZh": "嘉宾是 JEV 的创造者。他坦言自己当年并不认同 OpenAI 那个含糊的“使命”，但现在真正有使命感。驱动他的问题是：如何调和“AI 非常聪明”与“生产率数据几乎没动”这两个事实。他的思路是把 LLM 看作被软件调用的 API，问有多大比例的调用是给人看的、有多大比例是给机器用的。即便最迷信自然语言的人也会回答“机器原生占比有很多个 9”，所以他从这个“认知核心”倒推，并承认 JEV 还没到位。\n\n他不赞成开发者为“哪个模型适合哪类任务”建立心智模型：“智能的北极星会很像 SQL”，可靠到与供应商无关。追新模型就像升级依赖，“对生产环境软件来说是最糟糕的事”，这条跑步机之所以存在，只是因为模型还不能在后台安静运行数月。他指出一个悖论：AI 能解数学千禧年难题，却无法自动化任何涉及会计的事情；智能不是用当日基准衡量的单一维度。RLVR 很强，但仍离不开人在回路中。\n\n谈到行业，他说真实使用反馈几乎不影响路线图，开发者应该多向他们抱怨，尤其是模型的“锯齿状”能力。他反对基准测试：大家已不在乎新发布，“因为被骗太多次了”。太多新模型形态在效用上夸大承诺，他希望大家“极度重视实用性和可靠性”。他还预告了未来的发布，将资助诸如“摆脱 KV cache 束缚的 coding agent”。他看好 LLM 用于给出“伪专家”级答案和一次性软件；对 Anthropic，他认为部分估值包含了对 AI 的误解，“让他们去治愈癌症”将像“何不食肉糜”。",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "tags": [
+        "podcast",
+        "benchmarks",
+        "reliability",
+        "models"
+      ]
+    }
+  ]
+}
