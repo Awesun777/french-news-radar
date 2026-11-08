@@ -1,8 +1,8 @@
 {
-  "lastRunAt": "2026-11-06T07:47:50Z",
-  "outcome": "new-postings",
+  "lastRunAt": "2026-11-08T03:49:53Z",
+  "outcome": "error",
   "newCount": 8,
-  "detail": "8 new postings (Citi)",
+  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
   "dayFile": "2026-11-06",
   "companies": {
     "Deutsche Bank": "ok",
