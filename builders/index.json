@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-06T07:31:58Z",
+  "generatedAt": "2026-11-10T07:25:02Z",
   "digests": [
+    {
+      "date": "2026-11-10",
+      "title": "Fable 5.2 day-zero takes: build bigger, run in cloud sandboxes; Handshake on what labs buy",
+      "itemCount": 9,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Shipper: Fable 5.2 is paradigm-shifting for ambitious projects, but slow and token-hungry",
+        "Rauch: new models need cloud sandboxes; MCP Events lets agents subscribe instead of poll",
+        "Latent Space: \"95% right is 100% wrong\" — labs buy expert, rubric-graded environments"
+      ]
+    },
     {
       "date": "2026-11-06",
       "title": "Rauch: scheduled agents are the killer app; Claude launches Personal Finance; Replit dodges 96% of Linux zero-days",
