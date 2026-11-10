@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-11-09T12:59:40Z",
+  "generatedAt": "2026-11-10T07:30:00Z",
   "digests": [
+    {
+      "date": "2026-11-10",
+      "title": "Claude Fable 5.2, Meta Muse Ember",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+        "Meta releases Muse Ember, a cheap multimodal model for agent tasks",
+        "Otter adds 27 languages and mid-meeting language switching"
+      ]
+    },
     {
       "date": "2026-11-09",
       "title": "Quiet weekend: OpenAI raise, Nvidia probe",

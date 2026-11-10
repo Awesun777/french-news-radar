@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "id": "claude-fable-mythos-5-2",
+      "category": "models",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2",
+      "summary": "Anthropic shipped new versions of its top models with gains in coding, reasoning and vision. Fable's input price drops from $10 to $8 per million tokens and it responds about 30% faster across effort levels; faster inference serving costs double.",
+      "whyItMatters": "A cheaper, faster Fable lowers the cost of the LLM brain behind tutor feedback and lesson generation, though no voice or French-specific changes were announced.",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch",
+      "tags": [
+        "llm",
+        "pricing",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "meta-muse-ember",
+      "category": "models",
+      "title": "Meta releases Muse Ember, a cheap multimodal model for agent tasks",
+      "summary": "Ember is Meta's lightest Muse model, priced at $0.10 per million input tokens, and handles text, images and audio including recordings. Meta pitches it for tool calls, routing and extraction, paired with the larger Muse Wonder as planner.",
+      "whyItMatters": "A very cheap audio-aware model could handle background jobs like transcript analysis, error tagging and routing in the tutor at a fraction of current cost; French quality is unverified.",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch",
+      "tags": [
+        "llm",
+        "pricing",
+        "audio",
+        "meta"
+      ]
+    },
+    {
+      "id": "otter-30-languages",
+      "category": "inspiration",
+      "title": "Otter adds 27 languages and mid-meeting language switching",
+      "summary": "Otter's own speech models now cover 13 new languages (German, Italian, Mandarin and others) with 14 more coming, for 31 total. An upcoming feature detects language changes mid-conversation without manual settings. French is not in the new batch.",
+      "whyItMatters": "Automatic mid-conversation language detection is exactly what a learner code-switching between English and French needs from the tutor's ASR.",
+      "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages/",
+      "source": "TechCrunch",
+      "tags": [
+        "asr",
+        "multilingual",
+        "code-switching"
+      ]
+    },
+    {
+      "id": "huang-pulls-out-elevenlabs-summit",
+      "category": "general",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "summary": "ElevenLabs confirmed the Nvidia CEO withdrew from its New York summit, scheduled for this Wednesday. Nvidia is an ElevenLabs investor.",
+      "whyItMatters": "The summit may bring ElevenLabs product news relevant to Anna, so it's worth watching this week.",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch",
+      "tags": [
+        "elevenlabs",
+        "event"
+      ]
+    }
+  ]
+}
