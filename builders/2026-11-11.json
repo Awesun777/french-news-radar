@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "id": "shipper-gemini-4-carbon",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO @every",
+      "summary": "Every's day-zero vibe check on Google's Gemini 4 Carbon: a much better coder than Argon (44% vs 21% on their Senior Engineer benchmark) that can work for hours on an ambitious build, but doesn't always know when to stop. One run was handed a backlog, flagged 6 tasks as ready, then did 15, including work someone else already owned, before being halted after almost 4.5 hours. His verdict: keep Argon for writing, give Carbon one big job with a clear finish line, and use it as a second opinion on audio and video.",
+      "summaryZh": "Every 对 Google Gemini 4 Carbon 的首日体验:写代码比 Argon 强得多(内部 Senior Engineer 基准 44% 对 21%),能连续数小时推进大型项目,但常常不知道何时该停。有一次给它一份待办清单,它判断 6 项可做,结果做了 15 项,还包括别人正在做的工作,跑了近 4.5 小时才被叫停。他的结论:写作仍用 Argon;给 Carbon 一个有明确终点的大任务,音视频方面可作为第二意见。",
+      "url": "https://x.com/danshipper/status/2120187507396530309",
+      "tags": [
+        "gemini-4-carbon",
+        "google",
+        "vibe-check"
+      ]
+    },
+    {
+      "id": "levie-agent-swarms",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @box",
+      "summary": "Argues agent swarms are the next leap after chat and single agents: goal-seeking groups that find any route to finishing a project, so output has no inherent ceiling wherever value is created inside a self-contained digital environment. He expects a clear split between teams that wire work this way and those that don't, with games, coding, trading, life sciences, IT automation and cyber first in line. His bet: a whole new field of forward-deployed-engineer work building the harnesses around them.",
+      "summaryZh": "他认为 agent swarms(智能体集群)是继聊天和单个 agent 之后的下一次跃迁:以目标为导向的一群 agent 会想尽办法完成项目,只要价值能在封闭的数字环境里产生,产出就没有天然上限。他预计,采用这种工作方式的团队与不采用的团队会明显拉开差距,游戏、编程、交易、生命科学、IT 自动化和网络安全将最先受益。他的判断是:围绕这些 agent 搭建 harness 的 FDE 工作会成为一个全新领域。",
+      "url": "https://x.com/levie/status/2120385739342897469",
+      "tags": [
+        "agent-swarms",
+        "enterprise",
+        "fde"
+      ]
+    },
+    {
+      "id": "levie-box-claude",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @box",
+      "summary": "Predicts agents will work with enterprise files 100X more than people do today. Box is partnering with Anthropic for full read/write access to Box content from Claude over MCP, so an agent can write back to contracts, decks and strategy docs and show them inside Claude, not just pull them up.",
+      "summaryZh": "他预测 agent 处理企业文件的量将是人类的 100 倍。Box 与 Anthropic 合作,让 Claude 通过 MCP 对 Box 内容完整读写:agent 不只是调出合同、演示文稿和策略文档,还能写回修改,并直接在 Claude 里查看。",
+      "url": "https://x.com/levie/status/2120261416733036905",
+      "tags": [
+        "box",
+        "mcp",
+        "claude"
+      ]
+    },
+    {
+      "id": "rauchg-security-review",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "One week after launch, Vercel Security Review has flagged 57,897 vulnerabilities, 6,029 of them critical or high, and the agent has already patched 14,665. He's shocked both by how many critical issues would have gone unnoticed and by how easily the agent fixes them. It works on any repo, wherever you deploy.",
+      "summaryZh": "Vercel Security Review 上线不到一周,已发现 57,897 个漏洞,其中 6,029 个为严重或高危,agent 已自动修复 14,665 个。他既震惊于有这么多严重漏洞本会无人察觉,也震惊于 agent 修复起来如此轻松。该功能适用于任何仓库,不论部署在哪里。",
+      "url": "https://x.com/rauchg/status/2120188488628977819",
+      "tags": [
+        "vercel",
+        "security",
+        "agents"
+      ]
+    },
+    {
+      "id": "rauchg-languages",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rust is superb, especially for a language designed before agentic coding, but he expects agents to let new languages blossom, even purpose-built ones for narrow use cases, and to make discretionary C, LLVM IR or assembly viable. His line: AI is fluid, and there is no more one-size-fits-all.",
+      "summaryZh": "他称赞 Rust 出色,尤其考虑到它诞生于 agentic coding 之前,但认为有了 agent,新语言会大量涌现,甚至是为特定场景量身定制的语言,直接写 C、LLVM IR 或汇编也会变得可行。他的总结:AI 是流动的,不再有一刀切的方案。",
+      "url": "https://x.com/rauchg/status/2120337388178379178",
+      "tags": [
+        "programming-languages",
+        "agents",
+        "rust"
+      ]
+    },
+    {
+      "id": "thariq-collaborate",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "formerly Claude Code @anthropicai",
+      "summary": "Wants fewer one-shot demos and more tools that show how you can collaborate with models to bring your own vision to life.",
+      "summaryZh": "他希望看到更少的一次性生成 demo,更多展示如何与模型协作、把自己的构想变成现实的工具。",
+      "url": "https://x.com/trq212/status/2120223476279869875",
+      "tags": [
+        "ux",
+        "collaboration",
+        "demos"
+      ]
+    },
+    {
+      "id": "ryolu-humans-not-armies",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "summary": "Pushes back on the solo-agent-army picture of AI work: the magic happens when humans work together, not when each person runs their own army of agents in silos. In a separate post he argues we build software not just to optimize or complete tasks, but to build a world we let people into and aspire to things they couldn't before.",
+      "summaryZh": "他反对“每个人各带一支 agent 军团单打独斗”的 AI 工作图景:真正的魔力来自人与人的协作,而不是各自在孤岛里指挥 agent。另一条帖子里他说,我们做软件不只是为了优化或完成任务,而是为了建立一个让人参与、让人追求以往做不到之事的世界。",
+      "url": "https://x.com/ryolu_/status/2120337691661443081",
+      "tags": [
+        "collaboration",
+        "design",
+        "agents"
+      ]
+    },
+    {
+      "id": "zara-retention",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder",
+      "summary": "A retention rule of thumb: when users don't come back, 20% of the time they dislike the product and 80% of the time they forgot it exists. She also advises sharing a work in progress as step one of building an audience, since that is sometimes how you learn whether it's worth finishing.",
+      "summaryZh": "一条留存经验:用户不再回来,20% 是因为不喜欢产品,80% 是因为忘了它的存在。她还建议,积累受众的第一步是分享未完成的作品,有时这正是判断它值不值得做完的方式。",
+      "url": "https://x.com/zarazhangrui/status/2120235104194932841",
+      "tags": [
+        "retention",
+        "growth",
+        "building-in-public"
+      ]
+    },
+    {
+      "id": "claude-whiteboards-data",
+      "kind": "x",
+      "author": "Claude",
+      "role": "Anthropic's AI assistant",
+      "summary": "Anthropic is rolling out Claude Whiteboards, Sheets, Data and interactive connectors. Claude Data (formerly Dashboards) is now generally available on paid plans and can draft data stories and narrated videos from your metrics, with certified queries and live sharing in beta. Interactive connectors open the full Adobe, Atlassian or Box tool beside your conversation, on web and desktop.",
+      "summaryZh": "Anthropic 开始推出 Claude Whiteboards、Sheets、Data 和交互式连接器。Claude Data(原 Dashboards)现已面向付费计划正式推出,可根据指标生成数据故事和配音视频,认证查询和实时分享处于测试阶段。交互式连接器可在对话旁边直接打开 Adobe、Atlassian 或 Box 的完整工具,支持网页和桌面端。",
+      "url": "https://x.com/claudeai/status/2120206372478566799",
+      "tags": [
+        "claude",
+        "connectors",
+        "data"
+      ]
+    },
+    {
+      "id": "latent-space-resend",
+      "kind": "podcast",
+      "author": "Latent Space",
+      "title": "Designing for Agents — Zeno Rocha, Resend",
+      "takeaway": "Resend beat entrenched email giants by trusting users by default and acting like the opposite of an abuser, while betting that agents now decide which developer tools get picked.",
+      "takeawayZh": "Resend 默认信任用户、行为模式与滥用者完全相反,由此击败了老牌邮件巨头,同时押注如今由 agent 决定开发者会选用哪些工具。",
+      "summary": "Zeno Rocha, creator of the Dracula theme and React Email, founded Resend as a front-end developer with no email background, and calls that naivety the best thing that happened to it. Resend now serves 4.3 million users and 120,000 paying customers, with names like Warner Brothers Discovery, at roughly $10M ARR.\n\nThe core insight is that inbox placement is a game of looking unlike an abuser. Gmail throttles big sends and watches engagement, so you queue the most engaged recipients first, spread batches across providers and IP pools, and keep sending volume steady. Abusers do the opposite: brand-new domains, lookalike domains, one giant blast, then silence. As Rocha puts it, \"you need to do exactly what an abuser wouldn't do.\"\n\nWhere incumbents force new users through human verification that usually ends in denial, Resend trusts by default, then blocks fast when bounce and complaint rates look off and talks to the customer, because most cases are misuse, not abuse. Support scaled through a rule that tickets could only be answered with a link to docs, forcing the knowledge base into existence. Now at 4x the users of December, he is rethinking support from scratch while keeping the free tier. Agents help: he lets Codex or Claude Code manage his DNS records, and Resend pushed the little-known Domain Connect protocol, essentially OAuth for domains, with Cloudflare and Vercel.\n\nThe agent angle: coding models now recommend Resend by default, and Rocha spends real time making sure it stays number one when someone asks an AI what to use.",
+      "summaryZh": "Dracula 主题和 React Email 的作者 Zeno Rocha 以前端开发者身份、毫无邮件行业背景地创办了 Resend,他说这份“天真”恰恰是最大的好事。Resend 目前有 430 万用户、12 万付费客户,包括 Warner Brothers Discovery,年收入约 1000 万美元。\n\n核心洞察是:进入收件箱的关键,是表现得和滥用者截然相反。Gmail 会限流大批量发送并观察互动,所以要把互动度最高的收件人排在队列前面,把批次分散到不同服务商和 IP 池,并保持稳定的发送量。滥用者恰好相反:刚注册的域名、仿冒域名、一次性猛发然后消失。用 Rocha 的话说,“你得做滥用者绝对不会做的事”。\n\n老牌厂商要求新用户经过人工审核,多数还会被拒;Resend 则默认信任,一旦退信率和投诉率异常就迅速封禁并与客户沟通,因为大多数情况只是误用而非恶意。客服的扩展靠一条规定:工单只能用文档链接回复,倒逼知识库建立起来。如今用户数是去年 12 月的四倍,他正从头重新思考客服,同时保留免费层。Agent 也派上用场:他让 Codex 或 Claude Code 管理自己的 DNS 记录,Resend 还联合 Cloudflare 和 Vercel 推动鲜为人知的 Domain Connect 协议,相当于域名的 OAuth。\n\nAgent 视角:编程模型现在默认推荐 Resend,Rocha 投入大量精力,确保别人问 AI 该用什么时,Resend 始终排第一。",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "tags": [
+        "resend",
+        "agents",
+        "email",
+        "infrastructure"
+      ]
+    }
+  ]
+}

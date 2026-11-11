@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-10T07:25:02Z",
+  "generatedAt": "2026-11-11T07:53:13Z",
   "digests": [
+    {
+      "date": "2026-11-11",
+      "title": "Gemini 4 Carbon day-zero takes, agent swarms, and designing dev tools for agents (Resend)",
+      "itemCount": 10,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Shipper: Gemini 4 Carbon codes far better than Argon but doesn't know when to stop",
+        "Levie: agent swarms will split teams that adopt them from those that don't",
+        "Rocha (Resend): beat email incumbents by doing the opposite of an abuser, and by being the tool agents recommend"
+      ]
+    },
     {
       "date": "2026-11-10",
       "title": "Fable 5.2 day-zero takes: build bigger, run in cloud sandboxes; Handshake on what labs buy",
