@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-10T07:30:00Z",
+  "generatedAt": "2026-11-11T06:13:43Z",
   "digests": [
+    {
+      "date": "2026-11-11",
+      "title": "Anthropic IPO roadshow, Nvidia probe",
+      "itemCount": 3,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Anthropic launches IPO roadshow, targets $70-$78/share on Nasdaq",
+        "Nvidia board formalizes independent probe into Huang's China-linked affair",
+        "Stanford's AI100 report: the scaling era may be plateauing"
+      ]
+    },
     {
       "date": "2026-11-10",
       "title": "Claude Fable 5.2, Meta Muse Ember",

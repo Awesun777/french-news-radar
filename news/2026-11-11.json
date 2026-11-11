@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "id": "anthropic-ipo-roadshow",
+      "category": "general",
+      "title": "Anthropic launches IPO roadshow, targets $70–$78/share on Nasdaq",
+      "summary": "Anthropic kicked off the investor roadshow for its IPO on November 10, with an expected price range of $70.00–$78.00 per share. The company plans to list on the Nasdaq Global Select Market under the ticker \"ANT\", following its confidential S-1 filing earlier this year.",
+      "whyItMatters": "A successful IPO brings fresh capital and scrutiny to Anthropic's roadmap — the LLM brain behind tutor feedback and lesson generation — though no API pricing or product changes land today.",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "Anthropic",
+      "tags": ["anthropic", "ipo", "business"]
+    },
+    {
+      "id": "nvidia-board-independent-probe",
+      "category": "general",
+      "title": "Nvidia board formalizes independent probe into Huang's China-linked affair",
+      "summary": "Nvidia's board has assembled a committee of independent directors with outside counsel to investigate CEO Jensen Huang's relationship with a Megaspeed executive US intelligence reportedly believed was passing information to China. Huang admitted the affair and says he'll cooperate fully; the board says it has no reason to believe trade secrets were compromised, and he remains in charge. Separately, members of Congress set a November 11 deadline for Huang to accept a closed-door briefing.",
+      "whyItMatters": "Nvidia GPUs sit underneath nearly every voice/LLM vendor the tutor depends on, so sustained leadership turmoil — even without a product impact yet — is worth tracking for supply and pricing risk.",
+      "url": "https://fourweekmba.com/ai-nvidia-board-opens-independent-probe-9-days-before-results/",
+      "source": "FourWeekMBA",
+      "tags": ["nvidia", "industry", "leadership"]
+    },
+    {
+      "id": "stanford-ai100-ai-goes-mainstream",
+      "category": "general",
+      "title": "Stanford's AI100 report: the scaling era may be plateauing",
+      "summary": "The third report in Stanford's 100-Year Study on AI, \"AI Goes Mainstream: The Scaling Era and the Rise of Generative AI,\" argues that pure scaling is running short of new high-quality training data and that compute costs for frontier models are becoming prohibitive.",
+      "whyItMatters": "If brute-force scaling is genuinely hitting diminishing returns, the next gains for a voice tutor's LLM brain are more likely to come from better data, distillation and architecture than from ever-bigger models — worth watching for where to invest build effort.",
+      "url": "https://thenextweb.com/news/stanford-ai100-report-2026-ai-goes-mainstream",
+      "source": "The Next Web",
+      "tags": ["research", "scaling", "industry"]
+    }
+  ]
+}
