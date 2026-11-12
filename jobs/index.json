@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-10T07:33:00Z",
+  "generatedAt": "2026-11-12T15:01:48Z",
   "digests": [
+    {
+      "date": "2026-11-12",
+      "itemCount": 5,
+      "companies": [
+        "Houlihan Lokey",
+        "Nomura"
+      ]
+    },
     {
       "date": "2026-11-10",
       "itemCount": 23,

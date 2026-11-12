@@ -1,15 +1,15 @@
 {
-  "lastRunAt": "2026-11-11T09:55:33Z",
-  "outcome": "error",
-  "newCount": 23,
-  "detail": "run failed (exit 1) \u2014 see ~/Library/Logs/news-radar-digest.log",
-  "dayFile": "2026-11-10",
+  "lastRunAt": "2026-11-12T15:01:48Z",
+  "outcome": "new-postings",
+  "newCount": 5,
+  "detail": "5 new postings (Houlihan Lokey, Nomura); 11 unreachable",
+  "dayFile": "2026-11-12",
   "companies": {
-    "Deutsche Bank": "ok",
-    "Barclays": "ok",
-    "JP Morgan": "ok",
-    "Stepstone": "ok",
-    "Raymond James": "ok",
+    "Deutsche Bank": "unreachable",
+    "Barclays": "unreachable",
+    "JP Morgan": "unreachable",
+    "Stepstone": "unreachable",
+    "Raymond James": "unreachable",
     "Dc advisory": "unreachable",
     "Bda partners": "unreachable",
     "Houlihan Lokey": "ok",
@@ -20,7 +20,7 @@
     "Mizuho americas": "ok",
     "Mangroup": "ok",
     "Citi": "ok",
-    "Macquarie": "ok",
-    "Pwc": "ok"
+    "Macquarie": "unreachable",
+    "Pwc": "unreachable"
   }
 }

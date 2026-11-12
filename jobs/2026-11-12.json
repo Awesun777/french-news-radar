@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T15:01:48Z",
+  "items": [
+    {
+      "id": "houlihan-lokey-1",
+      "company": "Houlihan Lokey",
+      "title": "Investment Banking Senior Analyst | Consumer",
+      "url": "https://hl.wd1.myworkdayjobs.com/Lateral/job/Chicago-IL-USA/Investment-Banking-Senior-Analyst---Consumer_R3771",
+      "location": "Chicago, IL, USA",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-2",
+      "company": "Houlihan Lokey",
+      "title": "Investment Banking Analyst | Industrials",
+      "url": "https://hl.wd1.myworkdayjobs.com/Lateral/job/New-York-NY-USA/Investment-Banking-Analyst---Industrials_R3765",
+      "location": "New York, NY, USA",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "houlihan-lokey-3",
+      "company": "Houlihan Lokey",
+      "title": "Workday Analyst, IT (Payroll)",
+      "url": "https://hl.wd1.myworkdayjobs.com/Lateral/job/New-York-NY-USA/Workday-Analyst--IT--Payroll-_R3760",
+      "location": "8 Locations",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "Information Security Analyst",
+      "url": "https://careers.nomura.com/Nomura/job/Jacksonville-Information-Security-Analyst-FL-32207/1358188700/",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "nomura-2",
+      "company": "Nomura",
+      "title": "CLO Structuring Analyst/Associate",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-CLO-Structuring-AnalystAssociate-NY-10019/1447232200/",
+      "matchedRoles": [
+        "analyst"
+      ]
+    }
+  ]
+}
