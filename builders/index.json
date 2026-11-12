@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-11T07:53:13Z",
+  "generatedAt": "2026-11-12T13:20:30Z",
   "digests": [
+    {
+      "date": "2026-11-12",
+      "title": "Frontier-vs-diffusion startups, AI infra sub-processor data, and the Jensen Huang debate",
+      "itemCount": 6,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Kothari: 44% of AI-native companies list 2+ model providers; Anthropic grew twice as fast as OpenAI",
+        "Agarwal: build either AI diffusion or AI-for-science frontier companies; the latter is where returns will come",
+        "Shipper: generating answers is cheap, ranking them is hard, which is why human perspective still matters"
+      ]
+    },
     {
       "date": "2026-11-11",
       "title": "Gemini 4 Carbon day-zero takes, agent swarms, and designing dev tools for agents (Resend)",
