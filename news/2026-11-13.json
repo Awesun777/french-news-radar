@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "id": "nvidia-ceo-resignation",
+      "category": "general",
+      "title": "Nvidia CEO Jensen Huang resigns, CFO Colette Kress named interim chief",
+      "summary": "Nvidia's board accepted Jensen Huang's resignation as President, CEO and board member, effective immediately, per a November 11 SEC Form 8-K. CFO Colette Kress becomes interim CEO while keeping her CFO title, and Harvey C. Jones becomes the company's first independent Board Chair. The board is searching for a permanent successor; no cause was given, though it follows reports of a board probe into a personal relationship of Huang's with a China-linked individual.",
+      "whyItMatters": "Nvidia GPUs sit underneath nearly every LLM and voice-model vendor the tutor depends on, so a sudden, unexplained change at the top is worth tracking for downstream supply and pricing risk, even with no product impact yet.",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "source": "Nvidia SEC Form 8-K",
+      "tags": ["nvidia", "leadership", "industry"]
+    },
+    {
+      "id": "apple-homeview-launch",
+      "category": "general",
+      "title": "Apple HomeView smart display ships today with Siri AI (beta)",
+      "summary": "Apple's $299 HomeView — a 7-inch, A18-chip smart home display in tabletop and wall-mounted models — goes on sale November 13 in the US, UK, Canada, Australia, New Zealand, India and Singapore. It launches with the new Siri AI in beta, working in English at launch; Canadian French support is reported to follow later.",
+      "whyItMatters": "A mainstream ambient voice-assistant device betting on conversational Siri AI is a useful signal for what a 'kitchen counter' French tutor experience could look like — and the delayed French rollout underlines how hard multilingual voice UX still is even for Apple.",
+      "url": "https://fortune.com/2026/10/13/apple-homeview-display-launch-a-bet-on-upgraded-siri-ai/",
+      "source": "Fortune",
+      "tags": ["voice", "hardware", "siri", "french"]
+    }
+  ]
+}
