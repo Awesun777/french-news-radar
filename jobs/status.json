@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-11-12T15:01:58Z",
+  "lastRunAt": "2026-11-13T07:55:12Z",
   "outcome": "new-postings",
-  "newCount": 5,
-  "detail": "5 new postings (Houlihan Lokey, Nomura); 11 unreachable",
-  "dayFile": "2026-11-12",
+  "newCount": 1,
+  "detail": "1 new posting (Mizuho americas); 13 unreachable",
+  "dayFile": "2026-11-13",
   "companies": {
     "Deutsche Bank": "unreachable",
     "Barclays": "unreachable",
@@ -14,12 +14,12 @@
     "Bda partners": "unreachable",
     "Houlihan Lokey": "ok",
     "Ubs": "unreachable",
-    "Scotiabank": "ok",
+    "Scotiabank": "unreachable",
     "BNPP": "unreachable",
     "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
-    "Citi": "ok",
+    "Citi": "unreachable",
     "Macquarie": "unreachable",
     "Pwc": "unreachable"
   }
