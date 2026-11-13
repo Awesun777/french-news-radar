@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "id": "woodward-gemini-4-hydrogen",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, Google / Google Labs / Gemini App / Google AI Studio",
+      "summary": "Woodward announced Gemini 4 Hydrogen, now live in the Gemini app, calling it fast, smart and \"a big jump.\" He paired it with a first-person Gemini demo, with glasses available to pre-order and to demo in select Warby Parker, Gentle Monster and Google stores, shipping Dec 10.",
+      "summaryZh": "Woodward 宣布 Gemini 4 Hydrogen 已上线 Gemini 应用，称其又快又聪明，是“一次大跃升”。他同时展示了“第一人称视角”的 Gemini，相关眼镜已开放预订，可在部分 Warby Parker、Gentle Monster 和 Google 门店试用，12 月 10 日发货。",
+      "url": "https://x.com/joshwoodward/status/2120942262054232392",
+      "tags": [
+        "Gemini",
+        "model-launch",
+        "wearables"
+      ]
+    },
+    {
+      "id": "levie-hydrogen-box-eval",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO, Box",
+      "summary": "Box tested Gemini 4 Hydrogen in early access on its AI Complex Work Eval and calls it \"a serious jump for fast models\": 5 points more accurate than Gemini 3.8 Flash, finishing tasks in under half the time with about 12% fewer tokens. It will roll out in Box AI Studio so customers can build custom agents on it.",
+      "summaryZh": "Box 在其 AI Complex Work Eval 上提前测试了 Gemini 4 Hydrogen，称这是“快速模型的重大跃升”：准确率比 Gemini 3.8 Flash 高 5 个百分点，耗时不到一半，token 用量少约 12%。该模型将很快登陆 Box AI Studio，客户可用它构建自定义智能体。",
+      "url": "https://x.com/levie/status/2120947988143198302",
+      "tags": [
+        "Gemini",
+        "evals",
+        "enterprise-agents"
+      ]
+    },
+    {
+      "id": "rauch-ui-sdk",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "CEO, Vercel",
+      "summary": "Rauch argues that in the agents era frameworks and component libraries need to \"drill deeper\": delete the part, optimize, automate. He pitches UI SDK as the x86 instruction set for agents, packaged behaviors (accessibility, performance, cohesion) that let agents generate any UI without rigid single-framework abstractions.",
+      "summaryZh": "Rauch 认为在智能体时代，框架和组件库需要“更深一层”：删掉中间层、优化、自动化。他把 UI SDK 比作智能体的 x86 指令集——封装好的行为（无障碍、性能、一致性）让智能体能自由生成任意 UI，而不受僵化的单框架抽象束缚。",
+      "url": "https://x.com/rauchg/status/2120966768483262648",
+      "tags": [
+        "agents",
+        "frontend",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "albert-claude-meetings",
+      "kind": "x",
+      "author": "Alex Albert",
+      "role": "Research, Anthropic",
+      "summary": "Albert says getting good work out of Claude now largely means finding the context it's missing and closing that gap. Claude Meetings is one way to bring in those remaining slices, and it has proved very useful inside Anthropic.",
+      "summaryZh": "Albert 表示，如今要让 Claude 产出好结果，很大程度上就是找出它缺失的上下文并补上。Claude Meetings 就是引入这些剩余信息的一种方式，在 Anthropic 内部已证明非常有用。",
+      "url": "https://x.com/alexalbert__/status/2120983722182988206",
+      "tags": [
+        "Claude",
+        "context",
+        "meetings"
+      ]
+    },
+    {
+      "id": "masad-replit-agent-buys",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO, Replit",
+      "summary": "Replit Agent can now buy things for your business, including ads to acquire new customers.",
+      "summaryZh": "Replit Agent 现在可以替你的业务采购，包括购买广告来获取新客户。",
+      "url": "https://x.com/amasad/status/2121018020520931712",
+      "tags": [
+        "Replit",
+        "agents",
+        "commerce"
+      ]
+    },
+    {
+      "id": "steipete-paid-agent-reviews",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "summary": "Steinberger warns that a new agent is launching later this week and marketers are offering a lot of money for nice posts about it on X, so watch for honest reviews.",
+      "summaryZh": "Steinberger 提醒：本周晚些时候将有新智能体发布，营销方正出高价请人在 X 上说好话，大家要留意真实的评测。",
+      "url": "https://x.com/steipete/status/2121009372470067544",
+      "tags": [
+        "agents",
+        "paid-promotion"
+      ]
+    },
+    {
+      "id": "turck-jensen-ecosystem",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at FirstMark; host of MAD Podcast",
+      "summary": "On Jensen Huang's exit, Turck says the AI ecosystem loses its central banker (backstops), its most active investor, and a bold acquirer, adding kudos to Hugging Face for perhaps the best timing in large M&A history. In his view those are moves only a founder can make.",
+      "summaryZh": "谈到黄仁勋离任，Turck 认为 AI 生态失去了它的“中央银行家”（兜底者）、最活跃的投资人和敢下重手的收购方，并称赞 Hugging Face 可能拥有大型并购史上最好的时机。在他看来，这些大胆举动只有创始人才做得出来。",
+      "url": "https://x.com/mattturck/status/2120951444526264388",
+      "tags": [
+        "Nvidia",
+        "Jensen-Huang",
+        "ecosystem"
+      ]
+    },
+    {
+      "id": "shipper-honeypot-satire",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO, Every",
+      "summary": "Shipper answers the \"honeypot\" chatter with a satire: the real infidelity is a system that tells Nvidia both to withhold its best chips from China and to sell as many as possible. Jensen, he says, wasn't cheating on the system; the system wants two incompatible things, contain China and dominate its market.",
+      "summaryZh": "Shipper 用一段讽刺文回应“蜜罐”热议：真正的“不忠”在于体制既要英伟达不向中国出售最强芯片，又要它尽可能多卖。他说黄仁勋并没有背叛体制；体制本身想要两件互不相容的事——遏制中国与主导中国市场。",
+      "url": "https://x.com/danshipper/status/2121036252350972222",
+      "tags": [
+        "Nvidia",
+        "export-controls",
+        "satire"
+      ]
+    },
+    {
+      "id": "no-priors-isomorphic-jaderberg",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "takeaway": "Isomorphic's bet is to move drug discovery onto a computer by pushing simulation models to experimental accuracy, so fewer drugs fail late in the clinic.",
+      "takeawayZh": "Isomorphic 的赌注是把药物研发搬到计算机上，让模拟模型达到实验级精度，从而减少药物在临床后期失败。",
+      "summary": "Max Jaderberg, president of Isomorphic Labs, explains why drug approvals per year are flat despite exploding scientific knowledge: medicine-making is still an empirical, trial-and-error process over a combinatorially huge space, and each drug programme is treated as a bespoke project with little carrying over to the next. Isomorphic's North Star is to bring drug design and disease biology \"onto a computer\" so teams can get out of the real world, where synthesizing atoms and running assays is the time and cost bottleneck. Internally every leaderboard has a dotted line marking experimental accuracy; once models reach it, you iterate in silico and the probability of success in the lab is much higher. The costly failures happen in the clinic, where toxicity or off-target effects only appear in patients, so the opportunity is understanding disease biology and cell behaviour earlier. Jaderberg argues animal tox is a weak proxy, and that in vitro endpoints, AI models and organoids or organs-on-chip could better predict human toxicity. On data, Isomorphic generates much of its own rather than relying on biased legacy repositories, and has seen strong data scaling laws. Models are built in house, while experiments are run with CROs and partners. For hiring, they mix top deep-learning people with biologists and chemists, with a rough one domain expert per five modelers on AI projects. Quotes: \"we have a dotted line on all of our leaderboards that is experimental accuracy\"; of rat toxicity studies, \"it's about 30% predictive of human clinical tox.\"",
+      "summaryZh": "Isomorphic Labs 总裁 Max Jaderberg 解释了为什么科学知识爆炸式增长，每年获批新药数量却持平：制药仍是经验主义的试错过程，面对的是组合爆炸的巨大空间，每个药物项目都被当作定制课题，经验很难迁移到下一个。Isomorphic 的北极星是把药物设计和疾病生物学“搬到计算机上”，摆脱现实世界——合成分子和做实验才是时间与成本的瓶颈。公司内部每个排行榜上都有一条标示“实验精度”的虚线；模型一旦达到，就能在计算机上反复迭代，进入实验室后的成功率会高得多。代价最高的失败发生在临床阶段，毒性或脱靶效应只有在患者身上才显现，因此机会在于更早理解疾病生物学和细胞行为。Jaderberg 认为动物毒性实验只是薄弱的替代指标，体外终点、AI 模型和类器官／器官芯片结合起来，有望更好地预测人体毒性。数据方面，Isomorphic 大量自行生成数据，而非依赖有偏的历史数据库，并观察到了明显的数据扩展律。模型全部自研，实验则与 CRO 及合作方共同完成。招聘上，他们把顶尖深度学习人才与生物、化学专家混合编组，AI 项目中大致每五名建模者配一名领域专家。\n\n金句：“我们所有排行榜上都有一条虚线，代表实验精度。”；谈到大鼠毒性实验：“对人体临床毒性的预测力只有约 30%。”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "biotech",
+        "drug-discovery",
+        "Isomorphic",
+        "AlphaFold"
+      ]
+    }
+  ]
+}

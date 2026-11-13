@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-12T13:20:30Z",
+  "generatedAt": "2026-11-13T07:54:18Z",
   "digests": [
+    {
+      "date": "2026-11-13",
+      "title": "Gemini 4 Hydrogen lands, Claude Meetings, and Isomorphic's push to move drug discovery onto a computer",
+      "itemCount": 9,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Levie: Box eval shows Gemini 4 Hydrogen 5 points more accurate than 3.8 Flash in under half the time",
+        "Rauch: UI SDK as the x86 instruction set for agents building UI",
+        "Jaderberg: Isomorphic aims to hit experimental accuracy in silico so fewer drugs fail in the clinic"
+      ]
+    },
     {
       "date": "2026-11-12",
       "title": "Frontier-vs-diffusion startups, AI infra sub-processor data, and the Jensen Huang debate",
