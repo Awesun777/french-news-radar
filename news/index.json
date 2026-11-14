@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-13T06:14:05Z",
+  "generatedAt": "2026-11-14T06:18:36Z",
   "digests": [
+    {
+      "date": "2026-11-14",
+      "title": "Gemini 4 Hydrogen ships, ElevenLabs cuts agent cost 70%",
+      "itemCount": 3,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Google ships Gemini 4 Hydrogen, opens pre-orders for Gemini-powered smart glasses",
+        "ElevenLabs adds Nvidia's Nemotron 3.5 Super VL to ElevenAgents, claims 70% lower cost",
+        "Anthropic's IPO reportedly oversubscribed; pricing set for Nov 18, Nasdaq debut Nov 19"
+      ]
+    },
     {
       "date": "2026-11-13",
       "title": "Nvidia's Huang resigns, Apple HomeView ships",

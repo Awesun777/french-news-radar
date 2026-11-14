@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "id": "google-gemini-4-hydrogen",
+      "category": "models",
+      "title": "Google ships Gemini 4 Hydrogen, opens pre-orders for Gemini-powered smart glasses",
+      "summary": "Google's VP of the Gemini app, Josh Woodward, announced that Gemini 4 Hydrogen is now live in the Gemini app, calling it fast, smart and \"a big jump.\" Box CEO Aaron Levie said an early-access run on Box's internal Complex Work Eval scored it 5 points above Gemini 3.8 Flash while finishing tasks in under half the time and using about 12% fewer tokens. Google also opened pre-orders for its Gemini-powered audio smart glasses, designed with Warby Parker and Gentle Monster, shipping December 10.",
+      "whyItMatters": "A faster, cheaper Flash-tier Gemini is a good candidate for latency-sensitive tutor chores (intent routing, quick grammar checks) where Romain and Anna don't need a frontier model's full cost.",
+      "url": "https://x.com/joshwoodward/status/2120942262054232392",
+      "source": "Josh Woodward (Google) on X",
+      "tags": ["gemini", "llm", "pricing", "latency"]
+    },
+    {
+      "id": "elevenlabs-nvidia-nemotron-elevenagents",
+      "category": "models",
+      "title": "ElevenLabs adds Nvidia's Nemotron 3.5 Super VL to ElevenAgents, claims 70% lower cost",
+      "summary": "At its November 11 New York Summit, ElevenLabs said customers can now run post-trained versions of Nvidia's open Nemotron 3.5 Super VL inside ElevenAgents. ElevenLabs reports leading task-completion accuracy on its customer-support benchmark at 70% lower cost than other leading open models, plus a reasoning-off mode that ranks among the platform's three fastest options. The companies are adding 15MW of Blackwell Ultra/Vera Rubin compute, with Poland's national e-Health platform as the first government deployment.",
+      "whyItMatters": "A materially cheaper, fast open reasoning model built into the ElevenAgents stack is directly relevant to Anna's cost and latency budget if ElevenLabs exposes it as a swappable backend.",
+      "url": "https://elevenlabs.io/blog/nvidia",
+      "source": "ElevenLabs blog",
+      "tags": ["elevenlabs", "nvidia", "pricing", "voice-agents"]
+    },
+    {
+      "id": "anthropic-ipo-pricing-nov18",
+      "category": "general",
+      "title": "Anthropic's IPO reportedly oversubscribed; pricing set for Nov 18, Nasdaq debut Nov 19",
+      "summary": "Following Monday's roadshow launch, reports say Anthropic's IPO book is multiple times oversubscribed within its $70-$78/share range. Anthropic plans to price shares on November 18 and begin trading on Nasdaq under ticker \"ANT\" on November 19, with a fully diluted valuation near $1.4 trillion at the top of the range.",
+      "whyItMatters": "Strong demand for Anthropic's IPO is a read on investor confidence in the LLM vendor behind the tutor's reasoning and feedback layer, though it changes no pricing or API terms today.",
+      "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed",
+      "source": "StockAnalysis.com",
+      "tags": ["anthropic", "ipo", "business"]
+    }
+  ]
+}
