@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "id": "rauch-xeet",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch released xeet, a hermetic, pixel-perfect X post renderer written in safe Rust/wasm that turns a post into a PNG in about 1ms with no browser, network, filesystem or system fonts. He says it is 100x–1000x faster than screenshotting in a headless browser yet just as accurate, reproducing Blink and HarfBuzz text shaping, RTL bidi, 28 Chirp font subsets and \"Show more\" rules — work he calls wildly impractical for a human engineer. The repo is an \"autorepo\": a Chrome oracle verifies tens of thousands of text-layout rules, and a CI canary files signed PRs for agents to act on, built around what he calls \"verification engineering\".",
+      "summaryZh": "Vercel CEO Guillermo Rauch 发布了 xeet：一个用安全 Rust/wasm 编写的、完全封闭且像素级精确的 X 帖子渲染器，约 1 毫秒即可把帖子渲染成 PNG，不依赖浏览器、网络、文件系统或系统字体。他称其比无头浏览器截图快 100 到 1000 倍，同时一样准确，复现了 Blink 与 HarfBuzz 的文本排版、RTL 双向文字、28 个 Chirp 字体子集以及“Show more”规则——他说这对人类工程师来说几乎不可能完成。该仓库是一个“autorepo”：由 Chrome 作为“预言机”校验数以万计的排版规则，CI 金丝雀则监控原版的演变并提交签名 PR 供智能体处理，核心理念是“验证工程”。",
+      "url": "https://x.com/rauchg/status/2122184794209714368",
+      "tags": [
+        "rust",
+        "agents",
+        "verification",
+        "tooling"
+      ]
+    },
+    {
+      "id": "shipper-compounding-skills",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO of Every",
+      "summary": "Every CEO Dan Shipper says his team has been working on \"compounding skills\" — skills that get better every time they're used — and believes Every's Mike Taylor (@hammer_mt) has finally cracked it. Over the weekend Shipper built a skill for writing context-window summaries and used autoresearch to iterate it until it matched 80% of his taste versus a no-skill baseline. The full writeup is published for agents on the Every frontier feed.",
+      "summaryZh": "Every CEO Dan Shipper 说，团队最近一直在研究“复利式技能”（compounding skills）——每用一次就变得更好的技能，他认为 Every 的 Mike Taylor（@hammer_mt）终于把它做成了。周末他做了一个撰写上下文窗口摘要的技能，并用 autoresearch 反复迭代，直到在摘要品味上达到相对无技能基线 80% 的契合度。完整文章发布在 Every 的 frontier feed 上，面向智能体阅读。",
+      "url": "https://x.com/danshipper/status/2122091033001337134",
+      "tags": [
+        "skills",
+        "autoresearch",
+        "agents",
+        "every"
+      ]
+    },
+    {
+      "id": "yang-parrott-claude-design",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Peter Yang shared two takeaways from his interview with Anthropic's Nate Parrott (formerly of The Browser Company, maker of Arc). Parrott says Claude defaults to the same look — serif text, off-white background, orange, bars on card edges — because in each fresh context it \"thinks this is totally original\"; the Claude Design prompt therefore tells the model it over-biases toward those fonts and colors and should avoid them unless asked. On speed, Parrott says Arc took a couple of weeks per idea and a year of pre-production, versus one to two days at Anthropic — but what hasn't compressed is putting it in people's hands and learning whether they'll use it.",
+      "summaryZh": "Peter Yang 分享了他对 Anthropic 的 Nate Parrott（此前任职于 Arc 浏览器的开发公司 The Browser Company）访谈中的两点收获。Parrott 说 Claude 总是落入同一套外观——衬线字体、米白背景、橙色、卡片边缘的色条——因为在每个全新上下文里它都“以为这完全是原创”；因此 Claude Design 的提示词会明确告诉模型：它过度偏向这些字体和颜色，除非用户要求，否则不要使用。关于速度，Parrott 说做 Arc 时每个想法要几周、整个前期筹备一年，而在 Anthropic 只要一到两天——但没有被压缩的，是把产品交到用户手里并弄清他们是否会用的那个周期。",
+      "url": "https://x.com/petergyang/status/2122132596352327816",
+      "tags": [
+        "claude-design",
+        "prototyping",
+        "prompting",
+        "design"
+      ]
+    },
+    {
+      "id": "no-priors-vlad-tenev",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "takeaway": "Robinhood's Vlad Tenev bets that agents will put hedge-fund tooling in ordinary hands — over 150,000 customers already run agentic trading accounts — and that AI's gains must be broadly owned or society pushes back.",
+      "takeawayZh": "Robinhood 的 Vlad Tenev 认为，智能体会把对冲基金级的工具交到普通人手中——已有超过 15 万名客户开通了智能体交易账户——而 AI 的收益必须被广泛持有，否则社会会反弹。",
+      "summary": "Vlad Tenev, co-founder and CEO of Robinhood and co-founder of math-AI startup Harmonic, sums Robinhood up in one word: ownership. He grew up in Bulgaria during hyperinflation, where his grandparents stored wealth in copper cookware, and argues a society without broad ownership is fragile, because people who own things become its defenders. His sharpest claim is that AI is the opposite of crypto: crypto was owned by individuals from the start, so it built a political army, while AI's gains are concentrated among venture capitalists because labs now raise at huge private valuations. An investor would need quadrillion-dollar valuations to see 1000x on a trillion-dollar IPO, and \"if I'm an individual, I don't benefit economically from any of this activity\" — which he ties to backlash against data centers. Robinhood's answer is Robinhood Ventures, a publicly traded venture fund funded through its IPO channel (Fund I holds late-stage privates including OpenAI; Fund II, with YC, targets seed and Series A), plus tokenized stocks on Robinhood Chain, which he says gives anyone with a smartphone and a wallet US-market exposure. On agents, he says agentic trading has clear product-market fit: over 150,000 customers opened agentic accounts within months, with about 30 million tool calls per day. Robinhood Agents puts a Claude Code-style harness inside the account, with skills and an app store; safeguards are a segregated account and trade approvals by default. He expects more trading activity, first among sophisticated users, then everyone. On Harmonic, he calls math AI \"too centralized\" — labs with big data centers and secret models — and says a world where labs vertically integrate and make every discovery themselves would be dystopian. Quote: \"Can we put the capabilities of a hedge fund or a sophisticated algorithmic trading firm into the pockets of normal individuals.\"",
+      "summaryZh": "Vlad Tenev 是 Robinhood 联合创始人兼 CEO，也是数学 AI 初创公司 Harmonic 的联合创始人。他用一个词概括 Robinhood：所有权。他在保加利亚恶性通胀中长大，祖父母把财富存在铜制炊具里；他认为缺乏广泛所有权的社会是脆弱的，因为拥有资产的人会成为这个体系的捍卫者。他最尖锐的观点是：AI 与加密货币恰好相反——加密货币从一开始就由个人持有，因此形成了强大的政治力量；而 AI 的收益集中在风投和机构手中，因为实验室如今能在私募市场以巨额估值融资。若万亿美元估值上市，个人投资者要获得 1000 倍回报，估值得达到千万亿级；“作为个人，我从这一切活动中得不到任何经济利益”，他把这与人们对数据中心的反感联系起来。Robinhood 的回应是 Robinhood Ventures：通过自家 IPO 渠道募资、在纽交所公开交易的“上市风投基金”（第一支持有包括 OpenAI 在内的后期私有公司；第二支与 YC 合作，面向种子轮和 A 轮），再加上 Robinhood Chain 上的股票代币，让只要有手机和钱包的人都能接触美股。关于智能体，他说智能体交易已明确找到产品市场契合点：几个月内超过 15 万客户开通智能体账户，每天约 3000 万次工具调用。Robinhood Agents 把类似 Claude Code 的运行框架放进账户内，配有技能和应用商店；默认保护措施是与主账户隔离的独立账户以及交易审批。他预计交易活动会增加，先从资深用户开始，再扩散到更多人。谈到 Harmonic，他认为数学 AI “过于中心化”——大型数据中心加秘密模型——如果实验室垂直整合、独揽所有发现，会是一种反乌托邦。金句：“能否把对冲基金或精密算法交易公司的能力，放进普通人的口袋里？”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "tags": [
+        "robinhood",
+        "agentic-trading",
+        "tokenization",
+        "ownership"
+      ]
+    }
+  ]
+}

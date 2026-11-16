@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-11-13T07:54:18Z",
+  "generatedAt": "2026-11-16T07:25:15Z",
   "digests": [
+    {
+      "date": "2026-11-16",
+      "title": "Vercel's xeet renderer, Every's compounding skills, and Robinhood's Vlad Tenev on agentic trading",
+      "itemCount": 4,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Rauch: xeet renders X posts in ~1ms in Rust/wasm, built as an agent-maintained 'autorepo'",
+        "Shipper: compounding skills that improve with each use, tuned via autoresearch",
+        "Parrott (via Yang): tell Claude its default design look so it stops reusing it",
+        "Tenev: 150,000+ customers on agentic trading; AI gains need broad ownership"
+      ]
+    },
     {
       "date": "2026-11-13",
       "title": "Gemini 4 Hydrogen lands, Claude Meetings, and Isomorphic's push to move drug discovery onto a computer",
