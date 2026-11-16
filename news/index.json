@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-11-14T06:18:36Z",
+  "generatedAt": "2026-11-16T07:30:00Z",
   "digests": [
+    {
+      "date": "2026-11-16",
+      "title": "Quiet day: Alpha School results, LangChain raise",
+      "itemCount": 2,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Alpha School's AI-tutored students: only 42% hit the 2x learning goal",
+        "LangChain raises $300M at $3B valuation; LangSmith claims 7,000 customers"
+      ]
+    },
     {
       "date": "2026-11-14",
       "title": "Gemini 4 Hydrogen ships, ElevenLabs cuts agent cost 70%",
