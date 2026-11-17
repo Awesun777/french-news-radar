@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-17",
+  "items": [
+    {
+      "id": "bland-tofu-1-speech-to-speech",
+      "category": "models",
+      "title": "Bland opens research preview of Tofu-1, a full-duplex speech-to-speech model",
+      "summary": "Bland AI's Tofu-1 processes audio directly rather than transcribing to text first, so it can listen and talk at the same time. The gated preview targets noisy, high-stakes phone calls — separating a caller's voice from background noise like traffic, a crying child, or a TV — and is currently limited to select banking, healthcare, insurance, and government customers. Bland hasn't published benchmarks, model size, or pricing yet.",
+      "whyItMatters": "A speech-to-speech model built specifically to stay robust in noisy, real-world audio and handle full-duplex interruptions is a useful data point for Anna/Romain's own noise-handling and barge-in behavior, even without public benchmarks yet to compare against OpenAI Realtime or ElevenLabs.",
+      "url": "https://www.bland.ai/speech-to-speech",
+      "source": "Bland AI",
+      "tags": ["voice", "speech-to-speech", "full-duplex", "enterprise"]
+    }
+  ]
+}

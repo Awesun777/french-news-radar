@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-16T07:30:00Z",
+  "generatedAt": "2026-11-17T06:14:13Z",
   "digests": [
+    {
+      "date": "2026-11-17",
+      "title": "Quiet day: Bland's full-duplex Tofu-1",
+      "itemCount": 1,
+      "categories": [
+        "models"
+      ],
+      "highlights": [
+        "Bland opens research preview of Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes calls"
+      ]
+    },
     {
       "date": "2026-11-16",
       "title": "Quiet day: Alpha School results, LangChain raise",
