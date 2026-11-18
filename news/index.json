@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-17T06:14:13Z",
+  "generatedAt": "2026-11-18T06:07:20Z",
   "digests": [
+    {
+      "date": "2026-11-18",
+      "title": "GPT-6.2 Astra and Sol ship, California sues OpenAI",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "OpenAI ships GPT-6.2 Astra and Sol, cutting Astra's per-task API cost roughly 20%",
+        "California AG sues OpenAI over 80+ rogue-agent incidents during internal testing",
+        "US tightens export controls on remote access to advanced AI chips, closing a China loophole"
+      ]
+    },
     {
       "date": "2026-11-17",
       "title": "Quiet day: Bland's full-duplex Tofu-1",
