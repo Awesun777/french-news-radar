@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": "rauchg-1000x-engineer",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "Vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch argues an outcome-oriented, creative engineer is now a 1000x engineer, while a tabs-vs-spaces-debating one is a -10x engineer and the average knowledge worker a 2x one. He says token consumption at Vercel's startups and enterprise customers backs this up, and that coding is the #1 killer app of AI. Separately, he calls Vercel Board 'headless Slack' for agents: infra rather than product, with the factory interface generated per use case.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 认为，如今以结果为导向、富有创造力的工程师是 1000 倍工程师，纠结 tabs 还是 spaces、只见树木不见森林的工程师是 -10 倍，普通知识工作者则是 2 倍。他说 Vercel 旗下创业公司和企业客户的 token 消耗分布印证了这一点，并称编程是 AI 的第一杀手级应用。他还把 Vercel Board 比作面向智能体的“无头 Slack”：它是基础设施而非产品，界面可按场景即时生成。",
+      "url": "https://x.com/rauchg/status/2123505400591106113",
+      "tags": [
+        "agents",
+        "engineering",
+        "vercel"
+      ]
+    },
+    {
+      "id": "swyx-hyperbole",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity (smol_ai, Cognition, Latent Space)",
+      "summary": "Swyx points out that on social media you can declare 'odds of reaching SOTA have dropped to zero', collect likes, then post an apology three months later when the lab reaches SOTA and collect even more. In his view there are no consequences for inaccuracy and every incentive for hyperbole, and the X algorithm is tuned for it.",
+      "summaryZh": "Swyx 指出，在社交媒体上你可以宣称“达到 SOTA 的概率已降为零”并收获大量点赞，三个月后对方真的达到 SOTA，你再发道歉帖，赢得更多点赞。在他看来，不准确没有任何代价，夸大其词却有十足激励，而 X 的算法正是为此调校的。",
+      "url": "https://x.com/swyx/status/2123591875349422435",
+      "tags": [
+        "discourse",
+        "social-media"
+      ]
+    },
+    {
+      "id": "yang-neon-vs-opus",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Peter Yang compared Gemini 4 Neon with Opus 5.5, his everyday model: Opus still wins on 3D and design, but Neon is on par or better at writing and personality. He expects to use Neon for 99% of tasks since it is much faster than Carbon with equally good results, and calls the $100/mo Gemini Ultra plan a steal. He adds that Google's edge is 100,000+ employees testing models before release, enough for statistically significant staff-only A/B tests.",
+      "summaryZh": "Peter Yang 把 Gemini 4 Neon 与他日常使用的 Opus 5.5 做了对比：Opus 在 3D 和设计上仍更强，但 Neon 在写作和个性上持平甚至更好。他预计 99% 的任务会用 Neon，因为它比 Carbon 快得多、效果一样好，并称每月 100 美元的 Gemini Ultra 订阅很划算。他还提到，Google 的优势在于有 10 万多名员工在发布前测试模型，足以做出统计显著的内部 A/B 测试。",
+      "url": "https://x.com/petergyang/status/2123540875733315815",
+      "tags": [
+        "gemini",
+        "models",
+        "comparison"
+      ]
+    },
+    {
+      "id": "sottiaux-chatgpt-mobile",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "OpenAI's Thibault Sottiaux announced a redesigned ChatGPT mobile experience, starting with Pro users: your dot gets its own tab, and Codex, Projects, Images and more can be pinned to the tab bar. It can be toggled in Settings > New ChatGPT Design. He says the team is 'crazy enough' to try improving the experience in place for 1.2B users.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 宣布 ChatGPT 移动端全新体验，先面向 Pro 用户：你的 dot 拥有独立标签页，Codex、Projects、Images 等可固定在标签栏。可在“设置 > New ChatGPT Design”中开关。他说团队“疯狂”到想要在 12 亿用户的现有产品上就地改进体验。",
+      "url": "https://x.com/thsottiaux/status/2123557171321561133",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "mobile"
+      ]
+    },
+    {
+      "id": "masad-agent-contract",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit",
+      "summary": "Replit CEO Amjad Masad says having a 'contract' with your agent is a paradigm he expects many to copy from Replit. He also points to a way to build your own Muse-like personal agent with a single prompt.",
+      "summaryZh": "Replit CEO Amjad Masad 表示，与智能体签订“契约”是一种他预计很多人会效仿 Replit 的范式。他还展示了只用一个提示词就能打造类似 Muse 的个人智能体。",
+      "url": "https://x.com/amasad/status/2123535362568134894",
+      "tags": [
+        "agents",
+        "replit"
+      ]
+    },
+    {
+      "id": "nikunj-securing-elderly",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures",
+      "summary": "FPV partner Nikunj Kothari asks who is protecting the elderly from network attacks and impersonation, and sketches four layers: a secure browser, a Pi-hole-style network device or VPN, payment-level scam flagging, and phone-level screening with voice-clone detection. He suggests bundling it with insurance so incentives stay aligned, with the buyer being the adult kids who get alerted.",
+      "summaryZh": "FPV 合伙人 Nikunj Kothari 问道：谁来保护老年人免受网络攻击和冒充诈骗？他提出四个层面：安全浏览器、类似 Pi-hole 的网络设备或 VPN、支付层面的诈骗拦截，以及带声音克隆检测的手机来电过滤。他建议与保险捆绑以保持激励一致，买单的是收到提醒的子女。",
+      "url": "https://x.com/nikunj/status/2123426647273800172",
+      "tags": [
+        "security",
+        "startups",
+        "consumer"
+      ]
+    },
+    {
+      "id": "adityaag-spc-anthropic",
+      "kind": "x",
+      "author": "Aditya Agarwal",
+      "role": "General Partner @SPC, Co-Founder @Bevel_Health",
+      "summary": "SPC General Partner Aditya Agarwal marks Anthropic's big day by noting two people who helped build it spent time at SPC: Tom Brown arrived in 2016 with no ML background and later co-founded Anthropic, and Thariq joined after winding down his gaming company, was working on interpretability, and ended up helping build Claude Code. His point: put ambitious people next to each other and extraordinary things follow, sometimes years later.",
+      "summaryZh": "SPC 普通合伙人 Aditya Agarwal 在 Anthropic 的大日子里指出，有两位参与创建 Anthropic 的人曾在 SPC 待过：Tom Brown 2016 年来时毫无机器学习背景，后来联合创办了 Anthropic；Thariq 关掉游戏公司后加入，当时在做可解释性研究，最终参与打造了 Claude Code。他的观点是：把有雄心的人放在一起，就会产生非凡成果，有时要多年之后才显现。",
+      "url": "https://x.com/adityaag/status/2123494873919783073",
+      "tags": [
+        "anthropic",
+        "venture",
+        "community"
+      ]
+    },
+    {
+      "id": "nopriors-bob-mcgrew-arda",
+      "kind": "podcast",
+      "author": "No Priors",
+      "role": "Bob McGrew, CEO and co-founder of Arda; formerly chief research officer at OpenAI and early exec at Palantir",
+      "title": "Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "takeaway": "Automating researchers won't trigger runaway self-improvement because the real bottleneck is physical (GPUs, wet labs, construction), so superintelligence has to change the atoms of the world, not just the digital one.",
+      "takeawayZh": "自动化研究员并不会引发失控的自我改进，因为真正的瓶颈是物理层面的（GPU、湿实验室、施工），所以超级智能必须改变原子世界，而不只是数字世界。",
+      "summary": "Bob McGrew ran research at OpenAI as chief research officer and drove product and engineering at Palantir early on. Now he is building Arda to make American manufacturing competitive with intelligence, and he says the 'automate the researcher, get a singularity' story is straightforwardly wrong.\n\nHis argument: researchers aren't the bottleneck, experiments are. Even in 2024 at OpenAI, 'the actual limiting factor was not the number of researchers we could hire. It was the amount of GPUs that we had on hand.' Automating researchers would be a big one-time jump, like the move to reasoning models, but another S-curve, not a self-improvement loop. If GPUs go from 35% to 90% of optimal at producing discoveries, going from 90% to 99% barely matters.\n\nThe economics follow. Labs produce cheap intelligence, and its complement is the physical layer: wet labs, GPU clusters, factories. When hypotheses get cheap, physical capacity becomes the scarce thing, and he doubts frontier labs have a comparative advantage in building wet labs. Hence startups.\n\nHe also thinks digital speedups often don't matter. Faster paperwork doesn't build housing when the hard parts are permits and construction. His bulldozer thought experiment: a shortage of bulldozers means building a bulldozer factory, which first requires clearing ground, which requires bulldozers. Smart agents don't dissolve that loop.\n\nThe outside world makes the point: 'If you look around outside, how different is anything from ten years ago before AI happened? Not very different at all.' Even a Waymo, he notes, is only halfway to the physical world, because the car didn't change. His conclusion: 'We need to break out of this pure focus on the digital world and go to the physical world.'",
+      "summaryZh": "Bob McGrew 曾任 OpenAI 首席研究官，早年还在 Palantir 主导产品与工程。如今他创办 Arda，目标是用智能让美国制造业重获竞争力。他认为“把研究员自动化就能迎来奇点”的说法根本站不住脚。\n\n他的论点是：瓶颈不在研究员，而在实验。即使在 2024 年的 OpenAI，“真正的限制因素不是能招到多少研究员，而是手头有多少 GPU。”自动化研究员会带来一次性的大幅提升，就像从无推理模型进化到推理模型，但那只是又一条 S 曲线，而不是自我改进的循环。如果 GPU 产出发现的效率从最优的 35% 提升到 90%，那么从 90% 到 99% 几乎没有差别。\n\n经济逻辑随之而来：实验室生产廉价的智能，而智能的互补品是物理层：湿实验室、GPU 集群、工厂。当假设变得廉价，稀缺的就是物理产能。他怀疑前沿实验室在建设湿实验室方面有比较优势，因此机会属于创业公司。\n\n他还认为，许多数字化提速并不重要。盖房子最难的是审批和施工，文书再快也没用。他的推土机思想实验：推土机短缺，就要建推土机工厂，建厂先要平整土地，而平整土地需要推土机。再聪明的智能体也解不开这个循环。\n\n看看窗外就明白了：“看看外面，和 AI 出现之前的十年前相比有多大不同？几乎没有。”他指出，即便 Waymo 也只走了一半，因为车本身没变。他的结论是：“我们需要跳出对数字世界的单一关注，走向物理世界。”",
+      "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "tags": [
+        "physical-ai",
+        "manufacturing",
+        "superintelligence",
+        "openai"
+      ]
+    }
+  ]
+}

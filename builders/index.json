@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-11-16T07:25:15Z",
+  "generatedAt": "2026-11-20T07:23:53Z",
   "digests": [
+    {
+      "date": "2026-11-20",
+      "title": "Rauch's 1000x engineer, Gemini 4 Neon vs Opus 5.5, and Bob McGrew on why superintelligence needs the physical world",
+      "itemCount": 8,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Rauch: outcome-oriented engineers are now 1000x; coding is AI's #1 killer app",
+        "Yang: Gemini 4 Neon matches Opus 5.5 on writing, trails on 3D and design",
+        "Sottiaux: new ChatGPT mobile experience rolling out to Pro users first",
+        "McGrew: researchers aren't the bottleneck, GPUs and wet labs are, so no runaway RSI"
+      ]
+    },
     {
       "date": "2026-11-16",
       "title": "Vercel's xeet renderer, Every's compounding skills, and Robinhood's Vlad Tenev on agentic trading",
