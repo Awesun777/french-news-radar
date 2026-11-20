@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": "retell-tell-1-voice-llm",
+      "category": "models",
+      "title": "Retell ships Tell-1, a voice-first LLM tuned for sub-100ms turn-taking",
+      "summary": "Retell AI, the YC-backed voice-agent infrastructure startup, launched Tell-1 on November 13 and made it selectable across its platform on November 19. Rather than a general chat model retrofitted for calls, Tell-1 is trained to start speaking while it is still reasoning; Retell's own vCX benchmark reports a 76ms median time-to-first-sentence (model only, not the full voice pipeline) plus 88.6% instruction-following and 95.4% tool-calling scores. Independent reviewers note the comparison table mixes benchmark versions, so the numbers are vendor-reported and unverified.",
+      "whyItMatters": "A purpose-built 'speak while reasoning' LLM is exactly the kind of component swap that could shave real latency off Romain or Anna's turn-taking, though the vendor-only benchmarks mean it needs independent testing before trusting the numbers.",
+      "url": "https://www.retellai.com/tell-1",
+      "source": "Retell AI",
+      "tags": ["voice", "llm", "latency", "voice-agents"]
+    },
+    {
+      "id": "elevenlabs-uk-gov-voice-contract",
+      "category": "models",
+      "title": "UK government contracts ElevenLabs to automate citizen phone lines under 'GOV Voice'",
+      "summary": "A newly published UK government commercial notice shows ElevenLabs has been awarded a contract to supply a voice AI agent platform for GOV Voice, a program meant to automate routine citizen enquiries on public contact lines. Most of the notice is redacted, but it covers the voice AI platform plus support and additional services, and builds on ElevenLabs' earlier June 2026 memorandum with the UK's DSIT on multilingual public-service accessibility.",
+      "whyItMatters": "A government-scale rollout of ElevenLabs' voice agents is a real-world stress test of the exact platform Anna runs on — worth watching for any public detail on call volumes, latency, or multilingual handling that could carry over to the French tutor.",
+      "url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud/services/153032926157563",
+      "source": "UK Digital Marketplace (G-Cloud)",
+      "tags": ["voice", "elevenlabs", "government", "deployment"]
+    },
+    {
+      "id": "anthropic-ipo-nasdaq-debut",
+      "category": "general",
+      "title": "Anthropic's Nasdaq debut: $81B raised, stock pops 17% on day one",
+      "summary": "Anthropic priced its IPO at $83/share, selling 980M shares to raise about $81.3B — the largest IPO on record, topping SpaceX's June offering. ANT opened at $111.50 (up roughly 34%) on Nasdaq on Thursday, November 19, and closed its first day up 17% at $97.17, putting the company's market cap near $1.8-2T depending on how shares are counted.",
+      "whyItMatters": "Not a direct build input, but a market verdict on how investors price frontier AI labs — and a reminder of how much capital, and pressure to monetize, sits behind the model providers Romain and Anna depend on.",
+      "url": "https://fortune.com/2026/11/19/anthropic-ipo-first-day-trading-nasdaq-record-valuation/",
+      "source": "Fortune",
+      "tags": ["anthropic", "ipo", "markets", "funding"]
+    },
+    {
+      "id": "isomorphic-labs-5b-series-c",
+      "category": "general",
+      "title": "Alphabet-backed Isomorphic Labs raises $5B to push AI-designed drugs into trials",
+      "summary": "Isomorphic Labs, the AlphaFold-descended drug-discovery lab spun out of Google DeepMind, closed a $5B Series C on November 17 led by Greenoaks and Sequoia, just six months after a $2.1B Series B. The funds go toward moving its AI-designed drug candidates into clinical trials and expanding compute, research, and development infrastructure.",
+      "whyItMatters": "A fast-growing proof point that foundation-model techniques — and the capital behind them — are moving well beyond chat and voice, useful context for where the broader AI investment cycle is heading.",
+      "url": "https://www.fiercebiotech.com/biotech/isomorphic-labs-raises-5b-series-c-months-after-21b-round",
+      "source": "Fierce Biotech",
+      "tags": ["funding", "ai-science", "deepmind"]
+    }
+  ]
+}
