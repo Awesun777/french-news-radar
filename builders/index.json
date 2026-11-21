@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-20T07:23:53Z",
+  "generatedAt": "2026-11-21T07:38:40Z",
   "digests": [
+    {
+      "date": "2026-11-21",
+      "title": "Levie on goals over instructions, Linear's COO on agent-made issues, and a Riemann double-header",
+      "itemCount": 8,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Levie: give agents goals, not instructions — they now out-design what you'd specify",
+        "Cordova: over 50% of Linear issues are created by agents; being just an MCP database is not a business",
+        "Masad: an AI and a human Riemann proof land at once — compare on elegance"
+      ]
+    },
     {
       "date": "2026-11-20",
       "title": "Rauch's 1000x engineer, Gemini 4 Neon vs Opus 5.5, and Bob McGrew on why superintelligence needs the physical world",

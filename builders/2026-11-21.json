@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "id": "levie-goals-not-instructions",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "summary": "Levie says this year's capability jump flipped the playbook: instead of telling agents precisely how to build something, you now get better results handing them problems you can't easily define yourself. A year ago the agent needed your exact design; now it can connect dots across a far larger solution space than you can. He expects the same in finance, legal, life sciences and cyber, where no one person holds all the relevant knowledge, so deploying agents becomes about giving goals and freedom rather than explicit instructions.",
+      "summaryZh": "Levie 认为今年模型能力的跃升改变了玩法：与其精确告诉智能体怎么做，不如把自己都难以清晰定义的问题交给它。一年前智能体需要你把设计方案讲清楚才有成功机会，如今它能在远大于人类的解空间里串联线索，给出你想不到的更优实现。他预计金融、法律、生命科学、网络安全等没有任何个人能掌握全部行业知识的领域都会如此——使用智能体的方式将变成给目标、给自由，而不是下达明确指令。",
+      "url": "https://x.com/levie/status/2123686350410912145",
+      "tags": [
+        "agents",
+        "capability",
+        "enterprise"
+      ]
+    },
+    {
+      "id": "rauch-eve-iso42001",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch says his \"hello world\" on an internal pre-release of eve was a personal-shopper agent that worked but lacked infrastructure. Now, with agentcardhq, better models, mature iMessage and WhatsApp channels and much faster performance (without giving up durability and encryption), you can ship a Muse/Instinct-caliber platform you fully control on Vercel's open intelligence stack, and he points to a template. Separately, he notes Vercel's AI infra is now ISO 42001 audited, which he calls the \"SOC2 of AI\".",
+      "summaryZh": "Rauch 说，他在 eve 内部预发布版上的“hello world”是一个个人购物智能体，当时能跑但基础设施缺失。如今有了 agentcardhq、更强的模型、成熟的 iMessage 和 WhatsApp 渠道，以及大幅提升的性能（且不牺牲持久性与加密），你可以在 Vercel 的开放智能技术栈上，发布一个完全由自己掌控、达到 Muse / Instinct 水准的平台，并给出了模板。另外他提到 Vercel 的 AI 基础设施已通过 ISO 42001 审计，称其为“AI 界的 SOC2”。",
+      "url": "https://x.com/rauchg/status/2123879031049449791",
+      "tags": [
+        "vercel",
+        "agents",
+        "infra"
+      ]
+    },
+    {
+      "id": "zara-claude-artifacts-clients",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "role": "Builder. Harvard'17",
+      "summary": "Zhang's blunt advice: don't send clients raw Claude Artifacts or ChatGPT-built sites. It makes them think \"I could have just prompted Claude or Codex myself,\" which undercuts the value of your work. In a separate post she adds a one-line rule for content people: if you curate, you should create.",
+      "summaryZh": "Zhang 直言不讳：不要把 Claude Artifacts 或 ChatGPT 生成的网站直接发给客户，这会让他们觉得“我自己让 Claude / Codex 做一个也行”，从而削弱你工作的价值。她另一条帖子还给内容从业者一句话原则：如果你做策展，你就应该做创作。",
+      "url": "https://x.com/zarazhangrui/status/2123813583339532321",
+      "tags": [
+        "clients",
+        "artifacts",
+        "craft"
+      ]
+    },
+    {
+      "id": "woodward-gemini-neon",
+      "kind": "x",
+      "author": "Josh Woodward",
+      "role": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "summary": "Woodward says a few Google folks were playing with Gemini Neon on a Friday afternoon, loved a community post so much that they built the idea and shipped it straight to production. It's available now by long-clicking the model picker on the web.",
+      "summaryZh": "Woodward 说，几位 Google 同事周五下午在玩 Gemini Neon，非常喜欢一位社区用户的帖子，于是直接把这个想法做了出来并上线生产环境。现在在网页版长按模型选择器即可体验。",
+      "url": "https://x.com/joshwoodward/status/2123943606906138868",
+      "tags": [
+        "gemini",
+        "shipping",
+        "google"
+      ]
+    },
+    {
+      "id": "yang-antigravity-remote",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Yang shares a tip for running Antigravity for Neon on mobile: open the site, tap see more, hit share, then Add to Home Screen, and you can talk to all your Antigravity threads via remote control. Despite no native mobile app yet, he finds it better than Claude's remote control because every thread is available by default.",
+      "summaryZh": "Yang 分享了在手机上使用 Antigravity for Neon 的小技巧：打开网站，点“查看更多”，再点分享并“添加到主屏幕”，就能通过远程控制访问所有 Antigravity 会话。虽然还没有原生手机应用，他觉得这比 Claude 的远程控制更好用，因为所有会话默认都可见。",
+      "url": "https://x.com/petergyang/status/2123879309463228445",
+      "tags": [
+        "antigravity",
+        "mobile",
+        "tips"
+      ]
+    },
+    {
+      "id": "sottiaux-codex-desktop",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "role": "Codex & ChatGPT @OpenAI",
+      "summary": "Sottiaux tells users to upgrade the Codex desktop app, calling it faster, simpler and more pleasant after the team \"locked in\". He also jokes that an internal experiment turned out so fun that everyone is playing with it instead of working, and that they \"might not recover from this.\"",
+      "summaryZh": "Sottiaux 呼吁用户升级 Codex 桌面应用，称团队全力投入后，它变得更快、更简洁、更好用。他还打趣说，团队内部做的一个实验太好玩，大家都在玩而不是工作，“我们可能恢复不过来了”。",
+      "url": "https://x.com/thsottiaux/status/2123861214644347122",
+      "tags": [
+        "codex",
+        "openai",
+        "desktop"
+      ]
+    },
+    {
+      "id": "masad-riemann-proofs",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "summary": "Masad notes that two separate Riemann proofs, one by AI and one by a human, are landing at the same time. Assuming both are correct, he's keen to compare them, especially on elegance. In another post he simply asks, \"Is it a bear market?\"",
+      "summaryZh": "Masad 指出，两份独立的黎曼猜想证明——一份来自 AI、一份来自人类——同时问世。假设两者都正确，他很想比较它们，尤其是在优雅程度上。他在另一条帖子里还简单地问了一句：“现在是熊市吗？”",
+      "url": "https://x.com/amasad/status/2123874539218010491",
+      "tags": [
+        "math",
+        "ai-vs-human",
+        "replit"
+      ]
+    },
+    {
+      "id": "latent-space-linear-cordova",
+      "kind": "podcast",
+      "author": "Latent Space",
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "takeaway": "Linear's COO says issue tracking as manual work is dead: over 50% of Linear issues are now created by agents, and tools that become mere databases behind an MCP server won't survive.",
+      "takeawayZh": "Linear 的 COO 表示，手动跟踪工作的“issue tracking”已死：Linear 上超过 50% 的 issue 现在由智能体创建，只充当 MCP 服务器背后数据库的工具难以长久。",
+      "summary": "Cristina Cordova joined Linear as COO at about 40 employees after a trial project: drafting a real go-to-market plan, so the trial was the job itself. Linear was then strong with startups but mostly tapped out at mid-market, with no customer above roughly 500 seats and a self-serve, product-led motion. Moving upmarket meant contracts, pilots and security reviews, and the business has grown at least 10x since she joined.\n\nThe core of the conversation is the CEO's \"issue tracking is dead\" post. Cordova says it was aligned internally, and that Linear can pivot because it is not so big that reinventing itself would kill the business, unlike Google putting an AI box atop search results. In her words, \"we probably shouldn't have a world where people are, like, manually tracking work. So that's what's dead.\" The issue still exists as the unit of work; the issue still exists as the unit of work. Linear now frames itself as a product development system focused on agent orchestration. Frontier AI labs and AI-forward companies such as Ramp and Coinbase pushed for APIs to build their own agents, while legacy enterprise customers initially did not ask but are now reaching out.\n\nShe argues companies that become just a database with an MCP server and hand their data to agents will not have a great business. You must bring agentic workflows into your own tool and make them better than external ones. Linear launched its MCP server in 2025, and over 50% of issues are now created by agents, yet app usage is also rising, because chat is poor for visualizing work and collaboration. Features like Loops auto-assign agents to issues. On org design, Linear has about 170 people, only the founders and her as C-suite, and she cautions that most companies don't need a COO until they know what great looks like in a function.",
+      "summaryZh": "Cristina Cordova 在 Linear 只有约 40 人时以 COO 身份加入，入职前的试用项目就是制定一份真实的市场进入（GTM）计划——试用本身就是工作内容。当时 Linear 在初创公司中口碑很好，但基本停留在中型市场，最大客户不超过约 500 席位，主要靠自助式的产品驱动增长。向上拓展意味着合同、试点和安全审查，自她加入以来业务至少增长了 10 倍。\n\n对话核心是 CEO 那篇“issue tracking 已死”的文章。Cordova 说公司内部是一致的，而且 Linear 还没大到无法自我革新，不像 Google 要在搜索结果顶部加 AI 框而冲击整个广告业务。用她的话说：“我们大概不该再有人手动跟踪工作的世界，这才是‘死’掉的东西。”issue 仍是工作的基本单位。Linear 现在把自己定位为产品开发系统，重点是智能体编排。前沿 AI 实验室以及 Ramp、Coinbase 等走在 AI 前沿的公司推动 Linear 提供可自建智能体的 API；传统企业客户起初并没有这个需求，现在则主动来找。\n\n她认为，只当数据库、在 MCP 服务器后把数据拱手交给智能体的公司，并不是好的商业模式。必须把智能体工作流带进自己的工具，并做得比外部工具更好。Linear 于 2025 年推出 MCP 服务器，现在超过 50% 的 issue 由智能体创建，但应用使用量也在上升，因为聊天界面不适合可视化工作和协作。Loops 等功能可自动把智能体分配给 issue。在组织上，Linear 约 170 人，C 级高管只有创始人和她；她提醒，大多数公司在还不清楚某个职能“什么是优秀”之前并不需要 COO。",
+      "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+      "tags": [
+        "linear",
+        "agents",
+        "go-to-market",
+        "mcp"
+      ]
+    }
+  ]
+}
