@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-21",
+  "items": [
+    {
+      "id": "anthropic-ipo-closes-119b-chip-partners",
+      "category": "general",
+      "title": "Anthropic's IPO formally closes: $119.5B raised, chipmakers and cloud giants buy in directly",
+      "summary": "Anthropic announced the closing of its IPO on November 20, a day after shares began trading. The underwriters fully exercised their option, bringing the total to 1,127,000,000 Class A shares sold at $83.00, for about $93.5B in gross IPO proceeds (roughly $91.6B to Anthropic). Alongside it, Anthropic closed a concurrent private placement of 313,253,007 Class N shares, also at $83.00, raising about $26.0B from AMD, Broadcom, Google, Micron, Microsoft, Nvidia, and TSMC Partners — bringing the combined raise to about $119.5B.",
+      "whyItMatters": "Not a direct build input, but the list of buyers (the chip and cloud vendors that power model training and inference) shows just how tightly the economics of frontier labs like Anthropic are now wired to the hardware suppliers behind Romain and Anna's model costs.",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "source": "Anthropic",
+      "tags": ["anthropic", "ipo", "funding", "markets"]
+    }
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-20T06:11:39Z",
+  "generatedAt": "2026-11-21T06:06:31Z",
   "digests": [
+    {
+      "date": "2026-11-21",
+      "title": "Quiet day: Anthropic's IPO closes at $119.5B",
+      "itemCount": 1,
+      "categories": [
+        "general"
+      ],
+      "highlights": [
+        "Anthropic's IPO formally closes: $119.5B raised combined, with AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners buying in directly"
+      ]
+    },
     {
       "date": "2026-11-20",
       "title": "Retell's voice-first LLM, Anthropic's record $81B IPO",
