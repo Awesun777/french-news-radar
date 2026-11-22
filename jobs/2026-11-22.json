@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T07:29:51Z",
+  "items": [
+    {
+      "id": "barclays-1",
+      "company": "Barclays",
+      "title": "Quantitative Analyst Risk Modeler",
+      "url": "https://barclays.wd3.myworkdayjobs.com/External_Career_Site_Barclays/job/New-York-745-7th-Avenue/Quantitative-Analyst-Risk-Modeler_JR-0000140437",
+      "location": "New York, 745 7th Avenue",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "deutsche-bank-1",
+      "company": "Deutsche Bank",
+      "title": "Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/New-York-1-Columbus-Circle/Associate_R0458606",
+      "location": "New York, 1 Columbus Circle",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "deutsche-bank-2",
+      "company": "Deutsche Bank",
+      "title": "Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Cary-3000-CentreGreen-Way/Associate_R0458727",
+      "location": "Cary, 3000 CentreGreen Way",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "deutsche-bank-3",
+      "company": "Deutsche Bank",
+      "title": "Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Cary-3000-CentreGreen-Way/Associate_R0458938-1",
+      "location": "Cary, 3000 CentreGreen Way",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "deutsche-bank-4",
+      "company": "Deutsche Bank",
+      "title": "Collateral Management Operator - Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/Jacksonville-5201-Gate-Parkway/Collateral-Management-Operator---Associate_R0447714-1",
+      "location": "Jacksonville, 5201 Gate Parkway",
+      "matchedRoles": [
+        "associate"
+      ]
+    },
+    {
+      "id": "deutsche-bank-5",
+      "company": "Deutsche Bank",
+      "title": "FX Corporate Sales, Analyst/Associate",
+      "url": "https://db.wd3.myworkdayjobs.com/en-US/DBWebsite/job/New-York-1-Columbus-Circle/FX-Corporate-Sales--Analyst-Associate_R0459267",
+      "location": "New York, 1 Columbus Circle",
+      "matchedRoles": [
+        "analyst",
+        "associate"
+      ]
+    },
+    {
+      "id": "mangroup-1",
+      "company": "Mangroup",
+      "title": "Implementation Analyst, Discretionary",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5027688101",
+      "location": "New York",
+      "postedAt": "2026-11-17",
+      "matchedRoles": [
+        "analyst"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "FP&A Analyst, Wholesale",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-FP&A-Analyst%2C-Wholesale-NY-10019/1448759600/",
+      "matchedRoles": [
+        "analyst"
+      ]
+    }
+  ]
+}
