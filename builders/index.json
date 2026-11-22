@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-21T07:38:40Z",
+  "generatedAt": "2026-11-22T07:23:47Z",
   "digests": [
+    {
+      "date": "2026-11-22",
+      "title": "Levie on AI breaking human context limits, Thariq on why model-collaboration skill still compounds, and Isomorphic's push to move drug design onto a computer",
+      "itemCount": 5,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Levie: AI decouples discovery from human context limits — a qualitative shift beyond math",
+        "Thariq: the more powerful the models, the more the skill of working with them matters",
+        "Jaderberg: rat tox tests are only ~30% predictive; Isomorphic aims for experimental accuracy in silico"
+      ]
+    },
     {
       "date": "2026-11-21",
       "title": "Levie on goals over instructions, Linear's COO on agent-made issues, and a Riemann double-header",

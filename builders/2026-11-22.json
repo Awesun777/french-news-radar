@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-22",
+  "items": [
+    {
+      "id": "levie-riemann-context-limits",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO @ Box",
+      "summary": "Box CEO Aaron Levie says the Riemann Hypothesis breakthrough deserves serious attention well beyond math: for the first time, the human limit on how much context a person or team can hold has been decoupled from how much discovery we can produce. He argues this is a qualitative shift, not a small speed-up. Agents can draw on every piece of prior art, past research and unrelated breakthrough, correlating work across projects and scanning an enterprise's entire data, from cybersecurity to life sciences.",
+      "summaryZh": "Box CEO Aaron Levie 认为,黎曼猜想的突破即使放在数学之外也值得认真对待:人类个人或团队所能容纳的上下文上限,第一次与发现和生产力的上限脱钩。他认为这不是小幅提速,而是质的飞跃。智能体可以调用所有已有的先行研究、过往决策和不相关的突破,把看似无关的工作关联起来,并扫描企业内的全部数据,应用范围从网络安全到生命科学。",
+      "url": "https://x.com/levie/status/2124252844710887549",
+      "tags": ["agents", "research", "riemann"]
+    },
+    {
+      "id": "thariq-skill-of-working-with-models",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "formerly Claude Code @ Anthropic",
+      "summary": "Thariq, formerly of Claude Code at Anthropic, warns that we are too quick to disintermediate ourselves, which does both people and models a disservice. Even if future models one-shot something like proving the Riemann hypothesis, he argues that the skill of working with models grows more important as they get stronger, and he has seen no diminishing returns on it yet. Collaborating with models to push the frontier is, in his view, a deeply technical skill in its own right.",
+      "summaryZh": "前 Anthropic Claude Code 成员 Thariq 提醒:我们太急于把自己排除在流程之外,这对人和模型都是损失。即便未来的模型能一次性证明黎曼猜想,他仍认为模型越强,与模型协作的技能就越重要,而且他还没看到这项技能出现收益递减。在他看来,与模型合作推进前沿本身就是一门深度技术。",
+      "url": "https://x.com/trq212/status/2124239684536840682",
+      "tags": ["human-ai-collab", "skills", "claude"]
+    },
+    {
+      "id": "masad-gta6-agent-swarm-issues",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "CEO @ Replit",
+      "summary": "Replit CEO Amjad Masad points to a high school student recompiling GTA 6 to run on PC, and says the more interesting part is that the student uses GitHub issues to coordinate tasks across agent swarms. He asks whether this is a new model for open source. Separately, he announced that Amuse, built by Replit Missions, is now open source.",
+      "summaryZh": "Replit CEO Amjad Masad 指出,有位高中生正在重新编译 GTA 6 使其能在 PC 上运行,而更有意思的是,这位学生用 GitHub issues 来协调多个智能体集群的任务。他问:这是否会成为开源的新模式?此外他还宣布,由 Replit Missions 打造的 Amuse 已经开源。",
+      "url": "https://x.com/amasad/status/2124345037408686228",
+      "tags": ["open-source", "agent-swarms", "replit"]
+    },
+    {
+      "id": "garrytan-vibe-coded-pc-port",
+      "kind": "x",
+      "author": "Garry Tan",
+      "role": "President & CEO @ Y Combinator",
+      "summary": "YC CEO Garry Tan predicts that, given AI and the backlash against GTA VI's design, a vibe-coded hobbyist PC port with the hated design flaws removed could arrive in a month or two with enough tokens. He also says he has been using a new setup for about half of his work with his software factory, calling it the best experience he has had so far across desktop, mobile and cloud.",
+      "summaryZh": "YC CEO Garry Tan 预测:考虑到 AI 以及外界对 GTA VI 设计的不满,只要 token 足够,一两个月内就可能出现由爱好者凭「氛围编程」做出的 PC 移植版,并去掉大家讨厌的设计缺陷。他还说,自己用某个新工具处理了大约一半的「软件工厂」工作,称这是他迄今在桌面、移动和云端上体验最好的方案。",
+      "url": "https://x.com/garrytan/status/2124154280450134231",
+      "tags": ["vibe-coding", "prediction", "gaming"]
+    },
+    {
+      "id": "nopriors-isomorphic-jaderberg",
+      "kind": "podcast",
+      "author": "No Priors",
+      "title": "Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg",
+      "takeaway": "Drugs fail in patients because biology was only ever tested by trial and error, so Isomorphic's bet is to move drug design onto a computer and reach experimental accuracy before anything touches the real world.",
+      "takeawayZh": "药物之所以在患者身上失败,是因为生物学长期只能靠试错来检验;Isomorphic 的赌注是把药物设计搬到计算机上,在接触现实世界之前就达到实验级精度。",
+      "summary": "Max Jaderberg is president and a founding team member of Isomorphic Labs, the Alphabet-backed company aiming to solve all disease. He came up through computer vision, sold a startup to DeepMind in 2014, and worked on AlphaGo and AlphaStar before AlphaFold convinced the team that deep learning could generalize in biology.\n\nHis diagnosis of why drug approvals stay flat while costs balloon: medicine-making has always been an empirical, trial-and-error process. Biology is a huge, chaotic, high-dimensional system, and the only tool has been to make a molecule and test it. The easy wins are taken, and each drug is treated as a bespoke science project, so little learning carries over to the next. A machine-learning platform could compound those learnings.\n\nThe costly failures happen in the clinic, where problems like toxicity or off-target effects appear only once drugs reach patients. So Isomorphic's north star is bringing drug design onto a computer, with a dotted line on every internal leaderboard marking experimental accuracy. Past that line, you iterate digitally and enter the lab with a much higher chance of success. It also generates its own data, because public and pharma datasets are biased by years of passive collection.\n\nHe is blunt about animal testing: \"It's about 30% predictive of human clinical tox... if one of my AI scientists came up to me and said, 'we've got this amazing model, it's 30% predictive,' you're like, okay, maybe do a bit better than that.\" His alternative is to combine lab measurements, AI models and organoid or organ-on-a-chip tech to model human toxicity directly.\n\nOn hiring, the team mixes top deep-learning researchers with biologists and chemists, roughly one domain expert for every five modelers, so nobody chases metrics that do not translate into real medicines.",
+      "summaryZh": "Max Jaderberg 是 Isomorphic Labs 的总裁和创始团队成员,该公司由 Alphabet 支持,目标是「解决所有疾病」。他起步于计算机视觉,2014 年将创业公司卖给 DeepMind,参与过 AlphaGo 和 AlphaStar,后来 AlphaFold 让团队确信深度学习可以在生物学中泛化。\n\n他对「新药获批数量持平、成本却不断膨胀」的诊断是:制药长期以来是经验式的试错过程。生物学是庞大、混沌、高维的系统,唯一的办法就是做出分子再去测试。容易摘的果子已被摘完,而且每款药都被当作定制的科研项目,学到的东西很难迁移到下一款。机器学习平台则可以让这些经验不断累积。\n\n代价最高的失败发生在临床阶段,毒性或脱靶效应只有在用到患者身上时才会暴露。因此 Isomorphic 的北极星是把药物设计搬到计算机上,每个内部排行榜上都画一条「实验精度」虚线。越过这条线,就能在数字世界里反复迭代,进入实验室时成功率高得多。他们也自己生成数据,因为公开和药企的数据集长期被动积累,存在偏差。\n\n他对动物实验毫不客气:「大鼠对人体临床毒性的预测力大约只有 30%……如果我的 AI 科学家跑来说『我们有个很棒的模型,预测力 30%』,你会说,行,再做好一点吧。」他的替代方案是把实验室测量、AI 模型和类器官、器官芯片技术结合起来,直接建模人体毒性。\n\n在招聘上,团队把顶尖深度学习研究者与生物学家、化学家混合编组,大约每五名建模者配一名领域专家,避免追逐无法转化为真正药物的指标。",
+      "url": "https://www.youtube.com/watch?v=IiKf3BgBezE",
+      "tags": ["drug-discovery", "isomorphic", "alphafold", "biotech"]
+    }
+  ]
+}
