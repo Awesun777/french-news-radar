@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-22",
+  "items": [
+    {
+      "id": "anthropic-claude-navier-stokes-blowup-proof",
+      "category": "general",
+      "title": "Anthropic's Claude models co-author a claimed proof of unforced Navier-Stokes blowup",
+      "summary": "Mathematicians Tristan Buckmaster (NYU) and Levent Alpöge (Anthropic) posted a 79-page paper on November 20 claiming the first proof of finite-time blowup for the three-dimensional Navier-Stokes equations with no artificial external forcing, a cleaner version of the open Millennium Prize problem than OpenAI's forced-equation result from September. The authors say Anthropic's Claude models wrote large parts of the heavily LLM-assisted proof, building on their earlier forced-Euler and hypodissipative Navier-Stokes drafts, with a companion Lean formalization. Terence Tao reviewed the work on his blog, calling the proof strategy 'broadly clear' and the paper 'technically human-readable,' but said it still needs a properly written, professionally checked version; no independent expert has yet confirmed it's correct.",
+      "whyItMatters": "Not a direct build input, but a vivid, well-scrutinized data point on how far Claude's models have come at generating long, rigorous technical writing — relevant if Romain's backend ever leans on Claude for more than conversation, like structured grammar explanations or exercise generation.",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "source": "Terence Tao's blog",
+      "tags": ["anthropic", "claude", "research", "math"]
+    }
+  ]
+}
