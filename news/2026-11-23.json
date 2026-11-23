@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "id": "sarvam-105b-1711",
+      "category": "models",
+      "title": "Sarvam releases open-weight Sarvam-105B-1711 at $0.15/M blended tokens",
+      "summary": "Sarvam AI released an update to its 105B mixture-of-experts model (10.3B active params) with Apache-2.0 weights, tuned for tool calling and agentic work. Blended API price is $0.15 per million tokens, down from $0.44. Benchmarks are Sarvam's own; voice agents are only listed as a target use case.",
+      "whyItMatters": "A cheap, self-hostable tool-calling LLM is a possible low-cost brain for a voice tutor, though its focus is Indian languages and French quality is unverified.",
+      "url": "https://www.unite.ai/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents/",
+      "source": "Unite.AI",
+      "tags": [
+        "open-weights",
+        "pricing",
+        "llm"
+      ]
+    },
+    {
+      "id": "amazon-decart-7-5b",
+      "category": "general",
+      "title": "Amazon reportedly nearing a $7.5B purchase of AI video startup Decart",
+      "summary": "The Information, citing an FT report from Saturday, says Amazon is close to buying Israeli real-time video-model startup Decart for about $7.5B. Unconfirmed by the companies.",
+      "whyItMatters": "Signals big-tech appetite for real-time generative video, the tech behind future avatar tutors.",
+      "url": "https://www.theinformation.com/briefings/amazon-nearing-7-5-billion-purchase-decart",
+      "source": "The Information",
+      "tags": [
+        "video",
+        "acquisition"
+      ]
+    }
+  ]
+}

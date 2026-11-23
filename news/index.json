@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-22T06:06:13Z",
+  "generatedAt": "2026-11-23T07:46:25Z",
   "digests": [
+    {
+      "date": "2026-11-23",
+      "title": "Quiet day: Sarvam open-weights, Amazon eyes Decart",
+      "itemCount": 2,
+      "categories": [
+        "models",
+        "general"
+      ],
+      "highlights": [
+        "Sarvam releases open-weight Sarvam-105B-1711 at $0.15/M blended tokens",
+        "Amazon reportedly nearing a $7.5B purchase of AI video startup Decart"
+      ]
+    },
     {
       "date": "2026-11-22",
       "title": "Quiet day: Claude co-authors a Navier-Stokes blowup proof",
