@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-22T07:23:47Z",
+  "generatedAt": "2026-11-23T07:47:23Z",
   "digests": [
+    {
+      "date": "2026-11-23",
+      "title": "Altman proposes perplexity-based limits for labs, Rauch on stealth-model data risk, and Shipper on why human perspective beats the default prompt",
+      "itemCount": 10,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Altman: labs should commit to shared perplexity-based development limits until AI monitoring improves",
+        "Rauch: free ZDR stealth models may be industrial-scale data exfiltration",
+        "Shipper: generation is cheap, ranking is hard, so human perspective is the edge"
+      ]
+    },
     {
       "date": "2026-11-22",
       "title": "Levie on AI breaking human context limits, Thariq on why model-collaboration skill still compounds, and Isomorphic's push to move drug design onto a computer",

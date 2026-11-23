@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "id": "altman-perplexity-limits",
+      "kind": "x",
+      "author": "Sam Altman",
+      "role": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "summary": "OpenAI CEO Sam Altman is backing an industry-wide standard for pacing AI development: common limits based on perplexity and other measurements that labs commit not to cross until our ability to understand and monitor AI behavior hits a concrete milestone, such as a successor to CoT monitors. He also calls for shared norms on evaluating and red-teaming frontier models before first use, with shared transparency standards, and ties the idea to the White House Accords.",
+      "summaryZh": "OpenAI CEO Sam Altman 支持为 AI 研发设定行业统一的节奏标准：以 perplexity 等指标划定共同上限，各家实验室承诺在我们具备理解和监控 AI 行为的具体能力（例如 CoT monitors 的后继方案）之前不越线。他还呼吁在前沿模型首次使用前，共同制定评估和 red-teaming 的规范与透明度标准，并把这个讨论与 White House Accords 联系起来。",
+      "url": "https://x.com/sama/status/2124551883130114403",
+      "tags": [
+        "safety",
+        "policy",
+        "OpenAI"
+      ]
+    },
+    {
+      "id": "swyx-perplexity-metric",
+      "kind": "x",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "summary": "Swyx reads OpenAI's perplexity proposal as the cleanest way to tell the last four years of AI: the quote says new capabilities mostly emerge from progress on compression, with more transformative capabilities expected in the ~0.68-0.7 log-perplexity window. His take is that the chart shows large-scale pretraining as the A plot and the post-training debates as the B plot. He also doubts that this metric really implies more progress this year than in 2022-2025, since it may only translate at frontier-math level.",
+      "summaryZh": "Swyx 认为 OpenAI 提出的 perplexity 指标，是讲清过去四年 AI 进展最漂亮的方式：引文称新能力主要来自压缩能力的进步，并预计进入约 0.68-0.7 的 log-perplexity 区间后会出现更多变革性能力。在他看来，这张图说明大规模 pretraining 才是主线（A plot），而大家争论的 post-training 问题只是副线。不过他也怀疑，按这个指标今年的进展真的超过 2022-2025 年的总和吗？这可能只在前沿数学层面才成立。",
+      "url": "https://x.com/swyx/status/2124583459356373052",
+      "tags": [
+        "perplexity",
+        "pretraining",
+        "scaling"
+      ]
+    },
+    {
+      "id": "rauchg-stealth-models",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Vercel CEO Guillermo Rauch warns that \"free\" zero-data-retention \"stealth model\" inference is, he strongly suspects, industrial-scale data exfiltration to nation-state programs, and says the Dragos research seems to confirm it. His pitch to developers: imagine telling your boss all your secrets, customer data and code ended up on another continent because you wanted to try a cool free model. Vercel AI Gateway, he says, built its token volume without such shortcuts, with a trust and security announcement due next.",
+      "summaryZh": "Vercel CEO Guillermo Rauch 警告说，打着 \"free\" 和 ZDR 旗号的 \"stealth model\" 推理服务，他强烈怀疑是面向国家级项目的工业规模数据窃取，Dragos 的研究似乎也印证了这一点。他的说法是：想象一下向老板解释，公司的机密、客户数据和代码，只因为你想试一个免费的酷模型就跑到了另一个大洲。他说 Vercel AI Gateway 没有走这种捷径就积累了大量真实 token 用量，并预告第二天会发布更高标准的信任、隐私和安全方案。",
+      "url": "https://x.com/rauchg/status/2124595496849445079",
+      "tags": [
+        "security",
+        "inference",
+        "Vercel"
+      ]
+    },
+    {
+      "id": "rauchg-human-understandability",
+      "kind": "x",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "summary": "Rauch argues AI should be pointed at human understandability and conceptualization rather than art. A Riemann proof, for instance, should ship with a paper, a walkthrough, and new concepts and insights, just as the intermediate representation of high-level code stays valuable even if LLMs one day output CPU instructions directly.",
+      "summaryZh": "Rauch 认为，应该让 AI 去追求人类可理解性和概念化，而不是去做艺术。比如黎曼猜想的证明，就应该附带论文、讲解以及新的概念和洞见，就像即使将来 LLM 能直接输出 CPU 指令，高级代码的中间表示依然有价值。",
+      "url": "https://x.com/rauchg/status/2124654108124848350",
+      "tags": [
+        "math",
+        "interpretability",
+        "AI"
+      ]
+    },
+    {
+      "id": "levie-agent-harness",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "summary": "Box CEO Aaron Levie says that as agents take on long-running projects and swarms parallelize work, the harness and orchestration architecture must evolve, especially how agents share knowledge, track tasks and coordinate with humans. The hard part is giving agents the right resources without too much or too little exposure, at a throughput far above people's, in a world where agents easily become a security risk. He sees large opportunity for both horizontal and vertical approaches.",
+      "summaryZh": "Box CEO Aaron Levie 表示，随着 agent 承担越来越多的长期项目、多个 agent 并行协作，agent harness 和编排架构必须演进，尤其是 agent 如何共享知识、跟踪任务并与人类协作。难点在于让 agent 获取恰当的资源，既不能暴露过多也不能过少，而且吞吐量要远高于人类，同时 agent 又很容易成为安全风险。他认为无论横向还是垂直方向，这里都有很大的机会。",
+      "url": "https://x.com/levie/status/2124658150771188157",
+      "tags": [
+        "agents",
+        "orchestration",
+        "security"
+      ]
+    },
+    {
+      "id": "shipper-ai-cyberattack",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "summary": "Every CEO Dan Shipper, who says he is usually not alarmist, argues that if a recent aviation incident was an AI-assisted cyber attack, it is very bad. Messing with a plane's and pilot's knowledge of weight, fuel and position would make post-9/11 anti-hijacking measures irrelevant, and he expects smaller attacks to probe what is possible. He flags that he is not an aviation expert, notes many planes have manual overrides, and invites people who know more to weigh in.",
+      "summaryZh": "Every CEO Dan Shipper 说自己平时并不爱危言耸听，但他认为，如果最近的一起航空事件确实是 AI 辅助的网络攻击，那后果非常严重。只要能干扰飞机和飞行员对重量、燃油和位置的判断，9/11 之后建立的防劫机措施就都失效了，他预计规模较小的攻击也会去试探边界。他也坦言自己不是航空专家，知道多数飞机有手动备份，并欢迎懂行的人补充。",
+      "url": "https://x.com/danshipper/status/2124567533449613819",
+      "tags": [
+        "security",
+        "AI-risk",
+        "aviation"
+      ]
+    },
+    {
+      "id": "amasad-replit-desktop",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "summary": "Replit CEO Amjad Masad calls desktop AI apps generally a security and privacy nightmare, and says Replit worked with Windows to ship a world-class security model for Replit Desktop. As evidence, he points to Christie's, which chose Replit for secure agentic work.",
+      "summaryZh": "Replit CEO Amjad Masad 直言，桌面 AI 应用普遍是安全和隐私的噩梦，Replit 与 Windows 合作为 Replit Desktop 打造了一流的安全模型。他举的例子是佳士得（Christie's）选择 Replit 来做安全的 agentic 工作。",
+      "url": "https://x.com/amasad/status/2124604574606795002",
+      "tags": [
+        "Replit",
+        "security",
+        "desktop"
+      ]
+    },
+    {
+      "id": "yang-agents-harsh-customers",
+      "kind": "x",
+      "author": "Peter Yang",
+      "role": "Practical AI tutorials and interviews for busy people",
+      "summary": "Peter Yang highlights a line from Microsoft Copilot EVP Charles Lamanna: \"Agents are very harsh customers.\" Agents optimize for performance, price and reliability, and where a person gets 10 links with snippets, an agent doesn't care if you return a thousand results, so Microsoft expects its APIs and experiences to grow modes built for agents.",
+      "summaryZh": "Peter Yang 转述了 Microsoft Copilot EVP 的一句话：\"Agents are very harsh customers.\"（agent 是非常苛刻的客户）。agent 只看性能、价格和可靠性；人搜索时只要 10 条带摘要的链接，而 agent 并不在意，你返回一千条结果都行，所以 Microsoft 预计自家 API 和体验会发展出专门支持 agent 的模式。",
+      "url": "https://x.com/petergyang/status/2124669298191090033",
+      "tags": [
+        "agents",
+        "Microsoft",
+        "APIs"
+      ]
+    },
+    {
+      "id": "thenanyu-use-postgres",
+      "kind": "x",
+      "author": "Nan Yu",
+      "role": "product, codex @openai. prev head of product @linear",
+      "summary": "OpenAI Codex product lead Nan Yu jokes that he has found a secret prompt that makes every vibecoded project scale and perform better with higher reliability: \"Use Postgres\".",
+      "summaryZh": "OpenAI Codex 产品负责人 Nan Yu 调侃说，他发现了一条能让所有 vibecoded 项目更好扩展、性能更强、更可靠的秘密 prompt：\"Use Postgres\"。",
+      "url": "https://x.com/thenanyu/status/2124592238974156861",
+      "tags": [
+        "vibecoding",
+        "Postgres",
+        "Codex"
+      ]
+    },
+    {
+      "id": "every-new-vision-human-work",
+      "kind": "podcast",
+      "author": "AI & I by Every",
+      "title": "A New Vision for Human Work After Automation",
+      "takeaway": "When every model gives everyone the same default answer, the valuable part of work is the perspective and responsibility a human brings to steer it.",
+      "takeawayZh": "当每个人都能从模型得到同样的默认答案时，工作中真正有价值的，是人带给模型的视角和责任感。",
+      "summary": "Every CEO Dan Shipper closed the company's first conference with a thesis on what great human work looks like after automation. There are two ways to predict the future: the aggregate (extrapolate a trend line) and the intimate (zoom in on one real case). The aggregate looks grim: on OpenAI's GDPval benchmark, AI beat human experts 12.4% of the time in 2024, 47.6% in 2025 and about 83% in 2026. In one week Shipper analyzed a customer survey, built a game and a custom CRM, and emailed customers, work that once took roughly five people.\n\nUp close, it looks different. Everyone on the 30-person team got the same survey and the same Claude, yet one found a churn problem caused by too many emails, another found that readers feel lonely about loving AI, and a third made a Claymation game show. Claude's default answer is real but cheap because everyone has it. His head of evals found Claude can produce something Shipper would say in Slack 93% of the time, but only if it gives 400 answers, and it ranks the real one in its top 10% only about 60% of the time. \"Generation is really cheap, but ranking is hard.\" Humans bring a responsibility that narrows where to look and a perspective that ranks what matters.\n\nThe implication: as capability gets distributed to everyone, the floor rises, and the edge is how you push the model from a non-consensus view. Compare 2027 Yash with 2027 Claude against the default prompt of 2027 Claude and the model cancels out. \"I pick Yash every day.\" Shipper also argues AI should be measured on how well it does your work from your perspective, not just on consensus problems like math and code.",
+      "summaryZh": "Every CEO Dan Shipper 在公司首届大会的压轴演讲中，回答了自动化之后优秀的人类工作长什么样。预测未来有两种方法：aggregate（拉数据外推趋势线）和 intimate（深入一个真实案例再外推）。aggregate 的结果看起来很严峻：在 OpenAI 的 GDPval 基准上，AI 击败人类专家的比例 2024 年是 12.4%，2025 年是 47.6%，2026 年约 83%。他自己一周内分析了客户调研、做了一个游戏和一套定制 CRM，还给客户发了邮件，这些工作过去大约要五个人来做。\n\n但走近看就不一样了。30 人的团队拿到同样的调研数据、用同样的 Claude，有人发现邮件发太多导致用户流失，有人发现读者因为热爱 AI 而感到孤独，还有人做了一个黏土动画版的游戏节目。Claude 的默认答案是真的，但因为人人都有，所以廉价。他的 evals 负责人发现，Claude 有 93% 的概率能生成 Shipper 会在 Slack 说的话，但前提是给出 400 个答案；让它排序，真答案只有约 60% 的概率排进前 10%。\"Generation is really cheap, but ranking is hard.\"（生成很便宜，排序很难。）人的责任感决定了去哪里找，人的视角决定了什么重要。\n\n结论是：当能力分发给所有人，底线不断抬高，真正的优势在于你用非共识的视角去推动模型。拿 2027 年的 Yash（用着 2027 年的 Claude）和 2027 年 Claude 的默认 prompt 比，模型这一项就抵消了。\"I pick Yash every day.\"（我每天都选 Yash。）Shipper 还主张，衡量 AI 不该只看数学、编程这类共识问题，而要看它从你的视角做你的工作有多好。",
+      "url": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+      "tags": [
+        "future-of-work",
+        "allocation-economy",
+        "Every",
+        "GDPval"
+      ]
+    }
+  ]
+}
