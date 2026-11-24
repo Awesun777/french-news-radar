@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "id": "gpt-6-2-sol-chatgpt",
+      "category": "models",
+      "title": "OpenAI rolls GPT-6.2 Sol into ChatGPT Chat; GPT-5.6 Sol and Terra retire Dec 23",
+      "summary": "GPT-6.2 Sol, tuned for everyday conversation, reached ChatGPT Chat for paid tiers on Nov 23. OpenAI set Dec 23 as the retirement date for GPT-5.6 Sol and Terra.",
+      "whyItMatters": "A conversation-tuned model that is replacing older ones is worth testing as the text brain behind Romain/Anna, and the retirement date matters if either agent pins a model.",
+      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/",
+      "source": "9to5Mac",
+      "tags": [
+        "openai",
+        "llm",
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "ling-3-2-air",
+      "category": "models",
+      "title": "inclusionAI quietly uploads Ling-3.2-Air: 124B MoE, 5.5B active, 1M context, MIT",
+      "summary": "inclusionAI posted Ling-3.2-Air to Hugging Face on Nov 23 with no announcement. It is a 124B mixture-of-experts model with 5.5B active parameters and a 1M context window, under an MIT license.",
+      "whyItMatters": "Few active parameters under a permissive license could make self-hosted tutor logic cheaper. French quality is untested.",
+      "url": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+      "source": "Hugging Face",
+      "tags": [
+        "open-weights",
+        "moe",
+        "cost"
+      ]
+    },
+    {
+      "id": "strands-decider-v2",
+      "category": "inspiration",
+      "title": "AWS Strands Decider v2: open-weight decision models on Gemma 4 (Apache 2.0)",
+      "summary": "AWS released five open-weight decision models built on Gemma 4, from edge size up to 31B, as part of its Strands agent updates on Nov 23.",
+      "whyItMatters": "Small routing or decision models are a pattern for deciding when the tutor should correct, switch topic or hand off, without calling a large LLM each turn.",
+      "url": "https://siliconangle.com/2026/11/23/aws-is-making-ai-agents-more-decisive-and-secure-with-its-latest-strands-updates/",
+      "source": "SiliconANGLE",
+      "tags": [
+        "agents",
+        "open-weights",
+        "latency"
+      ]
+    },
+    {
+      "id": "siri-ai-rollout",
+      "category": "general",
+      "title": "Apple starts Siri AI rollout across eight apps, with a third-party App Intents preview",
+      "summary": "Siri AI features are shipping in eight Apple apps, and a TestFlight-only developer preview lets third-party apps plug in via App Intents. It is unavailable in the EU.",
+      "whyItMatters": "Worth knowing if the tutor ever needs a hands-free, system-level voice entry point on iOS.",
+      "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview",
+      "source": "Forkast",
+      "tags": [
+        "voice",
+        "apple",
+        "ios"
+      ]
+    }
+  ]
+}

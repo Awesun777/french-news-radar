@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-11-23T07:46:25Z",
+  "generatedAt": "2026-11-24T07:44:10Z",
   "digests": [
+    {
+      "date": "2026-11-24",
+      "title": "GPT-6.2 Sol in ChatGPT, Ling-3.2-Air open weights",
+      "itemCount": 4,
+      "categories": [
+        "models",
+        "inspiration",
+        "general"
+      ],
+      "highlights": [
+        "OpenAI rolls GPT-6.2 Sol into ChatGPT Chat; GPT-5.6 Sol and Terra retire Dec 23",
+        "inclusionAI quietly uploads Ling-3.2-Air: 124B MoE, 5.5B active, 1M context, MIT",
+        "AWS Strands Decider v2: open-weight decision models on Gemma 4 (Apache 2.0)"
+      ]
+    },
     {
       "date": "2026-11-23",
       "title": "Quiet day: Sarvam open-weights, Amazon eyes Decart",
