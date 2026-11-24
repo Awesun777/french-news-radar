@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-23T07:47:23Z",
+  "generatedAt": "2026-11-24T07:45:04Z",
   "digests": [
+    {
+      "date": "2026-11-24",
+      "title": "Anthropic ships Claude Ship and plugins, Replit finds agent swarms scale unevenly, and Rauch's personal eval picks Gemini Neon",
+      "itemCount": 13,
+      "kinds": [
+        "x"
+      ],
+      "highlights": [
+        "Cherny: Claude Ship bundles code review, PR fixing and policy-based approvals in beta",
+        "Replit: Opus 5.5 hits 18.9x NumPy speedup with 32 agents, while GPT-6.2 Astra scales negatively past 8",
+        "Rauch and Shipper push personal benchmarks; Rauch's own eval picked Gemini Neon over Opus"
+      ]
+    },
     {
       "date": "2026-11-23",
       "title": "Altman proposes perplexity-based limits for labs, Rauch on stealth-model data risk, and Shipper on why human perspective beats the default prompt",
