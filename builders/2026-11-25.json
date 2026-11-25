@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "id": "masad-sovereign-ai",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "summary": "Replit CEO Amjad Masad argues America can build the best frontier models and still lose the global AI race. Governments want sovereign AI they can run on their own soil, and if US firms won't supply it, countries will start with Chinese models and end up on Chinese infrastructure and chips, as happened with Huawei in telecom. He sees Jensen Huang's backing of American open models as the key to winning both frontier leadership and global adoption.",
+      "summaryZh": "Replit CEO Amjad Masad 认为,美国可以做出最强的前沿模型,却依然输掉全球 AI 竞争。各国政府想要能在本国土地和基础设施上自主运行的主权 AI;如果美国公司不提供,这些国家会先用中国模型,再采用中国的基础设施和芯片,就像华为在电信领域的做法一样。他认为黄仁勋对美国开源模型生态的支持至关重要,因为开源模型能同时带来前沿领先和全球采用。",
+      "url": "https://x.com/amasad/status/2125353849057853876",
+      "tags": [
+        "sovereign-ai",
+        "open-models",
+        "china",
+        "nvidia"
+      ],
+      "role": "CEO @ Replit"
+    },
+    {
+      "id": "masad-token-demand",
+      "kind": "x",
+      "author": "Amjad Masad",
+      "summary": "Replit CEO Amjad Masad says token demand, unlike electricity, grows in step functions: autocomplete, chat, agents, long-running autonomous agents, then swarms. Each harness innovation unlocks an order of magnitude more potential consumption, but there is a lag before users figure out what to do with the new tools.",
+      "summaryZh": "Replit CEO Amjad Masad 指出,与电力不同,token 需求是阶梯式增长的:自动补全、聊天、智能体、长时间自主运行的智能体,再到智能体集群。每一次 harness 创新都会释放出数量级更多的潜在消耗,但用户摸清新工具的用法之间存在滞后。",
+      "url": "https://x.com/amasad/status/2125287538911072753",
+      "tags": [
+        "tokens",
+        "agents",
+        "harness"
+      ],
+      "role": "CEO @ Replit"
+    },
+    {
+      "id": "levie-adoption-gap",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "summary": "Box CEO Aaron Levie says AI adoption breaks the usual pattern: within a single company, the highest and lowest adopters can differ by 10X in output. Teams that redesign their processes around agents see up to an order of magnitude productivity jump, currently concentrated in coding but spreading as more work becomes coding-adjacent. He expects wild dynamics inside companies as a result.",
+      "summaryZh": "Box CEO Aaron Levie 表示,AI 的普及打破了常规模式:同一家公司内部,采用最积极和最消极的团队产出可相差 10 倍。围绕智能体重新设计流程的团队,生产力可提升近一个数量级;目前集中在编程领域,但随着更多工作变得与编程相邻,这一现象会扩散。他预计公司内部将因此出现剧烈变化。",
+      "url": "https://x.com/levie/status/2125442246543814686",
+      "tags": [
+        "adoption",
+        "productivity",
+        "agents",
+        "enterprise"
+      ],
+      "role": "CEO @ Box"
+    },
+    {
+      "id": "guru-jensen-predictions",
+      "kind": "x",
+      "author": "Madhu Guru",
+      "summary": "Meta's Madhu Guru says the Jensen Huang saga showed how little confidence correlates with being right: prominent VCs and analysts spoke with total certainty, and some flip-flopped within days with the same certainty. The information ecosystem rewards certainty, speed and brashness, while \"I don't know, let's see\" gets no eyeballs, so expert commentary deserves a sack of salt.",
+      "summaryZh": "Meta AI 高级总监 Madhu Guru 指出,黄仁勋风波表明信心与正确性几乎没有关联:许多知名投资人和分析师言之凿凿,有些人几天内就反转观点,语气依然笃定。信息生态偏爱确定性、速度和强势,而「我不知道,再看看」得不到关注,因此对专家评论要保持怀疑。",
+      "url": "https://x.com/realmadhuguru/status/2125355549202194801",
+      "tags": [
+        "media",
+        "forecasting",
+        "nvidia"
+      ],
+      "role": "Sr Director, AI at Meta; prev. Google (led Gemini, Veo, Nano Banana)"
+    },
+    {
+      "id": "yang-gemini-antigravity",
+      "kind": "x",
+      "author": "Peter Yang",
+      "summary": "Peter Yang spent the weekend with Gemini 4 Neon and Antigravity and published a free 17-minute course. His takeaways: the orchestrator and /swarm are great for multi-agent planning and building (he ran 42 agents at once), /grill-me makes it ask clarifying questions before building, and its remote control beats Claude Code's because every thread is active by default.",
+      "summaryZh": "Peter Yang 周末深度使用了 Gemini 4 Neon 和 Antigravity,并发布了一个 17 分钟的免费课程。他的心得:orchestrator 和 /swarm 非常适合多智能体规划与构建(他曾同时运行 42 个智能体);内置技能 /grill-me 会在动手前先追问澄清;其远程控制优于 Claude Code,因为每个线程默认都是活跃的。",
+      "url": "https://x.com/petergyang/status/2125246815884984398",
+      "tags": [
+        "antigravity",
+        "gemini",
+        "swarm",
+        "tutorial"
+      ],
+      "role": "Practical AI tutorials and interviews"
+    },
+    {
+      "id": "cherny-mcp-skills",
+      "kind": "x",
+      "author": "Boris Cherny",
+      "summary": "Anthropic's Boris Cherny announced that MCP servers can now ship with their own skills, so Claude Code knows how to use them out of the box.",
+      "summaryZh": "Anthropic 的 Boris Cherny 宣布,MCP 服务器现在可以自带技能,让 Claude Code 开箱即知如何使用它们。",
+      "url": "https://x.com/bcherny/status/2125292098165612585",
+      "tags": [
+        "claude-code",
+        "mcp",
+        "skills"
+      ],
+      "role": "Claude @ Anthropic"
+    },
+    {
+      "id": "sottiaux-codex-business",
+      "kind": "x",
+      "author": "Thibault Sottiaux",
+      "summary": "OpenAI's Thibault Sottiaux told ChatGPT Business teams they are getting two things: a banked reset and fast mode at no extra charge through Dec 31.",
+      "summaryZh": "OpenAI 的 Thibault Sottiaux 告诉 ChatGPT Business 团队,他们将获得两项福利:一次已累积的额度重置,以及截至 12 月 31 日不额外收费的快速模式。",
+      "url": "https://x.com/thsottiaux/status/2125299248782778588",
+      "tags": [
+        "codex",
+        "chatgpt-business",
+        "pricing"
+      ],
+      "role": "Codex & ChatGPT @ OpenAI"
+    },
+    {
+      "id": "tan-model-limits",
+      "kind": "x",
+      "author": "Garry Tan",
+      "summary": "YC's Garry Tan offers two reasons progress feels capped: first, models have gone beyond what some customers even need, though he suspects a step function in agency and taste is still available; second, society has hit a limit in absorbing the tech, because people don't like their cheese moved and business processes change slowly.",
+      "summaryZh": "YC 总裁兼 CEO Garry Tan 给出两个原因解释为何进展似乎受限:其一,模型能力已超出部分客户的实际需求,不过他认为在自主性和品味上仍有阶跃空间;其二,社会吸收技术的能力触及上限,人们不喜欢被改变习惯,业务流程的变化天然有刹车。",
+      "url": "https://x.com/garrytan/status/2125247943540142577",
+      "tags": [
+        "models",
+        "adoption",
+        "society"
+      ],
+      "role": "President & CEO @ Y Combinator"
+    },
+    {
+      "id": "nikunj-2026-pitches",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "summary": "FPV partner Nikunj Kothari sums up 2026 pitches as every layer claiming to control the universe: apps own the workflow, harnesses put intelligence to work, inference serves it, models build it, data feeds it, infra keeps it running, chips control the sand and energy controls the electrons.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 这样概括 2026 年的融资路演:每一层都声称自己掌控全局——应用掌握工作流,harness 让智能投入工作,推理服务智能,模型构建智能,数据喂养智能,基础设施维持运行,芯片掌控沙子,能源掌控电子。",
+      "url": "https://x.com/nikunj/status/2125376105024758112",
+      "tags": [
+        "investing",
+        "ai-stack"
+      ],
+      "role": "Partner @ FPV Ventures"
+    },
+    {
+      "id": "steipete-openclaw-year",
+      "kind": "x",
+      "author": "Peter Steinberger",
+      "summary": "Peter Steinberger reflects on OpenClaw's year: it found a niche in prosumer and enterprise adoption, and its multiplayer team feature is best in class. Shipping reliable free open source is hard and the daily flood of complaints is an emotional toll, so he is glad the team now handles most of the work, focused on speed, reliability and security plus a new memory system and soon OpenClaw ID.",
+      "summaryZh": "Peter Steinberger 回顾 OpenClaw 的一年:它在准专业用户和企业市场找到了定位,多人协作团队功能堪称一流。持续交付可靠的免费开源软件很难,每天面对大量用户抱怨也让人情绪疲惫,因此他很高兴团队现在承担了大部分工作,重点放在速度、可靠性和安全,以及新的记忆系统,不久还将推出 OpenClaw ID。",
+      "url": "https://x.com/steipete/status/2125422797304549672",
+      "tags": [
+        "openclaw",
+        "open-source",
+        "memory"
+      ],
+      "role": "OpenClaw + OpenAI"
+    },
+    {
+      "id": "zhang-positioning",
+      "kind": "x",
+      "author": "Zara Zhang",
+      "summary": "Zara Zhang offers a rule of thumb for product positioning: its clarity is inversely proportional to the number of words needed to explain the product in plain language.",
+      "summaryZh": "Zara Zhang 给出产品定位的经验法则:定位的清晰程度,与用大白话解释产品所需的字数成反比。",
+      "url": "https://x.com/zarazhangrui/status/2125256097925865639",
+      "tags": [
+        "product",
+        "positioning"
+      ],
+      "role": "Builder"
+    },
+    {
+      "id": "unsupervised-learning-ep98",
+      "kind": "podcast",
+      "author": "Unsupervised Learning",
+      "title": "Ep 98: China Expert on Jensen’s Return",
+      "takeaway": "Nvidia's biggest sin, argues China analyst Jordan Schneider, is not selling to China but turning a blind eye to chip smuggling, and Jensen Huang's return could unwind the export rules that finally tightened up.",
+      "takeawayZh": "中国问题分析师 Jordan Schneider 认为,英伟达最大的问题不是向中国销售,而是对芯片走私视而不见;黄仁勋回归可能让刚刚收紧的出口管制规则被撤销。",
+      "summary": "Jordan Schneider, who has run the ChinaTalk podcast for ten years, calls Jensen Huang's return to Nvidia a pivotal moment for AI geopolitics. His view: Huang pushed for four years to keep Chinese customers, since Tencent, Alibaba and ByteDance have the money but not the chips, and Nvidia looked the other way while banned Blackwell chips reached China. He compares it to banks that ignored sanctions evasion until the Treasury fined them tens of billions, and he says chipmakers designed parts just under the legal thresholds, against the spirit of the law.\n\nThe stakes, he says, are a new rule that required Commerce approval for advanced chips fabbed at TSMC and cut off Malaysian neo-clouds serving Chinese customers after ninety days. Chinese firms reportedly drew roughly two fifths of their compute from Malaysian data centers and remote access, so rescinding the rule, possibly alongside a $25 million settlement, would be a major gift. His fix is legislation so a president cannot simply change course, plus more enforcement funding for the Commerce Department's BIS.\n\nHost Jacob counters that Nvidia is stronger with Huang at the helm, and that nobody hits the gas pedal on a data center build-out better if the AI bet pays off.\n\nSchneider's sharper worry is public opinion. He cites a poll in which only 2% of Americans want AI to progress faster, and warns of a narrow window before state-level and 2029 presidential politics bring serious restrictions, especially if cyber incidents get blamed on AI. His lodestar: \"I want the Western AI ecosystem to be stronger and more vibrant than the Chinese one.\" If Huang's return lets chips leak into China as before, he says, \"that's really not great.\" Both agree the ultimate question is whether AI delivers the productivity gains to keep the spending going.",
+      "summaryZh": "主持 ChinaTalk 十年的 Jordan Schneider 认为,黄仁勋回归英伟达是 AI 地缘政治的关键时刻。他的观点是:黄仁勋四年来一直努力保住中国客户,因为腾讯、阿里和字节有钱却缺芯片,而英伟达对被禁售的 Blackwell 芯片流入中国睁一只眼闭一只眼。他把这比作银行当年无视制裁规避,直到美国财政部罚款数百亿美元;他还说芯片厂商专门把产品设计在法律门槛之下,违背了立法精神。\n\n关键在于一项新规:要求在台积电制造先进芯片须经商务部批准,并要求马来西亚等地为中国客户服务的新云公司九十天后停止服务。据称中国企业约五分之二的算力来自马来西亚数据中心和远程访问,所以若该规则被撤销(可能伴随 2500 万美元和解),将是一份大礼。他的建议是立法,让总统不能随意改变方向,并给商务部 BIS 更多执法经费。\n\n主持人 Jacob 反驳说,黄仁勋掌舵的英伟达更强,如果 AI 押注成功,没人比他更能推动数据中心建设。\n\nSchneider 更担心的是民意。他引用一项调查:只有 2% 的美国人希望 AI 加速发展,并警告在州一级以及 2029 年总统大选政治介入之前,窗口期很短,尤其是网络安全事件被归咎于 AI 时。他的原则是:「我希望西方的 AI 生态比中国的更强大、更有活力。」如果黄仁勋回归让芯片像以前一样流入中国,那「真的很糟」。双方都同意,最终问题是 AI 能否带来足够的生产率提升,让投入持续下去。",
+      "url": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "tags": [
+        "nvidia",
+        "export-controls",
+        "china",
+        "policy"
+      ]
+    }
+  ]
+}
