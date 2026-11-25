@@ -1,26 +1,26 @@
 {
-  "lastRunAt": "2026-11-24T07:49:53Z",
+  "lastRunAt": "2026-11-25T08:03:26Z",
   "outcome": "new-postings",
-  "newCount": 15,
-  "detail": "15 new postings (Barclays, Citi, Houlihan Lokey, JP Morgan, Macquarie, Mangroup, Mizuho americas); unreachable: Dc advisory, Bda partners, Ubs, Scotiabank, BNPP",
-  "dayFile": "2026-11-24",
+  "newCount": 22,
+  "detail": "22 new postings (Barclays, Citi, JP Morgan, Mizuho americas, Scotiabank, Stepstone); unreachable: Dc advisory, Bda partners, Ubs, BNPP",
+  "dayFile": "2026-11-25",
   "companies": {
     "Deutsche Bank": "ok",
     "Barclays": "ok",
     "JP Morgan": "ok",
     "Stepstone": "ok",
     "Raymond James": "ok",
-    "Dc advisory": "unreachable",
-    "Bda partners": "unreachable",
     "Houlihan Lokey": "ok",
-    "Ubs": "unreachable",
-    "Scotiabank": "unreachable",
-    "BNPP": "unreachable",
+    "Scotiabank": "ok",
     "Nomura": "ok",
     "Mizuho americas": "ok",
     "Mangroup": "ok",
     "Citi": "ok",
     "Macquarie": "ok",
-    "Pwc": "ok"
+    "Pwc": "ok",
+    "Dc advisory": "unreachable",
+    "Bda partners": "unreachable",
+    "Ubs": "unreachable",
+    "BNPP": "unreachable"
   }
 }
