@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "id": "gradium-tts-beta-202611",
+      "category": "models",
+      "title": "Gradium opens a new TTS beta: gradium-tts-beta-202611",
+      "summary": "Gradium's release notes (2026.11.24) announce a new text-to-speech model in beta, selectable via model_name gradium-tts-beta-202611 or the Studio Model dropdown. Default and the gradium-tts-beta alias stay on the production model.",
+      "whyItMatters": "Gradium targets low-latency voice-agent TTS; worth an A/B listen for French naturalness and latency as an alternative to Anna's ElevenLabs voice.",
+      "url": "https://docs.gradium.ai/guides/release-notes",
+      "source": "Gradium docs",
+      "tags": [
+        "tts",
+        "voice",
+        "beta",
+        "latency"
+      ]
+    }
+  ]
+}

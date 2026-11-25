@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-24T07:44:10Z",
+  "generatedAt": "2026-11-25T07:58:33Z",
   "digests": [
+    {
+      "date": "2026-11-25",
+      "title": "Quiet day: Gradium opens new TTS beta",
+      "itemCount": 1,
+      "categories": [
+        "models"
+      ],
+      "highlights": [
+        "Gradium opens a new TTS beta: gradium-tts-beta-202611"
+      ]
+    },
     {
       "date": "2026-11-24",
       "title": "GPT-6.2 Sol in ChatGPT, Ling-3.2-Air open weights",
