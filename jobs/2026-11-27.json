@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T12:50:18Z",
+  "items": [
+    {
+      "id": "mangroup-1",
+      "company": "Mangroup",
+      "title": "Client Relations Associate",
+      "url": "https://job-boards.eu.greenhouse.io/mangroup/jobs/5007984101",
+      "location": "New York",
+      "postedAt": "2026-10-23",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "nomura-1",
+      "company": "Nomura",
+      "title": "Analyst - Strategic Relationship Group",
+      "url": "https://careers.nomura.com/Nomura/job/Philadelphia-Analyst-Strategic-Relationship-Group-PA-19106/1453738900/",
+      "location": "Philadelphia, PA",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "nomura-2",
+      "company": "Nomura",
+      "title": "FP&A Analyst, Wholesale",
+      "url": "https://careers.nomura.com/Nomura/job/New-York-FP&A-Analyst%2C-Wholesale-NY-10019/1448759600/",
+      "location": "New York, NY",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "raymond-james-1",
+      "company": "Raymond James",
+      "title": "Investment Banking Analyst II (Leveraged Finance & Debt Advisory)",
+      "url": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/New-York-New-York---United-States/Investment-Banking-Analyst-II--Leveraged-Finance---Debt-Advisory-_R-0014008",
+      "location": "New York",
+      "matchedRoles": [
+        "Investment Banking Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-1",
+      "company": "Scotiabank",
+      "title": "Analyst, Investment Banking, Real Estate - New York, NY",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Analyst%2C-Investment-Banking%2C-Real-Estate-New-York%2C-NY-NY-10281/608145717/",
+      "location": "New York, NY",
+      "matchedRoles": [
+        "Analyst"
+      ]
+    },
+    {
+      "id": "scotiabank-2",
+      "company": "Scotiabank",
+      "title": "Associate Director, Commercial Card Solutions, Global Transaction Banking",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Commercial-Card-Solutions%2C-Global-Transaction-Banking-NY-10281/608133517/",
+      "location": "New York, NY",
+      "matchedRoles": [
+        "Associate"
+      ]
+    },
+    {
+      "id": "scotiabank-3",
+      "company": "Scotiabank",
+      "title": "Associate Director, Emerging Markets Quant",
+      "url": "https://jobs.scotiabank.com/job/New-York-City-Associate-Director%2C-Emerging-Markets-Quant-NY-10281/608250217/",
+      "location": "New York, NY",
+      "matchedRoles": [
+        "Associate"
+      ]
+    }
+  ]
+}
