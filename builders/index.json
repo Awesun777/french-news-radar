@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-25T07:59:31Z",
+  "generatedAt": "2026-11-28T07:45:28Z",
   "digests": [
+    {
+      "date": "2026-11-28",
+      "title": "Levie on the AI diffusion gap, Ryo Lu on slowing the race, and Kothari on compute-resale ARR",
+      "itemCount": 7,
+      "kinds": [
+        "x",
+        "podcast"
+      ],
+      "highlights": [
+        "Levie: most orgs stall at first AI use-cases; agent workflows need real redesign",
+        "Ryo Lu: the AI race is a series of decisions, not inevitable",
+        "G2i's Greenberg: human-data work shifts to staff engineers building RL environments"
+      ]
+    },
     {
       "date": "2026-11-25",
       "title": "Masad on sovereign AI and open models, Levie on 10X adoption gaps, and a China expert on Jensen's return",

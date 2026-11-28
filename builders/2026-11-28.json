@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-28",
+  "items": [
+    {
+      "id": "levie-diffusion-gap",
+      "kind": "x",
+      "author": "Aaron Levie",
+      "role": "CEO of Box",
+      "summary": "Box CEO Aaron Levie says AI's real bottleneck is diffusion: most people and even whole organizations stop at the use-cases that first wowed them, long before background agents or agent swarms. Getting there takes data pipelines, MCPs, security work and a redesign of the workflow itself. His read is that early movers win, and that services and forward-deployed-engineer work will boom because most companies can't do it alone.",
+      "summaryZh": "Box CEO Aaron Levie 认为,AI 真正的瓶颈在于“扩散”:大多数个人乃至整个组织,都停留在最初让他们惊艳的用例上,远未用上后台智能体或智能体集群。要走到那一步,需要数据管道、MCP、安全建设,还得重新设计整个工作流程。他的判断是先行者将占优,而且由于多数公司无法独立完成,服务与前线部署工程师(FDE)的机会会大幅增加。",
+      "url": "https://x.com/levie/status/2126389098227376238",
+      "tags": [
+        "agents",
+        "enterprise",
+        "adoption"
+      ]
+    },
+    {
+      "id": "ryolu-race-not-inevitable",
+      "kind": "x",
+      "author": "Ryo Lu",
+      "role": "Designed Cursor, Notion, Stripe",
+      "summary": "Designer Ryo Lu, who has worked on Cursor, Notion and Stripe, argues the AI race is not inevitable: it is made of decisions someone approves, like funding the next model to help build the one after it. Last year he drove the tools; now we describe and watch finished work come back, heading toward recursive self-improvement where nobody is driving. He says he moved to Taipei to slow down, and that we can change direction and stay answerable to the people who must live with what gets built.",
+      "summaryZh": "曾参与设计 Cursor、Notion 和 Stripe 的设计师 Ryo Lu 认为,AI 竞赛并非不可避免:它是由一个个决定构成的,比如有人批准预算、有人决定让下一代模型去帮忙造再下一代。去年他还在“驾驶”工具,如今我们只是描述需求、看成品回来,正走向无人驾驶的递归自我改进。他搬到台北放慢生活,并呼吁我们有能力改变方向,让所造之物始终对必须承受其后果的人负责。",
+      "url": "https://x.com/ryolu_/status/2126382660780167304",
+      "tags": [
+        "ai-safety",
+        "design",
+        "essay"
+      ]
+    },
+    {
+      "id": "nikunj-compute-resale-arr",
+      "kind": "x",
+      "author": "Nikunj Kothari",
+      "role": "Partner at FPV Ventures",
+      "summary": "Investor Nikunj Kothari, a partner at FPV Ventures, says the Silicon Valley scandal nobody discusses is startups reselling compute and booking it as revenue, even though selling compute is not their business. He sees a progression: GMV-style low-margin revenue, then inference at negative gross margins, now straight resale, all rolled into a tidy ARR. Naive investors and seed markups will cheer it, but he says it will not end well.",
+      "summaryZh": "FPV Ventures 合伙人 Nikunj Kothari 指出,硅谷最没人愿谈的丑闻,是一些初创公司把转售算力当作收入,而这并非它们的主业。他看到一条演进路径:先是低毛利的 GMV 式收入,再是负毛利的推理服务,如今直接转卖算力,全都塞进漂亮的 ARR 里。天真的投资人和种子轮估值上调会为此叫好,但他断言结局不会好。",
+      "url": "https://x.com/nikunj/status/2126326428522442812",
+      "tags": [
+        "startups",
+        "ARR",
+        "venture"
+      ]
+    },
+    {
+      "id": "thariq-evals-rpg-stats",
+      "kind": "x",
+      "author": "Thariq",
+      "role": "at OpenAI, formerly Claude Code at Anthropic",
+      "summary": "Thariq, now at OpenAI and formerly on Claude Code at Anthropic, argues models should be scored like an RPG stat sheet rather than a leaderboard. In his side-by-side image test, Claude's output looked better and showed more creativity and endurance, while Codex stuck closer to what he asked for, showing more wisdom and alignment. He calls it a call for evals that capture these distinct traits.",
+      "summaryZh": "Thariq 现任职于 OpenAI,此前在 Anthropic 负责 Claude Code。他主张评估模型应像角色扮演游戏的属性面板,而不是排行榜。在并排的图像生成测试中,Claude 的结果更好看、更有创意和耐力,而 Codex 更贴近他的本意,体现出更多智慧与对齐。他呼吁开发能衡量这些不同特质的评测。",
+      "url": "https://x.com/trq212/status/2126386932989210714",
+      "tags": [
+        "evals",
+        "Claude",
+        "Codex"
+      ]
+    },
+    {
+      "id": "shipper-exponential-graphs",
+      "kind": "x",
+      "author": "Dan Shipper",
+      "role": "CEO of Every",
+      "summary": "Every CEO Dan Shipper wrote that the exponential capability graphs that inspire awe and fear are a fair way to measure AI in a lab. He argues they are nonsense when used to predict the future of human work. The full argument is in his new essay.",
+      "summaryZh": "Every 的 CEO Dan Shipper 撰文称,那些令人敬畏又恐惧的 AI 能力指数增长图,用来衡量实验室里的 AI 能力是有效的,但拿来预测人类工作的未来则毫无意义。完整论述见他的新文章。",
+      "url": "https://x.com/danshipper/status/2126397711033438535",
+      "tags": [
+        "capabilities",
+        "future-of-work"
+      ]
+    },
+    {
+      "id": "turck-agents-economy",
+      "kind": "x",
+      "author": "Matt Turck",
+      "role": "VC at FirstMark",
+      "summary": "FirstMark VC Matt Turck says it is obvious why agents will accelerate the economy. His Thanksgiving example: without agents it's a food coma and Netflix, but with agents he also emails electricians about a home project and does Black Friday shopping. Multiply that by millions of people and he expects a gigantic economic impact.",
+      "summaryZh": "FirstMark 风投人 Matt Turck 认为,智能体为何会加速经济显而易见。以感恩节为例:没有智能体,就是吃撑了看 Netflix;有了智能体,还能给电工发邮件安排家装、顺便做黑色星期五购物。乘以数百万人,经济影响将极其巨大。",
+      "url": "https://x.com/mattturck/status/2126477464947892367",
+      "tags": [
+        "agents",
+        "economy"
+      ]
+    },
+    {
+      "id": "latent-space-g2i-training-data",
+      "kind": "podcast",
+      "author": "Latent Space",
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "takeaway": "The human-data business has moved from thousands of gig labelers to a small number of staff-level engineers building RL environments for a handful of frontier labs.",
+      "takeawayZh": "人类数据业务已从数千名零工标注员,转向少数资深工程师为寥寥几家前沿实验室构建强化学习环境。",
+      "summary": "Gabe Greenberg, CEO of G2i, started as a React-community recruiter and now sells human data and computer-use training sets to frontier labs. The company did $15M last year, expects about $100M this year with no VC money and is profitable, and he thinks it could triple next year. Customers number only five or six, and he says just one lab had a mature in-house human-data operation, though others are building one.\n\nThe work has changed. In 2023-24 a project could have 6,000 mid-level engineers doing gig work. Now it is staff-level engineers doing complex dataset building and RL environments, plus taste work. Robotics data collection is high volume and restarting the cycle. He says SWE-bench, the top coding benchmark for over a year, began as an undergrad project with badly written instructions.\n\nThe craft is difficulty calibration. \"If you make them too hard, they become evals. And if you make them too easy, they're worthless.\" Tasks must sit a few steps beyond what the model can do today so they are trainable. RL environments also break normal software habits, with verifiers, tasks and seed data as extra layers.\n\nHe hires people who are \"agentically pilled\", tests them on designing a feature and reworking it in 30 minutes, and pays only for tasks that meet the quality bar. Most of his engineering team started as project contributors. On being replaced by AI: \"We're helping to replace us. I have no problem with it.\"",
+      "summaryZh": "G2i 的 CEO Gabe Greenberg 最初是 React 社区的招聘人员,如今向前沿实验室出售人类数据和计算机操作训练集。公司去年营收 1500 万美元,今年预计约 1 亿美元,没有风投、已实现盈利,他认为明年有望翻三倍。客户只有五六家,他说只有一家实验室拥有成熟的内部人类数据团队,其他实验室正在建设。\n\n这项工作已经变了。2023-24 年一个项目可能有 6000 名中级工程师做零工式标注;如今是资深工程师在做复杂的数据集构建、强化学习环境和“品味”类工作。机器人数据采集量极大,周期又从头开始。他说,作为业界首要代码基准超过一年的 SWE-bench,起初只是一个本科生项目,指令写得很糟。\n\n核心手艺是难度校准。“如果任务太难,就变成评测了;太简单,又毫无价值。”任务必须比模型当前能力高出几步,才能有效训练。强化学习环境还违背常规软件习惯,多出验证器、任务和种子数据等层次。\n\n他招聘“深谙智能体”的人,面试让对方设计功能并在 30 分钟内完成改造,且只为达到质量线的任务付费。工程团队大多从项目参与者转正。谈到被 AI 取代,他说:“我们是在帮忙取代我们自己,我完全不介意。”",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "tags": [
+        "training-data",
+        "RL-environments",
+        "benchmarks"
+      ]
+    }
+  ]
+}
